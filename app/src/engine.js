@@ -136,6 +136,24 @@
   const dayStr = d => { d = d || new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); };
   const blankCourse = () => ({ v: 1, done: {}, it: {}, dr: '', t: 0 });
   const blankGlobal = () => ({ v: 1, xp: 0, dx: 0, day: '', streak: 0, days: [], goal: 30, route: '', t: 0 });
+  // Fusión del progreso de dos dispositivos (local y nube): nunca se pierde nada, se queda con lo mejor de cada uno.
+  function mergeCourse(a, b) {
+    if (!b || typeof b !== 'object') return a;
+    const out = blankCourse();
+    out.dr = (a.dr || '') > (b.dr || '') ? a.dr || '' : b.dr || ''; out.t = Math.max(a.t || 0, b.t || 0);
+    for (const src of [a.done || {}, b.done || {}]) for (const k in src) { const x = out.done[k], y = src[k] || {}; out.done[k] = x ? { s: Math.max(x.s, y.s || 0), n: Math.max(x.n, y.n || 0) } : { s: y.s || 0, n: y.n || 0 }; }
+    for (const src of [a.it || {}, b.it || {}]) for (const k in src) { const y = src[k]; if (!Array.isArray(y)) continue; const x = out.it[k]; out.it[k] = x ? [Math.max(x[0], y[0] || 0), Math.max(x[1], y[1] || 0), Math.max(x[2], y[2] || 0)] : [y[0] || 0, y[1] || 0, y[2] || 0]; }
+    return out;
+  }
+  function mergeGlobal(a, b) {
+    if (!b || typeof b !== 'object') return a;
+    const out = blankGlobal(), late = (a.day || '') >= (b.day || '') ? a : b, newer = (a.t || 0) >= (b.t || 0) ? a : b;
+    out.xp = Math.max(a.xp || 0, b.xp || 0);
+    out.days = [...new Set([].concat(a.days || [], b.days || []))].sort().slice(-400);
+    out.day = late.day || ''; out.streak = late.streak || 0; out.dx = late.dx || 0; out.t = Math.max(a.t || 0, b.t || 0);
+    out.goal = newer.goal || a.goal || b.goal || 30; out.route = a.route || b.route || '';
+    return out;
+  }
   function record(S, k, ok) { const a = S.it[k] ? S.it[k].slice() : [0, 0, 0]; a[ok ? 0 : 1]++; a[2] = Date.now(); S.it[k] = a; }
   function finish(G, S, id, accuracy, daily) {
     const stars = accuracy >= 0.9 ? 3 : accuracy >= 0.7 ? 2 : 1, gain = daily ? 20 + (stars === 3 ? 10 : 0) : 10 + (stars === 3 ? 5 : 0);
@@ -151,5 +169,5 @@
   const todayXp = G => G.day === dayStr() ? G.dx || 0 : 0;
   function liveStreak(G) { const y = new Date(); y.setDate(y.getDate() - 1); return G.day === dayStr() || G.day === dayStr(y) ? G.streak : 0; }
 
-  g.PsicoEngine = { Engine, index, checkType, checkSeq, norm, bare, shuffle, dayStr, blankCourse, blankGlobal, record, finish, todayXp, liveStreak, typable };
+  g.PsicoEngine = { Engine, index, checkType, checkSeq, norm, bare, shuffle, dayStr, blankCourse, blankGlobal, mergeCourse, mergeGlobal, record, finish, todayXp, liveStreak, typable };
 })(typeof window !== 'undefined' ? window : globalThis);

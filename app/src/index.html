@@ -192,6 +192,27 @@ p{margin:0}
 .seg button{padding:7px 10px;border-radius:9px;font-size:13.5px;color:var(--muted)}
 .seg button.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
 .small{font-size:13.5px;color:var(--muted);font-weight:600}
+.small a{color:var(--brand)}
+/* cuenta */
+.acct{display:flex;flex-direction:column;gap:10px;padding:14px;border-radius:18px;background:var(--sunken)}
+.acct h3{font:800 17px/1.2 var(--display)}
+.gbtn{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--surface);color:var(--ink);border:2px solid var(--line);box-shadow:0 5px 0 var(--line);text-transform:none;letter-spacing:0}
+.gbtn svg{width:20px;height:20px;flex:none}
+.form{display:flex;flex-direction:column;gap:10px}
+.form input,.field{width:100%;padding:13px 14px;border-radius:14px;border:2px solid var(--line);background:var(--surface);color:var(--ink);font:600 16px var(--body)}
+.form input:focus,.field:focus{outline:none;border-color:var(--brand)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.two .btn{padding:13px 8px;font-size:14px}
+.linkbtn{align-self:center;padding:6px;font-weight:700;font-size:14px;color:var(--brand);text-decoration:underline}
+.linkbtn.danger{color:var(--bad)}
+.msg{font-size:14px;font-weight:700;color:var(--ink)}.msg.err,.msg:empty{color:var(--bad)}
+.who{display:flex;align-items:center;gap:12px;min-width:0}
+.who>div{display:flex;flex-direction:column;min-width:0}.who b,.who small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.who small{color:var(--muted);font-size:13px;font-weight:600}
+.av{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--brand);color:var(--brand-ink);font:800 19px var(--display);overflow:hidden}
+.av img{width:100%;height:100%;object-fit:cover}
+.notice{display:flex;align-items:center;gap:12px;margin-top:12px;padding:12px 14px;border-radius:18px;background:var(--brand-soft);font-size:14.5px;font-weight:700}
+.notice span{flex:1}.btn.sm{width:auto;padding:10px 14px;font-size:13px;flex:none}
 
 /* lección */
 .lesson{display:flex;flex-direction:column;min-height:100dvh;padding-bottom:0}
@@ -314,6 +335,10 @@ img.zoom{width:100%;height:auto;background:#fff;border-radius:12px}
 <body>
 <div id="app"></div>
 <noscript>SAIMAP Psicología necesita JavaScript.</noscript>
+<!--FIREBASE--><script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script><!--/FIREBASE-->
 <script src="catalog.js"></script>
 <script src="engine.js"></script>
 <script src="mascot.js"></script>

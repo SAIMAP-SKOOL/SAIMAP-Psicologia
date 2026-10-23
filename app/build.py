@@ -11,11 +11,11 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SRC, DIST = os.path.join(HERE, 'src'), os.path.join(HERE, 'dist')
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 
 shutil.rmtree(DIST, ignore_errors=True)
 os.makedirs(os.path.join(DIST, 'cursos')); os.makedirs(os.path.join(DIST, 'temarios')); os.makedirs(os.path.join(DIST, 'icons'))
-for f in ('index.html', 'app.js', 'engine.js', 'catalog.js', 'mascot.js', 'scenes.js', 'privacidad.html'):
+for f in ('index.html', 'app.js', 'engine.js', 'catalog.js', 'mascot.js', 'scenes.js', 'privacidad.html', 'borrar-cuenta.html', 'firebase-config.js'):
     shutil.copy(os.path.join(SRC, f), DIST)
 
 # cursos: course.js + data-*.js envueltos en una función que recibe un "window" propio
@@ -76,8 +76,8 @@ print('dist listo:', len(files) + 1, 'archivos · versión', VERSION, h)
 # Variante para la vista previa como Artifact: sin esqueleto HTML propio, sin manifest ni service worker.
 ART = os.path.join(HERE, 'dist-artifact')
 shutil.rmtree(ART, ignore_errors=True); shutil.copytree(DIST, ART)
-for f in ('sw.js', 'manifest.webmanifest'): os.remove(os.path.join(ART, f))
-html = open(os.path.join(DIST, 'index.html'), encoding='utf-8').read()
+for f in ('sw.js', 'manifest.webmanifest', 'firebase-config.js'): os.remove(os.path.join(ART, f))
+html = re.sub(r'<!--FIREBASE-->.*?<!--/FIREBASE-->\n?', '', open(os.path.join(DIST, 'index.html'), encoding='utf-8').read(), flags=re.S)   # la vista previa no usa cuentas
 title = re.search(r'<title>.*?</title>', html).group(0)
 style = re.search(r'<style>.*?</style>', html, re.S).group(0)
 fonts = re.search(r'<link rel="stylesheet"[^>]+>', html).group(0)
