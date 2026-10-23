@@ -41,9 +41,126 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
   };
   let G = Object.assign(P.blankGlobal(), LS.get('sp.g', {}));
-  const saveG = () => LS.set('sp.g', G);
+  const saveG = () => { LS.set('sp.g', G); queuePush('_global'); };
   const courseState = id => Object.assign(P.blankCourse(), LS.get('sp.c.' + id, {}));
-  const saveC = (id, S) => LS.set('sp.c.' + id, S);
+  const saveC = (id, S) => { LS.set('sp.c.' + id, S); queuePush(id); };
+  const localCourses = () => { try { return Object.keys(localStorage).filter(k => k.startsWith('sp.c.')).map(k => k.slice(5)); } catch (e) { return []; } };
+  function clearLocal() { try { Object.keys(localStorage).filter(k => k.startsWith('sp.c.') || k === 'sp.g').forEach(k => localStorage.removeItem(k)); } catch (e) { } G = Object.assign(P.blankGlobal(), { route: G.route }); LS.set('sp.g', G); }
+
+  // ---------- cuenta SAIMAP (Firebase: Google o correo) y progreso sincronizado ----------
+  // Firestore: users/<uid>/psicologia/_global (racha, XP, meta) y users/<uid>/psicologia/<asignatura> (progreso de cada una).
+  // Sin Firebase (vista previa o sin conexión) la app funciona igual y guarda el progreso solo en el dispositivo.
+  const Cloud = { on: false, ready: false, uid: null, name: '', email: '', photo: '', err: '', auth: null, col: null };
+  let pushTimer = 0, dirty = new Set(), formMsg = '';
+  function queuePush(id) {
+    if (!Cloud.col) return;
+    dirty.add(id); clearTimeout(pushTimer); pushTimer = setTimeout(flush, 1200);
+  }
+  function flush() {
+    clearTimeout(pushTimer); if (!Cloud.col || !dirty.size) return Promise.resolve();
+    const ids = [...dirty]; dirty = new Set();
+    return Promise.all(ids.map(id => Cloud.col.doc(id).set(JSON.parse(JSON.stringify(id === '_global' ? G : courseState(id))))))
+      .then(() => { if (Cloud.err) { Cloud.err = ''; refreshAcct(); } }, () => { ids.forEach(i => dirty.add(i)); Cloud.err = 'No se ha podido guardar en tu cuenta. Se reintentará al terminar la próxima lección.'; refreshAcct(); });
+  }
+  async function pull() {
+    const snap = await Cloud.col.get(), remote = {};
+    snap.forEach(d => { remote[d.id] = d.data(); });
+    const g0 = JSON.stringify(G); G = P.mergeGlobal(G, remote._global || null); LS.set('sp.g', G);
+    if (!remote._global || JSON.stringify(G) !== JSON.stringify(P.mergeGlobal(P.blankGlobal(), remote._global)) || g0 !== JSON.stringify(G)) dirty.add('_global');
+    for (const id of new Set([...localCourses(), ...Object.keys(remote).filter(k => k !== '_global')])) {
+      const loc = courseState(id), m = P.mergeCourse(loc, remote[id] || null); LS.set('sp.c.' + id, m);
+      if (!remote[id] || JSON.stringify(m) !== JSON.stringify(P.mergeCourse(P.blankCourse(), remote[id]))) dirty.add(id);
+    }
+    if (dirty.size) flush();
+  }
+  function initCloud() {
+    const cfg = window.SAIMAP_FIREBASE;
+    if (!window.firebase || !cfg || !cfg.apiKey || window.SP_NO_SW) { Cloud.ready = true; return; }
+    try {
+      firebase.initializeApp(cfg);
+      const auth = firebase.auth(), fs = firebase.firestore();
+      Cloud.on = true; Cloud.auth = auth; Cloud.fs = fs; auth.languageCode = 'es';
+      auth.getRedirectResult().catch(e => { formMsg = authMsg(e); refreshAcct(); });
+      auth.onAuthStateChanged(async u => {
+        if (u) {
+          Object.assign(Cloud, { uid: u.uid, name: u.displayName || '', email: u.email || '', photo: u.photoURL || '' });
+          Cloud.col = fs.collection('users').doc(u.uid).collection('psicologia');
+          try { await pull(); Cloud.err = ''; } catch (e) { Cloud.err = 'No se ha podido cargar el progreso de tu cuenta.'; }
+          if (!L) route(true);
+        } else Object.assign(Cloud, { uid: null, col: null, name: '', email: '', photo: '' });
+        const first = !Cloud.ready; Cloud.ready = true; refreshAcct();
+        if (!u && first && !L) route(true);   // muestra el aviso de iniciar sesión
+      });
+    } catch (e) { Cloud.on = false; Cloud.ready = true; }
+  }
+  const authMsg = e => ({ 'auth/invalid-credential': 'Correo o contraseña incorrectos.', 'auth/wrong-password': 'Correo o contraseña incorrectos.', 'auth/user-not-found': 'No hay ninguna cuenta con ese correo.', 'auth/email-already-in-use': 'Ya existe una cuenta con ese correo. Pulsa «Entrar».', 'auth/weak-password': 'La contraseña debe tener al menos 6 caracteres.', 'auth/invalid-email': 'Escribe un correo válido.', 'auth/missing-password': 'Escribe la contraseña.', 'auth/popup-closed-by-user': 'Has cerrado la ventana de Google antes de terminar.', 'auth/network-request-failed': 'No hay conexión. Inténtalo de nuevo.', 'auth/too-many-requests': 'Demasiados intentos. Espera un poco y vuelve a probar.', 'auth/account-exists-with-different-credential': 'Ese correo ya tiene cuenta con otro método. Entra con el que usaste la primera vez.' }[e && e.code] || 'No se ha podido iniciar sesión. Inténtalo de nuevo.');
+  function google() {
+    const p = new firebase.auth.GoogleAuthProvider(); formMsg = '';
+    Cloud.auth.signInWithPopup(p).catch(e => { if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment')) return Cloud.auth.signInWithRedirect(p); formMsg = authMsg(e); refreshAcct(); });
+  }
+  function emailAuth(create, m, p) { formMsg = ''; Cloud.auth[create ? 'createUserWithEmailAndPassword' : 'signInWithEmailAndPassword'](m, p).catch(e => { formMsg = authMsg(e); refreshAcct(); }); }
+  function resetPass(m) {
+    if (!/.+@.+\..+/.test(m)) { formMsg = 'Escribe tu correo arriba y vuelve a pulsar «¿Has olvidado la contraseña?».'; return refreshAcct(); }
+    Cloud.auth.sendPasswordResetEmail(m).then(() => { formMsg = 'Te hemos enviado un correo a ' + m + ' para crear una contraseña nueva. Mira también en spam.'; refreshAcct(); }, e => { formMsg = authMsg(e); refreshAcct(); });
+  }
+  function signOut() { flush().catch(() => { }).then(() => Cloud.auth.signOut()).then(() => { clearLocal(); formMsg = ''; refreshAcct(); route(true); }); }
+  // Borra la cuenta SAIMAP: el progreso de todas las apps SAIMAP (Psicología y Lingo) y después el usuario.
+  async function deleteAccount(pass, msg) {
+    const u = Cloud.auth.currentUser; if (!u) return;
+    const isPass = u.providerData.some(p => p.providerId === 'password'), isGoogle = u.providerData.some(p => p.providerId === 'google.com');
+    msg('Borrando…');
+    try {
+      if (isPass && !isGoogle) await u.reauthenticateWithCredential(firebase.auth.EmailAuthProvider.credential(u.email, pass || ''));
+      else if (isGoogle) await u.reauthenticateWithPopup(new firebase.auth.GoogleAuthProvider());
+      clearTimeout(pushTimer); dirty = new Set(); const col = Cloud.col; Cloud.col = null;
+      const base = Cloud.fs.collection('users').doc(u.uid);
+      for (const name of ['psicologia', 'courses']) { const s = await base.collection(name).get(); await Promise.all(s.docs.map(d => d.ref.delete())); }
+      await base.delete(); await u.delete();
+      clearLocal(); formMsg = 'Tu cuenta y tu progreso se han borrado.'; return true;
+    } catch (e) {
+      if (Cloud.uid && !Cloud.col) Cloud.col = Cloud.fs.collection('users').doc(Cloud.uid).collection('psicologia');
+      msg(e && (e.code === 'auth/wrong-password' || e.code === 'auth/invalid-credential' || e.code === 'auth/missing-password') ? 'La contraseña no es correcta.' : e && e.code === 'auth/popup-closed-by-user' ? 'Has cerrado la ventana de Google sin confirmar.' : e && e.code === 'auth/requires-recent-login' ? 'Por seguridad, cierra sesión, vuelve a entrar y repite el borrado.' : 'No se ha podido borrar la cuenta. Comprueba la conexión e inténtalo de nuevo.');
+      return false;
+    }
+  }
+  let acctBox = null;   // tarjeta de cuenta abierta en Ajustes (se repinta al cambiar el estado)
+  function refreshAcct() { if (acctBox && document.body.contains(acctBox)) paintAcct(acctBox); }
+  function paintAcct(box) {
+    if (!Cloud.on) { box.innerHTML = `<h3>Cuenta</h3><p class="small">${Cloud.ready ? 'Aquí no se pueden usar cuentas: el progreso se guarda solo en este dispositivo.' : 'Conectando…'}</p>`; return; }
+    if (!Cloud.uid) {
+      box.innerHTML = `<h3>Inicia sesión</h3><p class="small">Guarda tu progreso en tu cuenta SAIMAP y continúa en cualquier dispositivo. Es opcional: sin cuenta, el progreso se queda en este dispositivo.</p>
+        <button class="btn gbtn" data-a="google"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M12 10.2v3.9h5.5c-.2 1.3-1.6 3.8-5.5 3.8-3.3 0-6-2.7-6-6.1s2.7-6.1 6-6.1c1.9 0 3.1.8 3.8 1.5l2.6-2.5C16.8 3.2 14.6 2.2 12 2.2 6.6 2.2 2.2 6.6 2.2 12s4.4 9.8 9.8 9.8c5.7 0 9.4-4 9.4-9.6 0-.6-.1-1.1-.2-1.6H12z"/></svg>Continuar con Google</button>
+        <form class="form" id="mailform" novalidate><input id="email" type="email" autocomplete="email" placeholder="Correo electrónico" aria-label="Correo electrónico"><input id="pass" type="password" autocomplete="current-password" placeholder="Contraseña (mínimo 6 caracteres)" aria-label="Contraseña">
+        <div class="two"><button class="btn plain" type="submit">Entrar</button><button class="btn plain" type="button" data-a="signup">Crear cuenta</button></div>
+        <button class="linkbtn" type="button" data-a="reset">¿Has olvidado la contraseña?</button></form>${formMsg ? `<p class="msg" aria-live="polite">${esc(formMsg)}</p>` : ''}`;
+      const val = () => [box.querySelector('#email').value.trim(), box.querySelector('#pass').value];
+      box.querySelector('#mailform').onsubmit = e => { e.preventDefault(); const [m, p] = val(); emailAuth(false, m, p); };
+    } else {
+      box.innerHTML = `<h3>Tu cuenta</h3><div class="who"><span class="av">${Cloud.photo ? `<img alt="" src="${esc(Cloud.photo)}" referrerpolicy="no-referrer">` : esc((Cloud.name || Cloud.email || '?')[0].toUpperCase())}</span><div><b>${esc(Cloud.name || Cloud.email)}</b><small>${Cloud.name && Cloud.email ? esc(Cloud.email) + ' · ' : ''}progreso sincronizado</small></div></div>
+        ${Cloud.err ? `<p class="msg err">${esc(Cloud.err)}</p>` : ''}<button class="btn plain" data-a="signout">Cerrar sesión</button><button class="linkbtn danger" data-a="askdel">Borrar mi cuenta</button>`;
+    }
+    box.onclick = e => {
+      const b = e.target.closest('[data-a]'); if (!b) return; const a = b.dataset.a;
+      if (a === 'google') google();
+      else if (a === 'signup') { const m = box.querySelector('#email').value.trim(), p = box.querySelector('#pass').value; emailAuth(true, m, p); }
+      else if (a === 'reset') resetPass(box.querySelector('#email').value.trim());
+      else if (a === 'signout') signOut();
+      else if (a === 'askdel') askDelete();
+    };
+  }
+  function askDelete() {
+    const u = Cloud.auth.currentUser; if (!u) return;
+    const needPass = u.providerData.some(p => p.providerId === 'password') && !u.providerData.some(p => p.providerId === 'google.com');
+    const sh = sheet(`<h2>¿Borrar tu cuenta?</h2><p class="sub">Se borran tu cuenta SAIMAP y todo tu progreso, en la nube y en este dispositivo (también el de SAIMAP Lingo, si lo usas con la misma cuenta). No se puede deshacer.</p>
+      ${needPass ? '<input id="delpass" class="field" type="password" autocomplete="current-password" placeholder="Tu contraseña, para confirmar" aria-label="Contraseña">' : '<p class="small">Te pediremos confirmar con tu cuenta de Google.</p>'}
+      <p class="msg" id="delmsg" aria-live="polite"></p><button class="btn warn" id="delgo">Borrar mi cuenta</button><button class="btn plain" data-x>Cancelar</button>`);
+    sh.el.querySelector('[data-x]').onclick = sh.close;
+    sh.el.querySelector('#delgo').onclick = async ev => {
+      ev.target.disabled = true;
+      const ok = await deleteAccount((sh.el.querySelector('#delpass') || {}).value, t => { sh.el.querySelector('#delmsg').textContent = t; });
+      if (ok) { sh.close(); route(); } else ev.target.disabled = false;
+    };
+  }
   const prefs = Object.assign({ theme: 'auto' }, LS.get('sp.prefs', {}));
   const applyTheme = () => { if (prefs.theme === 'auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', prefs.theme); };
   applyTheme();
@@ -80,20 +197,26 @@
   // ---------- ajustes ----------
   function openSettings() {
     const sh = sheet(`<h2>Ajustes</h2>
+      <div class="acct"></div>
       <div class="setrow"><span>Tema</span><div class="seg">${[['auto', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([k, t]) => `<button data-th="${k}" class="${prefs.theme === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
       <div class="setrow"><span>Meta diaria</span><div class="seg">${[20, 30, 50].map(n => `<button data-goal="${n}" class="${G.goal === n ? 'on' : ''}">${n} XP</button>`).join('')}</div></div>
       <button class="btn plain" data-route>Cambiar de ruta</button>
       <button class="btn plain" data-reset>Borrar mi progreso</button>
-      <p class="small">El progreso se guarda en este dispositivo. Las cuentas para sincronizarlo entre dispositivos llegarán en una próxima versión.</p>
+      <p class="small"><a href="privacidad.html">Política de privacidad</a> · <a href="borrar-cuenta.html">Borrar la cuenta</a></p>
       <p class="small">SAIMAP Psicología tiene una finalidad exclusivamente educativa y no sustituye la evaluación ni el consejo de un profesional sanitario. Proyecto independiente, no vinculado a ninguna universidad.</p>
-      <button class="btn" data-close>Cerrar</button>`);
+      <button class="btn" data-close>Cerrar</button>`, () => { acctBox = null; });
+    acctBox = sh.el.querySelector('.acct'); paintAcct(acctBox);
     sh.el.addEventListener('click', e => {
-      const b = e.target.closest('button'); if (!b) return;
+      const b = e.target.closest('button'); if (!b || b.closest('.acct')) return;
       if (b.dataset.th) { prefs.theme = b.dataset.th; LS.set('sp.prefs', prefs); applyTheme(); sh.el.querySelectorAll('[data-th]').forEach(x => x.classList.toggle('on', x === b)); }
       else if (b.dataset.goal) { G.goal = +b.dataset.goal; saveG(); sh.el.querySelectorAll('[data-goal]').forEach(x => x.classList.toggle('on', x === b)); }
       else if (b.hasAttribute('data-route')) { sh.close(); showWelcome(); }
       else if (b.hasAttribute('data-reset')) {
-        if (b.dataset.sure) { try { Object.keys(localStorage).filter(k => k.startsWith('sp.c.') || k === 'sp.g').forEach(k => localStorage.removeItem(k)); } catch (e2) { } G = Object.assign(P.blankGlobal(), { route: G.route }); saveG(); sh.close(); route(); }
+        if (b.dataset.sure) {
+          clearLocal(); dirty = new Set();
+          if (Cloud.col) { const col = Cloud.col; col.get().then(snap => Promise.all(snap.docs.map(d => d.ref.delete()))).then(() => queuePush('_global'), () => { Cloud.err = 'No se ha podido borrar el progreso de tu cuenta.'; }); }
+          sh.close(); route();
+        }
         else { b.dataset.sure = 1; b.textContent = 'Pulsa otra vez para confirmar'; b.classList.replace('plain', 'warn'); }
       }
       else if (b.hasAttribute('data-close')) sh.close();
@@ -150,6 +273,7 @@
       <section class="hero"><span class="mascot">${window.psique ? psique(xpToday >= goal ? 'wow' : 'happy') : 'Ψ'}</span><div><h1>${greet()}</h1><p>${xpToday >= goal ? '¡Meta diaria conseguida!' : 'Unos minutos al día bastan para avanzar.'}</p>
       <div class="goal"><div class="meter"><i style="width:${Math.min(100, Math.round(100 * xpToday / goal))}%"></i></div><span>${xpToday} / ${goal} XP hoy</span></div></div></section>
       ${daily}
+      ${Cloud.on && Cloud.ready && !Cloud.uid ? `<div class="notice"><span>Inicia sesión para guardar tu progreso en tu cuenta y usarlo en cualquier dispositivo.</span><button class="btn plain sm" data-act="settings">Entrar</button></div>` : ''}
       <nav class="tabs" aria-label="Rutas">${CAT.routes.map(x => `<button class="tab ${x.id === r.id ? 'on' : ''}" data-tab="${x.id}">${I[x.ico]}${esc(x.t)}</button>`).join('')}</nav>
       ${body}
       <footer class="foot"><span>Contenido original de SAIMAP, basado en el consenso científico actual.</span><span>Finalidad educativa: no sustituye la atención de un profesional.</span><a href="privacidad.html">Privacidad</a></footer>`;
@@ -420,9 +544,9 @@
   // ---------- router ----------
   let CUR = location.hash || '#/';
   function go(h) { CUR = h; try { history.pushState(null, '', h); } catch (e) { } route(); }
-  function route() {
+  function route(keepSheets) {
     if (L) return;
-    document.querySelectorAll('.veil').forEach(v => v.remove());
+    if (keepSheets !== true) document.querySelectorAll('.veil').forEach(v => v.remove());
     const h = CUR;
     const m = h.match(/^#\/c\/([\w-]+)(?:\/t\/(\d+)\/(\d))?/);
     if (m && courseMeta(m[1]) && courseMeta(m[1]).estado === 'ok') m[2] ? showTheory(m[1], +m[2], +m[3]) : showCourse(m[1]);
@@ -430,6 +554,8 @@
   }
   window.addEventListener('popstate', () => { CUR = location.hash || '#/'; route(); });
   route();
+  initCloud();
+  window.SPCloud = Cloud;
 
   if ('serviceWorker' in navigator && location.protocol === 'https:' && !window.SP_NO_SW) navigator.serviceWorker.register('sw.js').catch(() => { });
 })();
