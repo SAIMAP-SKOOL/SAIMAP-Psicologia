@@ -1,0 +1,674 @@
+{
+ "lobulos.png": {
+  "src": "src/Blausen_0111_BrainLobes.png",
+  "bold": true,
+  "labels": [
+   {
+    "find": "Frontal lobe",
+    "es": "Lóbulo frontal",
+    "align": "c"
+   },
+   {
+    "find": "Parietal lobe",
+    "es": "Lóbulo parietal",
+    "align": "c"
+   },
+   {
+    "find": "Temporal lobe",
+    "es": "Lóbulo temporal",
+    "align": "c"
+   },
+   {
+    "find": "Occipital",
+    "es": "Lóbulo",
+    "align": "c"
+   },
+   {
+    "box": [
+     1500,
+     715,
+     1615,
+     752
+    ],
+    "es": "occipital",
+    "align": "c"
+   },
+   {
+    "find": "Olfactory",
+    "es": "Bulbo",
+    "align": "r"
+   },
+   {
+    "box": [
+     110,
+     770,
+     235,
+     815
+    ],
+    "es": "olfatorio",
+    "align": "r"
+   }
+  ],
+  "size": 48
+ },
+ "neurona.png": {
+  "src": "src/Blausen_0657_MultipolarNeuron.png",
+  "labels": [
+   {
+    "find": "Cell body",
+    "es": "Soma"
+   },
+   {
+    "find": "Telodendria",
+    "es": "Telodendrón"
+   },
+   {
+    "find": "Axon",
+    "es": "Axón",
+    "align": "c"
+   },
+   {
+    "find": "Nucleus",
+    "es": "Núcleo",
+    "align": "l"
+   },
+   {
+    "find": "Synaptic terminals",
+    "es": "Botones terminales"
+   },
+   {
+    "find": "Axon hillock",
+    "es": "Cono axónico",
+    "align": "l"
+   },
+   {
+    "find": "Golgi apparatus",
+    "es": "Aparato de Golgi",
+    "align": "l"
+   },
+   {
+    "find": "Endoplasmic",
+    "es": "Retículo",
+    "align": "l"
+   },
+   {
+    "find": "reticulum",
+    "es": "endoplasmático",
+    "align": "l"
+   },
+   {
+    "find": "Mitochondrion",
+    "es": "Mitocondria",
+    "align": "l"
+   },
+   {
+    "find": "Dendrite",
+    "es": "Dendrita",
+    "align": "l"
+   },
+   {
+    "find": "Dendritic branches",
+    "es": "Ramas dendríticas",
+    "align": "l"
+   }
+  ],
+  "size": 40
+ },
+ "ventriculos.png": {
+  "src": "src/Blausen_0896_Ventricles_Brain.png",
+  "labels": [
+   {
+    "find": "Lateral ventricles",
+    "es": "Ventrículos laterales",
+    "align": "c"
+   },
+   {
+    "find": "Interventricular foramen",
+    "es": "Agujero interventricular",
+    "align": "c"
+   },
+   {
+    "find": "Third ventricle",
+    "es": "Tercer ventrículo",
+    "align": "c"
+   },
+   {
+    "find": "Cerebral aqueduct",
+    "es": "Acueducto cerebral",
+    "align": "c"
+   },
+   {
+    "find": "Fourth ventricle",
+    "es": "Cuarto ventrículo",
+    "align": "c"
+   },
+   {
+    "find": "Central canal",
+    "es": "Conducto central",
+    "align": "c"
+   },
+   {
+    "find": "(lateral view)",
+    "es": "(vista lateral)",
+    "align": "c"
+   },
+   {
+    "find": "(anterior view)",
+    "es": "(vista anterior)",
+    "align": "c"
+   }
+  ],
+  "size": 36
+ },
+ "glia.png": {
+  "src": "src/Blausen_0870_TypesofNeuroglia.png",
+  "labels": [
+   {
+    "find": "Types of Neuroglia",
+    "es": "Tipos de neuroglía",
+    "align": "c",
+    "bold": true,
+    "size": 50,
+    "pad": 2
+   },
+   {
+    "find": "Central Nervous System",
+    "es": "Sistema nervioso central",
+    "align": "c",
+    "size": 48
+   },
+   {
+    "find": "Peripheral",
+    "es": "Sistema nervioso",
+    "align": "c",
+    "size": 46
+   },
+   {
+    "box": [
+     1321,
+     251,
+     1724,
+     303
+    ],
+    "es": "periférico",
+    "align": "c",
+    "size": 46
+   },
+   {
+    "find": "Oligodendrocytes",
+    "es": "Oligodendrocitos",
+    "align": "l"
+   },
+   {
+    "find": "Satellite cells",
+    "es": "Células satélite",
+    "align": "l"
+   },
+   {
+    "find": "Ependymal cells",
+    "es": "Células ependimarias",
+    "align": "l",
+    "size": 36
+   },
+   {
+    "find": "Astrocytes",
+    "es": "Astrocitos",
+    "align": "l"
+   },
+   {
+    "find": "Microglia",
+    "es": "Microglía",
+    "align": "l"
+   },
+   {
+    "box": [
+     1290,
+     918,
+     1600,
+     965
+    ],
+    "es": "Células de Schwann",
+    "align": "l"
+   }
+  ],
+  "size": 40
+ },
+ "ganglios-basales.png": {
+  "src": "src/Blausen_0076_BasalGanglia.png",
+  "labels": [
+   {
+    "find": "Basal Ganglia",
+    "es": "Ganglios basales",
+    "align": "c",
+    "bold": true,
+    "size": 40
+   },
+   {
+    "find": "Caudate Nucleus",
+    "es": "Núcleo caudado",
+    "align": "l"
+   },
+   {
+    "find": "Tegmentum",
+    "es": "Tegmento",
+    "align": "c",
+    "bold": true,
+    "size": 28
+   },
+   {
+    "find": "Globus Pallidus",
+    "es": "Globo pálido",
+    "align": "l"
+   },
+   {
+    "box": [
+     1373,
+     338,
+     1541,
+     362
+    ],
+    "es": "Núcleo rojo",
+    "align": "l"
+   },
+   {
+    "find": "Putamen",
+    "es": "Putamen",
+    "align": "l"
+   },
+   {
+    "find": "Substantia Nigra",
+    "es": "Sustancia negra",
+    "align": "l"
+   },
+   {
+    "find": "Nucleus Accumbens",
+    "es": "Núcleo accumbens",
+    "align": "l"
+   },
+   {
+    "find": "Amygdaloid Complex",
+    "es": "Complejo amigdalino",
+    "align": "l"
+   }
+  ],
+  "size": 28
+ },
+ "limbico.png": {
+  "src": "src/Blausen_0614_LimbicSystem.png",
+  "labels": [
+   {
+    "find": "The Limbic System",
+    "es": "Estructuras «límbicas»",
+    "align": "c",
+    "bold": true,
+    "size": 80
+   },
+   {
+    "find": "Fornix",
+    "es": "Fórnix",
+    "align": "c"
+   },
+   {
+    "find": "Pineal gland",
+    "es": "Glándula pineal",
+    "align": "c"
+   },
+   {
+    "find": "Corpus callosum",
+    "es": "Cuerpo calloso",
+    "align": "c"
+   },
+   {
+    "find": "COMPONENTS IN",
+    "es": "EN EL",
+    "align": "r",
+    "size": 27
+   },
+   {
+    "find": "THE CEREBRUM",
+    "es": "TELENCÉFALO",
+    "align": "r",
+    "size": 27
+   },
+   {
+    "find": "COMPONENTS IN",
+    "es": "EN EL",
+    "align": "l",
+    "size": 27
+   },
+   {
+    "find": "THE DIENCEPHALON",
+    "es": "DIENCÉFALO",
+    "align": "l",
+    "size": 27
+   },
+   {
+    "find": "Cingulate gyrus",
+    "es": "Giro cingulado",
+    "align": "r"
+   },
+   {
+    "find": "Parahippocampal",
+    "es": "Giro",
+    "align": "r"
+   },
+   {
+    "find": "gyrus",
+    "es": "parahipocampal",
+    "align": "r"
+   },
+   {
+    "find": "Anterior group of",
+    "es": "Núcleos anteriores",
+    "align": "l"
+   },
+   {
+    "find": "thalamic nuclei",
+    "es": "del tálamo",
+    "align": "l"
+   },
+   {
+    "find": "Hippocampus",
+    "es": "Hipocampo",
+    "align": "r"
+   },
+   {
+    "find": "Hypothalamus",
+    "es": "Hipotálamo",
+    "align": "l"
+   },
+   {
+    "find": "Mamillary body",
+    "es": "Cuerpo mamilar",
+    "align": "l"
+   },
+   {
+    "find": "Amygdaloid body",
+    "es": "Amígdala",
+    "align": "c"
+   }
+  ],
+  "size": 34
+ },
+ "estructuras.png": {
+  "src": "src/Blausen_0115_BrainStructures.png",
+  "labels": [
+   {
+    "find": "An Introduction to Brain Structures",
+    "es": "Grandes divisiones del encéfalo",
+    "align": "c",
+    "bold": true,
+    "size": 52
+   },
+   {
+    "find": "Gyri",
+    "es": "Giros",
+    "align": "l"
+   },
+   {
+    "find": "Sulci",
+    "es": "Surcos",
+    "align": "r"
+   },
+   {
+    "find": "Fissure",
+    "es": "Cisura",
+    "align": "r"
+   },
+   {
+    "find": "Diencephalon",
+    "es": "Diencéfalo",
+    "align": "r"
+   },
+   {
+    "find": "(Thalamus & Hypothalamus)",
+    "es": "(tálamo e hipotálamo)",
+    "align": "r"
+   },
+   {
+    "find": "Midbrain",
+    "es": "Mesencéfalo",
+    "align": "r"
+   },
+   {
+    "find": "Pons",
+    "es": "Protuberancia",
+    "align": "r"
+   },
+   {
+    "find": "Medulla oblongata",
+    "es": "Bulbo raquídeo",
+    "align": "r"
+   },
+   {
+    "find": "Spinal cord",
+    "es": "Médula espinal",
+    "align": "l"
+   },
+   {
+    "box": [
+     833,
+     466,
+     1065,
+     513
+    ],
+    "es": "CEREBRO",
+    "align": "c",
+    "color": "#ffffff"
+   },
+   {
+    "box": [
+     1040,
+     1087,
+     1322,
+     1134
+    ],
+    "es": "CEREBELO",
+    "align": "c",
+    "color": "#ffffff"
+   }
+  ],
+  "size": 36
+ },
+ "areas-motoras-sensitivas.png": {
+  "src": "src/Blausen_0102_Brain_Motor_Sensory.png",
+  "labels": [
+   {
+    "find": "Motor and Sensory Regions of the Cerebral Cortex",
+    "es": "Regiones motoras y sensitivas de la corteza",
+    "align": "c",
+    "bold": true,
+    "size": 56
+   },
+   {
+    "find": "Primary motor cortex",
+    "es": "Corteza motora primaria",
+    "align": "r"
+   },
+   {
+    "find": "Primary sensory cortex",
+    "es": "Corteza somatosensorial primaria",
+    "align": "l"
+   },
+   {
+    "find": "(precentral gyrus)",
+    "es": "(giro precentral)",
+    "align": "r"
+   },
+   {
+    "find": "(postcentral gyrus)",
+    "es": "(giro poscentral)",
+    "align": "l"
+   },
+   {
+    "find": "Somatic motor association area",
+    "es": "Área de asociación motora",
+    "align": "l"
+   },
+   {
+    "find": "Somatic sensory association area",
+    "es": "Área de asociación somatosensorial",
+    "align": "r"
+   },
+   {
+    "find": "(premotor cortex)",
+    "es": "(corteza premotora)",
+    "align": "l"
+   },
+   {
+    "find": "Prefrontal cortex",
+    "es": "Corteza prefrontal",
+    "align": "l"
+   },
+   {
+    "find": "Visual association",
+    "es": "Área de asociación",
+    "align": "r"
+   },
+   {
+    "box": [
+     1522,
+     640,
+     1586,
+     664
+    ],
+    "es": "visual",
+    "align": "r"
+   },
+   {
+    "find": "Broca’s area",
+    "es": "Área de Broca",
+    "align": "l"
+   },
+   {
+    "find": "(production of speech)",
+    "es": "(producción del habla)",
+    "align": "l"
+   },
+   {
+    "find": "Visual cortex",
+    "es": "Corteza visual",
+    "align": "r"
+   },
+   {
+    "find": "Auditory association area",
+    "es": "Área de asociación auditiva",
+    "align": "r"
+   },
+   {
+    "find": "Wernicke’s area",
+    "es": "Área de Wernicke",
+    "align": "l"
+   },
+   {
+    "find": "Auditory cortex",
+    "es": "Corteza auditiva",
+    "align": "c"
+   },
+   {
+    "find": "(understand speech)",
+    "es": "(comprensión del habla)",
+    "align": "l"
+   }
+  ],
+  "size": 30
+ },
+ "segundo-mensajero.png": {
+  "src": "src/Synapse_Second_Messenger_System.png",
+  "labels": [
+   {
+    "find": "Postsynaptic",
+    "es": "El receptor",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "receptor activates",
+    "es": "postsináptico activa",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "cyclic AMP.",
+    "es": "el AMP cíclico",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "Neurotransmitter",
+    "es": "El neurotransmisor",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "attaches to receptor",
+    "es": "se une al receptor",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "Cyclic AMP activates CREB",
+    "es": "El AMPc activa CREB",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "find": "Genes activate proteins",
+    "es": "Los genes activan proteínas",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "box": [
+     211,
+     777,
+     388,
+     796
+    ],
+    "es": "que modifican la sinapsis",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "box": [
+     346,
+     136,
+     451,
+     153
+    ],
+    "es": "Mitocondria",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   },
+   {
+    "box": [
+     519,
+     1064,
+     699,
+     1083
+    ],
+    "es": "CREB activa genes",
+    "align": "l",
+    "color": "#ffffff",
+    "size": 19
+   }
+  ],
+  "size": 17,
+  "crop": [
+   0,
+   64,
+   720,
+   1200
+  ],
+  "stroke": 2
+ }
+}

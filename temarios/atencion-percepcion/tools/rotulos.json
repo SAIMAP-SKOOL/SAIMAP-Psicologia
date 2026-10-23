@@ -1,0 +1,672 @@
+{
+ "oido.png": {
+  "src": "src/oido.png",
+  "size": 46,
+  "labels": [
+   {
+    "box": [
+     973,
+     84,
+     1158,
+     127
+    ],
+    "es": "Estribo",
+    "align": "c"
+   },
+   {
+    "box": [
+     897,
+     139,
+     1235,
+     190
+    ],
+    "es": "(unido a la",
+    "align": "c"
+   },
+   {
+    "box": [
+     883,
+     196,
+     1245,
+     246
+    ],
+    "es": "ventana oval)",
+    "align": "c"
+   },
+   {
+    "box": [
+     1399,
+     196,
+     1744,
+     239
+    ],
+    "es": "Conductos",
+    "align": "c"
+   },
+   {
+    "box": [
+     1483,
+     252,
+     1657,
+     295
+    ],
+    "es": "semicirculares",
+    "align": "c"
+   },
+   {
+    "box": [
+     628,
+     411,
+     833,
+     455
+    ],
+    "es": "Martillo",
+    "align": "c"
+   },
+   {
+    "box": [
+     908,
+     362,
+     1056,
+     410
+    ],
+    "es": "Yunque",
+    "align": "c"
+   },
+   {
+    "box": [
+     1545,
+     403,
+     1824,
+     447
+    ],
+    "es": "Nervio",
+    "align": "l"
+   },
+   {
+    "box": [
+     1549,
+     460,
+     1702,
+     503
+    ],
+    "es": "vestibular",
+    "align": "l"
+   },
+   {
+    "box": [
+     1578,
+     860,
+     1825,
+     906
+    ],
+    "es": "Nervio",
+    "align": "l"
+   },
+   {
+    "box": [
+     1580,
+     922,
+     1740,
+     964
+    ],
+    "es": "coclear",
+    "align": "l"
+   },
+   {
+    "box": [
+     1560,
+     1028,
+     1800,
+     1080
+    ],
+    "es": "Cóclea",
+    "align": "l"
+   },
+   {
+    "box": [
+     467,
+     1081,
+     689,
+     1125
+    ],
+    "es": "Conducto",
+    "align": "c"
+   },
+   {
+    "box": [
+     380,
+     1137,
+     773,
+     1192
+    ],
+    "es": "auditivo externo",
+    "align": "c"
+   },
+   {
+    "box": [
+     888,
+     1104,
+     1150,
+     1158
+    ],
+    "es": "Caja del",
+    "align": "l"
+   },
+   {
+    "box": [
+     890,
+     1160,
+     1056,
+     1214
+    ],
+    "es": "tímpano",
+    "align": "l"
+   },
+   {
+    "box": [
+     587,
+     1283,
+     850,
+     1338
+    ],
+    "es": "Membrana",
+    "align": "c"
+   },
+   {
+    "box": [
+     572,
+     1339,
+     871,
+     1383
+    ],
+    "es": "timpánica",
+    "align": "c"
+   },
+   {
+    "box": [
+     1331,
+     1297,
+     1777,
+     1341
+    ],
+    "es": "Trompa de Eustaquio",
+    "align": "l"
+   },
+   {
+    "box": [
+     1062,
+     1306,
+     1238,
+     1352
+    ],
+    "es": "Ventana",
+    "align": "c"
+   },
+   {
+    "box": [
+     1046,
+     1362,
+     1258,
+     1408
+    ],
+    "es": "redonda",
+    "align": "c"
+   }
+  ]
+ },
+ "piel-receptores.png": {
+  "src": "src/piel-receptores.png",
+  "size": 38,
+  "crop": [
+   0,
+   360,
+   1920,
+   1560
+  ],
+  "labels": [
+   {
+    "box": [
+     23,
+     396,
+     415,
+     439
+    ],
+    "es": "Terminaciones nerviosas libres",
+    "align": "l"
+   },
+   {
+    "box": [
+     1558,
+     523,
+     1772,
+     557
+    ],
+    "es": "Célula de Merkel",
+    "align": "l"
+   },
+   {
+    "box": [
+     1559,
+     577,
+     1810,
+     621
+    ],
+    "es": "(disco de Merkel)",
+    "align": "l"
+   },
+   {
+    "box": [
+     1450,
+     730,
+     1790,
+     780
+    ],
+    "es": "Corpúsculo táctil",
+    "align": "l"
+   },
+   {
+    "box": [
+     1450,
+     790,
+     1910,
+     840
+    ],
+    "es": "(corpúsculo de Meissner)",
+    "align": "l",
+    "size": 36
+   },
+   {
+    "box": [
+     23,
+     1070,
+     357,
+     1114
+    ],
+    "es": "Corpúsculo de Ruffini",
+    "align": "l"
+   },
+   {
+    "box": [
+     195,
+     1344,
+     524,
+     1386
+    ],
+    "es": "Plexo de la raíz del pelo",
+    "align": "r"
+   },
+   {
+    "box": [
+     1467,
+     1331,
+     1898,
+     1373
+    ],
+    "es": "Corpúsculo laminar",
+    "align": "l"
+   },
+   {
+    "box": [
+     1467,
+     1385,
+     1879,
+     1429
+    ],
+    "es": "(corpúsculo de Pacini)",
+    "align": "l"
+   }
+  ]
+ },
+ "fotorreceptores.png": {
+  "src": "src/fotorreceptores.png",
+  "size": 36,
+  "labels": [
+   {
+    "box": [
+     300,
+     40,
+     480,
+     92
+    ],
+    "es": "(lado",
+    "align": "c",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     300,
+     92,
+     480,
+     140
+    ],
+    "es": "temporal)",
+    "align": "c",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1070,
+     40,
+     1210,
+     92
+    ],
+    "es": "(lado",
+    "align": "c",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1070,
+     92,
+     1210,
+     142
+    ],
+    "es": "nasal)",
+    "align": "c",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1076,
+     604,
+     1240,
+     708
+    ],
+    "es": "Bastones",
+    "align": "r",
+    "color": "#CC0000",
+    "bg": "#ffffff",
+    "size": 40
+   },
+   {
+    "box": [
+     1068,
+     1037,
+     1208,
+     1075
+    ],
+    "es": "Conos",
+    "align": "r",
+    "color": "#1F6FC8"
+   },
+   {
+    "box": [
+     543,
+     850,
+     673,
+     887
+    ],
+    "es": "Fóvea",
+    "align": "c"
+   },
+   {
+    "box": [
+     932,
+     846,
+     1146,
+     901
+    ],
+    "es": "Punto ciego",
+    "align": "c"
+   },
+   {
+    "box": [
+     545,
+     1225,
+     918,
+     1272
+    ],
+    "es": "Ángulo desde la fóvea",
+    "align": "c"
+   }
+  ]
+ },
+ "via-visual.png": {
+  "src": "src/via-visual.png",
+  "size": 44,
+  "labels": [
+   {
+    "box": [
+     20,
+     0,
+     222,
+     52
+    ],
+    "es": "Campo visual",
+    "align": "l",
+    "bg": "#ffffff",
+    "size": 34
+   },
+   {
+    "box": [
+     20,
+     52,
+     222,
+     95
+    ],
+    "es": "izquierdo",
+    "align": "l",
+    "bg": "#ffffff",
+    "size": 34
+   },
+   {
+    "box": [
+     1290,
+     0,
+     1720,
+     55
+    ],
+    "es": "Campo visual",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1290,
+     51,
+     1720,
+     95
+    ],
+    "es": "derecho",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     320,
+     1760,
+     373
+    ],
+    "es": "Retina nasal",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     400,
+     1760,
+     458
+    ],
+    "es": "Cristalino",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1812,
+     485,
+     1920,
+     534
+    ],
+    "es": "Ojo",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     27,
+     499,
+     331,
+     549
+    ],
+    "es": "Retina",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     27,
+     551,
+     250,
+     591
+    ],
+    "es": "temporal",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     499,
+     1660,
+     549
+    ],
+    "es": "Retina",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     551,
+     1560,
+     591
+    ],
+    "es": "temporal",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     694,
+     1760,
+     744
+    ],
+    "es": "Nervio óptico",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1337,
+     839,
+     1840,
+     889
+    ],
+    "es": "Quiasma óptico",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1336,
+     936,
+     1700,
+     976
+    ],
+    "es": "Núcleo",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1336,
+     987,
+     1760,
+     1037
+    ],
+    "es": "geniculado",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1336,
+     1035,
+     1840,
+     1089
+    ],
+    "es": "lateral (NGL)",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     20,
+     1061,
+     260,
+     1101
+    ],
+    "es": "Núcleo",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     20,
+     1133,
+     260,
+     1173
+    ],
+    "es": "pretectal",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1334,
+     1248,
+     1700,
+     1298
+    ],
+    "es": "Corteza",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1334,
+     1303,
+     1700,
+     1343
+    ],
+    "es": "visual",
+    "align": "l",
+    "bg": "#ffffff"
+   },
+   {
+    "box": [
+     1334,
+     1358,
+     1700,
+     1397
+    ],
+    "es": "primaria",
+    "align": "l",
+    "bg": "#ffffff"
+   }
+  ],
+  "erase": [
+   [
+    222,
+    0,
+    395,
+    42
+   ]
+  ]
+ }
+}

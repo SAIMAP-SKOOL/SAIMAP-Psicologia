@@ -1,9 +1,25 @@
 # SAIMAP Psicología · fuente
 
-Código de la app (`app/`), contenido de los cursos (`cursos/`), constructor de temarios (`kit/`) y fuentes de los temarios (`temarios/<asignatura>/`: Markdown, figuras y book.json).
+- `app/`: código de la app.
+- `cursos/`: contenido de los cursos.
+- `kit/`: constructor de temarios y plantillas del proceso.
+- `temarios/<asignatura>/`: fuentes de los temarios (Markdown, `img/`, `tools/figuras.py` y `book.json`).
 
-- `python3 kit/build_temario.py temarios/<asignatura>` genera el PDF del temario.
-- `python3 app/build.py` genera la web en `app/dist/` (incluye la teoría por apartados).
-- `node cursos/check_course.js cursos/<asignatura>` valida un curso.
+## Comandos
+- `python3 kit/build_temario.py temarios/<id>`: genera el PDF del temario en `temarios/<id>/pdf/`.
+- `python3 temarios/<id>/tools/figuras.py [nombre…]`: regenera las figuras propias.
+- `node cursos/check_course.js cursos/<id>`: valida un curso.
+- `python3 app/build.py`: genera la web en `app/dist/`, incluida la teoría por apartados.
+- Pruebas:
+  - `node app/tests/test_engine.js`
+  - `python3 app/tests/test_teoria.py`
+  - `python3 app/tests/test_ui.py`
+  - `python3 app/tests/test_teoria_ui.py <id>`
+- `kit/publicar.sh <clon de main>`: construye y copia la web a la rama `main`.
 
-La rama `main` contiene la web publicada y el proyecto Android.
+## Plantillas del proceso (`kit/proceso/`)
+- `ENCARGO-libro.md`: encargo para redactar unidades del temario.
+- `ENCARGO-curso.md`: encargo para escribir el contenido de la app.
+- `figuras_base.py`: utilidades de matplotlib para las figuras propias.
+
+La rama `main` contiene la web publicada y el proyecto Android. Los PDF no se versionan aquí: se generan.
