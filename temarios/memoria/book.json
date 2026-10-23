@@ -1,0 +1,72 @@
+{
+  "lang": "es",
+  "title": "Psicología de la Memoria · SAIMAP Psicología",
+  "cover_title": "Psicología<br>de la Memoria",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo recordamos y por qué olvidamos: historia y métodos, memoria sensorial, a corto plazo y de trabajo, sistemas de memoria a largo plazo, codificación y representación del conocimiento, recuperación, olvido, falsas memorias y amnesias. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología de la Memoria · SAIMAP Psicología",
+  "pdf": "Psicologia-de-la-Memoria_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-introduccion.md",
+    "02a-estructuras.md",
+    "02b-estructuras.md",
+    "03-codificacion.md",
+    "04-recuperacion.md",
+    "05-olvido.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-introduccion.md",
+    "02a-estructuras.md",
+    "02b-estructuras.md",
+    "03-codificacion.md",
+    "04-recuperacion.md",
+    "05-olvido.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}

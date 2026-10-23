@@ -1,0 +1,4 @@
+app/dist/
+app/dist-artifact/
+temarios/*/pdf/
+temarios/*/book.html

@@ -1,0 +1,47 @@
+// Validador de cursos SAIMAP Psicología: node check_course.js cursos/<id>
+const fs = require('fs'), path = require('path'), vm = require('vm');
+const dir = process.argv[2];
+const ctx = { window: {} }; vm.createContext(ctx);
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.js')).sort((a, b) => a === 'course.js' ? -1 : b === 'course.js' ? 1 : a.localeCompare(b));
+for (const f of files) vm.runInContext(fs.readFileSync(path.join(dir, f), 'utf8'), ctx, { filename: f });
+const C = ctx.window.COURSE;
+const E = [], W = []; let n = { v: 0, g: 0, tf: 0, q: 0, inc: 0, seq: 0, cls: 0, F: 0 };
+let longest = 0, choice = 0;
+const len = s => s.length;
+const units = C.units.slice().sort((a, b) => a.n - b.n);
+units.forEach((u, ui) => {
+  if (u.n !== ui + 1) E.push(`Unidad ${u.n}: numeración no consecutiva`);
+  if (!['alta', 'media', 'baja'].includes(u.pir)) E.push(`U${u.n}: pir inválido`);
+  if (!u.mods || u.mods.length !== 4) E.push(`U${u.n}: ${u.mods ? u.mods.length : 0} módulos (deben ser 4)`);
+  (u.mods || []).forEach((m, mi) => {
+    const id = `U${u.n}.${mi + 1}`;
+    if (!m.t || !m.tip) E.push(`${id}: falta t o tip`);
+    const need = { v: 8, g: 5, tf: 4, q: 4, inc: 1 };
+    for (const k in need) if (!Array.isArray(m[k]) || m[k].length !== need[k]) E.push(`${id}: ${k} tiene ${m[k] ? m[k].length : 0} (deben ser ${need[k]})`);
+    const defs = new Set();
+    (m.v || []).forEach(x => { n.v++; const p = x.split('='); if (p.length !== 2) return E.push(`${id} v: "${x}" debe tener un solo =`);
+      const [c, d] = p; if (c.trim().split(/\s+/).length > 5) W.push(`${id} v: concepto largo "${c}"`);
+      if (d.length > 110) W.push(`${id} v: definición larga (${d.length}) "${c}"`);
+      if (defs.has(d)) E.push(`${id} v: definición repetida "${d}"`); defs.add(d);
+      if (d.toLowerCase().includes(c.toLowerCase()) && c.length > 4) W.push(`${id} v: el concepto aparece en su definición "${c}"`); });
+    (m.g || []).forEach(x => { n.g++; const a = x.split('|'); if (a.length !== 4) return E.push(`${id} g: 4 campos: "${x}"`);
+      if ((a[0].match(/___/g) || []).length !== 1) E.push(`${id} g: un solo ___: "${a[0]}"`);
+      if (new Set(a.slice(1).map(s => s.trim().toLowerCase())).size !== 3) E.push(`${id} g: opciones repetidas "${x}"`);
+      choice++; if (len(a[1]) > Math.max(len(a[2]), len(a[3])) + 3) longest++; });
+    (m.tf || []).forEach(x => { n.tf++; const a = x.split('|'); if (!(a[1] === 'V' && a.length === 2) && !(a[1] === 'F' && a.length === 3)) E.push(`${id} tf: formato "${x}"`); if (a[1] === 'F') n.F++; });
+    for (const k of ['q', 'inc']) (m[k] || []).forEach(x => { n[k]++; const a = x.split('|'); if (a.length !== 5) return E.push(`${id} ${k}: 5 campos: "${x.slice(0, 80)}"`);
+      if (new Set(a.slice(1, 4).map(s => s.trim().toLowerCase())).size !== 3) E.push(`${id} ${k}: opciones repetidas`);
+      if (a[4].length > 200) W.push(`${id} ${k}: explicación larga (${a[4].length})`);
+      choice++; if (len(a[1]) > Math.max(len(a[2]), len(a[3])) + 3) longest++; });
+    (m.seq || []).forEach(x => { n.seq++; const a = x.split('|'); if (a.length !== 2 || a[1].split('>').length < 3 || a[1].split('>').length > 10) E.push(`${id} seq: formato "${x.slice(0, 80)}"`); });
+    (m.cls || []).forEach(x => { n.cls++; const a = x.split('|'); if (a.length < 3 || a.length > 4) return E.push(`${id} cls: 2–3 categorías "${x.slice(0, 80)}"`);
+      a.slice(1).forEach(c => { const p = c.split(':'); if (p.length !== 2 || !p[1].trim()) E.push(`${id} cls: categoría mal formada "${c}"`); }); });
+    for (const k of ['v', 'g', 'tf', 'q', 'inc', 'seq', 'cls']) (m[k] || []).forEach(x => { if (/\|\s*\||^\s|\s$/.test(x)) W.push(`${id} ${k}: espacios o campos vacíos "${x.slice(0, 60)}"`); });
+  });
+});
+const total = n.v + n.g + n.tf + n.q + n.inc + n.seq + n.cls;
+console.log(`${C.title}: ${units.length} unidades, ${total} ítems`, JSON.stringify(n));
+console.log(`Correcta más larga que ambas distractoras: ${longest}/${choice} (${Math.round(100 * longest / choice)} %) · V/F falsas: ${n.F}/${n.tf}`);
+W.forEach(w => console.log('AVISO ' + w));
+E.forEach(e => console.log('ERROR ' + e));
+console.log(E.length ? `${E.length} errores` : 'Sin errores');

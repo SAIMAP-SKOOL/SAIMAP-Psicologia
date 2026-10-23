@@ -1,0 +1,23 @@
+{
+  "lang": "es",
+  "title": "Bases Biológicas del Comportamiento · SAIMAP Psicología",
+  "cover_title": "Bases Biológicas<br>del Comportamiento",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre el sistema nervioso, la neurona, la sinapsis y la genética de la conducta. Contenido actualizado con fuentes recientes, con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": ["Grado · 1.º", "16 unidades", "Ampliación PIR"],
+  "tag_colors": ["#2D5A7B", "#5FA47A", "#C8553D"],
+  "toc_title": "Índice",
+  "footer": "Bases Biológicas del Comportamiento · SAIMAP Psicología",
+  "pdf": "Bases-Biologicas-del-Comportamiento_SAIMAP.pdf",
+  "colors": {"P": "#2D5A7B", "A": "#C8553D", "TINT": "#E6EEF4", "STRIPE": ["#2D5A7B", "#5FA47A", "#E0A83A", "#C8553D"]},
+  "files": ["00-intro.md", "01-psicobiologia.md", "02-anatomia.md", "03-celulas.md", "04-sinapsis.md", "05-genetica.md", "06-apendices.md"],
+  "unit_files": ["01-psicobiologia.md", "02-anatomia.md", "03-celulas.md", "04-sinapsis.md", "05-genetica.md"],
+  "boxes": {
+    "consenso": ["Consenso y debate"],
+    "mito": ["Mito frecuente"],
+    "pir": ["Clave PIR"],
+    "claves": ["Conceptos clave"],
+    "test": ["Autoevaluación"],
+    "answers": ["Soluciones"]
+  }
+}

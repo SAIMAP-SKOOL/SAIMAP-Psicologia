@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Psicología de la Atención y la Percepción · SAIMAP Psicología",
+  "cover_title": "Psicología de la<br>Atención y la Percepción",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo percibimos y a qué atendemos: psicofísica y detección de señales, visión, color, audición, tacto, dolor, olfato y gusto, modelos y redes de la atención, ilusiones, TDAH y heminegligencia. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Atención y Percepción · SAIMAP Psicología",
+  "pdf": "Atencion-y-Percepcion_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#4F72B8",
+      "#3E9B5F",
+      "#E0A83A",
+      "#D9534F"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02a-vision.md",
+    "02b-audicion.md",
+    "02c-somato-quimicos.md",
+    "03a-atencion.md",
+    "03b-atencion.md",
+    "04-alteraciones.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02a-vision.md",
+    "02b-audicion.md",
+    "02c-somato-quimicos.md",
+    "03a-atencion.md",
+    "03b-atencion.md",
+    "04-alteraciones.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}

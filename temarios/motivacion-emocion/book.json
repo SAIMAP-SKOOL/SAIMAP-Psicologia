@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Motivación y Emoción · SAIMAP Psicología",
+  "cover_title": "Motivación<br>y Emoción",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre qué nos mueve y qué sentimos: teorías de la motivación, hambre, sed y sueño, motivos sociales, teorías y clasificación de las emociones, regulación emocional, inteligencia emocional y salud. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Motivación y Emoción · SAIMAP Psicología",
+  "pdf": "Motivacion-y-Emocion_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#C8553D",
+      "#E0A83A",
+      "#5FA47A",
+      "#7A5BA8"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-motivacion.md",
+    "02-teorias.md",
+    "03a-motivos.md",
+    "03b-motivos.md",
+    "04a-emocion.md",
+    "04b-emocion.md",
+    "05-aplicaciones.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-motivacion.md",
+    "02-teorias.md",
+    "03a-motivos.md",
+    "03b-motivos.md",
+    "04a-emocion.md",
+    "04b-emocion.md",
+    "05-aplicaciones.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}

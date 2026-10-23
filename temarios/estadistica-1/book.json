@@ -1,0 +1,70 @@
+{
+  "lang": "es",
+  "title": "Fundamentos de Estadística · SAIMAP Psicología",
+  "cover_title": "Fundamentos<br>de Estadística",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre el método científico, la estadística descriptiva, la probabilidad, la relación entre variables y la inferencia, aplicadas a la Psicología. Con ejemplos resueltos y verificados, recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Fundamentos de Estadística · SAIMAP Psicología",
+  "pdf": "Fundamentos-de-Estadistica_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#E0A83A",
+      "#5FA47A",
+      "#2D5A7B",
+      "#C8553D"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-metodo.md",
+    "02-descriptiva.md",
+    "03-probabilidad.md",
+    "04-relacion.md",
+    "05-inferencia.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-metodo.md",
+    "02-descriptiva.md",
+    "03-probabilidad.md",
+    "04-relacion.md",
+    "05-inferencia.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Psicología de la Interacción Social · SAIMAP Psicología",
+  "cover_title": "Psicología de la<br>Interacción Social",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo nos relacionamos en grupo: formación y estructura de los grupos, comunicación y persuasión, violencia y delincuencia, conflicto y negociación, conducta de ayuda, influencia social, toma de decisiones y rendimiento grupal. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Interacción Social · SAIMAP Psicología",
+  "pdf": "Interaccion-Social_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A",
+      "#C8553D"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-grupo.md",
+    "02-estructura.md",
+    "03-comunicacion.md",
+    "04-violencia.md",
+    "05-conflicto.md",
+    "06-ayuda.md",
+    "07-influencia.md",
+    "08-colectivo.md",
+    "09-apendices.md"
+  ],
+  "unit_files": [
+    "01-grupo.md",
+    "02-estructura.md",
+    "03-comunicacion.md",
+    "04-violencia.md",
+    "05-conflicto.md",
+    "06-ayuda.md",
+    "07-influencia.md",
+    "08-colectivo.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
