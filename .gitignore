@@ -1,0 +1,5 @@
+*.jks
+*.keystore
+android/twa/.gradle/
+android/twa/app/build/
+android/twa/build/
