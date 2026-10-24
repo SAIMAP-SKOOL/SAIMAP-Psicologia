@@ -4,6 +4,7 @@ Temarios SAIMAP Psicología. Adaptado del constructor de libros de SAIMAP Lingo.
 Construye <dir>/pdf/<pdf> a partir de los Markdown listados en <dir>/book.json.
 El tema de color va en book.json: "colors": {"P":..., "A":..., "TINT":..., "STRIPE":[...]}.
 """
+import os
 import sys, os, re, json, html as H
 import markdown
 from playwright.sync_api import sync_playwright
@@ -198,7 +199,7 @@ OUT = os.path.join(D, 'pdf', CFG['pdf'])
 def render(pages):
     open(HTML, 'w', encoding='utf-8').write(build(pages))
     with sync_playwright() as p:
-        b = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
+        b = p.chromium.launch(executable_path=next((x for x in ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium'] if os.path.exists(x)), None))
         pg = b.new_page()
         pg.goto('file://' + HTML)
         pg.wait_for_load_state('networkidle')

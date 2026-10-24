@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Psicología del Aprendizaje · SAIMAP Psicología",
+  "cover_title": "Psicología<br>del Aprendizaje",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo cambia la conducta con la experiencia: habituación y sensibilización, condicionamiento clásico y sus modelos, extinción y exposición, condicionamiento operante, programas y elección, control aversivo, aprendizaje cognitivo, social y perceptivo-motor, y sus aplicaciones. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#E0A83A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología del Aprendizaje · SAIMAP Psicología",
+  "pdf": "Psicologia-del-Aprendizaje_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02a-clasico.md",
+    "02b-clasico.md",
+    "03a-operante.md",
+    "03b-operante.md",
+    "04-cognitivo.md",
+    "05-social.md",
+    "06-motor.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02a-clasico.md",
+    "02b-clasico.md",
+    "03a-operante.md",
+    "03b-operante.md",
+    "04-cognitivo.md",
+    "05-social.md",
+    "06-motor.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
