@@ -43,7 +43,7 @@ La **motricidad gruesa** abarca los movimientos que implican grandes grupos musc
 
 En el segundo y el tercer año llegan correr, subir escaleras y saltar.
 
-Lo que más ha cambiado en la investigación reciente no es la secuencia, sino la idea de **edad normal**. Durante décadas se difundieron edades medias («a los 12 meses anda») que muchas familias leían como plazos. El **Estudio Multicéntrico de Referencias del Crecimiento de la OMS (2006)** siguió a 816 niños sanos de cinco países (Ghana, India, Noruega, Omán y EE. UU.) y estableció ventanas para seis hitos motores. Los resultados muestran que la variabilidad normal es muy amplia.
+Lo que ha cambiado no es la secuencia, sino la idea de **edad normal**. Las edades medias («a los 12 meses anda») se leían a menudo como plazos. El **Estudio Multicéntrico de Referencias del Crecimiento de la OMS (2006)** siguió a 816 niños sanos de cinco países (Ghana, India, Noruega, Omán y EE. UU.) y estableció ventanas para seis hitos motores.
 
 ![m](hitos-oms.png)
 
@@ -63,7 +63,7 @@ La escena de la figura 10.2 ilustra una idea de los sistemas dinámicos: andar n
 
 La **motricidad fina** se refiere a los movimientos precisos de las manos y los dedos, coordinados con la vista. Es la base de la manipulación de objetos y, más adelante, del dibujo y la escritura. Su desarrollo sigue la ley próximo-distal: primero se controla el brazo, después la mano y al final los dedos.
 
-**El alcance.** Los recién nacidos ya hacen movimientos de brazo dirigidos hacia los objetos que miran. Von Hofsten (1982) llamó a estos movimientos **prealcance**: son toscos, rara vez consiguen tocar el objeto y no terminan en agarre, pero muestran que la coordinación entre ojo y mano tiene una base temprana. Hacia los 3–4 meses aparece el **alcance** propiamente dicho, voluntario y dirigido. Al principio es poco eficaz: el brazo avanza a trompicones y necesita varias correcciones. Con los meses, la trayectoria se vuelve recta y fluida.
+**El alcance.** Los recién nacidos ya hacen movimientos de brazo dirigidos hacia los objetos que miran. Von Hofsten (1982) llamó a estos movimientos **prealcance**: son toscos, rara vez consiguen tocar el objeto y no terminan en agarre, pero muestran que la coordinación entre ojo y mano tiene una base temprana. Hacia los 3–4 meses aparece el **alcance** propiamente dicho, voluntario y dirigido. Al principio el brazo avanza a trompicones; con los meses, la trayectoria se vuelve recta y fluida.
 
 Aunque se suele hablar de «alcance guiado por la vista», la vista no lo explica todo. Clifton et al. (1993) comprobaron que los bebés alcanzan en la oscuridad objetos que solo pueden oír o ver brillar, con una eficacia parecida a la que tienen a plena luz. La información **propioceptiva**, la que llega de músculos y articulaciones sobre la posición del propio brazo, guía buena parte del movimiento.
 
@@ -84,13 +84,13 @@ Figura 10.3. **De la prensión cubito-palmar a la pinza superior.** Secuencia de
 
 Como muestra la figura 10.3, el agarre se desplaza desde el borde de la mano hacia los dedos, y del uso de toda la palma al uso independiente del pulgar y del índice. La **pinza superior** es un logro notable: permite coger una miga de pan o una pasa, y por eso el bebé empieza a llevarse a la boca cualquier cosa que encuentra en el suelo.
 
-El progreso de la mano está unido al del cuerpo. Cuando el bebé se sienta solo, sus manos quedan libres para explorar: pasa objetos de una mano a otra, sujeta con una y toca con la otra, golpea, aprieta, gira. En la segunda mitad del primer año **adapta la exploración** a las propiedades del objeto: sacude lo que suena, frota lo que tiene textura, aprieta lo que es blando. Coordinación motora y conocimiento del mundo físico avanzan juntos, lo que enlaza con el estadio sensoriomotor de Piaget (Unidad 12).
+El progreso de la mano está unido al del cuerpo. Cuando el bebé se sienta solo, sus manos quedan libres: pasa objetos de una mano a otra y, en la segunda mitad del primer año, **adapta la exploración** a cada objeto: sacude lo que suena y aprieta lo que es blando. Coordinación motora y conocimiento del mundo físico avanzan juntos, lo que enlaza con el estadio sensoriomotor de Piaget (Unidad 12).
 
-Durante el segundo año aparecen nuevas destrezas: apilar bloques, meter objetos en recipientes, pasar páginas gruesas, comer con cuchara con más o menos éxito y hacer los primeros **garabatos**.
+En el segundo año llegan apilar bloques, comer con cuchara y los primeros **garabatos**.
 
 ### 10.4 Motricidad en la niñez: dibujo, lateralidad y mitos
 
-Entre los 2 y los 12 años no aparecen grandes hitos nuevos como andar, pero el movimiento gana en **velocidad, precisión, equilibrio y coordinación**. En motricidad gruesa, el niño pasa de correr con pasos cortos a saltar a la pata coja, montar en bicicleta, nadar o encadenar movimientos en juegos con reglas. En motricidad fina, aprende a vestirse solo, atarse los cordones, recortar siguiendo una línea y, con la escolarización, escribir. La coordinación entre ojo y mano mejora de forma continua. Antes de la pubertad, las diferencias entre niños y niñas en rendimiento motor son pequeñas (Unidad 11).
+Entre los 2 y los 12 años no aparecen grandes hitos nuevos como andar, pero el movimiento gana en **velocidad, precisión, equilibrio y coordinación**. En motricidad gruesa, el niño aprende a saltar a la pata coja, montar en bicicleta o nadar. En motricidad fina, a vestirse solo, atarse los cordones, recortar y, con la escolarización, escribir. Antes de la pubertad, las diferencias entre niños y niñas en rendimiento motor son pequeñas (Unidad 11).
 
 **El dibujo.** El dibujo infantil reúne motricidad fina, percepción y representación mental. Su evolución sigue tres grandes momentos:
 

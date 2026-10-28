@@ -1,6 +1,6 @@
 ## Unidad 3 · Teorías cognitivo-evolutivas
 
-**Objetivos:** explicar el constructivismo de Piaget y los conceptos de esquema, asimilación, acomodación y equilibración; describir la mediación, la ley de doble formación y la zona de desarrollo próximo de Vygotsky; distinguir andamiaje, participación guiada, habla egocéntrica y habla privada; describir cómo explica el desarrollo el enfoque del procesamiento de la información y qué son las funciones ejecutivas.
+**Objetivos:** explicar el constructivismo de Piaget y los conceptos de asimilación, acomodación y equilibración; describir la mediación, la doble formación y la zona de desarrollo próximo de Vygotsky; distinguir andamiaje, participación guiada y habla privada; explicar el enfoque del procesamiento de la información y las funciones ejecutivas.
 
 ### 3.1 Piaget: constructivismo, esquemas y equilibración
 
@@ -50,11 +50,10 @@ Lev Vygotsky trabajó en la Unión Soviética de los años veinte y principios d
 
 Figura 3.2. **La zona de desarrollo próximo.** En el centro, lo que el niño logra solo; en el anillo intermedio, lo que logra con ayuda de alguien más experto; fuera, lo que aún está fuera de su alcance. La ayuda ajustada se retira a medida que el niño gana dominio. Esquema. Elaboración propia.
 
-Como muestra la figura 3.2, la ZDP no es un rasgo fijo del niño, sino una zona que se desplaza: lo que hoy se hace con ayuda, mañana se hará solo, y aparecerán nuevas tareas en la zona intermedia. De aquí se siguen varias consecuencias:
+Como muestra la figura 3.2, la ZDP no es un rasgo fijo del niño, sino una zona que se desplaza: lo que hoy se hace con ayuda, mañana se hará solo, y aparecerán nuevas tareas en la zona intermedia. De aquí se siguen dos consecuencias:
 
-1. Dos niños con el mismo nivel real pueden tener ZDP muy distintas. Medir solo lo que hacen sin ayuda da una imagen incompleta; esta idea inspiró la **evaluación dinámica**.
-2. La enseñanza eficaz no espera a que el desarrollo esté hecho: trabaja **un poco por delante** de él, dentro de la ZDP.
-3. El aprendizaje guiado **tira** del desarrollo, en lugar de limitarse a seguirlo.
+1. Dos niños con el mismo nivel real pueden tener ZDP muy distintas; medir solo lo que hacen sin ayuda da una imagen incompleta.
+2. La enseñanza eficaz trabaja **un poco por delante** del desarrollo y **tira** de él, en lugar de limitarse a seguirlo.
 
 Un ejemplo: Marta, de siete años, no consigue montar sola un puzle de cien piezas. Con su hermano mayor, que le sugiere empezar por los bordes y agrupar las piezas por colores, lo termina. Semanas después aplica la estrategia sin ayuda a otro puzle. La tarea estaba en su ZDP; uno de mil piezas habría quedado fuera.
 
@@ -117,7 +116,7 @@ Frente a Piaget, este enfoque describe un cambio **gradual y continuo**, sin gra
 | Actualización (memoria de trabajo) | Mantener y renovar la información activa | Recordar los ingredientes que faltan mientras se añade uno nuevo a la lista |
 | Flexibilidad cognitiva | Cambiar de regla o de perspectiva | Clasificar tarjetas por color y pasar después a clasificarlas por forma |
 
-Las funciones ejecutivas mejoran mucho en los años preescolares y siguen madurando durante la adolescencia, en paralelo a la lenta maduración de la corteza prefrontal (Unidad 11). Están muy relacionadas con la autorregulación, el rendimiento escolar y el autocontrol (Unidad 16).
+Mejoran mucho en los años preescolares y siguen madurando en la adolescencia, junto con la corteza prefrontal (Unidad 11). Se relacionan con el autocontrol (Unidad 16).
 
 **Balance.** El enfoque ha aportado precisión: tareas bien definidas, modelos que pueden ponerse a prueba y una descripción fina de procesos que Piaget apenas estudió. Se le critica que **fragmenta** la mente en procesos aislados, atiende poco a la emoción y al contexto social y usa tareas alejadas de la vida cotidiana. Algunos autores, los **neopiagetianos**, combinaron los estadios de Piaget con conceptos del procesamiento de la información, como la capacidad de la memoria de trabajo (Unidad 13).
 
@@ -125,7 +124,7 @@ Las funciones ejecutivas mejoran mucho en los años preescolares y siguen madura
 
 **Consenso:** el niño participa activamente en su desarrollo y no es un receptor pasivo. Las secuencias que describió Piaget se han replicado en gran medida, aunque infravaloró las competencias tempranas y sobrevaloró la generalidad de los estadios. La interacción social y las herramientas culturales impulsan el desarrollo cognitivo. El habla privada cumple una función autorreguladora. Las funciones ejecutivas (Miyake et al., 2000) se desarrollan durante toda la infancia y la adolescencia.
 
-**Debate:** si el desarrollo cognitivo procede por estadios generales o por cambios graduales y específicos de cada dominio. También se discute cuánto de lo que se atribuye a la instrucción dentro de la ZDP depende del niño, del tipo de ayuda y de la cultura, y cómo encajar la explicación individual de Piaget con la explicación social de Vygotsky.
+**Debate:** si el desarrollo cognitivo procede por estadios generales o por cambios graduales y específicos de cada dominio. También se discute cómo encajar la explicación individual de Piaget con la social de Vygotsky.
 
 ### Mito frecuente
 
@@ -148,7 +147,7 @@ Las funciones ejecutivas mejoran mucho en los años preescolares y siguen madura
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta la definición de asimilación, acomodación y equilibración, la definición exacta de la ZDP y la diferencia entre habla egocéntrica y privada. Trampa típica: atribuir el andamiaje a Vygotsky, cuando es de Wood, Bruner y Ross (1976), o la participación guiada a otro autor que no sea Rogoff (1990). También se confunde la asimilación (el esquema no cambia) con la acomodación (el esquema cambia) y se olvida que el procesamiento de la información describe un cambio continuo, no por estadios.
+**Prioridad alta.** Se pregunta la definición de asimilación, acomodación y equilibración, la definición exacta de la ZDP y la diferencia entre habla egocéntrica y privada. Trampa típica: atribuir el andamiaje a Vygotsky, cuando es de Wood, Bruner y Ross (1976), o la participación guiada a otro autor que no sea Rogoff (1990). También se confunde la asimilación (el esquema no cambia) con la acomodación (el esquema cambia).
 
 ### Autoevaluación
 
@@ -226,7 +225,7 @@ Como muestra la figura 4.1, los niveles son:
 - **Macrosistema**: el marco cultural que envuelve a los demás niveles: valores, creencias, leyes y condiciones económicas. La duración de los permisos parentales, por ejemplo, cambia lo que ocurre en millones de hogares.
 - **Cronosistema**: la dimensión del **tiempo**, tanto los cambios en la vida del niño (el nacimiento de un hermano, un divorcio, un cambio de ciudad) como los cambios históricos (una crisis económica o una pandemia).
 
-Un ejemplo con todos los niveles: Lucía tiene nueve años. Su microsistema incluye a sus padres, su clase y su equipo de baloncesto. Cuando su tutora y su madre hablan a menudo sobre sus dificultades en lectura, actúa el mesosistema. A su padre le cambian a un turno de noche: es un cambio en el exosistema que reduce el tiempo que pasan juntos por la tarde. Las normas sobre conciliación laboral forman parte del macrosistema. Y la separación de sus padres el año siguiente sería un acontecimiento del cronosistema.
+Un ejemplo: Lucía, de nueve años, vive con sus padres y juega al baloncesto (microsistema). Su tutora y su madre hablan a menudo de su lectura (mesosistema). A su padre le cambian a un turno de noche y pasan menos tardes juntos (exosistema). Las normas de conciliación laboral forman parte del macrosistema, y una separación de sus padres sería un acontecimiento del cronosistema.
 
 La distinción más preguntada es la de **mesosistema y exosistema**. La regla práctica es esta: si se trata de la **relación** entre dos entornos en los que el niño está presente, es mesosistema; si se trata de un **entorno en el que el niño no está**, es exosistema.
 
@@ -293,7 +292,6 @@ El eclecticismo tiene un riesgo: convertirse en una mezcla de ideas sin coherenc
 2. Las influencias son **bidireccionales**: el niño cambia su entorno y es cambiado por él.
 3. Existe **plasticidad** durante toda la vida, aunque con periodos sensibles.
 4. El desarrollo es **probabilístico**: una misma situación de partida puede llevar a resultados distintos.
-5. Las explicaciones deben ponerse a prueba con buenos datos, también mediante réplicas multilaboratorio (Unidad 5).
 
 Este marco no elimina las teorías clásicas: las sitúa como piezas útiles dentro de una visión más amplia.
 
