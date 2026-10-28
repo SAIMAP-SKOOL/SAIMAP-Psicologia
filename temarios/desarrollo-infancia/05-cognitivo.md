@@ -8,7 +8,7 @@ Entre el nacimiento y la adolescencia, el niño pasa de coordinar reflejos a raz
 
 ### 12.1 El estadio sensoriomotor y la permanencia del objeto
 
-Piaget llamó a su proyecto **epistemología genética**: estudiar cómo se origina y se transforma el conocimiento. Para él, la inteligencia es una forma de **adaptación** al medio, y el niño la construye actuando sobre el mundo. Sus herramientas teóricas, que se presentaron en la Unidad 3, son los **esquemas**, la **asimilación**, la **acomodación** y la **equilibración**. Sus datos procedían al principio de la observación de sus tres hijos y después del **método clínico**: preguntas flexibles que siguen el razonamiento del niño en lugar de un guion fijo.
+Piaget llamó a su proyecto **epistemología genética**: estudiar cómo se origina y se transforma el conocimiento. Para él, la inteligencia es una forma de **adaptación** al medio que el niño construye actuando sobre el mundo, mediante esquemas, asimilación, acomodación y equilibración (Unidad 3). Sus datos procedían de la observación de sus tres hijos y del **método clínico**: preguntas flexibles que siguen el razonamiento del niño.
 
 Piaget describió cuatro estadios que forman una **secuencia invariante**: el orden no cambia, aunque la edad a la que se alcanza cada uno varía de un niño a otro (Piaget e Inhelder, 1966).
 
@@ -215,7 +215,7 @@ Wynn (1992) aplicó la misma lógica al **número**. Con 32 bebés de 5 meses, 1
 
 ![](baillargeon-wynn.png)
 
-Figura 13.1. **Dos estudios de violación de expectativas.** Arriba, el puente levadizo: en el suceso posible la pantalla se detiene en la caja y en el imposible la atraviesa. Abajo, el 1 + 1 de Wynn: resultado posible, dos muñecos; imposible, uno. En ambos, los bebés miran más lo imposible. Elaboración propia.
+Figura 13.1. **Dos estudios de violación de expectativas.** En el puente levadizo, en el suceso posible la pantalla se detiene en la caja y en el imposible la atraviesa. En el 1 + 1 de Wynn: resultado posible, dos muñecos; imposible, uno. En ambos, los bebés miran más lo imposible. Elaboración propia.
 
 Como muestra la figura 13.1, ambos estudios comparten un diseño: el bebé no tiene que actuar, solo mirar. De estos y otros trabajos surgió la hipótesis del **núcleo de conocimiento** (Spelke y Kinzler, 2007): los seres humanos nacen con unos pocos sistemas especializados que representan cuatro dominios básicos:
 
@@ -257,7 +257,7 @@ Los **neopiagetianos** conservan ideas centrales de Piaget, como los estadios, e
 - **Kurt Fischer** propuso la teoría de las **habilidades dinámicas** (Fischer y Bidell, 1998): el nivel de una persona no es fijo, sino que varía según el dominio, el contexto y el apoyo que recibe. Con ayuda puede rendir en un nivel más alto que sola, una idea que conecta con la zona de desarrollo próximo.
 - **Annette Karmiloff-Smith** (1992) propuso la **redescripción representacional**. El conocimiento empieza implícito, ligado a procedimientos eficaces, y se va redescribiendo en formatos cada vez más explícitos y accesibles a la conciencia. Integra conocimiento temprano y construcción, y lo hace dominio a dominio.
 
-Los enfoques de **procesamiento de la información** comparten parte de esta agenda. Explican el desarrollo por el aumento de la velocidad de procesamiento (Kail, 1991), la mejora de las estrategias y de la metacognición, y la maduración de las funciones ejecutivas. Siegler (1996) mostró que los niños usan a la vez varias estrategias que compiten, en lugar de pasar de una a otra por saltos (**olas superpuestas**). Para estudiarlo propuso el método microgenético (Unidad 6).
+Los enfoques de **procesamiento de la información** comparten parte de esta agenda. Explican el desarrollo por el aumento de la velocidad de procesamiento (Kail, 1991), la mejora de las estrategias y de la metacognición, y la maduración de las funciones ejecutivas. Siegler (1996) mostró que los niños usan a la vez varias estrategias que compiten (**olas superpuestas**), un cambio que se estudia con el método microgenético (Unidad 6).
 
 Con todo ello puede hacerse un balance:
 

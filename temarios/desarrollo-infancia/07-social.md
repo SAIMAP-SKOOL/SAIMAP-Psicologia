@@ -10,7 +10,7 @@ El niño no solo aprende a pensar y a hablar: también aprende quién es, a qui�
 
 El **yo** o **sí mismo** es la representación que cada persona tiene de sí misma: su cuerpo, sus capacidades, sus rasgos y sus valores. Se construye a lo largo de la infancia y la adolescencia con la maduración, el desarrollo cognitivo y la interacción con los demás.
 
-**Los primeros pasos.** Desde los primeros meses hay indicios de un **yo implícito**, ligado al cuerpo: el bebé descubre que sus movimientos producen efectos predecibles (patalear mueve el móvil de la cuna) y que su cuerpo es distinto del entorno. Las teorías psicoanalíticas describieron este proceso como una salida gradual de la fusión con la madre; la más conocida es la de **separación-individuación** de Mahler (Unidad 2).
+**Los primeros pasos.** Desde los primeros meses hay indicios de un **yo implícito**, ligado al cuerpo: el bebé descubre que sus movimientos producen efectos predecibles (patalear mueve el móvil de la cuna). El psicoanálisis lo describió como una salida gradual de la fusión con la madre, como en la **separación-individuación** de Mahler (Unidad 2).
 
 **El autorreconocimiento.** La prueba clásica del yo explícito es el **test del espejo con marca**. Se pinta con disimulo una mancha de colorete en la nariz del niño y se le pone ante un espejo. Si se toca la nariz y no el reflejo, entiende que la imagen es él mismo. Lewis y Brooks-Gunn (1979) situaron este logro hacia los **18–24 meses** (edades aproximadas). Poco después aparecen las **emociones autoconscientes** (vergüenza, orgullo y culpa), que exigen un yo que pueda ser evaluado por uno mismo y por los demás (Lewis); se estudian con detalle en Motivación y Emoción.
 
@@ -43,7 +43,7 @@ Los estatus no son estadios fijos: se puede pasar de la hipotecada a la moratori
 
 El **apego** es el vínculo afectivo intenso y duradero que une al niño con las personas que lo cuidan. Se manifiesta en la búsqueda de proximidad, en la protesta ante la separación y en el uso de esa persona como refugio cuando algo asusta.
 
-**Antes de Bowlby.** Las primeras explicaciones coincidían en atribuir el vínculo a la **alimentación**. Para el psicoanálisis clásico, la madre se convierte en objeto de amor porque satisface la necesidad oral del bebé. Para las teorías del aprendizaje, la madre se asocia con la reducción del hambre y adquiere así valor de **reforzador secundario**: es la teoría del **impulso secundario**.
+**Antes de Bowlby.** Las primeras explicaciones atribuían el vínculo a la **alimentación**. Para el psicoanálisis clásico, la madre es objeto de amor porque satisface la necesidad oral; para las teorías del aprendizaje, la madre se asocia con la reducción del hambre y adquiere así valor de **reforzador secundario**: es la teoría del **impulso secundario**.
 
 **El experimento de Harlow.** Harlow (1958) separó crías de macaco de sus madres y las crió con dos «madres» artificiales: una de alambre que daba leche con un biberón y otra forrada de felpa que no daba alimento. Las crías pasaban la mayor parte del tiempo abrazadas a la de felpa, iban a la de alambre solo a comer y, cuando se asustaban, corrían a la de felpa.
 
@@ -53,7 +53,7 @@ Figura 15.2. **Madre sustituta de felpa.** Una cría de macaco se aferra a la ma
 
 Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comida, sino del **contacto reconfortante**. El resultado refutó la teoría del impulso secundario. Hoy se citan también como contraejemplo ético (Unidad 5).
 
-**La teoría de Bowlby.** Bowlby (1969/1982), de formación psicoanalítica e influido por la etología (Unidad 4), propuso que el apego es un **sistema conductual** seleccionado por la evolución: mantener cerca a un adulto protector aumentaba la supervivencia de las crías. Llorar, sonreír, seguir con la mirada y, después, gatear tras el cuidador son conductas que sirven a ese fin. Tres ideas suyas siguen vigentes:
+**La teoría de Bowlby.** Bowlby (1969/1982), de formación psicoanalítica e influido por la etología (Unidad 4), propuso que el apego es un **sistema conductual** seleccionado por la evolución: mantener cerca a un adulto protector aumentaba la supervivencia de las crías. Llorar, sonreír o gatear tras el cuidador sirven a ese fin. Tres ideas suyas siguen vigentes:
 
 - La figura de apego funciona como **base segura** desde la que explorar y como **refugio** al que volver ante una amenaza.
 - A partir de las experiencias repetidas, el niño construye **modelos operativos internos**: expectativas sobre si los demás estarán disponibles y sobre si él merece cuidado.
@@ -68,7 +68,7 @@ Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comid
 
 El apego definido exige distinguir a las personas conocidas de las extrañas y saber que siguen existiendo aunque no se vean, una relación con la permanencia del objeto (Unidad 12).
 
-**¿Solo con la madre?** Schaffer y Emerson (1964), en un estudio longitudinal, describieron una secuencia parecida (de una fase asocial a apegos indiscriminados, después específicos y, enseguida, múltiples) y comprobaron que muchos bebés formaban **apegos múltiples** muy pronto: con el padre, los abuelos o los hermanos. La figura principal no era siempre quien más tiempo pasaba con el bebé, sino quien respondía a sus señales con más sensibilidad. El metaanálisis de Madigan et al. (2023) no halló diferencias en la distribución del apego con madres y con padres. El apego no depende del sexo del cuidador ni de quién da de comer, sino de la calidad de la interacción.
+**¿Solo con la madre?** Schaffer y Emerson (1964), en un estudio longitudinal, describieron una secuencia parecida (de una fase asocial a apegos indiscriminados, después específicos y, enseguida, múltiples) y comprobaron que muchos bebés formaban **apegos múltiples** muy pronto: con el padre, los abuelos o los hermanos. La figura principal no era siempre quien más tiempo pasaba con el bebé, sino quien respondía a sus señales con más sensibilidad. El metaanálisis de Madigan et al. (2023) no halló diferencias en la distribución del apego con madres y con padres.
 
 ### 15.3 La Situación Extraña y los tipos de apego
 
@@ -83,7 +83,7 @@ La clasificación se basa sobre todo en la conducta del bebé en las **reuniones
 | C · Inseguro ambivalente o resistente | Angustia intensa; en la reunión busca al cuidador y a la vez lo rechaza; cuesta calmarlo | Disponibilidad inconsistente |
 | D · Desorganizado | Conductas contradictorias o extrañas: se acerca de espaldas, se queda paralizado | Maltrato, cuidador atemorizante o atemorizado, trauma no resuelto |
 
-La categoría **D** no estaba en el esquema original. La añadieron Main y Solomon (1990) para los bebés que no encajaban en A, B ni C y que parecían no tener una estrategia coherente ante el estrés. Es la más relacionada con riesgo clínico y se trata en Psicopatología infantil. Conviene recordar que A y C son estrategias organizadas, aunque inseguras, y que un apego inseguro **no es un trastorno**.
+La categoría **D** no estaba en el esquema original. La añadieron Main y Solomon (1990) para los bebés que no encajaban en A, B ni C y que parecían no tener una estrategia coherente ante el estrés. Se trata también en Psicopatología infantil. Conviene recordar que A y C son estrategias organizadas, aunque inseguras, y que un apego inseguro **no es un trastorno**.
 
 ![m](apego.png)
 

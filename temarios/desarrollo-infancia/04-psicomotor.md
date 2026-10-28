@@ -8,9 +8,9 @@ El cuerpo cambia más deprisa en la infancia y en la adolescencia que en ninguna
 
 ### 10.1 Principios del desarrollo motor
 
-El **desarrollo psicomotor** es la adquisición progresiva del control del propio cuerpo y de los movimientos. Se llama «psicomotor» porque el movimiento no es un logro puramente muscular: depende de la percepción, de la motivación por alcanzar lo que interesa y de lo que el niño entiende del mundo. A su vez, cada nueva habilidad motora abre oportunidades de aprendizaje. Un bebé que gatea puede ir a buscar un juguete, explorar otra habitación y alejarse de su cuidador para volver después.
+El **desarrollo psicomotor** es la adquisición progresiva del control del propio cuerpo y de los movimientos. Se llama «psicomotor» porque el movimiento depende también de la percepción, de la motivación y de lo que el niño entiende del mundo. A su vez, cada nueva habilidad abre oportunidades de aprendizaje: un bebé que gatea puede ir a buscar un juguete a otra habitación.
 
-Este desarrollo se apoya en el crecimiento físico, que **no es uniforme**. La talla y el peso aumentan muy deprisa en los dos primeros años, el ritmo se vuelve más pausado en la niñez intermedia y se acelera de nuevo con el estirón puberal (Unidad 11). Además, no todos los sistemas maduran a la vez: el cerebro crece mucho al principio, mientras que el sistema reproductor apenas cambia hasta la pubertad. La maduración del sistema nervioso, incluida la mielinización, se estudia en Bases Biológicas del Comportamiento.
+Este desarrollo se apoya en el crecimiento físico, que **no es uniforme**. La talla y el peso aumentan muy deprisa en los dos primeros años, el ritmo se vuelve más pausado en la niñez intermedia y se acelera de nuevo con el estirón puberal (Unidad 11). Además, el cerebro crece mucho al principio, mientras que el sistema reproductor apenas cambia hasta la pubertad. La maduración del sistema nervioso, incluida la mielinización, se estudia en Bases Biológicas del Comportamiento.
 
 **Las leyes del desarrollo motor.** El control del cuerpo sigue unas direcciones regulares:
 
@@ -20,28 +20,28 @@ Este desarrollo se apoya en el crecimiento físico, que **no es uniforme**. La t
 | Próximo-distal | Del eje del cuerpo hacia la periferia | Controla el hombro y el codo antes que la muñeca y los dedos |
 | De lo general a lo específico | De movimientos globales a movimientos diferenciados | Al principio agita todo el cuerpo ante un juguete; después solo estira el brazo |
 
-La confusión entre las dos primeras es un error clásico. La **cefalocaudal** es vertical (arriba antes que abajo) y la **próximo-distal** es del centro hacia fuera (tronco antes que extremidades, brazo antes que dedos). Una regla útil: si el ejemplo compara la cabeza con las piernas, es cefalocaudal; si compara el hombro con la mano, es próximo-distal.
+La confusión entre las dos primeras es un error clásico. La **cefalocaudal** es vertical (arriba antes que abajo) y la **próximo-distal** es del centro hacia fuera (tronco antes que extremidades, brazo antes que dedos).
 
 **¿Qué impulsa el desarrollo motor?** Se han propuesto tres explicaciones:
 
-1. **Enfoque madurativo** (Gesell, McGraw). El desarrollo motor es un programa biológico: los nervios y los músculos maduran en un orden fijo y las habilidades aparecen cuando el organismo está preparado. Gesell elaboró normas de edad para cada conducta. Este enfoque explica bien la regularidad de la secuencia en niños de culturas muy distintas.
+1. **Enfoque madurativo** (Gesell, McGraw). El desarrollo motor es un programa biológico: los nervios y los músculos maduran en un orden fijo y las habilidades aparecen cuando el organismo está preparado. Gesell elaboró normas de edad para cada conducta. Explica bien la regularidad de la secuencia entre culturas.
 2. **Enfoque experiencial.** Sin negar la maduración, subraya el papel de la práctica. Dennis (1960) observó retrasos motores en niños criados en instituciones con muy pocas oportunidades de moverse, y Hopkins (1991) describió cómo ciertas prácticas de manipulación y ejercicio del bebé, habituales en algunas culturas, se asocian a una adquisición algo más temprana de habilidades como sentarse o andar.
 3. **Teoría de los sistemas dinámicos** (Thelen, 1995). Cada habilidad no se «despliega» desde dentro, sino que **se ensambla** a partir de varios componentes: maduración del sistema nervioso, fuerza y proporciones del cuerpo, motivación y características del entorno. Las primeras versiones de una habilidad son inestables y torpes; con la práctica se reorganizan hasta volverse fluidas. Desde esta perspectiva, Thelen propuso que la desaparición de la marcha automática (Unidad 8) podría deberse más al aumento de peso de las piernas que a una inhibición desde la corteza, una interpretación que sigue en discusión.
 
-Hoy el enfoque de sistemas dinámicos es el marco de referencia, porque integra los otros dos. Un ejemplo: Hugo, de once meses, se pone de pie agarrado al sofá. Que dé sus primeros pasos depende de que sus piernas tengan fuerza suficiente, de que controle el equilibrio, del suelo (no es lo mismo una alfombra mullida que un parqué) y de que al otro lado haya algo que quiera alcanzar. Ningún componente basta por sí solo. Por eso también hay varias rutas hacia una misma habilidad: hay bebés que gatean sobre manos y rodillas, otros que se arrastran sobre la tripa y otros que se desplazan sentados, y todos acaban andando.
+Hoy el enfoque de sistemas dinámicos es el marco de referencia, porque integra los otros dos. Un ejemplo: Hugo, de once meses, se pone de pie agarrado al sofá. Que dé sus primeros pasos depende de que sus piernas tengan fuerza suficiente, de que controle el equilibrio, del suelo (no es lo mismo una alfombra mullida que un parqué) y de que al otro lado haya algo que quiera alcanzar. Ningún componente basta por sí solo. Por eso hay varias rutas hacia una misma habilidad: unos bebés gatean, otros se arrastran sobre la tripa o se desplazan sentados, y todos acaban andando.
 
 ### 10.2 Hitos de la motricidad gruesa y su variabilidad
 
 La **motricidad gruesa** abarca los movimientos que implican grandes grupos musculares y el cuerpo entero: sostener la cabeza, girarse, sentarse, gatear, ponerse de pie y andar. Su secuencia típica sigue la ley cefalocaudal:
 
-1. **Control de la cabeza**: en los primeros meses, tumbado boca abajo, el bebé levanta la cabeza y después el pecho.
-2. **Volteo**: pasa de boca abajo a boca arriba y al revés.
-3. **Sedestación**: primero se sienta con apoyo y después sin él.
+1. **Control de la cabeza**: boca abajo, levanta la cabeza y después el pecho.
+2. **Volteo**: se gira de boca abajo a boca arriba y al revés.
+3. **Sedestación**: se sienta con apoyo y después sin él.
 4. **Desplazamiento**: gateo u otras formas de moverse por el suelo.
-5. **Bipedestación**: se pone de pie agarrado a los muebles y después solo.
-6. **Marcha**: anda con ayuda y, por último, sin ella.
+5. **Bipedestación**: de pie agarrado a los muebles y después solo.
+6. **Marcha**: con ayuda y, por último, sin ella.
 
-Durante el segundo y el tercer año llegan correr, subir escaleras, saltar con los dos pies o dar patadas a una pelota.
+En el segundo y el tercer año llegan correr, subir escaleras y saltar.
 
 Lo que más ha cambiado en la investigación reciente no es la secuencia, sino la idea de **edad normal**. Durante décadas se difundieron edades medias («a los 12 meses anda») que muchas familias leían como plazos. El **Estudio Multicéntrico de Referencias del Crecimiento de la OMS (2006)** siguió a 816 niños sanos de cinco países (Ghana, India, Noruega, Omán y EE. UU.) y estableció ventanas para seis hitos motores. Los resultados muestran que la variabilidad normal es muy amplia.
 
@@ -49,7 +49,7 @@ Lo que más ha cambiado en la investigación reciente no es la secuencia, sino l
 
 Figura 10.1. **Ventanas de logro de dos hitos motores.** Barras que abarcan del percentil 1 al 99: sentarse sin apoyo entre 3,8 y 9,2 meses y andar solo entre 8,2 y 17,6 meses, en niños sanos de cinco países (OMS, 2006). Elaboración propia.
 
-Como muestra la figura 10.1, un niño sano puede **andar solo** a los 8 meses y otro igual de sano a los 17. La ventana de la marcha supera los nueve meses. Por eso Lola, que anda a los 10 meses, no es «más lista» que su primo Marcos, que lo hace a los 16: ambos están dentro de lo esperable. Además, la edad de la marcha apenas dice nada sobre el desarrollo cognitivo posterior. La OMS observó también que el orden de los hitos es parecido en la mayoría de los niños, aunque no idéntico, y que algunos niños no llegaron a gatear antes de andar.
+Como muestra la figura 10.1, un niño sano puede **andar solo** a los 8 meses y otro igual de sano a los 17. La ventana de la marcha supera los nueve meses. Por eso Lola, que anda a los 10 meses, no es «más lista» que su primo Marcos, que lo hace a los 16: ambos están dentro de lo esperable. La OMS observó también que el orden de los hitos es parecido en la mayoría de los niños, aunque no idéntico, y que algunos niños no llegaron a gatear antes de andar.
 
 ¿De qué depende esa variabilidad? De factores **biológicos** (constitución, tono muscular, peso) y de **oportunidades de práctica**. Las diferencias entre culturas en la edad media de algunos hitos se relacionan con prácticas de crianza: estimular activamente al bebé o, por el contrario, limitar el tiempo que pasa en el suelo. Estas diferencias son modestas y no alteran la secuencia básica. Lo que sí merece consulta es estar claramente fuera de las ventanas o **perder** habilidades ya adquiridas.
 
@@ -57,7 +57,7 @@ Como muestra la figura 10.1, un niño sano puede **andar solo** a los 8 meses y 
 
 Figura 10.2. **Los primeros pasos como acontecimiento social.** Un padre se agacha con los brazos abiertos mientras la madre sostiene a la niña que intenta andar. Fuente: Vincent van Gogh, *Primeros pasos (según Millet)* (1890), Wikimedia Commons, dominio público.
 
-La escena de la figura 10.2 ilustra una idea de los sistemas dinámicos: andar no es solo un logro del sistema nervioso. Hay un adulto que anima, una meta que alcanzar y un entorno que hace atractivo el esfuerzo. Andar, además, cambia la vida del niño: puede llevar objetos para enseñarlos, ir hacia las personas y explorar más lejos. La experiencia de desplazarse por sí mismo se relaciona con cambios en la percepción del espacio, como se vio al estudiar el abismo visual (Unidad 9).
+La escena de la figura 10.2 ilustra una idea de los sistemas dinámicos: andar no es solo un logro del sistema nervioso. Hay un adulto que anima, una meta que alcanzar y un entorno que hace atractivo el esfuerzo. Andar, además, permite al niño ir hacia las personas y explorar más lejos. La experiencia de desplazarse por sí mismo se relaciona con cambios en la percepción del espacio, como se vio al estudiar el abismo visual (Unidad 9).
 
 ### 10.3 Motricidad fina: alcance, prensión y pinza
 
@@ -82,7 +82,7 @@ Aunque se suele hablar de «alcance guiado por la vista», la vista no lo explic
 
 Figura 10.3. **De la prensión cubito-palmar a la pinza superior.** Secuencia del prealcance del recién nacido al alcance guiado por la vista (≈3–4 meses) y a las formas de prensión cubito-palmar, palmar, pinza inferior y pinza superior (≈9–12 meses). Edades aproximadas. Elaboración propia.
 
-Como muestra la figura 10.3, el agarre se desplaza desde el borde de la mano hacia los dedos, y del uso de toda la palma al uso independiente del pulgar y del índice. La **pinza superior** es un logro notable: permite coger una miga de pan o una pasa, algo que cualquier familia descubre enseguida porque el bebé empieza a llevarse a la boca todo lo que encuentra en el suelo.
+Como muestra la figura 10.3, el agarre se desplaza desde el borde de la mano hacia los dedos, y del uso de toda la palma al uso independiente del pulgar y del índice. La **pinza superior** es un logro notable: permite coger una miga de pan o una pasa, y por eso el bebé empieza a llevarse a la boca cualquier cosa que encuentra en el suelo.
 
 El progreso de la mano está unido al del cuerpo. Cuando el bebé se sienta solo, sus manos quedan libres para explorar: pasa objetos de una mano a otra, sujeta con una y toca con la otra, golpea, aprieta, gira. En la segunda mitad del primer año **adapta la exploración** a las propiedades del objeto: sacude lo que suena, frota lo que tiene textura, aprieta lo que es blando. Coordinación motora y conocimiento del mundo físico avanzan juntos, lo que enlaza con el estadio sensoriomotor de Piaget (Unidad 12).
 
@@ -102,7 +102,7 @@ Luquet (1927) observó que durante años el niño dibuja **lo que sabe** del obj
 
 **La lateralidad.** La **lateralidad** es la preferencia por usar un lado del cuerpo, sobre todo una mano, aunque también un pie o un ojo. Aproximadamente una de cada diez personas es zurda. Las preferencias manuales aparecen como tendencias en los primeros años y se consolidan en la etapa preescolar. Están relacionadas con la especialización de los hemisferios cerebrales, que se trata en Bases Biológicas del Comportamiento.
 
-Durante mucho tiempo, en España y en otros países, se obligó a los niños zurdos a escribir con la derecha. Esta práctica no tiene justificación. Ser zurdo es una variante normal, no un defecto que haya que corregir, y forzar el cambio solo añade dificultad y frustración a un aprendizaje que ya es exigente. Lo adecuado es respetar la mano preferida y ayudar con detalles prácticos: una buena postura del papel, tijeras para zurdos o una iluminación que no haga sombra sobre lo que se escribe.
+Durante mucho tiempo, en España y en otros países, se obligó a los niños zurdos a escribir con la derecha. Esta práctica no tiene justificación. Ser zurdo es una variante normal, no un defecto que haya que corregir, y forzar el cambio solo añade dificultad y frustración a un aprendizaje que ya es exigente. Lo adecuado es respetar la mano preferida y ayudar con detalles prácticos, como unas tijeras para zurdos.
 
 **Mitos frecuentes sobre la motricidad.** Varias creencias populares no se sostienen:
 
@@ -110,10 +110,9 @@ Durante mucho tiempo, en España y en otros países, se obligó a los niños zur
 | --- | --- |
 | «Cada hito tiene una edad fija» | Las ventanas normales son amplias: andar solo entre 8,2 y 17,6 meses (OMS, 2006) |
 | «Hay que corregir a los zurdos» | La zurdera es una variante normal; forzar el cambio no aporta nada |
-| «Andar pronto anuncia más inteligencia» | La edad de los hitos dentro de lo normal apenas predice el desarrollo cognitivo |
 | «Todo bebé tiene que gatear» | Algunos niños sanos no gatean y andan con normalidad |
 
-Estas correcciones tienen consecuencias prácticas. Evitan la angustia de familias que comparan a su hijo con el del vecino y evitan intervenciones innecesarias, sin olvidar que una desviación clara de las ventanas, o la pérdida de habilidades, sí merece valoración profesional.
+Estas correcciones evitan angustias e intervenciones innecesarias, sin olvidar que una desviación clara de las ventanas sí merece valoración profesional.
 
 ### Consenso y debate
 
