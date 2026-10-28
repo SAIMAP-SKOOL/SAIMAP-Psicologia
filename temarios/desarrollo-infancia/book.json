@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Psicología del Desarrollo. Infancia y Adolescencia · SAIMAP Psicología",
+  "cover_title": "Psicología del Desarrollo<br>Infancia y Adolescencia",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo cambiamos desde la concepción hasta el final de la adolescencia: historia, teorías y métodos; desarrollo prenatal, sensorial y perceptivo; motricidad y pubertad; Piaget y la cognición temprana; lenguaje; identidad, apego, temperamento y moral. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología del Desarrollo. Infancia y Adolescencia · SAIMAP Psicología",
+  "pdf": "Psicologia-del-Desarrollo-Infancia-y-Adolescencia_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#E0A83A",
+      "#5FA47A",
+      "#C8553D",
+      "#2D5A7B"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01a-fundamentos.md",
+    "01b-fundamentos.md",
+    "02-metodos.md",
+    "03-prenatal-percepcion.md",
+    "04-psicomotor.md",
+    "05-cognitivo.md",
+    "06-lenguaje.md",
+    "07-social.md",
+    "08-apendices.md"
+  ],
+  "unit_files": [
+    "01a-fundamentos.md",
+    "01b-fundamentos.md",
+    "02-metodos.md",
+    "03-prenatal-percepcion.md",
+    "04-psicomotor.md",
+    "05-cognitivo.md",
+    "06-lenguaje.md",
+    "07-social.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
