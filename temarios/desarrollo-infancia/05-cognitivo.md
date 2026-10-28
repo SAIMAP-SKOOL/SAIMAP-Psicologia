@@ -240,7 +240,7 @@ La prueba de referencia es la **tarea de falsa creencia**. Wimmer y Perner (1983
 
 ![](falsa-creencia.png)
 
-Figura 13.2. **Tarea de Sally y Anne y curva de aciertos.** Cuatro viñetas: Sally guarda la canica, se va, Anne la cambia de sitio y Sally vuelve. La curva esquemática muestra que los aciertos crecen de los 3 a los 5 años y cruzan el nivel del azar hacia los 4 (Wellman et al., 2001). Elaboración propia.
+Figura 13.2. **Tarea de Sally y Anne y curva de aciertos.** Cuatro viñetas: Sally guarda la canica, se va, Anne la cambia de sitio y se pregunta dónde buscará Sally. La curva esquemática muestra que los aciertos crecen de los 3 a los 5 años y cruzan el nivel del azar hacia los 4 (Wellman et al., 2001). Elaboración propia.
 
 Como muestra la figura 13.2, el cambio es claro. El metaanálisis de Wellman, Cross y Watson (2001), con 178 estudios y 591 condiciones, halló que a los 3 años los niños fallan la tarea por debajo del azar: responden de forma sistemática según lo que ellos saben. A los 5 años la resuelven por encima del azar. El cambio aparece en **todos los países y tipos de tarea** estudiados: es un cambio conceptual real, no un artefacto de la tarea.
 
@@ -280,9 +280,9 @@ El consenso actual es que Piaget **infravaloró** las competencias tempranas y *
 
 ### Mito frecuente
 
-**Mito:** «Los bebés nacen como una pizarra en blanco, como decía Rousseau, y todo lo que saben lo aprenden después».
+**Mito:** «Los experimentos con bebés han demostrado que Piaget estaba completamente equivocado».
 
-**Realidad:** la idea de la *tabula rasa* es de Locke (1690), no de Rousseau. Además, los bebés muestran desde muy pronto sesgos hacia los rostros, el habla y los objetos, y diferencias de temperamento. La hipótesis del núcleo de conocimiento propone sistemas tempranos para objetos, número, agentes y espacio (Spelke y Kinzler, 2007). Que existan no significa que el desarrollo esté programado: la experiencia los amplía y transforma.
+**Realidad:** los estudios de violación de expectativas (Baillargeon, 1987; Wynn, 1992) indican que Piaget infravaloró lo que los bebés saben, pero su interpretación sigue en debate y algunos resultados se replican con dificultad. La secuencia general que describió se ha confirmado en gran parte, y la falsa creencia explícita sí cambia de forma real entre los 3 y los 5 años (Wellman et al., 2001). La crítica corrige a Piaget; no lo invalida.
 
 ### Conceptos clave
 

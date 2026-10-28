@@ -14,7 +14,7 @@ El **yo** o **sí mismo** es la representación que cada persona tiene de sí mi
 
 **El autorreconocimiento.** La prueba clásica del yo explícito es el **test del espejo con marca**. Se pinta con disimulo una mancha de colorete en la nariz del niño y se le pone ante un espejo. Si se toca la nariz y no el reflejo, entiende que la imagen es él mismo. Lewis y Brooks-Gunn (1979) situaron este logro hacia los **18–24 meses** (edades aproximadas). Poco después aparecen las **emociones autoconscientes** (vergüenza, orgullo y culpa), que exigen un yo que pueda ser evaluado por uno mismo y por los demás (Lewis); se estudian con detalle en Motivación y Emoción.
 
-**El autoconcepto en la infancia.** Una vez que se reconoce, el niño empieza a clasificarse con categorías sociales: la edad y el sexo son de las primeras (**yo categórico**). Su autoconcepto cambia con la edad:
+**El autoconcepto en la infancia.** Tras reconocerse, el niño empieza a describirse con etiquetas sociales («soy un niño», «soy mayor»): es el **yo categórico**. Su autoconcepto cambia con la edad:
 
 | Etapa | Cómo se describe | Ejemplo |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ El **apego** es el vínculo afectivo intenso y duradero que une al niño con las
 
 Figura 15.2. **Madre sustituta de felpa.** Una cría de macaco se aferra a la madre de felpa durante una prueba de miedo, aunque no es la que la alimenta. Fuente: H. F. Harlow (1958), Wikimedia Commons, CC0.
 
-Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comida, sino del **contacto reconfortante**. El resultado refutó la teoría del impulso secundario. Hoy se citan también como contraejemplo ético (Unidad 5).
+Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comida, sino del **contacto reconfortante**. El resultado refutó la teoría del impulso secundario. Hoy estos experimentos se citan también como contraejemplo ético (Unidad 5).
 
 **La teoría de Bowlby.** Bowlby (1969/1982), de formación psicoanalítica e influido por la etología (Unidad 4), propuso que el apego es un **sistema conductual** seleccionado por la evolución: mantener cerca a un adulto protector aumentaba la supervivencia de las crías. Llorar, sonreír o gatear tras el cuidador sirven a ese fin. Tres ideas suyas siguen vigentes:
 
@@ -123,9 +123,9 @@ Ambos estudios muestran que la privación temprana grave tiene efectos duraderos
 
 ### Mito frecuente
 
-**Mito:** «Los tres primeros años lo determinan todo: lo que no se hizo entonces ya no tiene arreglo».
+**Mito:** «El apego importante es el que se forma con la madre; los demás vínculos son secundarios».
 
-**Realidad:** hay periodos sensibles, pero no son ventanas que se cierran de golpe. En el estudio ERA, incluso en el grupo que pasó más de 6 meses en instituciones, el 21 % no tuvo problemas de salud mental y el CI se recuperó hasta valores normales (Sonuga-Barke et al., 2017). En el BEIP, la acogida familiar mejoró el CI y las ventajas seguían presentes a los 18 años (Humphreys et al., 2022). El desarrollo temprano importa mucho, pero sigue abierto a la experiencia posterior.
+**Realidad:** los bebés forman apegos con varias figuras desde muy pronto (Schaffer y Emerson, 1964). En el mayor metaanálisis de la Situación Extraña, con 20.720 díadas, la distribución de los tipos de apego no difirió entre madres y padres (Madigan et al., 2023). Lo que predice un apego seguro es la sensibilidad del cuidador, no su parentesco ni su sexo.
 
 ### Conceptos clave
 
@@ -181,7 +181,7 @@ c) no llegaron a recuperar valores normales de CI
 
 ### 16.1 El temperamento
 
-El **temperamento** es el conjunto de diferencias individuales de base constitucional en la **reactividad** emocional, motora y atencional y en la **autorregulación**. Se observa desde muy pronto: dos recién nacidos de la misma familia pueden diferir mucho en cuánto lloran, cuánto se mueven o con qué facilidad se calman. Es una de las razones por las que los bebés no llegan al mundo como una *tabula rasa*. El temperamento es relativamente estable, pero no inmutable: la experiencia y la crianza lo modulan, y con los años se integra en la personalidad. Su relación con la emoción se estudia en Motivación y Emoción.
+El **temperamento** reúne las diferencias individuales, en buena parte biológicas, en la forma de **reaccionar** a los estímulos (con emoción, movimiento y atención) y en la capacidad de **autorregularse**. Se observa desde muy pronto: dos recién nacidos de la misma familia pueden diferir mucho en cuánto lloran, cuánto se mueven o con qué facilidad se calman. Es una de las razones por las que los bebés no llegan al mundo como una *tabula rasa*. El temperamento es relativamente estable, pero no inmutable: la experiencia y la crianza lo modulan, y con los años se integra en la personalidad. Su relación con la emoción se estudia en Motivación y Emoción.
 
 **Thomas y Chess: el NYLS.** El New York Longitudinal Study, iniciado en 1956 con unos 133 niños según la mayoría de las fuentes (141 en otras), evaluó a través de entrevistas a los padres **9 dimensiones**, como el nivel de actividad, la ritmicidad de las funciones corporales, la aproximación o retirada ante lo nuevo, la adaptabilidad, la intensidad de las reacciones o la calidad del humor. Con ellas, Thomas y Chess describieron tres perfiles:
 
@@ -234,7 +234,7 @@ Como muestra la figura 16.1, la teoría distingue tres niveles:
 | Postconvencional | 5 · Contrato social | «Las leyes deben proteger derechos como la vida» |
 | Postconvencional | 6 · Principios éticos universales | «La vida humana está por encima de la propiedad» |
 
-El apoyo empírico principal procede del estudio longitudinal de Colby et al. (1983), que entrevistó seis veces durante 20 años a 58 varones que tenían 10, 13 y 16 años al empezar. Los estadios se sucedían en el **orden previsto, sin saltos**, y el estadio 5 era poco frecuente y solo aparecía en la adultez; el 6 quedó como ideal teórico.
+El apoyo empírico principal procede del estudio longitudinal de Colby et al. (1983), que entrevistó seis veces durante 20 años a 58 varones que tenían 10, 13 y 16 años al empezar. Los estadios se sucedían en el **orden previsto, sin saltos**, y el estadio 5 era poco frecuente y solo aparecía en la adultez; el 6 no apareció en la muestra.
 
 **Críticas.** Gilligan (1982) sostuvo que Kohlberg partió de muestras masculinas y privilegió una **ética de la justicia**, frente a una **ética del cuidado** centrada en las relaciones y la responsabilidad hacia los demás; las diferencias de sexo halladas después en el razonamiento moral parecen pequeñas. Otros autores señalan que los estadios superiores reflejan valores occidentales y que el juicio moral predice solo en parte la conducta.
 
@@ -311,7 +311,7 @@ El niño **rechazado** es el que más preocupa, porque el rechazo se asocia con 
 
 | Concepto | Definición |
 | --- | --- |
-| Temperamento | Diferencias individuales de base constitucional en reactividad y autorregulación |
+| Temperamento | Diferencias individuales tempranas, en parte biológicas, en reactividad y autorregulación |
 | Bondad de ajuste | Encaje entre el temperamento del niño y las exigencias del entorno (Thomas y Chess) |
 | Control esforzado | Capacidad de inhibir una respuesta dominante y regular la atención (Rothbart) |
 | Moral heterónoma | Reglas impuestas e inmutables; se juzga por las consecuencias (Piaget, 1932) |

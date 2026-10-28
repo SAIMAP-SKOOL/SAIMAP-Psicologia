@@ -25,7 +25,7 @@ La confusión entre las dos primeras es un error clásico. La **cefalocaudal** e
 **¿Qué impulsa el desarrollo motor?** Se han propuesto tres explicaciones:
 
 1. **Enfoque madurativo** (Gesell, McGraw). El desarrollo motor es un programa biológico: los nervios y los músculos maduran en un orden fijo y las habilidades aparecen cuando el organismo está preparado. Gesell elaboró normas de edad para cada conducta. Explica bien la regularidad de la secuencia entre culturas.
-2. **Enfoque experiencial.** Sin negar la maduración, subraya el papel de la práctica. Dennis (1960) observó retrasos motores en niños criados en instituciones con muy pocas oportunidades de moverse, y Hopkins (1991) describió cómo ciertas prácticas de manipulación y ejercicio del bebé, habituales en algunas culturas, se asocian a una adquisición algo más temprana de habilidades como sentarse o andar.
+2. **Enfoque experiencial.** Sin negar la maduración, subraya el papel de la práctica. Dennis (1960) observó retrasos motores en niños criados en instituciones con muy pocas oportunidades de moverse, y los estudios transculturales describen cómo ciertas prácticas de manipulación y ejercicio del bebé, habituales en algunas culturas, se asocian a una adquisición algo más temprana de habilidades como sentarse o andar.
 3. **Teoría de los sistemas dinámicos** (Thelen, 1995). Cada habilidad no se «despliega» desde dentro, sino que **se ensambla** a partir de varios componentes: maduración del sistema nervioso, fuerza y proporciones del cuerpo, motivación y características del entorno. Las primeras versiones de una habilidad son inestables y torpes; con la práctica se reorganizan hasta volverse fluidas. Desde esta perspectiva, Thelen propuso que la desaparición de la marcha automática (Unidad 8) podría deberse más al aumento de peso de las piernas que a una inhibición desde la corteza, una interpretación que sigue en discusión.
 
 Hoy el enfoque de sistemas dinámicos es el marco de referencia, porque integra los otros dos. Un ejemplo: Hugo, de once meses, se pone de pie agarrado al sofá. Que dé sus primeros pasos depende de que sus piernas tengan fuerza suficiente, de que controle el equilibrio, del suelo (no es lo mismo una alfombra mullida que un parqué) y de que al otro lado haya algo que quiera alcanzar. Ningún componente basta por sí solo. Por eso hay varias rutas hacia una misma habilidad: unos bebés gatean, otros se arrastran sobre la tripa o se desplazan sentados, y todos acaban andando.
@@ -55,7 +55,7 @@ Como muestra la figura 10.1, un niño sano puede **andar solo** a los 8 meses y 
 
 ![m](wm-vangogh.jpg)
 
-Figura 10.2. **Los primeros pasos como acontecimiento social.** Un padre se agacha con los brazos abiertos mientras la madre sostiene a la niña que intenta andar. Fuente: Vincent van Gogh, *Primeros pasos (según Millet)* (1890), Wikimedia Commons, dominio público.
+Figura 10.2. **Los primeros pasos como acontecimiento social.** Detalle del cuadro: la niña avanza con los brazos tendidos hacia delante mientras su madre la sostiene por detrás; en la obra completa, el padre la espera agachado con los brazos abiertos. Fuente: Vincent van Gogh, *Primeros pasos (según Millet)* (1890), Wikimedia Commons, dominio público.
 
 La escena de la figura 10.2 ilustra una idea de los sistemas dinámicos: andar no es solo un logro del sistema nervioso. Hay un adulto que anima, una meta que alcanzar y un entorno que hace atractivo el esfuerzo. Andar, además, permite al niño ir hacia las personas y explorar más lejos. La experiencia de desplazarse por sí mismo se relaciona con cambios en la percepción del espacio, como se vio al estudiar el abismo visual (Unidad 9).
 
@@ -80,7 +80,7 @@ Aunque se suele hablar de «alcance guiado por la vista», la vista no lo explic
 
 ![](prension.png)
 
-Figura 10.3. **De la prensión cubito-palmar a la pinza superior.** Secuencia del prealcance del recién nacido al alcance guiado por la vista (≈3–4 meses) y a las formas de prensión cubito-palmar, palmar, pinza inferior y pinza superior (≈9–12 meses). Edades aproximadas. Elaboración propia.
+Figura 10.3. **Del prealcance a la pinza superior.** Secuencia del prealcance del recién nacido al alcance guiado por la vista (≈3–4 meses) y a las formas de prensión cubito-palmar, palmar, pinza inferior y pinza superior (≈9–12 meses). Edades aproximadas. Elaboración propia.
 
 Como muestra la figura 10.3, el agarre se desplaza desde el borde de la mano hacia los dedos, y del uso de toda la palma al uso independiente del pulgar y del índice. La **pinza superior** es un logro notable: permite coger una miga de pan o una pasa, y por eso el bebé empieza a llevarse a la boca cualquier cosa que encuentra en el suelo.
 
@@ -215,7 +215,7 @@ La regulación hormonal de la pubertad y sus bases neuroendocrinas se estudian c
 
 El estirón no afecta a todo el cuerpo a la vez. Suelen crecer primero las **manos y los pies**, después los brazos y las piernas, y por último el tronco. Durante un tiempo las proporciones cambian y el adolescente puede sentirse desgarbado: las zapatillas del curso anterior ya no le valen aunque la talla apenas haya cambiado. Esta asincronía es pasajera.
 
-Cambia también la **composición corporal**. Los chicos ganan más masa muscular y capacidad cardiorrespiratoria, y las chicas acumulan proporcionalmente más grasa (Tanner, 1990).
+Cambia también la **composición corporal**. Los chicos ganan más masa muscular y capacidad cardiorrespiratoria, y las chicas acumulan proporcionalmente más grasa.
 
 **El desarrollo motor adolescente.** Antes de la pubertad, chicos y chicas rinden de forma muy parecida en la mayoría de las pruebas motoras. A partir de la pubertad, los chicos mejoran más en tareas de fuerza, velocidad y resistencia, mientras que el rendimiento medio de muchas chicas se estanca. Hay dos explicaciones complementarias:
 

@@ -8,7 +8,7 @@ En apenas cinco años, un bebé que solo sabe llorar pasa a contar lo que hizo a
 
 ### 14.1 Componentes del lenguaje y teorías de la adquisición
 
-El **lenguaje** es un sistema de símbolos que se combinan según reglas compartidas para producir y entender mensajes. Con un número pequeño de sonidos, cualquier hablante puede crear y comprender frases que nunca ha oído. Para lograrlo, el niño tiene que dominar cinco componentes:
+El **lenguaje** es un sistema de símbolos que se combinan según reglas compartidas para producir y entender mensajes. Con un número pequeño de sonidos, cualquier hablante puede crear y comprender frases que nunca ha oído. Para lograrlo, debe aprender cinco componentes:
 
 | Componente | Qué regula | Ejemplo |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ El hallazgo muestra un mecanismo de aprendizaje potente y general: parte de lo q
 
 **El habla dirigida al bebé.** En muchas culturas, los adultos y los hermanos mayores hablan a los bebés de una forma especial: tono más agudo, entonación exagerada, ritmo lento, frases cortas y muchas repeticiones («¿Dónde está el osito? ¡Aquí está el osito!»). Capta la atención y resalta las palabras importantes. A medida que el niño progresa, los adultos alargan y complican sus frases.
 
-Durante años se dio por hecho que los bebés preferían con claridad este habla. **ManyBabies 1** (ManyBabies Consortium, 2020) lo comprobó en **67 laboratorios** con **2.329 bebés**. La preferencia existe, pero su tamaño es moderado: **d = 0,35** (IC 95 % 0,29–0,42), aproximadamente la mitad de lo que sugerían los estudios previos. Fue mayor en los bebés de más edad y con estímulos en su lengua nativa. La ciencia abierta corrigió así un efecto sobreestimado (Unidad 5).
+Durante años se dio por hecho que los bebés preferían con claridad esta forma de hablar. **ManyBabies 1** (ManyBabies Consortium, 2020) lo comprobó en **67 laboratorios** con **2.329 bebés**. La preferencia existe, pero su tamaño es moderado: **d = 0,35** (IC 95 % 0,29–0,42), aproximadamente la mitad de lo que sugerían los estudios previos. Fue mayor en los bebés de más edad y con estímulos en su lengua nativa. La ciencia abierta corrigió así un efecto sobreestimado (Unidad 5).
 
 Ninguno de los dos actúa en el vacío. En el estudio de Kuhl, Tsao y Liu (2003), visto en la Unidad 9, la exposición a una lengua con una persona presente tuvo efecto y la misma exposición grabada, no. El cálculo estadístico parece necesitar un contexto social que dirija la atención.
 
@@ -66,7 +66,7 @@ Figura 14.2. **Hitos del desarrollo del lenguaje de 0 a 60 meses.** Del llanto y
 
 **Periodo prelingüístico (0–12 meses, aproximadamente).** El primer recurso comunicativo es el **llanto**. Hacia los 2 meses aparece el **arrullo**: sonidos suaves de tipo vocálico que el bebé produce cuando está tranquilo. Hacia los 6–7 meses llega el **balbuceo canónico**, con sílabas formadas por consonante y vocal que se repiten («bababa», «tatata»). El balbuceo se va ajustando a los sonidos y al ritmo de la lengua que el bebé oye.
 
-Hacia los 9–12 meses se consolida la **atención conjunta**: el bebé y el adulto miran el mismo objeto y cada uno sabe que el otro lo mira. Aparecen dos tipos de gestos:
+Hacia los 9–12 meses aparece la **atención conjunta**: el bebé y el adulto miran el mismo objeto y cada uno sabe que el otro lo mira. Aparecen dos tipos de gestos:
 
 - **Protoimperativos**: usar al adulto para conseguir algo. El bebé señala la galleta del armario para que se la den.
 - **Protodeclarativos**: compartir la atención. El bebé señala un perro en el parque y mira a su padre para que también lo vea.
@@ -110,9 +110,9 @@ Los retrasos y trastornos del lenguaje y del habla (dislalias, disartria, trasto
 
 ### Mito frecuente
 
-**Mito:** «Poner al bebé vídeos en otro idioma le ayuda a aprenderlo».
+**Mito:** «Criar a un niño con dos lenguas retrasa su lenguaje y lo confunde».
 
-**Realidad:** en el estudio de Kuhl, Tsao y Liu (2003), los bebés de 9 meses que escucharon mandarín de personas presentes recuperaron la capacidad de discriminar sus sonidos; los que recibieron la misma exposición en vídeo o solo en audio no mostraron ningún efecto. Además, más tiempo de pantalla en la primera infancia predice resultados algo peores en el cribado del desarrollo, aunque el efecto es pequeño (Madigan et al., 2019).
+**Realidad:** los niños bilingües alcanzan los hitos del lenguaje en edades comparables a los monolingües cuando se cuenta su vocabulario en las dos lenguas. Que en cada lengua por separado tengan menos palabras no es un retraso, y mezclar las dos lenguas en una misma frase es una conducta normal del desarrollo bilingüe, no un signo de confusión.
 
 ### Conceptos clave
 

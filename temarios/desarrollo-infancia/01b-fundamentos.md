@@ -32,7 +32,7 @@ Como muestra la figura 3.1, el desarrollo cognitivo es una sucesión de equilibr
 | Operaciones concretas | 7–11/12 años | Lógica reversible sobre objetos presentes; conservación |
 | Operaciones formales | 11/12 años en adelante | Razonamiento hipotético-deductivo y abstracto |
 
-Los estadios siguen una **secuencia invariante**: el orden es el mismo para todos porque cada uno se construye sobre el anterior, aunque las edades varíen. Cada estadio forma además una **estructura de conjunto**, una forma general de razonar que debería aplicarse a contenidos diferentes. Esta segunda idea es la más discutida. Los estadios se estudian a fondo en la Unidad 12 y las críticas, en la Unidad 13.
+Los estadios siguen una **secuencia invariante**: el orden es el mismo para todos porque cada uno se construye sobre el anterior, aunque las edades varíen. Cada estadio forma además una **estructura de conjunto**, una forma general de razonar que debería aplicarse a contenidos diferentes. Esta idea es la más discutida. Los estadios se estudian en la Unidad 12 y las críticas, en la 13.
 
 Piaget investigó con el **método clínico** (Unidad 5) y, en sus obras sobre el bebé (Piaget, 1936, 1937), con la observación detallada de sus propios hijos.
 
@@ -69,14 +69,12 @@ Las aplicaciones educativas de la ZDP se tratan con más detalle en la asignatur
 
 ### 3.3 Andamiaje, participación guiada y habla privada
 
-**Andamiaje.** El término es una metáfora de la construcción: el andamio sostiene el edificio mientras se levanta y se retira cuando ya se sostiene solo. Lo propusieron **Wood, Bruner y Ross (1976)** al observar cómo una tutora ayudaba a niños pequeños a construir una pirámide con bloques. Es un error frecuente atribuirlo a Vygotsky: el concepto encaja muy bien con la ZDP, pero no es suyo. Los autores describieron varias funciones del tutor:
+**Andamiaje.** El término es una metáfora de la construcción: el andamio sostiene el edificio mientras se levanta y se retira cuando ya se sostiene solo. Lo propusieron **Wood, Bruner y Ross (1976)** al observar cómo una tutora ayudaba a niños pequeños a construir una pirámide con bloques. Es un error frecuente atribuirlo a Vygotsky: el concepto encaja muy bien con la ZDP, pero no es suyo. Describieron varias funciones del tutor:
 
-- **Despertar el interés** por la tarea.
-- **Simplificarla**, reduciendo el número de pasos que el niño debe controlar.
-- **Mantener la dirección**, para que el niño no pierda el objetivo.
-- **Señalar los rasgos importantes** y las diferencias entre lo hecho y lo correcto.
-- **Controlar la frustración**, sin que la ayuda se convierta en resolverlo todo.
-- **Demostrar** cómo se hace, para que el niño lo imite.
+- **Despertar el interés** por la tarea y **simplificarla**.
+- **Mantener la dirección** hacia el objetivo.
+- **Señalar los rasgos importantes** y los errores.
+- **Controlar la frustración** y **demostrar** cómo se hace.
 
 La clave es la **contingencia**: la ayuda aumenta cuando el niño falla y disminuye cuando acierta. Quien enseña a nadar a un niño sujeta primero todo su cuerpo, después solo la barriga, luego le deja un churro de espuma y al final se aparta. Si se aparta demasiado pronto, el niño se hunde; si nunca se aparta, el niño no aprende a nadar solo.
 
@@ -97,14 +95,14 @@ Hay consecuencias prácticas: mandar callar a un niño que habla solo puede inte
 
 ### 3.4 El procesamiento de la información y las funciones ejecutivas
 
-El enfoque del **procesamiento de la información** procede de la psicología cognitiva y toma como metáfora el ordenador: la mente recibe información, la codifica, la guarda, la transforma y produce una respuesta. Aplicado al desarrollo, pregunta **qué cambia con la edad** en ese sistema. Suele distinguir dos niveles: el «equipo», que corresponde a la maduración del sistema nervioso, y los «programas», que son las estrategias y los conocimientos que el niño adquiere.
+El enfoque del **procesamiento de la información** parte de una analogía informática: entre el estímulo y la conducta median operaciones de codificación, almacenamiento y recuperación que pueden describirse paso a paso. Aplicado al desarrollo, pregunta **qué cambia con la edad** en ese sistema: la capacidad y la rapidez del propio sistema, ligadas a la maduración cerebral, o el repertorio de estrategias y conocimientos con que el niño lo aprovecha.
 
 Frente a Piaget, este enfoque describe un cambio **gradual y continuo**, sin grandes reorganizaciones por estadios, y estudia procesos concretos con tareas muy controladas. Los principales focos son:
 
 - **Memoria de trabajo**: la cantidad de información que se mantiene y manipula a la vez aumenta durante la infancia.
 - **Velocidad de procesamiento**: se hace más rápida con la edad en tareas muy distintas, lo que sugiere un cambio general ligado a la maduración (Kail, 1991).
 - **Estrategias**: los niños aprenden a repasar, organizar y elaborar lo que quieren recordar. La memoria infantil y la metamemoria se estudian en la asignatura de Memoria.
-- **Metacognición**: saber cómo funciona la propia mente y vigilar el propio pensamiento, por ejemplo, darse cuenta de que no se ha entendido un párrafo.
+- **Metacognición**: conocer y vigilar el propio pensamiento, como notar que no se ha entendido un párrafo.
 
 **Las olas superpuestas.** Robert Siegler (1996) mostró que, a una misma edad, un niño no usa una única estrategia, sino varias que compiten. Para resolver 3 + 5, un niño de seis años puede contar todos los dedos, contar a partir del número mayor («cinco… seis, siete, ocho») o recordar directamente el resultado. Con la práctica, las estrategias más eficaces se usan cada vez más, como olas que suben mientras otras bajan. Para observar este cambio hace falta registrarlo de cerca mientras ocurre: es el **método microgenético** (Unidad 6).
 
@@ -186,7 +184,7 @@ c) la inhibición
 
 ### 4.1 Etología: impronta, periodos críticos y periodos sensibles
 
-La **etología** estudia la conducta de los animales en su medio natural desde la teoría de la evolución. Sus fundadores, los zoólogos Konrad Lorenz y Niko Tinbergen, partían de una idea sencilla: muchas conductas existen porque ayudaron a sobrevivir y a reproducirse a los antepasados de la especie. Tinbergen propuso preguntar por cada conducta qué la desencadena, cómo se desarrolla en el individuo, para qué sirve y cómo apareció en la especie.
+La **etología** estudia la conducta de los animales en su medio natural desde la teoría de la evolución. Konrad Lorenz y Niko Tinbergen, considerados sus fundadores, partían de una idea sencilla: muchas conductas existen porque ayudaron a sobrevivir y a reproducirse a los antepasados de la especie. Tinbergen propuso preguntar por cada conducta qué la desencadena, cómo se desarrolla en el individuo, para qué sirve y cómo apareció en la especie.
 
 **La impronta.** Lorenz observó que las crías de ganso y de pato siguen al primer objeto en movimiento que ven poco después de salir del huevo. Normalmente es la madre, pero si es el propio Lorenz, las crías lo siguen a él. Este vínculo, la **impronta**, tiene tres rasgos:
 
@@ -207,7 +205,7 @@ Algunos casos humanos encajan bien con la idea de periodo sensible. Lenneberg (1
 
 **De la etología al desarrollo humano.** John Bowlby aplicó estas ideas al vínculo entre el bebé y quien lo cuida. El llanto, la sonrisa, el aferrarse o el seguir serían conductas preparadas por la evolución para mantener cerca al adulto y obtener protección. Así nació la **teoría del apego** (Unidad 15). Más recientemente, la **psicología evolucionista del desarrollo** (Bjorklund y Pellegrini, 2002) se pregunta qué función adaptativa tienen rasgos propios de la infancia, como su larga duración o el juego.
 
-**Críticas.** Las explicaciones evolucionistas son fáciles de construir **a posteriori**: casi cualquier conducta puede presentarse como adaptativa una vez observada, y es difícil ponerlo a prueba. Además, la noción de periodo crítico se trasladó a veces de forma demasiado rígida a los niños humanos. En el estudio ERA, los niños que salieron de orfanatos rumanos antes de los 6 meses eran casi indistinguibles de los adoptados británicos, y los que salieron más tarde mostraron problemas persistentes, aunque recuperaron un CI normal (Sonuga-Barke et al., 2017). En el BEIP, un ensayo aleatorizado excepcional, la acogida familiar benefició más cuanto antes se produjo, pero sus efectos seguían a los 18 años (Nelson et al., 2007; Humphreys et al., 2022). La experiencia temprana importa mucho, pero no lo decide todo.
+**Críticas.** Las explicaciones evolucionistas son fáciles de construir **a posteriori**: casi cualquier conducta puede presentarse como adaptativa una vez observada, y es difícil ponerlo a prueba. Además, la noción de periodo crítico se trasladó a veces de forma demasiado rígida a los niños humanos. En el estudio ERA, los niños que salieron de orfanatos rumanos antes de los 6 meses eran casi indistinguibles de los adoptados británicos, y los que salieron más tarde mostraron problemas persistentes, aunque recuperaron un CI normal (Sonuga-Barke et al., 2017). En el BEIP, un ensayo aleatorizado excepcional, la acogida familiar benefició más cuanto antes se produjo, y sus efectos seguían a los 18 años (Nelson et al., 2007; Humphreys et al., 2022). La experiencia temprana importa mucho, pero no lo decide todo.
 
 ### 4.2 El modelo ecológico de Bronfenbrenner
 
@@ -286,7 +284,7 @@ Algunas regularidades destacan en la tabla. Las teorías clásicas tienden a ocu
 
 **El marco integrador actual.** Ninguna teoría explica por sí sola todo el desarrollo. Ante esto, muchos manuales hablan de **eclecticismo**: tomar de cada teoría lo que mejor explica un aspecto concreto. Para entender las rabietas de un niño de cinco años al salir del colegio sirve mirar su temperamento, sus funciones ejecutivas, si las rabietas obtienen recompensa (Skinner) y la relación entre familia y escuela (Bronfenbrenner).
 
-El eclecticismo tiene un riesgo: convertirse en una mezcla de ideas sin coherencia, en la que todo explica todo. Por eso el campo tiende hoy a algo más ordenado que una simple suma: los **modelos relacionales y de sistemas del desarrollo** (Lerner, 2015). Sus principios comunes son:
+El eclecticismo tiene un riesgo: acabar en un catálogo de explicaciones parciales que no se contrastan entre sí, en el que todo explica todo. Por eso el campo tiende hoy a algo más ordenado que una simple suma: los **modelos relacionales y de sistemas del desarrollo** (Lerner, 2015). Sus principios comunes son:
 
 1. El desarrollo resulta de la interacción entre **varios niveles**, de los genes a la cultura.
 2. Las influencias son **bidireccionales**: el niño cambia su entorno y es cambiado por él.

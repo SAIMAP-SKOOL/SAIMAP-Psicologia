@@ -36,7 +36,7 @@
 | Ainsworth et al. (1978) | Situación Extraña: tipos A, B y C | 15 |
 | Madigan et al. (2023) | 285 estudios, 20.720 díadas: B 51,6 %, A 14,7 %, C 10,2 %, D 23,5 % | 15 |
 | Fearon et al. (2010) | Apego inseguro y problemas externalizantes: d = 0,31 | 15 |
-| ERA (Sonuga-Barke et al., 2017); BEIP (Nelson et al., 2007; Humphreys et al., 2022) | Secuelas tras más de 6 meses de institución, pero con gran recuperación; el acogimiento familiar temprano mejora el CI | 15 |
+| ERA (Sonuga-Barke et al., 2017); BEIP (Nelson et al., 2007; Humphreys et al., 2022) | Secuelas tras más de 6 meses de institución, con recuperación del CI y gran variabilidad; el acogimiento familiar temprano mejora el CI | 15 |
 | Thomas y Chess (NYLS) | Temperamento fácil ≈40 %, difícil ≈10 %, lento en reaccionar ≈15 %, no clasificable ≈35 % | 16 |
 | Colby, Kohlberg, Gibbs y Lieberman (1983) | Seguimiento de 20 años: secuencia invariante de estadios morales | 16 |
 | Gershoff y Grogan-Kaylor (2016) | Castigo físico: asociado a 13 de 17 resultados perjudiciales y a ninguno beneficioso | 16 |
@@ -60,7 +60,7 @@
 | Todos los adultos razonan de forma formal | Muchos adultos no usan el pensamiento formal en muchos contenidos | 12 |
 | Piaget lo explicó todo / Piaget estaba equivocado | Infravaloró las competencias tempranas y sobrevaloró la generalidad de los estadios; su secuencia básica se mantiene | 13 |
 | El bilingüismo retrasa el lenguaje | Los hitos se alcanzan en edades comparables si se cuenta el vocabulario de ambas lenguas | 14 |
-| El efecto Mozart hace más listos a los bebés | El efecto es pequeño, pasajero, no específico de Mozart y afectado por sesgos | 14 |
+| El efecto Mozart hace más listos a los bebés | El efecto es pequeño, igual con cualquier música y está inflado por sesgos | 5, 9 |
 | El apego solo se forma con la madre | Los bebés forman apegos múltiples; no hay diferencias entre madres y padres en la distribución | 15 |
 | La mentalidad de crecimiento transforma el rendimiento | Los efectos medios son pequeños y se concentran en alumnado de bajo rendimiento | 16 |
 | El test de la golosina predice el éxito en la vida | La asociación es pequeña y depende en gran parte del contexto familiar | 16 |
@@ -123,4 +123,14 @@ Los gráficos y esquemas de este temario son de **elaboración propia** de SAIMA
 
 Las fotografías y obras de arte proceden de **Wikimedia Commons** y se usan según sus licencias: [dominio público](https://creativecommons.org/publicdomain/mark/1.0/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) y [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Los montajes de varias imágenes son obra derivada de SAIMAP y, cuando incluyen material CC BY-SA, se comparten con la misma licencia.
 
-{{CREDITOS}}
+| Figura | Autoría y original en Wikimedia Commons | Licencia | Cambios |
+| --- | --- | --- | --- |
+| 1.2 Una plaza llena de juegos infantiles | Pieter Bruegel el Viejo, *Juegos de niños* (1560). Original: [archivo](https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg) | Dominio público | Reducida |
+| 1.3 Pioneros del estudio científico del niño | C. Darwin y su hijo William: atribuida a Antoine Claudet (1842); W. Preyer: G. & A. Overbeck; G. S. Hall: Frederick Gutekunst; A. Binet: fotógrafo no identificado. Original: [archivo 1](https://commons.wikimedia.org/wiki/File:Charles-Darwin-and-William-Darwin,-1842.png); [archivo 2](https://commons.wikimedia.org/wiki/File:Johann_Wilhelm_Preyer_by_Overbeck.jpg); [archivo 3](https://commons.wikimedia.org/wiki/File:G._Stanley_Hall.jpg); [archivo 4](https://commons.wikimedia.org/wiki/File:Alfred_Binet.jpg) | Dominio público | Montaje; recorte (Preyer) |
+| 2.1 Cuatro teóricos del desarrollo | E. Erikson: autor desconocido; A. Bandura: Albert Bandura; J. Piaget: *Michiganensian*, Universidad de Míchigan; L. Vygotsky: The Vigotsky Project. Original: [archivo 1](https://commons.wikimedia.org/wiki/File:Erik_Erikson.jpg); [archivo 2](https://commons.wikimedia.org/wiki/File:Albert_Bandura_Psychologist.jpg); [archivo 3](https://commons.wikimedia.org/wiki/File:Jean_Piaget_in_Ann_Arbor_(cropped).png); [archivo 4](https://commons.wikimedia.org/wiki/File:Lev_Vygotsky_1896-1934.jpg) | Dominio público; Bandura: CC BY-SA 4.0; Vygotsky: CC BY-SA 3.0 | Montaje |
+| 7.2 Frasco de talidomida | U.S. Food and Drug Administration. Original: [archivo](https://commons.wikimedia.org/wiki/File:Kevadon_(thalidomide),_1960.jpg) | Dominio público | Reducida |
+| 7.4 Recién nacido en una incubadora | Evan-Amos. Original: [archivo](https://commons.wikimedia.org/wiki/File:Infant-Incubator-wBaby-1978-USA.jpg) | Dominio público | Reducida |
+| 8.2 Dos reflejos primitivos | Reflejo de Moro: Patty2; prensión palmar: Rlunaro. Original: [archivo 1](https://commons.wikimedia.org/wiki/File:Moro_reflex.jpg); [archivo 2](https://commons.wikimedia.org/wiki/File:Grasp_reflex_baby.jpg) | Moro: dominio público; prensión: CC BY-SA 4.0 | Montaje |
+| 10.2 Los primeros pasos como acontecimiento social | Vincent van Gogh, *Primeros pasos (según Millet)* (1890). Original: [archivo](https://commons.wikimedia.org/wiki/File:Partial_First_Steps_after_Millet_1890.JPG) | Dominio público | Reducida |
+| 15.2 Madre sustituta de felpa | Harry F. Harlow (1958), *The nature of love*. Original: [archivo](https://commons.wikimedia.org/wiki/File:Natural_of_Love_Typical_response_to_cloth_mother_surrogate_in_fear_test.jpg) | CC0 1.0 | Ninguna |
+| Resto de figuras (gráficos y esquemas) | Elaboración propia (SAIMAP) | Libre uso educativo con atribución | — |

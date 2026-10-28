@@ -8,18 +8,18 @@ Las teorías del capítulo anterior solo valen lo que valen los datos que las so
 
 ### 5.1 Observación, entrevista clínica y cuestionarios
 
-Cualquier método de investigación se juzga con dos criterios. La **fiabilidad** es la consistencia de la medida: dos observadores que registran la misma escena, o el mismo test aplicado dos veces, deben dar resultados parecidos. La **validez** es el grado en que la medida refleja de verdad lo que pretende medir.
+Cualquier método de investigación se juzga con dos criterios. La **fiabilidad** es la consistencia de la medida: dos observadores que registran la misma escena, o el mismo test aplicado dos veces, deben dar resultados parecidos. La **validez** indica si la medida capta realmente el constructo que se quiere estudiar: un test puede ser muy fiable y medir otra cosa.
 
 **La observación** registra la conducta tal como ocurre. Tiene dos variantes:
 
 - **Observación naturalista**: se observa al niño en sus contextos habituales (casa, patio, aula). Sirve para quien todavía no habla y capta la conducta real. Sus límites son la **reactividad** (la conducta cambia porque el niño se sabe observado) y la imposibilidad de saber qué causó lo que se ve. Para reducir el volumen de datos se usa a menudo el **muestreo de tiempo**: se registra si aparece una conducta en intervalos breves y fijos, por ejemplo cada 30 segundos de recreo.
-- **Observación estructurada**: el investigador prepara en el laboratorio una situación igual para todos y registra cómo responde cada niño. Gana comparabilidad, porque todos tienen la misma oportunidad de mostrar la conducta, y pierde naturalidad. La Situación Extraña, con la que se evalúa el apego, es un ejemplo (Unidad 15).
+- **Observación estructurada**: el investigador prepara en el laboratorio una situación igual para todos y registra cómo responde cada niño. Es útil para conductas que en casa aparecen poco o de forma imprevisible, y permite comparar a unos niños con otros; a cambio, el escenario es menos natural. La Situación Extraña, con la que se evalúa el apego, es un ejemplo (Unidad 15).
 
 En ambos casos se definen antes las categorías de conducta y se calcula la **fiabilidad interjueces**: el grado de acuerdo entre dos observadores independientes.
 
-**La entrevista clínica** fue el instrumento de Piaget. Se plantea al niño una tarea o una pregunta y, según lo que responde, se formulan nuevas preguntas para entender su razonamiento: «¿Por qué crees que ahora hay más agua?», «¿Y si lo vuelvo a echar en el otro vaso?». Su virtud es la flexibilidad; su defecto, el mismo: si a cada niño se le pregunta algo distinto, las respuestas son difíciles de comparar, y el entrevistador puede sugerir sin querer la respuesta.
+**La entrevista clínica** fue el instrumento de Piaget. Se plantea al niño una tarea o una pregunta y, según lo que responde, se formulan nuevas preguntas para entender su razonamiento: «¿Por qué crees que ahora hay más agua?», «¿Y si lo vuelvo a echar en el otro vaso?». Permite seguir el hilo del razonamiento infantil, pero como cada conversación toma un rumbo propio, cuesta estandarizar los datos, y el entrevistador puede sugerir sin querer la respuesta.
 
-**Los cuestionarios y autoinformes** permiten reunir mucha información en poco tiempo. Hall ya los usó para estudiar a niños y adolescentes (véase Historia de la Psicología). Sus problemas son dos: los niños pequeños no saben leer o no comprenden bien ciertas preguntas, y cualquier participante puede responder para dar buena imagen (**deseabilidad social**). Por eso es frecuente preguntar a varios **informantes**: el propio niño, la familia y el profesorado, que no siempre coinciden.
+**Los cuestionarios y autoinformes** son económicos y se aplican a muestras grandes. Hall ya los usó para estudiar a niños y adolescentes (véase Historia de la Psicología). Con niños pequeños apenas sirven, porque exigen leer y entender las preguntas, y a cualquier edad las respuestas pueden inclinarse hacia lo socialmente aceptable (**deseabilidad social**). Por eso es frecuente preguntar a varios **informantes**: el propio niño, la familia y el profesorado, que no siempre coinciden.
 
 La tabla resume estos métodos y otros dos que completan el repertorio:
 
@@ -60,7 +60,7 @@ Como muestra la figura 5.1, los estímulos difieren en complejidad. Los bebés m
 - **Cortisol** en saliva: marcador de la respuesta de estrés.
 - **Seguimiento ocular** (*eye-tracking*): dónde y durante cuánto tiempo mira, sin depender de un observador humano.
 
-Su límite común es la interpretación. Una aceleración del pulso puede indicar miedo, interés o simple movimiento, y suele ser difícil saber qué estímulo concreto la provocó. Además, muchos bebés lloran o se duermen y sus datos se pierden, por lo que conviene informar de cuántos se excluyeron y por qué. Las bases sensoriales de estos paradigmas se tratan también en Atención y Percepción.
+Su límite común es la interpretación. Una aceleración del pulso puede indicar miedo, interés o simple movimiento: la señal fisiológica rara vez dice por sí sola qué proceso psicológico la ha producido. Además, muchos bebés lloran o se duermen y sus datos se pierden, por lo que conviene informar de cuántos se excluyeron y por qué. Las bases sensoriales de estos paradigmas se tratan también en Atención y Percepción.
 
 ### 5.3 Diseños correlacional, experimental, cuasi-experimental y transcultural
 
@@ -119,16 +119,16 @@ La lección de ManyBabies no es que la investigación anterior fuera inútil, si
 
 ### Mito frecuente
 
-**Mito:** «El test de la golosina demostró que la capacidad de esperar a los 4 años predice con fuerza el éxito escolar».
+**Mito:** «Escuchar a Mozart hace más inteligentes a los niños (el «efecto Mozart»)».
 
-**Realidad:** al replicar el estudio con una muestra mayor y más diversa de 918 niños, Watts, Duncan y Quan (2018) hallaron una asociación entre la espera y el rendimiento posterior de aproximadamente la mitad de la original, que se reducía en dos tercios al controlar el contexto familiar. Es un ejemplo de manual de cómo una tercera variable puede inflar una correlación.
+**Realidad:** el metaanálisis de Pietschnig, Voracek y Formann (2010) halló un efecto pequeño (d = 0,37) frente a no escuchar nada, pero de igual tamaño con cualquier otra música, inflado por el sesgo de publicación y mayor en los estudios del laboratorio que lo propuso. Es un buen ejemplo de por qué un hallazgo llamativo necesita réplicas independientes y metaanálisis antes de convertirse en consejo para las familias.
 
 ### Conceptos clave
 
 | Concepto | Definición |
 | --- | --- |
 | Fiabilidad | Consistencia de una medida entre ocasiones u observadores |
-| Validez | Grado en que una medida refleja de verdad lo que pretende medir |
+| Validez | Grado en que una medida capta realmente el constructo que se quiere estudiar |
 | Reactividad | Cambio de la conducta porque la persona sabe que está siendo observada |
 | Entrevista clínica | Entrevista flexible en la que cada pregunta depende de la respuesta anterior (Piaget) |
 | Habituación-deshabituación | Disminución de la mirada ante un estímulo repetido y recuperación ante uno nuevo |
@@ -297,9 +297,9 @@ A estos se añaden dos errores generales. El primero es confundir una **predicci
 
 ### Mito frecuente
 
-**Mito:** «Lo que ocurre en los tres primeros años lo determina todo; después ya no hay vuelta atrás».
+**Mito:** «Si comparamos niños de 6 y de 10 años en el mismo curso, vemos cómo cambia cada niño al crecer».
 
-**Realidad:** los estudios longitudinales muestran periodos sensibles, pero no rígidos. En el estudio ERA, incluso en el grupo que pasó más de 6 meses en instituciones, el 21 % no tuvo problemas de salud mental (Sonuga-Barke et al., 2017), y en el BEIP los niños pasados a acogimiento familiar mejoraron, más cuanto antes salieron, con ganancias de CI aún visibles a los 18 años (Nelson et al., 2007; Humphreys et al., 2022).
+**Realidad:** un diseño transversal solo muestra diferencias entre grupos de edad medidos a la vez. No informa del cambio dentro de cada persona y confunde la edad con la cohorte: los niños de 10 años no solo son mayores, también nacieron en otro momento. Para estudiar el cambio intraindividual hace falta un diseño longitudinal, y para separar edad, cohorte y momento de medida, un diseño secuencial (Schaie, 1965).
 
 ### Conceptos clave
 

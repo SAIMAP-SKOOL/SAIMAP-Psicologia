@@ -19,7 +19,7 @@ Dos procesos se combinan en todo desarrollo:
 
 Leer, por ejemplo, requiere cierta madurez cerebral, pero nadie lee sin que alguien le enseñe.
 
-Del desarrollo se suelen destacar varias propiedades: es **continuo y acumulativo** (lo que ocurre en una etapa condiciona las siguientes), **holístico** (lo físico, lo cognitivo, lo afectivo y lo social se influyen entre sí), **plástico** (puede modificarse con la experiencia) y **dependiente del contexto histórico y cultural** (ninguna descripción única vale para todos los grupos y épocas).
+Los manuales suelen atribuir al desarrollo cuatro rasgos. Es **continuo y acumulativo**: cada logro se apoya en los anteriores. Es **holístico**: cuerpo, pensamiento, emociones y relaciones cambian a la vez y se condicionan. Es **plástico**: la experiencia puede reorientarlo. Y **depende del contexto histórico y cultural**: lo que es típico en una época o un grupo no tiene por qué serlo en otro.
 
 Las teorías del desarrollo se diferencian por la postura que adoptan ante unos pocos **debates de fondo**. Como muestra la figura 1.1, conviene pensarlos como continuos y no como opciones excluyentes.
 
@@ -64,7 +64,7 @@ En los siglos XVII y XVIII se enfrentaron tres visiones filosóficas del niño q
 
 La confusión más frecuente es atribuir la ***tabula rasa*** a Rousseau. Es de **Locke**. Rousseau defendió lo contrario: un niño con una naturaleza propia, activo, que la sociedad puede corromper. Locke es un antecedente del ambientalismo de las teorías del aprendizaje; Rousseau, de las teorías madurativas y de la idea del niño activo.
 
-La **adolescencia** como etapa reconocida es aún más reciente. Varios cambios del siglo XIX y comienzos del XX contribuyeron a ella: la industria necesitaba trabajadores más formados, se aprobaron leyes que limitaban el trabajo infantil y la escolarización se hizo obligatoria y más larga. Los jóvenes pasaron más tiempo entre iguales y fuera del mundo laboral, y empezaron a verse como un grupo con rasgos propios. La obra de Hall (1904), que se trata en el apartado siguiente, dio a esta etapa un lugar en la psicología.
+La **adolescencia** como etapa reconocida es aún más reciente. Su reconocimiento, entre finales del siglo XIX y comienzos del XX, acompañó a la industrialización: cuando el trabajo exigió más formación y las leyes apartaron a los menores de las fábricas, la escuela obligatoria alargó los años de dependencia. Esa franja de edad, que pasaba su tiempo con otros jóvenes y no con adultos trabajadores, empezó a percibirse como un grupo con identidad propia. La obra de Hall (1904), que se trata en el apartado siguiente, dio a esta etapa un lugar en la psicología.
 
 Pensar la infancia como construcción histórica no niega la biología: lo que varía es cómo cada sociedad interpreta los cambios corporales, cuánto prolonga cada etapa y qué espera de ella.
 
@@ -228,7 +228,7 @@ La valoración actual es doble. Freud acertó al dar importancia a la infancia, 
 
 ### 2.2 Erikson y las nuevas teorías analíticas
 
-Erik **Erikson** (1950, *Childhood and Society*) partió del psicoanálisis, pero cambió el acento en tres puntos: dio más peso a la **sociedad y la cultura** que a la sexualidad, vio al niño como un agente **activo** que explora y se adapta, y extendió el desarrollo a **toda la vida**. Por eso sus estadios se llaman **psicosociales**.
+Erik **Erikson** (1950, *Childhood and Society*) partió del psicoanálisis, pero cambió el acento en tres puntos: dio más peso a la **sociedad y la cultura** que a la sexualidad, concibió al niño como un agente **activo**, que no se limita a sufrir sus pulsiones, y extendió el desarrollo a **toda la vida**. Por eso sus estadios se llaman **psicosociales**.
 
 Cada estadio plantea una **crisis**, un conflicto entre dos polos. Resolverla de forma favorable deja una **virtud** o fortaleza; resolverla mal dificulta las etapas siguientes, aunque las crisis pueden revisarse más adelante. La figura 2.2 resume la correspondencia con Freud.
 
@@ -259,7 +259,7 @@ La mayor herencia de Erikson es el concepto de **identidad** adolescente, que Ma
 
 ### 2.3 El condicionamiento operante de Skinner aplicado al desarrollo
 
-Las teorías del aprendizaje parten de una visión **mecanicista** y **ambientalista**. John B. **Watson**, fundador del conductismo, sostuvo que el ambiente podía moldear a un niño casi en cualquier dirección. Para él no había estadios: el desarrollo es un proceso **continuo** de acumulación de hábitos. Su experimento con el pequeño Albert (Watson y Rayner, 1920), en el que condicionó miedo a un bebé, es hoy un ejemplo clásico de investigación inaceptable desde el punto de vista ético (Unidad 5).
+Las teorías del aprendizaje parten de una visión **mecanicista** y **ambientalista**. John B. **Watson**, fundador del conductismo, sostuvo que el ambiente podía moldear a un niño casi en cualquier dirección. Rechazaba los estadios: crecer sería ir sumando hábitos aprendidos, un cambio **continuo**. Su experimento con el pequeño Albert (Watson y Rayner, 1920), en el que condicionó miedo a un bebé, es hoy un ejemplo clásico de investigación inaceptable desde el punto de vista ético (Unidad 5).
 
 B. F. **Skinner** (1938, 1953) desarrolló el **condicionamiento operante**: una conducta voluntaria (una **operante**) se vuelve más o menos probable según sus **consecuencias**. Todo depende de dos preguntas: ¿la conducta aumenta o disminuye?, ¿se añade o se retira un estímulo?
 
@@ -307,7 +307,7 @@ El aprendizaje observacional requiere cuatro procesos:
 3. **Reproducción**: tener las capacidades para hacerlo.
 4. **Motivación**: tener razones para ejecutarlo (refuerzo directo, vicario o autorrefuerzo).
 
-Con el tiempo, la teoría se hizo cada vez más cognitiva. Bandura introdujo la **autoeficacia** (1977), la creencia en la propia capacidad para lograr algo, que influye en qué tareas se emprenden y cuánto se persiste en ellas. Y propuso el **determinismo recíproco** (1986): la persona, su conducta y el ambiente se influyen mutuamente. Un niño tímido evita el patio, sus compañeros dejan de invitarle y su timidez aumenta; si un profesor le encarga organizar un juego, el ciclo puede invertirse. A diferencia de Watson y Skinner, el niño no es solo producto del ambiente: también lo modifica.
+Con el tiempo, la teoría se hizo cada vez más cognitiva. Bandura introdujo la **autoeficacia** (1977), la creencia en la propia capacidad para lograr algo, que influye en qué tareas se emprenden y cuánto se persiste en ellas. Y propuso el **determinismo recíproco** (1986): la persona, su conducta y el ambiente se influyen mutuamente. Un niño tímido evita el patio, sus compañeros dejan de invitarle y su timidez aumenta; si un profesor le encarga organizar un juego, el ciclo puede invertirse. Frente al conductismo radical, el niño deja de ser un mero producto del ambiente: también lo transforma.
 
 Se ha discutido si golpear un muñeco diseñado para ello equivale a agresión real, pero el aprendizaje por observación de modelos está bien establecido. Su aplicación a la agresión se estudia en Psicología Social, y los principios generales, en Aprendizaje.
 
@@ -319,9 +319,9 @@ Se ha discutido si golpear un muñeco diseñado para ello equivale a agresión r
 
 ### Mito frecuente
 
-**Mito:** «Lo que ocurre en los tres primeros años determina para siempre cómo será una persona».
+**Mito:** «Un azote a tiempo educa: el castigo físico corrige la conducta sin dejar huella».
 
-**Realidad:** las experiencias tempranas importan, y existen periodos sensibles, pero no son rígidos. En el estudio ERA, los niños adoptados de orfanatos rumanos antes de los 6 meses eran casi indistinguibles de los adoptados británicos, y el 21 % de los que salieron después no tuvo problemas de salud mental (Sonuga-Barke et al., 2017). En el BEIP, el acogimiento familiar mejoró el CI a largo plazo (Nelson et al., 2007; Humphreys et al., 2022).
+**Realidad:** desde el condicionamiento operante, un castigo puede frenar una conducta en el momento, pero no enseña qué hacer en su lugar y ofrece un modelo de agresión que el niño puede imitar. El metaanálisis de Gershoff y Grogan-Kaylor (2016), con más de 160.000 niños, asoció el castigo físico con 13 de 17 resultados perjudiciales y con ninguno beneficioso. Son datos observacionales, pero los efectos longitudinales se parecen a los transversales.
 
 ### Conceptos clave
 
