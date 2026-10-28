@@ -21,7 +21,7 @@ window.SP_CATALOG = {
     { id: 'atencion-percepcion', t: 'Psicología de la Atención y la Percepción', area: 'basicos', estado: 'ok', color: 4 },
     { id: 'interaccion-social', t: 'Psicología de la Interacción Social', area: 'soc', estado: 'ok', color: 5 },
     { id: 'memoria', t: 'Psicología de la Memoria', area: 'basicos', estado: 'ok', color: 1 },
-    { id: 'aprendizaje', t: 'Psicología del Aprendizaje', area: 'basicos', estado: 'soon' },
+    { id: 'aprendizaje', t: 'Psicología del Aprendizaje', area: 'basicos', estado: 'ok', color: 2 },
     { id: 'desarrollo-infancia', t: 'Desarrollo: Infancia y Adolescencia', area: 'des', estado: 'soon' },
     { id: 'social', t: 'Psicología Social', area: 'soc', estado: 'soon' },
     { id: 'historia', t: 'Historia, Ciencia y Profesión', area: 'fund', estado: 'soon' },

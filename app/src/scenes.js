@@ -694,11 +694,97 @@
   // pulso que recorre el camino (axón, osciloscopio…) — se omite con «reducir movimiento»
   g.SP_ROAD_PULSE = { axon: '#F5B81F', channel: '#D2553C', vesicles: '#B67FC0', vessel: '#fff', ci: '#C8553D', spread: '#2D5A7B', ecg: '#C8553D', water: '#fff', beam: '#E0A83A', wave: '#2D5A7B' };
 
+  const AL = {
+    // 1 · Qué es aprender: persona con bocadillo de idea y línea de tiempo con hitos
+    1: () => { let s = `<rect width="400" height="600" fill="#F2F0F8"/>`;
+      s += pers(300, 190, 2.2, '#2D5A7B', .45) + bubble(150, 40, 110, 58, '#E0A83A', .45, 'r') + `<circle cx="205" cy="69" r="12" fill="#fff" opacity=".7"/>`;
+      s += `<g opacity=".45" transform="translate(90 470)"><path d="M-70 0H70" stroke="#26323A" stroke-width="5"/>${['#2D5A7B', '#C8553D', '#5FA47A', '#7A5BA8'].map((c, i) => `<circle cx="${-60 + i * 40}" cy="0" r="12" fill="${c}"/>`).join('')}</g>`;
+      return { tint: '#F2F0F8', road: 'dots', svg: svg(s) }; },
+    // 2 · Aprendizaje no asociativo: respuestas que se apagan y un caracol marino
+    2: () => { let s = `<rect width="400" height="600" fill="#EEF6F4"/>`;
+      s += bars(200, 250, [150, 112, 84, 64, 50, 40], 20, 10, '#2D5A7B', .45);
+      s += `<g opacity=".45" transform="translate(95 475)"><ellipse cx="0" cy="10" rx="62" ry="26" fill="#7A5BA8"/><path d="M-50 -2Q-70 -40 -40 -40" stroke="#7A5BA8" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M30 -10Q50 -40 70 -24" stroke="#C8553D" stroke-width="8" fill="none" stroke-linecap="round"/></g>`;
+      return { tint: '#EEF6F4', road: 'wave', svg: svg(s) }; },
+    // 3 · Pavlov: metrónomo y cuenco con gota de saliva
+    3: () => { let s = `<rect width="400" height="600" fill="#FBF1E6"/>`;
+      s += `<g opacity=".5" transform="translate(290 170)"><path d="M-50 70L-25 -80H25L50 70Z" fill="#8A6A50"/><path d="M0 50L30 -70" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><circle cx="20" cy="-30" r="10" fill="#E0A83A"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 480)"><path d="M-60 -10H60Q55 35 0 35Q-55 35 -60 -10Z" fill="#C8553D"/></g>` + drop(90, 430, 1.6, '#2D5A7B', .5);
+      return { tint: '#FBF1E6', road: 'chain', svg: svg(s) }; },
+    // 4 · Contingencia y bloqueo: bombilla, altavoz y dados
+    4: () => { let s = `<rect width="400" height="600" fill="#EEF2F8"/>`;
+      s += `<g opacity=".5" transform="translate(240 150)"><circle cy="-10" r="34" fill="#E0A83A"/><rect x="-16" y="22" width="32" height="22" rx="4" fill="#8A949B"/></g>`;
+      s += `<g opacity=".5" transform="translate(335 160)"><path d="M-30 -14H-12L12 -36V36L-12 14H-30Z" fill="#2D5A7B"/><path d="M22 -18Q36 0 22 18" stroke="#2D5A7B" stroke-width="6" fill="none"/></g>`;
+      s += die(70, 470, 1.4, -12, 3, '#C8553D') + die(125, 495, 1.2, 14, 5, '#2D5A7B');
+      return { tint: '#EEF2F8', road: 'grid', svg: svg(s) }; },
+    // 5 · Modelos teóricos: curva de aprendizaje con asíntota y barras de fuerza asociativa
+    5: () => { let s = paper('#F7F4EC', '#ECE4D2', 40); let d = ''; for (let i = 0; i <= 50; i++) { const x = 190 + i * 4, y = 250 - 160 * (1 - Math.exp(-i / 11)); d += (i ? 'L' : 'M') + f(x) + ' ' + f(y); }
+      s += `<path d="M190 90H390" stroke="#26323A" stroke-width="3" stroke-dasharray="8 8" opacity=".4"/><path d="${d}" stroke="#2D5A7B" stroke-width="6" fill="none" opacity=".55"/><text x="372" y="80" text-anchor="end" font-size="26" font-weight="700" fill="#26323A" opacity=".45">λ</text>`;
+      s += bars(40, 520, [90, 60, 30], 30, 12, ['#5FA47A', '#E0A83A', '#C8553D'], .45);
+      return { tint: '#F7F4EC', road: 'ruler', svg: svg(s) }; },
+    // 6 · Restricciones biológicas: vaso de agua con sabor y nube de malestar
+    6: () => { let s = `<rect width="400" height="600" fill="#EEF5EF"/>`;
+      s += `<g opacity=".5" transform="translate(290 170)"><path d="M-40 -70H40L30 70H-30Z" fill="#fff" stroke="#2D5A7B" stroke-width="5"/><path d="M-36 -20H36L30 70H-30Z" fill="#5FA47A"/></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><circle cx="-30" cy="0" r="28" fill="#7A5BA8"/><circle cx="10" cy="-14" r="34" fill="#7A5BA8"/><circle cx="46" cy="4" r="24" fill="#7A5BA8"/>${face(10, 0, 26, 'sad', '#fff', .9)}</g>`;
+      return { tint: '#EEF5EF', road: 'water', svg: svg(s) }; },
+    // 7 · Extinción y recaída: tres contextos (A, B, A) y una puerta
+    7: () => { let s = `<rect width="400" height="600" fill="#F4F0EA"/>`;
+      [['A', '#2D5A7B', 205], ['B', '#E0A83A', 275], ['A', '#2D5A7B', 345]].forEach(([t, c, x]) => { s += `<g opacity=".5"><path d="M${x - 30} 210V160L${x} 130L${x + 30} 160V210Z" fill="${c}"/><text x="${x}" y="196" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">${t}</text></g>`; });
+      s += `<g opacity=".45" transform="translate(90 470)"><rect x="-40" y="-60" width="80" height="120" rx="6" fill="#8A6A50"/><circle cx="24" cy="0" r="6" fill="#E0A83A"/></g>`;
+      return { tint: '#F4F0EA', road: 'street', svg: svg(s) }; },
+    // 8 · Thorndike y Skinner: caja problema y palanca con comedero
+    8: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += `<g opacity=".5" transform="translate(290 170)"><rect x="-80" y="-60" width="160" height="120" fill="none" stroke="#8A6A50" stroke-width="6"/>${[-50, -25, 0, 25, 50].map(x => `<path d="M${x} -60V60" stroke="#8A6A50" stroke-width="4"/>`).join('')}<path d="M-80 -60L-60 -80H100L80 -60M100 -80V40L80 60" stroke="#8A6A50" stroke-width="5" fill="none"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 475)"><rect x="-60" y="-50" width="120" height="100" rx="8" fill="#2D5A7B"/><rect x="-40" y="-10" width="36" height="10" rx="3" fill="#E0A83A"/><circle cx="30" cy="20" r="14" fill="#5FA47A"/></g>`;
+      return { tint: '#F6F1E8', road: 'maze', svg: svg(s) }; },
+    // 9 · Programas y elección: registro acumulativo en escalera y una golosina
+    9: () => { let s = paper('#F1F3FA', '#E1E6F2', 40); let d = 'M190 250'; for (let i = 0; i < 5; i++) d += `h22l18 -32`;
+      s += `<path d="${d}" stroke="#2D5A7B" stroke-width="6" fill="none" opacity=".55" stroke-linejoin="round"/>`;
+      s += `<g opacity=".5" transform="translate(90 480)"><ellipse cx="0" cy="34" rx="62" ry="12" fill="#B0BCC6"/><rect x="-30" y="-30" width="60" height="56" rx="20" fill="#fff" stroke="#E7A0A8" stroke-width="6"/></g>`;
+      return { tint: '#F1F3FA', road: 'bars', svg: svg(s) }; },
+    // 10 · Teorías del refuerzo: libro y mando de videojuego (Premack)
+    10: () => { let s = `<rect width="400" height="600" fill="#F3EFF8"/>`;
+      s += `<g opacity=".5" transform="translate(290 165) rotate(8)"><rect x="-70" y="-34" width="140" height="68" rx="32" fill="#7A5BA8"/><path d="M-44 0H-20M-32 -12V12" stroke="#fff" stroke-width="6" stroke-linecap="round"/><circle cx="28" cy="-6" r="7" fill="#E0A83A"/><circle cx="44" cy="8" r="7" fill="#5FA47A"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 480) rotate(-8)"><rect x="-56" y="-40" width="112" height="80" rx="6" fill="#2D5A7B"/><rect x="-50" y="-34" width="100" height="68" rx="4" fill="#F4EAD8"/><path d="M0 -34V34" stroke="#2D5A7B" stroke-width="3"/></g>`;
+      return { tint: '#F3EFF8', road: 'trail', svg: svg(s) }; },
+    // 11 · Control aversivo: caja lanzadera con barrera y un escudo
+    11: () => { let s = `<rect width="400" height="600" fill="#FBEFEC"/>`;
+      s += `<g opacity=".5" transform="translate(290 170)"><rect x="-90" y="-50" width="180" height="100" rx="8" fill="none" stroke="#26323A" stroke-width="6"/><rect x="-6" y="10" width="12" height="40" fill="#26323A"/><path d="M-80 40l12 -16l10 12l12 -18" stroke="#E0A83A" stroke-width="5" fill="none"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 475)"><path d="M0 -60L50 -40V0Q50 40 0 60Q-50 40 -50 0V-40Z" fill="#5FA47A"/><path d="M-18 0l12 14l26 -28" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/></g>`;
+      return { tint: '#FBEFEC', road: 'ecg', svg: svg(s) }; },
+    // 12 · Control de estímulos: dos gradientes de generalización y una paloma
+    12: () => { let s = `<rect width="400" height="600" fill="#ECF3F9"/>`;
+      s += bell(200, 250, 180, 120, '#2D5A7B', 5, .5) + bell(185, 250, 150, 165, '#C8553D', 5, .5);
+      s += `<g opacity=".5" transform="translate(95 475)"><ellipse cx="0" cy="10" rx="48" ry="30" fill="#8A949B"/><circle cx="40" cy="-20" r="18" fill="#8A949B"/><path d="M56 -20l14 4l-14 4z" fill="#E0A83A"/><circle cx="44" cy="-24" r="3" fill="#26323A"/><path d="M-40 4L-70 -10L-46 22Z" fill="#6E7880"/></g>`;
+      return { tint: '#ECF3F9', road: 'scan', svg: svg(s) }; },
+    // 13 · Aprendizaje cognitivo I: mapa con chinchetas y cajas apiladas con plátanos
+    13: () => { let s = `<rect width="400" height="600" fill="#EFF6EE"/>`;
+      s += `<g opacity=".5" transform="translate(290 170)"><path d="M-90 -60L-30 -80L30 -60L90 -80V60L30 80L-30 60L-90 80Z" fill="#fff" stroke="#5FA47A" stroke-width="5"/><path d="M-60 30Q-20 -40 50 -20" stroke="#C8553D" stroke-width="5" fill="none" stroke-dasharray="10 8"/><circle cx="50" cy="-20" r="10" fill="#C8553D"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 500)"><rect x="-50" y="-10" width="70" height="50" fill="#8A6A50"/><rect x="-30" y="-56" width="56" height="46" fill="#C99A6B"/><path d="M30 -110q20 -10 30 10" stroke="#E0A83A" stroke-width="10" fill="none" stroke-linecap="round"/></g>`;
+      return { tint: '#EFF6EE', road: 'pegs', svg: svg(s) }; },
+    // 14 · Aprendizaje cognitivo II: red de nodos y círculos concéntricos de la ZDP
+    14: () => { let s = `<rect width="400" height="600" fill="#F2F1F8"/>`;
+      const N = [[220, 90], [330, 80], [270, 160], [370, 190], [220, 230], [320, 260]];
+      [[0, 2], [1, 2], [2, 3], [2, 4], [4, 5], [3, 5], [0, 1]].forEach(([a, b]) => { s += `<path d="M${N[a][0]} ${N[a][1]}L${N[b][0]} ${N[b][1]}" stroke="#7A5BA8" stroke-width="4" opacity=".4"/>`; });
+      N.forEach(([x, y], i) => { s += `<circle cx="${x}" cy="${y}" r="16" fill="${i % 2 ? '#7A5BA8' : '#2D5A7B'}" opacity=".5"/>`; });
+      s += `<g opacity=".45" transform="translate(90 470)"><circle r="62" fill="#E0A83A"/><circle r="30" fill="#2D5A7B"/></g>`;
+      return { tint: '#F2F1F8', road: 'vine', svg: svg(s) }; },
+    // 15 · Aprendizaje social: adulto modelo, niño observador y muñeco tentetieso
+    15: () => { let s = `<rect width="400" height="600" fill="#FBF3EA"/>`;
+      s += pers(240, 200, 2.2, '#2D5A7B', .45) + pers(330, 225, 1.4, '#5FA47A', .5);
+      s += `<g opacity=".5" transform="translate(95 480)"><ellipse cx="0" cy="20" rx="44" ry="40" fill="#C8553D"/><circle cx="0" cy="-36" r="24" fill="#C8553D"/><circle cx="-8" cy="-40" r="4" fill="#fff"/><circle cx="8" cy="-40" r="4" fill="#fff"/></g>`;
+      return { tint: '#FBF3EA', road: 'ribbon', svg: svg(s) }; },
+    // 16 · Aprendizaje motor y aplicaciones: teclas de piano y una diana
+    16: () => { let s = `<rect width="400" height="600" fill="#EEF4F7"/>`;
+      s += `<g opacity=".5" transform="translate(200 120)">${Array.from({ length: 7 }, (_, i) => `<rect x="${i * 26}" y="0" width="24" height="110" rx="3" fill="#fff" stroke="#26323A" stroke-width="3"/>`).join('')}${[0, 1, 3, 4, 5].map(i => `<rect x="${i * 26 + 16}" y="0" width="16" height="66" rx="2" fill="#26323A"/>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(90 475)">${[60, 42, 24].map((r, i) => `<circle r="${r}" fill="${['#C8553D', '#fff', '#C8553D'][i]}"/>`).join('')}<circle r="8" fill="#26323A"/></g>`;
+      return { tint: '#EEF4F7', road: 'beam', svg: svg(s) }; }
+  };
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
     'motivacion-emocion': n => cache['m' + n] || (cache['m' + n] = ME[n] ? ME[n]() : null),
     'atencion-percepcion': n => cache['a' + n] || (cache['a' + n] = AP[n] ? AP[n]() : null),
     'interaccion-social': n => cache['i' + n] || (cache['i' + n] = IS[n] ? IS[n]() : null),
-    'memoria': n => cache['r' + n] || (cache['r' + n] = MM[n] ? MM[n]() : null) };
+    'memoria': n => cache['r' + n] || (cache['r' + n] = MM[n] ? MM[n]() : null),
+    'aprendizaje': n => cache['x' + n] || (cache['x' + n] = AL[n] ? AL[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);

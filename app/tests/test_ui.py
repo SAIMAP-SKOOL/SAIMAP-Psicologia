@@ -47,7 +47,7 @@ def play(pg, label, maxsteps=60):
     errs.append(f'{label}: la lección no terminó')
 
 with sync_playwright() as p:
-    b = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
+    b = p.chromium.launch(executable_path=next((x for x in ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium'] if __import__('os').path.exists(x)), None))
     for scheme in ('light', 'dark'):
         ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, color_scheme=scheme)
         pg = ctx.new_page()
