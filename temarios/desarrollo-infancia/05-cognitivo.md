@@ -36,7 +36,7 @@ Como muestra la figura 12.1, los subestadios son seis:
 
 La **permanencia del objeto** es la comprensión de que los objetos siguen existiendo cuando no se perciben. Según Piaget, se construye a lo largo de todo el estadio. En los primeros meses, un objeto tapado deja de interesar al bebé. En el subestadio 4 ya lo busca bajo una tela, pero comete el **error A-no-B**: si el juguete se ha escondido varias veces en A y luego, a la vista del bebé, se esconde en B, vuelve a buscarlo en A. Lucía, de diez meses, ha encontrado tres veces la pelota bajo la manta azul. Su padre la esconde ahora bajo el cojín rojo, delante de ella, y Lucía levanta otra vez la manta azul. En el subestadio 5 resuelve los desplazamientos visibles, y en el 6 los **invisibles**: infiere dónde ha ido a parar un objeto que se movió escondido.
 
-Un error frecuente es situar el error A-no-B en el subestadio 3. En ese momento el bebé todavía no busca el objeto oculto. Sobre la imitación en los primeros meses, que Piaget consideraba muy limitada, el debate sigue abierto (Unidad 8). La Unidad 13 revisa si la permanencia del objeto aparece antes de lo que Piaget pensaba.
+Sobre la imitación en los primeros meses, que Piaget consideraba muy limitada, el debate sigue abierto (Unidad 8). La Unidad 13 revisa si la permanencia del objeto aparece antes de lo que Piaget pensaba.
 
 ### 12.2 El estadio preoperacional
 
@@ -59,7 +59,7 @@ El **egocentrismo** se estudió con la **tarea de las tres montañas** (Piaget e
 
 Otras limitaciones aparecen en las tareas lógicas. En la **inclusión de clases**, se enseñan siete perros y tres gatos de juguete y se pregunta: «¿Hay más perros o más animales?». El preoperacional suele responder «más perros», porque compara las dos subclases y pierde de vista la clase total. En la **seriación**, le cuesta ordenar diez palitos de menor a mayor de forma sistemática; forma parejas o pequeños grupos. Y fracasa en la **conservación**, que se trata en el apartado siguiente.
 
-Conviene leer estas limitaciones con cuidado. Muchos estudios posteriores han mostrado que, con tareas más sencillas, materiales familiares y preguntas claras, los preescolares rinden mejor de lo que Piaget describía (Unidad 13). La secuencia general se mantiene, pero el niño de cuatro años es menos ilógico de lo que sugieren las tareas clásicas.
+Con tareas más sencillas, materiales familiares y preguntas claras, los preescolares rinden mejor de lo que Piaget describía (Unidad 13).
 
 ### 12.3 Las operaciones concretas y los decalajes
 
@@ -105,7 +105,7 @@ A partir de los 11 o 12 años puede aparecer el **pensamiento formal**. Su rasgo
 
 Inhelder y Piaget (1955) estudiaron este pensamiento con tareas científicas. En la del **péndulo**, había que descubrir qué factor determina la rapidez de oscilación: la longitud del hilo, el peso colgado, la altura desde la que se suelta o la fuerza del impulso. El niño de operaciones concretas cambia varios factores a la vez y saca conclusiones confusas. El adolescente formal varía **un factor cada vez** y mantiene los demás constantes, hasta comprobar que solo importa la longitud. En la tarea de **combinación de líquidos**, debía averiguar qué mezcla de varios líquidos incoloros producía un color amarillo, lo que exige probar todas las combinaciones con orden.
 
-Piaget describió la estructura lógica de este estadio con el **grupo INRC** (identidad, negación, reciprocidad y correlativa), que integra en un solo sistema las dos formas de reversibilidad del estadio anterior. Es uno de los conceptos más técnicos de la teoría, pero la idea de fondo es sencilla: el adolescente puede anular una transformación tanto invirtiéndola como compensándola, y coordinar ambas.
+Piaget describió la estructura lógica de este estadio con el **grupo INRC** (identidad, negación, reciprocidad y correlativa), que integra en un solo sistema las dos formas de reversibilidad del estadio anterior: inversión y compensación.
 
 Un punto importante es que **no todos los adolescentes ni todos los adultos alcanzan el pensamiento formal**, y quienes lo alcanzan no lo usan en todos los ámbitos. Depende de la escolarización, de la cultura y de la familiaridad con el contenido. El propio Piaget admitió después que el pensamiento formal podía aparecer sobre todo en los campos de especialización de cada persona.
 
@@ -182,7 +182,7 @@ c) el animismo
 
 ### 13.1 Aportaciones de Piaget
 
-Pocas teorías han marcado tanto una disciplina. Antes de Piaget, el pensamiento infantil se describía sobre todo por lo que le faltaba respecto al adulto. Después de él, se estudia como un sistema con su propia lógica, que se transforma por etapas. Sus aportaciones principales se pueden agrupar en cinco:
+Antes de Piaget, el pensamiento infantil se describía sobre todo por lo que le faltaba respecto al adulto. Después de él, se estudia como un sistema con su propia lógica. Sus aportaciones principales son cinco:
 
 1. **Fundó el estudio del desarrollo cognitivo** como campo propio. Planteó preguntas que siguen vigentes: cómo se construyen las nociones de objeto, número, espacio, tiempo o causalidad.
 2. **Presentó al niño como un constructor activo** de su conocimiento. Esta idea, hoy de consenso, se opone tanto a la visión del niño como receptor pasivo como a la de un conocimiento que solo madura.
@@ -203,7 +203,7 @@ Las críticas pueden agruparse en cuatro bloques, que se desarrollan en el resto
 
 La primera crítica se apoya en la distinción entre **competencia** y **ejecución**. Piaget tendía a interpretar el fracaso en una tarea como ausencia de la estructura mental correspondiente. Pero una tarea puede fallar por otras razones: exige lenguaje, memoria, coordinación motora o comprensión de preguntas ambiguas. Pensemos en la permanencia del objeto. Para buscar un juguete bajo una tela, el bebé tiene que recordar dónde está, planificar el movimiento de apartar la tela y coordinarlo con el de coger el juguete. Un bebé que no busca quizá sabe que el objeto sigue ahí, pero no consigue organizar la acción.
 
-Algo parecido ocurre con la conservación. La pregunta se hace dos veces, antes y después del trasvase. Algunos niños pueden entender que, si el adulto vuelve a preguntar, es porque espera otra respuesta. Las tareas clásicas, por tanto, pueden subestimar lo que el niño sabe. La investigación posterior se ha esforzado en diseñar tareas que reduzcan estas demandas.
+Las tareas clásicas, por tanto, pueden subestimar lo que el niño sabe, y la investigación posterior ha buscado tareas que reduzcan estas demandas.
 
 ### 13.2 El bebé competente: violación de expectativas y núcleo de conocimiento
 
@@ -220,7 +220,7 @@ Figura 13.1. **Dos estudios de violación de expectativas.** Arriba, el puente l
 Como muestra la figura 13.1, ambos estudios comparten un diseño: el bebé no tiene que actuar, solo mirar. De estos y otros trabajos surgió la hipótesis del **núcleo de conocimiento** (Spelke y Kinzler, 2007): los seres humanos nacen con unos pocos sistemas especializados que representan cuatro dominios básicos:
 
 - **Objetos**: cuerpos cohesionados que se mueven como un todo, siguen trayectorias continuas y no se atraviesan.
-- **Número**: cantidades aproximadas y, en cantidades pequeñas, un seguimiento exacto de los elementos.
+- **Número**: estimación de cantidades aproximadas sin necesidad de contar.
 - **Agentes**: seres que actúan con metas.
 - **Espacio**: relaciones geométricas para orientarse.
 
@@ -228,7 +228,7 @@ Sobre esos núcleos se construiría el conocimiento posterior, con ayuda del len
 
 Estas conclusiones están **en debate**. Las interpretaciones **ricas** atribuyen al bebé conocimiento conceptual: sabe que los objetos son permanentes o que 1 + 1 son 2. Las **austeras** sostienen que mirar más puede reflejar procesos más simples: preferencia por lo nuevo o por lo familiar, diferencias perceptivas entre los sucesos o detección de un cambio en la cantidad de «material» visible. Algunos resultados han sido difíciles de replicar, y el campo ha respondido con estudios multilaboratorio y prerregistrados (Unidad 5).
 
-Queda además una pregunta de fondo: si un bebé de cuatro meses «sabe» que el objeto oculto existe, ¿por qué no lo busca hasta varios meses después? Una respuesta compatible con ambos enfoques es que el conocimiento se manifiesta antes en la mirada que en la acción planificada, que exige memoria de trabajo y control inhibitorio. El conocimiento temprano sería, en ese caso, parcial y frágil.
+Queda una pregunta de fondo: si un bebé de cuatro meses «sabe» que el objeto oculto existe, ¿por qué no lo busca hasta meses después? Una respuesta es que el conocimiento se manifiesta antes en la mirada que en la acción planificada, que exige memoria de trabajo y control inhibitorio.
 
 ### 13.3 La teoría de la mente
 
@@ -242,7 +242,7 @@ La prueba de referencia es la **tarea de falsa creencia**. Wimmer y Perner (1983
 
 Figura 13.2. **Tarea de Sally y Anne y curva de aciertos.** Cuatro viñetas: Sally guarda la canica, se va, Anne la cambia de sitio y Sally vuelve. La curva esquemática muestra que los aciertos crecen de los 3 a los 5 años y cruzan el nivel del azar hacia los 4 (Wellman et al., 2001). Elaboración propia.
 
-Como muestra la figura 13.2, el cambio es claro. El metaanálisis de Wellman, Cross y Watson (2001), con 178 estudios y 591 condiciones, halló que a los 3 años los niños fallan la tarea por debajo del azar: responden de forma sistemática según lo que ellos saben. A los 5 años la resuelven por encima del azar. El cambio aparece en **todos los países y tipos de tarea** estudiados. Las variaciones de procedimiento cambian algo el nivel de aciertos, pero no la trayectoria. Se trata, por tanto, de un cambio conceptual real, no de un artefacto de la tarea.
+Como muestra la figura 13.2, el cambio es claro. El metaanálisis de Wellman, Cross y Watson (2001), con 178 estudios y 591 condiciones, halló que a los 3 años los niños fallan la tarea por debajo del azar: responden de forma sistemática según lo que ellos saben. A los 5 años la resuelven por encima del azar. El cambio aparece en **todos los países y tipos de tarea** estudiados: es un cambio conceptual real, no un artefacto de la tarea.
 
 La comprensión de la falsa creencia **de primer orden** («Sally cree que…») se consolida hacia los 4–5 años; la **de segundo orden** («Juan cree que María cree que…»), hacia los 6–7 años. La teoría de la mente sigue refinándose después: comprensión de la ironía, de las mentiras piadosas o de la metedura de pata. Se relaciona con el lenguaje y con las conversaciones familiares sobre lo que piensan y sienten las personas.
 

@@ -8,7 +8,7 @@ El niño no solo aprende a pensar y a hablar: también aprende quién es, a qui�
 
 ### 15.1 Diferenciación del yo, autorreconocimiento e identidad adolescente
 
-El **yo** o **sí mismo** es la representación que cada persona tiene de sí misma: su cuerpo, sus capacidades, sus rasgos, sus valores y su historia. No aparece de golpe. Se construye a lo largo de toda la infancia y la adolescencia a partir de la maduración, del desarrollo cognitivo y, sobre todo, de la interacción con los demás.
+El **yo** o **sí mismo** es la representación que cada persona tiene de sí misma: su cuerpo, sus capacidades, sus rasgos y sus valores. Se construye a lo largo de la infancia y la adolescencia con la maduración, el desarrollo cognitivo y la interacción con los demás.
 
 **Los primeros pasos.** Desde los primeros meses hay indicios de un **yo implícito**, ligado al cuerpo: el bebé descubre que sus movimientos producen efectos predecibles (patalear mueve el móvil de la cuna) y que su cuerpo es distinto del entorno. Las teorías psicoanalíticas describieron este proceso como una salida gradual de la fusión con la madre; la más conocida es la de **separación-individuación** de Mahler (Unidad 2).
 
@@ -37,7 +37,7 @@ Como muestra la figura 15.1, de su combinación salen cuatro **estatus de identi
 - **Identidad hipotecada** (o en exclusión): se ha comprometido sin explorar, normalmente asumiendo lo que otros esperaban. Estudiará Derecho «porque en casa todos son abogados».
 - **Identidad difusa**: ni explora ni se compromete. «Ya veré; me da igual».
 
-Los estatus no son estadios fijos: una persona puede pasar de la hipotecada a la moratoria al llegar a la universidad, y puede estar en estatus distintos en terrenos distintos. Influyen el desarrollo cognitivo (pensar en posibilidades exige razonamiento hipotético; Unidad 12), la relación con la familia, la escuela y la cultura. La continuación de la identidad en la adultez se estudia en Psicología del Desarrollo en la adultez y la vejez.
+Los estatus no son estadios fijos: se puede pasar de la hipotecada a la moratoria al llegar a la universidad, o estar en estatus distintos en terrenos distintos. Influyen el desarrollo cognitivo (Unidad 12), la familia, la escuela y la cultura. La continuación de la identidad en la adultez se estudia en Psicología del Desarrollo en la adultez y la vejez.
 
 ### 15.2 La teoría del apego: Bowlby, Harlow y las fases del apego
 
@@ -51,9 +51,9 @@ El **apego** es el vínculo afectivo intenso y duradero que une al niño con las
 
 Figura 15.2. **Madre sustituta de felpa.** Una cría de macaco se aferra a la madre de felpa durante una prueba de miedo, aunque no es la que la alimenta. Fuente: H. F. Harlow (1958), Wikimedia Commons, CC0.
 
-Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comida, sino del **contacto reconfortante**. El resultado refutó la teoría del impulso secundario. Hoy estos estudios se citan también como contraejemplo ético: la privación a la que se sometió a los animales no sería aceptable.
+Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comida, sino del **contacto reconfortante**. El resultado refutó la teoría del impulso secundario. Hoy se citan también como contraejemplo ético (Unidad 5).
 
-**La teoría de Bowlby.** Bowlby (1969/1982), psiquiatra de formación psicoanalítica influido por la etología (Unidad 4), propuso que el apego es un **sistema conductual** seleccionado por la evolución: mantener cerca a un adulto protector aumentaba la supervivencia de las crías. Llorar, sonreír, seguir con la mirada y, después, gatear tras el cuidador son conductas que sirven a ese fin. Tres ideas suyas siguen vigentes:
+**La teoría de Bowlby.** Bowlby (1969/1982), de formación psicoanalítica e influido por la etología (Unidad 4), propuso que el apego es un **sistema conductual** seleccionado por la evolución: mantener cerca a un adulto protector aumentaba la supervivencia de las crías. Llorar, sonreír, seguir con la mirada y, después, gatear tras el cuidador son conductas que sirven a ese fin. Tres ideas suyas siguen vigentes:
 
 - La figura de apego funciona como **base segura** desde la que explorar y como **refugio** al que volver ante una amenaza.
 - A partir de las experiencias repetidas, el niño construye **modelos operativos internos**: expectativas sobre si los demás estarán disponibles y sobre si él merece cuidado.
@@ -68,11 +68,11 @@ Como se ve en la figura 15.2, la búsqueda de seguridad no dependía de la comid
 
 El apego definido exige distinguir a las personas conocidas de las extrañas y saber que siguen existiendo aunque no se vean, una relación con la permanencia del objeto (Unidad 12).
 
-**¿Solo con la madre?** Schaffer y Emerson (1964), en un estudio longitudinal con familias escocesas, describieron una secuencia parecida (de una fase asocial a apegos indiscriminados, después específicos y, enseguida, múltiples) y comprobaron que muchos bebés formaban **apegos múltiples** muy pronto: con el padre, los abuelos o los hermanos. La figura principal no era siempre quien más tiempo pasaba con el bebé, sino quien respondía a sus señales con más sensibilidad. El metaanálisis de Madigan et al. (2023) no halló diferencias en la distribución del apego con madres y con padres. El apego no depende del sexo del cuidador ni de quién da de comer, sino de la calidad de la interacción.
+**¿Solo con la madre?** Schaffer y Emerson (1964), en un estudio longitudinal, describieron una secuencia parecida (de una fase asocial a apegos indiscriminados, después específicos y, enseguida, múltiples) y comprobaron que muchos bebés formaban **apegos múltiples** muy pronto: con el padre, los abuelos o los hermanos. La figura principal no era siempre quien más tiempo pasaba con el bebé, sino quien respondía a sus señales con más sensibilidad. El metaanálisis de Madigan et al. (2023) no halló diferencias en la distribución del apego con madres y con padres. El apego no depende del sexo del cuidador ni de quién da de comer, sino de la calidad de la interacción.
 
 ### 15.3 La Situación Extraña y los tipos de apego
 
-Para observar diferencias en la calidad del apego, Ainsworth et al. (1978) diseñaron la **Situación Extraña**, un procedimiento de laboratorio para bebés de alrededor de un año. Consta de **8 episodios breves** (unos 3 minutos cada uno) en una sala con juguetes: el bebé explora con el cuidador presente, entra una persona desconocida, el cuidador sale y vuelve, el bebé se queda solo, regresa la desconocida y, al final, el cuidador. El estrés aumenta poco a poco para activar el sistema de apego.
+Para observar diferencias en la calidad del apego, Ainsworth et al. (1978) diseñaron la **Situación Extraña**, un procedimiento de laboratorio para bebés de alrededor de un año. Consta de **8 episodios breves** (unos 3 minutos cada uno) en una sala con juguetes: el bebé explora con el cuidador presente, entra una persona desconocida, el cuidador sale y vuelve, el bebé se queda solo, regresa la desconocida y, al final, el cuidador.
 
 La clasificación se basa sobre todo en la conducta del bebé en las **reuniones**, no en cuánto llora al quedarse solo. Un bebé puede llorar poco y ser inseguro, o llorar mucho y ser seguro.
 
@@ -98,13 +98,13 @@ La muestra original de Baltimore era pequeña y daba, de forma aproximada, un 70
 
 El mismo trabajo no halló diferencias según el sexo o la edad del niño ni entre madres y padres. Los apegos A y D eran más frecuentes cuando había riesgo sociodemográfico, psicopatología de los padres, maltrato o institucionalización, y la evitación era menor en las cohortes más recientes.
 
-**Diferencias culturales.** Van IJzendoorn y Kroonenberg (1988) reunieron 32 muestras de 8 países (1.990 clasificaciones). El apego seguro era el más frecuente en general, pero el evitativo aparecía más en Europa occidental y el ambivalente en Israel y Japón. Además, la variación **dentro** de cada cultura era aproximadamente 1,5 veces mayor que la variación **entre** culturas. Se discute si la Situación Extraña mide lo mismo en todas partes: un bebé japonés que casi nunca se separa de su madre puede vivir el procedimiento como mucho más estresante que uno acostumbrado a la guardería.
+**Diferencias culturales.** Van IJzendoorn y Kroonenberg (1988) reunieron 32 muestras de 8 países (1.990 clasificaciones). El apego seguro era el más frecuente en general, pero el evitativo aparecía más en Europa occidental y el ambivalente en Israel y Japón. Además, la variación **dentro** de cada cultura era aproximadamente 1,5 veces mayor que la variación **entre** culturas. Se discute si la Situación Extraña mide lo mismo en todas partes: un bebé que casi nunca se separa de su madre puede vivirla como mucho más estresante.
 
 ### 15.4 Apego, privación y recuperación
 
 **¿Predice algo el apego temprano?** Fearon et al. (2010) metaanalizaron 69 muestras (N = 5.947) y hallaron que el apego inseguro se asociaba con más **problemas externalizantes** (conducta desafiante, agresividad), con un efecto pequeño-moderado: d = 0,31 (IC 95 % 0,23–0,40). En el apego desorganizado el efecto era algo mayor (d ≈ 0,34). El apego importa, pero es un factor de riesgo entre muchos, no un destino.
 
-**Transmisión intergeneracional.** La **Entrevista de Apego Adulto** clasifica cómo un adulto narra sus propias experiencias de apego. Esa clasificación predice el tipo de apego que tendrá su hijo en la Situación Extraña. La explicación más intuitiva sería la sensibilidad del cuidador, pero esta solo explica una parte de la relación; la parte que queda sin explicar se conoce como **brecha de transmisión** y sigue en estudio.
+**Transmisión intergeneracional.** La **Entrevista de Apego Adulto** clasifica cómo un adulto narra sus propias experiencias de apego. Esa clasificación predice el tipo de apego que tendrá su hijo en la Situación Extraña. La sensibilidad del cuidador solo explica una parte de esa relación; lo que queda sin explicar se llama **brecha de transmisión**.
 
 **El cuidado no materno.** El estudio longitudinal NICHD (Unidad 6) examinó si asistir a una guardería desde muy pronto perjudicaba el apego. En síntesis, el cuidado no materno por sí solo no predecía apego inseguro; el riesgo aparecía sobre todo cuando se combinaba con una baja sensibilidad de la madre.
 
@@ -113,13 +113,13 @@ El mismo trabajo no halló diferencias según el sexo o la edad del niño ni ent
 - **ERA** (English and Romanian Adoptees; Sonuga-Barke et al., 2017). Siguió hasta la adultez joven a niños adoptados por familias británicas. Quienes salieron de la institución **antes de los 6 meses** eran prácticamente indistinguibles de un grupo de adoptados británicos sin privación. Los que pasaron **más de 6 meses** mostraron con más frecuencia problemas persistentes: síntomas cuasiautistas, un **compromiso social desinhibido** (irse con cualquier desconocido sin reparo) y problemas de atención e hiperactividad. Aun así, su CI se recuperó hasta valores normales y el 21 % de ese grupo no tuvo problemas de salud mental.
 - **BEIP** (Bucharest Early Intervention Project; Nelson et al., 2007). Es un caso excepcional de **ensayo aleatorizado**: 136 niños institucionalizados se asignaron al azar a seguir en la institución o a pasar a familias de acogida. Las ganancias fueron mayores cuanto antes se produjo la acogida, sobre todo antes de los 24 meses; a los 42 meses, quienes habían salido antes de los 18 meses tenían un CI de alrededor de 94 frente a unos 89 de quienes salieron entre los 18 y los 24 meses. A los 18 años, el grupo de acogida seguía superando en 9 puntos de CI (0,6 desviaciones típicas) al que había permanecido en la institución (Humphreys et al., 2022).
 
-Ambos estudios muestran a la vez dos cosas. La primera: la privación temprana grave tiene efectos reales y duraderos, y el momento importa, lo que confirma la existencia de **periodos sensibles** (Unidad 4). La segunda: esos periodos no son rígidos, la recuperación es amplia en muchos niños y la variabilidad entre ellos es enorme. Por razones éticas, el BEIP solo fue posible porque la acogida familiar apenas existía en Rumanía; sus implicaciones se discuten en la Unidad 5.
+Ambos estudios muestran que la privación temprana grave tiene efectos duraderos y que el momento importa: hay **periodos sensibles** (Unidad 4). Pero esos periodos no son rígidos, la recuperación es amplia en muchos niños y la variabilidad entre ellos es enorme. Las cuestiones éticas que plantea un ensayo así se discuten en la Unidad 5.
 
 ### Consenso y debate
 
 **Consenso:** el apego es un sistema conductual de base evolutiva que se forma de manera gradual durante el primer año y no depende de la alimentación (Harlow, 1958; Bowlby, 1969/1982). Los niños forman apegos múltiples y no hay diferencias en la distribución del apego con madres y con padres (Madigan et al., 2023). Alrededor de la mitad de los bebés del mundo son seguros. La privación institucional temprana tiene efectos duraderos, pero la acogida familiar temprana permite una recuperación amplia (ERA, BEIP).
 
-**Debate:** si la Situación Extraña mide lo mismo en todas las culturas, qué explica la brecha de transmisión entre generaciones y cuánto pesa el apego temprano frente a las experiencias posteriores en el ajuste a largo plazo. También se discuten los límites de los estatus de Marcia como descripción de una identidad que cambia según los terrenos y las épocas.
+**Debate:** si la Situación Extraña mide lo mismo en todas las culturas, qué explica la brecha de transmisión entre generaciones y cuánto pesa el apego temprano frente a las experiencias posteriores en el ajuste a largo plazo.
 
 ### Mito frecuente
 
@@ -142,7 +142,7 @@ Ambos estudios muestran a la vez dos cosas. La primera: la privación temprana g
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta qué refutó el experimento de Harlow, las fases de Bowlby, la descripción conductual de cada tipo de apego y los estatus de Marcia a partir de un caso. Trampas típicas: confundir moratoria (explora sin compromiso) con identidad hipotecada (compromiso sin exploración), clasificar el apego por cuánto llora el bebé al separarse en lugar de por su conducta en la reunión y atribuir la categoría D a Ainsworth. Conviene saber también que la distribución actual (Madigan et al., 2023) incluye casi una cuarta parte de apego desorganizado.
+**Prioridad alta.** Se pregunta qué refutó el experimento de Harlow, las fases de Bowlby, la descripción conductual de cada tipo de apego y los estatus de Marcia a partir de un caso. Trampas típicas: confundir moratoria (explora sin compromiso) con identidad hipotecada (compromiso sin exploración), clasificar el apego por cuánto llora el bebé al separarse en lugar de por su conducta en la reunión y atribuir la categoría D a Ainsworth.
 
 ### Autoevaluación
 
@@ -200,7 +200,7 @@ Su aportación más duradera es la **bondad de ajuste**: lo que predice la adapt
 2. **Afectividad negativa**: miedo, frustración, tristeza, dificultad para calmarse.
 3. **Control esforzado**: capacidad de inhibir una respuesta dominante, focalizar la atención y planificar. Madura sobre todo a partir de los años preescolares y conecta con las funciones ejecutivas (Unidad 3).
 
-**Kagan.** Distinguió a los niños **inhibidos**, que ante lo desconocido se retraen, se quedan callados y buscan al cuidador, de los **desinhibidos**, que se acercan con soltura a personas y objetos nuevos. Los extremos mostraban cierta estabilidad, pero muchos niños inhibidos se volvían menos tímidos con el tiempo, sobre todo cuando sus padres los animaban con suavidad a afrontar lo nuevo.
+**Kagan.** Distinguió a los niños **inhibidos**, que ante lo desconocido se retraen, se quedan callados y buscan al cuidador, de los **desinhibidos**, que se acercan con soltura a personas y objetos nuevos. Los extremos mostraban cierta estabilidad, aunque muchos niños cambiaban con el tiempo.
 
 **Buss y Plomin.** Su modelo **EAS** reduce el temperamento a tres rasgos con componente hereditario: **emocionalidad**, **actividad** y **sociabilidad**.
 
@@ -228,11 +228,11 @@ Como muestra la figura 16.1, la teoría distingue tres niveles:
 | Nivel | Estadio | Justificación típica en el dilema de Heinz |
 | --- | --- | --- |
 | Preconvencional | 1 · Castigo y obediencia | «No debe robar porque irá a la cárcel» |
-| | 2 · Hedonismo instrumental | «Debe robarlo si necesita a su mujer» |
+| Preconvencional | 2 · Hedonismo instrumental | «Debe robarlo si necesita a su mujer» |
 | Convencional | 3 · «Buen chico, buena chica» | «Un buen marido haría lo posible por ella» |
-| | 4 · Ley y orden | «Si todos robaran, la sociedad no funcionaría» |
+| Convencional | 4 · Ley y orden | «Si todos robaran, la sociedad no funcionaría» |
 | Postconvencional | 5 · Contrato social | «Las leyes deben proteger derechos como la vida» |
-| | 6 · Principios éticos universales | «La vida humana está por encima de la propiedad» |
+| Postconvencional | 6 · Principios éticos universales | «La vida humana está por encima de la propiedad» |
 
 El apoyo empírico principal procede del estudio longitudinal de Colby et al. (1983), que entrevistó seis veces durante 20 años a 58 varones que tenían 10, 13 y 16 años al empezar. Los estadios se sucedían en el **orden previsto, sin saltos**, y el estadio 5 era poco frecuente y solo aparecía en la adultez; el 6 quedó como ideal teórico.
 
@@ -281,7 +281,7 @@ En contextos occidentales, el estilo **autoritativo** se asocia con mejores resu
 - Yeager et al. (2019) hallaron efectos pequeños, concentrados en el alumnado de bajo rendimiento.
 - Macnamara y Burgoyne (2023) atribuyen buena parte de los efectos aparentes a problemas de diseño y a sesgos.
 
-**Autocontrol.** En el **test de la golosina** de Mischel, un niño de preescolar puede comerse una golosina ya o esperar y recibir dos. Shoda, Mischel y Peake (1990) hallaron que los niños que esperaban más obtenían después mejores resultados académicos. Watts, Duncan y Quan (2018) lo replicaron con 918 niños (552 hijos de madres sin estudios universitarios). La asociación entre esperar y el rendimiento a los 15 años era la **mitad** de la original: cada minuto más de espera a los 4 años se asociaba con unas 0,1 desviaciones típicas más de rendimiento, y casi todo el efecto lo marcaba llegar a esperar 20 segundos. Al controlar el contexto familiar y las capacidades tempranas, la asociación se reducía en **dos tercios**, y las relaciones con la conducta posterior eran mínimas. El autocontrol sí importa: en la cohorte de Dunedin (Moffitt et al., 2011; Unidad 6), un menor autocontrol infantil se asociaba de forma gradual con peor salud, peores finanzas y más delincuencia en la adultez. Lo que no se sostiene es que una prueba de unos minutos lo prediga todo.
+**Autocontrol.** En el **test de la golosina** de Mischel, un niño de preescolar puede comerse una golosina ya o esperar y recibir dos. Shoda, Mischel y Peake (1990) hallaron que los niños que esperaban más obtenían después mejores resultados académicos. Watts, Duncan y Quan (2018) lo replicaron con 918 niños (552 hijos de madres sin estudios universitarios). La asociación entre esperar y el rendimiento a los 15 años era la **mitad** de la original: cada minuto más de espera a los 4 años se asociaba con unas 0,1 desviaciones típicas más de rendimiento, y casi todo el efecto lo marcaba llegar a esperar 20 segundos. Al controlar el contexto familiar, la asociación se reducía en **dos tercios**, y las relaciones con la conducta posterior eran mínimas. El autocontrol sí importa: en la cohorte de Dunedin (Moffitt et al., 2011; Unidad 6), un menor autocontrol infantil se asociaba de forma gradual con peor salud, peores finanzas y más delincuencia en la adultez. Lo que no se sostiene es que una prueba de unos minutos lo prediga todo.
 
 **Relaciones con iguales.** Con los amigos, los niños aprenden algo que la familia no puede darles del todo: relaciones entre iguales, en las que hay que negociar, ceder y cooperar. La **sociometría** pregunta a cada alumno con quién le gusta y con quién no le gusta jugar. Coie y Dodge clasificaron a los niños en cinco categorías:
 

@@ -6,14 +6,14 @@
 
 Jean Piaget se formó como biólogo y nunca dejó de pensar como tal. Le interesaba una pregunta filosófica, cómo se pasa de un conocimiento menos válido a otro más válido, y decidió responderla estudiando cómo conocen los niños. Llamó a su proyecto **epistemología genética**: «genética» en el sentido de génesis, de origen, no de genes. Para Piaget, la inteligencia es una forma de **adaptación** al medio, igual que lo son las alas o los pulmones, pero mucho más flexible.
 
-Su postura se conoce como **constructivismo**. El conocimiento no está escrito de antemano en el niño (innatismo) ni se imprime en él desde fuera (empirismo): el niño lo **construye** actuando sobre los objetos y reflexionando sobre los resultados de su acción. Es un **niño activo**, un pequeño científico que pone a prueba lo que sabe. Esta imagen se opone a la del niño moldeado por el refuerzo que se vio en la Unidad 2.
+Su postura se conoce como **constructivismo**. El conocimiento no está escrito de antemano en el niño (innatismo) ni se imprime en él desde fuera (empirismo): el niño lo **construye** actuando sobre los objetos y reflexionando sobre los resultados de su acción. Es un **niño activo**, un pequeño científico que pone a prueba lo que sabe, muy distinto del niño moldeado por el refuerzo de la Unidad 2.
 
-La unidad básica del conocimiento es el **esquema**: una pauta organizada de acción o de pensamiento que se aplica a situaciones parecidas. Un bebé tiene esquemas de acción (chupar, agarrar, sacudir); un niño mayor, esquemas mentales (clasificar, ordenar, sumar). Los esquemas cambian mediante dos procesos complementarios:
+La unidad básica del conocimiento es el **esquema**: una pauta organizada de acción o de pensamiento que se aplica a situaciones parecidas. Los esquemas cambian mediante dos procesos complementarios:
 
 - **Asimilación**: incorporar un objeto o una experiencia nueva a un esquema que ya se tiene. El niño interpreta lo nuevo con lo que ya sabe.
 - **Acomodación**: modificar el esquema, o crear uno nuevo, cuando lo nuevo no encaja.
 
-Un ejemplo: una niña de quince meses que domina el esquema de «lanzar la pelota» coge una naranja del frutero y la tira al suelo (asimilación). La naranja no bota y además rueda de forma rara. Tras varios intentos, la niña empieza a tratar las frutas de otro modo: las aprieta, las huele o se las da a su padre (acomodación).
+Un ejemplo: una niña de quince meses que domina el esquema de «lanzar la pelota» coge una naranja del frutero y la tira al suelo (asimilación). La naranja no bota. Tras varios intentos, empieza a tratar las frutas de otro modo: las aprieta o las huele (acomodación).
 
 Asimilación y acomodación forman la **adaptación**. Junto con la **organización**, la tendencia a integrar los esquemas en sistemas cada vez más coherentes, constituyen las **invariantes funcionales**: funcionan igual a cualquier edad, mientras que las estructuras que producen cambian.
 
@@ -34,13 +34,13 @@ Como muestra la figura 3.1, el desarrollo cognitivo es una sucesión de equilibr
 
 Los estadios siguen una **secuencia invariante**: el orden es el mismo para todos porque cada uno se construye sobre el anterior, aunque las edades varíen. Cada estadio forma además una **estructura de conjunto**, una forma general de razonar que debería aplicarse a contenidos diferentes. Esta segunda idea es la más discutida. Los estadios se estudian a fondo en la Unidad 12 y las críticas, en la Unidad 13.
 
-Piaget investigó con el **método clínico**: plantear al niño un problema, pedirle que lo explique y adaptar las preguntas a sus respuestas (Unidad 5). Sus obras sobre la inteligencia del bebé (Piaget, 1936) y la construcción de lo real (Piaget, 1937) se basaron en la observación detallada de sus propios hijos.
+Piaget investigó con el **método clínico** (Unidad 5) y, en sus obras sobre el bebé (Piaget, 1936, 1937), con la observación detallada de sus propios hijos.
 
 ### 3.2 Vygotsky: mediación, doble formación y zona de desarrollo próximo
 
-Lev Vygotsky trabajó en la Unión Soviética de los años veinte y principios de los treinta, y su obra se conoció tarde en Occidente: *Pensamiento y lenguaje* (Vygotsky, 1934) se tradujo décadas después, y *Mind in Society* (Vygotsky, 1978) reunió textos suyos editados por otros autores. Su enfoque se llama **sociocultural** o histórico-cultural. Si Piaget miraba al niño que explora solo, Vygotsky miraba al niño que aprende **con otros** dentro de una cultura concreta.
+Lev Vygotsky trabajó en la Unión Soviética de los años veinte y principios de los treinta, y su obra se difundió tarde en Occidente: *Pensamiento y lenguaje* (Vygotsky, 1934) y la recopilación *Mind in Society* (Vygotsky, 1978). Su enfoque se llama **sociocultural** o histórico-cultural. Si Piaget miraba al niño que explora solo, Vygotsky miraba al niño que aprende **con otros** dentro de una cultura concreta.
 
-**Mediación.** Para Vygotsky, las funciones psicológicas superiores (la atención voluntaria, la memoria deliberada, el razonamiento) no son simples prolongaciones de las elementales. Están **mediadas** por herramientas que la cultura ha creado. Unas son materiales, como el lápiz o el calendario; otras son **signos**, sobre todo el lenguaje, pero también los números, los mapas o los dibujos. Hacer un nudo en un pañuelo para acordarse de algo ya es usar un signo: la memoria deja de depender solo de lo que pasa y empieza a controlarse desde dentro. Como las herramientas cambian de una cultura a otra, el desarrollo no tiene por qué seguir un único camino universal.
+**Mediación.** Para Vygotsky, las funciones psicológicas superiores (la atención voluntaria, la memoria deliberada, el razonamiento) no son simples prolongaciones de las elementales. Están **mediadas** por herramientas que la cultura ha creado. Unas son materiales, como el lápiz o el calendario; otras son **signos**, sobre todo el lenguaje, pero también los números, los mapas o los dibujos. Hacer un nudo en un pañuelo para acordarse de algo ya es usar un signo para controlar la propia memoria. Como las herramientas cambian de una cultura a otra, el desarrollo no tiene por qué seguir un único camino universal.
 
 **Ley de doble formación.** Toda función aparece **dos veces**: primero en el plano social, entre personas (**interpsicológico**), y después en el plano individual, dentro del niño (**intrapsicológico**). El paso de un plano a otro es la **interiorización**. Un ejemplo: un padre ayuda a su hijo a recoger la habitación diciéndole «primero los coches a la caja, luego los cuentos a la estantería». Meses después, el niño se da las mismas instrucciones en voz baja. Lo que era una regulación compartida se ha convertido en autorregulación.
 
@@ -53,10 +53,10 @@ Figura 3.2. **La zona de desarrollo próximo.** En el centro, lo que el niño lo
 Como muestra la figura 3.2, la ZDP no es un rasgo fijo del niño, sino una zona que se desplaza: lo que hoy se hace con ayuda, mañana se hará solo, y aparecerán nuevas tareas en la zona intermedia. De aquí se siguen varias consecuencias:
 
 1. Dos niños con el mismo nivel real pueden tener ZDP muy distintas. Medir solo lo que hacen sin ayuda da una imagen incompleta; esta idea inspiró la **evaluación dinámica**.
-2. La enseñanza eficaz no espera a que el desarrollo esté hecho: trabaja **un poco por delante** de él, dentro de la ZDP. Enseñar lo que el niño ya domina no le aporta nada; enseñar lo que está fuera de su alcance tampoco.
+2. La enseñanza eficaz no espera a que el desarrollo esté hecho: trabaja **un poco por delante** de él, dentro de la ZDP.
 3. El aprendizaje guiado **tira** del desarrollo, en lugar de limitarse a seguirlo.
 
-Un ejemplo: Marta, de siete años, no consigue montar sola un puzle de cien piezas. Con su hermano mayor, que le sugiere empezar por los bordes y agrupar las piezas por colores, lo termina. Semanas después aplica la estrategia sin ayuda a otro puzle. La tarea estaba en su ZDP. Si se le hubiera dado un puzle de mil piezas, ninguna ayuda razonable habría bastado.
+Un ejemplo: Marta, de siete años, no consigue montar sola un puzle de cien piezas. Con su hermano mayor, que le sugiere empezar por los bordes y agrupar las piezas por colores, lo termina. Semanas después aplica la estrategia sin ayuda a otro puzle. La tarea estaba en su ZDP; uno de mil piezas habría quedado fuera.
 
 | Rasgo | Piaget | Vygotsky |
 | --- | --- | --- |
@@ -92,9 +92,9 @@ La clave es la **contingencia**: la ayuda aumenta cuando el niño falla y dismin
 | Destino | Desaparece al superar el egocentrismo | Se interioriza y se convierte en pensamiento verbal |
 | Cuándo debería aumentar | No hay predicción clara | Cuando la tarea es difícil |
 
-La investigación posterior apoya más la interpretación de Vygotsky. El habla privada parece aumentar ante las tareas difíciles y se va haciendo más breve y susurrada con la edad, hasta volverse interna. Es lo que esperaría una herramienta de autorregulación, no un simple residuo de egocentrismo. Muchos adultos recurren a ella cuando se enfrentan a algo complicado, como montar un mueble siguiendo las instrucciones.
+La investigación posterior apoya más la interpretación de Vygotsky. El habla privada parece aumentar ante las tareas difíciles y se va haciendo más breve y susurrada con la edad, hasta volverse interna. Es lo que esperaría una herramienta de autorregulación, no un simple residuo de egocentrismo. También los adultos recurren a ella al montar un mueble complicado.
 
-Estos conceptos tienen consecuencias prácticas. Un docente que interpreta el habla privada como desorden puede mandar callar justo cuando el niño se está organizando. Y una ayuda que no se retira a tiempo puede crear dependencia: el niño termina la tarea, pero no aprende a hacerla solo. Andamiaje y participación guiada recuerdan que **la calidad de la ayuda** importa más que su cantidad.
+Hay consecuencias prácticas: mandar callar a un niño que habla solo puede interrumpirle justo cuando se organiza, y una ayuda que no se retira crea dependencia. Importa **la calidad de la ayuda** más que su cantidad.
 
 ### 3.4 El procesamiento de la información y las funciones ejecutivas
 
@@ -105,7 +105,6 @@ Frente a Piaget, este enfoque describe un cambio **gradual y continuo**, sin gra
 - **Memoria de trabajo**: la cantidad de información que se mantiene y manipula a la vez aumenta durante la infancia.
 - **Velocidad de procesamiento**: se hace más rápida con la edad en tareas muy distintas, lo que sugiere un cambio general ligado a la maduración (Kail, 1991).
 - **Estrategias**: los niños aprenden a repasar, organizar y elaborar lo que quieren recordar. La memoria infantil y la metamemoria se estudian en la asignatura de Memoria.
-- **Conocimiento previo**: un niño experto en dinosaurios recuerda nombres de dinosaurios mejor que muchos adultos.
 - **Metacognición**: saber cómo funciona la propia mente y vigilar el propio pensamiento, por ejemplo, darse cuenta de que no se ha entendido un párrafo.
 
 **Las olas superpuestas.** Robert Siegler (1996) mostró que, a una misma edad, un niño no usa una única estrategia, sino varias que compiten. Para resolver 3 + 5, un niño de seis años puede contar todos los dedos, contar a partir del número mayor («cinco… seis, siete, ocho») o recordar directamente el resultado. Con la práctica, las estrategias más eficaces se usan cada vez más, como olas que suben mientras otras bajan. Para observar este cambio hace falta registrarlo de cerca mientras ocurre: es el **método microgenético** (Unidad 6).
@@ -120,11 +119,11 @@ Frente a Piaget, este enfoque describe un cambio **gradual y continuo**, sin gra
 
 Las funciones ejecutivas mejoran mucho en los años preescolares y siguen madurando durante la adolescencia, en paralelo a la lenta maduración de la corteza prefrontal (Unidad 11). Están muy relacionadas con la autorregulación, el rendimiento escolar y el autocontrol (Unidad 16).
 
-**Balance.** El enfoque ha aportado precisión: tareas bien definidas, modelos que pueden ponerse a prueba y una descripción fina de procesos que Piaget apenas estudió. Sus críticas son la tendencia a **fragmentar** la mente en procesos aislados, la escasa atención a la emoción, la motivación y el contexto social, y la distancia entre las tareas de laboratorio y la vida cotidiana. Algunos autores, los **neopiagetianos**, combinaron los estadios de Piaget con conceptos del procesamiento de la información, como la capacidad de la memoria de trabajo (Unidad 13).
+**Balance.** El enfoque ha aportado precisión: tareas bien definidas, modelos que pueden ponerse a prueba y una descripción fina de procesos que Piaget apenas estudió. Se le critica que **fragmenta** la mente en procesos aislados, atiende poco a la emoción y al contexto social y usa tareas alejadas de la vida cotidiana. Algunos autores, los **neopiagetianos**, combinaron los estadios de Piaget con conceptos del procesamiento de la información, como la capacidad de la memoria de trabajo (Unidad 13).
 
 ### Consenso y debate
 
-**Consenso:** el niño participa activamente en su desarrollo y no es un receptor pasivo. Las secuencias que describió Piaget se han replicado en gran medida, aunque infravaloró las competencias tempranas y sobrevaloró la generalidad de los estadios. La interacción social y las herramientas culturales impulsan el desarrollo cognitivo. Andamiaje es un término de Wood, Bruner y Ross (1976), no de Vygotsky. El habla privada cumple una función autorreguladora. Las funciones ejecutivas (Miyake et al., 2000) se desarrollan durante toda la infancia y la adolescencia.
+**Consenso:** el niño participa activamente en su desarrollo y no es un receptor pasivo. Las secuencias que describió Piaget se han replicado en gran medida, aunque infravaloró las competencias tempranas y sobrevaloró la generalidad de los estadios. La interacción social y las herramientas culturales impulsan el desarrollo cognitivo. El habla privada cumple una función autorreguladora. Las funciones ejecutivas (Miyake et al., 2000) se desarrollan durante toda la infancia y la adolescencia.
 
 **Debate:** si el desarrollo cognitivo procede por estadios generales o por cambios graduales y específicos de cada dominio. También se discute cuánto de lo que se atribuye a la instrucción dentro de la ZDP depende del niño, del tipo de ayuda y de la cultura, y cómo encajar la explicación individual de Piaget con la explicación social de Vygotsky.
 

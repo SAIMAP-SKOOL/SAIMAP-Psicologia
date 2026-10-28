@@ -8,20 +8,20 @@ Las teorías del capítulo anterior solo valen lo que valen los datos que las so
 
 ### 5.1 Observación, entrevista clínica y cuestionarios
 
-Cualquier método de investigación se juzga con dos criterios. La **fiabilidad** es la consistencia de la medida: dos observadores que registran la misma escena, o el mismo test aplicado dos veces, deben dar resultados parecidos. La **validez** es el grado en que la medida refleja de verdad lo que pretende medir. Un registro puede ser muy fiable y poco válido: contar cuántas veces un niño levanta la mano en clase es fácil y consistente, pero no mide bien su interés por la materia.
+Cualquier método de investigación se juzga con dos criterios. La **fiabilidad** es la consistencia de la medida: dos observadores que registran la misma escena, o el mismo test aplicado dos veces, deben dar resultados parecidos. La **validez** es el grado en que la medida refleja de verdad lo que pretende medir.
 
 **La observación** registra la conducta tal como ocurre. Tiene dos variantes:
 
-- **Observación naturalista**: se observa al niño en sus contextos habituales (casa, patio, aula). Su gran ventaja es que sirve para estudiar a quien todavía no habla y capta la conducta real. Sus límites son la **reactividad** (la conducta cambia porque el niño se sabe observado) y la imposibilidad de saber qué causó lo que se ve. Para reducir el volumen de datos se usa a menudo el **muestreo de tiempo**: se registra si aparece una conducta en intervalos breves y fijos, por ejemplo cada 30 segundos de recreo.
+- **Observación naturalista**: se observa al niño en sus contextos habituales (casa, patio, aula). Sirve para quien todavía no habla y capta la conducta real. Sus límites son la **reactividad** (la conducta cambia porque el niño se sabe observado) y la imposibilidad de saber qué causó lo que se ve. Para reducir el volumen de datos se usa a menudo el **muestreo de tiempo**: se registra si aparece una conducta en intervalos breves y fijos, por ejemplo cada 30 segundos de recreo.
 - **Observación estructurada**: el investigador prepara en el laboratorio una situación igual para todos y registra cómo responde cada niño. Gana comparabilidad, porque todos tienen la misma oportunidad de mostrar la conducta, y pierde naturalidad. La Situación Extraña, con la que se evalúa el apego, es un ejemplo (Unidad 15).
 
-En ambos casos se definen antes las categorías de conducta y se calcula la **fiabilidad interjueces**: el grado de acuerdo entre dos observadores independientes. Si no se ponen de acuerdo sobre qué cuenta como «empujón», el dato no sirve.
+En ambos casos se definen antes las categorías de conducta y se calcula la **fiabilidad interjueces**: el grado de acuerdo entre dos observadores independientes.
 
 **La entrevista clínica** fue el instrumento de Piaget. Se plantea al niño una tarea o una pregunta y, según lo que responde, se formulan nuevas preguntas para entender su razonamiento: «¿Por qué crees que ahora hay más agua?», «¿Y si lo vuelvo a echar en el otro vaso?». Su virtud es la flexibilidad; su defecto, el mismo: si a cada niño se le pregunta algo distinto, las respuestas son difíciles de comparar, y el entrevistador puede sugerir sin querer la respuesta.
 
-**Los cuestionarios y autoinformes** permiten reunir mucha información en poco tiempo. Hall ya los usó a finales del siglo XIX para estudiar las ideas y los intereses de los niños (véase Historia de la Psicología). Tienen dos problemas en esta disciplina. Los niños pequeños no saben leer o no comprenden bien ciertas preguntas, y cualquier participante puede responder para dar buena imagen (**deseabilidad social**). Por eso es frecuente preguntar a varios **informantes**: el propio niño, la familia y el profesorado, que no siempre coinciden.
+**Los cuestionarios y autoinformes** permiten reunir mucha información en poco tiempo. Hall ya los usó para estudiar a niños y adolescentes (véase Historia de la Psicología). Sus problemas son dos: los niños pequeños no saben leer o no comprenden bien ciertas preguntas, y cualquier participante puede responder para dar buena imagen (**deseabilidad social**). Por eso es frecuente preguntar a varios **informantes**: el propio niño, la familia y el profesorado, que no siempre coinciden.
 
-Otros dos métodos completan el repertorio:
+La tabla resume estos métodos y otros dos que completan el repertorio:
 
 | Método | Qué hace | Ventaja | Límite |
 | --- | --- | --- | --- |
@@ -34,8 +34,6 @@ Otros dos métodos completan el repertorio:
 
 El **estudio de casos** combina varios de estos métodos para describir a fondo el desarrollo de una sola persona; los diarios de bebés de Darwin y Preyer (Unidad 1) son su antecedente. La **etnografía** exige vivir durante meses en una comunidad, tomar notas detalladas y entender sus prácticas de crianza desde dentro; su riesgo es que las ideas previas del investigador tiñan la interpretación.
 
-Ningún método es mejor en abstracto. Un estudio sólido suele **combinar** varios: observar en el patio, preguntar a la tutora y pedir al niño que explique lo que ha pasado.
-
 ### 5.2 Cómo se estudia a los bebés: paradigmas infantiles y medidas psicofisiológicas
 
 Un bebé no responde cuestionarios ni sigue instrucciones. Para saber qué percibe o qué espera hay que aprovechar las pocas conductas que controla desde muy pronto: **mirar, chupar y girar la cabeza**. Casi todos los paradigmas infantiles se basan en una idea sencilla: si el bebé responde de forma distinta a dos estímulos, es que los distingue.
@@ -44,11 +42,11 @@ Un bebé no responde cuestionarios ni sigue instrucciones. Para saber qué perci
 
 ![m](fantz.png)
 
-Figura 5.1. **Estímulos del paradigma de preferencia visual.** Cuatro estímulos como los de Fantz: un rostro esquemático, una diana, texto impreso y un color liso. La variable medida es el tiempo de mirada a cada uno. Esquema de elaboración propia.
+Figura 5.1. **Estímulos del paradigma de preferencia visual.** Cuatro estímulos como los de Fantz: un rostro esquemático, una diana, texto impreso y un color liso. La variable medida es el tiempo de mirada a cada uno. Elaboración propia.
 
 Como muestra la figura 5.1, los estímulos difieren en complejidad. Los bebés miraban más los que tenían patrón, con el rostro en cabeza, que las superficies lisas. Si un bebé mira sistemáticamente más un estímulo que otro, puede discriminarlos. Lo contrario no es cierto: que mire lo mismo ambos no prueba que no los distinga.
 
-**Habituación-deshabituación.** Se presenta un estímulo una y otra vez hasta que el tiempo de mirada baja: el bebé se ha **habituado**. Después se muestra un estímulo nuevo. Si la mirada vuelve a subir (**deshabituación** o recuperación), el bebé ha notado la diferencia. Este procedimiento permite saber, por ejemplo, si un bebé de pocos meses distingue un círculo de un óvalo, o una cara alegre de una triste.
+**Habituación-deshabituación.** Se presenta un estímulo una y otra vez hasta que el tiempo de mirada baja: el bebé se ha **habituado**. Después se muestra un estímulo nuevo. Si la mirada vuelve a subir (**deshabituación** o recuperación), el bebé ha notado la diferencia. Así se averigua, por ejemplo, si distingue una cara alegre de una triste.
 
 **Violación de expectativas.** Es una variante: tras habituar al bebé, se le muestra un suceso posible y otro imposible desde el punto de vista físico. Si mira más el imposible, se interpreta que esperaba otra cosa. Con este paradigma se han defendido competencias tempranas sobre objetos y número (Unidad 13). Su interpretación está en **debate**: unos autores leen el resultado de forma «rica» (el bebé sabe que los objetos son sólidos) y otros de forma «austera» (el bebé solo reacciona a lo perceptivamente nuevo), y algunos resultados han sido difíciles de replicar.
 
@@ -62,26 +60,26 @@ Como muestra la figura 5.1, los estímulos difieren en complejidad. Los bebés m
 - **Cortisol** en saliva: marcador de la respuesta de estrés.
 - **Seguimiento ocular** (*eye-tracking*): dónde y durante cuánto tiempo mira, sin depender de un observador humano.
 
-Su límite común es la interpretación. Una aceleración del pulso puede indicar miedo, interés o simple movimiento, y suele ser difícil saber qué estímulo concreto la provocó. Además, los bebés lloran, se duermen o se cansan, y una parte de los datos se pierde. Por eso se recomienda informar de cuántos bebés se excluyeron y por qué, y combinar varias medidas. Las bases sensoriales de estos paradigmas se tratan también en Atención y Percepción.
+Su límite común es la interpretación. Una aceleración del pulso puede indicar miedo, interés o simple movimiento, y suele ser difícil saber qué estímulo concreto la provocó. Además, muchos bebés lloran o se duermen y sus datos se pierden, por lo que conviene informar de cuántos se excluyeron y por qué. Las bases sensoriales de estos paradigmas se tratan también en Atención y Percepción.
 
 ### 5.3 Diseños correlacional, experimental, cuasi-experimental y transcultural
 
-Los métodos anteriores dicen **cómo** se recogen los datos. El diseño dice **cómo se organiza** el estudio y, por tanto, qué se puede concluir.
+El diseño dice **cómo se organiza** el estudio y, por tanto, qué se puede concluir.
 
 **Diseño correlacional.** Se miden dos o más variables tal como se dan, sin intervenir, y se calcula su grado de asociación. El **coeficiente de correlación** va de −1 a +1: el signo indica la dirección y el valor absoluto, la fuerza. Por ejemplo, se puede hallar que los niños que pasan más horas ante pantallas tienen, de media, algo menos de vocabulario. El problema es que **correlación no implica causalidad**, por dos razones:
 
 1. **Dirección**: quizá los niños con menos lenguaje se aburren más con otros juegos y por eso ven más pantallas.
 2. **Terceras variables**: el nivel educativo de la familia, las horas de trabajo de los padres o el número de libros en casa pueden influir en ambas cosas.
 
-Aun así, el diseño correlacional es imprescindible cuando no se puede manipular la variable, como la pobreza, el divorcio o el temperamento.
+Aun así, es imprescindible cuando la variable no se puede manipular, como la pobreza o el divorcio.
 
 **Diseño experimental.** El investigador **manipula** una variable independiente (VI), mide su efecto en una variable dependiente (VD) y **asigna al azar** a los participantes a las condiciones. La asignación aleatoria hace que los grupos sean equivalentes de partida, de modo que la única diferencia sistemática es la manipulación. Es el único diseño que permite concluir con seguridad que A causa B: tiene alta **validez interna**. El experimento de Bandura, Ross y Ross (1961) sobre la imitación de la agresión es un ejemplo (Unidad 2). Su crítica clásica es la artificialidad: un niño en un laboratorio, con adultos desconocidos, puede no comportarse como en casa. Es un problema de **validez ecológica**. El **experimento de campo** responde a esa crítica: manipula la variable en un entorno real, por ejemplo aplicando un programa de lectura en unas aulas elegidas al azar.
 
-**Diseño cuasi-experimental.** Compara grupos que **no se han formado al azar**: los alumnos de dos colegios con métodos diferentes, o niños que fueron a escuela infantil frente a niños que no fueron. Los grupos pueden diferir en muchas otras cosas, así que las conclusiones causales son más débiles. Un caso especial es el **experimento natural**: un suceso que el investigador no provoca crea grupos comparables. El estudio ERA siguió a niños adoptados en Reino Unido tras vivir en orfanatos rumanos y comparó a quienes salieron antes y después de los 6 meses (Sonuga-Barke et al., 2017; Unidad 15). Nadie habría podido asignar niños a la privación; la historia lo hizo.
+**Diseño cuasi-experimental.** Compara grupos que **no se han formado al azar**: los alumnos de dos colegios con métodos diferentes, o niños que fueron a escuela infantil frente a niños que no fueron. Los grupos pueden diferir en muchas otras cosas, así que las conclusiones causales son más débiles. Un caso especial es el **experimento natural**: un suceso que el investigador no provoca crea grupos comparables. El estudio ERA siguió a niños adoptados en Reino Unido tras vivir en orfanatos rumanos y comparó a quienes salieron antes y después de los 6 meses (Sonuga-Barke et al., 2017; Unidad 15).
 
-El **ensayo aleatorizado** con niños en situación de riesgo es excepcional. El BEIP (Nelson et al., 2007) asignó al azar a 136 niños institucionalizados en Rumanía a seguir en la institución o pasar a acogimiento familiar, en un país donde la acogida apenas existía. Por eso sus conclusiones causales sobre la privación son mucho más fuertes que las de los estudios observacionales.
+El **ensayo aleatorizado** con niños en situación de riesgo es excepcional. El BEIP (Nelson et al., 2007) asignó al azar a 136 niños institucionalizados en Rumanía a seguir en la institución o pasar a acogimiento familiar, lo que da a sus conclusiones causales una solidez poco habitual.
 
-**Diseño transcultural.** Compara a niños criados en culturas distintas para saber si un fenómeno es **universal** o **específico** de un contexto. Por ejemplo, la proporción de tipos de apego varía entre países (Unidad 15), y las normas motoras de la OMS se obtuvieron en cinco países (Unidad 10). Su dificultad es que un mismo instrumento puede no significar lo mismo en culturas distintas.
+**Diseño transcultural.** Compara a niños criados en culturas distintas para saber si un fenómeno es **universal** o **específico** de un contexto. Por ejemplo, la proporción de tipos de apego varía entre países (Unidad 15). Su dificultad es que un mismo instrumento puede no significar lo mismo en culturas distintas.
 
 | Diseño | ¿Manipula? | ¿Asignación aleatoria? | ¿Permite inferir causas? |
 | --- | --- | --- | --- |
@@ -92,7 +90,7 @@ El **ensayo aleatorizado** con niños en situación de riesgo es excepcional. El
 
 ### 5.4 Ética y ciencia abierta en la investigación con menores
 
-Los niños son participantes especialmente vulnerables: no siempre entienden qué se les pide, les cuesta decir que no a un adulto y dependen de otros para su bienestar. Por eso la investigación con menores tiene garantías añadidas, que revisa un **comité de ética** antes de empezar el estudio.
+Los niños no siempre entienden qué se les pide y les cuesta decir que no a un adulto. Por eso la investigación con menores tiene garantías añadidas, que revisa un **comité de ética** antes de empezar.
 
 Los principios básicos son:
 
@@ -111,7 +109,7 @@ Dos estudios clásicos muestran lo que hoy no se permitiría. Watson y Rayner (1
 2. **Estudios multilaboratorio**: muchos grupos aplican el mismo protocolo y reúnen sus datos. ManyBabies 1 (2020) estudió la preferencia por el habla dirigida al bebé en 67 laboratorios y 2.329 bebés. La preferencia existía, pero el efecto (d = 0,35) era aproximadamente la mitad de lo que se creía.
 3. **Metaanálisis aumentados por la comunidad**: bases de datos abiertas de metaanálisis que los investigadores actualizan a medida que se publican estudios nuevos.
 
-La lección de ManyBabies no es que la investigación anterior fuera inútil, sino que un estudio aislado con pocos bebés tiende a **sobrestimar** el tamaño de los efectos. Compartir datos y materiales permite, además, que otros comprueben los análisis. Ética y ciencia abierta van unidas: someter a niños a procedimientos que no van a dar resultados fiables también es un problema ético.
+La lección de ManyBabies no es que la investigación anterior fuera inútil, sino que un estudio aislado con pocos bebés tiende a **sobrestimar** el tamaño de los efectos. Ética y ciencia abierta van unidas: someter a niños a procedimientos que no van a dar resultados fiables también es un problema ético.
 
 ### Consenso y debate
 
@@ -189,7 +187,7 @@ El problema es que estos tres factores están **ligados de forma exacta**: edad 
 
 ![m](edad-cohorte.png)
 
-Figura 6.1. **Edad, cohorte y momento de medida.** Matriz con las cohortes de nacimiento (2008–2020) en las filas y los momentos de medida (2024–2036) en las columnas; cada celda indica la edad. Una columna corresponde a un estudio transversal, una fila a uno longitudinal y la diagonal a un diseño de desfase temporal, con niños de 16 años en todas las celdas. Esquema de elaboración propia.
+Figura 6.1. **Edad, cohorte y momento de medida.** Matriz con las cohortes de nacimiento (2008–2020) en las filas y los momentos de medida (2024–2036) en las columnas; cada celda indica la edad. Una columna corresponde a un estudio transversal, una fila a uno longitudinal y la diagonal a un diseño de desfase temporal, con niños de 16 años en todas las celdas. Esquema. Elaboración propia.
 
 Como muestra la figura 6.1, cada diseño simple recorre la matriz en una dirección y, por eso, deja mezclados dos de los tres factores:
 
@@ -199,9 +197,9 @@ Como muestra la figura 6.1, cada diseño simple recorre la matriz en una direcci
 | Longitudinal (fila) | Cohorte | Edad y momento | Edad con momento de medida |
 | Desfase temporal (diagonal) | Edad | Cohorte y momento | Cohorte con momento de medida |
 
-El **diseño de desfase temporal** (*time-lag*) es el menos conocido. Compara a niños de la misma edad evaluados en años distintos: por ejemplo, adolescentes de 16 años en 2024, 2028, 2032 y 2036. Responde a preguntas como «¿duermen menos los adolescentes de hoy que los de hace una década?», pero no puede saber si las diferencias se deben a la generación o al año en que se midió.
+El **diseño de desfase temporal** (*time-lag*) es el menos conocido. Compara a niños de la misma edad evaluados en años distintos: por ejemplo, adolescentes de 16 años en 2024, 2028, 2032 y 2036. Responde a preguntas como «¿duermen menos los adolescentes de hoy que los de hace una década?», pero no sabe si las diferencias se deben a la generación o al año en que se midió.
 
-Un ejemplo ayuda a ver las tres posibilidades. Supongamos que los niños de 6 años de un estudio leen peor que los de 10. Puede ser un **efecto de edad** (cuatro años más de práctica), un **efecto de cohorte** (los mayores tuvieron otro método de lectura en infantil) o, en un longitudinal, un **efecto de momento** (el año de la segunda medida se cambió el examen). Separar estas explicaciones es el objetivo de los diseños de esta unidad.
+Supongamos que los niños de 6 años de un estudio leen peor que los de 10. Puede ser un **efecto de edad** (cuatro años más de práctica), un **efecto de cohorte** (los mayores tuvieron otro método de lectura en infantil) o, en un longitudinal, un **efecto de momento** (el año de la segunda medida se cambió el examen). Separar estas explicaciones es el objetivo de los diseños de esta unidad.
 
 La distinción tiene especial peso en la adultez y la vejez, donde las cohortes comparadas pueden estar separadas por décadas. Schaie (1965) la formuló de forma sistemática al estudiar la inteligencia adulta; su trabajo se trata en Psicología del Desarrollo en la adultez y la vejez.
 
@@ -211,7 +209,7 @@ La distinción tiene especial peso en la adultez y la vejez, donde las cohortes 
 
 Tiene dos límites serios:
 
-1. **Confunde edad y cohorte.** Si los de 10 años manejan mejor un programa informático que los de 4, no se sabe si es por la edad o porque los mayores tuvieron otra experiencia escolar con ordenadores. Con pocos años de diferencia el riesgo es menor; con décadas, enorme.
+1. **Confunde edad y cohorte.** Si los de 10 años manejan mejor un programa informático que los de 4, no se sabe si es por la edad o porque los mayores tuvieron otra experiencia escolar con ordenadores.
 2. **Describe medias de grupo, no cambios individuales.** No dice si cada niño mejora de forma gradual o a saltos, ni si los que destacan a los 4 años siguen destacando a los 10. Un estudio transversal muestra diferencias entre edades, no desarrollo.
 
 **Diseño longitudinal.** Se evalúa a **las mismas personas** varias veces a lo largo del tiempo. Es el único diseño simple que permite estudiar el **cambio intraindividual** (cómo cambia cada persona), la **estabilidad** de los rasgos (si el niño tímido es un adolescente tímido) y la relación entre experiencias tempranas y resultados posteriores.
@@ -232,9 +230,9 @@ Tres estudios longitudinales clásicos muestran su valor:
 | NYLS (Nueva York) | Thomas y Chess, desde 1956; 133 niños según la mayoría de las fuentes | Temperamento y su ajuste con el entorno (Unidad 16) |
 | NICHD SECCYD (EE. UU.) | Desde 1991; 1.364 niños de 10 centros, hasta los 15 años | Efectos del cuidado infantil no materno y de la calidad de la crianza |
 
-El estudio de Dunedin es un ejemplo de cómo combatir el abandono: con una retención tan alta, apenas hay sesgo por pérdida de participantes. Sus datos han permitido relacionar el autocontrol infantil con la salud, las finanzas y la conducta en la adultez (Moffitt et al., 2011).
+Con una retención tan alta, Dunedin apenas sufre sesgo por abandono. Sus datos han permitido relacionar el autocontrol infantil con la salud, las finanzas y la conducta en la adultez (Moffitt et al., 2011).
 
-Un minicaso: una investigadora quiere saber si los niños que leen pronto son mejores lectores a los 12 años. Con un diseño transversal solo podría comparar grupos de edad. Necesita un longitudinal: medir la lectura de los mismos niños a los 5 y a los 12 años. Pero si el 30 % de las familias abandona, y abandonan sobre todo las de menos recursos, el resultado final reflejará a los niños más favorecidos.
+Un minicaso: para saber si los niños que leen pronto son mejores lectores a los 12 años, hay que medir a los mismos niños a los 5 y a los 12. Pero si el 30 % de las familias abandona, y abandonan sobre todo las de menos recursos, el resultado final reflejará a los niños más favorecidos.
 
 ### 6.3 Diseños secuenciales, longitudinal acelerado y microgenético
 
@@ -244,15 +242,15 @@ Un minicaso: una investigadora quiere saber si los niños que leen pronto son me
 - **Transversal-secuencial**: se repite el mismo estudio transversal en varios momentos con muestras nuevas. Evita los efectos de práctica.
 - **Longitudinal-secuencial**: se siguen a la vez varias cohortes de distintas edades durante varios momentos de medida.
 
-Su gran ventaja es que permiten comprobar si existe un **efecto de cohorte**: si dos cohortes muestran el mismo patrón a las mismas edades, el cambio es probablemente evolutivo. Pero conviene no exagerar. Como edad, cohorte y momento dependen linealmente entre sí, el diseño secuencial **no elimina esa dependencia**: para separar los tres efectos en un mismo análisis hay que suponer que alguno es despreciable o añadir otra información. Es un error frecuente afirmar que estos diseños «resuelven» el problema.
+Su gran ventaja es que permiten comprobar si existe un **efecto de cohorte**: si dos cohortes muestran el mismo patrón a las mismas edades, el cambio es probablemente evolutivo. Pero conviene no exagerar. Como edad, cohorte y momento dependen linealmente entre sí, el diseño secuencial **no elimina esa dependencia**: para separar los tres efectos en un mismo análisis hay que suponer que alguno es despreciable o añadir otra información.
 
 **Longitudinal acelerado.** Es una forma práctica de diseño secuencial: se siguen **varias cohortes de edades escalonadas durante poco tiempo**, de modo que sus tramos de edad se solapen.
 
 ![m](acelerado.png)
 
-Figura 6.2. **Diseño longitudinal acelerado.** Tres cohortes que empiezan con 6, 10 y 14 años se siguen durante 4 años; juntas cubren el tramo de 6 a 18 años. Esquema de elaboración propia.
+Figura 6.2. **Diseño longitudinal acelerado.** Tres cohortes que empiezan con 6, 10 y 14 años se siguen durante 4 años; juntas cubren el tramo de 6 a 18 años. Esquema. Elaboración propia.
 
-Como muestra la figura 6.2, en solo 4 años se obtiene información sobre un tramo de 12 años, algo que un longitudinal clásico tardaría 12 años en reunir. Las edades de solapamiento (10 y 14 años) sirven de control: si la cohorte que termina a los 10 años y la que empieza a esa edad obtienen puntuaciones parecidas, es razonable unir los tramos en una sola curva. Si no coinciden, puede haber un efecto de cohorte. Sus costes son menores, pero no permite seguir a una misma persona durante todo el periodo.
+Como muestra la figura 6.2, en solo 4 años se obtiene información sobre un tramo de 12 años, algo que un longitudinal clásico tardaría 12 años en reunir. Las edades de solapamiento (10 y 14 años) sirven de control: si la cohorte que termina a los 10 años y la que empieza a esa edad obtienen puntuaciones parecidas, es razonable unir los tramos en una sola curva. Si no coinciden, puede haber un efecto de cohorte. A cambio, nadie es seguido durante todo el periodo.
 
 **Diseño microgenético.** Cuando un cambio se produce en semanas, observar una vez al año no basta para verlo ocurrir. El **método microgenético** (Siegler y Crowley, 1991) consiste en **observar muchas veces y con mucho detalle** a los mismos niños durante el periodo en que se espera el cambio, registrando cada intento. Sus rasgos son tres:
 
