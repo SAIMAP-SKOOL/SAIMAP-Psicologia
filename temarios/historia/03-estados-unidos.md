@@ -30,11 +30,11 @@ Titchener puso límites estrictos al campo. La psicología debía ocuparse de la
 
 Su escuela apenas le sobrevivió. Tenía pocos seguidores fuera de Cornell, la introspección producía desacuerdos difíciles de resolver entre laboratorios y su agenda chocaba con un país que pedía una psicología útil. En la Escuela de Würzburgo, por ejemplo, se defendían pensamientos sin imágenes que Titchener negaba (Unidad 4). Lo que sí perduró fue su defensa del **laboratorio** y del control experimental como base de la disciplina.
 
-Conviene no confundir a Titchener con Wundt. Durante décadas los manuales presentaron a Titchener como un simple traductor del sistema de su maestro, pero el programa de Wundt era más amplio: incluía la voluntad, la apercepción y una psicología de los pueblos que no se hacía en el laboratorio (Unidad 3 y Mito frecuente de esta unidad).
+Durante décadas los manuales presentaron a Titchener como un simple continuador de Wundt, pero el programa de su maestro era mucho más amplio (Mito frecuente de esta unidad).
 
 ![](mapa-escuelas.png)
 
-Figura 8.2. **Las escuelas por países hasta 1939.** Mapa conceptual que sitúa en Alemania a Wundt, Würzburgo y la Gestalt; en Austria, el psicoanálisis; en Reino Unido, a Galton, Spearman, Bartlett y la psicología animal; en Francia, a Charcot, Janet y Binet; en Rusia, a Pávlov y Béjterev; y en EE. UU., el estructuralismo, el funcionalismo, el conductismo y el neoconductismo. Elaboración propia.
+Figura 8.2. **Las escuelas por países hasta 1939.** Mapa conceptual de las principales escuelas de Alemania, Austria, Reino Unido, Francia, Rusia y EE. UU.; en este último, el estructuralismo, el funcionalismo, el conductismo y el neoconductismo. Elaboración propia.
 
 Como muestra la figura 8.2, el estructuralismo americano fue una más entre muchas propuestas que convivían en esos años. Las escuelas no se sucedieron en fila: se solaparon, discutieron entre sí y se influyeron.
 
@@ -91,8 +91,6 @@ Columbia fue también el lugar donde se formó Leta Stetter Hollingworth, que ap
 
 Lo que une a Chicago y Columbia es una psicología **práctica**, abierta a los animales y a las aplicaciones y poco interesada en describir los contenidos de la conciencia. En la segunda década del siglo XX buena parte de la psicología estadounidense ya era, en la práctica, una ciencia de la conducta. Cuando Watson publicó su manifiesto en 1913 (Unidad 9), no partía de cero: llevaba a su extremo una tendencia que el funcionalismo había iniciado. Por eso muchos historiadores describen el paso del funcionalismo al conductismo como una **transición gradual** y no como una ruptura brusca.
 
-Un ejemplo ayuda a ver la diferencia de enfoque. Ante un grupo de alumnos que aprenden a mecanografiar, Titchener habría preguntado qué sensaciones e imágenes acompañan a cada pulsación. Cattell habría medido cuánto difieren los alumnos en velocidad; Woodworth, qué motivos les hacen persistir; y Thorndike, cómo la práctica y sus consecuencias reducen los errores. Las tres preguntas funcionalistas siguen vivas en la psicología actual; la de Titchener prácticamente desapareció.
-
 ### 8.4 Las pioneras: Calkins, Washburn y Hollingworth
 
 La nueva historia de la psicología (Furumoto, 1989) ha recuperado a las mujeres que participaron en la fundación de la disciplina y que los relatos clásicos dejaron en la sombra (Unidad 1). Su presencia en Estados Unidos fue temprana, pero chocó con barreras formales: universidades que no concedían títulos a mujeres, puestos reservados a hombres y círculos científicos cerrados.
@@ -107,7 +105,7 @@ Figura 8.3. **Mary Whiton Calkins.** Completó todos los requisitos del doctorad
 
 Figura 8.4. **Margaret Floy Washburn.** Primera mujer doctora en psicología (Cornell, 1894) y autora de *The Animal Mind* (1908). Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-**Margaret Floy Washburn** se doctoró en **Cornell en 1894**, con Titchener, y fue la **primera mujer doctora en psicología**. Su libro ***The Animal Mind*** **(1908)** reunió lo que se sabía sobre la percepción, el aprendizaje y la conciencia en los animales. Paradójicamente, su director rechazaba la psicología animal, que Washburn convirtió en su campo principal. Fue presidenta de la APA en 1921.
+**Margaret Floy Washburn** se doctoró en **Cornell en 1894**, con Titchener, y fue la **primera mujer doctora en psicología**. Su libro ***The Animal Mind*** (1908) reunió lo que se sabía sobre la percepción, el aprendizaje y la conciencia en los animales. Paradójicamente, su director rechazaba la psicología animal, que Washburn convirtió en su campo principal. Fue presidenta de la APA en 1921.
 
 El grupo de los «Experimentalists» de Titchener (apartado 8.1) ilustra el tipo de obstáculo que encontraron. **Christine Ladd‑Franklin**, autora de una teoría evolutiva de la visión del color, protestó durante años por su **exclusión** de unas reuniones a las que no se admitían mujeres. El grupo solo cambió esa norma tras la muerte de Titchener en 1927.
 
@@ -119,8 +117,6 @@ El grupo de los «Experimentalists» de Titchener (apartado 8.1) ilustra el tipo
 | Margaret Floy Washburn | Primera doctora en psicología (Cornell, 1894); presidenta de la APA (1921) | *The Animal Mind* (1908) |
 | Christine Ladd‑Franklin | Excluida de los «Experimentalists» | Teoría evolutiva del color |
 | Leta Stetter Hollingworth | *Functional Periodicity* (1914) | Refutación empírica de prejuicios sobre las mujeres |
-
-Algo más tarde, ya al final del periodo, **Mamie Phipps Clark**, con Kenneth Clark, inició los estudios con muñecas (desde 1939‑40) sobre la identidad de los niños afroamericanos, que se citarían en la sentencia *Brown v. Board of Education* (1954).
 
 Estas trayectorias tienen un rasgo común: aportaron contenidos que la psicología sigue usando, pero tuvieron que hacerlo desde los márgenes, en colegios universitarios femeninos o sin el título que les correspondía. Integrarlas en el relato no es un gesto simbólico. Corrige una historia de «grandes hombres» que explicaba el progreso por genios aislados y olvidaba quién quedaba fuera de las instituciones (Unidad 1).
 
@@ -207,7 +203,7 @@ Para explicar estos datos, Thorndike propuso que aprender consiste en formar **c
 
 A comienzos de los años treinta, nuevos datos le llevaron a revisar ambas. La práctica sin consecuencias apenas fortalecía las conexiones, de modo que la ley del ejercicio perdió peso. Y la molestia no parecía debilitar las conexiones tanto como la satisfacción las reforzaba, así que se quedó sobre todo con la parte positiva de la ley del efecto.
 
-Un ejemplo cotidiano: alguien que se instala una aplicación nueva prueba botones al azar hasta que uno le lleva a la función que buscaba. La próxima vez tarda menos, y tras unos días lo hace sin pensar. No ha habido una comprensión súbita, sino la consolidación gradual de la respuesta que «funcionó».
+Un ejemplo cotidiano: quien estrena una aplicación prueba botones al azar hasta dar con la función que buscaba. La próxima vez tarda menos y, tras unos días, lo hace sin pensar: no hay comprensión súbita, sino consolidación gradual de la respuesta que «funcionó».
 
 Thorndike es la pieza que une el funcionalismo con el conductismo. Su método era objetivo y prescindía de la introspección, y su ley del efecto anticipó el concepto de refuerzo. Pero no conviene igualarlos. La ley del efecto se formula en términos de **satisfacción y molestia**, estados del animal; el **refuerzo** de Skinner se define solo por su efecto sobre la frecuencia de la conducta (Unidad 11). Además, Thorndike no se consideró nunca conductista: dedicó la mayor parte de su obra al aprendizaje escolar y a la medida. El estudio detallado de estos procesos corresponde a la asignatura de Aprendizaje.
 

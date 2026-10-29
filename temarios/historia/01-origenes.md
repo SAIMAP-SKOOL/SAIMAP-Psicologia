@@ -99,7 +99,7 @@ Ningún marco basta por sí solo. Un uso razonable consiste en tomarlos como her
 
 ### 1.4 La nueva historia y las mujeres invisibilizadas
 
-Desde los años setenta, la historia de la psicología dejó de ser cosa casi exclusiva de psicólogos que escribían sobre sus antecesores. Furumoto (1989) llamó **nueva historia** a la que hacen historiadores profesionales con cuatro rasgos:
+Durante mucho tiempo, la historia de la psicología la escribieron sobre todo psicólogos que repasaban la obra de sus antecesores. Furumoto (1989) llamó **nueva historia** a la que hacen historiadores profesionales con cuatro rasgos:
 
 - **Contextual**: sitúa las ideas en sus instituciones, su sociedad y su política.
 - **Archivística**: trabaja con fuentes primarias, no solo con manuales.
@@ -113,7 +113,7 @@ Una consecuencia directa de la nueva historia es la recuperación de las **mujer
 | Pionera | Aportación | Obstáculo |
 | --- | --- | --- |
 | Mary Whiton Calkins | Método de pares asociados; primera presidenta de la APA (1905) | Completó los requisitos del doctorado en Harvard (1895), que se negó a concedérselo |
-| Margaret Floy Washburn | Primera mujer doctora en psicología (Cornell, 1894); *The Animal Mind* (1908); presidenta de la APA (1921) | Acceso limitado a puestos universitarios de investigación |
+| Margaret Floy Washburn | Primera mujer doctora en psicología (Cornell, 1894); *The Animal Mind* (1908); presidenta de la APA (1921) | Carrera en un entorno que limitaba el acceso de las mujeres a la investigación |
 | Christine Ladd‑Franklin | Teoría evolutiva de la visión del color | Excluida de los «Experimentalists» de Titchener |
 | Leta Stetter Hollingworth | *Functional Periodicity* (1914): el ciclo menstrual no merma el rendimiento | Tuvo que refutar con datos prejuicios presentados como ciencia |
 | Mamie Phipps Clark | Estudios con muñecas, con Kenneth Clark, desde 1939‑40 | Doble exclusión, por género y por raza |
@@ -211,7 +211,7 @@ De ahí surgió el **asociacionismo**: las ideas simples se unen en ideas comple
 | Hartley y James Mill | Asociación de ideas simples | Ebbinghaus, Thorndike, conductismo |
 | John Stuart Mill | Química mental | Antecedente de la síntesis creadora de Wundt |
 
-El asociacionismo dio a la psicología experimental una de sus hipótesis de trabajo más fecundas. Cuando Ebbinghaus aprendió listas de sílabas o Thorndike observó cómo un gato conectaba una conducta con su consecuencia (Unidades 4 y 9), estaban convirtiendo en experimento una vieja pregunta empirista. La matiz de John Stuart Mill también tendrá eco: la idea de que el todo puede ser algo más que la suma de sus partes reaparece en Wundt (Unidad 3) y, con otra forma, en la Gestalt (Unidad 7).
+El asociacionismo dio a la psicología experimental una de sus hipótesis de trabajo más fecundas. Cuando Ebbinghaus aprendió listas de sílabas o Thorndike observó cómo un gato conectaba una conducta con su consecuencia (Unidades 4 y 9), estaban convirtiendo en experimento una vieja pregunta empirista. El matiz de John Stuart Mill también tendrá eco: la idea de que el todo puede ser algo más que la suma de sus partes reaparece en Wundt (Unidad 3) y, con otra forma, en la Gestalt (Unidad 7).
 
 Un ejemplo cotidiano del principio asociativo: el olor de una crema solar evoca el verano porque ambas experiencias se han presentado juntas muchas veces. Los empiristas no hicieron experimentos para comprobarlo; la psicología del siglo XIX sí empezaría a hacerlos.
 
@@ -442,7 +442,7 @@ Figura 3.2. **Wundt con colaboradores en Leipzig (hacia 1880).** El laboratorio 
 
 ![m](arbol-wundt.png)
 
-Figura 3.3. **Wundt y sus discípulos.** Desde Leipzig, Hall y Cattell marcharon a Estados Unidos, Titchener a Cornell, Külpe a Würzburgo, Münsterberg a Harvard y Spearman a Londres. Elaboración propia.
+Figura 3.3. **Wundt y sus discípulos.** Desde Leipzig, Hall y Cattell volvieron a Estados Unidos, Titchener a Cornell, Külpe a Würzburgo, Münsterberg a Harvard y Spearman a Londres. Elaboración propia.
 
 Como muestra la figura 3.3, el legado institucional de Wundt fue enorme: formó a una generación que llevó el modelo de laboratorio a otros países (Unidades 4 y 8). Pero muchos de ellos adoptaron el laboratorio y no su teoría. El caso más influyente es el de Titchener, que en 1898 llamó **estructuralismo** a su propia psicología y presentó a Wundt como su antecedente. Boring (1929) difundió esa imagen, y los manuales la repitieron durante décadas.
 
@@ -461,12 +461,12 @@ Su trayectoria (figura 3.4) incluye varias aportaciones clave:
 | Año | Aportación | Importancia |
 | --- | --- | --- |
 | 1869 | *Hereditary Genius* | Estudio de familias de personas eminentes para defender la herencia de la capacidad |
-| 1875 | Estudio de gemelos | Primer uso de gemelos para separar herencia y ambiente |
+| 1875 | Estudio de gemelos | Uso de gemelos para separar herencia y ambiente |
 | 1883 | *Inquiries into Human Faculty* | Recopilación de sus trabajos sobre facultades humanas |
-| 1884 | Laboratorio antropométrico | Medidas físicas y sensoriales a miles de visitantes en una exposición de Londres |
+| 1884 | Laboratorio antropométrico | Medidas físicas y sensoriales de muchos visitantes en una exposición de Londres |
 | 1888 | Regresión y correlación | Herramientas para describir cómo varían juntas dos medidas |
 
-El **laboratorio antropométrico** se instaló en la International Health Exhibition de Londres (1884). Los visitantes pagaban por que les midieran la estatura, la fuerza, la agudeza visual o el tiempo de reacción, y Galton reunía así datos de una población amplia. Galton también ideó un **test de asociación de palabras** y popularizó la oposición entre naturaleza y crianza.
+El **laboratorio antropométrico** se instaló en la International Health Exhibition de Londres (1884). A los visitantes se les medía la estatura, la fuerza, la agudeza visual o el tiempo de reacción, y Galton reunía así datos de una población amplia. Galton también ideó un **test de asociación de palabras** y popularizó la oposición entre naturaleza y crianza.
 
 Su aportación estadística es la más duradera. Galton concibió la **correlación**, una forma de medir en qué grado dos variables, como la estatura de padres e hijos, varían juntas. Pero no inventó el coeficiente que se usa hoy: el **coeficiente de correlación producto‑momento** lo formalizó **Pearson** (1896). Confundirlos es un error frecuente. La correlación se trata en Métodos y Estadística.
 
@@ -491,7 +491,7 @@ Sus ideas centrales (figura 3.5) son:
 - **Corriente de conciencia**: la conciencia no es un mosaico de elementos, sino un flujo continuo, personal y siempre cambiante. No se baña uno dos veces en el mismo estado mental.
 - **Funciones adaptativas**: la conciencia existe porque es útil; selecciona, compara y elige, y ayuda al organismo a adaptarse.
 - **Pragmatismo**: el valor de una idea se juzga por sus consecuencias prácticas.
-- **Teoría James‑Lange de la emoción**: no lloramos porque estemos tristes, sino que la percepción de los cambios corporales constituye la emoción. Se estudia en Motivación y Emoción.
+- **Teoría James‑Lange de la emoción**: la secuencia habitual se invierte: primero se producen los cambios corporales, y la percepción de esos cambios es la emoción. Se estudia en Motivación y Emoción.
 
 James no fue un hombre de laboratorio, y por eso llevó a Harvard a Münsterberg, formado con Wundt, para dirigir la investigación experimental. Su influencia fue intelectual: sus obras contenían las semillas del **funcionalismo** (Unidad 8).
 
