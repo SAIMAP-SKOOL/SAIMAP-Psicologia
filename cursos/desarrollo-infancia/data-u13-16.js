@@ -380,7 +380,7 @@ window.COURSE.units.push(
       "Una niña de 3 años acepta que su madre se vaya a trabajar tras acordar que la recogerá después de la merienda. ¿En qué fase de Bowlby está?|Relación recíproca corregida por objetivos|Apego definido con ansiedad de separación|Formación del apego con preferencia por conocidos|Desde los 2 años, aproximadamente, entiende metas y horarios del cuidador y negocia.",
       "¿Qué teoría del vínculo refutó directamente el experimento de Harlow?|La del impulso secundario|La de la base segura|La de los modelos internos|Las crías buscaban el contacto reconfortante, no a quien las alimentaba.",
       "Según Bowlby, ¿por qué se seleccionó el apego en la evolución?|Aumentaba la supervivencia de las crías|Garantizaba la alimentación del bebé|Facilitaba el aprendizaje del lenguaje|Mantener cerca a un adulto protector aumentaba la supervivencia, y llorar o sonreír sirven a ese fin.",
-      "Según Schaffer y Emerson (1964), ¿quién solía ser la figura principal de apego?|Quien respondía con más sensibilidad|Quien pasaba más tiempo con el bebé|Quien se encargaba de alimentarlo|La figura principal no era siempre quien más tiempo pasaba, sino quien respondía con más sensibilidad."
+      "Un bebé de 10 meses protesta cuando se va su padre y se calma en brazos de su abuela. Según Schaffer y Emerson (1964), ¿qué refleja?|Apegos múltiples tempranos|Un apego inseguro con la madre|Una fase de preapego tardía|Muchos bebés formaban muy pronto apegos con el padre, los abuelos o los hermanos, no solo con la madre."
     ],
     inc: [
       "Sobre la teoría de Bowlby|El vínculo aparece completo desde el nacimiento|La figura de apego funciona como refugio|El niño construye modelos operativos internos|Bowlby defendió que el vínculo se forma de manera gradual, en fases."
@@ -562,7 +562,7 @@ window.COURSE.units.push(
       "La agresión física alcanza su máximo hacia los ___ años.|2|5|8",
       "Baumrind describió tres estilos, y Maccoby y Martin añadieron un cuarto en ___.|1983|1971|1966",
       "En el modelo de coerción, el adulto que cede queda reforzado por el ___ que logra.|silencio|respeto|control",
-      "Gershoff y Grogan-Kaylor (2016) asociaron los azotes con ___ de 17 resultados perjudiciales.|13|7|17",
+      "En Gershoff y Grogan-Kaylor (2016), el efecto medio de los azotes rondaba d ≈ ___.|0,33|0,08|0,80",
       "En contextos occidentales, el estilo ___ se asocia con los peores resultados.|negligente|autoritario|permisivo"
     ],
     tf: [
