@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Psicología: historia, ciencia y profesión · SAIMAP Psicología",
+  "cover_title": "Psicología:<br>historia, ciencia<br>y profesión",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo nació y cómo ha cambiado la psicología: historiografía, antecedentes filosóficos y fisiológicos, la fundación, las escuelas europeas y americanas, el conductismo, la revolución cognitiva, el psicoanálisis, el humanismo, la crisis de replicación, la profesión en España y la deontología. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#7A5BA8",
+    "#2D5A7B",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología: historia, ciencia y profesión · SAIMAP Psicología",
+  "pdf": "Psicologia-Historia-Ciencia-y-Profesion_SAIMAP.pdf",
+  "colors": {
+    "P": "#7A5BA8",
+    "A": "#C8553D",
+    "TINT": "#EFEAF5",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-origenes.md",
+    "02a-europa.md",
+    "02b-europa.md",
+    "03-estados-unidos.md",
+    "04a-posguerra.md",
+    "04b-posguerra.md",
+    "05-profesion.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-origenes.md",
+    "02a-europa.md",
+    "02b-europa.md",
+    "03-estados-unidos.md",
+    "04a-posguerra.md",
+    "04b-posguerra.md",
+    "05-profesion.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
