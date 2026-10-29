@@ -121,15 +121,15 @@ window.COURSE.units.push(
       "Hermenéutica=Disciplina de la interpretación de textos",
       "Paul Ricoeur=Filósofo que en 1965 leyó a Freud como método de interpretación",
       "Jürgen Habermas=Autor de «Conocimiento e interés» (1968)",
-      "Jacques Lacan=Propuso un «retorno a Freud» a través de la lingüística (1966)",
+      "Jacques Lacan=Analista que quedó fuera de la asociación internacional y fundó su escuela en París",
+      "Retorno a Freud=Programa de Lacan que relee a Freud a través de la lingüística (1966)",
       "Grünbaum (1984)=Crítico que exige contrastar las afirmaciones causales de Freud",
       "Metapsicología=Teoría de la libido, pulsión de muerte y aparato psíquico, poco contrastable",
-      "Shedler (2010)=Revisión de 8 metaanálisis con 160 estudios sobre terapias psicodinámicas",
-      "Abbass et al. (2006)=Metaanálisis de 23 ensayos y 1.431 pacientes con terapia psicodinámica breve"
+      "Terapia psicodinámica actual=Breve, focal y centrada en la relación"
     ],
     g: [
       "Para Lacan, el inconsciente está estructurado como un ___.|lenguaje|texto|sueño",
-      "En el metaanálisis de Abbass et al. (2006), el tamaño del efecto fue de ___ en mejora sintomática general.|0,97|1,51|0,31",
+      "Grünbaum recordó que el propio Freud hacía afirmaciones ___ que deben someterse a prueba.|causales|interpretativas|literarias",
       "Lacan quedó fuera de la asociación psicoanalítica internacional y fundó su propia escuela en ___.|París|Londres|Viena",
       "Habermas expuso su lectura del psicoanálisis en «Conocimiento e ___» (1968).|interés|interpretación|sentido",
       "Los procesos no conscientes y las defensas pertenecen al plano de los conceptos ___.|generales|metapsicológicos|terapéuticos"
@@ -147,13 +147,13 @@ window.COURSE.units.push(
       "¿Qué precio tiene, según Grünbaum, la salida hermenéutica?|Elude contrastar afirmaciones causales|Renuncia a toda aplicación clínica|Reduce el análisis a la lingüística|Freud afirmaba que la represión causa los síntomas, y esas afirmaciones causales deben poder someterse a prueba."
     ],
     inc: [
-      "Sobre la herencia del psicoanálisis|Su metapsicología cuenta con fuerte apoyo empírico|Sus terapias breves tienen evidencia de eficacia|Sus conceptos generales tienen apoyo indirecto|La metapsicología es poco contrastable (Grünbaum, 1984). El apoyo empírico corresponde a las terapias psicodinámicas."
+      "Sobre la lectura hermenéutica|Busca causas como una ciencia natural|Lee el psicoanálisis como interpretación|La defendieron Ricoeur y Habermas|La lectura hermenéutica busca sentidos, no causas: el analista se parece más a un lector de textos que a un físico."
     ],
     seq: [
       "La discusión sobre el estatuto del psicoanálisis|Ricoeur (1965)>Lacan, «Escritos» (1966)>Habermas (1968)>Grünbaum (1984)>Shedler (2010)"
     ],
     cls: [
-      "Plano de evaluación|Metapsicología: teoría de la libido; pulsión de muerte; aparato psíquico|Conceptos generales: procesos no conscientes; defensas; vínculos tempranos|Terapias psicodinámicas: terapia psicodinámica breve; Abbass et al. (2006)"
+      "Lectura del psicoanálisis|Hermenéutica: Ricoeur; Habermas; búsqueda de sentidos; analista como lector de textos|Causal: Grünbaum; afirmaciones contrastables; la represión causa los síntomas"
     ] }
 ] },
 { n: 14, t: "La tercera fuerza: el movimiento humanista", cap: 4, pir: "media", mods: [
@@ -180,7 +180,7 @@ window.COURSE.units.push(
       "Los humanistas pretendían sobre todo sustituir al conductismo y al psicoanálisis.|F|No buscaban tanto sustituirlos como completarlos, ocupándose de lo que ambos dejaban fuera.",
       "El humanismo reprochaba al psicoanálisis describir a la persona a partir de pacientes y no de personas sanas.|V",
       "El humanismo era una escuela homogénea con un programa de investigación común.|F|Era un movimiento heterogéneo. Esa amplitud atrajo perfiles distintos, pero dificultó un programa de investigación común.",
-      "El humanismo tomó del psicoanálisis culturalista de Horney y Fromm la preocupación por el crecimiento.|V"
+      "La contracultura de los sesenta buscaba autenticidad, libertad y desarrollo personal.|V"
     ],
     q: [
       "Una persona lleva meses desmotivada en un trabajo estable. ¿Por dónde empezaría un psicólogo humanista?|Por cómo vive ella la situación|Por los refuerzos que ha perdido|Por el conflicto antiguo reactivado|El humanista parte de la experiencia subjetiva y del sentido. Los refuerzos perdidos serían la mirada conductista.",
@@ -251,7 +251,7 @@ window.COURSE.units.push(
       "La División 32 de la APA, dedicada a la psicología humanista, se creó en ___.|1971|1964|1961",
       "La conferencia de Old Saybrook se celebró en ___.|Connecticut|California|Massachusetts",
       "Rollo May participó en el movimiento como psicólogo ___.|existencial|conductista|evolutivo",
-      "Según Bugental, el ser humano es más que la ___ de sus partes.|suma|unión|mezcla",
+      "Según Bugental, el ser humano es más que la ___ de sus partes.|suma|media|copia",
       "En su etapa tardía, Rogers dedicó buena parte de su trabajo a los grupos de ___.|encuentro|autoayuda|discusión"
     ],
     tf: [
@@ -290,7 +290,7 @@ window.COURSE.units.push(
       "La psicología positiva prefiere un método cuantitativo y experimental, con ___.|escalas|biografías|entrevistas",
       "Según su diagnóstico, tras la II Guerra Mundial la psicología se había centrado casi solo en ___ daños.|reparar|prevenir|medir",
       "La psicología positiva presentó su programa en un número especial de «American ___».|Psychologist|Journal|Review",
-      "El humanismo nunca ___ al conductismo ni al psicoanálisis.|sustituyó|criticó|estudió"
+      "El humanismo nunca ___ al conductismo ni al psicoanálisis.|sustituyó|criticó|cuestionó"
     ],
     tf: [
       "Csikszentmihalyi aportó el concepto de flujo: absorción total en una actividad con un reto ajustado a las capacidades.|V",
@@ -520,7 +520,7 @@ window.COURSE.units.push(
       "Comisión de renovación=Grupo creado en octubre de 2023 para elaborar el nuevo código"
     ],
     g: [
-      "El Código Deontológico del COP fue aprobado por la Junta General el 22 de mayo de ___.|1987|1993|2010",
+      "El Código Deontológico del COP fue aprobado por la Junta General el 22 de mayo de ___.|1987|1979|2010",
       "La Junta de Gobierno aprobó el proyecto del nuevo código el 21 de febrero de ___.|2026|2025|2023",
       "El código de la APA tiene cinco principios generales y ___ normas de obligado cumplimiento.|diez|cinco|doce",
       "Las enmiendas de 2010 y 2016 del código de la APA están vigentes desde ___.|2017|2016|2010",
@@ -562,8 +562,8 @@ window.COURSE.units.push(
     g: [
       "La Ley 41/2002 fija la mayoría de edad sanitaria en los ___ años, con excepciones.|16|18|14",
       "Si un amigo pide terapia, lo adecuado es ___ a otro profesional.|derivarlo|atenderlo|evaluarlo",
-      "Un informe psicológico debe distinguir los datos de las ___.|interpretaciones|conclusiones|hipótesis",
-      "Ante un mandato judicial se aporta lo ___, sin añadir más.|requerido|disponible|relevante",
+      "Un informe psicológico debe distinguir los datos de las ___.|interpretaciones|mediciones|observaciones",
+      "Ante un mandato judicial se aporta lo ___, sin añadir más.|requerido|disponible|archivado",
       "Consentir no es firmar un papel, sino un ___ de información y diálogo.|proceso|trámite|requisito"
     ],
     tf: [
@@ -606,7 +606,7 @@ window.COURSE.units.push(
     ],
     tf: [
       "En la réplica de Burger (2009), el 70 % siguió pasados los 150 V, frente al 82,5 % de Milgram, sin diferencia significativa.|V",
-      "Los tres principios del Informe Belmont coinciden con los cuatro de Beauchamp y Childress.|F|Belmont propone respeto a las personas, beneficencia y justicia. Beauchamp y Childress añaden autonomía y no maleficencia.",
+      "Los tres principios del Informe Belmont coinciden con los cuatro de Beauchamp y Childress.|F|Belmont propone respeto a las personas, beneficencia y justicia. Beauchamp y Childress, autonomía, beneficencia, no maleficencia y justicia.",
       "Al desmontarse la anécdota de los 38 testigos, el efecto espectador de Darley y Latané (1968) quedó invalidado.|F|El efecto espectador sigue siendo sólido. Lo que estaba deformado era su anécdota fundacional.",
       "Investigar con personas exige hoy que el participante pueda abandonar el estudio en cualquier momento.|V"
     ],
@@ -623,7 +623,7 @@ window.COURSE.units.push(
       "Documentos de ética de la investigación|Código de Núremberg (1947)>Declaración de Helsinki (1964)>Informe Belmont (1979)>Última revisión de Helsinki (2024)"
     ],
     cls: [
-      "Marco de principios|Beauchamp y Childress: autonomía; no maleficencia|Informe Belmont: respeto a las personas|Metacódigo EFPA: competencia; integridad; responsabilidad"
+      "Marco ético|Beauchamp y Childress: autonomía; no maleficencia; profesiones sanitarias|Informe Belmont: reacción a Tuskegee; ética de la investigación en Estados Unidos|Metacódigo EFPA: competencia; integridad; mínimos europeos"
     ] }
 ] }
 );

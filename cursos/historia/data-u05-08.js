@@ -138,7 +138,7 @@ window.COURSE.units.push(
       "Pávlov se consideró siempre ___ y desconfiaba de la psicología introspectiva.|fisiólogo|psiquiatra|neurólogo",
       "La ventaja metodológica del método de Béjterev era que resultaba fácil de aplicar en ___.|humanos|perros|palomas",
       "Watson encontró en el reflejo ___ el procedimiento objetivo que necesitaba.|condicionado|rotuliano|innato",
-      "Sentir náuseas al oler marisco años después de una intoxicación muestra la vigencia del condicionamiento ___.|clásico|operante|vicario"
+      "Pávlov explicó las diferencias individuales mediante tipos de sistema ___.|nervioso|endocrino|digestivo"
     ],
     tf: [
       "El condicionamiento salival se debe a Béjterev, que lo extendió después a personas.|F|La salivación es de Pávlov. Béjterev estudió reflejos motores de retirada ante descargas.",
@@ -149,7 +149,7 @@ window.COURSE.units.push(
     q: [
       "Un investigador hace sonar un tono antes de una descarga leve en el dedo de un voluntario, hasta que el tono provoca por sí solo la retirada de la mano. ¿Qué tradición sigue?|La de Béjterev|La de Pávlov|La de Séchenov|Es el reflejo asociado: una respuesta motora condicionada mediante descargas, aplicada también a personas.",
       "¿Qué estudio mostró que los organismos están preparados para asociar ciertos estímulos con ciertas consecuencias?|Garcia y Koelling (1966)|Mary Cover Jones (1924)|Watson y Little Albert|Garcia y Koelling desmintieron el supuesto reflexológico de que cualquier estímulo se asocia igual a cualquier respuesta.",
-      "¿Qué trabajo se cita como precursor de la desensibilización y de la terapia de conducta?|El de Mary Cover Jones|El de Garcia y Koelling|El de la neurosis canina|Mary Cover Jones (1924) eliminó el miedo de un niño con procedimientos derivados del condicionamiento.",
+      "¿Qué ventaja metodológica tenía el método de Pávlov frente al de Béjterev?|Medida muy precisa y controlable|Fácil aplicación en seres humanos|Uso de descargas en lugar de comida|La salivación permitía una medida muy precisa. La facilidad de aplicación en humanos era la ventaja del método de Béjterev.",
       "¿En qué ámbito se mostró insuficiente la idea de explicar toda la vida mental como encadenamiento de reflejos?|El lenguaje y el pensamiento|La salivación y la digestión|La retirada ante descargas|La revolución cognitiva mostró que el modelo reflejo no bastaba para el lenguaje y el pensamiento."
     ],
     inc: [
@@ -299,7 +299,7 @@ window.COURSE.units.push(
       "En Abbass et al. (2006), con seguimientos de nueve meses o más, el tamaño del efecto aumentaba hasta ___.|1,51|0,97|0,31",
       "Como referencia, el efecto de los antidepresivos en revisiones comparables ronda ___.|0,31|0,97|1,51",
       "Los procesos no conscientes que estudia la memoria ___ no son el inconsciente reprimido freudiano.|implícita|episódica|semántica",
-      "Grünbaum sostuvo que los datos clínicos están contaminados por la ___.|sugestión|represión|transferencia",
+      "Grünbaum sostuvo que los datos clínicos están contaminados por la ___.|sugestión|represión|resistencia",
       "La terapia psicodinámica actual es ___ y focalizada, no el análisis clásico de varias sesiones semanales durante años.|breve|intensiva|grupal"
     ],
     tf: [
@@ -309,13 +309,13 @@ window.COURSE.units.push(
       "Freud rompió la equivalencia entre mente y conciencia.|V"
     ],
     q: [
-      "Un compañero afirma que el psicoanálisis es un fracaso total porque la teoría de las pulsiones no se puede contrastar. ¿Qué error comete?|Mezcla los tres planos del psicoanálisis|Ignora la evidencia sobre la metapsicología|Confunde a Freud con sus disidentes|Que la metapsicología sea difícil de contrastar no invalida la evidencia de eficacia de las terapias psicodinámicas.",
+      "Además de la sugestión, ¿qué hace difícil contrastar la metapsicología?|Hipótesis en las que casi todo encaja|La falta de casos clínicos publicados|El rechazo de Freud a toda estadística|Muchas de sus hipótesis se formulan de manera que casi cualquier resultado encaja en ellas.",
       "¿En qué plano del psicoanálisis es más favorable la evidencia?|En las terapias psicodinámicas|En los conceptos amplios de Freud|En la teoría de las pulsiones|Shedler (2010) halló evidencia de eficacia. Los conceptos generales tienen apoyo indirecto, y la metapsicología es poco contrastable.",
       "¿Por qué Grünbaum (1984) consideraba que los datos clínicos no confirman la metapsicología?|Pueden estar contaminados por la sugestión|Proceden de grupos de control mal elegidos|Se obtienen solo con pacientes ingresados|El paciente puede acabar «recordando» o aceptando lo que el analista espera.",
       "¿Qué ocurrió con Bertha Pappenheim tras el tratamiento con Breuer?|Ingresó en un sanatorio|Se curó por completo|Se formó como analista|La historiografía crítica cuestiona la curación descrita en 1895. El caso vale por su papel histórico, no como prueba de eficacia."
     ],
     inc: [
-      "Sobre la evidencia del psicoanálisis|La eficacia terapéutica confirma la metapsicología|Hay apoyo indirecto a la existencia de defensas|La terapia actual no es el análisis clásico de años|La eficacia de las terapias derivadas no valida la metapsicología: son planos distintos."
+      "Sobre la evidencia del psicoanálisis|Shedler revisó los casos clínicos de Freud|Hay apoyo indirecto a la existencia de defensas|La terapia actual no es el análisis clásico de años|Shedler (2010) revisó ocho metaanálisis que sumaban 160 estudios, no los casos clínicos freudianos."
     ],
     seq: [],
     cls: [
@@ -345,7 +345,7 @@ window.COURSE.units.push(
     tf: [
       "En el fenómeno phi, en sentido estricto, se ve un objeto que se desplaza de un lugar a otro.|F|Eso es el movimiento beta. En el phi se percibe un movimiento puro, sin objeto que se desplace.",
       "El artículo de Wertheimer se publicó un año antes del manifiesto conductista de Watson.|V",
-      "La Gestalt criticaba el elementalismo de Wundt, fundador del estructuralismo.|F|Wundt no era estructuralista: su psicología incluía una síntesis creadora por la que el todo tiene propiedades nuevas.",
+      "La Gestalt nació como una prolongación del programa asociacionista.|F|Nació como crítica radical del elementalismo asociacionista: la percepción organiza los estímulos, no los suma.",
       "Köhler y Koffka se formaron en la tradición de Brentano y Stumpf.|V"
     ],
     q: [
@@ -376,7 +376,7 @@ window.COURSE.units.push(
       "Pensamiento reproductivo=Aplica de forma mecánica lo ya aprendido"
     ],
     g: [
-      "Una bandada de pájaros se ve como una unidad por la ley de ___.|destino común|proximidad|semejanza",
+      "Una bandada de pájaros se ve como una unidad por la ley de ___.|destino común|cierre|buena continuación",
       "En un formulario, cada etiqueta se coloca junto a su casilla aplicando la ley de ___.|proximidad|semejanza|cierre",
       "En la figura del jarrón y los dos perfiles se alternan la figura y el ___.|fondo|contorno|cierre",
       "Un círculo con un hueco se sigue viendo como círculo por la ley de ___.|cierre|semejanza|proximidad",
@@ -423,7 +423,7 @@ window.COURSE.units.push(
     tf: [
       "La Primera Guerra Mundial retuvo a Köhler en Tenerife más tiempo del previsto.|V",
       "Está demostrado que Köhler espiaba el paso de barcos para Alemania desde Tenerife.|F|La hipótesis de Ley (1990) es especulativa y se apoya en escasa evidencia. No debe presentarse como un hecho.",
-      "El insight de Köhler y el aprendizaje latente de Tolman son el mismo fenómeno con distinto nombre.|F|Son conceptos distintos. Confundir el insight con el aprendizaje latente de Tolman es una trampa típica.",
+      "Köhler interpretó las soluciones de los chimpancés como un fortalecimiento gradual de conexiones E-R.|F|Las interpretó como insight, una reestructuración súbita del campo. El fortalecimiento gradual es el ensayo y error.",
       "Hoy el insight se estudia como un fenómeno real, sin oponerlo de forma tan tajante al aprendizaje gradual.|V"
     ],
     q: [
@@ -457,7 +457,7 @@ window.COURSE.units.push(
       "Koffka presentó la Gestalt al público de habla inglesa en Psychological Bulletin en ___.|1922|1935|1912",
       "El efecto Zeigarnik se explica porque se mantiene la ___ de la meta no resuelta.|tensión|valencia|imagen",
       "Lewin, Lippitt y White estudiaron grupos con líderes autoritarios, democráticos o ___.|permisivos|carismáticos|rotatorios",
-      "Köhler, que no era ___, se opuso públicamente a la expulsión de colegas judíos.|judío|profesor|emigrante",
+      "Köhler, que no era ___, se opuso públicamente a la expulsión de colegas judíos.|judío|profesor|alemán",
       "En Estados Unidos, dominado por el ___, la Gestalt no llegó a cuajar como escuela.|conductismo|funcionalismo|psicoanálisis"
     ],
     tf: [
@@ -496,7 +496,7 @@ window.COURSE.units.push(
       "Experimentalists=Grupo creado en 1904 que no admitió mujeres hasta la muerte de Titchener"
     ],
     g: [
-      "Titchener publicó «The postulates of a structural psychology» en ___.|1898|1896|1892",
+      "Titchener llegó a la Universidad de Cornell en ___.|1892|1898|1896",
       "Para Titchener, la pregunta de partida era qué hay en la mente y no para qué ___.|sirve|existe|cambia",
       "Cada elemento se describía por atributos como la cualidad, la intensidad, la duración o la ___.|claridad|función|utilidad",
       "Titchener limitó la psicología a la mente humana, adulta y ___.|normal|consciente|educada",
@@ -504,7 +504,7 @@ window.COURSE.units.push(
     ],
     tf: [
       "Titchener consideraba las aplicaciones de la psicología una técnica y no una ciencia.|V",
-      "La etiqueta «estructuralismo» la acuñó Wundt para su propio programa.|F|La acuñó Titchener (1898). Boring (1929) la extendió después, de forma retrospectiva, a Wundt.",
+      "El error del estímulo consiste en describir la experiencia en lugar del objeto observado.|F|Es al revés: consiste en describir el objeto observado en lugar de la experiencia que produce.",
       "El estructuralismo tuvo muchos seguidores fuera de Cornell y dominó durante décadas la psicología estadounidense.|F|Tenía pocos seguidores fuera de Cornell y apenas sobrevivió a su fundador.",
       "De la escuela de Titchener perduró sobre todo la defensa del laboratorio y del control experimental.|V"
     ],
@@ -623,9 +623,9 @@ window.COURSE.units.push(
       "El grupo de los Experimentalists solo admitió mujeres tras la muerte de Titchener en ___.|1927|1921|1904"
     ],
     tf: [
-      "Calkins fue la primera mujer doctora en psicología.|F|Fue Washburn (Cornell, 1894). Harvard negó el doctorado a Calkins aunque había cumplido los requisitos.",
+      "Calkins estudió en Harvard como alumna oficial con matrícula plena.|F|Estudió como oyente, con el apoyo de William James, porque Harvard no admitía mujeres.",
       "Washburn hizo de la psicología animal su campo principal, pese a que su director la rechazaba.|V",
-      "Hollingworth confirmó con medidas de rendimiento que el ciclo menstrual reducía la capacidad mental.|F|Comprobó lo contrario: el ciclo no reducía la capacidad para tareas motoras y mentales.",
+      "Ladd-Franklin consiguió que los Experimentalists la admitieran en vida de Titchener.|F|Protestó durante años por su exclusión. El grupo solo admitió mujeres tras la muerte de Titchener en 1927.",
       "El método de pares asociados de Calkins sigue siendo habitual en la investigación sobre memoria.|V"
     ],
     q: [

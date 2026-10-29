@@ -288,7 +288,7 @@ window.COURSE.units.push(
     g: [
       "Guthrie publicó «The Psychology of Learning» en ___.|1935|1932|1943",
       "Según Guthrie, el refuerzo solo actúa cambiando la ___.|situación|motivación|respuesta",
-      "La teoría de Guthrie era difícil de poner a prueba porque explicaba casi ___ resultado.|cualquier|ningún|todo",
+      "La teoría de Guthrie era difícil de poner a prueba porque explicaba casi ___ resultado.|cualquier|ningún|un solo",
       "La investigación neoconductista se concentró sobre todo en ___.|ratas|palomas|primates",
       "La carencia en el estudio del lenguaje la haría muy visible la crítica de ___ (1959).|Chomsky|Lashley|Neisser"
     ],
@@ -379,7 +379,7 @@ window.COURSE.units.push(
     q: [
       "Una aplicación de estudio divide el temario en pasos pequeños, pide responder en cada uno, corrige al instante y deja avanzar a cada usuario a su ritmo. ¿Qué lógica sigue?|La enseñanza programada|La desensibilización sistemática|El aprendizaje latente|Son los rasgos de las máquinas de enseñar de Skinner: pasos pequeños, respuesta activa, retroalimentación inmediata y ritmo propio.",
       "¿Qué orden cronológico de obras de Skinner es correcto?|Walden Two, Verbal Behavior, Beyond Freedom|Verbal Behavior, Walden Two, Beyond Freedom|Walden Two, Beyond Freedom, Verbal Behavior|«Walden Two» es de 1948, «Verbal Behavior» de 1957 y «Beyond Freedom and Dignity» de 1971.",
-      "¿Qué precedente tuvo la terapia de conducta?|El descondicionamiento de Peter|El estudio del aircrib de 1945|La reseña de «Verbal Behavior»|Mary Cover Jones (1924) eliminó el miedo de Peter a los conejos, un antecedente claro de la terapia de conducta.",
+      "¿En qué ámbitos se usa hoy el análisis aplicado de la conducta?|Educación especial, autismo y organizaciones|Psicoanálisis, hipnosis y psiquiatría forense|Neuroimagen, psicofísica y psicometría|De la línea skinneriana deriva el ABA, usado hoy en educación especial, autismo, organizaciones y salud.",
       "¿Qué obra convirtió a Skinner en una figura pública muy discutida?|Beyond Freedom and Dignity|The Behavior of Organisms|Science and Human Behavior|En 1971 sostuvo que las ideas de libertad y dignidad estorban el diseño deliberado de la cultura."
     ],
     inc: [
@@ -541,7 +541,7 @@ window.COURSE.units.push(
       "¿Qué supuesto cognitivo afirma que los procesos mentales son operaciones sobre representaciones?|La computación|El mentalismo|El funcionalismo|El mentalismo exige recurrir a representaciones, y el funcionalismo permite estudiar la mente en su propio nivel."
     ],
     inc: [
-      "Sobre la consolidación cognitiva|Miller hablaba de ítems sueltos|Neisser dio nombre al campo en 1967|El modelo modal usaba cajas y flechas|Miller hablaba de fragmentos. Decir que habla de ítems es una trampa típica."
+      "Sobre la consolidación cognitiva|El modelo modal se propuso en 1958|Neisser dio nombre al campo en 1967|El modelo modal usaba cajas y flechas|El modelo modal es de Atkinson y Shiffrin (1968). En 1958 Broadbent propuso su modelo de filtro atencional."
     ],
     seq: [],
     cls: [
@@ -562,7 +562,7 @@ window.COURSE.units.push(
     g: [
       "La neurona formal de McCulloch y Pitts es de ___.|1943|1958|1986",
       "El cerebro no parecía un procesador ___ que sigue reglas paso a paso.|serial|paralelo|distribuido",
-      "Desde los años noventa, la ___ permite observar la actividad cerebral durante una tarea.|resonancia magnética funcional|electroencefalografía|neuropsicología cognitiva",
+      "Desde los años noventa, la ___ permite observar la actividad cerebral durante una tarea.|resonancia magnética funcional|neuropsicología cognitiva|psicofísica de Fechner",
       "La idea de que «solo usamos el ___ del cerebro» es un mito sin base.|10 %|50 %|30 %",
       "Leer una imagen de activación como si localizara un proceso complejo en un punto recuerda a la ___.|frenología|psicofísica|cibernética"
     ],

@@ -18,7 +18,7 @@ window.COURSE.units.push(
       "El concepto de «umbral» nace de la ___ del siglo XIX.|psicofísica|frenología|reflexología",
       "Que la frenología fuera popular y no tuviera base ilustra la función de ___.|pensamiento crítico|identidad profesional|conciencia ética",
       "Harris (___) volvió al artículo original del pequeño Albert y mostró que su generalización se había exagerado.|1979|1997|1965",
-      "Según Thomas (1997) y Todes (2014), el estímulo más habitual en el laboratorio de Pávlov era un ___.|metrónomo|timbre|silbato"
+      "Naturaleza frente a crianza ilustra la función de evitar ___, porque el debate reaparece con cada técnica nueva.|repeticiones|anacronismos|presentismos"
     ],
     tf: [
       "Tres manuales que repiten el mismo dato equivalen a tres pruebas independientes.|F|Muchas fuentes secundarias se copian entre sí. Lo decisivo es volver a las fuentes primarias.",
@@ -53,7 +53,7 @@ window.COURSE.units.push(
     ],
     g: [
       "Decir que Gall «perdió el tiempo» midiendo cráneos es una lectura ___.|presentista|historicista|externalista",
-      "Explicar la psicofísica porque Fechner dio forma matemática a los datos de Weber es un relato ___.|internalista|externalista|historicista",
+      "Explicar la psicofísica porque Fechner dio forma matemática a los datos de Weber es un relato ___.|internalista|externalista|contextual",
       "El presentismo se refiere al punto de vista del historiador, y el internalismo, al tipo de ___.|explicación|fuente|época",
       "Según la historiografía actual, algo de presentismo es ___.|inevitable|recomendable|eliminable",
       "Butterfield criticó en 1931 la llamada historia ___.|whig|social|archivística"
@@ -93,7 +93,7 @@ window.COURSE.units.push(
       "Kuhn publicó «La estructura de las revoluciones científicas» en ___.|1962|1929|1950",
       "El Zeitgeist explica bien los descubrimientos casi ___.|simultáneos|accidentales|individuales",
       "El punto débil del Zeitgeist es su ___, porque se invoca para explicarlo todo.|vaguedad|rigidez|novedad",
-      "En el ciclo de Kuhn, la acumulación de anomalías desemboca en una ___.|crisis|revolución|paradoja",
+      "En el ciclo de Kuhn, la acumulación de anomalías desemboca en una ___.|crisis|síntesis|paradoja",
       "___ ha criticado que se hable de «revoluciones» conductista y cognitiva.|Leahey|Boring|Butterfield"
     ],
     tf: [
@@ -120,14 +120,14 @@ window.COURSE.units.push(
   { t: "La nueva historia y las mujeres invisibilizadas",
     tip: "Furumoto (1989) llamó nueva historia a la que hacen historiadores profesionales: contextual, archivística, crítica y profesional. Un ejemplo es Constructing the Subject de Danziger (1990). Esta revisión recupera a pioneras como Calkins, Washburn, Ladd‑Franklin, Hollingworth y Mamie Phipps Clark, que no estaban ausentes, sino excluidas de títulos, sociedades y puestos, y después de los manuales.",
     v: [
-      "Nueva historia=Historia contextual, archivística, crítica y profesional (Furumoto, 1989)",
+      "Nueva historia=La que hacen historiadores profesionales, según Furumoto (1989)",
       "Constructing the Subject=Historia social del método experimental de Danziger (1990)",
       "Mary Whiton Calkins=Primera presidenta de la APA (1905), sin doctorado pese a cumplir los requisitos",
-      "Margaret Floy Washburn=Primera mujer doctora en psicología (Cornell, 1894)",
-      "Christine Ladd‑Franklin=Autora de una teoría evolutiva de la visión del color",
+      "Archivística=Rasgo de la nueva historia: trabaja con fuentes primarias, no solo con manuales",
+      "Profesional=Rasgo de la nueva historia: aplica los métodos de la historiografía general",
       "Leta Stetter Hollingworth=Mostró que el ciclo menstrual no merma el rendimiento (1914)",
-      "Mamie Phipps Clark=Estudios con muñecas citados en Brown v. Board of Education (1954)",
-      "Hipótesis de la variabilidad=Idea de que los varones son más variables y abundan más entre los genios"
+      "Mamie Phipps Clark=Autora, con Kenneth Clark, de estudios con muñecas desde 1939‑40",
+      "Brown v. Board of Education=Sentencia de 1954 que declaró inconstitucional la segregación escolar"
     ],
     g: [
       "Harvard se negó a conceder a Calkins el doctorado, cuyos requisitos completó en ___.|1895|1905|1894",
@@ -153,7 +153,7 @@ window.COURSE.units.push(
     ],
     seq: [],
     cls: [
-      "Pionera|Calkins: pares asociados; presidenta de la APA en 1905; negativa de Harvard|Washburn: doctora en Cornell en 1894; The Animal Mind|Hollingworth: Functional Periodicity; hipótesis de la variabilidad"
+      "Enfoque historiográfico|Nueva historia: contextual; archivística; crítica; Constructing the Subject|Relato tradicional: grandes hombres; fechas fundacionales; psicólogos que repasan a sus antecesores"
     ] }
 ] },
 { n: 2, t: "Antecedentes filosóficos y fisiológicos", cap: 1, pir: "alta", mods: [
@@ -332,7 +332,7 @@ window.COURSE.units.push(
       "Tras la I Guerra Mundial, la lengua científica dominante pasó a ser el ___.|inglés|francés|alemán",
       "La pregunta central de la tradición británica era en qué se ___ las personas y por qué.|diferencian|parecen|adaptan",
       "En Estados Unidos, la pregunta característica era para qué ___ la mente.|sirve|piensa|siente",
-      "La psicología se institucionalizó en el último ___ del siglo XIX.|cuarto|tercio|decenio"
+      "La psicología se institucionalizó en el último cuarto del siglo ___.|XIX|XVIII|XX"
     ],
     tf: [
       "La psicología nació en un año concreto con la publicación de un libro decisivo.|F|Una disciplina nace al conseguir espacios, cargos, títulos y revistas. Las fechas fundacionales son simbólicas.",
@@ -531,7 +531,7 @@ window.COURSE.units.push(
     ],
     g: [
       "Brentano publicó «Psychologie vom empirischen Standpunkte» en ___.|1874|1883|1901",
-      "Entre los oyentes de Brentano en Viena estuvo un joven ___.|Freud|Külpe|Stumpf",
+      "Entre los oyentes de Brentano en Viena estuvo un joven ___.|Freud|Külpe|Jung",
       "En el instituto de Stumpf en Berlín se formaron Köhler y ___.|Koffka|Külpe|Bühler",
       "Mayer y Orth (___) hallaron estados de conciencia que no eran imágenes ni sensaciones.|1901|1905|1907",
       "La tendencia determinante la propuso ___ en 1905.|Ach|Watt|Bühler"
@@ -560,7 +560,7 @@ window.COURSE.units.push(
   { t: "La tradición británica: Spearman, Pearson, McDougall y Bartlett",
     tip: "La tradición británica fue evolucionista, centrada en las diferencias individuales y apoyada en la estadística. Pearson formalizó en 1896 el coeficiente producto‑momento, y Spearman (1904) propuso el factor g con un análisis factorial incipiente. McDougall defendió una psicología hórmica basada en instintos, y Bartlett (1932) mostró que recordar es reconstruir, guiado por esquemas.",
     v: [
-      "Coeficiente producto‑momento=La r que formalizó Pearson en 1896",
+      "Coeficiente por rangos=Medida de correlación que se debe también a Spearman",
       "Factor g=Capacidad general común a todas las tareas cognitivas (Spearman, 1904)",
       "Análisis factorial=Técnica que Spearman desarrolló de forma incipiente",
       "Psicología hórmica=Enfoque de McDougall, del griego «impulso», con conducta propositiva",
@@ -609,7 +609,7 @@ window.COURSE.units.push(
     ],
     g: [
       "Janet publicó «L'automatisme psychologique» en ___.|1889|1876|1905",
-      "Charcot consideraba la hipnosis un estado ligado a la patología ___.|histérica|disociativa|neurológica",
+      "Charcot consideraba la hipnosis un estado ligado a la patología ___.|histérica|obsesiva|depresiva",
       "Ribot ocupó la primera cátedra de psicología experimental y comparada del ___.|Collège de France|hospital de la Salpêtrière|laboratorio de la Sorbona",
       "La escala de Binet y Simon respondía a un encargo de las autoridades ___.|educativas|sanitarias|militares",
       "En la revisión de ___, Binet y Simon agruparon las pruebas por edades.|1908|1905|1911"
