@@ -24,7 +24,7 @@ window.SP_CATALOG = {
     { id: 'aprendizaje', t: 'Psicología del Aprendizaje', area: 'basicos', estado: 'ok', color: 2 },
     { id: 'desarrollo-infancia', t: 'Desarrollo: Infancia y Adolescencia', area: 'des', estado: 'ok', color: 3 },
     { id: 'social', t: 'Psicología Social', area: 'soc', estado: 'soon' },
-    { id: 'historia', t: 'Historia, Ciencia y Profesión', area: 'fund', estado: 'soon' },
+    { id: 'historia', t: 'Historia, Ciencia y Profesión', area: 'fund', estado: 'ok', color: 4 },
     { id: 'evaluacion-1', t: 'Evaluación Psicológica I', area: 'pers', estado: 'soon' },
     { id: 'evaluacion-2', t: 'Evaluación Psicológica II', area: 'pers', estado: 'soon' },
     { id: 'personalidad-1', t: 'Personalidad y Diferencias Individuales I', area: 'pers', estado: 'soon' },
@@ -60,7 +60,8 @@ window.SP_CATALOG = {
         { t: 'Evaluación y personalidad', courses: ['evaluacion-1', 'evaluacion-2', 'personalidad-1', 'personalidad-2'] },
         { t: 'Procesos básicos', courses: ['aprendizaje', 'memoria', 'atencion-percepcion', 'motivacion-emocion', 'pensamiento', 'lenguaje'] },
         { t: 'Desarrollo y social', courses: ['desarrollo-infancia', 'desarrollo-adulto', 'social', 'interaccion-social'] },
-        { t: 'Metodología', courses: ['metodos', 'estadistica-1', 'estadistica-2', 'psicometria'] }
+        { t: 'Metodología', courses: ['metodos', 'estadistica-1', 'estadistica-2', 'psicometria'] },
+        { t: 'Historia, profesión y deontología', courses: ['historia'] }
       ] },
     { id: 'libre', t: 'Explorar por mi cuenta', sub: 'Todo el catálogo por áreas', ico: 'compass', groups: null }
   ]
