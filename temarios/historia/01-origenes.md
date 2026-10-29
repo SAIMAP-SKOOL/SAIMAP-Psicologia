@@ -37,7 +37,7 @@ Las secundarias son imprescindibles para orientarse, pero cuando contradicen a l
 
 Por último, la historia ayuda a situar los debates actuales: mente y cerebro, herencia y ambiente o ciencia básica y aplicación no son problemas nuevos.
 
-### 1.2 Presentismo e historicismo; internalismo y externalismo
+### 1.2 Presentismo e historicismo, internalismo y externalismo
 
 Toda historia se escribe desde algún lugar. Los historiadores de la ciencia han descrito dos ejes que conviene separar: **cómo se mira el pasado** y **qué factores se usan para explicarlo**.
 
