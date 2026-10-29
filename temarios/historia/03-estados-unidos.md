@@ -14,7 +14,7 @@ Edward Bradford Titchener (1867‑1927) era británico y se doctoró con Wundt e
 
 Figura 8.1. **Edward Bradford Titchener.** Desde Cornell defendió una psicología de los contenidos de la conciencia, estudiada con observadores entrenados. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-Su objetivo era hacer con la mente lo que la química hacía con la materia: **descomponer la experiencia consciente en sus elementos** y describir cómo se combinan. Distinguía tres clases de elementos:
+Su objetivo (figura 8.1) era hacer con la mente lo que la química hacía con la materia: **descomponer la experiencia consciente en sus elementos** y describir cómo se combinan. Distinguía tres clases de elementos:
 
 - **Sensaciones**, propias de la percepción (un color, un sonido).
 - **Imágenes**, propias de las ideas y del recuerdo.
@@ -50,7 +50,7 @@ Frente a Titchener se fue formando una manera de hacer psicología que acabó ll
 
 El primer foco organizado fue la Universidad de Chicago. El punto de partida suele situarse en un artículo de John Dewey, «The reflex arc concept in psychology» (1896, *Psychological Review*). Dewey criticaba la costumbre de dividir el arco reflejo en tres piezas separadas: estímulo, proceso central y respuesta. Para él eran fases de un **circuito coordinado**, que solo tiene sentido por su fin. Un ejemplo cotidiano lo aclara: el ruido del despertador no es un estímulo aislado que provoca un gesto; su significado depende de lo que se está haciendo (dormir, esperar un aviso) y la respuesta cambia a su vez lo que se oye a continuación.
 
-James Rowland Angell dio forma al programa en «The province of functional psychology» (1907), su discurso como presidente de la APA. Angell propuso tres ideas:
+James Rowland Angell dio forma al programa en «The province of functional psychology» (1907), discurso presidencial ante la APA pronunciado a finales de 1906. Angell propuso tres ideas:
 
 1. La psicología funcional estudia **operaciones** mentales, no contenidos. Pregunta cómo y para qué funciona la mente, no de qué está hecha.
 2. Esas operaciones **median** entre las necesidades del organismo y su ambiente, y sirven para ajustar la conducta.
@@ -99,13 +99,13 @@ La nueva historia de la psicología (Furumoto, 1989) ha recuperado a las mujeres
 
 Figura 8.3. **Mary Whiton Calkins.** Completó todos los requisitos del doctorado en Harvard, que se negó a concedérselo por ser mujer, y fue la primera presidenta de la APA. Fuente: Notman Photography, Wikimedia Commons, dominio público.
 
-**Mary Whiton Calkins** estudió en Harvard como oyente, con el apoyo de William James. Desarrolló el **método de pares asociados**, en el que se aprenden parejas de elementos (por ejemplo, un color y un número) y después se presenta el primero para recordar el segundo. El método sigue siendo habitual en la investigación sobre memoria. En 1895 completó todos los requisitos del doctorado, pero **Harvard se negó a concedérselo** porque no admitía mujeres. Enseñó en el Wellesley College, donde organizó un laboratorio, y en 1905 fue la **primera mujer presidenta de la APA**. Su caso muestra con claridad que la exclusión no tenía que ver con el mérito.
+**Mary Whiton Calkins** (figura 8.3) estudió en Harvard como oyente, con el apoyo de William James. Desarrolló el **método de pares asociados**, en el que se aprenden parejas de elementos (por ejemplo, un color y un número) y después se presenta el primero para recordar el segundo. El método sigue siendo habitual en la investigación sobre memoria. En 1895 completó todos los requisitos del doctorado, pero **Harvard se negó a concedérselo** porque no admitía mujeres. Enseñó en el Wellesley College, donde organizó un laboratorio, y en 1905 fue la **primera mujer presidenta de la APA**. Su caso muestra con claridad que la exclusión no tenía que ver con el mérito.
 
 ![s](wm-washburn.jpg)
 
 Figura 8.4. **Margaret Floy Washburn.** Primera mujer doctora en psicología (Cornell, 1894) y autora de *The Animal Mind* (1908). Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-**Margaret Floy Washburn** se doctoró en **Cornell en 1894**, con Titchener, y fue la **primera mujer doctora en psicología**. Su libro ***The Animal Mind*** (1908) reunió lo que se sabía sobre la percepción, el aprendizaje y la conciencia en los animales. Paradójicamente, su director rechazaba la psicología animal, que Washburn convirtió en su campo principal. Fue presidenta de la APA en 1921.
+**Margaret Floy Washburn** (figura 8.4) se doctoró en **Cornell en 1894**, con Titchener, y fue la **primera mujer doctora en psicología**. Su libro ***The Animal Mind*** (1908) reunió lo que se sabía sobre la percepción, el aprendizaje y la conciencia en los animales. Paradójicamente, su director rechazaba la psicología animal, que Washburn convirtió en su campo principal. Fue presidenta de la APA en 1921.
 
 El grupo de los «Experimentalists» de Titchener (apartado 8.1) ilustra el tipo de obstáculo que encontraron. **Christine Ladd‑Franklin**, autora de una teoría evolutiva de la visión del color, protestó durante años por su **exclusión** de unas reuniones a las que no se admitían mujeres. El grupo solo cambió esa norma tras la muerte de Titchener en 1927.
 
@@ -221,7 +221,7 @@ John Broadus Watson se doctoró en Chicago en el entorno funcionalista de Angell
 
 Figura 9.2. **John Broadus Watson.** Su artículo de 1913 propuso que la psicología abandonara la conciencia y se ocupara solo de la conducta observable. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-En 1913 publicó en *Psychological Review* «Psychology as the behaviorist views it» (vol. 20, pp. 158‑177), conocido como el **manifiesto conductista**. Sus tesis principales eran claras:
+En 1913 Watson (figura 9.2) publicó en *Psychological Review* «Psychology as the behaviorist views it» (vol. 20, pp. 158‑177), conocido como el **manifiesto conductista**. Sus tesis principales eran claras:
 
 1. La psicología es una **rama objetiva y experimental de las ciencias naturales**.
 2. Su meta es la **predicción y el control de la conducta**.

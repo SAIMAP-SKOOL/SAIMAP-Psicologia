@@ -10,7 +10,7 @@ La psicología no es solo una ciencia con una historia de escuelas y laboratorio
 
 En Alemania, Estados Unidos o Francia la psicología entró en la universidad como ciencia de laboratorio y después buscó aplicaciones. En España el orden fue casi el inverso. La disciplina llegó **más tarde** y entró sobre todo por su **utilidad práctica**: orientar a los jóvenes hacia un oficio, seleccionar trabajadores, evaluar a escolares o examinar a conductores. Ese conjunto de aplicaciones recibió el nombre de **psicotecnia**, la psicología aplicada de la época, basada en pruebas y aparatos de medida (su desarrollo técnico se estudia en Evaluación y Psicometría).
 
-Esto tuvo una consecuencia curiosa: muchos de los primeros «psicólogos» españoles no se formaron como tales. Eran médicos, pedagogos, ingenieros o juristas que fueron incorporando técnicas psicológicas a su trabajo. El papel de **psicotécnico**, el profesional que aplica pruebas para tomar decisiones sobre personas, fue el embrión del de psicólogo.
+Los pioneros eran médicos, pedagogos, ingenieros o juristas que fueron adoptando pruebas psicológicas en su trabajo. De ese perfil de **psicotécnico**, el técnico que aplica tests para tomar decisiones sobre personas, acabaría saliendo la figura profesional del psicólogo.
 
 El hito académico de partida es la **cátedra de Psicología Experimental** creada en Madrid en **1902**, que ocupó **Luis Simarro**. Simarro era médico, conocía bien la investigación de laboratorio europea y representó el enlace entre la medicina y la nueva psicología científica.
 
@@ -31,13 +31,13 @@ Como recuerda la figura 15.1, la psicología española nació muy cerca de la fi
 | Profesionales | Catedráticos con formación médica o filosófica | Médicos, pedagogos, ingenieros, juristas |
 | Producto | Investigación y docencia | Informes de aptitud y orientación |
 
-A finales de los años treinta parecía cercano el paso siguiente: convertir esa actividad aplicada en una titulación universitaria propia. La **Guerra Civil** lo impidió. El proyecto se interrumpió y muchos de sus protagonistas se dispersaron. **Mira i López marchó al exilio en 1939** y continuó su carrera fuera de España.
+A mediados de los años treinta se preparaba ya un título universitario de psicología. La **Guerra Civil** lo impidió. El proyecto se interrumpió y muchos de sus protagonistas se dispersaron. **Mira i López marchó al exilio en 1939** y continuó su carrera fuera de España.
 
 Un ejemplo resume la lógica de la época: a un aprendiz que quería entrar en un taller se le medían la destreza manual o la atención, y un informe recomendaba el oficio más adecuado. No se buscaba una teoría de la mente, sino una respuesta útil, y esa orientación aplicada marcó durante décadas la psicología española.
 
 ### 15.2 La reconstrucción (1939‑1979)
 
-Tras la guerra, la actividad psicológica quedó reducida a su faceta técnica. La psicotecnia continuó en el **Instituto Nacional de Psicología Aplicada y Psicotecnia** y su red de centros, con una oferta de servicios muy parecida a la de antes de 1936. Mientras en otros países la psicología crecía con rapidez, en España el clima ideológico de la dictadura y el aislamiento internacional frenaban cualquier novedad. La psicología experimental despertaba recelos porque se veía como materialista.
+Tras la guerra, la actividad psicológica quedó reducida a su faceta técnica. La psicotecnia continuó en el **Instituto Nacional de Psicología Aplicada y Psicotecnia** y su red de centros, que siguieron haciendo prácticamente lo mismo que antes de la guerra. Fuera de España, la psicología vivía su gran expansión de posguerra; dentro, el aislamiento y la ideología del régimen la frenaban. La psicología experimental despertaba recelos porque se veía como materialista.
 
 La reconstrucción fue posible gracias a un pequeño grupo de personas e instituciones. **Juan Zaragüeta**, sacerdote y filósofo neoescolástico formado en Lovaina, vio con buenos ojos una psicología científica compatible con su tradición y facilitó el camino. A partir de ahí se fue levantando, pieza a pieza, la infraestructura de una disciplina:
 
@@ -48,7 +48,7 @@ La reconstrucción fue posible gracias a un pequeño grupo de personas e institu
 
 En este periodo destacan, además de Germain, **Mariano Yela**, **José Luis Pinillos** y **Miquel Siguán**, que formaron a las primeras generaciones y conectaron la psicología española con la investigación internacional.
 
-Las escuelas formaron a **algo más de 1.500 diplomados**, que fueron los primeros psicólogos españoles con una formación universitaria específica. Su reparto por secciones reproducía el mapa clásico de la psicotecnia:
+Las escuelas formaron a **algo más de 1.500 diplomados**, la primera promoción de psicólogos con formación universitaria específica. Sus tres secciones coincidían con las áreas de aplicación de antes de la guerra:
 
 | Sección | Porcentaje aproximado de diplomados |
 | --- | --- |
@@ -60,7 +60,7 @@ El último paso fue entrar en la licenciatura. Desde el curso **1968‑69** se o
 
 ![](cronologia-espana.png)
 
-Figura 15.2. **Cronología de la psicología en España.** Línea del tiempo desde la cátedra de Simarro (1902) y los Institutos de Orientación Profesional, pasando por el exilio de Mira (1939) y las instituciones de posguerra (revista, CSIC, SEP, escuelas), hasta la Ley del COP (1979), el primer PIR estatal (1993), la LOPS (2003), el Psicólogo General Sanitario (2011) y el Plan de Acción de Salud Mental (2025). Elaboración propia.
+Figura 15.2. **Cronología de la psicología en España.** Línea del tiempo desde la cátedra de Simarro (1902) y los Institutos de Orientación Profesional, pasando por el exilio de Mira (1939) y las instituciones de posguerra (revista, CSIC, SEP, escuelas) y la especialidad en Filosofía y Letras (1968), hasta la Ley del COP (1979), el Código Deontológico (1987), la licenciatura (1990), el primer PIR estatal (1993), el título de especialista (1998), la LOPS (2003), el Psicólogo General Sanitario (2011) y el Plan de Acción de Salud Mental (2025). Elaboración propia.
 
 Como muestra la figura 15.2, entre 1939 y 1979 la psicología española pasó de ser una técnica auxiliar a tener revista, centro de investigación, sociedad científica y estudios universitarios. Le faltaba aún algo decisivo: una regulación legal de la profesión.
 
@@ -76,7 +76,7 @@ Como muestra la figura 15.2, entre 1939 y 1979 la psicología española pasó de
 - **Especialidad.** El **RD 2490/1998** creó el título de **Psicólogo Especialista en Psicología Clínica**. Era obligatorio para trabajar en el sistema público, pero no para el ejercicio privado de entonces.
 - **LOPS.** La **Ley 44/2003 de Ordenación de las Profesiones Sanitarias** solo reconoció como profesión sanitaria al **especialista en Psicología Clínica**. Muchos licenciados que trabajaban en centros sanitarios privados quedaron en una situación incierta, y el COP se movilizó para resolverla.
 
-**Bolonia y los grados.** La **Declaración de Bolonia (1999)** abrió el Espacio Europeo de Educación Superior. Siguieron la **LOU (LO 6/2001)** y el **RD 1393/2007**, que convirtió las licenciaturas en **grados de 240 ECTS**. En paralelo, el COP se descentralizó en colegios autonómicos y una ley de la década de 2000 creó el **Consejo General de Colegios Oficiales de Psicólogos**.
+**Bolonia y los grados.** La **Declaración de Bolonia (1999)** abrió el Espacio Europeo de Educación Superior. Siguieron la **LOU (LO 6/2001)** y el **RD 1393/2007**, que convirtió las licenciaturas en **grados de 240 ECTS**. En paralelo, el COP se descentralizó en colegios autonómicos y la **Ley 7/2005, de 13 de mayo**, creó el **Consejo General de Colegios Oficiales de Psicólogos**.
 
 **La formación sanitaria especializada.** El **RD 183/2008** ordenó las especialidades y sus unidades docentes, y la **Orden SAS/1620/2009** fijó el **programa PIR de cuatro años**.
 
@@ -143,7 +143,7 @@ La psicología española está hoy mejor definida y tiene más reconocimiento so
 
 ### Clave PIR
 
-**Prioridad alta en legislación sanitaria; media en historia española.** Se pregunta qué norma creó cada figura (RD 2490/1998, LOPS, Ley 33/2011, Orden SAS/1620/2009) y la diferencia entre el especialista clínico y el Psicólogo General Sanitario. Trampa típica: atribuir al RD 689/2021 una especialidad de psicología, o creer que la LOPS reconoció como sanitarios a todos los licenciados. También se confunden la Ley del COP (1979) con la licenciatura (1990).
+**Prioridad alta en legislación sanitaria; media en historia española.** Se pregunta qué norma creó cada figura (RD 2490/1998, LOPS, Ley 33/2011, Orden SAS/1620/2009) y la diferencia entre el especialista clínico y el Psicólogo General Sanitario. Trampa típica: atribuir al RD 689/2021 una especialidad de psicología, o creer que la LOPS reconoció como sanitarios a todos los licenciados. También se confunde la Ley del COP (1979) con la licenciatura (1990).
 
 ### Autoevaluación
 
@@ -182,7 +182,7 @@ c) Neuropsicología Clínica infantojuvenil
 
 ### 16.1 Ética, moral, deontología y bioética
 
-Un psicólogo puede ser muy competente en lo técnico y, aun así, actuar mal: revelar lo que no debe, aceptar a un amigo como paciente o firmar un informe que dice más de lo que sabe. Por eso toda profesión que trabaja con personas combina dos pilares: el **conocimiento científico‑técnico** y una **ética profesional** escrita. Conviene empezar por separar cuatro términos que se usan a menudo como sinónimos:
+Un psicólogo puede ser muy competente en lo técnico y, aun así, actuar mal: revelar lo que no debe, aceptar a un amigo como paciente o firmar un informe que dice más de lo que sabe. Por eso a un profesional se le exige saber hacer (**conocimiento científico‑técnico**) y, además, saber qué no debe hacer (**ética profesional**). Conviene empezar por separar cuatro términos que se usan a menudo como sinónimos:
 
 | Término | Qué es | Ejemplo |
 | --- | --- | --- |
@@ -191,7 +191,7 @@ Un psicólogo puede ser muy competente en lo técnico y, aun así, actuar mal: r
 | Deontología | Conjunto de deberes de una profesión, recogidos en un código | «El psicólogo guardará el secreto profesional» |
 | Bioética | Ética aplicada a la vida y la salud, en la clínica y la investigación | Decidir cómo pedir consentimiento a un paciente con demencia |
 
-La **moral** describe lo que un grupo considera correcto; la **ética** pregunta si lo es y por qué. La **deontología** baja ese razonamiento a deberes concretos para un colectivo: la decide la propia profesión y la recoge en un **código deontológico**. Un código no es solo una lista de prohibiciones. También orienta hacia buenas prácticas y ayuda a reducir la incertidumbre ante situaciones difíciles.
+La **moral** describe lo que un grupo considera correcto; la **ética** pregunta si lo es y por qué. La **deontología** convierte ese razonamiento en deberes concretos que la profesión se da a sí misma por escrito, en un **código deontológico**. Un buen código marca límites, pero sobre todo describe cómo actuar bien cuando no está claro qué hacer.
 
 Las leyes y los códigos se relacionan, pero no son lo mismo. Muchas obligaciones deontológicas coinciden con obligaciones legales (el secreto o la protección de datos), aunque hay conductas que no son delito y aun así son reprochables desde la deontología: por ejemplo, prometer resultados terapéuticos que no se pueden garantizar. Y no todo lo técnicamente posible es éticamente aceptable.
 

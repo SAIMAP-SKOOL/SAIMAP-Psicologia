@@ -315,7 +315,7 @@ if want('hull'):
 if want('programas-refuerzo'):
     fig, axs = plt.subplots(1, 4, figsize=(8.4, 2.7), sharey=True)
     t = np.linspace(0, 10, 1000)
-    ph = t % 2.0; inc = np.where(ph < .5, 0, 1.0); rf = np.cumsum(inc) * (10 / 1000) * 2.2
+    ph = t % 2.0; inc = np.where(ph < 1.4, 0, 1.0); rf = np.cumsum(inc) * (10 / 1000) * 6.6
     rv = t * 3.0; iv = t * 1.4
     ph2 = (t % 2.5) / 2.5; ifx = np.cumsum(ph2 ** 3) * (10 / 1000) * 3.2
     for a, y, ttl, c in zip(axs, [rf, rv, ifx, iv], ['Razón fija', 'Razón variable', 'Intervalo fijo', 'Intervalo variable'], [P, G, A, V]):
@@ -429,6 +429,6 @@ if want('milgram-burger'):
     fig, ax = plt.subplots(figsize=(4.4, 3.0))
     ax.bar([0, 1], [82.5, 70], color=[P, A], width=.55); ax.set_ylim(0, 100)
     for i, v in enumerate([82.5, 70]): ax.text(i, v + 2.5, pct(v), ha='center', fontsize=9.5, color=INK, weight='bold')
-    ax.set_xticks([0, 1]); ax.set_xticklabels(['Milgram (1963)', 'Burger (2009)']); ax.set_ylabel('Dispuestos a seguir\npasados 150 V (%)'); clean(ax)
-    ax.text(0, -.25, 'Diferencia no significativa (Burger, 2009)', transform=ax.transAxes, fontsize=7.4, color=MUTE)
+    ax.set_xticks([0, 1]); ax.set_xticklabels(['Milgram\n(datos comparables)', 'Burger (2009)']); ax.set_ylabel('Dispuestos a seguir\npasados 150 V (%)'); clean(ax)
+    ax.text(0, -.36, 'Diferencia no significativa (Burger, 2009)', transform=ax.transAxes, fontsize=7.4, color=MUTE)
     save(fig, 'milgram-burger.png')

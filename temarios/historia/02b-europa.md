@@ -1,4 +1,4 @@
-## Unidad 6 · El psicoanálisis en la Viena germanófona
+## Unidad 6 · Freud y el nacimiento del psicoanálisis
 
 **Objetivos:** situar el nacimiento del psicoanálisis en el contexto médico de la histeria y la hipnosis; describir los conceptos, el método y los dos modelos del aparato psíquico de Freud; explicar las rupturas de Adler y Jung y en qué se apartaron de Freud; separar los planos del psicoanálisis para valorar qué evidencia tiene cada uno.
 
@@ -89,7 +89,7 @@ Un ejemplo adleriano: un adolescente bajito que se vuelca en el baloncesto hasta
 | Concepto típico | Complejo de Edipo | Complejo de inferioridad | Arquetipos |
 | Ruptura | — | 1911 | 1913 |
 
-Un error frecuente es atribuir a Jung el complejo de inferioridad: es de Adler. Otro es pensar que las disidencias acabaron con el movimiento. Al contrario, el psicoanálisis se ramificó en muchas escuelas, mientras la asociación internacional intentaba conservar la ortodoxia. Antes de la muerte de Freud ya convivían corrientes más y menos ortodoxas, y después de 1945 se desarrollaron la psicología del yo, las relaciones de objeto, el culturalismo y el psicoanálisis hermenéutico (Unidad 13).
+Un error frecuente es atribuir a Jung el complejo de inferioridad: es de Adler. Otro es pensar que las disidencias acabaron con el movimiento. Al contrario, el psicoanálisis se ramificó en muchas escuelas, mientras la asociación internacional intentaba conservar la ortodoxia. Antes de la muerte de Freud ya convivían corrientes más y menos ortodoxas, y desde finales de los años treinta, y sobre todo después de 1945, se desarrollaron la psicología del yo, las relaciones de objeto, el culturalismo y, más tarde, el psicoanálisis hermenéutico (Unidad 13).
 
 Estas rupturas muestran también un rasgo del movimiento: como los casos clínicos interpretados no permitían decidir entre teorías rivales, los desacuerdos se resolvían a menudo con escisiones.
 
@@ -244,7 +244,7 @@ Las leyes de organización siguen vigentes. Wagemans et al. (2012) revisaron un 
 
 ### 7.3 Köhler en Tenerife: el insight
 
-Entre 1913 y 1920, **Wolfgang Köhler** dirigió una estación de investigación con antropoides en **Tenerife**. La Primera Guerra Mundial lo retuvo en la isla más tiempo del previsto, y allí estudió cómo resolvían problemas los chimpancés. Publicó los resultados en *Intelligenzprüfungen an Anthropoiden* (1917), traducido al inglés en 1925.
+Entre 1913 y 1920, **Wolfgang Köhler** (figura 7.2) dirigió una estación de investigación con antropoides en **Tenerife**. La Primera Guerra Mundial lo retuvo en la isla más tiempo del previsto, y allí estudió cómo resolvían problemas los chimpancés. Publicó los resultados en *Intelligenzprüfungen an Anthropoiden* (1917), traducido al inglés en 1925.
 
 ![s](wm-kohler.jpg)
 

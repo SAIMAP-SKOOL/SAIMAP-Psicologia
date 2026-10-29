@@ -37,7 +37,7 @@ En Gotinga, Georg Elias Müller continuó esta línea con un programa sobre psic
 
 ### 4.2 Brentano, Stumpf y la Escuela de Würzburgo
 
-Franz Brentano publicaba *Psychologie vom empirischen Standpunkte* (1874), que proponía otra manera de entender la mente. Para Brentano, la psicología no debía ocuparse de **contenidos** (sensaciones, imágenes), sino de **actos**: ver, juzgar, recordar, desear. Es la **psicología del acto**. Su rasgo definitorio es la **intencionalidad**: todo acto mental está dirigido hacia algo. No se ve sin ver algo, ni se desea sin desear algo. Cuando alguien piensa en sus próximas vacaciones, lo psicológico no es la imagen de la playa, sino el acto de proyectarse hacia ella. Brentano hizo poco trabajo experimental, pero su influencia filosófica fue enorme, y entre sus oyentes en Viena estuvo un joven Freud (Unidad 6).
+En 1874 Franz Brentano publicó *Psychologie vom empirischen Standpunkte*, donde proponía otra manera de entender la mente. Para Brentano, la psicología no debía ocuparse de **contenidos** (sensaciones, imágenes), sino de **actos**: ver, juzgar, recordar, desear. Es la **psicología del acto**. Su rasgo definitorio es la **intencionalidad**: todo acto mental está dirigido hacia algo. No se ve sin ver algo, ni se desea sin desear algo. Cuando alguien piensa en sus próximas vacaciones, lo psicológico no es la imagen de la playa, sino el acto de proyectarse hacia ella. Brentano hizo poco trabajo experimental, pero su influencia filosófica fue enorme, y entre sus oyentes en Viena estuvo un joven Freud (Unidad 6).
 
 Carl Stumpf, formado en esta tradición, llevó la psicología del acto al terreno de la percepción musical con *Tonpsychologie* (1883/1890). En Berlín dirigió un instituto por el que pasaron Köhler y Koffka, futuras figuras de la Gestalt (Unidad 7), y presidió en 1904 la comisión que examinó al caballo Clever Hans (Unidad 5).
 
@@ -288,7 +288,7 @@ Un ejemplo actual muestra la vigencia del condicionamiento clásico: quien ha su
 
 **Mito:** «Pávlov hacía sonar una campana antes de dar de comer a sus perros, y por eso le dieron el Nobel».
 
-**Realidad:** el estímulo más característico de su laboratorio era el metrónomo, junto a zumbadores y luces. Pávlov usó alguna vez una campana, pero en circunstancias raras y poco importantes (Thomas, 1997; Todes, 2014); decir que nunca la usó también es inexacto. El término ruso *zvonok* designa un timbre o zumbador. El Nobel de 1904 premió sus trabajos sobre la digestión.
+**Realidad:** el estímulo más característico de su laboratorio era el metrónomo, junto a zumbadores y luces. Pávlov usó alguna vez una campana, pero la citaba como poco eficaz (Thomas, 1997), y su uso fue raro y poco importante (Todes, 2014); decir que nunca la usó también es inexacto. El término ruso *zvonok* designa un timbre o zumbador. El Nobel de 1904 premió sus trabajos sobre la digestión.
 
 ### Conceptos clave
 

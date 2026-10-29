@@ -178,7 +178,7 @@ c) Selección de los autores que anticiparon el presente
 **5.** Mary Whiton Calkins…
 a) fue la primera mujer doctora en psicología, en Cornell
 b) refutó que el ciclo menstrual mermara el rendimiento
-c) completó el doctorado en Harvard, que no se lo concedió
+c) completó los requisitos del doctorado en Harvard, que se negó a concedérselo
 
 ### Soluciones
 
@@ -291,11 +291,11 @@ Su legado, sin embargo, no fue nulo. La idea de que funciones distintas dependen
 
 **Flourens (1824).** Pierre Flourens extirpó partes del cerebro en animales y observó los efectos. Concluyó que la corteza funcionaba como un todo: la **equipotencialidad**. La pérdida de función dependía de cuánto tejido se extirpaba, no de dónde. Sus métodos eran más rigurosos que los de la frenología.
 
-**Broca (1861).** Paul Broca estudió a Louis Victor Leborgne, un paciente al que llamaban «Tan» porque era casi la única sílaba que podía pronunciar, aunque comprendía lo que se le decía. Tras su muerte, Broca encontró una lesión en la región **frontal inferior izquierda**. Fue la primera prueba clínica sólida de que una función psicológica, la **producción del habla**, dependía de una zona concreta.
+**Broca (1861).** Paul Broca estudió a Louis Victor Leborgne, un paciente al que llamaban «Tan» porque era casi la única sílaba que podía pronunciar, aunque comprendía lo que se le decía. Tras su muerte, Broca encontró una lesión en la región **frontal inferior izquierda**. Fue la primera prueba clínica sólida de que una función psicológica, la **producción del habla**, dependía de una zona concreta (figura 2.6).
 
 ![s](wm-leborgne.jpg)
 
-Figura 2.6. **Cerebro de Leborgne («Tan»).** La lesión frontal inferior izquierda que describió Broca todavía puede verse en la pieza conservada. Fuente: Selbymay, Wikimedia Commons, CC BY‑SA 4.0.
+Figura 2.6. **Cerebro de Leborgne («Tan»).** Pieza conservada en el Musée Dupuytren de París; la etiqueta atribuye la afasia a la lesión frontal izquierda descrita por Broca (1861). Fuente: Selbymay, Wikimedia Commons, CC BY‑SA 4.0.
 
 **Fritsch y Hitzig (1870).** Gustav Fritsch y Eduard Hitzig estimularon eléctricamente la corteza de perros y provocaron movimientos en lados concretos del cuerpo. Era una prueba **experimental** de que existe una **corteza motora** localizada.
 
@@ -305,7 +305,7 @@ En esta época se produjo también el caso de **Phineas Gage** (1848): una barra
 
 ![s](wm-gage.jpg)
 
-Figura 2.7. **Phineas Gage con la barra de hierro.** Daguerrotipo del paciente con la barra que le atravesó el cráneo; su caso se cita como ejemplo de cambio de personalidad tras una lesión frontal. Fuente: autor desconocido, Wikimedia Commons, dominio público.
+Figura 2.7. **Phineas Gage con la barra de hierro.** Retrato fotográfico de Gage sosteniendo la barra que le atravesó el cráneo; su caso se cita como ejemplo de cambio de personalidad tras una lesión frontal. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
 El relato del caso de la figura 2.7 se ha exagerado con el tiempo (véase el mito de esta unidad). Algo parecido ocurre con la idea de que «usamos solo el 10 % del cerebro», que no tiene ninguna base (Beyerstein, 1999; Lilienfeld et al., 2010).
 
@@ -399,13 +399,13 @@ Hablar de una «fundación» única es una simplificación. Las fechas que se re
 
 | País | Figura de referencia | Pregunta central | Rasgo dominante |
 | --- | --- | --- | --- |
-| Imperio alemán | Wilhelm Wundt | ¿Cómo está organizada la experiencia consciente? | Laboratorio y experimentación |
-| Imperio británico | Francis Galton | ¿En qué se diferencian las personas y por qué? | Medida, estadística y herencia |
+| Alemania | Wilhelm Wundt | ¿Cómo está organizada la experiencia consciente? | Laboratorio y experimentación |
+| Gran Bretaña | Francis Galton | ¿En qué se diferencian las personas y por qué? | Medida, estadística y herencia |
 | Estados Unidos | William James y Stanley Hall | ¿Para qué sirve la mente? | Funcionalismo y aplicación práctica |
 
 Las tres tradiciones no se ignoraron entre sí. Muchos estadounidenses se formaron en Leipzig y combinaron lo aprendido con la medida de diferencias individuales de Galton. Cattell, por ejemplo, se doctoró con Wundt, conoció el trabajo de Galton y acuñó la expresión **«mental tests»** (1890). Un estudiante de hoy hereda las tres tradiciones a la vez: el experimento controlado, la estadística de las diferencias y la pregunta por la utilidad de la conducta.
 
-### 3.2 Wundt y la psicología en el Imperio alemán
+### 3.2 Wundt y el laboratorio de Leipzig
 
 **Wilhelm Wundt** se formó como fisiólogo y pasó después a la filosofía. Su obra *Grundzüge der physiologischen Psychologie* («Principios de psicología fisiológica», 1873‑74) delimitó la nueva disciplina: una psicología **experimental**, apoyada en los métodos de la fisiología pero con un objeto propio, la **experiencia inmediata**.
 
@@ -413,9 +413,9 @@ En 1875 se incorporó a la Universidad de Leipzig, donde dispuso de un espacio p
 
 ![m](wm-wundt-grupo.jpg)
 
-Figura 3.2. **Wundt con colaboradores en Leipzig (hacia 1880).** El laboratorio funcionaba como un grupo de investigación con estudiantes de muchos países. Fuente: autor desconocido, Wikimedia Commons, dominio público.
+Figura 3.2. **Wundt, sentado, con colaboradores en su laboratorio de Leipzig (sin fecha precisa).** El laboratorio funcionaba como un grupo de investigación con estudiantes de muchos países. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-**Métodos.** Wundt usó dos procedimientos principales en el laboratorio:
+**Métodos.** En el laboratorio (figura 3.2), Wundt usó dos procedimientos principales:
 
 - **Cronometría mental**: medida de los **tiempos de reacción**. Con el **método sustractivo** de Donders se compara, por ejemplo, el tiempo de responder a una luz con el de responder solo a la luz de un color concreto; la diferencia estima la duración del proceso añadido.
 - **Autoobservación experimental** (*experimentelle Selbstbeobachtung*): informes breves de observadores entrenados en condiciones controladas, repetibles y variables de forma sistemática. Wundt la distinguía de la **percepción interna** informal, que consideraba poco fiable, y criticó en 1907 los «experimentos de interrogatorio» de la Escuela de Würzburgo (Unidad 4).
@@ -432,7 +432,7 @@ Como muestra la figura 3.3, el legado institucional de Wundt fue enorme: formó 
 
 La investigación histórica ha corregido ese retrato (Blumenthal, 1975; Danziger, 1979; Leahey, 1981). Wundt no era estructuralista ni introspeccionista al estilo de Titchener, y su psicología no se limitaba al laboratorio. Las revisiones recientes insisten en cómo los manuales deformaron su figura (Araujo, 2016; Brock, 2021).
 
-### 3.3 Galton y la psicología en el Imperio británico
+### 3.3 Galton y la medida de las diferencias individuales
 
 **Francis Galton**, primo de Charles Darwin, se interesó por una pregunta que la teoría de la evolución hacía inevitable: si las especies varían y esa variación se hereda, ¿cómo varían y cuánto heredan los seres humanos? Mientras Wundt buscaba las leyes generales de la mente, Galton se centró en las **diferencias individuales**.
 

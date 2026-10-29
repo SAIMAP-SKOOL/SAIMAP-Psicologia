@@ -49,13 +49,13 @@ Skinner sostuvo que los principios que controlan la conducta de una paloma permi
 
 **La enseñanza programada.** Skinner aplicó el refuerzo a la educación con las **máquinas de enseñar** y la enseñanza programada: el material se divide en pasos pequeños, el estudiante responde de forma activa y recibe retroalimentación inmediata, y cada uno avanza a su ritmo. Muchas aplicaciones actuales de aprendizaje con ejercicios cortos y corrección al instante siguen, sin saberlo, esta lógica.
 
-**La terapia de conducta.** Tras la guerra creció la demanda de atención psicológica y los psicólogos empezaron a intervenir, no solo a evaluar. En los años cincuenta, grupos distintos llegaron a propuestas parecidas casi al mismo tiempo: Skinner y sus colaboradores en Estados Unidos, Wolpe en Sudáfrica y Eysenck en el Reino Unido. Todos presentaban la **terapia de conducta** como alternativa científica a los tratamientos de inspiración psicoanalítica. Tenía un precedente claro en el descondicionamiento del miedo de Peter por Mary Cover Jones (1924; Unidad 9). De la línea skinneriana deriva el **análisis aplicado de la conducta** (ABA), usado hoy en educación especial, autismo, organizaciones y salud. Las técnicas concretas se estudian en la asignatura de Tratamientos.
+**La terapia de conducta.** En los años cincuenta la **terapia de conducta** apareció casi a la vez en tres países: con Wolpe en Sudáfrica, con Eysenck en Londres y con el grupo de Skinner en Estados Unidos. Fue un caso de descubrimiento múltiple y se presentó como rival científico de la psiquiatría psicoanalítica. Con ella, el psicólogo clínico pasó de evaluar a tratar. Tenía un precedente claro en el descondicionamiento del miedo de Peter por Mary Cover Jones (1924; Unidad 9). De la línea skinneriana deriva el **análisis aplicado de la conducta** (ABA), usado hoy en educación especial, autismo, organizaciones y salud. Las técnicas concretas se estudian en la asignatura de Tratamientos.
 
 **Las polémicas.** El conductismo radical se enfrentó al psicoanálisis, al humanismo, con un debate público entre Skinner y Carl Rogers, y sobre todo al cognitivismo. Para muchos críticos, una ciencia que aspira a **predecir y controlar** la conducta humana resultaba amenazante. *Beyond Freedom and Dignity* convirtió a Skinner en una figura pública discutida: él respondía que la conducta ya está siempre controlada por el ambiente y que la cuestión es si ese control se diseña de forma explícita y con fines deseables o se deja al azar.
 
-**Un mito persistente: la hija en la caja.** Se repite que Skinner crio a su hija menor dentro de una caja experimental y que ella acabó con graves problemas, incluso que se suicidó. Es falso. El llamado ***aircrib*** era una **cuna cerrada y climatizada**, con temperatura controlada, pensada para que el bebé estuviera cómodo con poca ropa. Skinner la presentó en un artículo en *Ladies' Home Journal* (1945). No era un dispositivo de condicionamiento ni de refuerzo. La propia Deborah Skinner Buzan desmintió las leyendas en un artículo en *The Guardian* (2004).
+**Un mito persistente: la hija en la caja.** Se repite que Skinner crio a su hija menor dentro de una caja experimental y que ella acabó con graves problemas, incluso que se suicidó. Es falso. El llamado *aircrib* era una **cuna cerrada y climatizada**, con temperatura controlada, pensada para que el bebé estuviera cómodo con poca ropa. Skinner la presentó en un artículo en *Ladies' Home Journal* (1945). No era un dispositivo de condicionamiento ni de refuerzo. La propia Deborah Skinner Buzan desmintió las leyendas en un artículo en *The Guardian* (2004).
 
-Skinner siguió trabajando y publicando hasta su muerte, sin cambios de fondo en su posición. Su conductismo fue el único que se mantuvo prácticamente intacto mientras el resto del movimiento se transformaba o se disolvía en el cognitivismo.
+Skinner siguió trabajando y publicando hasta su muerte. No cambió de posición, y su programa siguió vivo mientras el resto del movimiento se diluía en el cognitivismo.
 
 ### 11.3 La crítica de Chomsky (1959)
 
@@ -70,14 +70,9 @@ Dos años después, el lingüista Noam Chomsky publicó en la revista *Language*
 
 La reseña se convirtió en un símbolo. Se lee a menudo como el golpe que hundió el conductismo, pero esa versión simplifica. Kenneth MacCorquodale (1970) publicó una respuesta en la que sostuvo que Chomsky criticaba una versión del conductismo que no era la de Skinner y que había entendido mal sus conceptos. La discusión sobre el grado de acierto de la reseña sigue abierta. Lo indiscutible es su **efecto histórico**: legitimó hablar de reglas, representaciones y capacidades innatas, y unió a lingüistas y psicólogos en el programa cognitivo (Unidad 12).
 
-La reseña tampoco actuó sola. El conductismo llevaba tiempo acumulando problemas, que pueden agruparse así:
+La reseña tampoco actuó sola. Los neoconductistas nunca llegaron a una teoría del aprendizaje compartida, y la filosofía en la que se apoyaban, el **positivismo lógico**, perdía crédito (Unidad 10). Las asociaciones encadenadas no explicaban bien el lenguaje ni las secuencias de acción rápidas, como ya había advertido Lashley (Unidad 12). Y las leyes obtenidas con ratas y palomas se daban por universales, algo difícil de sostener desde la biología evolutiva (apartado 11.4).
 
-- **Insuficiencia del asociacionismo** para explicar la conducta humana compleja, como el lenguaje o las secuencias de acción rápidas (Lashley; Unidad 12).
-- **Generalización excesiva entre especies**: leyes obtenidas con ratas y palomas se trataban como universales, en contra de una visión evolucionista seria (apartado 11.4).
-- **Crisis del positivismo lógico**, la filosofía de la ciencia en la que se habían apoyado los neoconductistas (Unidad 10).
-- **Fragmentación interna**: el movimiento no logró una teoría unificada del aprendizaje.
-
-Como consecuencia, la corriente principal fue aceptando procesos centrales y diferencias entre especies. Solo el skinnerianismo se mantuvo fiel a su programa.
+Tras la crisis, casi todos los conductistas acabaron admitiendo procesos internos y diferencias entre especies; Skinner fue la excepción.
 
 Un ejemplo ayuda a entender el argumento de la productividad. Una niña de tres años dice «yo lo poní» en lugar de «yo lo puse». Nadie le ha enseñado esa forma ni se la ha reforzado: la ha **construido** aplicando una regla general del español a un verbo irregular. Para Chomsky, errores así muestran que el niño extrae reglas, no que repite lo que se le premia. La adquisición del lenguaje se estudia en la asignatura de Psicología del Desarrollo.
 
@@ -307,7 +302,7 @@ Un ejemplo: si en un trabajo de fin de grado se miden diez variables y solo se i
 
 ### Clave PIR
 
-**Prioridad alta.** Es alta para Miller y Cowan: se pregunta la cifra de cada autor, que Miller habla de fragmentos y el año de los hitos (Hixon 1948, MIT 1956, Neisser 1967). La ciencia abierta tiene prioridad media: se pregunta qué es el prerregistro y qué encontró la Open Science Collaboration (2015). Trampas típicas: decir que Miller habla de «ítems», olvidar la estimación de Cowan y confundir el 36 % de réplicas significativas con el porcentaje de efectos falsos.
+**Prioridad alta para Miller y Cowan; media para la ciencia abierta.** Se pregunta la cifra de cada autor, que Miller habla de fragmentos y el año de los hitos (Hixon 1948, MIT 1956, Neisser 1967). De la ciencia abierta se pregunta qué es el prerregistro y qué encontró la Open Science Collaboration (2015). Trampas típicas: decir que Miller habla de «ítems», olvidar la estimación de Cowan y confundir el 36 % de réplicas significativas con el porcentaje de efectos falsos.
 
 ### Autoevaluación
 

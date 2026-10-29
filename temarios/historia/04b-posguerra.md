@@ -120,7 +120,7 @@ Así, el psicoanálisis sobrevive a la vez como tradición clínica con evidenci
 | Posición depresiva | Momento en que el bebé integra los aspectos buenos y malos de la madre (Klein) |
 | Objeto transicional | Objeto intermedio, como un peluche, que ayuda a tolerar la separación (Winnicott) |
 | Ansiedad básica | Sentimiento de soledad e indefensión ante un mundo hostil, origen de la neurosis (Horney) |
-| Psicoanálisis hermenéutico | Lectura del psicoanálisis como método de interpretación de sentidos (Ricoeur, Lacan) |
+| Psicoanálisis hermenéutico | Lectura del psicoanálisis como método de interpretación de sentidos (Ricoeur, Habermas) |
 
 ### Clave PIR
 
@@ -143,7 +143,7 @@ a) Karen Horney
 b) Ronald Fairbairn
 c) Anna Freud
 
-**4.** ¿Qué rasgo comparte el psicoanálisis culturalista?
+**4.** ¿Qué rasgo comparten los autores del psicoanálisis culturalista?
 a) La primacía de la teoría de la libido
 b) El estudio del análisis infantil mediante el juego
 c) El peso de la cultura y las relaciones en la personalidad
@@ -248,7 +248,7 @@ La **conferencia de Old Saybrook** (1964) reunió a figuras como Maslow, Rogers 
 
 Durante esos años, las ideas humanistas salieron del ámbito académico. Se aplicaron a la educación, a la empresa y, sobre todo, a la psicoterapia, y se mezclaron con el llamado movimiento del potencial humano, que promovía grupos de encuentro y técnicas de desarrollo personal. Rogers, por ejemplo, dedicó buena parte de su trabajo tardío a los grupos de encuentro.
 
-Esta difusión tuvo un coste. La mezcla con propuestas de muy diverso rigor alejó al humanismo de la universidad. Su balance como proyecto científico es limitado: aportó pocos métodos nuevos, rechazó muchos de los existentes sin ofrecer alternativas sólidas y a menudo se expresó en un lenguaje más filosófico que contrastable. El propio Rogers se preguntaba cómo construir una ciencia que respetara la subjetividad sin renunciar a conocimientos bien verificados. A cambio, el humanismo amplió los temas legítimos de la psicología (sentido, creatividad, autoestima, relación terapéutica) y dejó una huella duradera en la práctica profesional.
+Esta difusión tuvo un coste. La mezcla con propuestas de muy diverso rigor alejó al humanismo de la universidad. Como ciencia dejó poco: criticó los métodos experimentales pero no creó otros que los sustituyeran, y gran parte de sus tesis no podían someterse a prueba. Rogers fue de los pocos que intentaron medir el proceso terapéutico. Su legado está en otra parte: hizo legítimos temas como el sentido, la creatividad, la autoestima o la relación terapéutica, y dejó una huella duradera en la práctica profesional.
 
 Un ejemplo de esa huella: cuando una guía de atención primaria recomienda escuchar activamente, validar la experiencia del paciente y no juzgar, está aplicando principios que el humanismo convirtió en norma profesional, aunque casi nadie los atribuya ya a Rogers.
 

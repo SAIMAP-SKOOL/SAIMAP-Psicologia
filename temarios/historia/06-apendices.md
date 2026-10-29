@@ -42,13 +42,14 @@
 | Binet creía en una inteligencia fija y heredada | Defendía la educabilidad; la lectura hereditarista fue de Goddard y Terman | 4 |
 | Pávlov hacía sonar una campana | El estímulo habitual era el metrónomo; la campana fue rara (Thomas, 1997; Todes, 2014) | 5 |
 | Pávlov ganó el Nobel por el condicionamiento | Lo ganó en 1904 por la fisiología digestiva | 5 |
-| El psicoanálisis es un fracaso total | Hay que separar la metapsicología, los conceptos generales y las terapias, que sí tienen evidencia | 6 |
+| El psicoanálisis es un fracaso total | Hay que separar la metapsicología, los conceptos generales y las terapias, que sí tienen evidencia | 6, 13 |
 | La Gestalt desapareció | Se integró en la percepción, la resolución de problemas y la psicología social | 7 |
 | Little Albert temía todo lo peludo | La generalización fue limitada e inconsistente (Harris, 1979) | 9 |
 | Skinner crio a su hija en una caja | El *aircrib* era una cuna climatizada; su hija lo desmintió (2004) | 11 |
 | Nada en psicología se replica | El panorama es mixto: unos efectos se replican y otros no | 12 |
 | Maslow dibujó una pirámide | La pirámide es de McDermid (1960) (Bridgman et al., 2019) | 14 |
 | El RD 689/2021 creó la especialidad de Psicología Clínica infantojuvenil | Creó la especialidad médica de Psiquiatría Infantil y de la Adolescencia | 15 |
+| El experimento de Stanford demostró que cualquiera se vuelve cruel con el rol de guardia | Hubo instrucciones a los guardias, características de demanda y datos incompletos (Le Texier, 2019); validez discutida | 16 |
 | Ya hay un nuevo Código Deontológico en vigor | A octubre de 2026 no consta aprobado definitivamente; rige el de 1987 con sus reformas | 16 |
 | 38 testigos vieron morir a Kitty Genovese sin hacer nada | No hay prueba de los 38 ni de su inacción (Manning, Levine y Collins, 2007) | 16 |
 
@@ -104,7 +105,7 @@ Las imágenes siguientes proceden de Wikimedia Commons y se usan según sus lice
 | 2.5 Lámina frenológica (1883) | Autor no acreditado (1883) | Dominio público | [PhrenologyPix.jpg](https://commons.wikimedia.org/wiki/File:PhrenologyPix.jpg) |
 | 2.6 Cerebro de Leborgne («Tan») | Selbymay | [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Cerveau de Louis Victor Leborgne dit Tantan 1.jpg](https://commons.wikimedia.org/wiki/File:Cerveau_de_Louis_Victor_Leborgne_dit_Tantan_1.jpg) |
 | 2.7 Phineas Gage con la barra de hierro | Autor desconocido (daguerrotipo, antes de 1860) | Dominio público | [Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color Cropped.jpg](https://commons.wikimedia.org/wiki/File:Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg) |
-| 3.2 Wundt con colaboradores en Leipzig (hacia 1880) | Autor desconocido | Dominio público | [Wundt-research-group.jpg](https://commons.wikimedia.org/wiki/File:Wundt-research-group.jpg) |
+| 3.2 Wundt, sentado, con colaboradores en su laboratorio de Leipzig (sin fecha precisa) | Autor desconocido | Dominio público | [Wundt-research-group.jpg](https://commons.wikimedia.org/wiki/File:Wundt-research-group.jpg) |
 | 3.4 Francis Galton | Autor no indicado | Dominio público | [Francis Galton 1850s.jpg](https://commons.wikimedia.org/wiki/File:Francis_Galton_1850s.jpg) |
 | 3.5 William James (1903) | Notman Studios (1903) | Dominio público | [William James b1842c.jpg](https://commons.wikimedia.org/wiki/File:William_James_b1842c.jpg) |
 | 4.1 Hermann Ebbinghaus | Autor desconocido | Dominio público | [Ebbinghaus2.jpg](https://commons.wikimedia.org/wiki/File:Ebbinghaus2.jpg) |

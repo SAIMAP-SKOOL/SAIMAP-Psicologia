@@ -7,7 +7,7 @@
 | 2.5 Lámina frenológica (1883) | wm-frenologia | Autor no acreditado (1883) | Public domain | PhrenologyPix.jpg | https://commons.wikimedia.org/wiki/File:PhrenologyPix.jpg |
 | 2.6 Cerebro de Leborgne («Tan») | wm-leborgne | Selbymay | CC BY-SA 4.0 | Cerveau de Louis Victor Leborgne dit Tantan 1.jpg | https://commons.wikimedia.org/wiki/File:Cerveau_de_Louis_Victor_Leborgne_dit_Tantan_1.jpg |
 | 2.7 Phineas Gage con la barra de hierro | wm-gage | Autor desconocido (daguerrotipo, antes de 1860) | Public domain | Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color Cropped.jpg | https://commons.wikimedia.org/wiki/File:Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_Cropped.jpg |
-| 3.2 Wundt con colaboradores en Leipzig (hacia 1880) | wm-wundt-grupo | Autor desconocido | Public domain | Wundt-research-group.jpg | https://commons.wikimedia.org/wiki/File:Wundt-research-group.jpg |
+| 3.2 Wundt, sentado, con colaboradores en su laboratorio de Leipzig (sin fecha precisa) | wm-wundt-grupo | Autor desconocido | Public domain | Wundt-research-group.jpg | https://commons.wikimedia.org/wiki/File:Wundt-research-group.jpg |
 | 3.4 Francis Galton | wm-galton | Autor no indicado | Public domain | Francis Galton 1850s.jpg | https://commons.wikimedia.org/wiki/File:Francis_Galton_1850s.jpg |
 | 3.5 William James (1903) | wm-james | Notman Studios (1903) | Public domain | William James b1842c.jpg | https://commons.wikimedia.org/wiki/File:William_James_b1842c.jpg |
 | 4.1 Hermann Ebbinghaus | wm-ebbinghaus | Autor desconocido | Public domain | Ebbinghaus2.jpg | https://commons.wikimedia.org/wiki/File:Ebbinghaus2.jpg |
