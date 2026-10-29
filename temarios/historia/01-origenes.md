@@ -35,7 +35,7 @@ Para hacer historia con rigor se distinguen dos tipos de fuentes:
 
 Las secundarias son imprescindibles para orientarse, pero cuando contradicen a las primarias, prevalecen estas. Un minicaso: una estudiante lee en tres manuales que Pávlov hacía sonar siempre una campana. Si consulta trabajos que han revisado los textos y los aparatos del laboratorio (Thomas, 1997; Todes, 2014), descubre que el estímulo más habitual era un metrónomo (Unidad 5). Tres fuentes que repiten lo mismo no equivalen a tres pruebas independientes.
 
-Por último, la historia ayuda a situar los debates actuales. La relación entre mente y cerebro, el peso de la herencia y del ambiente o la tensión entre ciencia básica y aplicación no son problemas nuevos. Conocer cómo se plantearon antes permite reconocer qué hay realmente de novedoso en las propuestas de hoy.
+Por último, la historia ayuda a situar los debates actuales: mente y cerebro, herencia y ambiente o ciencia básica y aplicación no son problemas nuevos.
 
 ### 1.2 Presentismo e historicismo; internalismo y externalismo
 
@@ -190,7 +190,7 @@ c) completó el doctorado en Harvard, que no se lo concedió
 
 ### 2.1 Descartes y el empirismo británico
 
-La psicología del siglo XIX no partió de cero. Heredó de la filosofía moderna dos grandes problemas: **cómo se relacionan la mente y el cuerpo** y **de dónde procede el conocimiento**.
+La psicología heredó de la filosofía moderna dos grandes problemas: **cómo se relacionan la mente y el cuerpo** y **de dónde procede el conocimiento**.
 
 **Descartes.** René Descartes formuló un **dualismo interaccionista**. El ser humano está compuesto de dos sustancias distintas: la mente o alma, que piensa y no ocupa espacio, y el cuerpo, que ocupa espacio y funciona como una máquina. Ambas interactúan, y Descartes situó el punto de contacto en la **glándula pineal**, una pequeña estructura del centro del cerebro. Desarrolló estas ideas en *Les passions de l'âme* (1649) y en el *Traité de l'homme*, publicado de forma póstuma en 1664.
 
@@ -198,26 +198,17 @@ La psicología del siglo XIX no partió de cero. Heredó de la filosofía modern
 
 Figura 2.1. **Ilustración del *Tratado del hombre* de Descartes (1664).** Los estímulos visuales llegan a la glándula pineal, el lugar donde Descartes situaba la interacción entre el alma y el cuerpo. Fuente: René Descartes, Wikimedia Commons, dominio público.
 
-Como muestra la figura 2.1, Descartes describía el cuerpo con un lenguaje mecánico. Su idea del **acto reflejo** es la parte más duradera de su legado para la psicología: un estímulo externo pone en marcha una respuesta automática del cuerpo sin intervención del alma, como cuando se aparta la mano del fuego. Al separar lo mecánico de lo mental, abrió la puerta al estudio fisiológico del cuerpo, aunque dejó planteado un problema que sigue sin una solución aceptada por todos: cómo puede algo no material actuar sobre algo material.
+Como muestra la figura 2.1, Descartes describía el cuerpo con un lenguaje mecánico. Su idea del **acto reflejo** es la parte más duradera de su legado para la psicología: un estímulo externo pone en marcha una respuesta automática del cuerpo sin intervención del alma, como cuando se aparta la mano del fuego. También dejó planteado un problema sin solución aceptada por todos: cómo puede algo no material actuar sobre algo material.
 
 **El empirismo británico.** Frente a la idea cartesiana de que algunas ideas son innatas, los empiristas sostuvieron que todo conocimiento procede de la **experiencia**. John Locke, en su *Ensayo sobre el entendimiento humano* (1690), comparó la mente al nacer con una **tabula rasa**, una tablilla en blanco en la que la experiencia va escribiendo. Le siguieron Berkeley y Hume, que examinaron cómo se forman y se combinan las ideas.
 
 De ahí surgió el **asociacionismo**: las ideas simples se unen en ideas complejas por **asociación**, sobre todo cuando se presentan juntas o seguidas. Hartley lo sistematizó en el siglo XVIII. En el XIX, James Mill lo planteó como una combinación casi mecánica de elementos, mientras que su hijo John Stuart Mill habló de **química mental**: al combinarse, las ideas pueden dar lugar a un compuesto con propiedades nuevas, igual que el agua no se parece al hidrógeno ni al oxígeno.
 
-| Autor o corriente | Idea central | Huella en la psicología |
-| --- | --- | --- |
-| Descartes | Dualismo interaccionista; acto reflejo | Problema mente‑cuerpo; estudio mecánico del cuerpo |
-| Locke | Mente como tabula rasa | Peso de la experiencia y del aprendizaje |
-| Hartley y James Mill | Asociación de ideas simples | Ebbinghaus, Thorndike, conductismo |
-| John Stuart Mill | Química mental | Antecedente de la síntesis creadora de Wundt |
-
 El asociacionismo dio a la psicología experimental una de sus hipótesis de trabajo más fecundas. Cuando Ebbinghaus aprendió listas de sílabas o Thorndike observó cómo un gato conectaba una conducta con su consecuencia (Unidades 4 y 9), estaban convirtiendo en experimento una vieja pregunta empirista. El matiz de John Stuart Mill también tendrá eco: la idea de que el todo puede ser algo más que la suma de sus partes reaparece en Wundt (Unidad 3) y, con otra forma, en la Gestalt (Unidad 7).
-
-Un ejemplo cotidiano del principio asociativo: el olor de una crema solar evoca el verano porque ambas experiencias se han presentado juntas muchas veces. Los empiristas no hicieron experimentos para comprobarlo; la psicología del siglo XIX sí empezaría a hacerlos.
 
 ### 2.2 Fisiología sensorial: Müller y Helmholtz
 
-El segundo gran antecedente procede de la **fisiología alemana** del siglo XIX. Sus laboratorios trasladaron al terreno experimental preguntas que la filosofía había tratado de forma especulativa: cómo se transmite la información de los sentidos y qué papel tiene el sistema nervioso en la percepción.
+El segundo gran antecedente procede de la **fisiología alemana** del siglo XIX, que llevó al laboratorio preguntas sobre los sentidos que la filosofía había tratado de forma especulativa.
 
 **Johannes Müller.** En su *Handbuch der Physiologie* (1833‑1840) formuló la **ley de las energías nerviosas específicas**: cada nervio sensorial produce su propia cualidad de sensación, sea cual sea el estímulo que lo active. El nervio óptico produce siempre sensaciones visuales, tanto si lo estimula la luz como si lo estimula una presión. Por eso, al frotarse los ojos cerrados se ven destellos aunque no haya luz.
 
@@ -226,21 +217,14 @@ La consecuencia teórica es importante: lo que percibimos directamente no es el 
 **Hermann von Helmholtz.** Discípulo de Müller, hizo varias aportaciones decisivas:
 
 1. **Velocidad de conducción nerviosa (1850).** Con preparaciones de nervio de rana, midió el tiempo que tarda un impulso en recorrer el nervio y comprobó que era **mucho más lento** de lo que se creía. Hasta entonces se suponía que la transmisión era prácticamente instantánea.
-2. ***Óptica fisiológica* (1856‑1867).** Un tratado sobre la visión que incluye la **teoría tricromática** del color, conocida como teoría de Young‑Helmholtz: la visión del color depende de tres tipos de receptores.
+2. **«Óptica fisiológica» (1856‑1867).** Un tratado sobre la visión que incluye la **teoría tricromática** del color, conocida como teoría de Young‑Helmholtz: la visión del color depende de tres tipos de receptores.
 3. **Inferencia inconsciente.** La percepción no es un registro pasivo. El sistema perceptivo completa los datos sensoriales con conclusiones rápidas y automáticas basadas en la experiencia.
 
 La medida de la velocidad nerviosa tuvo una consecuencia inesperada para la psicología. Si los procesos nerviosos tardan un tiempo medible, los procesos mentales asociados también lo tardarán, y ese tiempo puede registrarse. Esta idea está en la base de la **cronometría mental**, que Wundt y sus colaboradores convertirían en uno de los métodos centrales del laboratorio (Unidad 3).
 
 La inferencia inconsciente se entiende con un ejemplo. Una amiga que se aleja por la calle proyecta en la retina una imagen cada vez más pequeña, pero no la vemos encoger: el sistema perceptivo «tiene en cuenta» la distancia y mantiene constante su tamaño percibido. Para Helmholtz, este tipo de ajuste es una inferencia que no llega a la conciencia.
 
-| Autor | Aportación | Idea para la psicología |
-| --- | --- | --- |
-| Müller | Energías nerviosas específicas | La cualidad sensorial depende del nervio, no del estímulo |
-| Helmholtz | Velocidad nerviosa (1850) | Los procesos mentales llevan un tiempo medible |
-| Helmholtz | Teoría tricromática | La visión del color depende de tres tipos de receptores |
-| Helmholtz | Inferencia inconsciente | La percepción interpreta los datos sensoriales |
-
-Estos trabajos mostraron que una parte de la vida mental podía estudiarse con los métodos de la fisiología. Faltaba un paso más: medir la relación entre el estímulo físico y la sensación. Ese paso lo dieron Weber y Fechner. Las bases neurales de la sensación se desarrollan en la asignatura de Bases biológicas, y la teoría del color y la percepción, en Atención y Percepción.
+Müller y Helmholtz no se consideraban psicólogos. Su aportación fue demostrar que ciertas preguntas sobre la mente podían responderse con experimentos y medidas, el mismo supuesto del que partirían la psicofísica y el laboratorio de Wundt. Faltaba un paso más: medir la relación entre el estímulo físico y la sensación. Ese paso lo dieron Weber y Fechner. Las bases neurales de la sensación se desarrollan en la asignatura de Bases biológicas, y la teoría del color y la percepción, en Atención y Percepción.
 
 ### 2.3 La psicofísica: Weber y Fechner
 
@@ -281,21 +265,21 @@ Con estos métodos se miden dos umbrales:
 - **Umbral absoluto**: la intensidad mínima que se detecta el **50 %** de las veces.
 - **Umbral diferencial**: la diferencia mínima que se detecta el 50 % de las veces.
 
-La definición estadística del umbral absoluto es importante: no hay un punto exacto en el que el estímulo pase de no detectarse a detectarse siempre, sino una zona de transición.
+La definición es estadística porque no hay un punto exacto en el que el estímulo pase de no detectarse a detectarse siempre.
 
 La ley de Fechner no fue la última palabra. Stevens (1957) propuso una **ley potencial**, según la cual la sensación es una potencia de la intensidad del estímulo, con un exponente distinto para cada dimensión sensorial. Para la estimación directa de la magnitud percibida, la ley de Stevens se ajusta mejor a los datos.
 
-El valor histórico de la psicofísica es enorme. Demostró que algo mental, la sensación, podía medirse con regularidad y expresarse en leyes. Wundt partió de esta tradición para fundar su laboratorio (Unidad 3). La psicofísica actual y la teoría de detección de señales se estudian en Atención y Percepción.
+La psicofísica demostró que la sensación podía medirse y expresarse en leyes, y Wundt partió de esta tradición (Unidad 3). La psicofísica actual y la teoría de detección de señales se estudian en Atención y Percepción.
 
 ### 2.4 La localización cerebral: de la frenología a Broca y Wernicke
 
-El tercer antecedente es la pregunta por **dónde** ocurren las funciones mentales. A lo largo del siglo XIX se pasó de una especulación sin base a las primeras pruebas clínicas y experimentales.
+El tercer antecedente es la pregunta por **dónde** ocurren las funciones mentales.
 
 ![](localizacion.png)
 
 Figura 2.4. **La localización cerebral en el siglo XIX.** Línea del tiempo desde la frenología de Gall y Spurzheim (hacia 1810) y la equipotencialidad de Flourens (1824) hasta Broca (1861), Fritsch y Hitzig (1870) y Wernicke (1874). Elaboración propia.
 
-Como muestra la figura 2.4, el debate tuvo cinco momentos principales.
+Como muestra la figura 2.4, el debate pasó de la especulación a las primeras pruebas clínicas y experimentales.
 
 **La frenología (≈1810‑1819).** Franz Joseph Gall y Johann Spurzheim sostuvieron que la mente se compone de **facultades** independientes, como la benevolencia o la memoria, cada una con su lugar en la corteza. Una facultad muy desarrollada agrandaría su zona cerebral y produciría un abultamiento en el cráneo, de modo que palpar la cabeza permitiría conocer el carácter. La frenología se hizo muy popular, pero sus pruebas eran anécdotas seleccionadas: no tenía base.
 
@@ -305,7 +289,7 @@ Figura 2.5. **Lámina frenológica (1883).** Cada zona del cráneo se asigna a u
 
 Su legado, sin embargo, no fue nulo. La idea de que funciones distintas dependen de zonas distintas del cerebro sobrevivió a la frenología (figura 2.5).
 
-**Flourens (1824).** Pierre Flourens extirpó partes del cerebro en animales y observó los efectos. Concluyó que la corteza funcionaba como un todo: la **equipotencialidad**. La pérdida de función dependía de cuánto tejido se extirpaba, no de dónde. Sus métodos eran más rigurosos que los de la frenología y su conclusión frenó durante décadas las tesis localizacionistas.
+**Flourens (1824).** Pierre Flourens extirpó partes del cerebro en animales y observó los efectos. Concluyó que la corteza funcionaba como un todo: la **equipotencialidad**. La pérdida de función dependía de cuánto tejido se extirpaba, no de dónde. Sus métodos eran más rigurosos que los de la frenología.
 
 **Broca (1861).** Paul Broca estudió a Louis Victor Leborgne, un paciente al que llamaban «Tan» porque era casi la única sílaba que podía pronunciar, aunque comprendía lo que se le decía. Tras su muerte, Broca encontró una lesión en la región **frontal inferior izquierda**. Fue la primera prueba clínica sólida de que una función psicológica, la **producción del habla**, dependía de una zona concreta.
 
@@ -323,13 +307,13 @@ En esta época se produjo también el caso de **Phineas Gage** (1848): una barra
 
 Figura 2.7. **Phineas Gage con la barra de hierro.** Daguerrotipo del paciente con la barra que le atravesó el cráneo; su caso se cita como ejemplo de cambio de personalidad tras una lesión frontal. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
-El caso de la figura 2.7 se convirtió en un clásico, pero su relato se ha exagerado con el tiempo (véase el mito de esta unidad). Algo parecido ocurre con la idea de que «usamos solo el 10 % del cerebro», que no tiene ninguna base (Beyerstein, 1999; Lilienfeld et al., 2010).
+El relato del caso de la figura 2.7 se ha exagerado con el tiempo (véase el mito de esta unidad). Algo parecido ocurre con la idea de que «usamos solo el 10 % del cerebro», que no tiene ninguna base (Beyerstein, 1999; Lilienfeld et al., 2010).
 
 La neurociencia actual no da la razón ni a la frenología ni a la equipotencialidad estricta: hay regiones especializadas, pero las funciones complejas dependen de su trabajo conjunto. Las bases neurales del lenguaje y de la motricidad se estudian en Bases biológicas.
 
 ### Consenso y debate
 
-**Consenso:** la psicología científica nació de la confluencia de la filosofía (el problema mente‑cuerpo y el asociacionismo) y de la fisiología experimental (energías nerviosas específicas, velocidad nerviosa, psicofísica y localización cerebral). La ley de Weber describe el umbral diferencial y la de Fechner, la magnitud de la sensación. Broca y Wernicke aportaron las primeras pruebas clínicas sólidas de localización.
+**Consenso:** la psicología científica nació de la confluencia de la filosofía y de la fisiología experimental. La ley de Weber describe el umbral diferencial y la de Fechner, la magnitud de la sensación. Broca y Wernicke aportaron las primeras pruebas clínicas sólidas de localización.
 
 **Debate:** qué ley describe mejor la magnitud percibida: la logarítmica de Fechner o la potencial de Stevens (1957), que se ajusta mejor en la estimación directa. También se discute cuánto cambió realmente Phineas Gage, porque los relatos de su caso se fueron agrandando con el tiempo (Macmillan, 2000).
 
