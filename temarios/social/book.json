@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Psicología Social · SAIMAP Psicología",
+  "cover_title": "Psicología<br>Social",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo la presencia de los demás moldea lo que pensamos, sentimos y hacemos: método y crisis de replicación, cognición social, atribución, el self y la identidad social, actitudes, disonancia y persuasión, estereotipos, prejuicio y discriminación, y una ampliación PIR sobre influencia, grupos, agresión, ayuda y atracción. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 1.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología Social · SAIMAP Psicología",
+  "pdf": "Psicologia-Social_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E8EFF4",
+    "STRIPE": [
+      "#2D5A7B",
+      "#C8553D",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02-cognicion.md",
+    "03-atribucion.md",
+    "04-self.md",
+    "05a-actitudes.md",
+    "05b-actitudes.md",
+    "06-prejuicio.md",
+    "07-ampliacion.md",
+    "08-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02-cognicion.md",
+    "03-atribucion.md",
+    "04-self.md",
+    "05a-actitudes.md",
+    "05b-actitudes.md",
+    "06-prejuicio.md",
+    "07-ampliacion.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
