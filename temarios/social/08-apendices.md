@@ -20,7 +20,7 @@
 | Higgins (1987) | Real‑ideal → abatimiento; real‑debido → agitación | 7 |
 | Tajfel (1970) | Grupo mínimo: una categorización trivial basta para favorecer al endogrupo | 8 |
 | Baumeister et al. (2003) | La autoestima alta no causa mejor rendimiento ni protege de la violencia | 8 |
-| Oswald et al. (2013); Forscher et al. (2019) | IAT y conducta: r ≈ 0,15; cambiar el IAT no cambia la conducta | 9 |
+| Oswald et al. (2013); Forscher et al. (2019) | IAT y discriminación étnico‑racial: r = 0,148; cambiar el IAT no cambia la conducta | 9 |
 | LaPiere (1934) | 1 rechazo en 251 visitas frente a ≈ 92 % de «No» por carta | 10 |
 | Glasman y Albarracín (2006) | Actitud‑conducta: r = 0,52 (k = 128) | 10 |
 | Armitage y Conner (2001) | TPB: 39 % de la varianza de la intención y 27 % de la conducta | 10 |
@@ -35,7 +35,7 @@
 | Asch (1956) | 36,8 % de respuestas conformistas en ensayos críticos; ≈ 25 % nunca se conformó | 15 |
 | Milgram (1963); Burger (2009) | 65 % hasta 450 V; 70 % dispuesto a pasar de 150 V (82,5 % en Milgram) | 15 |
 | Le Texier (2019) | Los archivos de Stanford muestran instrucciones a los guardias y demanda | 15 |
-| Darley y Latané (1968) | Ayudaron 85 % solos, 62 % con un testigo, 31 % con cuatro | 16 |
+| Darley y Latané (1968) | Avisaron antes de que acabara el ataque: 85 % solos, 62 % con un testigo, 31 % con cuatro | 16 |
 | Philpot et al. (2020) | Intervención en ≈ 91 % de 219 conflictos reales grabados | 16 |
 
 ## Mitos y correcciones
@@ -43,15 +43,15 @@
 | Mito | Corrección | Unidad |
 | --- | --- | --- |
 | Leer palabras sobre la vejez hace caminar más despacio | Doyen et al. (2012) no lo replicaron; el efecto aparecía cuando los experimentadores lo esperaban | 3 |
-| La «fuerza de voluntad» se agota como un músculo | El agotamiento del ego no se replicó en réplicas multilaboratorio (Hagger et al., 2016; Vohs et al., 2021) | 4 |
-| Las «posturas de poder» cambian las hormonas | Ranehill et al. (2015) no lo replicaron; Carney se desvinculó del efecto en 2016 | 4, 7 |
+| La «fuerza de voluntad» se agota como un músculo | El agotamiento del ego no apareció en réplicas multilaboratorio (Hagger et al., 2016; Vohs et al., 2021) | 4 |
+| Las «posturas de poder» cambian las hormonas | Ranehill et al. (2015) no lo replicaron; Carney se desvinculó del efecto en 2016 | 2, 7 |
 | Explicamos nuestra conducta por la situación y la ajena por la persona, siempre | La asimetría actor‑observador es prácticamente nula (Malle, 2006) | 6 |
 | Una autoestima alta produce éxito | Correlaciona con felicidad e iniciativa, pero no causa mejor rendimiento (Baumeister et al., 2003) | 8 |
 | El IAT revela si una persona es racista | Predice débilmente la conducta y no sirve para diagnosticar individuos (Oswald et al., 2013) | 9 |
 | Las expectativas del profesor disparan el CI | Los efectos Pigmalión existen, pero son pequeños (Jussim y Harber, 2005) | 13 |
 | En Asch casi todo el mundo se conformó | La mayoría de respuestas fueron independientes (36,8 % conformistas); ≈ 25 % nunca cedió | 15 |
 | Stanford prueba que los roles vuelven sádica a la gente | Guardias instruidos y fuertes características de la demanda (Le Texier, 2019) | 15 |
-| Desahogarse golpeando algo reduce la agresión | La catarsis aumenta la ira y la agresión (Bushman, 2002) | 16 |
+| Desahogarse golpeando algo reduce la agresión | Golpear un saco tras una provocación aumentó la ira y la agresión (Bushman, 2002) | 16 |
 | 38 testigos vieron morir a Kitty Genovese sin hacer nada | La cifra y la pasividad no tienen base documental (Manning, Levine y Collins, 2007) | 16 |
 | En la calle nadie ayuda porque hay mucha gente | En conflictos reales grabados se interviene en ≈ 9 de cada 10 (Philpot et al., 2020) | 16 |
 

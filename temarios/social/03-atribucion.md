@@ -114,7 +114,7 @@ Lo central es que **cada dimensión tiene consecuencias propias**:
 | --- | --- | --- |
 | Locus | Autoestima: orgullo tras el éxito interno, vergüenza tras el fracaso interno | «Ha sido culpa mía» duele más que «el examen era injusto» |
 | Estabilidad | Expectativas de futuro: esperanza o desesperanza | «Siempre me pasará» frente a «la próxima vez irá mejor» |
-| Controlabilidad | Emociones sociales: culpa, ira, compasión | Culpa si no estudié; compasión si estuve enfermo |
+| Controlabilidad | Emociones sociales: culpa, ira, compasión | Culpa si no estudié; si estuve enfermo, los demás sienten compasión y no ira |
 
 La secuencia completa es la siguiente. Tras un resultado aparece una emoción general (alegría o tristeza) que no depende de la causa. Si el resultado es negativo, inesperado o importante, se inicia la búsqueda causal. La atribución a la que se llega, descrita por sus dimensiones, genera emociones específicas y expectativas, y estas guían la conducta posterior: persistir o abandonar, acercarse o evitar.
 

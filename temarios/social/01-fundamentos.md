@@ -26,7 +26,7 @@ La definición tiene tres partes que conviene desmenuzar:
 | Imaginada | Pensamos en cómo nos verían o qué dirían | Repasar un mensaje pensando en cómo lo leerá un profesor |
 | Implícita | Normas, roles y cultura actúan aunque nadie esté ni se piense en nadie | Hacer cola en la farmacia sin que nadie lo pida |
 
-La presencia implícita muestra que la influencia social no necesita público. Una persona sola en su cocina que decide no tirar comida por respeto a lo que le enseñaron en casa, o que se viste «como corresponde» antes de una videollamada, actúa bajo normas compartidas.
+La presencia implícita muestra que la influencia social no necesita público. Una persona sola en su cocina que decide no tirar comida por respeto a lo que le enseñaron en casa, o que se pone el cinturón de seguridad en un aparcamiento vacío, actúa bajo normas compartidas.
 
 La influencia, además, es **recíproca**. Cada persona es «los demás» para otras: el estudiante que bosteza en clase contagia a sus compañeros y, a la vez, se anima si ve al resto atento. Subrayar el peso del contexto no significa negar el de la persona: la conducta depende de ambos, como resumió Lewin (apartado 1.3).
 
@@ -83,7 +83,7 @@ En los años veinte y treinta aparecen las primeras líneas de investigación pr
 
 Figura 1.2. **Hitos de la psicología social, de 1898 a 2024.** Desde Triplett y los manuales de 1908 hasta la crisis de replicación y la réplica multilaboratorio de la disonancia; las fechas marcan publicaciones o estudios de referencia, no periodos cerrados. Elaboración propia.
 
-Como muestra la figura 1.2, la mayoría de los estudios que hoy se consideran clásicos se concentra en las dos décadas posteriores a 1945. Antes de esa fecha, la disciplina ya tenía nombre, método experimental y temas propios (actitudes, normas, grupos), pero era pequeña.
+Como recoge la figura 1.2, buena parte de los estudios que hoy se consideran clásicos se publicó en las dos décadas posteriores a 1945. Antes de esa fecha, la disciplina ya tenía nombre, método experimental y temas propios (actitudes, normas, grupos), pero era pequeña.
 
 La **Segunda Guerra Mundial** actuó como acelerador por dos vías. Por un lado, muchos investigadores europeos, Lewin entre ellos, se habían instalado en Estados Unidos huyendo del nazismo, lo que desplazó el centro de gravedad de la disciplina. Por otro, los gobiernos necesitaban saber cómo funcionan la propaganda, la moral de las tropas o los cambios de hábitos de la población. El conflicto dejó además preguntas urgentes: cómo pudo tanta gente corriente colaborar con el horror o por qué se odia a grupos enteros.
 
@@ -102,7 +102,7 @@ La historia general de estos autores, incluido el papel de Triplett y Lewin, se 
 | Festinger (1954; 1957) | ¿Cómo nos comparamos? ¿Qué pasa cuando actuamos contra lo que pensamos? | 7 y 11 |
 | Milgram (1963) | ¿Hasta dónde obedece una persona corriente? | 15 |
 
-La disciplina tuvo también impacto público: en 1954, el Tribunal Supremo de Estados Unidos declaró inconstitucional la segregación escolar en el caso Brown contra el Consejo de Educación, y en el proceso se tuvieron en cuenta informes de científicos sociales. En 1965 empezaron a publicarse dos revistas de referencia, el *Journal of Personality and Social Psychology* y el *Journal of Experimental Social Psychology*.
+A mediados de los años sesenta la disciplina ya tenía revistas propias de referencia, como el *Journal of Personality and Social Psychology* y el *Journal of Experimental Social Psychology*, ambas de 1965. Su influencia había salido antes del laboratorio: la sentencia Brown contra el Consejo de Educación (1954), que acabó con la segregación escolar legal en Estados Unidos, se apoyó en parte en trabajos de científicos sociales.
 
 **La crisis de los años setenta.** El crecimiento trajo críticas de fondo, centradas en tres puntos:
 
@@ -147,7 +147,7 @@ La disciplina tuvo también impacto público: en 1954, el Tribunal Supremo de Es
 
 ### Autoevaluación
 
-**1.** Una persona baja la voz al entrar en una sala de espera vacía. Según la definición de Allport (1954), es un ejemplo de presencia…
+**1.** Una persona baja la voz por costumbre al entrar en una sala de espera vacía, sin pensar en nadie en concreto. Según la definición de Allport (1954), es un ejemplo de presencia…
 a) real
 b) implícita
 c) imaginada
@@ -170,7 +170,7 @@ c) Triplett y F. H. Allport
 **5.** ¿Qué rasgo caracterizó a la psicología social europea que surgió en torno a los años setenta?
 a) Su interés por los grupos y las relaciones intergrupales
 b) Su rechazo de cualquier forma de experimento
-c) Su centro en los heurísticos individuales de juicio
+c) Su atención centrada en los heurísticos individuales de juicio
 
 ### Soluciones
 
@@ -189,7 +189,7 @@ Una hipótesis en psicología social es una predicción comprobable: «si las pe
 - **Manipulación de la variable independiente (VI).** El investigador crea las condiciones; por ejemplo, unos participantes leen que el 80 % de sus vecinos recicla y otros no reciben ese dato.
 - **Asignación aleatoria.** Cada participante tiene la misma probabilidad de ir a cada condición, de modo que las diferencias previas entre personas se reparten al azar.
 
-Si después la **variable dependiente (VD)**, como la intención de reciclar, difiere entre grupos, se puede atribuir la diferencia a la manipulación. Es el único diseño que permite inferencias causales con seguridad. Muchos experimentos de la disciplina usan **cómplices**, colaboradores que fingen ser participantes, como en los estudios de conformidad de Asch (Unidad 15).
+Si después la **variable dependiente (VD)**, como la intención de reciclar, difiere entre grupos, se puede atribuir la diferencia a la manipulación. Junto con el experimento de campo, que conserva la manipulación y la asignación aleatoria, es el diseño que mejor permite inferencias causales. Muchos experimentos de la disciplina usan **cómplices**, colaboradores que fingen ser participantes, como en los estudios de conformidad de Asch (Unidad 15).
 
 **El experimento de campo.** Mantiene manipulación y asignación aleatoria, pero en un entorno natural, a menudo sin que las personas sepan que participan. La técnica del pie en la puerta se estudió llamando a domicilios reales (Freedman y Fraser, 1966; Unidad 12), y la discriminación en la contratación se mide enviando currículos ficticios idénticos salvo en el nombre (Quillian et al., 2017; Unidad 14). Gana realismo a cambio de menos control.
 

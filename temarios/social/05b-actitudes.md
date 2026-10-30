@@ -4,7 +4,7 @@
 
 ### 11.1 La teoría de Festinger
 
-La Unidad 10 estudió cómo las actitudes guían la conducta. La teoría de la **disonancia cognitiva** recorre el camino inverso: explica cómo la propia conducta puede cambiar las actitudes. Leon Festinger la formuló en 1957 y fue durante décadas una de las teorías más influyentes y discutidas de la psicología social. Pertenece a la familia de las **teorías de la consistencia**, propias de la etapa en que se veía a la persona como un buscador de coherencia (Unidad 3).
+La Unidad 10 estudió cómo las actitudes guían la conducta. La teoría de la **disonancia cognitiva** recorre el camino inverso: explica cómo la propia conducta puede cambiar las actitudes. Leon Festinger la formuló en 1957 y fue durante décadas una de las teorías más influyentes y discutidas de la psicología social. Pertenece a la familia de las **teorías de la consistencia**, propias de la etapa en que se veía a la persona como un buscador de consistencia (Unidad 3).
 
 La teoría parte de unas pocas nociones:
 
@@ -49,7 +49,7 @@ Como muestra la figura 11.1, quienes cobraron 1 dólar valoraron la tarea mucho 
 
 ![s](wm-aronson.jpg)
 
-Figura 11.2. **Elliot Aronson (1972).** Coautor del experimento de la iniciación severa y de la versión del self de la disonancia. Fuente: Vera Aronson, Wikimedia Commons, CC BY‑SA 3.0.
+Figura 11.2. **Elliot Aronson (1972).** Coautor del experimento de la iniciación severa y autor de la versión de la disonancia centrada en el self. Fuente: Vera Aronson, Wikimedia Commons, CC BY‑SA 3.0.
 
 **Hipocresía inducida.** Aronson (figura 11.2) desarrolló un paradigma pensado para cambiar conductas. Primero se pide a la persona que defienda en público una conducta deseable, como ahorrar agua. Después se le hace recordar las veces que ella no la ha cumplido. La disonancia se reduce entonces **cambiando la conducta**, porque la actitud ya es favorable.
 
@@ -272,7 +272,7 @@ El HSM se diferencia del ELM en dos puntos:
 **Las críticas.** Los modelos duales han dominado el estudio de la persuasión durante décadas, pero han recibido críticas importantes:
 
 - **Falsabilidad.** En el ELM, la calidad de un argumento se define en la práctica por los pensamientos que genera en estudios previos: un argumento es fuerte si produce pensamientos favorables. Esto hace difícil saber qué resultado contradiría el modelo. Si una variable influye con poca elaboración, se le llama clave; si influye con mucha, argumento. Esta flexibilidad, que da al modelo su poder explicativo, dificulta también ponerlo a prueba.
-- **El unimodelo.** Kruglanski y Thompson (1999) defendieron que no hacen falta dos procesos. Tanto una clave como un argumento son **información** que sirve de prueba para llegar a una conclusión. En muchos experimentos, las claves eran breves y fáciles, y los argumentos, largos y complejos. Según el unimodelo, lo que cambia con la motivación y la capacidad es la capacidad de procesar información compleja, no el tipo de proceso.
+- **El unimodelo.** Kruglanski y Thompson (1999) defendieron que no hacen falta dos procesos. Tanto una clave como un argumento son **información** que sirve de prueba para llegar a una conclusión. En muchos experimentos, las claves eran breves y fáciles, y los argumentos, largos y complejos. Según el unimodelo, lo que varía con la motivación y los recursos disponibles es cuánta información, y de qué complejidad, se puede procesar, no el tipo de proceso.
 - **Evidencia acumulada.** El ELM se apoya en un gran número de experimentos, pero, a diferencia de la disonancia o el agotamiento del ego, **no se ha sometido a una réplica registrada multilaboratorio**. Su solidez descansa en estudios individuales y revisiones, no en una prueba de ese tipo.
 
 Ninguna crítica niega lo esencial: no todos los mensajes se procesan con el mismo cuidado. Se discute si eso refleja dos procesos o grados de uno solo.
@@ -334,7 +334,7 @@ Mucha gente cree que la publicidad influye en los demás pero no en ella misma, 
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta qué ruta del ELM sigue el receptor en un caso, qué variables aumentan la elaboración y cuál fue el resultado de Petty, Cacioppo y Goldman (1981). También es habitual identificar técnicas de cumplimiento a partir de una descripción. Trampas típicas: confundir pie en la puerta con puerta en la cara, atribuir a la ruta periférica cambios duraderos y creer que el HSM, como el ELM, trata los dos modos como incompatibles.
+**Prioridad alta.** Se pregunta qué ruta del ELM sigue el receptor en un caso, qué variables aumentan la elaboración y cuál fue el resultado de Petty, Cacioppo y Goldman (1981). También es habitual identificar técnicas de cumplimiento a partir de una descripción. Trampas típicas: confundir pie en la puerta con puerta en la cara, atribuir a la ruta periférica cambios duraderos y creer que en el HSM, como en el ELM, más elaboración implica menos peso de las claves (en el HSM ambos modos pueden actuar a la vez).
 
 ### Autoevaluación
 

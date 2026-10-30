@@ -87,7 +87,7 @@ Como muestra la figura 15.6, la mera presencia de otros eleva la **activación**
 
 Dos explicaciones complementan la de Zajonc:
 
-- **Aprensión a la evaluación** (Cottrell, 1968): activa la presencia de otros cuando pueden **evaluarnos**, no la presencia en sí.
+- **Aprensión a la evaluación** (Cottrell, 1968): lo que activa no es la mera presencia de otros, sino que puedan **evaluarnos**.
 - **Distracción‑conflicto** (Baron, 1986): los demás distraen y el conflicto entre atender a la tarea y a ellos genera activación.
 
 El metaanálisis de Bond y Titus (1983), con 241 estudios y unos 24.000 participantes, confirmó el patrón general, pero con efectos pequeños: la presencia de otros explica entre el 0,3 % y el 3 % de la varianza del rendimiento.
@@ -116,7 +116,7 @@ Se proponen dos mecanismos principales, compatibles entre sí:
 
 A estos se suma la **identidad social** (Unidad 8): la persona se ajusta al prototipo del endogrupo, que se define por contraste con el exogrupo y suele ser más extremo que la media. Ejemplo: un grupo de amigos algo escépticos con una vacuna sale de una cena convencido de que es peligrosa, aunque nadie aportó datos nuevos.
 
-**El pensamiento grupal.** Janis (1972) llamó **pensamiento grupal** al modo de pensar de un grupo cohesionado en el que el deseo de unanimidad pesa más que la evaluación realista de las alternativas. Lo propuso a partir de análisis de decisiones políticas desastrosas, como la invasión de bahía de Cochinos.
+**El pensamiento grupal.** Janis (1972) llamó **pensamiento grupal** al modo de pensar de un grupo cohesionado en el que el deseo de unanimidad pesa más que la evaluación realista de las alternativas. Lo propuso a partir de análisis de decisiones políticas desastrosas, como la invasión de la bahía de Cochinos.
 
 | Elemento | Contenido |
 | --- | --- |
@@ -258,9 +258,9 @@ La conducta de ayuda se trata con más detalle en Psicología de la Interacción
 
 ![m](espectador.png)
 
-Figura 16.2. **El efecto espectador en Darley y Latané (1968).** Informaron de la emergencia el 85 % de quienes se creían solos, el 62 % de quienes creían que había otro testigo y el 31 % de quienes creían que había cuatro. Elaboración propia.
+Figura 16.2. **El efecto espectador en Darley y Latané (1968).** Informaron de la emergencia antes de que terminara el ataque el 85 % de quienes se creían solos, el 62 % de quienes creían que había otro testigo y el 31 % de quienes creían que había cuatro. Elaboración propia.
 
-Como muestra la figura 16.2, la probabilidad de avisar caía conforme aumentaba el número de testigos que el participante imaginaba. Es el **efecto espectador**: la presencia de otros reduce la probabilidad de que una persona concreta ayude. Dos procesos lo explican:
+Como muestra la figura 16.2, la probabilidad de avisar antes de que acabara el ataque caía conforme aumentaba el número de testigos que el participante imaginaba. Es el **efecto espectador**: la presencia de otros reduce la probabilidad de que una persona concreta ayude. Dos procesos lo explican:
 
 - **Difusión de la responsabilidad**: con más testigos, cada uno se siente menos obligado a actuar (paso 3 del modelo).
 - **Ignorancia pluralista**: cada uno interpreta la calma de los demás como señal de que no pasa nada, aunque todos estén igual de inseguros (paso 2). En el experimento de la sala con humo de Latané y Darley (1968), quienes estaban con otras personas que no reaccionaban tardaban más en avisar que quienes estaban solos.

@@ -14,13 +14,13 @@ Desde el principio se subrayó su origen social. Cooley (1902) habló del **yo e
 
 El autoconcepto tiene varias propiedades bien establecidas:
 
-- **Multidimensional y jerárquico.** Incluye facetas académicas, físicas, sociales o morales, organizadas de lo específico a lo global. Un mal resultado en el gimnasio toca la faceta física, pero apenas mueve la imagen global.
+- **Multidimensional y jerárquico.** Incluye facetas académicas, físicas, sociales o morales, organizadas de lo específico a lo global. Que te critiquen un dibujo puede afectar a cómo te ves como artista sin cambiar apenas cómo te valoras en conjunto.
 - **Dinámico.** Cambia con la experiencia, con los roles y con el contexto. En cada momento solo una parte está activa: el **autoconcepto de trabajo**.
 - **Social y cultural.** Markus y Kitayama (1991) distinguieron el **self independiente**, definido por atributos propios y frecuente en culturas individualistas, del **self interdependiente**, definido por relaciones y roles y más común en culturas colectivistas.
 
 El conocimiento sobre uno mismo se organiza en **autoesquemas**: estructuras de conocimiento sobre facetas propias que guían el procesamiento de la información (Unidad 3). Markus (1977) mostró que las personas **esquemáticas** en una dimensión (por ejemplo, quienes se consideraban claramente independientes) juzgaban más rápido los adjetivos relacionados con ella, recordaban más ejemplos de su conducta y rechazaban con más firmeza la información contraria. Las personas **aesquemáticas**, para quienes la dimensión no era importante, no mostraban esa ventaja. No tenemos autoesquemas de todo: solo de lo que nos importa o en lo que destacamos.
 
-Para pensar sobre uno mismo hay que dirigir la atención hacia dentro. Duval y Wicklund (1972) propusieron la teoría de la **autoconciencia objetiva**: en ciertos momentos la persona se toma a sí misma como objeto de atención, igual que observaría cualquier otra cosa. Lo provocan los espejos, las cámaras, un público o escuchar la propia voz grabada. La autoconciencia lleva a **comparar** el estado actual con los **estándares** propios. Si hay discrepancia, aparece malestar, y la persona intenta reducirla, acercándose al estándar, o la evita, desviando la atención.
+Para pensar sobre uno mismo hay que dirigir la atención hacia dentro. Duval y Wicklund (1972) propusieron la teoría de la **autoconciencia objetiva**: hay momentos en que la atención se vuelve hacia uno mismo y la persona se examina desde fuera. Ocurre al verse en un espejo o en una cámara, al hablar ante otros o al oír la propia voz grabada. La autoconciencia lleva a **comparar** el estado actual con los **estándares** propios. Si hay discrepancia, aparece malestar, y la persona intenta reducirla, acercándose al estándar, o la evita, desviando la atención.
 
 Carver y Scheier (1981) refinaron la teoría en dos direcciones:
 
@@ -175,7 +175,7 @@ c) de autoverificación
 
 ### Soluciones
 
-**1 b.** La discrepancia con el self debido anticipa resultados negativos y produce agitación; la del ideal produce abatimiento. **2 c.** La recompensa prometida llevó a reinterpretar la conducta como motivada desde fuera. **3 a.** Elegían el par de la derecha, pero daban razones de calidad y negaban el efecto de posición. **4 c.** Las conductas claramente contraactitudinales son terreno de la disonancia. **5 a.** El foco de prevención busca seguridad y usa estrategias de evitación.
+**1 b.** La discrepancia con el self debido anticipa resultados negativos y produce agitación; la del ideal produce abatimiento. **2 c.** La recompensa prometida llevó a reinterpretar la conducta como motivada desde fuera. **3 a.** Elegían el par de la derecha, pero daban razones de calidad y negaban el efecto de posición. **4 c.** La autopercepción explica los cambios tras conductas dentro de la latitud de aceptación; las claramente contraactitudinales son terreno de la disonancia. **5 a.** El foco de prevención busca seguridad y usa estrategias de evitación.
 
 ## Unidad 8 · Motivos, identidad social y autoestima
 
@@ -183,19 +183,19 @@ c) de autoverificación
 
 ### 8.1 Para qué buscamos conocernos
 
-Las personas no solo acumulan información sobre sí mismas: la buscan, la filtran y la interpretan con propósitos. La psicología social ha identificado tres grandes **motivos del self**:
+Las personas no solo acumulan información sobre sí mismas: la buscan, la filtran y la interpretan con propósitos. La investigación distingue tres **motivos del self**:
 
 - **Valoración** (o autoevaluación): el deseo de conocerse con **exactitud**, aunque la verdad sea desagradable. Lleva a buscar información diagnóstica, como hacer un test de nivel antes de matricularse en un curso.
 - **Verificación**: el deseo de **confirmar** lo que uno ya cree de sí mismo, sea positivo o negativo. Swann (1983) lo planteó en la teoría de la autoverificación: un autoconcepto estable hace el mundo predecible y las interacciones más fluidas.
 - **Ensalzamiento** (o autoensalzamiento): el deseo de **verse bien** y de sentirse valioso, de mantener una imagen positiva aunque no sea del todo exacta.
 
-**Cómo se verifica uno.** La autoverificación tiene una consecuencia llamativa: las personas con una imagen negativa de sí mismas tienden a preferir parejas y amistades que también las ven de forma negativa, porque esa visión coincide con la suya. Para lograrlo se usan estrategias conductuales, como elegir con quién relacionarse o mostrar señales claras de identidad en la ropa o el lenguaje, y estrategias cognitivas, como atender, recordar e interpretar de forma selectiva la información que encaja.
+**Cómo se verifica uno.** La autoverificación tiene una consecuencia llamativa: las personas con una imagen negativa de sí mismas tienden a preferir parejas y amistades que también las ven de forma negativa, porque esa visión coincide con la suya. Lo consiguen por dos vías: rodeándose de personas y entornos que les devuelven esa imagen, y fijándose sobre todo en los datos que la confirman, recordándolos mejor y leyéndolos a su favor.
 
-**Cómo se ensalza uno.** El ensalzamiento se manifiesta de muchas formas: atribuir los éxitos a uno mismo y los fracasos a las circunstancias (el **sesgo de autoservicio**, Unidad 6), aceptar los elogios sin crítica y examinar con lupa las críticas, recordar mejor los éxitos que los fracasos o considerar propias las virtudes y comunes los defectos. El sesgo de autoservicio es grande y robusto: el metaanálisis de Mezulis et al. (2004) halló d = 0,96, aunque es menor en la depresión.
+**Cómo se ensalza uno.** El ensalzamiento se manifiesta de muchas formas: atribuir los éxitos a uno mismo y los fracasos a las circunstancias (el **sesgo de autoservicio**, Unidad 6), creer que nuestras cualidades nos distinguen mientras que nuestros defectos los tiene cualquiera, o dar por buenos los halagos y buscar fallos en quien nos critica. El sesgo de autoservicio es grande y robusto: el metaanálisis de Mezulis et al. (2004) halló d = 0,96, aunque es menor en la depresión.
 
 **Autoafirmación.** Steele (1988) propuso la **teoría de la autoafirmación**: lo que las personas protegen es la **integridad global** del self. Cuando una faceta se ve amenazada, afirmar otra faceta valiosa reduce la necesidad de defenderse. Quien ha recibido una crítica dura en el trabajo puede reaccionar con menos actitud defensiva si antes ha escrito sobre un valor que considera central, como la familia o la honestidad. La autoafirmación es también una de las explicaciones alternativas de la disonancia (Unidad 11).
 
-**¿Qué motivo pesa más?** Sedikides (1993) comparó los tres motivos en una serie de experimentos en los que los participantes elegían qué preguntas hacerse sobre sus propios rasgos. El **ensalzamiento** fue el motivo más fuerte, seguido de la **verificación**; la **valoración** quedó en último lugar. Las personas preferían explorar sus rasgos positivos y centrales y evitaban profundizar en los negativos.
+**¿Qué motivo pesa más?** Sedikides (1993) enfrentó los tres motivos en varios experimentos: los participantes elegían qué preguntas hacerse sobre sus propios rasgos. El **ensalzamiento** fue el motivo más fuerte, seguido de la **verificación**; la **valoración** quedó en último lugar. Las personas preferían explorar sus rasgos positivos y centrales y evitaban profundizar en los negativos.
 
 | Motivo | Pregunta que lo resume | Información que se busca | Ejemplo |
 | --- | --- | --- | --- |
@@ -213,7 +213,7 @@ Hasta ahora el self se ha tratado como algo individual. Pero cuando alguien se d
 
 Figura 8.1. **Henri Tajfel.** Sus experimentos del grupo mínimo dieron origen a la teoría de la identidad social. Fuente: European Association of Social Psychology, Wikimedia Commons, CC BY 3.0.
 
-**El paradigma del grupo mínimo.** La teoría nació de un hallazgo inesperado. Tajfel (1970) y Tajfel et al. (1971) (figura 8.1) quisieron averiguar cuáles eran las condiciones **mínimas** para que apareciera discriminación entre grupos. Con adolescentes de un colegio británico, formaron grupos con criterios triviales: supuestamente, la preferencia por cuadros de Klee o de Kandinsky, o la tendencia a sobrestimar o infraestimar el número de puntos en una pantalla. Los participantes no conocían a los otros miembros, no interactuaban con ellos, no había historia de conflicto y no ganaban nada personalmente. Solo debían repartir puntos canjeables por dinero entre un miembro anónimo del propio grupo y otro del grupo ajeno, mediante unas matrices de recompensas.
+**El paradigma del grupo mínimo.** La teoría nació de un hallazgo inesperado. Tajfel (1970) y Tajfel et al. (1971) quisieron averiguar cuáles eran las condiciones **mínimas** para que apareciera discriminación entre grupos (figura 8.1). Con adolescentes de un colegio británico, formaron grupos con criterios triviales: supuestamente, la preferencia por cuadros de Klee o de Kandinsky, o la tendencia a sobrestimar o infraestimar el número de puntos en una pantalla. Los participantes no conocían a los otros miembros, no interactuaban con ellos, no había historia de conflicto y no ganaban nada personalmente. Solo debían repartir puntos canjeables por dinero entre un miembro anónimo del propio grupo y otro del grupo ajeno, mediante unas matrices de recompensas.
 
 El resultado fue claro: la mera **categorización** bastaba para producir **favoritismo endogrupal**. Además, muchos participantes preferían **maximizar la diferencia** a favor de su grupo, aunque eso supusiera que el propio grupo ganara menos en términos absolutos. Importaba quedar por encima, no solo ganar más.
 
@@ -254,8 +254,8 @@ La **autoestima** es la evaluación global, positiva o negativa, que una persona
 
 **Para qué sirve la autoestima.** Dos teorías ofrecen respuestas distintas:
 
-- La **teoría del sociómetro** (Leary et al., 1995) propone que la autoestima es un **indicador interno de aceptación social**. Funciona como el indicador de combustible de un coche: baja cuando hay señales de rechazo o exclusión y empuja a corregir la situación. Su origen sería evolutivo, porque quedar fuera del grupo ponía en peligro la supervivencia. Concuerda con que la exclusión social reduce la autoestima de estado.
-- La **teoría del manejo del terror** (Greenberg, Pyszczynski y Solomon, 1986) sostiene que la autoestima amortigua la ansiedad que produce saberse mortal: sentirse valioso dentro de una visión cultural del mundo da sentido y protección frente a esa conciencia.
+- La **teoría del sociómetro** (Leary et al., 1995) propone que la autoestima es un **indicador interno de aceptación social**. Funciona como el indicador de combustible de un coche: avisa cuando la aceptación de los demás está bajando, para que la persona reaccione antes de quedarse sin ella. Para nuestros antepasados, perder el apoyo del grupo era un riesgo serio, lo que explicaría que hayamos desarrollado ese aviso. En los experimentos, ser excluido hace bajar la autoestima del momento.
+- La **teoría del manejo del terror** (Greenberg, Pyszczynski y Solomon, 1986) propone que sentirse valioso amortigua la ansiedad que produce saberse mortal: sentirse valioso dentro de una visión cultural del mundo da sentido y protección frente a esa conciencia.
 
 **Qué explica y qué no.** Durante décadas se asumió que elevar la autoestima mejoraría el rendimiento escolar, reduciría la violencia y prevendría conductas de riesgo. La revisión encargada a Baumeister et al. (2003) examinó la evidencia y llegó a conclusiones mucho más modestas:
 

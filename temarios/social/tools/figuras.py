@@ -205,8 +205,8 @@ if want('jones-harris'):
     note(ax, 'Esquema ilustrativo, no datos · Jones y Harris (1967)', y=-.03); save(fig, 'jones-harris.png')
 
 if want('falso-consenso'):
-    bars('falso-consenso.png', ['Los que SÍ llevarían el cartel:\n% que creen que aceptaría', 'Los que NO lo llevarían:\n% que creen que se negaría'],
-         [64.6, 68.8], [P, A], 'Estimación media (%)', (0, 100), size=(5.2, 3.2), ref=(50, '50 %'),
+    bars('falso-consenso.png', ['Sí lo llevarían:\n% que creen que aceptaría', 'No lo llevarían:\n% que creen que se negaría'],
+         [64.6, 68.8], [P, A], 'Estimación media (%)', (0, 100), size=(6.2, 3.2), ref=(50, '50 %'),
          foot='Ross, Greene y House (1977), estudio 3: cartel «Eat at Joe\'s» (decisión hipotética)')
 
 # ---------- U7 ----------
@@ -290,7 +290,7 @@ if want('mode'):
     box(ax, 2.0, 3.3, 3.2, 1.4, 'Objeto o\nsituación', INK, 9)
     box(ax, 6.4, 3.3, 3.6, 1.6, '¿Motivación\ny oportunidad\npara pensar?', Y, 8.6, tc=INK)
     arr(ax, (3.65, 3.3), (4.55, 3.3))
-    box(ax, 11.6, 5.2, 5.0, 1.5, 'Sí → procesamiento deliberado:\nse sopesan costes y beneficios\n(tipo acción planificada)', P, 8.0)
+    box(ax, 11.6, 5.2, 5.0, 1.5, 'Sí → procesamiento deliberado:\nse sopesan costes y beneficios\n(tipo conducta planificada)', P, 8.0)
     box(ax, 11.6, 1.4, 5.0, 1.7, 'No → espontáneo: la actitud\naccesible se activa sola, sesga\nla percepción y guía la conducta', A, 8.0)
     arr(ax, (8.25, 3.8), (9.05, 5.0)); arr(ax, (8.25, 2.8), (9.05, 1.6))
     note(ax, 'Esquema ilustrativo, no datos · Fazio (1990)', y=-.03); save(fig, 'mode.png')

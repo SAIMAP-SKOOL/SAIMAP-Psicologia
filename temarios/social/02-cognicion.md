@@ -19,7 +19,7 @@ La psicología social ha sido cognitiva casi desde el principio. Lewin lo resumi
 | Avaro cognitivo | Años 70 y 80 | Tenemos recursos limitados y los ahorramos con atajos que a veces fallan | Heurísticos (apartado 3.3) |
 | Estratega motivado | Desde los 90 | Disponemos de estrategias rápidas y lentas, y elegimos según nuestras metas y emociones | Unidad 4 |
 
-La metáfora del **avaro cognitivo** (Fiske y Taylor, 1991) marcó la revolución de la cognición social de los años setenta y ochenta: la gente no razona como un científico, sino que simplifica. La del **estratega motivado** no la anula, sino que la completa: la misma persona puede pensar con cuidado cuando le importa el resultado y despachar el juicio en un segundo cuando no.
+La metáfora del **avaro cognitivo** (Fiske y Taylor, 1984) marcó la revolución de la cognición social de los años setenta y ochenta: la gente no razona como un científico, sino que simplifica. La del **estratega motivado** no la anula, sino que la completa: la misma persona puede pensar con cuidado cuando le importa el resultado y despachar el juicio en un segundo cuando no.
 
 Esta visión descansa en la distinción entre **procesamiento automático** y **procesamiento controlado**, que forma parte de los llamados modelos de **procesamiento dual**. Bargh (1994) propuso que lo automático no es un bloque único, sino que puede cumplir en distinto grado cuatro criterios:
 
@@ -62,7 +62,7 @@ La alternativa es la representación por **ejemplares**: en lugar de un resumen 
 
 ### 3.3 Heurísticos de juicio
 
-Un **heurístico** es una regla sencilla que permite emitir un juicio rápido en condiciones de incertidumbre. Tversky y Kahneman (1974; figura 3.2) describieron tres heurísticos básicos y mostraron que, aunque suelen funcionar bien, producen **sesgos sistemáticos**: errores que no son aleatorios, sino previsibles. Como muestra la figura 3.1, cada uno responde a una pregunta distinta y tiene un riesgo característico.
+Un **heurístico** es una regla sencilla que permite emitir un juicio rápido en condiciones de incertidumbre. Tversky y Kahneman (1974) describieron tres heurísticos básicos y mostraron que, aunque suelen funcionar bien, producen **sesgos sistemáticos**: errores que no son aleatorios, sino previsibles. Como muestra la figura 3.1, cada uno responde a una pregunta distinta y tiene un riesgo característico.
 
 ![](heuristicos.png)
 
@@ -76,7 +76,7 @@ Una variante es la **falacia de la conjunción** (Tversky y Kahneman, 1983). En 
 
 **Anclaje y ajuste.** Al estimar una cantidad se parte de un valor inicial, el **ancla**, y se ajusta a partir de él, pero el ajuste suele quedarse corto. Tversky y Kahneman (1974) hacían girar una rueda que daba un número aparentemente al azar y después pedían estimar el porcentaje de países africanos en la ONU: quienes habían obtenido un número alto daban estimaciones más altas. El ancla funciona incluso cuando es claramente irrelevante. Quien vende un piso y lo anuncia con un precio alto sitúa la negociación alrededor de esa cifra.
 
-**Simulación y pensamiento contrafáctico.** Kahneman y Tversky (1982) añadieron el **heurístico de simulación**: juzgamos lo probable de un suceso según lo fácil que resulta imaginarlo. Muy relacionado está el **pensamiento contrafáctico**, que consiste en imaginar cómo podrían haber sido las cosas. Cuanto más fácil es imaginar una alternativa mejor, más intensa es la frustración. Medvec, Madey y Gilovich (1995) observaron que los medallistas de bronce olímpicos parecían más contentos que los de plata: el de plata se compara con el oro que casi consigue; el de bronce, con quedarse sin medalla.
+**Simulación y pensamiento contrafáctico.** Kahneman y Tversky (1982; figura 3.2) añadieron el **heurístico de simulación**: juzgamos lo probable de un suceso según lo fácil que resulta imaginarlo. Muy relacionado está el **pensamiento contrafáctico**, que consiste en imaginar cómo podrían haber sido las cosas. Cuanto más fácil es imaginar una alternativa mejor, más intensa es la frustración. Medvec, Madey y Gilovich (1995) observaron que los medallistas de bronce olímpicos parecían más contentos que los de plata: el de plata se compara con el oro que casi consigue; el de bronce, con quedarse sin medalla.
 
 ![s](wm-kahneman.jpg)
 
@@ -120,7 +120,7 @@ El caso del priming de ancianos se convirtió en uno de los símbolos de la **cr
 
 | Concepto | Definición |
 | --- | --- |
-| Avaro cognitivo | Metáfora de la persona que ahorra recursos mentales mediante atajos (Fiske y Taylor, 1991) |
+| Avaro cognitivo | Metáfora de la persona que ahorra recursos mentales mediante atajos (Fiske y Taylor, 1984) |
 | Estratega motivado | Metáfora de la persona que elige estrategias rápidas o cuidadosas según sus metas |
 | Esquema | Estructura de conocimiento organizado sobre un dominio que guía atención, interpretación y memoria |
 | Perseverancia de creencias | Mantenimiento de una creencia después de que se desmienta la información que la originó |
@@ -166,13 +166,13 @@ c) El efecto se invirtió y los participantes caminaron más rápido
 
 ## Unidad 4 · Impresiones, afecto y motivación
 
-**Objetivos:** explicar el modelo configurativo de Asch y la distinción entre rasgos centrales y periféricos; comparar los modelos aditivo, de promedio y de promedio ponderado de Anderson; describir cómo influye el estado de ánimo en el juicio según el afecto como información y el modelo de infusión afectiva; explicar el razonamiento motivado y la necesidad de cierre, y valorar la evidencia actual sobre el agotamiento del ego.
+**Objetivos:** explicar el modelo configuracional de Asch y la distinción entre rasgos centrales y periféricos; comparar los modelos aditivo, de promedio y de promedio ponderado de Anderson; describir cómo influye el estado de ánimo en el juicio según el afecto como información y el modelo de infusión afectiva; explicar el razonamiento motivado y la necesidad de cierre, y valorar la evidencia actual sobre el agotamiento del ego.
 
-### 4.1 El modelo configurativo de Asch (1946)
+### 4.1 El modelo configuracional de Asch (1946)
 
 En pocos segundos nos hacemos una idea de cómo es alguien a partir de muy pocos datos. La pregunta de la **formación de impresiones** es cómo se combinan esos datos sueltos en una imagen global. Asch (1946) respondió desde la psicología de la Gestalt: la impresión es un **todo organizado**, distinto de la suma de sus partes. Cada rasgo cambia de sentido según los demás, y algunos rasgos organizan la impresión entera.
 
-Su experimento más conocido usó dos listas de adjetivos idénticas salvo en una palabra. Los participantes oían que una persona era «inteligente, hábil, trabajadora, cálida, decidida, práctica y prudente»; otro grupo oía la misma lista con «fría» en lugar de «cálida». Después elegían, entre pares de rasgos opuestos, los que mejor describían a esa persona.
+Su experimento más conocido usó dos listas de adjetivos idénticas salvo en una palabra. Los participantes oían que una persona era «inteligente, hábil, trabajador, cálido, decidido, práctico y prudente»; otro grupo oía la misma lista con «frío» en lugar de «cálido». Después elegían, entre pares de rasgos opuestos, los que mejor describían a esa persona.
 
 ![m](asch-calido-frio.png)
 
@@ -216,14 +216,13 @@ Figura 4.2. **Dos maneras de integrar los rasgos.** A la izquierda, el modelo co
 
 Como muestra la figura 4.2, la diferencia de fondo está en si los rasgos **cambian de significado** al combinarse o si conservan su valor y solo cambia su peso. Anderson ofrece predicciones cuantitativas precisas; Asch capta que «terco» no significa lo mismo en todas las personas.
 
-| Rasgo | Modelo configurativo (Asch) | Integración de información (Anderson) |
+| Rasgo | Modelo configuracional (Asch) | Integración de información (Anderson) |
 | --- | --- | --- |
 | Tradición | Gestalt | Medición psicológica y álgebra cognitiva |
 | Unidad de análisis | La impresión como totalidad | Cada rasgo con su valor y su peso |
 | Qué ocurre al combinar | El significado de los rasgos cambia | Los valores se mantienen y se promedian |
 | Rasgos centrales | Reorganizan toda la impresión | Rasgos con mucho peso |
 | Primacía | Cambio de significado | Más peso o menos atención a lo posterior |
-
 
 ### 4.3 Afecto y cognición
 
@@ -309,7 +308,7 @@ c) solo cambiaba los juicios de inteligencia
 
 **2.** Si a dos rasgos muy positivos se añade uno solo moderadamente positivo y la impresión empeora, los datos apoyan el modelo…
 a) aditivo
-b) configurativo
+b) configuracional
 c) de promedio
 
 **3.** En el estudio de Schwarz y Clore (1983), la diferencia entre días soleados y lluviosos desaparecía cuando…

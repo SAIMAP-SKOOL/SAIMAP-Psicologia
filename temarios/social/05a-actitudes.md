@@ -101,7 +101,7 @@ Figura 9.2. **Dos formatos de medida explícita.** Arriba, un ítem Likert de 5 
 1. **Deseabilidad social**: en temas delicados, como el prejuicio, la persona puede dar la respuesta que considera aceptable en lugar de la que refleja su evaluación.
 2. **Acceso limitado**: puede que la persona no sepa con exactitud qué siente o que no haya pensado nunca sobre el objeto, y construya la respuesta en el momento.
 
-Para el primer problema se ideó la **falsa tubería** (*bogus pipeline*; Jones y Sigall, 1971). Se conecta a la persona a un aparato que, se le dice, detecta sus verdaderas reacciones. El aparato no mide nada, pero quien cree que mentir será descubierto tiende a responder con más sinceridad. Implica engaño y exige debriefing (Unidad 2).
+Para el primer problema se ideó la **falsa tubería** (*bogus pipeline*; Jones y Sigall, 1971). Se conecta a la persona a un aparato que, se le dice, detecta sus verdaderas reacciones. El aparato no mide nada, pero quien cree que mentir será descubierto tiende a responder con más sinceridad. Implica engaño y exige *debriefing* (Unidad 2).
 
 Otras alternativas son las **medidas fisiológicas**, que indican activación pero a menudo no su dirección, y la **observación de la conducta**, costosa y de relación discutida con la actitud (Unidad 10).
 

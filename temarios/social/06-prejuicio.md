@@ -172,7 +172,7 @@ c) nulo en todos los estudios incluidos
 
 Las primeras explicaciones buscaron el origen del prejuicio en el individuo.
 
-**La personalidad autoritaria.** Tras la Segunda Guerra Mundial, Adorno, Frenkel-Brunswik, Levinson y Sanford (1950) se propusieron entender qué hacía a algunas personas receptivas a ideologías antidemocráticas y al antisemitismo. Desde un marco psicoanalítico, describieron la **personalidad autoritaria**: sumisión a la autoridad, convencionalismo, rigidez, intolerancia a la ambigüedad y hostilidad hacia los grupos considerados inferiores o desviados. Su origen estaría en una crianza muy estricta y punitiva, en la que el afecto dependía de la obediencia: la hostilidad hacia los padres, que no podía expresarse, se desplazaría hacia blancos más débiles. Para medirla construyeron la **escala F** (de «fascismo»).
+**La personalidad autoritaria.** Tras la Segunda Guerra Mundial, Adorno, Frenkel‑Brunswik, Levinson y Sanford (1950) se propusieron entender qué hacía a algunas personas receptivas a ideologías antidemocráticas y al antisemitismo. Desde un marco psicoanalítico, describieron la **personalidad autoritaria**: sumisión a la autoridad, convencionalismo, rigidez, intolerancia a la ambigüedad y hostilidad hacia los grupos considerados inferiores o desviados. Su origen estaría en una crianza muy estricta y punitiva, en la que el afecto dependía de la obediencia: la hostilidad hacia los padres, que no podía expresarse, se desplazaría hacia blancos más débiles. Para medirla construyeron la **escala F** (de «fascismo»).
 
 La propuesta recibió críticas importantes:
 
@@ -202,7 +202,7 @@ Un ejemplo: ante la llegada de refugiados, a una persona con RWA alta le preocup
 
 Las teorías intergrupales explican por qué el prejuicio aparece en grupos enteros de personas corrientes.
 
-**La teoría del conflicto realista.** Sherif sostuvo que el prejuicio nace de la **competición por recursos escasos**: cuando los objetivos de dos grupos son incompatibles, porque lo que gana uno lo pierde el otro, surgen la hostilidad y los estereotipos negativos. Su estudio más conocido se llevó a cabo en un campamento de verano cerca del parque de Robbers Cave, en Oklahoma (Sherif et al., 1954/1961). Participaron 22 chicos de unos 11 años, de procedencia parecida, divididos en dos grupos que al principio no sabían el uno del otro: los Eagles y los Rattlers.
+**La teoría del conflicto realista.** Sherif sostuvo que el prejuicio nace de la **competición por recursos escasos**: cuando los objetivos de dos grupos son incompatibles, porque lo que gana uno lo pierde el otro, surgen la hostilidad y los estereotipos negativos. Su estudio más conocido se llevó a cabo en un campamento de verano situado en el parque estatal de Robbers Cave, en Oklahoma (Sherif et al., 1954/1961). Participaron 22 chicos de unos 11 años, de procedencia parecida, divididos en dos grupos que al principio no sabían el uno del otro: los Eagles y los Rattlers.
 
 ![s](wm-sherif.jpg)
 
@@ -274,7 +274,7 @@ Figura 14.5. **Discriminación en la contratación.** Llamadas que reciben los c
 
 Como muestra la figura 14.5, la distancia es considerable. Quillian y Lee (2023), con 90 experimentos en seis países, tampoco encontraron descensos en la mayoría, en contraste con la caída del prejuicio declarado.
 
-Las **medidas implícitas**, como el IAT (Unidad 9), se presentaron como la forma de captar el prejuicio que la gente no declara. Su capacidad para predecir la conducta discriminatoria es baja: Oswald et al. (2013) obtuvieron r = 0,148 para la discriminación étnico-racial, sin ventaja sobre las medidas explícitas. Son útiles para investigar promedios de grupo, no para diagnosticar a una persona.
+Las **medidas implícitas**, como el IAT (Unidad 9), se presentaron como la forma de captar el prejuicio que la gente no declara. Su capacidad para predecir la conducta discriminatoria es baja: Oswald et al. (2013) obtuvieron r = 0,148 para la discriminación étnico‑racial, sin ventaja sobre las medidas explícitas. Son útiles para investigar promedios de grupo, no para diagnosticar a una persona.
 
 **Reducir el prejuicio.** La propuesta con más apoyo es la **hipótesis del contacto** (Allport, 1954): el contacto reduce el prejuicio, sobre todo con **igual estatus** dentro de la situación, **metas comunes**, **cooperación** y **apoyo institucional**. El metaanálisis de Pettigrew y Tropp (2006), con 515 estudios, confirmó que el contacto se asocia con menos prejuicio, y que las condiciones de Allport **favorecen** el efecto, pero **no son imprescindibles**. Hay variantes sin contacto directo:
 
@@ -282,7 +282,7 @@ Las **medidas implícitas**, como el IAT (Unidad 9), se presentaron como la form
 - **Contacto imaginado**: imaginar una interacción positiva con un miembro del exogrupo.
 - **Recategorización** (Gaertner y Dovidio): crear una **identidad endogrupal común** que incluya a ambos grupos («todos somos de este barrio»), como hacían las metas supraordinadas en Robbers Cave.
 
-La magnitud del efecto del contacto está en discusión. Paluck, Green y Green (2019) revisaron solo los 27 estudios **aleatorizados** con un seguimiento de al menos un día y obtuvieron un efecto medio de Δ = 0,39, menor para el prejuicio étnico-racial. En los estudios **prerregistrados**, el efecto fue de solo ≈ 0,016.
+La magnitud del efecto del contacto está en discusión. Paluck, Green y Green (2019) revisaron solo los 27 estudios **aleatorizados** con un seguimiento de al menos un día y obtuvieron un efecto medio de Δ = 0,39, menor para el prejuicio étnico‑racial. En los estudios **prerregistrados**, el efecto fue de solo ≈ 0,016.
 
 Las intervenciones breves sobre el sesgo implícito tampoco muestran efectos duraderos. Lai et al. (2016) probaron 9 intervenciones con 6.321 participantes: todas reducían el sesgo implícito en el momento, pero **ninguna mantenía el efecto horas o días después**. Forscher et al. (2019), con 492 estudios, confirmaron que los cambios en las medidas implícitas son débiles y no se traducen en cambios de conducta.
 
