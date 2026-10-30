@@ -64,7 +64,7 @@ Trabajos posteriores situaron el efecto de la justificación insuficiente sobre 
 
 ### 11.3 Revisiones y teorías rivales
 
-La teoría original era tan amplia que resultaba difícil saber cuándo una incoherencia generaba disonancia y cuándo no. Mentir sin consecuencias a alguien que no se va a creer la mentira, ¿produce malestar? Las respuestas a esta pregunta dieron lugar a una revisión de la teoría y a varias propuestas rivales.
+La teoría original no aclaraba cuándo una incoherencia genera disonancia. ¿Produce malestar una mentira sin consecuencias? Las respuestas dieron lugar a una revisión y a varias propuestas rivales.
 
 **El New Look.** Cooper y Fazio (1984) propusieron que la clave no es la inconsistencia lógica entre cogniciones, sino haber causado algo negativo. Según su revisión, la disonancia aparece cuando se cumplen estas condiciones:
 
@@ -93,7 +93,7 @@ El último punto se apoya en estudios de atribución errónea. En el de Zanna y 
 | Autoafirmación (Steele) | Para restaurar la integridad del self | Se reduce afirmando otro valor |
 | Modelo de acción (Harmon‑Jones) | Para poder actuar de forma eficaz | Central |
 
-Estas propuestas no se excluyen del todo. Comparten la idea de que la conducta propia puede cambiar la actitud y difieren en el mecanismo y en las condiciones que lo activan.
+Las propuestas no se excluyen del todo: coinciden en que la conducta puede cambiar la actitud y difieren en el mecanismo.
 
 ### 11.4 La réplica multilaboratorio de 2024
 
@@ -103,7 +103,7 @@ Vaidis et al. (2024) replicaron el paradigma de **complacencia inducida** con la
 
 - **Alta elección**: se subrayaba que escribir el ensayo era una decisión libre (n = 1.448).
 - **Baja elección**: se pedía escribirlo sin insistir en la libertad para negarse (n = 1.344).
-- **Ensayo neutro**: se escribía sobre un tema sin carga actitudinal, como comparación.
+- **Ensayo neutro**: un ensayo no contraactitudinal, como comparación.
 
 ![m](vaidis.png)
 
@@ -114,11 +114,11 @@ Como muestra la figura 11.3, los resultados tienen dos caras:
 1. **Lo que se confirmó.** Escribir un ensayo contrario a la propia opinión cambió la actitud en la dirección de lo escrito, en comparación con el ensayo neutro, y aumentó el malestar declarado. Actuar contra lo que se piensa tiene efectos medibles sobre la actitud.
 2. **Lo que no se confirmó.** La diferencia entre alta y baja elección fue nula: 2,60 frente a 2,66, d = −0,027, no significativa. El papel moderador de la libre elección, que se había convertido en una pieza central de la teoría, no apareció.
 
-La interpretación está abierta. Harmon‑Jones y Harmon‑Jones (2024) objetan que la **manipulación de baja elección fue débil**: si los participantes de esa condición sentían igualmente que podían negarse, las dos condiciones se parecerían más de lo previsto y el estudio no habría puesto a prueba la elección de verdad. Los autores de la réplica, por su parte, sostienen que el resultado obliga a revisar lo que se enseñaba como establecido.
+La interpretación está abierta. Harmon‑Jones y Harmon‑Jones (2024) objetan que la **manipulación de baja elección fue débil**: si los participantes de esa condición sentían igualmente que podían negarse, las dos condiciones se parecerían más de lo previsto y el estudio no habría puesto a prueba la elección de verdad.
 
-Un ejemplo ayuda a ver qué está en juego. Si a un estudiante le piden escribir un texto a favor de subir las tasas universitarias y acaba algo más de acuerdo con la subida, la teoría clásica diría que eso solo debería ocurrir si sintió que lo hacía por decisión propia. Los datos de 2024 sugieren que el cambio aparece en ambos casos.
+Un ejemplo muestra qué está en juego. Si a un estudiante le piden escribir a favor de subir las tasas universitarias y acaba algo más de acuerdo con la subida, la teoría clásica diría que solo debería ocurrir si sintió que lo hacía por decisión propia. Los datos de 2024 sugieren que el cambio aparece en ambos casos.
 
-Conviene no sacar conclusiones que la réplica no permite. Puso a prueba **un** paradigma, el de complacencia inducida con ensayo, y no los de libre elección, justificación del esfuerzo o hipocresía. Tampoco demuestra que la disonancia no exista: el cambio de actitud tras la conducta contraactitudinal sí se observó. Lo que queda en cuestión es una condición concreta que muchos manuales presentaban como necesaria. Es un buen ejemplo de cómo funciona hoy la ciencia acumulativa: una teoría clásica no se acepta ni se rechaza en bloque, sino que se revisan sus piezas una a una con datos de muestras grandes. Los conceptos de tamaño del efecto y metaanálisis se tratan en la asignatura de Estadística.
+Conviene no ir más allá de lo que la réplica permite. Puso a prueba **un** paradigma, la complacencia inducida con ensayo, y no los de libre elección, esfuerzo o hipocresía. Tampoco demuestra que la disonancia no exista: el cambio de actitud sí se observó. Lo que queda en cuestión es una condición que muchos manuales presentaban como necesaria. Así funciona hoy la ciencia acumulativa: las teorías clásicas se revisan pieza a pieza con muestras grandes. El tamaño del efecto y el metaanálisis se tratan en la asignatura de Estadística.
 
 ### Consenso y debate
 
@@ -188,9 +188,9 @@ c) cambió la actitud solo en la condición de alta elección
 
 La **persuasión** es el cambio de actitud que se produce cuando alguien recibe un mensaje elaborado con la intención de influir en él. Se diferencia de la disonancia en el origen del cambio: aquí no parte de la propia conducta, sino de una comunicación ajena. La influencia de los grupos sobre el individuo, como la conformidad, se estudia en la asignatura de Psicología de la Interacción Social.
 
-El estudio sistemático de la persuasión empezó durante la Segunda Guerra Mundial, cuando el ejército estadounidense quiso saber qué hacía eficaces la propaganda y los mensajes de motivación de las tropas. Al terminar la guerra, Carl Hovland reunió en la Universidad de Yale un equipo que resumió su enfoque en Hovland, Janis y Kelley (1953). Su pregunta guía era **quién dice qué a quién**: la eficacia de un mensaje depende de la **fuente**, del **mensaje** y del **receptor**. El grupo entendía la persuasión como un proceso de aprendizaje en varias fases: el receptor tiene que prestar **atención** al mensaje, **comprenderlo**, **aceptarlo** y **retenerlo** para que el cambio se mantenga.
+El estudio sistemático de la persuasión nació con la Segunda Guerra Mundial y el interés por la propaganda. Después, Carl Hovland reunió en Yale un equipo que resumió su enfoque en Hovland, Janis y Kelley (1953). Su pregunta guía era **quién dice qué a quién**: la eficacia de un mensaje depende de la **fuente**, del **mensaje** y del **receptor**. El grupo entendía la persuasión como un proceso de aprendizaje en varias fases: el receptor tiene que prestar **atención** al mensaje, **comprenderlo**, **aceptarlo** y **retenerlo** para que el cambio se mantenga.
 
-**La fuente.** Las dos características más estudiadas son la **credibilidad** y el **atractivo**. La credibilidad tiene dos componentes: la **pericia** (saber de lo que se habla) y la **fiabilidad** (no tener intención de engañar). Una fuente que parece hablar en contra de su propio interés resulta especialmente fiable. El atractivo y la simpatía de la fuente también aumentan la persuasión, sobre todo en temas poco importantes para el receptor.
+**La fuente.** Las dos características más estudiadas son la **credibilidad** y el **atractivo**. La credibilidad tiene dos componentes: la **pericia** (saber de lo que se habla) y la **fiabilidad** (no tener intención de engañar). El atractivo y la simpatía de la fuente también aumentan la persuasión.
 
 El grupo de Yale describió además el **efecto durmiente**. Un mensaje de una fuente poco creíble apenas persuade al principio, pero con el paso del tiempo su efecto puede aumentar. La explicación es que el recuerdo del contenido se separa del recuerdo de quién lo dijo: semanas después, se recuerda el argumento y se olvida que venía de una fuente dudosa.
 
@@ -209,7 +209,7 @@ McGuire añadió la idea de **inoculación**: igual que una vacuna expone al org
 | Mensaje | Uni o bilateral, emocional o racional, miedo con recomendación | Campaña de tráfico que muestra un accidente y recuerda el cinturón |
 | Receptor | Compromiso, conocimiento previo, inoculación | Quien ha defendido en público su postura cambia menos |
 
-La gran aportación del programa de Yale fue un catálogo de variables bien estudiadas. Su limitación fue que los resultados a menudo parecían contradictorios: una misma variable, como el atractivo de la fuente, a veces importaba mucho y otras nada. Faltaba una teoría del **proceso** que explicara cuándo influye cada variable. Esa necesidad llevó a estudiar los pensamientos que el propio receptor genera ante el mensaje y, desde ahí, a los modelos duales.
+El programa de Yale dejó un catálogo de variables, pero con resultados a menudo contradictorios: el atractivo de la fuente a veces importaba mucho y otras nada. Faltaba una teoría del **proceso**, y esa necesidad llevó a los modelos duales.
 
 ### 12.2 El modelo de probabilidad de elaboración
 
@@ -246,7 +246,7 @@ Figura 12.2. **Implicación, argumentos y fuente.** Con implicación alta, la ca
 
 Como muestra la figura 12.2, con **implicación alta** lo que decidía la actitud era la **calidad de los argumentos**: los fuertes convencían y los débiles no, fuera quien fuera la fuente. Con **implicación baja** pesaba sobre todo la **pericia de la fuente**, y la calidad de los argumentos importaba poco. Es exactamente la interacción que predice el ELM.
 
-Una aportación importante del modelo es que **una misma variable puede cumplir varios papeles**. El atractivo de quien anuncia un champú puede actuar como clave periférica, si el receptor no piensa mucho. Puede ser un argumento, si se trata precisamente de mostrar un pelo bonito. Puede aumentar la cantidad de elaboración, porque atrae la atención hacia el mensaje. Y puede sesgar la dirección de los pensamientos. Esto resolvía las aparentes contradicciones del programa de Yale: el efecto de una variable depende del nivel de elaboración.
+El modelo añade que **una misma variable puede cumplir varios papeles**. El atractivo de quien anuncia un champú puede ser una clave periférica, un argumento (el pelo bonito es lo que se vende), un motivo para prestar más atención o un sesgo en la dirección de los pensamientos. Así se resolvían las contradicciones del programa de Yale: el efecto de una variable depende del nivel de elaboración.
 
 Un ejemplo cotidiano. Lucía va a contratar una hipoteca y lee con calma las condiciones de dos bancos: está en la ruta central y le importan el interés y las comisiones. Esa misma tarde compra un refresco porque lo anuncia su cantante favorita: ahí sigue la ruta periférica, porque la decisión le importa poco.
 
@@ -275,7 +275,7 @@ El HSM se diferencia del ELM en dos puntos:
 - **El unimodelo.** Kruglanski y Thompson (1999) defendieron que no hacen falta dos procesos. Tanto una clave como un argumento son **información** que sirve de prueba para llegar a una conclusión. En muchos experimentos, las claves eran breves y fáciles, y los argumentos, largos y complejos. Según el unimodelo, lo que cambia con la motivación y la capacidad es la capacidad de procesar información compleja, no el tipo de proceso.
 - **Evidencia acumulada.** El ELM se apoya en un gran número de experimentos, pero, a diferencia de la disonancia o el agotamiento del ego, **no se ha sometido a una réplica registrada multilaboratorio**. Su solidez descansa en estudios individuales y revisiones, no en una prueba de ese tipo.
 
-Ninguna de estas críticas niega lo esencial: las personas no procesan todos los mensajes con el mismo cuidado, y la importancia del tema cambia lo que resulta persuasivo. Lo que se discute es si esta diferencia refleja dos procesos distintos o grados de un mismo proceso.
+Ninguna crítica niega lo esencial: no todos los mensajes se procesan con el mismo cuidado. Se discute si eso refleja dos procesos o grados de uno solo.
 
 ### 12.4 Principios de influencia y técnicas de cumplimiento
 
@@ -303,7 +303,7 @@ Sobre estos principios se apoyan varias **técnicas de cumplimiento** clásicas:
 - **Pie en la puerta** (Freedman y Fraser, 1966). Primero se hace una petición pequeña que casi todo el mundo acepta y después una mayor, que se acepta con más frecuencia que si se hubiera hecho directamente. Se basa en la coherencia: quien ha aceptado lo pequeño empieza a verse como alguien que colabora.
 - **Puerta en la cara** (Cialdini et al., 1975). Se empieza con una petición exagerada que se espera que la persona rechace y luego se hace una más moderada, la que se buscaba desde el principio. La retirada parece una concesión que pide otra concesión a cambio: reciprocidad.
 - **Bola baja** (Cialdini et al., 1978). Se consigue el compromiso con una oferta atractiva y después se empeoran las condiciones. Muchas personas mantienen su decisión porque ya se han comprometido con ella. Un ejemplo es el precio de un billete que sube con los «gastos de gestión» en el último paso de la compra.
-- **«Esto no es todo».** Antes de que el cliente responda, se mejora la oferta con un regalo o un descuento añadido. Combina reciprocidad y contraste.
+- **«Esto no es todo».** Antes de que el cliente responda, se mejora la oferta con un regalo o un descuento.
 
 | Técnica | Secuencia | Principio |
 | --- | --- | --- |
@@ -312,7 +312,7 @@ Sobre estos principios se apoyan varias **técnicas de cumplimiento** clásicas:
 | Bola baja | Oferta buena, luego condiciones peores | Compromiso |
 | «Esto no es todo» | Oferta mejorada antes de responder | Reciprocidad |
 
-Conocer estas técnicas protege menos de lo que parece. Mucha gente cree que la publicidad influye en los demás pero no en ella misma, un sesgo conocido como **efecto de tercera persona**. Estas técnicas actúan precisamente cuando se procesa poco, y por eso reconocerlas en el momento exige detenerse y pensar en la petición en sí. El estudio de la influencia en los grupos y de la obediencia se amplía en la Unidad 15 y en la asignatura de Psicología de la Interacción Social.
+Mucha gente cree que la publicidad influye en los demás pero no en ella misma, un sesgo conocido como **efecto de tercera persona**. Estas técnicas actúan cuando se procesa poco, así que la mejor defensa es detenerse a pensar en la petición en sí. La influencia de los grupos y la obediencia se amplían en la Unidad 15 y en la asignatura de Psicología de la Interacción Social.
 
 ### Consenso y debate
 

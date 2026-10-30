@@ -62,7 +62,7 @@ La alternativa es la representación por **ejemplares**: en lugar de un resumen 
 
 ### 3.3 Heurísticos de juicio
 
-Un **heurístico** es una regla sencilla que permite emitir un juicio rápido en condiciones de incertidumbre. Tversky y Kahneman (1974) describieron tres heurísticos básicos y mostraron que, aunque suelen funcionar bien, producen **sesgos sistemáticos**: errores que no son aleatorios, sino previsibles. Como muestra la figura 3.1, cada uno responde a una pregunta distinta y tiene un riesgo característico.
+Un **heurístico** es una regla sencilla que permite emitir un juicio rápido en condiciones de incertidumbre. Tversky y Kahneman (1974; figura 3.2) describieron tres heurísticos básicos y mostraron que, aunque suelen funcionar bien, producen **sesgos sistemáticos**: errores que no son aleatorios, sino previsibles. Como muestra la figura 3.1, cada uno responde a una pregunta distinta y tiene un riesgo característico.
 
 ![](heuristicos.png)
 
@@ -214,7 +214,7 @@ La ventaja de los pesos es que permiten explicar dentro del modelo algunos fenó
 
 Figura 4.2. **Dos maneras de integrar los rasgos.** A la izquierda, el modelo configuracional de Asch: los rasgos se reinterpretan entre sí y forman un todo. A la derecha, la integración de información de Anderson: cada rasgo aporta un valor y un peso, y la impresión es su promedio ponderado. Elaboración propia.
 
-Como muestra la figura 4.2, la diferencia de fondo está en si los rasgos **cambian de significado** al combinarse o si conservan su valor y solo cambia su peso.
+Como muestra la figura 4.2, la diferencia de fondo está en si los rasgos **cambian de significado** al combinarse o si conservan su valor y solo cambia su peso. Anderson ofrece predicciones cuantitativas precisas; Asch capta que «terco» no significa lo mismo en todas las personas.
 
 | Rasgo | Modelo configurativo (Asch) | Integración de información (Anderson) |
 | --- | --- | --- |
@@ -224,7 +224,6 @@ Como muestra la figura 4.2, la diferencia de fondo está en si los rasgos **camb
 | Rasgos centrales | Reorganizan toda la impresión | Rasgos con mucho peso |
 | Primacía | Cambio de significado | Más peso o menos atención a lo posterior |
 
-Ninguno de los dos enfoques ha desplazado por completo al otro. El de Anderson ofrece predicciones cuantitativas precisas; el de Asch capta algo que la fórmula no recoge fácilmente: que «terco» no significa lo mismo en todas las personas.
 
 ### 4.3 Afecto y cognición
 
@@ -245,8 +244,6 @@ La conclusión menos intuitiva es que pensar mucho no protege del estado de áni
 
 **Memoria congruente con el estado de ánimo.** Se recuerda con más facilidad la información cuyo tono coincide con el ánimo actual (Bower, 1981). Tras un mal día, vienen a la mente con facilidad otros fracasos, lo que puede alimentar el propio malestar.
 
-**Estilo de procesamiento.** En general, el buen humor se asocia con un procesamiento más global y más apoyado en esquemas y heurísticos, y el ánimo negativo con un procesamiento más detallado. Una interpretación habitual es que el malestar avisa de que algo va mal y conviene mirar con cuidado.
-
 La influencia va también en la otra dirección: la manera de interpretar una situación cambia la emoción que sentimos, como sostienen las teorías cognitivas de la emoción (Motivación y Emoción).
 
 Un ejemplo de cómo el afecto se ha estudiado con métodos que no han resistido bien las réplicas es la **retroalimentación facial**. Strack, Martin y Stepper (1988) hacían sostener un lápiz con los dientes, lo que obliga a una mueca parecida a una sonrisa, y observaron que unas viñetas parecían más graciosas. Wagenmakers et al. (2016) no replicaron el efecto en una réplica multilaboratorio. El proyecto Many Smiles (Coles et al., 2022), con 3.878 participantes de 19 países, encontró un efecto pequeño al imitar expresiones o sonreír de forma voluntaria; con el lápiz, el resultado no fue concluyente.
@@ -264,7 +261,7 @@ Las metas direccionales no permiten creer cualquier cosa. Las personas necesitan
 
 **Dependencia y continuo de impresiones.** El **modelo del continuo** de Fiske y Neuberg (1990) propone que las impresiones van de un extremo basado en la **categoría** (el estereotipo del grupo) a otro basado en la **información individual**. Por defecto empezamos por la categoría. Se avanza hacia la individualización cuando hay motivación y atención disponibles, por ejemplo cuando dependemos de esa persona para conseguir algo (Neuberg y Fiske, 1987). Conocer a alguien que va a ser nuestro compañero en un trabajo de grupo con nota nos lleva a fijarnos en lo que hace, no solo en lo que «parece».
 
-**El agotamiento del ego.** Una de las ideas más difundidas sobre motivación y control fue el **modelo de fuerza**, según el cual el autocontrol depende de un recurso limitado que se gasta con el uso. En el estudio de Baumeister et al. (1998), quienes habían tenido que resistir unas galletas de chocolate y comer rábanos persistían menos después en unos rompecabezas irresolubles. Se habló de **agotamiento del ego** y la idea se extendió a la dieta, el consumo y la toma de decisiones. Los primeros metaanálisis, que no corregían el sesgo de publicación, sugerían un efecto considerable.
+**El agotamiento del ego.** Una de las ideas más difundidas sobre motivación y control fue el **modelo de fuerza**, según el cual el autocontrol depende de un recurso limitado que se gasta con el uso. En el estudio de Baumeister et al. (1998), origen del término **agotamiento del ego**, quienes habían tenido que resistir unas galletas de chocolate y comer rábanos persistían menos después en unos rompecabezas irresolubles.
 
 Las réplicas registradas cambiaron el panorama. Hagger et al. (2016) aplicaron un mismo protocolo prerregistrado en 23 laboratorios y obtuvieron d = 0,04. Sus defensores objetaron que la tarea usada era poco adecuada, y un equipo encabezado por Vohs, una de las principales defensoras del modelo, repitió la prueba con otros protocolos en 36 laboratorios (N = 3.531): d = 0,06, no significativo (Vohs et al., 2021).
 

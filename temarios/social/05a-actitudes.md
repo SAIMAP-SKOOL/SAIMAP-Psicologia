@@ -24,7 +24,7 @@ Tres rasgos de la definición importan para todo lo que sigue:
 | Afectivo | Sentimientos y emociones que despierta | «Disfruto pedaleando; el tráfico me da miedo» |
 | Conductual | Tendencias de acción e intenciones | «Pienso ir en bici al trabajo los días sin lluvia» |
 
-Los tres componentes suelen ir en la misma dirección, pero no siempre. Hoy predomina una **concepción unidimensional**: la actitud es la evaluación, y creencias, emociones y conductas son sus **fuentes** y sus **manifestaciones**. Una actitud puede basarse sobre todo en información (la opinión sobre un seguro de hogar) o sobre todo en afecto (el rechazo a las arañas). Esta distinción no es solo teórica: importa a la hora de intentar cambiarla (Unidad 12).
+Los componentes no siempre coinciden. Hoy predomina una **concepción unidimensional**: la actitud es la evaluación, y creencias, emociones y conductas son sus **fuentes** y sus **manifestaciones**. Una actitud puede basarse sobre todo en información (la opinión sobre un seguro de hogar) o sobre todo en afecto (el rechazo a las arañas). Esto importa al intentar cambiarla (Unidad 12).
 
 **Actitud, creencia y opinión.** Una **creencia** es una información que se considera verdadera sobre el objeto («el café tiene cafeína»), sin evaluación necesaria. Una **opinión** es la expresión verbal de una actitud o de una creencia en una situación concreta. Puede no coincidir con la actitud si la persona prefiere adaptarse a lo que se espera de ella.
 
@@ -54,7 +54,7 @@ Como muestra la figura 9.1, las funciones son estas:
 - **Expresiva de valores**: permite mostrar a los demás y a uno mismo quién se es y qué se defiende. Comprar productos de comercio justo expresa identidad.
 - **De conocimiento**: organiza y simplifica el mundo. Ante una marca conocida se sabe enseguida si interesa, sin pensar desde cero.
 
-Dos matices son importantes. Primero, **una misma actitud puede cumplir funciones distintas** en personas distintas, o varias a la vez en una misma persona: dos personas pueden rechazar un recorte en educación, una porque defiende la escuela pública como valor y otra porque trabaja en ella y teme por su empleo. Segundo, la función tiene consecuencias prácticas: un mensaje persuasivo funciona mejor cuando apunta a la función que sostiene la actitud. Argumentar sobre el precio no mueve una actitud que expresa valores.
+**Una misma actitud puede cumplir funciones distintas**: dos personas rechazan un recorte en educación, una porque defiende la escuela pública como valor y otra porque teme por su empleo. Y un mensaje persuasivo funciona mejor si apunta a la función que sostiene la actitud: argumentar sobre el precio no mueve una actitud que expresa valores.
 
 **De dónde vienen.** Las actitudes se adquieren por varias vías, que a menudo actúan juntas:
 
@@ -69,7 +69,7 @@ Dos matices son importantes. Primero, **una misma actitud puede cumplir funcione
 
 La **mera exposición** tiene un límite: funciona con estímulos neutros o algo agradables, pero la repetición no vuelve agradable lo que de entrada desagrada. El **condicionamiento evaluativo** es una forma de condicionamiento clásico en la que lo que se transfiere es el valor afectivo; la publicidad lo usa de manera sistemática. Los mecanismos de condicionamiento y el aprendizaje observacional de Bandura se estudian en detalle en la asignatura de Aprendizaje.
 
-Hay también una **influencia genética parcial**: los estudios con gemelos sugieren que algunas actitudes tienen un componente heredable, probablemente a través de rasgos de temperamento y personalidad que hacen más probables ciertas evaluaciones. Ninguna actitud se hereda como tal; lo heredable son predisposiciones.
+Hay también una **influencia genética parcial**, probablemente a través del temperamento y la personalidad: no se heredan actitudes, sino predisposiciones.
 
 Las actitudes basadas en **experiencia directa** suelen ser más accesibles y predicen mejor la conducta que las adquiridas de oídas (Unidad 10).
 
@@ -103,7 +103,7 @@ Figura 9.2. **Dos formatos de medida explícita.** Arriba, un ítem Likert de 5 
 
 Para el primer problema se ideó la **falsa tubería** (*bogus pipeline*; Jones y Sigall, 1971). Se conecta a la persona a un aparato que, se le dice, detecta sus verdaderas reacciones. El aparato no mide nada, pero quien cree que mentir será descubierto tiende a responder con más sinceridad. Implica engaño y exige debriefing (Unidad 2).
 
-Otras alternativas son las **medidas fisiológicas**, como la conductancia de la piel o la actividad de los músculos faciales, que indican activación pero a menudo no su dirección, y la **observación de la conducta**, que es costosa y cuya relación con la actitud es justo lo que se discute en la Unidad 10. La respuesta más influyente al problema han sido las medidas implícitas.
+Otras alternativas son las **medidas fisiológicas**, que indican activación pero a menudo no su dirección, y la **observación de la conducta**, costosa y de relación discutida con la actitud (Unidad 10).
 
 ### 9.4 Medidas implícitas: el IAT y sus límites
 
@@ -125,12 +125,12 @@ El IAT tuvo un impacto enorme dentro y fuera de la universidad, y popularizó la
 | --- | --- |
 | ¿Predice la conducta? | Débilmente: r ≈ 0,27 en el metaanálisis de Greenwald et al. (2009) |
 | ¿Mejor que las medidas explícitas en discriminación étnico‑racial? | No: r = 0,148 y sin ventaja sobre las explícitas (Oswald et al., 2013) |
-| ¿Cambiar la medida implícita cambia la conducta? | Los procedimientos cambian las medidas implícitas poco (d < 0,30 en valor absoluto) y sin efectos en la conducta (Forscher et al., 2019; 492 estudios, N = 87.418) |
+| ¿Cambiarla cambia la conducta? | Cambios débiles (d < 0,30 en valor absoluto) sin efecto en la conducta (Forscher et al., 2019; 492 estudios) |
 | ¿Sirve para diagnosticar a una persona? | No: su fiabilidad test‑retest es modesta y no está validado para uso individual |
 
 Las correlaciones entre medidas implícitas y explícitas del mismo objeto suelen ser bajas. Esto se ha interpretado de dos maneras. Para unos, hay **dos actitudes distintas**: una automática, aprendida del entorno cultural, y otra deliberada, que refleja lo que la persona acepta y defiende. Para otros, el IAT mide en parte **asociaciones culturales** que la persona conoce aunque no comparta, además de factores propios de la tarea. Que alguien asocie más deprisa «mayor» con «desagradable» no demuestra que vaya a tratar peor a su abuela.
 
-Nada de esto invalida las medidas implícitas para la **investigación de grupos**. El problema aparece al usarlas como prueba de que una persona concreta es prejuiciosa o en formaciones que prometen cambiar la conducta modificando la puntuación del test. La relación entre sesgo implícito y discriminación se retoma en la Unidad 14, y la interpretación de r y d, en la asignatura de Estadística.
+Nada de esto invalida las medidas implícitas para la **investigación de grupos**. El problema aparece al usarlas como prueba de que una persona concreta es prejuiciosa o en formaciones que prometen cambiar la conducta modificando la puntuación del test. El sesgo implícito se retoma en la Unidad 14; r y d, en Estadística.
 
 ### Consenso y debate
 
@@ -235,7 +235,7 @@ La actitud general hacia la medicina predice mal si alguien donará sangre el pr
 1. La **actitud hacia la conducta**, no hacia el objeto. Lo que importa no es la actitud hacia la gripe, sino hacia «vacunarme de la gripe este otoño». Se calcula combinando las **creencias** sobre las consecuencias de la conducta con la **valoración** de cada consecuencia (un modelo de expectativa por valor).
 2. La **norma subjetiva**: la presión social percibida. Combina las **creencias normativas** (qué espera de mí cada persona importante) con la **motivación para acomodarse** a cada una (cuánto me importa complacerla).
 
-Un ejemplo: Iván piensa que vacunarse le evitará pasar una semana en cama, cosa que valora mucho, y que le dolerá el brazo un día, lo que le importa poco. Su actitud hacia vacunarse es favorable. Además, su médica de cabecera y su pareja quieren que se vacune, y su opinión le importa. La TRA predice una intención fuerte.
+Un ejemplo: Iván cree que vacunarse le evitará una semana en cama, algo que valora mucho, y que le dolerá el brazo un día, lo que le importa poco. Su médica y su pareja quieren que se vacune, y su opinión le importa. La TRA predice una intención fuerte.
 
 La TRA funciona bien con conductas bajo **control voluntario**, pero falla cuando realizar la conducta no depende solo de querer. Alguien puede tener una intención firme de dejar de fumar o de ir al gimnasio y no conseguirlo.
 
@@ -256,7 +256,7 @@ Como muestra la figura 10.2, la TRA queda incluida en la TPB: basta con eliminar
 | Vía directa a la conducta | Ninguna | Control percibido |
 | Ámbito | Conductas bajo control voluntario | También conductas con obstáculos o que requieren recursos |
 
-La TPB tiene una aplicación práctica clara: para diseñar una intervención, primero se identifica qué factor limita la intención. Si la gente no recicla porque cree que nadie de su entorno lo hace, hay que trabajar la norma; si cree que es muy complicado, el control.
+En la práctica, una intervención debe identificar qué factor limita la intención: si la gente no recicla porque cree que nadie lo hace, hay que trabajar la norma; si cree que es complicado, el control.
 
 ### 10.3 El modelo MODE
 
@@ -291,7 +291,7 @@ La revisión de Wicker (1969) era narrativa y mezclaba estudios con niveles de c
 
 **Las actitudes sí predicen la conducta.** Glasman y Albarracín (2006) hallaron una correlación media de 0,52, mucho mayor que la de Wicker. Una r de 0,52 equivale a compartir algo más de un cuarto de la varianza. Los moderadores encontrados encajan con lo visto en las unidades 9 y 10. La relación fue más fuerte cuando la actitud era **accesible**, cuando se basaba en **experiencia directa** con el objeto y cuando se había formado con **información unilateral**, es decir, información coherente en un solo sentido, que probablemente produce actitudes menos ambivalentes.
 
-**La TPB funciona, con límites.** El modelo explica bastante bien la intención y algo menos la conducta. En las conductas de salud la intención se explica aún mejor, pero la conducta peor (McEachan et al., 2011). La diferencia entre ambas cifras refleja la **brecha intención‑conducta**: mucha gente que se propone algo no llega a hacerlo. Quien se apunta al gimnasio en enero con toda la intención de ir tres días por semana conoce bien el problema.
+**La TPB funciona, con límites.** El modelo explica bastante bien la intención y algo menos la conducta. En las conductas de salud la intención se explica aún mejor, pero la conducta peor (McEachan et al., 2011). La diferencia entre ambas cifras refleja la **brecha intención‑conducta**: mucha gente que se propone algo no llega a hacerlo. Basta pensar en los propósitos de enero.
 
 Esa brecha tiene varias fuentes:
 

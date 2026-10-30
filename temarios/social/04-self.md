@@ -53,7 +53,7 @@ Después se distinguieron dos direcciones:
 | Ascendente | Alguien que está mejor | Inspirar, aprender, fijar metas | Sentirse inferior |
 | Descendente | Alguien que está peor | Proteger o mejorar el ánimo | Conformarse |
 
-Wills (1981) mostró que la **comparación descendente** se usa sobre todo cuando la autoestima está amenazada: tras un diagnóstico o un despido, pensar en quien está peor alivia. La comparación ascendente puede motivar si la meta parece alcanzable y desanimar si parece fuera de alcance. Por eso las redes sociales, llenas de versiones seleccionadas de la vida de los demás, favorecen comparaciones ascendentes poco realistas.
+Wills (1981) mostró que la **comparación descendente** se usa sobre todo cuando la autoestima está amenazada: tras un diagnóstico o un despido, pensar en quien está peor alivia. La comparación ascendente puede motivar si la meta parece alcanzable y desanimar si parece fuera de alcance.
 
 ### 7.3 Los límites de la introspección
 
@@ -77,11 +77,9 @@ Estas conclusiones tienen consecuencias prácticas y metodológicas:
 | Ámbito | Consecuencia |
 | --- | --- |
 | Investigación | Preguntar «¿por qué lo hizo?» no sustituye a manipular la causa en un experimento (Unidad 2) |
-| Medida del autoconcepto | Los autoinformes recogen bien cómo se ve la persona, no por qué es así |
 | Vida cotidiana | Las razones que damos de nuestras decisiones pueden ser reconstrucciones plausibles |
-| Clínica y entrevista | Conviene contrastar la explicación del paciente con datos de su conducta y su contexto |
 
-Esto no significa que el autoconocimiento sea imposible. Significa que se construye también **desde fuera**: observando la propia conducta (apartado 7.2), escuchando cómo nos describen quienes nos conocen bien y atendiendo a los patrones que se repiten. Un ejemplo cotidiano: alguien jura que elige restaurante «por la calidad de la comida», pero un repaso de sus últimas cenas muestra que casi siempre termina en el sitio más cercano al metro. La explicación sincera no coincide con la causa probable.
+El autoconocimiento se construye, por tanto, también **desde fuera**: observando la propia conducta (apartado 7.2), escuchando cómo nos describen quienes nos conocen bien y atendiendo a los patrones que se repiten. Un ejemplo cotidiano: alguien jura que elige restaurante «por la calidad de la comida», pero un repaso de sus últimas cenas muestra que casi siempre termina en el sitio más cercano al metro. La explicación sincera no coincide con la causa probable.
 
 ### 7.4 Discrepancias del self y foco regulador
 
@@ -115,7 +113,7 @@ Un ejemplo: dos opositores suspenden el mismo examen. Para Marta, aprobar era un
 | Emoción si se logra | Alegría | Calma, alivio |
 | Emoción si se falla | Abatimiento | Agitación |
 
-El foco depende de **diferencias individuales**, que se forman en parte en la crianza, y del **contexto**: el mismo estudiante puede plantear un trabajo optativo como una oportunidad de destacar (promoción) y un examen final como algo que no puede suspender (prevención). Los mensajes también pueden enmarcarse en un foco u otro: «haz deporte para sentirte con energía» frente a «haz deporte para no enfermar».
+El foco depende de **diferencias individuales**, que se forman en parte en la crianza, y del **contexto**: el mismo estudiante puede plantear un trabajo optativo como una oportunidad de destacar (promoción) y un examen final como algo que no puede suspender (prevención).
 
 Estas teorías enlazan con la asignatura de Motivación y Emoción y preparan la Unidad 8: si las discrepancias duelen, cabe esperar que las personas estén motivadas para verse de forma favorable.
 
@@ -215,7 +213,7 @@ Hasta ahora el self se ha tratado como algo individual. Pero cuando alguien se d
 
 Figura 8.1. **Henri Tajfel.** Sus experimentos del grupo mínimo dieron origen a la teoría de la identidad social. Fuente: European Association of Social Psychology, Wikimedia Commons, CC BY 3.0.
 
-**El paradigma del grupo mínimo.** La teoría nació de un hallazgo inesperado. Tajfel (1970) y Tajfel et al. (1971) quisieron averiguar cuáles eran las condiciones **mínimas** para que apareciera discriminación entre grupos. Con adolescentes de un colegio británico, formaron grupos con criterios triviales: supuestamente, la preferencia por cuadros de Klee o de Kandinsky, o la tendencia a sobrestimar o infraestimar el número de puntos en una pantalla. Los participantes no conocían a los otros miembros, no interactuaban con ellos, no había historia de conflicto y no ganaban nada personalmente. Solo debían repartir puntos canjeables por dinero entre un miembro anónimo del propio grupo y otro del grupo ajeno, mediante unas matrices de recompensas.
+**El paradigma del grupo mínimo.** La teoría nació de un hallazgo inesperado. Tajfel (1970) y Tajfel et al. (1971) (figura 8.1) quisieron averiguar cuáles eran las condiciones **mínimas** para que apareciera discriminación entre grupos. Con adolescentes de un colegio británico, formaron grupos con criterios triviales: supuestamente, la preferencia por cuadros de Klee o de Kandinsky, o la tendencia a sobrestimar o infraestimar el número de puntos en una pantalla. Los participantes no conocían a los otros miembros, no interactuaban con ellos, no había historia de conflicto y no ganaban nada personalmente. Solo debían repartir puntos canjeables por dinero entre un miembro anónimo del propio grupo y otro del grupo ajeno, mediante unas matrices de recompensas.
 
 El resultado fue claro: la mera **categorización** bastaba para producir **favoritismo endogrupal**. Además, muchos participantes preferían **maximizar la diferencia** a favor de su grupo, aunque eso supusiera que el propio grupo ganara menos en términos absolutos. Importaba quedar por encima, no solo ganar más.
 
@@ -268,7 +266,7 @@ La **autoestima** es la evaluación global, positiva o negativa, que una persona
 | Rendimiento escolar y laboral | Correlación modesta; la autoestima no causa el mejor rendimiento, más bien lo acompaña o lo sigue |
 | Violencia | La autoestima baja no es la causa de la agresión |
 
-Parte de la correlación con el rendimiento se explica en sentido inverso: sacar buenas notas eleva la autoestima. Además, la autoestima medida con autoinformes se mezcla con el deseo de dar buena imagen, y las personas con autoestima alta se describen a sí mismas como más competentes de lo que les juzgan los demás.
+Parte de la correlación con el rendimiento se explica en sentido inverso: sacar buenas notas eleva la autoestima.
 
 Un ejemplo: un programa escolar que solo repite a los alumnos que «son geniales» puede hacerles sentir bien un rato, pero no mejora sus notas. Uno que les ayuda a mejorar sus técnicas de estudio sí puede mejorarlas, y la autoestima suele subir después como consecuencia. Los aspectos de la autoestima como rasgo de personalidad se tratan en la asignatura de Personalidad.
 
@@ -278,7 +276,7 @@ Si la valoración exacta fuera el motivo dominante, las personas se verían tal 
 
 1. **Autoevaluación inflada.** La mayoría se considera por encima de la media en cualidades deseables: más honesta, más justa, mejor compañera. Es el **efecto mejor que la media**, que, por definición, no puede ser cierto para todos.
 2. **Ilusión de control.** Las personas sobrestiman su influencia sobre sucesos que dependen del azar. En los estudios de Langer (1975), quienes habían elegido ellos mismos su boleto de lotería pedían más dinero por venderlo que quienes lo habían recibido asignado, como si elegir aumentara las probabilidades.
-3. **Optimismo irreal.** Weinstein (1980) mostró que las personas creen que les ocurrirán más cosas buenas y menos malas que a sus semejantes: menos divorcios, menos enfermedades, menos accidentes. Un fumador puede reconocer que el tabaco es peligroso «en general» y creer que su propio riesgo es bajo.
+3. **Optimismo irreal.** Weinstein (1980) mostró que las personas creen que les ocurrirán más cosas buenas y menos malas que a sus semejantes: menos divorcios, menos enfermedades, menos accidentes.
 
 La tesis más llamativa de Taylor y Brown fue que estas ilusiones **no son un fallo**, sino que favorecen el **bienestar**, la motivación y la persistencia. En apoyo citaron el **realismo depresivo** (Alloy y Abramson, 1979): en tareas de juicio de contingencia, las personas con síntomas depresivos estimaban su control con más exactitud que las demás, que lo sobrestimaban. También el sesgo de autoservicio es menor en la depresión (Mezulis et al., 2004).
 
@@ -296,7 +294,7 @@ La tesis más llamativa de Taylor y Brown fue que estas ilusiones **no son un fa
 
 Una síntesis razonable es que lo adaptativo es un **sesgo positivo ligero**: verse algo mejor de lo que uno es, sin perder el contacto con la información que permite corregir errores. Un estudiante que confía en aprobar estudiará con más ganas; uno convencido de que aprobará sin estudiar se llevará una sorpresa.
 
-Las ilusiones positivas cierran el círculo de este capítulo. Las discrepancias del self duelen (Unidad 7), el ensalzamiento es el motivo más fuerte (apartado 8.1) y los grupos ofrecen otra vía para sentirse valioso (apartado 8.2). En conjunto, el self no es un registro neutral, sino un sistema que busca a la vez conocerse, mantenerse coherente y valorarse.
+En conjunto, el self no es un registro neutral, sino un sistema que busca a la vez conocerse, mantenerse coherente y valorarse.
 
 ### Consenso y debate
 

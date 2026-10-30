@@ -170,23 +170,22 @@ c) nulo en todos los estudios incluidos
 
 ### 14.1 Teorías de personalidad
 
-Las primeras explicaciones del prejuicio buscaron su origen en el individuo: si unas personas son más prejuiciosas que otras, quizá haya un tipo de personalidad que lo favorezca.
+Las primeras explicaciones buscaron el origen del prejuicio en el individuo.
 
 **La personalidad autoritaria.** Tras la Segunda Guerra Mundial, Adorno, Frenkel-Brunswik, Levinson y Sanford (1950) se propusieron entender qué hacía a algunas personas receptivas a ideologías antidemocráticas y al antisemitismo. Desde un marco psicoanalítico, describieron la **personalidad autoritaria**: sumisión a la autoridad, convencionalismo, rigidez, intolerancia a la ambigüedad y hostilidad hacia los grupos considerados inferiores o desviados. Su origen estaría en una crianza muy estricta y punitiva, en la que el afecto dependía de la obediencia: la hostilidad hacia los padres, que no podía expresarse, se desplazaría hacia blancos más débiles. Para medirla construyeron la **escala F** (de «fascismo»).
 
 La propuesta recibió críticas importantes:
 
 - **Metodológicas.** Todos los ítems de la escala F estaban redactados en la misma dirección, de modo que la tendencia a estar de acuerdo con cualquier afirmación inflaba las puntuaciones. Además, la explicación psicoanalítica sobre la crianza era difícil de poner a prueba.
-- **Sesgo ideológico.** La escala recogía el autoritarismo de derechas, pero no el de otras ideologías.
 - **Teóricas.** La personalidad es estable, mientras que el prejuicio puede cambiar con rapidez en toda una sociedad, por ejemplo tras un atentado o una crisis económica. Tampoco explica por qué el prejuicio puede ser **compartido por casi todo un grupo** cuando las normas sociales lo apoyan.
 
 ![s](wm-segregacion.jpg)
 
 Figura 14.1. **Segregación legal.** Cartel de una sala de espera segregada en EE. UU. (1943). La discriminación institucional era explícita y legal. Fuente: Esther Bubley, Wikimedia Commons, dominio público.
 
-La figura 14.1 ilustra este último límite: cuando la discriminación está escrita en las leyes y en los carteles, no hace falta una personalidad especial para practicarla. Basta con conformarse a lo que se considera normal.
+La figura 14.1 ilustra este último límite: cuando la discriminación está escrita en las leyes, no hace falta una personalidad especial para practicarla; basta con conformarse a la norma.
 
-**Autoritarismo de derechas (RWA).** Altemeyer (1981) reformuló el concepto y lo redujo a tres componentes que se agrupan de forma consistente: **sumisión autoritaria** a las autoridades consideradas legítimas, **agresión autoritaria** contra quienes estas señalan como desviados y **convencionalismo**, la adhesión a las normas tradicionales. Su escala, mejor construida que la escala F, predice de forma fiable el prejuicio hacia grupos que se perciben como amenaza para el orden y los valores tradicionales.
+**Autoritarismo de derechas (RWA).** Altemeyer (1981) reformuló el concepto y lo redujo a tres componentes que se agrupan de forma consistente: **sumisión autoritaria** a las autoridades consideradas legítimas, **agresión autoritaria** contra quienes estas señalan como desviados y **convencionalismo**, la adhesión a las normas tradicionales. Su escala, mejor construida que la escala F, predice de forma fiable el prejuicio.
 
 **Orientación a la dominancia social (SDO).** Pratto et al. (1994) definieron la SDO como la **preferencia por la jerarquía y la desigualdad entre grupos**: el grado en que una persona desea que unos grupos estén por encima de otros. Predice el prejuicio hacia grupos de estatus bajo y el rechazo de las políticas de igualdad.
 
@@ -201,7 +200,7 @@ Un ejemplo: ante la llegada de refugiados, a una persona con RWA alta le preocup
 
 ### 14.2 Conflicto, identidad y evolución
 
-Las teorías de personalidad explican diferencias entre individuos. Las teorías intergrupales explican por qué el prejuicio aparece en grupos enteros de personas corrientes.
+Las teorías intergrupales explican por qué el prejuicio aparece en grupos enteros de personas corrientes.
 
 **La teoría del conflicto realista.** Sherif sostuvo que el prejuicio nace de la **competición por recursos escasos**: cuando los objetivos de dos grupos son incompatibles, porque lo que gana uno lo pierde el otro, surgen la hostilidad y los estereotipos negativos. Su estudio más conocido se llevó a cabo en un campamento de verano cerca del parque de Robbers Cave, en Oklahoma (Sherif et al., 1954/1961). Participaron 22 chicos de unos 11 años, de procedencia parecida, divididos en dos grupos que al principio no sabían el uno del otro: los Eagles y los Rattlers.
 
@@ -211,11 +210,11 @@ Figura 14.2. **Muzafer Sherif.** Muzafer Sherif (foto de 1967). Autor de los est
 
 El estudio, dirigido por Sherif (figura 14.2), tuvo tres fases:
 
-1. **Formación de grupos.** Cada grupo convivió por separado, creó normas y símbolos propios y desarrolló cohesión.
-2. **Competición.** Se organizaron torneos con premios solo para el ganador. Aparecieron insultos, robos de banderas, asaltos a las cabañas y una clara valoración positiva del propio grupo frente al otro.
+1. **Formación de grupos.** Cada grupo convivió por separado, con normas y símbolos propios.
+2. **Competición.** Torneos con premios solo para el ganador. Aparecieron insultos, robos de banderas, asaltos a las cabañas y favoritismo endogrupal.
 3. **Reducción del conflicto.** El simple contacto en actividades agradables no bastó. Lo que funcionó fueron las **metas supraordinadas**: problemas que ningún grupo podía resolver solo, como una avería en el suministro de agua del campamento. La cooperación repetida fue reduciendo la hostilidad.
 
-El estudio sigue siendo un clásico, pero Perry (2018) ha documentado problemas: la intervención activa de los investigadores para provocar el conflicto y un experimento previo de 1953 que fracasó, porque los chicos se negaron a enfrentarse. Conviene leerlo como una demostración, no como prueba de que la competición genera hostilidad de forma automática. La gestión del conflicto entre grupos se desarrolla en Psicología de la Interacción Social.
+Perry (2018) ha documentado problemas, entre ellos un experimento previo de 1953 que fracasó. Conviene leer el estudio como una demostración, no como prueba de que la competición genera hostilidad de forma automática. La gestión del conflicto entre grupos se desarrolla en Psicología de la Interacción Social.
 
 **La teoría de la identidad social.** El conflicto realista no explica el prejuicio cuando no hay competición. Los experimentos del **grupo mínimo** de Tajfel mostraron que basta una categorización trivial para que aparezca el favoritismo endogrupal. La teoría de la identidad social (Tajfel y Turner, 1979) lo atribuye a la búsqueda de una **identidad social positiva** mediante la comparación favorable con otros grupos (Unidad 8). La **teoría de la autocategorización** (Turner et al., 1987) añadió que, cuando una identidad grupal se vuelve saliente, las personas se ven a sí mismas y a los demás como ejemplares intercambiables de su categoría: es la **despersonalización**. Ver a alguien solo como «uno de ellos» facilita aplicarle el estereotipo y el trato que lo acompaña.
 
@@ -236,7 +235,7 @@ La expresión abierta del prejuicio ha descendido en las últimas décadas, pero
 
 Figura 14.3. **Tipología de Pettigrew y Meertens (1995).** Al cruzar el prejuicio manifiesto y el sutil se obtienen tres tipos: fanáticos (ambos altos), sutiles (manifiesto bajo y sutil alto) e igualitarios (ambos bajos). Elaboración propia.
 
-Como muestra la figura 14.3, la persona **sutil** no se considera prejuiciosa y rechaza la discriminación abierta, pero apoya medidas que perjudican al exogrupo si pueden presentarse como neutrales o razonables. Un ejemplo de frase sutil sería: «No tengo nada contra ellos, pero tendrían que esforzarse más en adaptarse a cómo hacemos las cosas aquí».
+Como muestra la figura 14.3, la persona **sutil** no se considera prejuiciosa y rechaza la discriminación abierta, pero apoya medidas que perjudican al exogrupo si parecen razonables: «No tengo nada contra ellos, pero deberían adaptarse más».
 
 **El racismo moderno.** Varias teorías estadounidenses describen el mismo fenómeno:
 
@@ -253,7 +252,7 @@ El **racismo aversivo** afecta a personas que sinceramente se consideran igualit
 - **Sexismo hostil**: antipatía hacia las mujeres que se perciben como desafiantes del poder masculino.
 - **Sexismo benévolo**: actitudes en apariencia positivas que se organizan en tres facetas: **paternalismo protector** (hay que proteger y mantener a las mujeres), **diferenciación de género complementaria** (las mujeres son más puras o sensibles) e **intimidad heterosexual** (un hombre no está completo sin una mujer).
 
-Ambos se miden con el **Inventario de Sexismo Ambivalente** (ASI). El sexismo benévolo resulta difícil de reconocer como prejuicio porque suele vivirse como cortesía o afecto, pero recompensa a las mujeres que aceptan roles tradicionales y limita su autonomía. Glick et al. (2000), con más de 15.000 personas de 19 países, encontraron que **ambas formas se correlacionan** y que las medias nacionales de las dos **predicen la desigualdad de género** de cada país.
+Ambos se miden con el **Inventario de Sexismo Ambivalente** (ASI). El sexismo benévolo cuesta reconocerlo porque se vive como cortesía, pero premia los roles tradicionales y limita la autonomía. Glick et al. (2000), con más de 15.000 personas de 19 países, encontraron que **ambas formas se correlacionan** y que las medias nacionales de las dos **predicen la desigualdad de género** de cada país.
 
 **La interseccionalidad.** La jurista Kimberlé Crenshaw (1989) acuñó el término a partir del caso **DeGraffenreid v. General Motors**. Un grupo de mujeres negras denunció a la empresa por discriminación, y el tribunal rechazó la demanda: General Motors contrataba a personas negras (hombres, en la fábrica) y a mujeres (blancas, en las oficinas), de modo que no había, según el tribunal, discriminación por raza ni por sexo. La discriminación que sufrían como mujeres negras quedaba fuera de ambas categorías.
 
@@ -261,7 +260,7 @@ Ambos se miden con el **Inventario de Sexismo Ambivalente** (ASI). El sexismo be
 
 Figura 14.4. **Kimberlé Crenshaw.** Kimberlé Crenshaw (2018). Acuñó el término interseccionalidad en 1989. Fuente: Mohamed Badarne, Wikimedia Commons, CC BY‑SA 4.0.
 
-La propuesta de Crenshaw (figura 14.4) es que las categorías sociales (género, origen, clase, orientación sexual, discapacidad) **no se suman sin más**, sino que se combinan y producen experiencias de discriminación y de privilegio propias. Para la investigación, esto implica que estudiar cada categoría por separado puede ocultar a quienes están en sus intersecciones.
+La propuesta de Crenshaw (figura 14.4) es que las categorías sociales (género, origen, clase, orientación sexual, discapacidad) **no se suman sin más**: se combinan y producen experiencias propias de discriminación y de privilegio, que el estudio de cada categoría por separado oculta.
 
 ### 14.4 La discriminación medida y cómo reducir el prejuicio
 
@@ -273,11 +272,11 @@ Quillian et al. (2017) metaanalizaron 28 experimentos de campo realizados en EE.
 
 Figura 14.5. **Discriminación en la contratación.** Llamadas que reciben los candidatos blancos por cada 100 que recibe un candidato de un grupo minoritario con un currículo equivalente: 136 frente a afroamericanos y 124 frente a latinos; la línea de 100 indica igualdad (Quillian et al., 2017). Elaboración propia.
 
-Como muestra la figura 14.5, la distancia es considerable. Quillian y Lee (2023), con 90 experimentos en seis países, tampoco encontraron descensos en la mayoría de ellos. Esto contrasta con la caída del prejuicio declarado en las encuestas y concuerda con el paso hacia formas más sutiles.
+Como muestra la figura 14.5, la distancia es considerable. Quillian y Lee (2023), con 90 experimentos en seis países, tampoco encontraron descensos en la mayoría, en contraste con la caída del prejuicio declarado.
 
 Las **medidas implícitas**, como el IAT (Unidad 9), se presentaron como la forma de captar el prejuicio que la gente no declara. Su capacidad para predecir la conducta discriminatoria es baja: Oswald et al. (2013) obtuvieron r = 0,148 para la discriminación étnico-racial, sin ventaja sobre las medidas explícitas. Son útiles para investigar promedios de grupo, no para diagnosticar a una persona.
 
-**Reducir el prejuicio.** La propuesta con más apoyo es la **hipótesis del contacto** (Allport, 1954): el contacto entre grupos reduce el prejuicio, sobre todo si se da con **igual estatus** dentro de la situación, **metas comunes**, **cooperación** y **apoyo institucional**. El metaanálisis de Pettigrew y Tropp (2006), con 515 estudios, confirmó que el contacto se asocia con menos prejuicio, y que las condiciones de Allport **favorecen** el efecto, pero **no son imprescindibles**. Otras variantes muestran efectos incluso sin contacto directo:
+**Reducir el prejuicio.** La propuesta con más apoyo es la **hipótesis del contacto** (Allport, 1954): el contacto reduce el prejuicio, sobre todo con **igual estatus** dentro de la situación, **metas comunes**, **cooperación** y **apoyo institucional**. El metaanálisis de Pettigrew y Tropp (2006), con 515 estudios, confirmó que el contacto se asocia con menos prejuicio, y que las condiciones de Allport **favorecen** el efecto, pero **no son imprescindibles**. Hay variantes sin contacto directo:
 
 - **Contacto extendido**: saber que un amigo del propio grupo tiene amigos en el exogrupo.
 - **Contacto imaginado**: imaginar una interacción positiva con un miembro del exogrupo.
@@ -286,8 +285,6 @@ Las **medidas implícitas**, como el IAT (Unidad 9), se presentaron como la form
 La magnitud del efecto del contacto está en discusión. Paluck, Green y Green (2019) revisaron solo los 27 estudios **aleatorizados** con un seguimiento de al menos un día y obtuvieron un efecto medio de Δ = 0,39, menor para el prejuicio étnico-racial. En los estudios **prerregistrados**, el efecto fue de solo ≈ 0,016.
 
 Las intervenciones breves sobre el sesgo implícito tampoco muestran efectos duraderos. Lai et al. (2016) probaron 9 intervenciones con 6.321 participantes: todas reducían el sesgo implícito en el momento, pero **ninguna mantenía el efecto horas o días después**. Forscher et al. (2019), con 492 estudios, confirmaron que los cambios en las medidas implícitas son débiles y no se traducen en cambios de conducta.
-
-La lección es que el contacto cooperativo y sostenido es la vía con más apoyo, pero sus efectos son más modestos de lo que se creía, y que cambiar una puntuación implícita no equivale a cambiar la conducta.
 
 ### Consenso y debate
 

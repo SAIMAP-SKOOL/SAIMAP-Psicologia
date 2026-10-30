@@ -46,7 +46,7 @@ La inferencia correspondiente es más probable cuando se dan tres condiciones pr
 - **Efectos no comunes.** Cuando una persona elige entre varias opciones, nos fijamos en los efectos que solo tiene la opción elegida. Si Lucía rechaza un empleo con el mismo sueldo y en la misma ciudad que otro, y la única diferencia es que el elegido permite teletrabajar, inferimos que valora mucho la flexibilidad. Cuantos menos efectos no comunes haya, más clara es la inferencia.
 - **Baja deseabilidad social.** Una conducta que todo el mundo haría en esa situación informa poco: dar las gracias al recibir un regalo no revela gratitud especial. Una conducta que se aparta de lo esperado, como criticar la comida en una cena familiar, sí se atribuye a la persona.
 
-Los autores añadieron dos factores motivacionales. La **relevancia hedónica** indica que el acto nos afecta de forma directa, para bien o para mal; en ese caso, la inferencia correspondiente es más probable. El **personalismo** indica que creemos que el acto iba dirigido a nosotros, lo que la refuerza todavía más. Si un compañero se salta la cola del comedor, nos molesta; si lo hace justo delante de nosotros y mirándonos, la inferencia sobre su carácter será más rotunda.
+Los autores añadieron dos factores motivacionales: la **relevancia hedónica** (el acto nos afecta de forma directa) y el **personalismo** (creemos que iba dirigido a nosotros). Si alguien se cuela justo delante de nosotros y mirándonos, la inferencia sobre su carácter será más rotunda.
 
 | Factor | Favorece la inferencia correspondiente cuando… |
 | --- | --- |
@@ -78,7 +78,7 @@ Figura 5.1. **Patrones de covariación de Kelley.** Con consenso bajo, distintiv
 
 Como muestra la figura 5.1, si casi nadie se ríe con ese cómico, Ana se ríe con todos y siempre con este, concluimos que Ana es muy risueña. Si todos se ríen, Ana solo con él y siempre, el cómico es realmente gracioso. Si Ana casi nunca se ríe con él, algo de ese día concreto explica su risa.
 
-La investigación apoyó la idea general, pero mostró que las personas no usan las tres fuentes por igual. McArthur (1972) encontró que el **consenso se infrautiliza**: se tiene en cuenta menos que la distintividad y la consistencia. Saber que casi nadie se ríe con un cómico influye poco cuando vemos a alguien partirse de risa. Además, el modelo exige una información que pocas veces tenemos: rara vez sabemos cómo reacciona alguien ante otros estímulos o en otras ocasiones.
+La investigación apoyó la idea general, pero McArthur (1972) encontró que el **consenso se infrautiliza**: pesa menos que la distintividad y la consistencia. Además, rara vez sabemos cómo reacciona alguien ante otros estímulos o en otras ocasiones.
 
 **Los esquemas causales.** Para esos casos de información escasa, Kelley (1972) propuso que usamos **esquemas causales**: creencias aprendidas sobre cómo se combinan las causas para producir un efecto.
 
@@ -120,7 +120,7 @@ La secuencia completa es la siguiente. Tras un resultado aparece una emoción ge
 
 La **controlabilidad** tiene un papel especial en las relaciones con los demás. Si alguien necesita ayuda por una causa que no podía controlar (una enfermedad imprevista), sentimos compasión y tendemos a ayudar. Si la causa era controlable (no fue a clase en todo el cuatrimestre y pide los apuntes la víspera del examen), sentimos ira y tendemos a negarnos.
 
-Conviene no confundir el **locus de causalidad** de Weiner con el **locus de control** de Rotter (1966). El de Rotter es un rasgo de personalidad: la creencia general de que lo que nos pasa depende de nosotros o del exterior. El de Weiner es una propiedad de la causa concreta que se percibe en cada caso. Para Weiner lo que importa es la causa **percibida**, no la real.
+No hay que confundir el **locus de causalidad** de Weiner, propiedad de cada causa concreta, con el **locus de control** de Rotter (1966), una creencia general de personalidad. Para Weiner importa la causa **percibida**, no la real.
 
 ### Consenso y debate
 
@@ -196,7 +196,7 @@ Las teorías de la Unidad 5 describen a un perceptor que razona como un científ
 
 Figura 6.1. **Diseño de Jones y Harris (1967).** Se cruzaron la postura del ensayo (a favor o en contra de Castro) y la libertad del autor (postura elegida o asignada). Incluso con la postura asignada, la actitud atribuida seguía el sentido del ensayo, aunque de forma más moderada. Elaboración propia.
 
-Como muestra la figura 6.1, cuando la postura era elegida, los participantes atribuían al autor la actitud del ensayo, como era de esperar. Lo sorprendente fue la condición de asignación. Aunque sabían que el autor no había podido elegir, seguían pensando que quien había escrito a favor de Castro era más favorable a él que quien había escrito en contra. La situación se tuvo en cuenta, pero **no lo suficiente**.
+Como muestra la figura 6.1, con la postura elegida se atribuía al autor la actitud del ensayo, como era de esperar. Lo sorprendente fue la asignación: aunque sabían que el autor no había podido elegir, seguían pensando que quien había escrito a favor de Castro era más favorable a él que quien había escrito en contra. La situación se tuvo en cuenta, pero **no lo suficiente**.
 
 **El estudio del concurso.** Ross, Amabile y Steinmetz (1977) formaron parejas al azar en un concurso de preguntas: uno inventaba preguntas difíciles sobre sus propios conocimientos y el otro debía responderlas. Los observadores, y también quienes respondían, juzgaban **más culto** a quien preguntaba, aunque su ventaja procedía solo del papel que le había tocado.
 
@@ -207,7 +207,7 @@ Como muestra la figura 6.1, cuando la postura era elegida, los participantes atr
 - **Corrección incompleta.** Primero se infiere el rasgo de forma rápida y casi automática; corregir esa inferencia teniendo en cuenta la situación requiere esfuerzo y se queda corta, sobre todo si el observador está cansado, distraído o con prisa (Gilbert y Malone, 1995).
 - **Cultura.** Morris y Peng (1994), comparando explicaciones de participantes estadounidenses y chinos, encontraron que la preferencia por las causas disposicionales es mayor en las culturas **individualistas**. En culturas más colectivistas se presta más atención al contexto.
 
-Un ejemplo cotidiano: un camarero tarda en atender y concluimos que es antipático o poco profesional. Quizá esa noche faltan dos compañeros y él atiende solo toda la terraza. La situación existe, pero no la vemos.
+Un camarero tarda en atender y concluimos que es poco profesional; quizá esa noche atiende solo toda la terraza.
 
 Fuera del laboratorio, este sesgo lleva a culpar de su situación a quien está en paro o a sobrevalorar la capacidad de quien ocupa un cargo. El poder de la situación reaparece en el estudio de la obediencia y la conformidad (Unidad 15).
 
@@ -237,7 +237,7 @@ Que los observadores tiendan a atribuir disposiciones a otros no implica que los
 
 Además, parte de las diferencias que sí aparecen pueden deberse a otro fenómeno, el **sesgo de autoservicio** (apartado 6.3): ante un fracaso, el actor busca causas externas; ante un éxito, internas. Lo decisivo entonces no es ser actor u observador, sino que el resultado favorezca o perjudique a uno mismo.
 
-La historia de este sesgo es un buen ejemplo de lo que se estudió en la Unidad 2: una idea intuitiva, con estudios iniciales llamativos, se convierte en contenido de manual y solo la acumulación sistemática de datos muestra que el efecto es mucho más débil de lo que se creía. El cálculo e interpretación del tamaño del efecto d se estudia en la asignatura de Estadística.
+Es un buen ejemplo de lo visto en la Unidad 2: una idea intuitiva llega a los manuales y solo la acumulación sistemática de datos muestra su debilidad. El tamaño del efecto d se estudia en Estadística.
 
 ### 6.3 Falso consenso, autoservicio y error último
 
@@ -249,11 +249,11 @@ Figura 6.2. **El falso consenso en Ross, Greene y House (1977).** En el estudio 
 
 Como muestra la figura 6.2, cada grupo pensaba que su elección era la mayoritaria. En el estudio 4, en el que la decisión era real, el patrón se repitió: 62,2 % y 67,0 %. El metaanálisis de Mullen et al. (1985), con 115 contrastes, confirmó que el efecto es fiable y de magnitud **moderada**.
 
-Se han propuesto varias explicaciones: solemos relacionarnos con personas parecidas a nosotros, nuestras propias opiniones son las más accesibles cuando pensamos en el tema y creer que los demás piensan igual nos tranquiliza. Para capacidades y virtudes ocurre lo contrario: tendemos a creernos más hábiles o más honrados que la mayoría. Es el **efecto de falsa singularidad**. La regla para recordarlo es sencilla: falso consenso para opiniones y errores, falsa singularidad para capacidades y virtudes.
+Influyen el trato con personas parecidas, la accesibilidad de las propias opiniones y lo tranquilizador de creerse acompañado. Para capacidades y virtudes ocurre lo contrario: tendemos a creernos más hábiles o más honrados que la mayoría. Es el **efecto de falsa singularidad**. La regla para recordarlo es sencilla: falso consenso para opiniones y errores, falsa singularidad para capacidades y virtudes.
 
 **El sesgo de autoservicio.** Consiste en atribuir los **éxitos** propios a causas **internas** y los **fracasos** a causas **externas** (Miller y Ross, 1975). Si apruebo, es porque he estudiado; si suspendo, el examen era injusto. Suelen distinguirse dos componentes: el de **autoensalzamiento**, que se apropia de los éxitos, y el de **autoprotección**, que se desentiende de los fracasos.
 
-Hay dos tipos de explicación que no se excluyen. La **motivacional** sostiene que el sesgo protege y eleva la autoestima. La **cognitiva** señala que las personas esperan tener éxito y actúan para lograrlo, de modo que un éxito encaja con sus planes y su esfuerzo, y un fracaso inesperado se atribuye con facilidad a algo externo.
+Hay dos explicaciones compatibles. La **motivacional** sostiene que el sesgo protege y eleva la autoestima. La **cognitiva** señala que las personas esperan tener éxito y actúan para lograrlo, de modo que un éxito encaja con sus planes y su esfuerzo, y un fracaso inesperado se atribuye con facilidad a algo externo.
 
 Este sesgo es uno de los más robustos de la psicología social. El metaanálisis de Mezulis et al. (2004), con 266 estudios y 503 tamaños del efecto, encontró un efecto **grande**: d = 0,96. El sesgo era menor en personas con depresión y en algunas muestras asiáticas, un dato relacionado con el estilo atribucional del apartado 6.4.
 
@@ -278,11 +278,11 @@ Las atribuciones no son simples opiniones sobre causas: influyen en lo que senti
 
 Quien suspende un examen y piensa «soy un inútil y nunca sacaré la carrera» hace una atribución interna, estable y global. Quien piensa «este tema lo preparé mal, pero el siguiente lo llevaré mejor» hace una atribución interna, pero inestable y específica. La primera se asocia a mayor vulnerabilidad a la depresión. Este patrón es el contrario del sesgo de autoservicio, lo que encaja con que ese sesgo sea menor en personas deprimidas (Mezulis et al., 2004). Las intervenciones psicológicas que enseñan a revisar estas explicaciones, como el **reentrenamiento atribucional**, se basan en la idea de Weiner de que lo que importa es la causa percibida y que esta puede cambiar.
 
-**Atribuciones en la pareja.** La revisión de Bradbury y Fincham (1990) mostró que la forma de explicar la conducta del otro se relaciona con la satisfacción de la relación. En las parejas con malestar, las conductas negativas del otro se atribuyen a causas internas, estables y globales («llega tarde porque le da igual todo») y las positivas a causas externas y pasajeras («hoy está amable porque quiere algo»). En las parejas satisfechas ocurre lo contrario. Estas atribuciones pueden alimentar un círculo de reproches difícil de romper.
+**Atribuciones en la pareja.** La revisión de Bradbury y Fincham (1990) mostró que la forma de explicar la conducta del otro se relaciona con la satisfacción de la relación. En las parejas con malestar, las conductas negativas del otro se atribuyen a causas internas, estables y globales («llega tarde porque le da igual todo») y las positivas a causas externas y pasajeras («hoy está amable porque quiere algo»). En las parejas satisfechas ocurre lo contrario.
 
 **Culpar a la víctima y la creencia en un mundo justo.** Lerner (1980) describió la **creencia en un mundo justo**: la convicción de que cada uno recibe lo que merece. Esta creencia da seguridad, porque sugiere que a quien se porta bien no le pasará nada malo. Pero tiene un coste: cuando alguien sufre una desgracia inmerecida, una forma de mantener la creencia es suponer que algo habrá hecho para merecerla. Así se explica la tendencia a **culpabilizar a las víctimas** de robos, agresiones o despidos («no tendría que haber vuelto sola a esas horas»), que combina el error fundamental de atribución con el motivo de sentir que el mundo es predecible.
 
-**Atribuciones y ayuda.** Como se vio con Weiner, la controlabilidad percibida decide en gran parte si respondemos con compasión o con ira ante quien necesita algo. Esto se aplica a cómo se juzga a las personas en paro, sin hogar o con una enfermedad: si se percibe que su situación depende de ellas, disminuye la disposición a ayudar. La conducta de ayuda se estudia en la Unidad 16 y, con más extensión, en la asignatura de Psicología de la Interacción Social.
+**Atribuciones y ayuda.** Como se vio con Weiner, si se percibe que la situación de alguien (en paro, sin hogar, enfermo) depende de él, aparece la ira en lugar de la compasión y disminuye la ayuda. La conducta de ayuda se estudia en la Unidad 16 y, con más extensión, en la asignatura de Psicología de la Interacción Social.
 
 ### Consenso y debate
 

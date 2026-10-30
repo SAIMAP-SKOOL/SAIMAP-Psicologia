@@ -45,9 +45,9 @@ Una forma práctica de ver las diferencias es tomar un mismo fenómeno, por ejem
 | Antropología | Culturas y sociedades | ¿Qué significado tienen los residuos en distintas culturas? |
 | Economía conductual | Decisiones con incentivos | ¿Cambia la conducta si se cobra por bolsa de basura? |
 
-Las fronteras son porosas. La psicología social toma conceptos de la sociología (rol, estatus, norma), de la psicología cognitiva (esquema, memoria) y comparte métodos con la economía conductual, que se nutre en buena parte de los heurísticos estudiados por Tversky y Kahneman (Unidad 3). Con la personalidad comparte temas como el autoritarismo o la orientación a la dominancia social, que se tratan en la Unidad 14 y con más detalle en la asignatura de Personalidad.
+Las fronteras son porosas. La psicología social toma conceptos de la sociología (rol, estatus, norma) y de la psicología cognitiva (esquema), y la economía conductual se nutre de los heurísticos de Tversky y Kahneman (Unidad 3). Con la personalidad comparte temas como el autoritarismo (Unidad 14 y asignatura de Personalidad).
 
-Dentro de la propia psicología social conviven dos tradiciones. La **psicología social psicológica** se centra en procesos individuales y tiende a usar el experimento de laboratorio. La **psicología social sociológica** se interesa por la interacción, los grupos amplios y los significados compartidos, con métodos más variados. Buena parte de los manuales actuales intenta integrar ambas.
+Dentro de la propia disciplina conviven dos tradiciones: la **psicología social psicológica**, centrada en procesos individuales y en el experimento de laboratorio, y la **psicología social sociológica**, interesada por la interacción, los grupos amplios y los significados compartidos.
 
 **Los niveles de análisis de Doise.** Willem Doise (1982) propuso una herramienta útil para ordenar las explicaciones en psicología social. Un mismo fenómeno puede explicarse en cuatro niveles, que no compiten entre sí, sino que se complementan. Como muestra la figura 1.1, van de lo más individual a lo más colectivo.
 
@@ -85,7 +85,7 @@ Figura 1.2. **Hitos de la psicología social, de 1898 a 2024.** Desde Triplett y
 
 Como muestra la figura 1.2, la mayoría de los estudios que hoy se consideran clásicos se concentra en las dos décadas posteriores a 1945. Antes de esa fecha, la disciplina ya tenía nombre, método experimental y temas propios (actitudes, normas, grupos), pero era pequeña.
 
-La **Segunda Guerra Mundial** actuó como acelerador por dos vías. Por un lado, muchos investigadores europeos, Lewin entre ellos, se habían instalado en Estados Unidos huyendo del nazismo, lo que desplazó el centro de gravedad de la disciplina. Por otro, los gobiernos necesitaban saber cómo funcionan la propaganda, la moral de las tropas o los cambios de hábitos de la población. El conflicto dejó además preguntas urgentes: cómo pudo tanta gente corriente colaborar con el horror, por qué se odia a grupos enteros, cómo se cambia una opinión. Esas preguntas guiarían el periodo siguiente.
+La **Segunda Guerra Mundial** actuó como acelerador por dos vías. Por un lado, muchos investigadores europeos, Lewin entre ellos, se habían instalado en Estados Unidos huyendo del nazismo, lo que desplazó el centro de gravedad de la disciplina. Por otro, los gobiernos necesitaban saber cómo funcionan la propaganda, la moral de las tropas o los cambios de hábitos de la población. El conflicto dejó además preguntas urgentes: cómo pudo tanta gente corriente colaborar con el horror o por qué se odia a grupos enteros.
 
 La historia general de estos autores, incluido el papel de Triplett y Lewin, se trata en la asignatura de Historia de la Psicología.
 
@@ -206,7 +206,7 @@ Si después la **variable dependiente (VD)**, como la intención de reciclar, di
 
 El gran problema de los estudios correlacionales es que **correlación no implica causalidad**. Si quienes pasan más horas en redes tienen menos autoestima, puede que las redes la reduzcan, que la baja autoestima lleve a pasar más tiempo en ellas (**causalidad inversa**) o que una **tercera variable**, como la soledad, afecte a ambas. Los diseños longitudinales, que miden a las mismas personas varias veces, ayudan, pero no sustituyen al experimento.
 
-Los métodos no compiten: se complementan. Una línea de investigación sólida suele combinar experimentos de laboratorio, que aíslan el mecanismo, con estudios de campo y encuestas, que muestran si el efecto aparece en la vida real y con qué tamaño. La confianza en un resultado crece cuando se obtiene con métodos distintos y en laboratorios distintos.
+Los métodos se complementan: el laboratorio aísla el mecanismo y el campo muestra si el efecto aparece en la vida real. La confianza crece cuando un resultado se obtiene con métodos y laboratorios distintos.
 
 La lógica estadística que subyace a estos diseños (contraste de hipótesis, correlación, tamaño del efecto) se desarrolla en la asignatura de Estadística.
 
@@ -292,7 +292,7 @@ El metaanálisis tiene un punto débil: si los estudios publicados están sesgad
 
 ![](bosque-replicas.png)
 
-Figura 2.2. **Tamaños del efecto en réplicas y metaanálisis recientes.** Agotamiento del ego (Hagger, 2016: d = 0,04; Vohs, 2021: d = 0,06), asimetría actor-observador (Malle, 2006: ≈ 0), amenaza del estereotipo (Shewach, 2019: |d| = 0,14), contacto (Paluck, 2019: Δ = 0,39; prerregistrados: 0,016) y autoservicio (Mezulis, 2004: d = 0,96), con referencias en 0,2, 0,5 y 0,8. Elaboración propia.
+Figura 2.2. **Tamaños del efecto en réplicas y metaanálisis recientes.** Agotamiento del ego (Hagger et al., 2016: d = 0,04; Vohs et al., 2021: d = 0,06), asimetría actor-observador (Malle, 2006: ≈ 0), amenaza del estereotipo (Shewach et al., 2019: d = 0,14 en valor absoluto), contacto (Paluck et al., 2019: Δ = 0,39; prerregistrados: 0,016) y autoservicio (Mezulis et al., 2004: d = 0,96), con referencias en 0,2, 0,5 y 0,8. Elaboración propia.
 
 Como muestra la figura 2.2, la evidencia actual no se reparte en «funciona» y «no funciona». Hay efectos prácticamente nulos, como el agotamiento del ego o la asimetría actor-observador como regla general; efectos pequeños, como la amenaza del estereotipo en condiciones parecidas a exámenes reales; efectos cuyo tamaño depende de la calidad de los estudios, como el del contacto; y efectos grandes y robustos, como el sesgo de autoservicio.
 
@@ -303,7 +303,7 @@ Como muestra la figura 2.2, la evidencia actual no se reparte en «funciona» y 
 3. **Datos y materiales abiertos:** cualquiera puede revisar los análisis o repetir el estudio.
 4. **Muestras grandes y colaboraciones** entre muchos laboratorios, como las RRR.
 
-Estas prácticas no garantizan la verdad, pero hacen más fácil detectar errores. Para el estudiante, la lección es leer cada hallazgo preguntando cuántas personas participaron, si se ha replicado de forma independiente y qué tamaño tiene el efecto. El cálculo de d, r y los metaanálisis se estudia en la asignatura de Estadística.
+Estas prácticas no garantizan la verdad, pero facilitan detectar errores. Ante cada hallazgo conviene preguntar cuántas personas participaron, si se ha replicado y qué tamaño tiene el efecto. El cálculo de d, r y los metaanálisis se estudia en la asignatura de Estadística.
 
 ### Consenso y debate
 
