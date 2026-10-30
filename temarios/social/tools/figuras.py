@@ -163,7 +163,7 @@ if want('asch-anderson'):
 
 if want('ego-depletion'):
     bars('ego-depletion.png', ['Hagger et al. (2016)\n23 laboratorios', 'Vohs et al. (2021)\n36 laboratorios, N = 3.531'], [.04, .06], [A, A],
-         'Tamaño del efecto (d)', (0, .32), fmt=lambda v: f'd = {v:.2f}'.replace('.', ','), size=(4.8, 3.1), ref=(.2, 'efecto pequeño (d = 0,2)'),
+         'Tamaño del efecto (d)', (0, .32), fmt=lambda v: f'd = {v:.2f}'.replace('.', ','), size=(5.8, 3.1), ref=(.2, 'efecto pequeño (d = 0,2)'),
          foot='Réplicas multilaboratorio prerregistradas del agotamiento del ego')
 
 # ---------- U5 ----------

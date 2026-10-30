@@ -46,7 +46,7 @@ La **obediencia** es el cumplimiento de una orden directa de alguien percibido c
 
 ![s](wm-milgram.jpg)
 
-Figura 15.3. **Stanley Milgram (hacia 1974).** Fuente: autor desconocido, Wikimedia Commons, dominio público (imagen recortada).
+Figura 15.3. **Stanley Milgram (hacia 1974).** Sus experimentos de obediencia (1963) siguen siendo los más citados y discutidos de la psicología social. Fuente: autor desconocido, Wikimedia Commons, dominio público (imagen recortada).
 
 **El procedimiento.** Al participante se le decía que colaboraba en un estudio sobre el efecto del castigo en el aprendizaje. Hacía de «maestro» y debía administrar descargas eléctricas, cada vez más intensas, a un «aprendiz» que fallaba. El generador iba de 15 en 15 voltios hasta 450 V. El aprendiz era un cómplice y no recibía descargas, pero protestaba, gritaba y, a partir de cierto punto, dejaba de responder. Si el maestro dudaba, el experimentador le instaba a continuar con frases preparadas.
 

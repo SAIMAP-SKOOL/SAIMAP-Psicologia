@@ -80,7 +80,7 @@ Una variante es la **falacia de la conjunción** (Tversky y Kahneman, 1983). En 
 
 ![s](wm-kahneman.jpg)
 
-Figura 3.2. **Daniel Kahneman.** Daniel Kahneman (2009). Con Amos Tversky describió los heurísticos de representatividad, disponibilidad y anclaje. Fuente: nrkbeta, Wikimedia Commons, CC BY‑SA 2.0.
+Figura 3.2. **Daniel Kahneman (2009).** Con Amos Tversky describió los heurísticos de representatividad, disponibilidad y anclaje. Fuente: nrkbeta, Wikimedia Commons, CC BY‑SA 2.0.
 
 Los heurísticos no son un defecto sin más. Gigerenzer y Goldstein (1996) defendieron que reglas sencillas pueden ser tan precisas como cálculos complejos cuando se ajustan a la estructura del ambiente. Ambas posturas aceptan los mismos datos, pero discrepan sobre si deben leerse como errores o como adaptaciones.
 

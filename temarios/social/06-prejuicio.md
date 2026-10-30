@@ -206,7 +206,7 @@ Las teorías intergrupales explican por qué el prejuicio aparece en grupos ente
 
 ![s](wm-sherif.jpg)
 
-Figura 14.2. **Muzafer Sherif.** Muzafer Sherif (foto de 1967). Autor de los estudios del efecto autocinético y de los campamentos de Robbers Cave. Fuente: autor desconocido, Wikimedia Commons, dominio público.
+Figura 14.2. **Muzafer Sherif (foto de 1967).** Autor de los estudios del efecto autocinético y de los campamentos de Robbers Cave. Fuente: autor desconocido, Wikimedia Commons, dominio público.
 
 El estudio, dirigido por Sherif (figura 14.2), tuvo tres fases:
 
@@ -258,7 +258,7 @@ Ambos se miden con el **Inventario de Sexismo Ambivalente** (ASI). El sexismo be
 
 ![s](wm-crenshaw.jpg)
 
-Figura 14.4. **Kimberlé Crenshaw.** Kimberlé Crenshaw (2018). Acuñó el término interseccionalidad en 1989. Fuente: Mohamed Badarne, Wikimedia Commons, CC BY‑SA 4.0.
+Figura 14.4. **Kimberlé Crenshaw (2018).** Acuñó el término interseccionalidad en 1989. Fuente: Mohamed Badarne, Wikimedia Commons, CC BY‑SA 4.0.
 
 La propuesta de Crenshaw (figura 14.4) es que las categorías sociales (género, origen, clase, orientación sexual, discapacidad) **no se suman sin más**: se combinan y producen experiencias propias de discriminación y de privilegio, que el estudio de cada categoría por separado oculta.
 

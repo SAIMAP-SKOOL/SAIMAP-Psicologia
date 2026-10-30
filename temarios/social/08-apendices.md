@@ -42,8 +42,8 @@
 
 | Mito | Corrección | Unidad |
 | --- | --- | --- |
-| La «fuerza de voluntad» se agota como un músculo | El agotamiento del ego no se replicó en réplicas multilaboratorio (Hagger et al., 2016; Vohs et al., 2021) | 4 |
 | Leer palabras sobre la vejez hace caminar más despacio | Doyen et al. (2012) no lo replicaron; el efecto aparecía cuando los experimentadores lo esperaban | 3 |
+| La «fuerza de voluntad» se agota como un músculo | El agotamiento del ego no se replicó en réplicas multilaboratorio (Hagger et al., 2016; Vohs et al., 2021) | 4 |
 | Las «posturas de poder» cambian las hormonas | Ranehill et al. (2015) no lo replicaron; Carney se desvinculó del efecto en 2016 | 4, 7 |
 | Explicamos nuestra conducta por la situación y la ajena por la persona, siempre | La asimetría actor‑observador es prácticamente nula (Malle, 2006) | 6 |
 | Una autoestima alta produce éxito | Correlaciona con felicidad e iniciativa, pero no causa mejor rendimiento (Baumeister et al., 2003) | 8 |
