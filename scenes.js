@@ -948,6 +948,96 @@
       s += `<g opacity=".45" transform="translate(95 480)"><path d="M-28 -10V-35A28 28 0 0 1 28 -35V-10" stroke="#2D5A7B" stroke-width="12" fill="none"/><rect x="-46" y="-12" width="92" height="72" rx="10" fill="#2D5A7B"/><circle cy="18" r="9" fill="#EEF3F8"/><path d="M0 22V40" stroke="#EEF3F8" stroke-width="6"/></g>`;
       return { tint: '#EEF3F8', road: 'rope', svg: svg(s) }; }
   };
+  // ---------- escenarios de Psicología Social ----------
+  const SO = {
+    // 1 · Qué es la psicología social: ruedas de bicicleta (Triplett) y un corro de personas
+    1: () => { const r = rng(301); let s = `<rect width="400" height="600" fill="#EEF3F8"/>`;
+      s += `<g opacity=".45" stroke="#2D5A7B" stroke-width="5" fill="none"><circle cx="250" cy="170" r="46"/><circle cx="350" cy="170" r="46"/><path d="M250 170l40-60h44l16 60M290 110l-12-20M280 90h22M334 110l-4-14"/></g>`;
+      s += `<g opacity=".5">${[0, 1, 2, 3, 4, 5].map(i => { const a = i / 6 * Math.PI * 2; return pers(f(100 + Math.cos(a) * 52), f(490 + Math.sin(a) * 34), .75, ['#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8'][i % 4], 1); }).join('')}</g>`;
+      s += dots(r, 14, '#9DB4C8', 2, 5, .35);
+      return { tint: '#EEF3F8', road: 'dots', svg: svg(s) }; },
+    // 2 · Cómo investiga: matraz de laboratorio y un gráfico de tamaños del efecto
+    2: () => { let s = paper('#F3F6F2', '#DCE6DA', 25);
+      s += `<g opacity=".5" transform="translate(300 160)"><path d="M-70 70H70" stroke="#26323A" stroke-width="3"/>${[[-55, 14], [-25, 18], [5, 70], [35, 110]].map(([y, w], i) => `<path d="M-70 ${y}h${w}" stroke="${['#C8553D', '#C8553D', '#5FA47A', '#5FA47A'][i]}" stroke-width="4"/><circle cx="${-70 + w}" cy="${y}" r="8" fill="${['#C8553D', '#C8553D', '#5FA47A', '#5FA47A'][i]}"/>`).join('')}<path d="M-70 -80V70" stroke="#26323A" stroke-width="3"/></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M-18 -60V-20L-50 40A10 10 0 0 0 -41 55H41A10 10 0 0 0 50 40L18 -20V-60" fill="#FFFFFF" stroke="#2D5A7B" stroke-width="5"/><path d="M-36 20H36L46 40A8 8 0 0 1 39 50H-39A8 8 0 0 1 -46 40Z" fill="#E0A83A"/><path d="M-26 -60H26" stroke="#2D5A7B" stroke-width="6" stroke-linecap="round"/></g>`;
+      return { tint: '#F3F6F2', road: 'ruler', svg: svg(s) }; },
+    // 3 · Esquemas y heurísticos: carpetas mentales y un ancla
+    3: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += card(300, 130, 120, 84, -8, '#7A5BA8', .45, 3) + card(270, 210, 120, 84, 6, '#2D5A7B', .45, 3);
+      s += `<g opacity=".45" transform="translate(95 470)" stroke="#26323A" stroke-width="7" fill="none" stroke-linecap="round"><circle cy="-62" r="12"/><path d="M0 -50V50M-28 -28H28M-52 20Q-46 54 0 54Q46 54 52 20"/><path d="M-60 26l8 -10l10 10M60 26l-8 -10l-10 10"/></g>`;
+      return { tint: '#F6F1E8', road: 'chain', svg: svg(s) }; },
+    // 4 · Impresiones, afecto y motivación: un rostro cálido (sol) frente a uno frío (copo)
+    4: () => { let s = `<rect width="400" height="600" fill="#FDF3EC"/>`;
+      s += face(290, 160, 58, 'joy', '#C8553D', .5);
+      s += `<g opacity=".45" stroke="#E0A83A" stroke-width="6" stroke-linecap="round">${Array.from({ length: 8 }, (_, i) => { const a = i / 8 * Math.PI * 2; return `<path d="M${f(290 + Math.cos(a) * 74)} ${f(160 + Math.sin(a) * 74)}L${f(290 + Math.cos(a) * 92)} ${f(160 + Math.sin(a) * 92)}"/>`; }).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 475)" stroke="#2D5A7B" stroke-width="6" stroke-linecap="round">${[0, 60, 120].map(a => `<path d="M0 -50V50" transform="rotate(${a})"/><path d="M-12 -38L0 -26L12 -38M-12 38L0 26L12 38" fill="none" transform="rotate(${a})"/>`).join('')}</g>`;
+      return { tint: '#FDF3EC', road: 'ribbon', svg: svg(s) }; },
+    // 5 · Teorías de la atribución: lupa sobre una persona y signos de interrogación
+    5: () => { let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += pers(285, 170, 1.4, '#2D5A7B', .4);
+      s += `<g opacity=".5"><circle cx="295" cy="140" r="62" fill="none" stroke="#26323A" stroke-width="8"/><path d="M340 186l46 46" stroke="#26323A" stroke-width="14" stroke-linecap="round"/></g>`;
+      s += `<g opacity=".45" font-family="Georgia,serif" font-weight="700" fill="#C8553D"><text x="60" y="500" font-size="90">?</text><text x="112" y="470" font-size="60" fill="#E0A83A">?</text><text x="140" y="530" font-size="44" fill="#7A5BA8">?</text></g>`;
+      return { tint: '#EEF2F7', road: 'crumbs', svg: svg(s) }; },
+    // 6 · Sesgos de atribución: balanza inclinada hacia la persona y espejo
+    6: () => { let s = `<rect width="400" height="600" fill="#F4F0F8"/>`;
+      s += `<g opacity=".5" transform="translate(272 170) rotate(-12)"><path d="M0 -10V90M-40 90h80" stroke="#26323A" stroke-width="6" stroke-linecap="round" transform="rotate(12)"/><path d="M-90 -10H90" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><path d="M-90 -10l-24 46h48zM90 -10l-24 46h48z" fill="#E0A83A"/></g>`;
+      s += pers(204, 164, .7, '#C8553D', .55);
+      s += `<g opacity=".45" transform="translate(95 470)"><ellipse rx="52" ry="70" fill="#D9E4EE" stroke="#7A5BA8" stroke-width="7"/><path d="M-20 -30q20 -14 30 6" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M0 70v30M-30 100h60" stroke="#7A5BA8" stroke-width="7" stroke-linecap="round"/></g>`;
+      return { tint: '#F4F0F8', road: 'pegs', svg: svg(s) }; },
+    // 7 · El autoconcepto: persona ante un espejo con su reflejo
+    7: () => { let s = `<rect width="400" height="600" fill="#EAF4F2"/>`;
+      s += `<g opacity=".5"><rect x="250" y="70" width="120" height="190" rx="60" fill="#D7ECE7" stroke="#3E8E9B" stroke-width="7"/></g>` + pers(310, 190, 1.1, '#5FA47A', .35) + pers(215, 205, 1.1, '#2D5A7B', .5);
+      s += bubble(50, 430, 120, 54, '#7A5BA8', .4) + `<g opacity=".55" fill="#FFFFFF"><circle cx="86" cy="457" r="6"/><circle cx="110" cy="457" r="6"/><circle cx="134" cy="457" r="6"/></g>`;
+      return { tint: '#EAF4F2', road: 'wave', svg: svg(s) }; },
+    // 8 · Identidad social: dos grupos con banderines de distinto color
+    8: () => { const r = rng(308); let s = `<rect width="400" height="600" fill="#F7F3EA"/>`;
+      s += crowd(r, 6, 220, 150, 150, 90, ['#2D5A7B'], .7, .45) + `<g opacity=".5"><path d="M300 60V140" stroke="#26323A" stroke-width="4"/><path d="M300 62l50 16l-50 16z" fill="#2D5A7B"/></g>`;
+      s += crowd(r, 5, 40, 470, 120, 70, ['#C8553D'], .7, .45) + `<g opacity=".5"><path d="M100 390V460" stroke="#26323A" stroke-width="4"/><path d="M100 392l46 15l-46 15z" fill="#C8553D"/></g>`;
+      return { tint: '#F7F3EA', road: 'talk', svg: svg(s) }; },
+    // 9 · Actitudes y su medida: escala Likert y pulgar arriba
+    9: () => { let s = `<rect width="400" height="600" fill="#EEF4FA"/>`;
+      s += `<g opacity=".5"><path d="M210 150H380" stroke="#26323A" stroke-width="4"/>${[0, 1, 2, 3, 4].map(i => `<circle cx="${215 + i * 40}" cy="150" r="14" fill="${i === 3 ? '#5FA47A' : '#FFFFFF'}" stroke="#2D5A7B" stroke-width="4"/>`).join('')}</g>`;
+      s += `<g opacity=".5"><path d="M210 220H380" stroke="#26323A" stroke-width="4"/>${[0, 1, 2, 3, 4, 5, 6].map(i => `<rect x="${206 + i * 26}" y="210" width="18" height="18" rx="3" fill="${i === 5 ? '#E0A83A' : '#FFFFFF'}" stroke="#7A5BA8" stroke-width="3"/>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 475)" fill="#5FA47A"><rect x="-46" y="-6" width="26" height="60" rx="6"/><path d="M-14 -6L4 -54Q14 -64 22 -50L16 -12H44Q58 -10 54 4L44 46Q40 56 28 56H-14Z"/></g>`;
+      return { tint: '#EEF4FA', road: 'grid', svg: svg(s) }; },
+    // 10 · De la actitud a la conducta: carta de respuesta y huellas que se alejan
+    10: () => { let s = `<rect width="400" height="600" fill="#F6F2EC"/>`;
+      s += `<g opacity=".5" transform="translate(295 165) rotate(-6)"><rect x="-80" y="-56" width="160" height="112" rx="8" fill="#FFFFFF" stroke="#C8553D" stroke-width="5"/><path d="M-80 -56L0 10L80 -56" fill="none" stroke="#C8553D" stroke-width="5"/></g>`;
+      s += `<g opacity=".45" fill="#2D5A7B">${[[60, 560, -10], [100, 520, 8], [76, 470, -10], [120, 430, 8]].map(([x, y, a]) => `<ellipse cx="${x}" cy="${y}" rx="12" ry="20" transform="rotate(${a} ${x} ${y})"/>`).join('')}</g>`;
+      return { tint: '#F6F2EC', road: 'trail', svg: svg(s) }; },
+    // 11 · Disonancia cognitiva: monedas de 1 y 20 y una onda tensa
+    11: () => { let s = `<rect width="400" height="600" fill="#FBF3E6"/>`;
+      s += `<g opacity=".5" font-family="Helvetica,Arial,sans-serif" font-weight="700" text-anchor="middle"><circle cx="250" cy="130" r="40" fill="#E0A83A"/><text x="250" y="144" font-size="38" fill="#FFFFFF">1</text><circle cx="335" cy="200" r="52" fill="#C8553D"/><text x="335" y="216" font-size="42" fill="#FFFFFF">20</text></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M-70 0L-50 -30L-30 28L-10 -36L10 30L30 -26L50 22L70 0" stroke="#7A5BA8" stroke-width="7" fill="none" stroke-linejoin="round"/><circle cx="-70" cy="0" r="8" fill="#26323A"/><circle cx="70" cy="0" r="8" fill="#26323A"/></g>`;
+      return { tint: '#FBF3E6', road: 'chain', svg: svg(s) }; },
+    // 12 · Persuasión: megáfono y bocadillos
+    12: () => { let s = `<rect width="400" height="600" fill="#EFF5EE"/>`;
+      s += `<g opacity=".5" transform="translate(290 160) rotate(-14)"><path d="M-70 -22L30 -60V60L-70 22Z" fill="#C8553D"/><rect x="-92" y="-24" width="24" height="48" rx="6" fill="#26323A"/><path d="M-60 22l8 40h20l-6 -34" fill="#26323A"/><path d="M48 -40q30 40 0 80M66 -60q46 60 0 120" stroke="#E0A83A" stroke-width="6" fill="none" stroke-linecap="round"/></g>`;
+      s += bubble(40, 420, 130, 56, '#2D5A7B', .4) + bubble(100, 500, 110, 50, '#5FA47A', .4, 'r');
+      return { tint: '#EFF5EE', road: 'talk', svg: svg(s) }; },
+    // 13 · Estereotipos: cuadrícula de calidez y competencia con figuras
+    13: () => { let s = `<rect width="400" height="600" fill="#F3F1F8"/>`;
+      s += `<g opacity=".45"><rect x="210" y="60" width="80" height="80" fill="#E0A83A"/><rect x="292" y="60" width="80" height="80" fill="#5FA47A"/><rect x="210" y="142" width="80" height="80" fill="#C8553D"/><rect x="292" y="142" width="80" height="80" fill="#7A5BA8"/></g>`;
+      s += pers(250, 115, .55, '#FFFFFF', .7) + pers(332, 115, .55, '#FFFFFF', .7) + pers(250, 197, .55, '#FFFFFF', .7) + pers(332, 197, .55, '#FFFFFF', .7);
+      s += `<g opacity=".45" transform="translate(95 470)"><rect x="-60" y="-50" width="120" height="100" rx="10" fill="#FFFFFF" stroke="#26323A" stroke-width="5"/><path d="M-40 -20h80M-40 0h60M-40 20h70" stroke="#2D5A7B" stroke-width="6" stroke-linecap="round"/><circle cx="46" cy="-50" r="16" fill="#C8553D"/></g>`;
+      return { tint: '#F3F1F8', road: 'grid', svg: svg(s) }; },
+    // 14 · Prejuicio y discriminación: un muro y un puente que une dos grupos
+    14: () => { const r = rng(314); let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += `<g opacity=".45">${[0, 1, 2, 3, 4].map(row => [0, 1, 2, 3].map(c => `<rect x="${210 + c * 42 + (row % 2) * 21}" y="${80 + row * 26}" width="38" height="22" rx="3" fill="#C8553D"/>`).join('')).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 480)"><path d="M-80 20Q0 -50 80 20" stroke="#5FA47A" stroke-width="10" fill="none"/><path d="M-80 20H80" stroke="#26323A" stroke-width="5"/>${[-50, -25, 0, 25, 50].map(x => `<path d="M${x} 20V${f(20 - (1 - (x / 80) * (x / 80)) * 35)}" stroke="#5FA47A" stroke-width="3"/>`).join('')}</g>` + pers(30, 500, .5, '#2D5A7B', .45) + pers(160, 500, .5, '#E0A83A', .45);
+      return { tint: '#EEF2F7', road: 'street', svg: svg(s) }; },
+    // 15 · Influencia social y grupos: las líneas de Asch y una fila de cómplices
+    15: () => { let s = `<rect width="400" height="600" fill="#F2F5F9"/>`;
+      s += `<g opacity=".55" stroke-linecap="round" stroke-width="8"><path d="M230 230V110" stroke="#26323A"/><path d="M300 230V150" stroke="#2D5A7B"/><path d="M335 230V110" stroke="#5FA47A"/><path d="M370 230V80" stroke="#2D5A7B"/></g>`;
+      s += [0, 1, 2, 3].map(i => pers(50 + i * 34, 500, .62, '#8A949B', .45)).join('') + pers(186, 500, .62, '#C8553D', .55);
+      s += bubble(40, 400, 100, 44, '#8A949B', .35);
+      return { tint: '#F2F5F9', road: 'pegs', svg: svg(s) }; },
+    // 16 · Agresión, ayuda y atracción: corazones y una mano que ayuda a levantarse
+    16: () => { let s = `<rect width="400" height="600" fill="#FCF1F0"/>`;
+      s += heart(290, 150, 3.4, '#C8553D', .45) + heart(352, 92, 1.8, '#E0A83A', .45) + heart(232, 230, 1.4, '#7A5BA8', .4);
+      s += pers(70, 500, .75, '#2D5A7B', .5) + `<g opacity=".5" transform="translate(140 490) rotate(25)">${pers(0, 0, .75, '#5FA47A', 1)}</g><path d="M86 470Q110 456 128 470" stroke="#26323A" stroke-width="6" fill="none" opacity=".45" stroke-linecap="round"/>`;
+      return { tint: '#FCF1F0', road: 'rope', svg: svg(s) }; }
+  };
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -957,5 +1047,6 @@
     'memoria': n => cache['r' + n] || (cache['r' + n] = MM[n] ? MM[n]() : null),
     'aprendizaje': n => cache['x' + n] || (cache['x' + n] = AL[n] ? AL[n]() : null),
     'desarrollo-infancia': n => cache['d' + n] || (cache['d' + n] = DI[n] ? DI[n]() : null),
-    'historia': n => cache['h' + n] || (cache['h' + n] = HC[n] ? HC[n]() : null) };
+    'historia': n => cache['h' + n] || (cache['h' + n] = HC[n] ? HC[n]() : null),
+    'social': n => cache['s' + n] || (cache['s' + n] = SO[n] ? SO[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
