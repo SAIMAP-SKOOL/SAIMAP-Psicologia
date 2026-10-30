@@ -23,7 +23,7 @@ window.SP_CATALOG = {
     { id: 'memoria', t: 'Psicología de la Memoria', area: 'basicos', estado: 'ok', color: 1 },
     { id: 'aprendizaje', t: 'Psicología del Aprendizaje', area: 'basicos', estado: 'ok', color: 2 },
     { id: 'desarrollo-infancia', t: 'Desarrollo: Infancia y Adolescencia', area: 'des', estado: 'ok', color: 3 },
-    { id: 'social', t: 'Psicología Social', area: 'soc', estado: 'soon' },
+    { id: 'social', t: 'Psicología Social', area: 'soc', estado: 'ok', color: 1 },
     { id: 'historia', t: 'Historia, Ciencia y Profesión', area: 'fund', estado: 'ok', color: 4 },
     { id: 'evaluacion-1', t: 'Evaluación Psicológica I', area: 'pers', estado: 'soon' },
     { id: 'evaluacion-2', t: 'Evaluación Psicológica II', area: 'pers', estado: 'soon' },
