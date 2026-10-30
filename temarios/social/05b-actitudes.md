@@ -27,7 +27,7 @@ La conducta ya realizada suele ser lo más difícil de cambiar: el billete está
 
 La disonancia también influye en la búsqueda de información. Festinger propuso que las personas tienden a la **exposición selectiva**: buscan datos que apoyan sus decisiones y evitan los que las cuestionan.
 
-Antes de la obra de 1957, Festinger, Riecken y Schachter (1956) habían observado desde dentro un pequeño grupo que esperaba el fin del mundo en una fecha concreta. Cuando la profecía no se cumplió, los miembros más comprometidos no abandonaron la creencia: la reinterpretaron y aumentaron sus esfuerzos por convencer a otros. Para ellos, reconocer el error suponía admitir que habían renunciado a mucho por nada.
+Festinger, Riecken y Schachter (1956) habían observado desde dentro un pequeño grupo que esperaba el fin del mundo en una fecha concreta. Cuando la profecía falló, los miembros más comprometidos no abandonaron la creencia: la reinterpretaron y redoblaron sus esfuerzos por convencer a otros.
 
 La teoría era muy general y hacía predicciones contrarias al sentido común. Esa generalidad fue también su punto débil, porque obligó a precisar después en qué condiciones aparece la disonancia (apartado 11.3).
 
