@@ -274,7 +274,7 @@ Un ejemplo: un programa escolar que solo repite a los alumnos que «son geniales
 
 Si la valoración exacta fuera el motivo dominante, las personas se verían tal como son. La evidencia muestra otra cosa. Taylor y Brown (1988) revisaron la literatura y describieron tres **ilusiones positivas** habituales en la población sin trastornos:
 
-1. **Autoevaluación inflada.** La mayoría se considera por encima de la media en cualidades deseables: más honesta, más justa, mejor compañera. Es el **efecto mejor que la media**, que, por definición, no puede ser cierto para todos.
+1. **Autovaloración inflada.** La mayoría se considera por encima de la media en cualidades deseables: más honesta, más justa, mejor compañera. Es el **efecto mejor que la media**, que, por definición, no puede ser cierto para todos.
 2. **Ilusión de control.** Las personas sobrestiman su influencia sobre sucesos que dependen del azar. En los estudios de Langer (1975), quienes habían elegido ellos mismos su boleto de lotería pedían más dinero por venderlo que quienes lo habían recibido asignado, como si elegir aumentara las probabilidades.
 3. **Optimismo irreal.** Weinstein (1980) mostró que las personas creen que les ocurrirán más cosas buenas y menos malas que a sus semejantes: menos divorcios, menos enfermedades, menos accidentes.
 
@@ -282,7 +282,7 @@ La tesis más llamativa de Taylor y Brown fue que estas ilusiones **no son un fa
 
 | Ilusión | Qué se sobrestima | Posible beneficio | Posible coste |
 | --- | --- | --- | --- |
-| Autoevaluación inflada | Cualidades propias | Ánimo, iniciativa | Sorpresas ante la crítica, conflictos |
+| Autovaloración inflada | Cualidades propias | Ánimo, iniciativa | Sorpresas ante la crítica, conflictos |
 | Ilusión de control | Influencia sobre el azar | Persistencia | Decisiones arriesgadas, juego |
 | Optimismo irreal | Probabilidad de lo bueno | Menos ansiedad | Menos prevención (revisiones, ahorro) |
 

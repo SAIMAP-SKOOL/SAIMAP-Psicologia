@@ -586,7 +586,7 @@ window.COURSE.units.push(
       "Teoría de la autoestima|Sociómetro: Leary et al. (1995); aceptación social; indicador de combustible|Manejo del terror: Greenberg, Pyszczynski y Solomon (1986); conciencia de la mortalidad; visión cultural del mundo"
     ] },
   { t: "Las ilusiones positivas",
-    tip: "Taylor y Brown (1988) describieron tres ilusiones positivas: autoevaluación inflada (efecto mejor que la media), ilusión de control (Langer, 1975) y optimismo irreal (Weinstein, 1980). Sostuvieron que favorecen el bienestar y citaron el realismo depresivo (Alloy y Abramson, 1979). Las críticas apuntan al grado, el ámbito y la medida, y la síntesis razonable es que lo adaptativo es un sesgo positivo ligero.",
+    tip: "Taylor y Brown (1988) describieron tres ilusiones positivas: autovaloración inflada (efecto mejor que la media), ilusión de control (Langer, 1975) y optimismo irreal (Weinstein, 1980). Sostuvieron que favorecen el bienestar y citaron el realismo depresivo (Alloy y Abramson, 1979). Las críticas apuntan al grado, el ámbito y la medida, y la síntesis razonable es que lo adaptativo es un sesgo positivo ligero.",
     v: [
       "Efecto mejor que la media=Considerarse por encima de la media en cualidades deseables",
       "Ilusión de control=Sobrestimar la propia influencia sobre sucesos que dependen del azar",
@@ -621,7 +621,7 @@ window.COURSE.units.push(
     ],
     seq: [],
     cls: [
-      "Ilusión positiva|Autoevaluación inflada: mejor que la media; más honesto que los demás|Ilusión de control: boleto de lotería; Langer (1975)|Optimismo irreal: menos divorcios; Weinstein (1980)"
+      "Ilusión positiva|Autovaloración inflada: mejor que la media; más honesto que los demás|Ilusión de control: boleto de lotería; Langer (1975)|Optimismo irreal: menos divorcios; Weinstein (1980)"
     ] }
 ] }
 );
