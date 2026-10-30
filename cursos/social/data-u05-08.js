@@ -206,7 +206,7 @@ window.COURSE.units.push(
       "Información disponible=El actor conoce su conducta en otras situaciones y el observador no",
       "Storms (1973)=Al verse en vídeo desde el interlocutor, los participantes se atribuían más rasgos",
       "Malle (2006)=Metaanálisis de 173 estudios con un efecto global casi nulo",
-      "Tamaño del efecto d=Índice que osciló entre −0,016 y 0,095 en ese metaanálisis",
+      "Tamaño del efecto d=Índice que osciló entre −0,016 y 0,095 en el metaanálisis de Malle",
       "Explicación alternativa=El sesgo de autoservicio, que explica parte de las diferencias halladas"
     ],
     g: [
@@ -249,7 +249,7 @@ window.COURSE.units.push(
     ],
     g: [
       "En el estudio del cartel, quienes lo llevarían estimaron que aceptaría un ___ de sus compañeros.|64,6 %|35,4 %|68,8 %",
-      "El sesgo de autoservicio es menor en personas con ___.|depresión|ansiedad|autoestima alta",
+      "El sesgo de autoservicio es menor en personas con ___.|depresión|narcisismo|autoestima alta",
       "La explicación ___ del autoservicio sostiene que un éxito encaja con los planes y el esfuerzo.|cognitiva|motivacional|cultural",
       "Creerse más honrado que la mayoría es un ejemplo de falsa ___.|singularidad|consenso|unanimidad",
       "Si un aficionado dice que la falta dura de un jugador de su equipo fue sin querer, hace una atribución ___.|externa|interna|estable"
@@ -264,7 +264,7 @@ window.COURSE.units.push(
       "Nerea cree que casi todos sus compañeros comparten su rechazo al nuevo horario, y también que pocos son tan constantes como ella. ¿Qué sesgos muestra, por orden?|Falso consenso y falsa singularidad|Falsa singularidad y falso consenso|Falso consenso y autoservicio|Para opiniones aparece el falso consenso, y para capacidades y virtudes, la falsa singularidad.",
       "Una aficionada atribuye la entrada dura de un rival a que es un jugador sucio, y la de uno de su equipo a la tensión del partido. ¿Qué sesgo es?|El error último|El error fundamental|El falso consenso|Lo negativo del exogrupo se atribuye a su forma de ser, y lo del endogrupo, a las circunstancias. El error fundamental se aplica a individuos.",
       "¿Qué dos componentes suelen distinguirse en el sesgo de autoservicio?|Autoensalzamiento y autoprotección|Autoverificación y autoafirmación|Falso consenso y falsa singularidad|El autoensalzamiento se apropia de los éxitos, y la autoprotección se desentiende de los fracasos.",
-      "¿En qué muestras era menor el sesgo de autoservicio según Mezulis et al. (2004)?|Depresión y algunas asiáticas|Ansiedad y algunas europeas|Adolescentes y personas mayores|Encaja con el estilo atribucional depresivo, que explica los fracasos por causas internas."
+      "¿En qué muestras era menor el sesgo de autoservicio según Mezulis et al. (2004)?|Depresión y algunas asiáticas|Narcisismo y algunas europeas|Varones y algunas estadounidenses|Encaja con el estilo atribucional depresivo, que explica los fracasos por causas internas."
     ],
     inc: [
       "Sobre estos sesgos|El falso consenso es un efecto grande, con d de 0,96|El autoservicio tiene una explicación motivacional|La falsa singularidad afecta a capacidades y virtudes|El falso consenso es fiable y moderado (Mullen et al., 1985). El d de 0,96 corresponde al sesgo de autoservicio."
@@ -376,13 +376,13 @@ window.COURSE.units.push(
       "Según Bem, conocemos nuestras actitudes de un modo distinto a como conocemos las de los demás.|F|Cuando los estados internos son débiles o ambiguos, las inferimos de la conducta igual que haríamos con otra persona.",
       "El efecto de sobrejustificación aparece sobre todo con recompensas esperadas y ligadas a la mera realización de la tarea.|V",
       "Según Wills (1981), la comparación descendente se usa sobre todo cuando la autoestima está amenazada.|V",
-      "El efecto del power posing (Carney, Cuddy y Yap, 2010) se ha replicado de forma consistente.|F|No se replicó (Ranehill et al., 2015), y la propia Carney se desvinculó de él en 2016."
+      "En Lepper, Greene y Nisbett (1973), los niños del diploma por sorpresa dibujaron después menos que los que no recibieron nada.|F|Dibujaron menos solo los del premio prometido: el efecto aparece con recompensas esperadas."
     ],
     q: [
       "A Hugo le encanta tocar la guitarra. Sus padres empiezan a pagarle cada vez que practica, y meses después apenas toca si no hay pago. Según la autopercepción, ¿qué ha pasado?|Reinterpreta que toca por el pago|Siente disonancia por cobrar|Se compara con otros guitarristas|Es la sobrejustificación: la recompensa esperada lleva a atribuir la conducta a una causa externa, como en Lepper, Greene y Nisbett (1973).",
       "Según Fazio, Zanna y Cooper (1977), ¿cuándo explica mejor la autopercepción el cambio de actitud?|Tras conductas en la latitud de aceptación|Tras conductas claramente contraactitudinales|Tras conductas impuestas con amenazas|Las conductas claramente contraactitudinales generan activación desagradable y son terreno de la disonancia.",
       "Tras un despido, Rosa piensa en conocidos que lo están pasando peor y se siente aliviada. ¿Qué hace?|Una comparación descendente|Una comparación ascendente|Una autoafirmación|Compararse con quien está peor protege el ánimo, sobre todo cuando la autoestima está amenazada (Wills, 1981).",
-      "¿Qué concluyó el proyecto Many Smiles (Coles et al., 2022) sobre la retroalimentación facial?|Efecto pequeño al imitar o sonreír|Efecto grande con el lápiz en los dientes|Ningún efecto con ninguna técnica|Halló un efecto pequeño sobre el ánimo al imitar una sonrisa o sonreír a propósito. Con el lápiz, los resultados no fueron concluyentes."
+      "Marta se descubre eligiendo siempre el documental en lugar de la película de acción y concluye: «parece que me interesa la ciencia». ¿Qué teoría lo explica?|La autopercepción de Bem|La comparación social|La disonancia cognitiva|Con estados internos débiles, inferimos nuestras actitudes de la propia conducta, igual que haría un observador."
     ],
     inc: [
       "Sobre la comparación social|Se hace preferentemente con personas muy distintas|Se usa cuando falta un criterio objetivo|La ascendente puede inspirar o hacer sentir inferior|Festinger (1954) propuso que nos comparamos preferentemente con personas similares en lo relevante."

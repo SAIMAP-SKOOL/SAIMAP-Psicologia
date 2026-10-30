@@ -256,7 +256,7 @@ window.COURSE.units.push(
       "La conclusión de la crisis de replicación es que casi ningún efecto de la psicología social se replica.|F|Unos efectos son sólidos y otros no. El problema era que la literatura publicada no permitía distinguirlos.",
       "En la Open Science Collaboration, los efectos replicados fueron en promedio bastante más pequeños que los originales.|V",
       "Añadir participantes hasta lograr un resultado significativo es una práctica de investigación cuestionable.|V",
-      "Harmon-Jones y Harmon-Jones (2024) aceptaron que la réplica de la disonancia refutaba el papel de la elección.|F|Objetaron que la manipulación de baja elección fue débil. El papel de la elección sigue en debate."
+      "La Open Science Collaboration (2015) aplicó trece efectos en decenas de laboratorios.|F|Eso fue el primer Many Labs (Klein et al., 2014). La OSC intentó replicar 100 estudios publicados."
     ],
     q: [
       "Una investigadora prueba cinco análisis distintos de sus datos y publica solo el que da significativo, sin mencionar los demás. ¿Qué describe?|Una práctica cuestionable|Un caso de fraude|Un sesgo de publicación|No inventa datos, pero la flexibilidad analítica no declarada dispara los falsos positivos, como mostraron Simmons et al. (2011).",
@@ -281,7 +281,7 @@ window.COURSE.units.push(
       "Revisión narrativa=Resumen de la literatura hecho por un autor sin cálculos comunes",
       "Prerregistro=Publicar hipótesis, diseño y plan de análisis antes de recoger datos",
       "Informe registrado=Artículo aceptado por su pregunta y su método antes de conocer resultados",
-      "Datos abiertos=Materiales y datos disponibles para que cualquiera revise los análisis"
+      "Datos abiertos=Materiales y registros disponibles para que cualquiera revise los análisis"
     ],
     g: [
       "Según Cohen (1988), una d de 0,5 se considera un efecto ___.|mediano|pequeño|grande",

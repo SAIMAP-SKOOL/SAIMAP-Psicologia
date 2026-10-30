@@ -143,7 +143,7 @@ window.COURSE.units.push(
     q: [
       "Una empresa propone usar el IAT para descartar a candidatos con «sesgo oculto». ¿Qué objeción es la más sólida?|No está validado para uso individual|Mide solo actitudes conscientes|Exige un aparato que detecte mentiras|Su fiabilidad test‑retest es modesta: es una herramienta de investigación con grupos, no un detector personal.",
       "En un bloque del IAT, «joven» y «agradable» comparten tecla, y en otro, «mayor» y «agradable». Ana responde más rápido en el primero. ¿Qué se interpreta?|Una asociación joven‑positivo más fuerte|Una actitud explícita negativa hacia mayores|Una conducta discriminatoria probable|Se infiere la fuerza relativa de una asociación en la memoria, no una conducta ni una actitud declarada.",
-      "¿Qué interpretaciones se han dado a la baja correlación entre medidas implícitas y explícitas?|Dos actitudes o asociaciones culturales|Error de medida o deseabilidad social|Ruta central o ruta periférica|Para unos hay una actitud automática y otra deliberada. Para otros, el IAT capta asociaciones culturales y factores de la tarea.",
+      "¿Qué interpretaciones se han dado a la baja correlación entre medidas implícitas y explícitas?|Dos actitudes o asociaciones culturales|Primacía o recencia de la respuesta|Ruta central o ruta periférica|Para unos hay una actitud automática y otra deliberada. Para otros, el IAT capta asociaciones culturales y factores de la tarea.",
       "¿Para qué se consideran útiles hoy las medidas implícitas?|Para investigar con grupos|Para diagnosticar a individuos|Para cambiar la conducta|Captan asociaciones automáticas útiles en la investigación con grupos, pero no diagnostican ni cambian la conducta."
     ],
     inc: [

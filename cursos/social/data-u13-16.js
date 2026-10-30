@@ -182,7 +182,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Ante la llegada de refugiados, a Andrés le preocupa sobre todo que «quieran los mismos derechos». ¿Qué dimensión explica mejor su rechazo?|La SDO|La RWA|La escala F|Remite a la preferencia por la jerarquía entre grupos. Con RWA alta preocuparía más que «cambien nuestras costumbres».",
-      "¿Qué crítica metodológica recibió la escala F?|Sus ítems iban en la misma dirección|Su muestra procedía de un solo país|Medía actitudes y no la conducta|La tendencia a estar de acuerdo con cualquier afirmación inflaba las puntuaciones.",
+      "¿Qué crítica metodológica recibió la escala F?|Sus ítems iban en la misma dirección|Se basaba en tiempos de reacción|Medía actitudes y no la conducta|La tendencia a estar de acuerdo con cualquier afirmación inflaba las puntuaciones.",
       "¿Qué límite de la personalidad autoritaria ilustra la segregación legal en EE. UU.?|Que el prejuicio puede ser una norma compartida|Que la escala F inflaba las puntuaciones|Que la crianza punitiva es difícil de medir|Cuando la discriminación está en las leyes, no hace falta una personalidad especial: basta con conformarse a la norma.",
       "¿Qué autor reformuló el autoritarismo en tres componentes, con una escala mejor construida?|Altemeyer|Pratto|Adorno|Altemeyer (1981) propuso el autoritarismo de derechas. Pratto et al. definieron la SDO, y Adorno et al., la escala F."
     ],
@@ -286,18 +286,18 @@ window.COURSE.units.push(
     g: [
       "En Quillian et al. (2017), los blancos recibían un ___ más de llamadas que los latinos con currículos equivalentes.|24 %|36 %|50 %",
       "La discriminación hacia los afroamericanos en la contratación no había disminuido desde ___.|1989|1964|2001",
-      "Según Oswald et al. (2013), el IAT predice la discriminación étnico‑racial con una correlación de ___.|0,148|0,350|0,480",
+      "Quillian y Lee (2023) reunieron ___ experimentos de campo de seis países.|90|28|515",
       "Entre las condiciones de Allport figuran el igual estatus, las metas comunes, la cooperación y el apoyo ___.|institucional|familiar|económico",
       "Paluck, Green y Green (2019) revisaron solo los estudios ___ con seguimiento de al menos un día.|aleatorizados|correlacionales|cualitativos"
     ],
     tf: [
       "Según Pettigrew y Tropp (2006), las condiciones de Allport son imprescindibles para que el contacto tenga efecto.|F|Favorecen el efecto, pero no son imprescindibles: el contacto se asoció con menos prejuicio sin todas ellas.",
       "En los estudios prerregistrados revisados por Paluck, Green y Green (2019), el efecto del contacto fue casi nulo.|V",
-      "Forscher et al. (2019) hallaron que los cambios en las medidas implícitas no se traducen en cambios de conducta.|V",
+      "En Quillian et al. (2017), la ventaja de los candidatos blancos fue mayor frente a los afroamericanos que frente a los latinos.|V",
       "Quillian y Lee (2023) encontraron descensos de la discriminación en la contratación en la mayoría de los países.|F|No los encontraron en la mayoría, en contraste con la caída del prejuicio declarado."
     ],
     q: [
-      "Una consultora propone usar el IAT para detectar qué empleados son racistas y apartarlos de los tribunales de selección. ¿Qué dice la evidencia?|No sirve para diagnosticar a individuos|Es válido si se repite varias veces|Detecta bien el prejuicio no declarado|El IAT predice poco la conducta (r de 0,148) y sirve para estudiar promedios de grupo, no para diagnosticar a una persona.",
+      "Laura no conoce a nadie del exogrupo, pero sabe que su mejor amiga tiene amigos en él, y su prejuicio baja. ¿Qué variante del contacto actúa?|Contacto extendido|Contacto imaginado|Recategorización|Basta saber que alguien del propio grupo tiene amigos en el exogrupo: no exige trato directo.",
       "Lai et al. (2016) probaron 9 intervenciones breves sobre el sesgo implícito. ¿Qué hallaron?|Efectos que no duraban horas o días|Efectos estables durante meses|Ningún efecto, ni siquiera inmediato|Todas reducían el sesgo implícito en el momento, pero ninguna mantenía el efecto horas o días después.",
       "«Todos somos de este barrio» es un ejemplo de…|recategorización|contacto extendido|contacto imaginado|Crear una identidad endogrupal común que incluya a ambos grupos es la recategorización de Gaertner y Dovidio.",
       "¿Por qué los experimentos de campo miden la discriminación mejor que las encuestas?|No dependen de lo que se declara|Usan muestras más representativas|Miden el prejuicio implícito|Comparan llamadas reales ante currículos equivalentes, sin depender de lo que la gente está dispuesta a declarar."
@@ -407,7 +407,7 @@ window.COURSE.units.push(
       "Según la teoría del impulso, un pianista ___ toca mejor ante el público.|experto|novato|ansioso"
     ],
     tf: [
-      "La teoría del impulso, que explica la facilitación social, se debe a Triplett (1898).|F|Es de Zajonc (1965). Triplett hizo las primeras observaciones con ciclistas y carretes.",
+      "La explicación de distracción‑conflicto de Baron (1986) atribuye la activación al temor a ser evaluado.|F|El temor a la evaluación es la propuesta de Cottrell (1968). Baron la atribuye a la pugna entre atender a la tarea y a los demás.",
       "Según Cottrell (1968), lo que activa no es la mera presencia de otros, sino que puedan evaluarnos.|V",
       "En el estudio de Latané, Williams y Harkins, el menor ruido por persona en grupo se debía solo a la falta de coordinación.|F|No solo: también había menos esfuerzo individual, que es lo que se llama holgazanería social.",
       "Facilitación y holgazanería no se contradicen: la clave está en si hay evaluación individual.|V"
