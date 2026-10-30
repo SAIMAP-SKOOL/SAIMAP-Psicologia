@@ -196,7 +196,7 @@ Las teorías de la Unidad 5 describen a un perceptor que razona como un científ
 
 Figura 6.1. **Diseño de Jones y Harris (1967).** Se cruzaron la postura del ensayo (a favor o en contra de Castro) y la libertad del autor (postura elegida o asignada). Incluso con la postura asignada, la actitud atribuida seguía el sentido del ensayo, aunque de forma más moderada. Elaboración propia.
 
-Como muestra la figura 6.1, con la postura elegida se atribuía al autor la actitud del ensayo, como era de esperar. Lo sorprendente fue la asignación: aunque sabían que el autor no había podido elegir, seguían pensando que quien había escrito a favor de Castro era más favorable a él que quien había escrito en contra. La situación se tuvo en cuenta, pero **no lo suficiente**.
+Como muestra la figura 6.1, con la postura elegida se atribuía al autor la actitud del ensayo. Lo sorprendente fue la asignación: aunque sabían que el autor no había podido elegir, seguían pensando que quien había escrito a favor de Castro era más favorable a él que quien había escrito en contra. La situación se tuvo en cuenta, pero **no lo suficiente**.
 
 **El estudio del concurso.** Ross, Amabile y Steinmetz (1977) formaron parejas al azar en un concurso de preguntas: uno inventaba preguntas difíciles sobre sus propios conocimientos y el otro debía responderlas. Los observadores, y también quienes respondían, juzgaban **más culto** a quien preguntaba, aunque su ventaja procedía solo del papel que le había tocado.
 
