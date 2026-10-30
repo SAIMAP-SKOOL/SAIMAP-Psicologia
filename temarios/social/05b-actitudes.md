@@ -73,7 +73,7 @@ La teoría original no aclaraba cuándo una incoherencia genera disonancia. ¿Pr
 3. La persona se siente **responsable**, porque eligió actuar así.
 4. La persona experimenta una **activación** fisiológica y la **atribuye a su propia conducta**.
 
-El último punto se apoya en estudios de atribución errónea. En el de Zanna y Cooper (1974), los participantes que tomaban una pastilla inerte, presentada como algo que producía tensión, apenas cambiaban de actitud tras escribir un ensayo contrario a su opinión. Podían atribuir el malestar a la pastilla y no a lo que habían hecho.
+El último punto se apoya en estudios de atribución errónea. En el de Zanna y Cooper (1974), quienes tomaban una pastilla inerte presentada como causante de tensión apenas cambiaban de actitud tras un ensayo contrario a su opinión: atribuían el malestar a la pastilla.
 
 **La autopercepción.** Bem (1967, 1972) ofreció una alternativa sin estado aversivo (Unidad 7). Cuando nuestras actitudes son débiles o ambiguas, las inferimos de nuestra conducta, igual que haría un observador externo. El participante que miente por 1 dólar razonaría así: «si lo he dicho por tan poco, será que me gustó». Durante años se discutió cuál de las dos teorías era correcta. Fazio, Zanna y Cooper (1977) propusieron un reparto: la autopercepción explica mejor los cambios tras conductas que caen **dentro de la latitud de aceptación** de la persona, es decir, que no se alejan mucho de su postura; la disonancia explica mejor los cambios tras conductas **claramente contrarias** a la actitud.
 
@@ -304,13 +304,6 @@ Sobre estos principios se apoyan varias **técnicas de cumplimiento** clásicas:
 - **Puerta en la cara** (Cialdini et al., 1975). Se empieza con una petición exagerada que se espera que la persona rechace y luego se hace una más moderada, la que se buscaba desde el principio. La retirada parece una concesión que pide otra concesión a cambio: reciprocidad.
 - **Bola baja** (Cialdini et al., 1978). Se consigue el compromiso con una oferta atractiva y después se empeoran las condiciones. Muchas personas mantienen su decisión porque ya se han comprometido con ella. Un ejemplo es el precio de un billete que sube con los «gastos de gestión» en el último paso de la compra.
 - **«Esto no es todo».** Antes de que el cliente responda, se mejora la oferta con un regalo o un descuento.
-
-| Técnica | Secuencia | Principio |
-| --- | --- | --- |
-| Pie en la puerta | Pequeña, luego grande | Compromiso y coherencia |
-| Puerta en la cara | Exagerada (rechazada), luego moderada | Reciprocidad de concesiones |
-| Bola baja | Oferta buena, luego condiciones peores | Compromiso |
-| «Esto no es todo» | Oferta mejorada antes de responder | Reciprocidad |
 
 Mucha gente cree que la publicidad influye en los demás pero no en ella misma, un sesgo conocido como **efecto de tercera persona**. Estas técnicas actúan cuando se procesa poco, así que la mejor defensa es detenerse a pensar en la petición en sí. La influencia de los grupos y la obediencia se amplían en la Unidad 15 y en la asignatura de Psicología de la Interacción Social.
 
