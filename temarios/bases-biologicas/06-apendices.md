@@ -122,26 +122,26 @@ Weaver, I. C. G. et al. (2004). Epigenetic programming by maternal behavior. *Na
 
 ## Créditos de las ilustraciones
 
-Las ilustraciones proceden de Wikimedia Commons y se usan según sus licencias. En las marcadas con asterisco (*), SAIMAP ha traducido los rótulos al español; el resto se reproduce sin cambios, salvo el fondo y el tamaño. Las figuras 2.1, 12.1 y 14.1 son de elaboración propia.
+Las ilustraciones proceden de Wikimedia Commons y se usan según sus licencias. En las marcadas con asterisco (∗), SAIMAP ha traducido los rótulos al español; el resto se reproduce sin cambios, salvo el fondo y el tamaño. Las figuras 2.1, 12.1 y 14.1 son de elaboración propia.
 
 | Figura | Autoría | Licencia |
 | --- | --- | --- |
 | 5.1 Meninges | Mysid, a partir de SEER (National Cancer Institute); traducción de Angelito7 y Jmarchn | CC BY-SA 3.0 |
-| 5.2 Sistema ventricular* | Blausen.com staff (2014). *Medical gallery of Blausen Medical 2014*. WikiJournal of Medicine, 1(2) | CC BY 3.0 |
+| 5.2 Sistema ventricular∗ | Blausen.com staff (2014). *Medical gallery of Blausen Medical 2014*. WikiJournal of Medicine, 1(2) | CC BY 3.0 |
 | 5.3 Polígono de Willis | Ninovolador | Dominio público |
-| 6.1 Lóbulos cerebrales* | Blausen.com staff (2014) | CC BY 3.0 |
+| 6.1 Lóbulos cerebrales∗ | Blausen.com staff (2014) | CC BY 3.0 |
 | 6.2 Áreas de Brodmann | Henry Vandyke Carter, *Gray's Anatomy* (1918) | Dominio público |
-| 6.3 Regiones motoras y sensitivas* | Blausen.com staff (2014) | CC BY 3.0 |
-| 7.1 Ganglios basales* | Blausen.com staff (2014) | CC BY 3.0 |
-| 7.2 Estructuras «límbicas»* | Blausen.com staff (2014) | CC BY 3.0 |
-| 8.1 Divisiones del encéfalo* | Blausen.com staff (2014) | CC BY 3.0 |
+| 6.3 Regiones motoras y sensitivas∗ | Blausen.com staff (2014) | CC BY 3.0 |
+| 7.1 Ganglios basales∗ | Blausen.com staff (2014) | CC BY 3.0 |
+| 7.2 Estructuras «límbicas»∗ | Blausen.com staff (2014) | CC BY 3.0 |
+| 8.1 Divisiones del encéfalo∗ | Blausen.com staff (2014) | CC BY 3.0 |
 | 8.2 Médula espinal | BruceBlaus, modificada por Senda1234 | CC BY-SA 4.0 |
-| 9.1 Pares craneales* | Patrick J. Lynch, medical illustrator; obra derivada de Beao | CC BY 2.5 |
-| 10.1 Neurona multipolar* | Blausen.com staff (2014) | CC BY 3.0 |
-| 10.2 Tipos de neuroglía* | Blausen.com staff (2014) | CC BY 3.0 |
+| 9.1 Pares craneales∗ | Patrick J. Lynch, medical illustrator; obra derivada de Beao | CC BY 2.5 |
+| 10.1 Neurona multipolar∗ | Blausen.com staff (2014) | CC BY 3.0 |
+| 10.2 Tipos de neuroglía∗ | Blausen.com staff (2014) | CC BY 3.0 |
 | 10.3 Neurona y sinapsis | LadyofHats; traducción de Josell7 | Dominio público |
 | 13.1 Sinapsis química | Obra derivada de Synapse_Illustration2_tweaked.svg (Nrets) | CC BY 4.0 |
-| 13.2 Segundo mensajero* | BruceBlaus | CC BY-SA 4.0 |
+| 13.2 Segundo mensajero∗ | BruceBlaus | CC BY-SA 4.0 |
 | 15.1 Cariotipo humano | National Human Genome Research Institute | Dominio público |
 
 Licencias: CC BY 2.5, 3.0 y 4.0 (creativecommons.org/licenses/by/), CC BY-SA 3.0 y 4.0 (creativecommons.org/licenses/by-sa/). Las versiones traducidas de las figuras con licencia CC BY-SA se distribuyen bajo esa misma licencia.
