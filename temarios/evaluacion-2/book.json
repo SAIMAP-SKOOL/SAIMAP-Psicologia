@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Evaluación Psicológica II · SAIMAP Psicología",
+  "cover_title": "Evaluación<br>Psicológica II",
+  "subtitle": "Tests e instrumentos de evaluación · Temario SAIMAP",
+  "blurb": "16 unidades sobre los instrumentos de evaluación: técnicas objetivas, subjetivas y proyectivas, inteligencia y aptitudes (Wechsler, Raven, DAT), personalidad normal y patológica (MMPI, MCMI, PAI, NEO, PID-5), evaluación neuropsicológica, intereses vocacionales, actitudes y salud. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Evaluación Psicológica II · SAIMAP Psicología",
+  "pdf": "Evaluacion-Psicologica-II_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#C8553D",
+      "#2D5A7B",
+      "#5FA47A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01a-tecnicas.md",
+    "01b-tecnicas.md",
+    "02a-inteligencia.md",
+    "02b-inteligencia.md",
+    "03-personalidad.md",
+    "04-neuropsicologia.md",
+    "05-intereses.md",
+    "06-salud.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01a-tecnicas.md",
+    "01b-tecnicas.md",
+    "02a-inteligencia.md",
+    "02b-inteligencia.md",
+    "03-personalidad.md",
+    "04-neuropsicologia.md",
+    "05-intereses.md",
+    "06-salud.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
