@@ -4,7 +4,7 @@
 
 | Estudio o modelo | Dato o idea central | Unidad |
 | --- | --- | --- |
-| Achenbach, McConaughy y Howell (1987) | Metaanálisis de 119 estudios sobre acuerdo entre informantes: r ≈ .60 entre informantes similares, ≈ .28 entre informantes de distinto tipo y ≈ .22 entre el propio sujeto y otros | 1 |
+| Achenbach, McConaughy y Howell (1987) | Metaanálisis de 119 estudios sobre acuerdo entre informantes: r ≈ 0,60 entre informantes similares, ≈ 0,28 entre informantes de distinto tipo y ≈ 0,22 entre el propio sujeto y otros | 1 |
 | Huarte de San Juan (1575) | *Examen de ingenios para las ciencias*: ajustar la aptitud a la profesión; precursor de la orientación profesional | 2 |
 | Binet y Simon (1905); Stern (1912); Terman (1916) | Primera escala de inteligencia (edad mental); cociente intelectual; Stanford-Binet con el factor ×100 | 2 |
 | Mira i López (1922) | Selección de conductores de autobuses en Barcelona; inicio de la evaluación empírica de aptitudes en España | 2 |
@@ -22,11 +22,11 @@
 | Hernández et al. (2016) | CET-R: modelo español de evaluación de la calidad de los tests, basado en el de la EFPA | 10 |
 | Muñiz, Hernández y Fernández-Hermida (2020) | Los 25 tests más usados en España son psicométricos; solo el 22,5 % conoce las revisiones de la Comisión de Test | 10 |
 | Rettew et al. (2009) | 38 estudios, N = 15.967: diagnóstico clínico rutinario frente a entrevista estandarizada, κ medio = 0,27 | 12 |
-| Sackett et al. (2022) | Validez en selección: entrevista estructurada ≈ .42 frente a no estructurada ≈ .19 (Schmidt y Hunter, 1998, daban .51 y .38) | 12 |
+| Sackett et al. (2022) | Validez en selección: entrevista estructurada r ≈ 0,42 frente a no estructurada ≈ 0,19 (Schmidt y Hunter, 1998, daban 0,51 y 0,38) | 12 |
 | Köhnken et al. (1999); Memon, Meissner y Fraser (2010) | Entrevista cognitiva: más detalles correctos (d = 0,87 y 1,20) con un aumento pequeño de errores (d = 0,28 y ≈ 0,24) | 12 |
 | Powell, Martindale y Kulp (1975) | El intervalo parcial sobreestima, el total infraestima y el muestreo momentáneo yerra en ambos sentidos | 14 |
-| Romanczyk et al. (1973); Kent et al. (1974) | Reactividad del control de fiabilidad y deriva del observador | 14 |
-| Cohen (1960); Landis y Koch (1977) | Kappa corrige el acuerdo por azar; > .60 sustancial, > .80 casi perfecto | 14 |
+| Romanczyk et al. (1973); Kent et al. (1974) | Reactividad del control de fiabilidad; las expectativas sesgan más las calificaciones globales que los registros por categorías | 14 |
+| Cohen (1960); Landis y Koch (1977) | Kappa corrige el acuerdo por azar; > 0,60 sustancial, > 0,80 casi perfecto | 14 |
 | Tourangeau, Rips y Rasinski (2000) | Cuatro fases de respuesta a un cuestionario: comprensión, recuperación, juicio y respuesta | 15 |
 | Nisbett y Wilson (1977) | Las personas informan mal de las causas de su conducta | 15 |
 | Paulhus (1984) | Dos componentes de la deseabilidad social: autoengaño y manejo de la impresión | 15 |
@@ -47,7 +47,7 @@
 | «Si un progenitor paga la evaluación de su hijo, decide él solo» | Con menores, ambos progenitores tienen derecho a ser informados, y en tratamiento suele exigirse el consentimiento de ambos | 8 |
 | «Un α alto demuestra que el test mide una sola cosa» | α depende del número de ítems y no es un índice de unidimensionalidad | 9 |
 | «Este test es válido» | Lo que se valida es una interpretación de las puntuaciones para un uso concreto | 10 |
-| «La entrevista libre es más válida porque es más profunda» | La estructura aumenta la fiabilidad y la validez (Rettew et al., 2009; Sackett et al., 2022) | 11 |
+| «La entrevista libre es más válida porque es más profunda» | La entrevista estructurada predice mejor el desempeño (Sackett et al., 2022), y el diagnóstico rutinario coincide poco con el estandarizado (Rettew et al., 2009) | 11 |
 | «La entrevista cognitiva llena el testimonio de errores» | Aumenta mucho los detalles correctos y apenas los incorrectos; la exactitud se mantiene (≈85 % frente a ≈82 %) | 12 |
 | «La observación es objetiva por definición» | Hay reactividad, expectativas del observador, deriva y complejidad del código | 13 |
 | «Si dos observadores coinciden en un 90 %, el registro es exacto» | El porcentaje no corrige el azar y dos observadores pueden coincidir en el error (deriva) | 14 |
@@ -81,6 +81,9 @@
 - Harvey, V. S. (2006). Variables affecting the clarity of psychological reports. *Journal of Clinical Psychology, 62*(1), 5–18.
 - Hernández, A., Ponsoda, V., Muñiz, J., Prieto, G. y Elosua, P. (2016). Revisión del modelo para evaluar la calidad de los tests utilizados en España. *Papeles del Psicólogo, 37*(3), 192–197.
 - Kanfer, F. H. y Saslow, G. (1965). Behavioral analysis: An alternative to diagnostic classification. *Archives of General Psychiatry, 12*(6), 529–538.
+- Kanfer, F. H. y Saslow, G. (1969). Behavioral diagnosis. En C. M. Franks (Ed.), *Behavior therapy: Appraisal and status* (pp. 417–444). McGraw-Hill.
+- Kent, R. N., Kanowitz, J., O'Leary, K. D. y Cheiken, M. (1977). Observer reliability as a function of circumstances of assessment. *Journal of Applied Behavior Analysis, 10*(2), 317–324.
+- Kent, R. N., O'Leary, K. D., Diament, C. y Dietz, A. (1974). Expectation biases in observational evaluation of therapeutic change. *Journal of Consulting and Clinical Psychology, 42*(6), 774–780.
 - Köhnken, G., Milne, R., Memon, A. y Bull, R. (1999). The cognitive interview: A meta-analysis. *Psychology, Crime & Law, 5*(1–2), 3–27.
 - Korotitsch, W. J. y Nelson-Gray, R. O. (1999). An overview of self-monitoring research in assessment and treatment. *Psychological Assessment, 11*(4), 415–425.
 - Lamiell, J. T. (1981). Toward an idiothetic psychology of personality. *American Psychologist, 36*(3), 276–289.
@@ -88,6 +91,7 @@
 - Memon, A., Meissner, C. A. y Fraser, J. (2010). The cognitive interview: A meta-analytic review and study space analysis of the past 25 years. *Psychology, Public Policy, and Law, 16*(4), 340–372.
 - Muñiz, J., Hernández, A. y Fernández-Hermida, J. R. (2020). Utilización de los tests en España: el punto de vista de los psicólogos. *Papeles del Psicólogo, 41*(1), 1–15.
 - Muñiz, J., Hernández, A. y Ponsoda, V. (2015). Nuevas directrices sobre el uso de los tests: investigación, control de calidad y seguridad. *Papeles del Psicólogo, 36*(3), 161–173.
+- Nelson, R. O. (1977). Assessment and therapeutic functions of self-monitoring. En M. Hersen, R. M. Eisler y P. M. Miller (Eds.), *Progress in behavior modification* (Vol. 5, pp. 263–308). Academic Press.
 - Nisbett, R. E. y Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review, 84*(3), 231–259.
 - Paulhus, D. L. (1984). Two-component models of socially desirable responding. *Journal of Personality and Social Psychology, 46*(3), 598–609.
 - Powell, J., Martindale, A. y Kulp, S. (1975). An evaluation of time-sample measures of behavior. *Journal of Applied Behavior Analysis, 8*(4), 463–469.

@@ -71,15 +71,15 @@ La calidad de las hipótesis depende de la calidad de la información de partida
 
 Aplicadas las técnicas, se corrigen, se interpretan y se comparan los resultados con lo que predecían los enunciados. Hay tres desenlaces posibles. Si los datos apoyan la hipótesis, se avanza. Si la contradicen, se descarta y se vuelve a la fase 2. Si son ambiguos, se buscan datos adicionales. Este retorno no es un fracaso del evaluador: es la manera de evitar que una idea inicial se mantenga sin pruebas.
 
-**Los resultados y el informe.** En la cuarta fase se integran los datos y se responde a la demanda. La comunicación puede ser oral, escrita o ambas, e incluye recomendaciones y la resolución de dudas. Si el objetivo era solo describir, diagnosticar u orientar, el proceso termina aquí. El informe se estudia en la Unidad 7.
+**Los resultados y el informe.** En la cuarta fase se integran los datos y se responde a la demanda. Se informa a quien corresponda, de palabra, por escrito o de las dos formas, con recomendaciones y tiempo para preguntas. Cuando no hay intervención prevista, aquí acaba la evaluación. El informe se estudia en la Unidad 7.
 
 **La rama interventivo-valorativa.** Cuando hay que intervenir, el proceso continúa con un ciclo parecido aplicado al tratamiento:
 
 - se seleccionan las **conductas objetivo** y se formulan hipótesis sobre qué variables hay que modificar para cambiarlas;
 - se diseña y aplica el tratamiento, y se **recogen datos** de forma sistemática durante su desarrollo;
-- se **valora** si las conductas han cambiado en la dirección esperada; si no, se revisa el tratamiento o se vuelve a fases anteriores;
+- se **valora** el cambio; si es insuficiente, se ajusta la intervención o se replantean las hipótesis;
 - se comunican los resultados finales;
-- se realiza un **seguimiento** con las mismas medidas, para comprobar si el cambio se mantiene con el tiempo.
+- pasado un tiempo, se repiten las medidas (**seguimiento**) para saber si la mejora ha resistido.
 
 Para valorar el cambio en un caso individual se usan **diseños de caso único (N = 1)**. Lo esencial es medir la conducta antes de intervenir (**línea base**) y seguir midiéndola de forma repetida durante y después del tratamiento (**medidas repetidas**). Comparar la tendencia de la línea base con la del tratamiento permite atribuir el cambio con más seguridad que una sola medida antes y otra después. Los diseños se tratan en Métodos de investigación, y la planificación del tratamiento, en Terapia de conducta.
 
@@ -360,7 +360,7 @@ c) no exige ningún esfuerzo por parte del evaluado
 
 ### 7.1 Funciones y tipos de informe
 
-El **informe psicológico** es el producto final del proceso de evaluación (Unidad 5). No es un resumen de puntuaciones, sino un documento que **integra** los datos obtenidos con distintas técnicas, **responde** a la demanda y **justifica** las conclusiones y recomendaciones. Cumple varias funciones a la vez:
+El **informe psicológico** cierra el proceso de evaluación (Unidad 5). Su valor no está en listar puntuaciones: **integra** lo que han aportado las distintas técnicas, **responde** a la pregunta que originó la evaluación y **justifica** cada conclusión y recomendación. Cumple varias funciones a la vez:
 
 - **Comunicar** los resultados a quien los necesita, de forma que pueda entenderlos.
 - **Fundamentar decisiones**: un tratamiento, una adaptación escolar, una contratación, una resolución judicial.
@@ -380,13 +380,13 @@ El **informe psicológico** es el producto final del proceso de evaluación (Uni
 
 Un mismo proceso puede dar lugar a varios informes. Imagina la evaluación de Clara, una niña de 8 años con dificultades de lectura. La psicóloga puede elaborar un **informe técnico** para el equipo de orientación del colegio, con los resultados de las pruebas y la propuesta de adaptaciones; un **informe personal** para los padres, sin tecnicismos y centrado en qué significan los resultados y cómo ayudar en casa; y un **certificado** breve que acredite que Clara necesita más tiempo en los exámenes, sin más datos que los imprescindibles.
 
-Cuando el certificado se pide en nombre de otra persona, por ejemplo un familiar, debe contar con la autorización del evaluado. Y cuando la evaluación la solicita un tercero (una empresa, un juzgado, una aseguradora), el evaluado conserva el **derecho a conocer el informe**, salvo que ello suponga un grave perjuicio para él o para el psicólogo (art. 42 del Código Deontológico; Unidad 8).
+Si quien solicita el certificado es un familiar, hace falta antes la autorización de la persona evaluada. Y cuando la evaluación la solicita un tercero (una empresa, un juzgado, una aseguradora), el evaluado conserva el **derecho a conocer el informe**, salvo que ello suponga un grave perjuicio para él o para el psicólogo (art. 42 del Código Deontológico; Unidad 8).
 
 El informe pericial merece una mención especial por sus exigencias formales y su contexto. Sus particularidades se presentan en el apartado 7.4 y se desarrollan en la asignatura de Psicología Jurídica.
 
 ### 7.2 Estructura y contenido del informe escrito
 
-No existe un formato único y obligatorio, pero los distintos autores y guías coinciden en un **contenido mínimo**. La figura 7.1 lo organiza en ocho bloques.
+Cada servicio usa su propia plantilla, pero hay elementos que cualquier informe debería contener (**contenido mínimo**). La figura 7.1 lo organiza en ocho bloques.
 
 ![](informe-estructura.png)
 
@@ -395,7 +395,7 @@ Figura 7.1. **Estructura del informe psicológico.** Plantilla en ocho bloques, 
 Como muestra la figura 7.1, los bloques son:
 
 1. **Identificación.** Datos del evaluado, del evaluador (nombre completo y número de colegiado) y de quien solicita el informe, con la fecha.
-2. **Motivo de la evaluación.** La demanda tal como se formuló y el objetivo de la evaluación (diagnóstico, orientación, planificación de una intervención). El motivo expresado por la persona puede no coincidir con el problema real, pero se recoge tal como lo plantea.
+2. **Motivo de la evaluación.** La demanda tal como se formuló y el objetivo de la evaluación (diagnóstico, orientación, planificación de una intervención). Conviene anotar la demanda con las palabras de quien la trae, aunque la evaluación acabe mostrando que el problema era otro.
 3. **Técnicas y fechas.** Qué se aplicó (entrevistas, observaciones, cuestionarios, tests), cuándo y, si es útil, por qué.
 4. **Resultados.** Los datos obtenidos con cada fuente, incluida la conducta durante la evaluación y los antecedentes relevantes.
 5. **Integración.** La interpretación conjunta de los datos y la respuesta a la demanda. Es el núcleo del informe.
@@ -435,7 +435,7 @@ La diferencia se aprecia mejor con ejemplos:
 | Muestra un déficit en las funciones ejecutivas de inhibición | Le cuesta frenar una respuesta automática: por ejemplo, contesta antes de terminar de leer la pregunta |
 | Es un niño inmaduro y desadaptado | En el recreo suele jugar solo y se enfada cuando pierde, lo que dificulta que lo incluyan en los juegos |
 
-Escribir con claridad **no significa perder rigor**. El informe sigue apoyándose en técnicas con garantías y en datos concretos; lo que cambia es la forma de comunicarlos. Si el destinatario es otro profesional, puede usarse más terminología técnica, pero incluso entonces conviene que el texto sea comprensible y que las inferencias estén justificadas.
+Escribir con claridad **no significa perder rigor**. El informe sigue apoyándose en técnicas con garantías y en datos concretos; lo que cambia es la forma de comunicarlos. Para un colega, la terminología técnica ahorra espacio; aun así, un informe técnico también debe poder leerse sin esfuerzo y apoyar cada inferencia en datos.
 
 La investigación sobre informes **accesibles** sigue creciendo. Estudios recientes, como los de Bejnö et al. (2025), exploran cómo adaptar los informes para que las personas evaluadas los comprendan y los usen. Algunos trabajos de 2025 solo están disponibles como prepublicaciones, por lo que deben tomarse como indicios hasta que se confirmen.
 
@@ -451,7 +451,7 @@ Un consejo práctico: antes de entregar un informe personal, conviene releerlo p
 4. **Dar las recomendaciones**, de forma concreta y viable.
 5. **Entregar el informe escrito**, si se pide.
 
-La información se adapta al **nivel de comprensión** y a la **capacidad de tolerancia** de quien la recibe. No se trata de ocultar los aspectos negativos, sino de presentarlos de forma comprensible, con datos y con un plan. Por ejemplo, a los padres de Clara (apartado 7.1) se les puede explicar primero que su hija comprende bien lo que oye y tiene un vocabulario amplio; después, que lee más despacio y con más errores que sus compañeros, con ejemplos de lo observado; a continuación se comprueba qué han entendido y qué les preocupa, y por último se acuerdan las medidas para casa y el colegio.
+Qué se dice y cómo se dice depende de lo que la persona puede **entender** y **asumir** en ese momento. No se trata de ocultar los aspectos negativos, sino de presentarlos de forma comprensible, con datos y con un plan. Por ejemplo, a los padres de Clara (apartado 7.1) se les puede explicar primero que su hija comprende bien lo que oye y tiene un vocabulario amplio; después, que lee más despacio y con más errores que sus compañeros, con ejemplos de lo observado; a continuación se comprueba qué han entendido y qué les preocupa, y por último se acuerdan las medidas para casa y el colegio.
 
 La devolución también es una ocasión para **contrastar** las conclusiones: la reacción de la persona puede aportar información que matice alguna interpretación, y así el proceso conserva su carácter iterativo (Unidad 5).
 

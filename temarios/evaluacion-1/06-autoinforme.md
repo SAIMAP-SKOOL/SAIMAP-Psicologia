@@ -27,11 +27,11 @@ Un ejemplo: ante «¿Cuántas veces ha ido al médico en el último año?», alg
 
 La calidad de la información depende también del tipo de suceso y del momento al que se refiere. No es lo mismo preguntar un dato concreto («¿En qué año empezó a trabajar?») que una elaboración («¿Cómo se sentía en aquel trabajo?»), ni un suceso de ayer que uno de hace diez años.
 
-Otros dos criterios son la **accesibilidad** y la **contrastabilidad**. La conducta motora es accesible para la persona y para un observador; un pensamiento o una emoción solo los conoce quien los tiene. La accesibilidad tiene además un límite conocido. Nisbett y Wilson (1977) revisaron estudios en los que un factor influía en la conducta sin que los participantes lo advirtieran: al explicar su conducta, daban razones plausibles, pero no mencionaban ese factor. Concluyeron que las personas no informan con exactitud de las **causas** de su conducta y recurren a **teorías implícitas** sobre lo que suele causar qué. Ericsson y Simon matizaron después esta conclusión: lo que sí puede verbalizarse con fiabilidad es el **contenido** que se tiene presente en la memoria de trabajo (Unidad 16). La consecuencia práctica es clara: es más fiable preguntar qué hizo, pensó o sintió la persona que preguntarle por qué.
+Otros dos criterios son la **accesibilidad** (si la persona puede llegar de verdad a la información que se le pide) y la **contrastabilidad** (si otro puede comprobarla): que alguien evita el metro puede verlo un acompañante; su miedo, no. La accesibilidad tiene un límite conocido. Nisbett y Wilson (1977) revisaron estudios en los que un factor influía en la conducta sin que los participantes lo advirtieran: al explicar su conducta, daban razones plausibles, pero no mencionaban ese factor. Concluyeron que las personas no informan con exactitud de las **causas** de su conducta y recurren a **teorías implícitas** sobre lo que suele causar qué. Ericsson y Simon matizaron después esta conclusión: lo que sí puede verbalizarse con fiabilidad es el **contenido** que se tiene presente en la memoria de trabajo (Unidad 16). La consecuencia práctica es clara: es más fiable preguntar qué hizo, pensó o sintió la persona que preguntarle por qué.
 
 ### 15.2 Autoinformes directos e indirectos
 
-Según el nivel de inferencia que necesita el evaluador, Fernández-Ballesteros distingue dos tipos de autoinforme:
+Fernández-Ballesteros separa los autoinformes en dos grupos según cuánto tiene que interpretar el evaluador para pasar de la respuesta al dato:
 
 - **Directo o isomórfico.** Lo que la persona dice se toma como **muestra** de aquello que se evalúa. Si un paciente anota que esta semana se ha despertado tres veces cada noche, esa respuesta es el dato: no se infiere nada más allá.
 - **Indirecto o inferencial.** Las respuestas se usan como **indicadores** de un constructo que no aparece en ellas de forma literal. Si alguien se muestra de acuerdo con «me preocupo por cosas sin importancia» y «me cuesta relajarme», el evaluador no se queda en esas dos frases, sino que infiere un nivel de neuroticismo o de ansiedad rasgo a partir del conjunto.
@@ -51,12 +51,7 @@ Además del nivel de inferencia, los autoinformes pueden clasificarse según otr
 
 La variable «tipo de manifestación» recuerda que el autoinforme no evalúa solo lo cognitivo. Como los tres sistemas de respuesta están débilmente acoplados, lo que se dice de uno no siempre coincide con lo que se mide en otro (Unidad 4).
 
-Cuando la información no se puede contrastar con un criterio externo, hay estrategias para reforzarla:
-
-1. Preguntar lo mismo en **momentos** y **situaciones** distintos.
-2. Usar **varios autoinformes** que evalúen lo mismo con formatos diferentes.
-3. Buscar **correlatos** motores o fisiológicos y **productos de conducta**, como un ticket de compra o un historial de llamadas.
-4. Recoger información de **otros informantes**.
+Cuando no hay criterio externo, la información se refuerza por triangulación: se comprueba si la respuesta se sostiene al repetir la pregunta otro día o en otro contexto, si coincide con un instrumento de formato distinto, si deja huellas comprobables (un ticket, un historial de llamadas, la frecuencia cardiaca) y si concuerda con lo que cuentan otras personas.
 
 En el metaanálisis de Achenbach, McConaughy y Howell (1987), la correlación media entre el propio sujeto y otros informantes fue de solo 0,22, frente a 0,60 entre informantes similares. La discrepancia no indica que uno mienta: cada informante ve una parte distinta de la conducta (Unidad 1).
 
@@ -190,7 +185,7 @@ c) no informan con exactitud de las causas de su conducta
 
 Los **cuestionarios**, **inventarios** y **escalas** son autoinformes estructurados: una lista fija de preguntas o afirmaciones, con un formato de respuesta cerrado, que se puntúa siguiendo normas establecidas. Los nombres se usan de forma bastante intercambiable. Por costumbre, se habla de «inventario» cuando se recorre de forma amplia un ámbito (síntomas, intereses), de «escala» cuando se mide la intensidad de una dimensión y de «listado» cuando la persona marca qué elementos le corresponden de una lista.
 
-Sus ventajas explican por qué son el autoinforme más usado:
+Sus ventajas explican por qué son el autoinforme estructurado más usado:
 
 - **Economía**: se aplican en poco tiempo, de forma individual o colectiva, en papel o en pantalla.
 - **Estandarización**: todas las personas responden a lo mismo y se corrigen igual, lo que reduce la influencia del evaluador.
@@ -225,11 +220,11 @@ Los formatos se adaptan a lo que interesa medir:
 - **ABC o diario de pensamientos**: qué pasó antes, qué hizo o pensó la persona y qué ocurrió después.
 - **Escala analógico-visual en momentos fijos**: intensidad del dolor o del ánimo a varias horas del día.
 
-Se puede usar lápiz y papel, contadores, cronómetros o el móvil.
+El soporte importa menos que la comodidad: una libreta de bolsillo, un contador de muñeca o una aplicación del móvil sirven si la persona puede usarlos en el momento.
 
 ![m](autorregistro-abc.png)
 
-Figura 16.1. **Hoja de autorregistro ABC.** Columnas para la situación o antecedente, la conducta o el pensamiento, la consecuencia y la intensidad de 0 a 10, con tres entradas de ejemplo. Elaboración propia.
+Figura 16.1. **Hoja de autorregistro ABC.** Columnas para el día y la hora, la situación o antecedente, la conducta o el pensamiento, la consecuencia y el malestar de 0 a 10, con tres entradas de ejemplo. Elaboración propia.
 
 La hoja ABC de la figura 16.1 aporta datos directos para el análisis funcional (Unidad 4): con varias semanas de registro se ve qué situaciones preceden al problema y qué consecuencias lo mantienen.
 
@@ -255,13 +250,13 @@ La versión digital del autorregistro es la **evaluación ecológica momentánea
 
 ### 16.3 El pensamiento en voz alta
 
-En el **pensamiento en voz alta** la persona verbaliza lo que piensa mientras realiza una tarea o inmediatamente después. Es un autoinforme no estructurado, que suele aplicarse en consulta o en el laboratorio ante estímulos o tareas que propone el evaluador. Admite varias modalidades:
+En el **pensamiento en voz alta** la persona verbaliza lo que piensa mientras realiza una tarea o inmediatamente después. No hay preguntas ni opciones: el evaluador propone una tarea, casi siempre en consulta o en el laboratorio, y la persona habla. Hay tres maneras de organizarlo:
 
 - **Monólogo continuo**: la persona dice todo lo que le pasa por la cabeza mientras hace la tarea.
-- **Muestreo de pensamientos**: el evaluador da una señal en momentos elegidos por él y la persona dice qué estaba pensando justo entonces.
-- **Registro de sucesos**: es la persona quien avisa cada vez que aparece un tipo de pensamiento de interés, como una preocupación.
+- **Muestreo de pensamientos**: suena una señal y la persona dice qué tenía en la cabeza en ese instante; el calendario de señales lo fija el evaluador.
+- **Registro de sucesos**: la iniciativa pasa a la persona, que habla solo cuando detecta un pensamiento acordado, por ejemplo cada vez que empieza a preocuparse.
 
-Con una grabadora o con el móvil, la persona también puede verbalizar a solas y en su medio, lo que reduce la presión de la consulta.
+Si se graba con el móvil, el ejercicio puede hacerse en casa, sin el evaluador delante.
 
 El marco de referencia es el **análisis de protocolos** de Ericsson y Simon (1980; *Protocol analysis*, 1984/1993). Su idea central es que la persona puede informar con fiabilidad del contenido que tiene presente en la memoria de trabajo, siempre que se le pida lo adecuado. Distinguieron tres **niveles de verbalización**:
 
@@ -281,18 +276,18 @@ En evaluación clínica, el pensamiento en voz alta permite captar pensamientos 
 
 ### 16.4 La entrevista como autoinforme, la autobiografía y los métodos narrativos
 
-**La entrevista** es la forma de autoinforme más extendida: la persona informa verbalmente sobre sí misma en respuesta a las preguntas del entrevistador. Tiene rasgos que la distinguen del resto. Es interactiva, de modo que puede aclarar preguntas y seguir pistas; permite observar la conducta no verbal mientras se habla, y se usa a lo largo de todo el proceso, desde la primera toma de contacto hasta el seguimiento. Cuando informan familiares, docentes u otras personas cercanas, ya no se trata de un autoinforme, sino de información de otros informantes, que complementa la del propio evaluado (Unidad 15). Su fiabilidad y validez aumentan con la estructura (Unidades 11 y 12).
+**La entrevista** es, en la práctica, el autoinforme al que más se recurre: la persona informa verbalmente sobre sí misma en respuesta a las preguntas del entrevistador. Tiene rasgos que la distinguen del resto. Es interactiva, de modo que puede aclarar preguntas y seguir pistas; permite observar la conducta no verbal mientras se habla, y se usa a lo largo de todo el proceso, desde la primera toma de contacto hasta el seguimiento. Cuando informan familiares, docentes u otras personas cercanas, ya no se trata de un autoinforme, sino de información de otros informantes, que complementa la del propio evaluado (Unidad 15). Su fiabilidad y validez aumentan con la estructura (Unidades 11 y 12).
 
 **La autobiografía** es un relato escrito u oral en el que la persona cuenta su propia vida y la interpreta. Es un método **idiográfico**: busca comprender cómo vive esa persona su historia, no compararla con otras. Puede ser:
 
 - **Libre**: «Escriba la historia de su vida como quiera contarla».
-- **Guiada**: el evaluador propone etapas o temas (infancia, estudios, relaciones, momentos de cambio), lo que facilita contrastar el relato con otras fuentes.
+- **Guiada**: el evaluador marca un índice de etapas o temas (infancia, estudios, relaciones, momentos de cambio); el relato gana orden y es más fácil cotejarlo con lo que cuentan otros.
 
-Suele completarse con **materiales personales** como diarios, cartas, fotografías u objetos significativos, y con la **línea de vida**: un eje temporal en el que la persona sitúa los acontecimientos importantes y marca, por encima o por debajo de la línea, si fueron positivos o negativos y con qué intensidad. La línea de vida ayuda a quien tiene dificultades para escribir y ofrece de un vistazo la estructura de una biografía.
+Al relato se le pueden sumar **documentos personales** (un diario de adolescencia, una carta guardada, el álbum de fotos) y una **línea de vida**: una flecha del nacimiento al presente en la que la persona coloca los hechos que considera importantes, más arriba o más abajo según lo buenos o malos que fueron y cuánto pesaron. La línea de vida ayuda a quien tiene dificultades para escribir y ofrece de un vistazo la estructura de una biografía.
 
 **Los métodos narrativos** amplían esta idea. Desde el enfoque de McAdams, la identidad se entiende como una **historia de vida** interiorizada y en evolución: lo que interesa no es solo qué ocurrió, sino cómo lo cuenta la persona, qué episodios elige como decisivos, qué tono predomina o si los sucesos negativos acaban teniendo un sentido. Un mismo despido puede aparecer en un relato como el principio de una caída y en otro como el comienzo de una etapa mejor.
 
-El análisis de estos materiales es sobre todo **cualitativo**, mediante **análisis de contenido**, aunque los temas pueden codificarse y cuantificarse. Sus límites son los de todo autoinforme retrospectivo: la memoria reconstruye, y el relato depende del momento en que se hace y de a quién se cuenta. Las técnicas subjetivas afines, como la rejilla de constructos personales, se estudian en Evaluación Psicológica II.
+Estos materiales se leen sobre todo de forma **cualitativa**, buscando temas, tono y estructura (**análisis de contenido**), aunque también pueden codificarse y contarse. Sus límites son los de todo autoinforme retrospectivo: la memoria reconstruye, y el relato depende del momento en que se hace y de a quién se cuenta. Las técnicas subjetivas afines, como la rejilla de constructos personales, se estudian en Evaluación Psicológica II.
 
 Cada tipo de autoinforme ofrece un equilibrio distinto entre estructura, cercanía al momento y riqueza de la información:
 

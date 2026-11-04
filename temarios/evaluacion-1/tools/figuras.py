@@ -111,7 +111,7 @@ if want('modelos'):
             ['Psicométrico o del atributo', 'Rasgos estables e internos', 'Tests normativos', 'Alta'],
             ['Médico', 'Síntomas → entidad nosológica', 'Entrevista, criterios DSM/CIE', 'Media-alta'],
             ['Dinámico', 'Estructuras y conflictos inconscientes', 'Técnicas proyectivas', 'Muy alta'],
-            ['Fenomenológico', 'Experiencia subjetiva, autoconcepto', 'Rejilla, Q-sort, autoinformes', 'Media'],
+            ['Fenomenológico', 'Experiencia subjetiva, autoconcepto', 'Entrevista centrada en el cliente,\nQ-sort, autoinformes', 'Media'],
             ['Conductual', 'Conducta y ambiente actual', 'Observación, análisis funcional', 'Baja'],
             ['Cognitivo-conductual', 'Conducta, cognición y emoción', 'Autorregistros, autoinformes, observación', 'Baja-media']]
     table(ax, .1, 7.2, [4.3, 5.2, 5.8, 2.2], 1.0, rows, fs=8.0)
@@ -124,7 +124,7 @@ if want('disyuntivas'):
             ['Nomotético / idiográfico', 'Leyes generales; norma de grupo', 'Lo singular de cada persona', 'Allport (1937); Lamiell (1981)'],
             ['Cuantitativo / cualitativo', 'Medición y escalas', 'Significado y narrativa', 'Complementarios'],
             ['Signo / muestra', 'Indicio de un constructo latente', 'Muestra del repertorio', 'Goodenough (1949); Mischel (1968)'],
-            ['Normativo / criterial / ipsativo', 'Comparación con un grupo', 'Con un estándar o consigo mismo', 'Cattell (1944)'],
+            ['Normativo / criterial / ipsativo', 'Comparación con un grupo', 'Con un estándar o consigo mismo', 'R. B. Cattell (1944)'],
             ['Rasgo / estado', 'Disposición estable', 'Condición transitoria', 'Spielberger (STAI, 1970)'],
             ['Estructura / función', 'Qué forma tiene la conducta', 'Para qué sirve', 'Haynes y O\'Brien (1990)'],
             ['Molar / molecular', 'Unidades amplias', 'Unidades finas', 'Fija la fiabilidad alcanzable'],
@@ -263,8 +263,8 @@ if want('informe-estructura'):
 
 # U8 · artículos del Código
 if want('codigo-articulos'):
-    arts = [('6', 'principios y prudencia\nen las técnicas'), ('12', 'evitar etiquetas\ndevaluadoras'), ('17', 'competencia y\nactualización'), ('18', 'solo métodos\ncontrastados'),
-            ('19', 'material de evaluación\nreservado'), ('25', 'informar del método;\nmenores: padres o tutores'), ('39', 'intimidad: solo lo\nnecesario'), ('40', 'secreto\nprofesional'),
+    arts = [('6', 'principios y prudencia\nen las técnicas'), ('12', 'evitar etiquetas\ndevaluadoras'), ('17', 'competencia y\nactualización'), ('18', 'no contrastados:\navisar antes'),
+            ('19', 'material de evaluación\nreservado'), ('24', 'rechazar usos contra\nlas personas'), ('25', 'informar del método;\nmenores: padres o tutores'), ('39', 'intimidad: solo lo\nnecesario'), ('40', 'secreto\nprofesional'),
             ('41', 'terceros solo con\nautorización'), ('42', 'derecho a conocer\nel informe'), ('43', 'informes para\ninstituciones'), ('44', 'no usar en\nbeneficio propio'),
             ('45', 'anonimato en\ncasos'), ('46', 'custodia de\nregistros'), ('47', 'terceros presentes:\nconsentimiento'), ('48', 'requisitos del\ninforme'), ('49', 'secreto tras el\nfallecimiento')]
     fig, ax = canvas(9.4, 4.4, 18.8, 8.8)
@@ -352,8 +352,8 @@ if want('tecnicas-escucha'):
     fig, ax = canvas(9.0, 4.0, 18, 8)
     ax.add_patch(FancyBboxPatch((2.5, 6.2), 13, 1.4, boxstyle='round,pad=0.02,rounding_size=0.3', fc=SOFT, ec=MUTE))
     ax.text(9, 6.9, 'Paciente: «Desde que empecé el trabajo nuevo no duermo y llego a casa agotada».', ha='center', va='center', fontsize=9, color=INK, style='italic')
-    rs = [('Clarificación', '«¿Qué quiere decir con\n"no duermo"? ¿Le cuesta\ndormirse o se despierta?»', '¿Qué significa?', V), ('Paráfrasis', '«Desde el cambio de trabajo\nduerme mal y termina\nel día sin energía.»', 'devuelve el contenido', P),
-          ('Reflejo', '«Parece que se siente\ndesbordada y muy\ncansada.»', 'devuelve la emoción', A), ('Resumen', '«Hasta ahora: cambio de\ntrabajo, insomnio y\nagotamiento por la tarde.»', 'integra y da paso', G)]
+    rs = [('Clarificación', '«¿Qué quiere decir con\n“no duermo”: le cuesta\ndormirse o se despierta\npor la noche?»', '¿Qué significa?', V), ('Paráfrasis', '«Desde el cambio de trabajo\nduerme mal y termina\nel día sin energía.»', 'devuelve el contenido', P),
+          ('Reflejo', '«Parece que se siente\ndesbordada con\nesta etapa.»', 'devuelve la emoción', A), ('Resumen', '«Hasta ahora: el cambio\nde trabajo, el sueño y\nque apenas ve a sus\namigas. ¿Me dejo algo?»', 'integra y da paso', G)]
     for i, (t, d, f, c) in enumerate(rs):
         x = .3 + i * 4.45
         card(ax, x, .5, 4.1, 4.8, t, d, c, 8.0)

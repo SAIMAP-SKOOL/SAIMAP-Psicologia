@@ -79,10 +79,10 @@ Estas actitudes no son un adorno. Facilitan que la persona hable con franqueza y
 
 Además de las actitudes, hay una serie de **estrategias generales** que el entrevistador debe cuidar:
 
-1. **Adaptar el lenguaje** a la edad, el nivel educativo y la cultura de la persona. Evitar tecnicismos y comprobar que las preguntas se entienden.
+1. **Hablar como habla la persona**: vocabulario y ritmo distintos para un niño, una persona mayor o alguien de otra cultura. Evitar tecnicismos y comprobar que las preguntas se entienden.
 2. **Garantizar la confidencialidad** y explicar sus límites desde el principio. Por ejemplo, se informa de que el secreto se puede romper si existe un riesgo grave para la persona o para terceros (Unidad 8).
 3. **Atender a lo no verbal** sin sobreinterpretarlo. Un gesto no tiene un significado fijo; lo útil es fijarse en las **discrepancias**, como contar una pérdida reciente con una sonrisa.
-4. **Explorar contradicciones y lagunas** con tacto, como algo que hay que entender y no como una prueba de que la persona miente.
+4. **Tratar las incoherencias y los silencios como pistas** con tacto, como algo que hay que entender y no como una prueba de que la persona miente.
 5. **Contrastar** lo que se cuenta con otras fuentes: informantes, registros, pruebas.
 6. **Vigilar la propia influencia.** El entrevistador debe ser consciente de sus expectativas, de sus reacciones emocionales y de cómo su estilo puede cambiar las respuestas.
 
@@ -236,7 +236,7 @@ El uso de estas entrevistas tiene ventajas claras:
 
 También tienen limitaciones: son largas, pueden resultar mecánicas si se aplican sin habilidad y su calidad depende del entrenamiento de quien las usa. Además, una entrevista estandarizada no sustituye a la evaluación completa del caso: dice si se cumplen unos criterios, pero no explica por qué aparece el problema ni qué lo mantiene.
 
-El dato que mejor ilustra el valor de la estructura procede del metaanálisis de **Rettew et al. (2009)**. Revisaron 38 estudios, con 15.967 personas, que comparaban el diagnóstico hecho en la práctica clínica habitual con el obtenido mediante entrevistas estandarizadas. La concordancia media fue baja (**κ = 0,27**), con mucha variación entre trastornos: de 0,19 en el trastorno de ansiedad generalizada a 0,86 en la anorexia. Los autores advierten que el dato **no demuestra que el diagnóstico rutinario sea peor**: solo indica que ambas vías no conducen al mismo resultado.
+El dato más citado sobre la distancia entre ambas vías procede del metaanálisis de **Rettew et al. (2009)**. Revisaron 38 estudios, con 15.967 personas, que comparaban el diagnóstico hecho en la práctica clínica habitual con el obtenido mediante entrevistas estandarizadas. La concordancia media fue baja (**κ = 0,27**), con mucha variación entre trastornos: de 0,19 en el trastorno de ansiedad generalizada a 0,86 en la anorexia. Los autores advierten que el dato **no demuestra que el diagnóstico rutinario sea peor**: solo indica que ambas vías no conducen al mismo resultado.
 
 Un ejemplo: dos psicólogas atienden a pacientes con quejas de preocupación y tensión. Una pregunta por la duración de los síntomas y por si la preocupación es difícil de controlar; la otra se centra en los acontecimientos recientes. Ante el mismo paciente, una podría concluir que hay un trastorno de ansiedad generalizada y la otra, un problema de adaptación. Con una entrevista semiestructurada, ambas habrían explorado los mismos criterios. El estudio de los criterios diagnósticos corresponde a Psicopatología.
 
@@ -284,9 +284,9 @@ Las tres formas no se excluyen. En una primera consulta por consumo de alcohol, 
 
 ![m](entrevista-cognitiva.png)
 
-Figura 12.2. **La entrevista cognitiva y su eficacia.** Las cuatro técnicas y los tamaños del efecto frente a la entrevista estándar: d = 0,87 en detalles correctos y 0,28 en incorrectos (Köhnken et al., 1999), y d = 1,20 y ≈0,24 (Memon, Meissner y Fraser, 2010). Elaboración propia.
+Figura 12.2. **La entrevista cognitiva y su eficacia.** Las cuatro técnicas y los tamaños del efecto frente a la entrevista estándar: d = 0,87 en detalles correctos y 0,28 en incorrectos (Köhnken et al., 1999), y d = 1,20 y ≈ 0,24 (Memon, Meissner y Fraser, 2010). Elaboración propia.
 
-Como muestra la figura 12.2, la evidencia es sólida. El metaanálisis de Köhnken et al. (1999), con unos 2.500 entrevistados, halló un aumento grande de los **detalles correctos** (d = 0,87) y uno pequeño de los incorrectos (d = 0,28); la exactitud global apenas cambió (85 % frente a 82 %). Memon, Meissner y Fraser (2010) confirmaron el resultado: d = 1,20 en detalles correctos, ≈0,24 en errores y ≈0,08 en confabulaciones. El efecto es algo menor en niños (d = 0,91). Una limitación importante es que la entrevista cognitiva **no protege frente a la sugestión posterior**: si el testigo recibe después información engañosa, puede incorporarla. Su aplicación se estudia en Psicología Jurídica, junto con el informe pericial.
+Como muestra la figura 12.2, la evidencia es sólida. El metaanálisis de Köhnken et al. (1999), con unos 2.500 entrevistados, halló un aumento grande de los **detalles correctos** (d = 0,87) y uno pequeño de los incorrectos (d = 0,28); la exactitud global apenas cambió (85 % con la entrevista cognitiva frente a 82 % con la estándar). Memon, Meissner y Fraser (2010) confirmaron el resultado: d = 1,20 en detalles correctos, ≈ 0,24 en errores y ≈ 0,08 en confabulaciones. El efecto es algo menor en niños (d = 0,91). Una limitación importante es que la entrevista cognitiva **no protege frente a la sugestión posterior**: si el testigo recibe después información engañosa, puede incorporarla. Su aplicación se estudia en Psicología Jurídica, junto con el informe pericial.
 
 **La entrevista de selección.** En el ámbito organizacional, la entrevista sirve para predecir el desempeño de los candidatos. La versión que mejor funciona es la **entrevista estructurada**: las mismas preguntas para todos, basadas en lo que exige el puesto; **escalas con anclajes** que describen cómo es una respuesta pobre, aceptable o excelente, y **varios evaluadores** que puntúan por separado. Según Sackett et al. (2022), su validez es de r ≈ 0,42, frente a r ≈ 0,19 de la no estructurada. Estas cifras revisan a la baja las de Schmidt y Hunter (1998), que eran de 0,51 y 0,38. Este ámbito se estudia en Psicología del Trabajo.
 

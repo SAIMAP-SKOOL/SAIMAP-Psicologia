@@ -14,7 +14,7 @@ En España, la referencia es el **Código Deontológico del Psicólogo**, aproba
 
 ![](codigo-articulos.png)
 
-Figura 8.1. **Artículos del Código Deontológico relevantes para la evaluación.** Rejilla con los artículos 6, 12, 17, 18, 19, 25 y 39 a 49, cada uno acompañado de una palabra clave que resume su contenido. Elaboración propia.
+Figura 8.1. **Artículos del Código Deontológico relevantes para la evaluación.** Rejilla con los artículos 6, 12, 17, 18, 19, 24, 25 y 39 a 49, cada uno acompañado de una palabra clave que resume su contenido. Elaboración propia.
 
 Como muestra la figura 8.1, los artículos se agrupan en dos bloques. El primero recoge **principios generales** de la práctica:
 
@@ -262,7 +262,7 @@ donde Sx es la desviación típica de las puntuaciones del test y rxx su coefici
 Dos rasgos de la fórmula merecen atención:
 
 - Si la fiabilidad fuera perfecta (rxx = 1), el ETM sería 0. Si fuera nula (rxx = 0), el ETM sería igual a la desviación típica del test: la puntuación no diría nada de la persona.
-- La relación no es lineal. En una escala de CI con DT = 15, pasar de rxx = 0,84 a rxx = 0,96 reduce el ETM de 6 a 3 puntos: hay que mejorar mucho la fiabilidad para que el error baje de forma apreciable.
+- La relación no es lineal. En una escala de CI con DT = 15, subir de rxx = 0,50 a 0,62 apenas reduce el ETM (de 10,6 a 9,2 puntos), mientras que pasar de 0,84 a 0,96 lo reduce a la mitad (de 6 a 3): cerca de 1, cada mejora de la fiabilidad recorta mucho el error.
 
 No hay que confundir el ETM con la desviación típica del test. La **DT** describe cuánto difieren las **personas** entre sí; el **ETM** describe cuánto puede variar la puntuación de **una misma persona** por efecto del error.
 
@@ -301,7 +301,7 @@ ETM = 15 · √(1 − 0,91) = 15 · √0,09 = 15 · 0,3 = **4,5 puntos**.
 
 **Paso 4. Interpretar.**
 - Con una confianza del 95 %, la puntuación verdadera está por encima de la media (100), porque el límite inferior del intervalo es 103.
-- No se puede afirmar que esté por encima de 115, un punto de corte habitual para «por encima del promedio», porque el intervalo incluye valores inferiores y superiores a 115.
+- No se puede afirmar que esté por encima de 115 (una desviación típica sobre la media), porque el intervalo incluye valores inferiores y superiores a 115.
 - En puntuaciones típicas, 112 equivale a z = (112 − 100) / 15 = 0,8, a T = 50 + 10 · 0,8 = 58 y, en una distribución normal, a un percentil aproximado de 79.
 
 **Paso 5. Comparar con un test menos fiable.**
@@ -520,7 +520,7 @@ Una advertencia final: todos estos índices dependen de la calidad del **criteri
 
 ### 10.4 Calidad y uso de los tests: CET-R, directrices ITC y uso en España
 
-El evaluador no suele construir los tests que aplica: es un **usuario** que debe saber elegirlos. Para ello necesita información fiable sobre su calidad, y existen varios recursos.
+Quien evalúa casi nunca ha construido los tests que usa; su papel es el de **usuario** informado, capaz de escoger bien. Para ello necesita información fiable sobre su calidad, y existen varios recursos.
 
 **El CET-R.** El **Cuestionario para la Evaluación de los Tests** se publicó en una primera versión (Prieto y Muñiz, 2000) y se revisó como **CET-R** (Hernández, Ponsoda, Muñiz, Prieto y Elosua, 2016), siguiendo el modelo europeo de evaluación de tests de la EFPA (Evers et al., 2013). Es una guía estructurada para que revisores expertos valoren un test con criterios explícitos: su fundamentación, la calidad de sus materiales y documentación, las evidencias de fiabilidad y validez y la calidad de sus baremos. La **Comisión de Test del COP** publica revisiones periódicas de tests editados en España desde 2010, que cualquier profesional puede consultar antes de elegir un instrumento.
 

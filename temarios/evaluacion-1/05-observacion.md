@@ -21,8 +21,8 @@ Figura 13.1. **Unidades de análisis y nivel de inferencia.** Pirámide con el c
 Como muestra la figura 13.1, se distinguen cinco unidades:
 
 - **Continuo del comportamiento.** Se describe lo que ocurre de forma continua, en lenguaje cotidiano y sin decidir antes qué conductas interesan. Es propio de la fase exploratoria y de la perspectiva naturalista: el observador anota todo lo que hace un niño durante el recreo.
-- **Conductas.** Se observan respuestas concretas, motoras, verbales o fisiológicas, **definidas operativamente** antes de empezar: «levantarse del asiento sin permiso» en lugar de «estar inquieto». La inferencia es mínima.
-- **Interacciones.** Se observan **secuencias** entre conductas de varias personas: qué hace el padre después de que el hijo grite y qué hace el hijo después. Es una unidad asociada a los trabajos de Patterson sobre interacción familiar. Exigen decidir de antemano qué conductas de cada persona se registran.
+- **Conductas.** Se observan respuestas concretas, motoras, verbales o fisiológicas, **definidas operativamente** antes de empezar: «levantarse del asiento sin permiso» en lugar de «estar inquieto». La inferencia es baja.
+- **Interacciones.** Se observan **secuencias** entre conductas de varias personas: qué hace el padre después de que el hijo grite y qué hace el hijo después. Es una unidad asociada a los trabajos de Patterson sobre interacción familiar. Obliga a fijar antes de empezar qué conductas de cada persona se van a registrar.
 - **Productos de conducta.** Se registra el resultado que deja una conducta: los deberes terminados, las colillas del cenicero, los mensajes enviados. Son **permanentes** y, si se recogen de lo que la persona ya hizo, **no reactivos**, porque nadie cambia su conducta pasada al ser evaluado. Su punto débil es que no informan del proceso y que a veces no se sabe quién es el autor.
 - **Atributos o rasgos.** Se infieren características internas a partir de lo observado («es tímida», «muestra baja autoestima»). Es la unidad de **máxima inferencia** y la más expuesta a los sesgos del observador.
 
@@ -133,7 +133,7 @@ Estos medios **aumentan la objetividad del registro**, porque el aparato no se c
 | Unidad de análisis | Lo que se observa: continuo, conductas, interacciones, productos o atributos |
 | Definición operativa | Descripción de una conducta en términos observables, con ejemplos y contraejemplos |
 | Producto de conducta | Resultado permanente de una conducta; si ya existía, es una medida no reactiva |
-| Latencia | Tiempo entre la presentación de un estímulo y el inicio de la respuesta |
+| Latencia | Tiempo que pasa desde que aparece el estímulo hasta que empieza la respuesta |
 | Escala de apreciación | Valoración retrospectiva del grado en que se da una conducta; expuesta a halo y lenidad |
 | Sistema de categorías | Conjunto cerrado de categorías exhaustivas y mutuamente excluyentes para codificar conducta |
 | Formato de campo | Instrumento que codifica cada acontecimiento en varias dimensiones a la vez (Anguera) |
@@ -171,7 +171,7 @@ c) mejoran la objetividad del registro, pero no su interpretación
 
 ### Soluciones
 
-**1 b.** Los atributos se infieren a partir de la conducta y son la unidad de máxima inferencia. **2 c.** La latencia mide el tiempo entre el estímulo y el inicio de la respuesta. **3 a.** Una impresión general positiva se extiende a un aspecto concreto. **4 b.** La exhaustividad exige que toda conducta tenga categoría; la exclusividad, que tenga solo una. **5 c.** El aparato registra con precisión, pero qué significa el dato sigue siendo una inferencia, y los datos exigen consentimiento y RGPD.
+**1 b.** Los atributos se infieren a partir de la conducta y son la unidad de máxima inferencia. **2 c.** La latencia mide cuánto tarda en empezar la respuesta tras la orden; la duración mediría cuánto dura la recogida. **3 a.** Una impresión general positiva se extiende a un aspecto concreto. **4 b.** La exhaustividad exige que toda conducta tenga categoría; la exclusividad, que tenga solo una. **5 c.** El aparato registra con precisión, pero qué significa el dato sigue siendo una inferencia, y los datos exigen consentimiento y RGPD.
 
 ## Unidad 14 · Muestreo, garantías y planificación de la observación
 
@@ -196,7 +196,7 @@ Casi nunca es posible observar todo lo que hace una persona. Hay que tomar una *
 
 Figura 14.1. **Tres formas de muestrear la misma sesión.** En una sesión hipotética de 60 s dividida en seis intervalos de 10 s, la conducta ocupa 25 s (41,7 %). El intervalo parcial la estima en un 66,7 %, el intervalo total en un 16,7 % y el muestreo momentáneo en un 33,3 %. Caso hipotético; patrón descrito por Powell et al. (1975). Elaboración propia.
 
-Como muestra la figura 14.1, la conducta aparece entre los segundos 3 y 8, entre el 22 y el 40 y entre el 55 y el 57. El **intervalo parcial** marca cuatro de los seis intervalos, porque basta un instante de conducta. El **intervalo total** marca solo uno, del segundo 30 al 40, el único ocupado entero. El **muestreo momentáneo**, que mira en los segundos 10, 20, 30, 40, 50 y 60, acierta en dos de seis. Ninguno coincide con el 41,7 % real.
+Como muestra la figura 14.1, la conducta aparece entre los segundos 3 y 8, entre el 22 y el 40 y entre el 55 y el 57. El **intervalo parcial** marca cuatro de los seis intervalos, porque basta un instante de conducta. El **intervalo total** marca solo uno, del segundo 30 al 40, el único ocupado entero. El **muestreo momentáneo**, que mira en los segundos 10, 20, 30, 40, 50 y 60, registra la conducta en dos de los seis instantes. Ninguno coincide con el 41,7 % real.
 
 Powell, Martindale y Kulp (1975) compararon estas estrategias con el registro continuo y mostraron que el error depende de la **duración de los episodios** y **crece al alargar el intervalo**. El muestreo momentáneo da estimaciones razonables de la duración si los intervalos son cortos; como referencia aproximada, se ha indicado que su error se mantiene por debajo del 20 % con intervalos de hasta unos 240 s, y otro trabajo sitúa el límite en unos 120 s.
 
@@ -204,24 +204,24 @@ Como regla práctica, el intervalo parcial no deja escapar conductas breves, com
 
 ### 14.2 Observación natural y análoga
 
-El **lugar** de la observación forma un continuo entre dos extremos: la situación natural y la situación artificial o análoga. En ambas se puede observar de forma sistemática, y en ambas la presencia del observador puede alterar la conducta.
+El escenario va de la vida diaria de la persona (situación **natural**) a un escenario preparado por el evaluador (situación **análoga** o artificial), con muchos puntos intermedios. Lo que se gana en realismo se pierde en control, y en ningún punto desaparece la reactividad (apartado 14.3).
 
 **Observación en situación natural.** Se observa a la persona en su medio habitual: la casa, el aula, el patio, el trabajo. Sus ventajas son claras:
 
 - alta **validez ecológica**, porque la conducta es la que realmente ocurre en la vida diaria;
-- recoge conducta **espontánea**, sin instrucciones del evaluador;
+- recoge lo que la persona hace por iniciativa propia, no lo que se le pide;
 - permite ver los **antecedentes y consecuentes reales**, imprescindibles para el análisis funcional (Unidad 4);
 - facilita seguimientos a lo largo del tiempo.
 
-Sus inconvenientes: hay **poco control** (la conducta puede no aparecer durante la sesión), el acceso puede ser difícil o éticamente delicado y desplazarse es caro, por lo que a menudo se recurre a observadores del entorno con menos entrenamiento.
+El precio es el **control**: puede pasar una tarde entera en casa sin que aparezca la rabieta que se quería ver. Hay espacios donde no se puede o no se debe entrar, y cada visita cuesta tiempo; por eso a menudo se delega el registro en padres o docentes, a costa de precisión.
 
-**Observación en situación artificial o análoga.** Cuando no es posible observar en el medio natural, se **recrea** la situación de interés en la consulta o el laboratorio. Las formas principales son:
+**Observación en situación artificial o análoga.** Si la conducta es rara, privada o difícil de alcanzar en su medio, el evaluador la **provoca** en un escenario preparado: la consulta, una sala de juego o el laboratorio. Las formas principales son:
 
 - **Pruebas de representación de papeles (*role-playing*)**: se pide a la persona que represente una escena, con frecuencia con el evaluador o un colaborador haciendo de interlocutor. Las **pruebas de rol de habilidades sociales**, en la línea de Bellack, presentan breves situaciones sociales (pedir un favor, rechazar una petición) y se observa la respuesta.
-- **Tests situacionales**: el evaluador presenta estímulos o tareas que provocan la conducta, por ejemplo una tarea de juego para observar la interacción entre una madre y su hijo.
+- **Tests situacionales**: el evaluador presenta estímulos o tareas que provocan la conducta, por ejemplo, pedir a una pareja que discuta durante diez minutos un tema en el que no se pone de acuerdo.
 - **Test de evitación conductual (BAT)**: se pide a la persona que se acerque paso a paso al estímulo temido (una araña en un terrario, un ascensor) y se registra hasta dónde llega. Permite observar a la vez la conducta motora, la activación fisiológica y lo que la persona dice, es decir, los tres sistemas de respuesta (Unidad 4).
 
-La situación análoga gana **control**: todas las personas se enfrentan a la misma situación, se puede repetir y se provoca justo la conducta que interesa. Gana **validez interna**, pero pierde **validez externa**: nada garantiza que quien rechaza bien una petición en un *role-playing* lo haga con su jefe, ni que el estudiante que se presenta con soltura ante un grupo simulado pregunte de verdad en clase. Por eso conviene que la situación sea parecida a la real, que se elijan escenas frecuentes en la vida de la persona y que se reduzca la reactividad. La observación análoga no debe usarse como **único** método; se complementa con entrevista, autoinforme u observación natural.
+La situación análoga gana **control**: todas las personas se enfrentan a la misma situación, se puede repetir y se provoca justo la conducta que interesa. Gana **validez interna**, pero pierde **validez externa**: nada garantiza que quien rechaza bien una petición en un *role-playing* lo haga con su jefe, ni que el estudiante que se presenta con soltura ante un grupo simulado pregunte de verdad en clase. Para acortar esa distancia, las escenas se construyen a partir de situaciones que la persona vive a menudo y se acercan todo lo posible a las reales. Aun así, sus datos se contrastan siempre con la entrevista, el autoinforme o la observación en el medio natural.
 
 **El papel del observador.** Cada tipo de observador tiene sus ventajas y sus riesgos:
 
@@ -247,7 +247,7 @@ Figura 14.2. **El acuerdo depende de saberse controlado.** Barras conceptuales, 
 
 Como muestra la figura 14.2, cuando el control era **encubierto**, el acuerdo bajaba de forma sustancial y los observadores registraban **menos conducta disruptiva**. La consecuencia práctica es incómoda: el acuerdo medido en las sesiones de control puede ser más alto que el que hay en el resto. Por eso los controles deben ser **periódicos** y, cuando sea posible, **encubiertos** o aleatorios.
 
-**Deriva del observador.** Con el paso del tiempo, el observador cambia poco a poco su forma de aplicar las definiciones, sin darse cuenta. La deriva es más peligrosa cuando dos observadores se forman y trabajan **juntos**: van redefiniendo el código entre ellos y pueden **coincidir mucho entre sí y ser poco exactos** respecto a la definición original (O'Leary y Kent, 1973; Kent et al., 1974). Un acuerdo alto entre ellos no detecta el problema. Las soluciones son reentrenar periódicamente con material de referencia ya codificado, rotar las parejas y comparar con un criterio externo.
+**Deriva del observador.** Con el paso del tiempo, el observador cambia poco a poco su forma de aplicar las definiciones, sin darse cuenta. La deriva es más peligrosa cuando dos observadores se forman y trabajan **juntos**: van redefiniendo el código entre ellos y pueden **coincidir mucho entre sí y ser poco exactos** respecto a la definición original (O'Leary y Kent, 1973; Kent, Kanowitz, O'Leary y Cheiken, 1977). Un acuerdo alto entre ellos no detecta el problema. Las soluciones son reentrenar periódicamente con material de referencia ya codificado, rotar las parejas y comparar con un criterio externo.
 
 Conviene no confundir los conceptos: en la **reactividad** cambia la persona observada; en la **deriva**, el observador.
 
@@ -259,7 +259,7 @@ La **fiabilidad interobservadores** o **interjueces** indica en qué medida dos 
 
 - **Porcentaje de acuerdo total o por frecuencia.** Se comparan los totales de cada observador: si uno cuenta 18 conductas y otro 20, el acuerdo es 18/20 = 90 %. Es el **más laxo**, porque los dos pueden haber contado episodios distintos y coincidir en el total.
 - **Acuerdo por intervalos.** Se comparan intervalo a intervalo: acuerdos / (acuerdos + desacuerdos). Es más exigente, pero no corrige el acuerdo que se produciría **por azar**.
-- **Índice por orden o secuencia.** Comprueba si los observadores registran las conductas en el mismo orden; es útil con sistemas de categorías e interacciones.
+- **Índice por orden o secuencia.** Además de contar, mira si los dos observadores encadenan los acontecimientos igual (A, luego B, luego C); importa cuando se estudian secuencias, como las interacciones.
 - **Kappa de Cohen** (Cohen, 1960). Corrige el acuerdo esperado por azar: κ = (acuerdo observado − acuerdo por azar) / (1 − acuerdo por azar). Vale 1 con acuerdo perfecto y 0 cuando el acuerdo no supera al azar.
 
 ![](acuerdo-kappa.png)
@@ -297,7 +297,7 @@ Como muestra la figura 14.3, un 80 % de acuerdo se convierte en un κ de 0,60 cu
 
 **4. Kappa.** κ = (0,80 − 0,50) / (1 − 0,50) = 0,30 / 0,50 = 0,60.
 
-**5. Interpretación.** El acuerdo supera claramente al azar y queda en el límite de lo que Landis y Koch (1977) llaman sustancial. Para un estudio de tratamiento convendría revisar las definiciones y reentrenar.
+**5. Interpretación.** El acuerdo supera claramente al azar y queda justo en el techo de la franja que Landis y Koch (1977) llaman moderada (0,41–0,60), sin llegar a sustancial. Para un estudio de tratamiento convendría revisar las definiciones y reentrenar.
 
 **Variante: una conducta poco frecuente.** Supongamos que ambos marcan «sí» en 1 intervalo, «no» en 17 y discrepan en 2 (1 + 1). El acuerdo observado es 18 / 20 = 0,90. Cada observador marca «sí» en 2 de 20 intervalos (0,10). Acuerdo por azar = 0,10 · 0,10 + 0,90 · 0,90 = 0,01 + 0,81 = 0,82. κ = (0,90 − 0,82) / (1 − 0,82) = 0,08 / 0,18 ≈ 0,44. El 90 % parece excelente, pero casi todo se debe a coincidir en que «no pasa nada»: con conductas raras, el porcentaje de acuerdo engaña.
 
@@ -332,7 +332,7 @@ Como muestra la figura 14.3, un 80 % de acuerdo se convierte en un κ de 0,60 cu
 
 ### Autoevaluación
 
-**1.** Una conducta ocupa realmente el 40 % de una sesión. ¿Qué estrategia tenderá a dar una cifra más alta?
+**1.** Una conducta ocupa realmente el 40 % de una sesión. ¿Qué estrategia tenderá a sobreestimarla de forma sistemática?
 a) El muestreo de intervalo total
 b) El muestreo momentáneo
 c) El muestreo de intervalo parcial
