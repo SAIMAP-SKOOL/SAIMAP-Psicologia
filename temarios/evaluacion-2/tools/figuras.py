@@ -211,7 +211,7 @@ if want('mihura'):
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(7.0, 3.3), gridspec_kw={'width_ratios': [1.1, 1]})
     a1.bar([0, 1], [.27, .08], color=[G, MUTE], width=.55)
     for x, v, k in [(0, .27, 'k = 770'), (1, .08, 'k = 386')]:
-        a1.text(x, v + .008, f'r = {str(v)[1:]}', ha='center', fontsize=9.4, weight='bold', color=INK); a1.text(x, -.035, k, ha='center', fontsize=7.6, color=MUTE)
+        a1.text(x, v + .008, f'r = {v:.2f}'.replace('.', ','), ha='center', fontsize=9.4, weight='bold', color=INK); a1.text(x, -.035, k, ha='center', fontsize=7.6, color=MUTE)
     a1.set_xticks([0, 1]); a1.set_xticklabels(['Criterios\nexternos', 'Autoinformes'], fontsize=8.4); a1.set_ylim(-.05, .33); a1.set_ylabel('Validez media (r)')
     a1.set_yticks([0, .1, .2, .3]); a1.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, p: f'{v:.2f}'.replace('.', ','))); clean(a1)
     a2.axis('off'); a2.set_xlim(0, 10); a2.set_ylim(0, 10)

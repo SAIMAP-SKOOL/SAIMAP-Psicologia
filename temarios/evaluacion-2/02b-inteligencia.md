@@ -22,7 +22,7 @@ Las puntuaciones siguen siempre la misma secuencia:
 3. Las **puntuaciones compuestas** (índices y CI total), que suman varias escalares: **media 100 y DT 15**.
 4. El **percentil** y el **intervalo de confianza** de cada puntuación compuesta.
 
-Cómo se construyen los baremos, qué es el error típico de medida y cómo se calcula un intervalo de confianza se explica en *Evaluación Psicológica I* (Unidad 9). Aquí basta con recordar que toda puntuación lleva un margen de error y que la normalización permite traducirla directamente a la curva normal.
+Los baremos, el error típico de medida y los intervalos de confianza se explican en *Evaluación Psicológica I* (Unidad 9).
 
 ![m](curva-ci.png)
 
@@ -32,7 +32,7 @@ Como muestra la figura 7.1, una puntuación de 115 está una DT por encima de la
 
 Las primeras escalas separaban un **CI verbal** y un **CI manipulativo** (o de ejecución). Las versiones actuales abandonaron esa división y organizan los subtests en **índices** que se corresponden con aptitudes amplias del modelo CHC (Unidad 5): comprensión verbal, razonamiento fluido, procesamiento visoespacial, memoria de trabajo y velocidad de procesamiento. El **CI total (CIT)** sigue siendo la puntuación más fiable y la que mejor representa el factor *g*.
 
-Las escalas de Wechsler se usan en contextos clínicos, educativos, neuropsicológicos y forenses: diagnóstico de discapacidad intelectual, identificación de altas capacidades, valoración de dificultades de aprendizaje o estimación del rendimiento tras un daño cerebral. Su uso como complemento de la evaluación neuropsicológica y la estimación del CI premórbido se tratan en la Unidad 13.
+Se usan en contextos clínicos, educativos, neuropsicológicos y forenses; su papel en la evaluación neuropsicológica y la estimación del CI premórbido se tratan en la Unidad 13.
 
 ### 7.2 WAIS-IV y WAIS-5
 
@@ -45,7 +45,7 @@ Las escalas de Wechsler se usan en contextos clínicos, educativos, neuropsicol�
 | Memoria de Trabajo (MT) | Dígitos, Aritmética | Letras y números |
 | Velocidad de Procesamiento (VP) | Búsqueda de símbolos, Claves | Cancelación |
 
-Los subtests opcionales sirven para sustituir a uno principal cuando no puede aplicarse o queda invalidado, por ejemplo si una persona con temblor no puede manipular los cubos o si se interrumpe la prueba en mitad de un subtest. El CIT se obtiene con los 10 principales. Además, la WAIS-IV ofrece el **Índice de Capacidad General (ICG)**, que se calcula solo con los subtests de CV y RP. El ICG depende menos de la memoria de trabajo y de la rapidez, por lo que resulta útil cuando estas están alteradas, como ocurre a menudo tras un traumatismo craneoencefálico o con algunos tratamientos farmacológicos.
+Los subtests opcionales sustituyen a uno principal que no puede aplicarse o queda invalidado, por ejemplo si una persona con temblor no puede manipular los cubos. El CIT se obtiene con los 10 principales. Además, la WAIS-IV ofrece el **Índice de Capacidad General (ICG)**, que se calcula solo con los subtests de CV y RP. El ICG depende menos de la memoria de trabajo y de la rapidez, por lo que resulta útil cuando estas están alteradas, como ocurre a menudo tras un traumatismo craneoencefálico o con algunos tratamientos farmacológicos.
 
 **La WAIS-5.** Publicada en EE. UU. en 2024, cubre de los 16:0 a los 90:11 años. El cambio principal es estructural: divide el antiguo Razonamiento Perceptivo en dos índices, **Visoespacial (VE)** y **Razonamiento Fluido (RF)**, igual que ya hacía el WISC-V. Así pasa a tener **cinco índices primarios**: CV, VE, RF, MT y VP.
 
@@ -53,18 +53,18 @@ Los subtests opcionales sirven para sustituir a uno principal cuando no puede ap
 
 Figura 7.2. **Índices primarios de tres escalas de Wechsler.** La WAIS-IV (16–89 años) tiene cuatro índices: CV, RP, MT y VP. La WAIS-5 (16:0–90:11) y el WISC-V (6:0–16:11) tienen cinco: CV, VE, RF, MT y VP, porque el Razonamiento Perceptivo se divide en Visoespacial y Razonamiento Fluido. Elaboración propia.
 
-Como muestra la figura 7.2, la WAIS-5 acerca la escala de adultos a la estructura de la escala infantil y al modelo CHC. Sus datos básicos según la editorial son:
+Como muestra la figura 7.2, la WAIS-5 acerca la escala de adultos a la infantil y al modelo CHC. Según la editorial, tiene:
 
 - **Batería primaria** de 10 subtests, de un total de unos 20.
 - **CIT** calculado con 7 subtests.
 - **15 índices auxiliares**, que agrupan subtests de otras formas para responder a preguntas concretas.
 - Varios **subtests nuevos**, que Pearson denomina en inglés *Set Relations*, *Running Digits*, *Naming Speed Quantity*, *Spatial Addition* y *Symbol Span*.
 
-Dos precauciones. Primera: los nombres de los subtests nuevos se fijarán en la adaptación española y no existe todavía una traducción oficial, así que no conviene inventarla ni darla por buena. Segunda: la composición exacta del CIT de la WAIS-5 está pendiente de confirmar en el manual técnico, de modo que lo prudente es quedarse con el dato general (7 subtests) sin enumerarlos.
+Dos precauciones: los nombres españoles de los subtests nuevos se fijarán en la adaptación y aún no hay traducción oficial, y la composición exacta del CIT está pendiente de confirmar en el manual técnico.
 
-**La situación en España.** Mientras la WAIS-5 se estandariza, la escala de adultos disponible es la WAIS-IV con normas de 2012. Esto tiene una consecuencia práctica que conecta con el efecto Flynn (Unidad 6): durante buena parte del siglo XX las puntuaciones subieron unos 2,3 puntos por década (Trahan et al., 2014), y unas normas antiguas tienden a **inflar el CI** porque comparan a la persona con una generación que puntuaba menos. Las normas de la WAIS-IV tienen ya más de una década, y es un factor que hay que tener en cuenta cuando una puntuación está cerca de un punto de corte, como en una valoración de discapacidad intelectual. La inversión del efecto observada en algunos países impide, además, aplicar una corrección automática.
+**La situación en España.** Mientras la WAIS-5 se estandariza, la escala de adultos disponible es la WAIS-IV con normas de 2012. Esto tiene una consecuencia práctica que conecta con el efecto Flynn (Unidad 6): durante buena parte del siglo XX las puntuaciones subieron unos 2,3 puntos por década (Trahan et al., 2014), y unas normas antiguas tienden a **inflar el CI** porque comparan a la persona con una generación que puntuaba menos. Las normas de la WAIS-IV tienen ya más de una década, y es un factor que hay que tener en cuenta cuando una puntuación está cerca de un punto de corte, como en una valoración de discapacidad intelectual.
 
-Un ejemplo: un hombre de 45 años es evaluado tras un ictus. Su CIT queda en 88, pero su CV es de 108 y su VP de 76. El ICG, que no incluye velocidad, refleja mejor su capacidad de razonamiento previa; el índice de VP señala la lentitud que conviene explorar con pruebas neuropsicológicas específicas.
+Un ejemplo: tras un ictus, un hombre de 45 años obtiene un CIT de 88, con CV de 108 y VP de 76. El ICG, que no incluye velocidad, refleja mejor su razonamiento; la VP señala una lentitud que conviene explorar con pruebas neuropsicológicas.
 
 ### 7.3 WISC-V y WPPSI-IV
 
@@ -86,7 +86,7 @@ El **CIT** se obtiene con **7 subtests**, y no con los 10. Además de los primar
 - **Capacidad General**: equivalente al ICG de la WAIS-IV, basado en subtests de comprensión verbal y razonamiento.
 - **Competencia Cognitiva**: reúne la memoria de trabajo y la velocidad de procesamiento.
 
-La comparación entre Capacidad General y Competencia Cognitiva es habitual en la práctica: un niño puede razonar bien y, sin embargo, rendir peor en clase porque procesa la información con lentitud o le cuesta mantenerla activa. Ese patrón no basta por sí solo para diagnosticar nada, pero orienta la evaluación posterior y las adaptaciones escolares.
+Comparar Capacidad General y Competencia Cognitiva es habitual: un niño puede razonar bien y rendir peor en clase porque procesa con lentitud. Ese patrón no diagnostica nada por sí solo, pero orienta la evaluación y las adaptaciones escolares.
 
 **El WPPSI-IV.** Publicado en 2012 y adaptado en 2014, cubre de los 2:6 a los 7:7 años, con 15 subtests en total. Tiene dos tramos de edad con estructura distinta, porque la capacidad de los más pequeños es menos diferenciada y su atención es más breve:
 
@@ -95,13 +95,13 @@ La comparación entre Capacidad General y Competencia Cognitiva es habitual en l
 | 2:6 a 3:11 | 3: Comprensión Verbal, Visoespacial y Memoria de Trabajo | Sí, en menor número |
 | 4:0 a 7:7 | 5: CV, VE, RF, MT y VP | 4 |
 
-Con preescolares, la aplicación exige mucha habilidad: sesiones cortas, materiales atractivos, pausas y un examinador capaz de mantener el interés sin dar pistas. Un niño que no colabora puede obtener una puntuación baja que no refleja su capacidad, de modo que la observación de la conducta durante la prueba forma parte del resultado.
+Con preescolares, la aplicación exige sesiones cortas, pausas y un examinador que mantenga el interés sin dar pistas: un niño que no colabora puede obtener una puntuación que no refleja su capacidad.
 
 **Elegir la escala por la edad.** Los rangos de las escalas se **solapan**: entre los 6:0 y los 7:7 años pueden aplicarse tanto el WPPSI-IV como el WISC-V, y a los 16 años, tanto el WISC-V como la WAIS. En el solapamiento se elige según el nivel esperado. Si se sospecha un rendimiento bajo, conviene la escala de menor edad, que tiene más ítems fáciles y discrimina mejor en la parte baja (más **suelo**). Si se sospechan altas capacidades, conviene la de mayor edad, que tiene ítems más difíciles (más **techo**).
 
-Un minicaso: Hugo tiene 6 años y 10 meses, y su tutora sospecha un retraso en el desarrollo. Con el WPPSI-IV, sus respuestas correctas a los ítems más sencillos permiten distinguir niveles por debajo de la media; con el WISC-V, muchos subtests empezarían por encima de lo que puede resolver y la puntuación quedaría «aplastada» en el suelo. En cambio, para su compañera Irene, que lee con soltura desde los cinco años, el WISC-V evita que acierte casi todo y se pierda información en la parte alta.
+Un minicaso: Hugo tiene 6 años y 10 meses, y su tutora sospecha un retraso en el desarrollo. Con el WPPSI-IV, sus respuestas correctas a los ítems más sencillos permiten distinguir niveles por debajo de la media; con el WISC-V, muchos subtests empezarían por encima de lo que puede resolver y la puntuación quedaría «aplastada» en el suelo. Para una compañera de su edad con un desarrollo muy adelantado, en cambio, el WISC-V evitaría que acertara casi todo.
 
-Las escalas infantiles se usan sobre todo en el ámbito escolar: valoración de necesidades educativas, dificultades de aprendizaje, altas capacidades y trastornos del neurodesarrollo. El uso de estos resultados en la orientación se estudia en la asignatura de Psicología Educativa y Orientación.
+El uso escolar de estas escalas (necesidades educativas, altas capacidades, dificultades de aprendizaje) se estudia en Psicología Educativa y Orientación.
 
 ### 7.4 Interpretación por niveles y errores frecuentes
 
@@ -127,9 +127,9 @@ Una escala de Wechsler no produce un número, sino un conjunto de puntuaciones q
 | Diagnosticar solo con el CI | La discapacidad intelectual exige también limitaciones en el funcionamiento adaptativo |
 | Ignorar la antigüedad de los baremos | Las normas antiguas tienden a inflar el CI (efecto Flynn) |
 
-El diagnóstico de discapacidad intelectual merece una nota aparte. Un CI en torno a dos DT por debajo de la media es un criterio necesario, pero el DSM-5-TR y la CIE-11 exigen también **limitaciones en el funcionamiento adaptativo** con inicio en el desarrollo, que se evalúan con otros instrumentos y con información de la familia o la escuela (asignatura de Psicopatología).
+En la discapacidad intelectual, una puntuación en torno a dos DT por debajo de la media, considerando el error de medida, es solo una parte: el DSM-5-TR y la CIE-11 exigen también **limitaciones en el funcionamiento adaptativo** con inicio en el desarrollo, que se evalúan con otros instrumentos y con información de la familia o la escuela (asignatura de Psicopatología).
 
-Hay que considerar también las **condiciones de la persona**: una lengua materna distinta, un déficit sensorial, un trastorno motor o una escolarización irregular pueden bajar puntuaciones que no miden lo que pretenden. Recordemos además que el CI es estable, pero no inmutable: cada año adicional de escolarización se asocia con una ganancia estimada de entre 1 y 5 puntos (Ritchie y Tucker-Drob, 2018). Un informe responsable presenta las puntuaciones con su margen de error, las relaciona con la historia y la conducta observada y responde a la pregunta que motivó la evaluación. Las normas éticas sobre el uso de tests y la comunicación de resultados se tratan en *Evaluación Psicológica I*.
+Hay que considerar también las **condiciones de la persona**: una lengua materna distinta, un déficit sensorial, un trastorno motor o una escolarización irregular pueden bajar puntuaciones que no miden lo que pretenden. Recordemos además que el CI es estable, pero no inmutable: cada año adicional de escolarización se asocia con una ganancia estimada de entre 1 y 5 puntos (Ritchie y Tucker-Drob, 2018). La ética del uso de tests y la comunicación de resultados se tratan en *Evaluación Psicológica I*.
 
 ### Consenso y debate
 
@@ -184,7 +184,7 @@ c) Elimina el índice de Velocidad de Procesamiento
 
 **5.** Si una persona muestra discrepancias muy grandes entre sus índices, lo más adecuado es…
 a) basar el informe en el CIT, que compensa las diferencias
-b) describir el perfil de índices y no tratar el CIT como un buen resumen
+b) describir el perfil de índices sin resumirlo en el CIT
 c) repetir la escala en una aplicación colectiva
 
 ### Soluciones
@@ -206,7 +206,7 @@ Existen varias versiones según el nivel de la población:
 | Matrices Generales o Estándar (SPM) | Adolescentes y adultos | 60 ítems en cinco series (A a E) |
 | Matrices Coloreadas (CPM) | Niños pequeños, personas mayores y personas con discapacidad | Ítems más sencillos y en color |
 | Matrices Avanzadas (APM) | Personas con capacidad alta | Ítems más difíciles, para evitar el efecto techo |
-| Raven 2 | Distintas edades | Versión actualizada, con nuevos ítems y baremos |
+| Raven 2 | Distintas edades | Revisión más reciente de la prueba |
 
 Raven es un **test de poder**, no de velocidad: lo que importa es hasta qué dificultad llega la persona, no lo rápido que trabaja. Puede aplicarse de forma individual o colectiva, lo que lo hace útil en selección de personal, en orientación escolar y en investigación transcultural. Los resultados suelen expresarse en percentiles respecto a baremos de edad.
 
@@ -221,7 +221,7 @@ Raven es un **test de poder**, no de velocidad: lo que importa es hasta qué dif
 | Qué mide sobre todo | Gf y *g* | *g* no verbal, con más peso del razonamiento numérico |
 | Aplicación | Individual o colectiva | Individual o colectiva |
 
-Estas pruebas no sustituyen a una escala completa. Un percentil en Raven informa del razonamiento abstracto no verbal, pero no del vocabulario, la memoria de trabajo o la velocidad. Por ejemplo, un candidato a un puesto técnico que obtiene un percentil 90 en Raven razona muy bien con material nuevo, pero eso no dice nada de su capacidad para redactar un informe.
+Estas pruebas no sustituyen a una escala completa: un candidato con un percentil 90 en Raven razona muy bien con material nuevo, pero eso no informa de su vocabulario, su memoria de trabajo o su capacidad para redactar un informe.
 
 ### 8.2 Stanford-Binet 5, K-BIT y RIAS
 
@@ -237,13 +237,13 @@ Estas tres pruebas son de **aplicación individual**, como las escalas de Wechsl
 | Procesamiento visoespacial | Subtest verbal | Subtest no verbal |
 | Memoria de trabajo | Subtest verbal | Subtest no verbal |
 
-El resultado son 10 subtests que permiten obtener un CI total, un CI verbal, un CI no verbal y puntuaciones en los cinco factores. La ventaja del diseño es que cada factor puede valorarse con y sin lenguaje, lo que ayuda con personas con dificultades de expresión oral. Las ediciones antiguas usaban una DT de 16; la SB5 adopta la métrica habitual, con media 100 y DT 15. Su amplio rango de edad y sus ítems muy fáciles y muy difíciles le dan buen suelo y buen techo, por lo que se usa con frecuencia en la evaluación de la discapacidad intelectual grave y de las altas capacidades.
+El resultado son 10 subtests que permiten obtener un CI total, un CI verbal, un CI no verbal y puntuaciones en los cinco factores. La ventaja del diseño es que cada factor puede valorarse con y sin lenguaje, lo que ayuda con personas con dificultades de expresión oral. Las ediciones antiguas usaban una DT de 16; la SB5 adopta la métrica habitual, con media 100 y DT 15. Sus ítems muy fáciles y muy difíciles le dan buen suelo y buen techo, útiles en la discapacidad intelectual grave y en las altas capacidades.
 
 **K-BIT.** El Test Breve de Inteligencia de Kaufman (Kaufman, 1990) tiene solo **dos subtests**: **vocabulario**, que se relaciona con la inteligencia cristalizada, y **matrices**, que se relaciona con la fluida. Ofrece una puntuación verbal, una no verbal y un CI compuesto. Su brevedad lo hace útil para un cribado, para estimar el nivel intelectual en una investigación o para decidir si hace falta una evaluación más completa. Pearson tiene en curso una revisión del KBIT-2.
 
 **RIAS.** Las Escalas de Inteligencia de Reynolds (Reynolds y Kamphaus, 2003), adaptadas por TEA, ofrecen un **índice verbal**, un **índice no verbal** y un **índice de memoria**, además de un índice global. Se aplican en relativamente poco tiempo y reducen las exigencias motoras y de velocidad, lo que permite separar mejor la capacidad de razonamiento de la rapidez manual.
 
-**Cribado frente a diagnóstico.** Las pruebas breves sacrifican amplitud: con dos o cuatro subtests no se puede describir un perfil de capacidades ni detectar con fiabilidad discrepancias entre áreas. Por eso sirven para decidir **quién necesita** una evaluación completa, no para sustituirla. Un ejemplo: en una unidad de salud mental se aplica el K-BIT a una paciente para comprobar si su nivel intelectual permite usar un cuestionario de autoinforme largo. Para eso basta. Si el resultado estuviera cerca del límite de la discapacidad intelectual, haría falta una escala completa, como el WAIS-IV, y una evaluación del funcionamiento adaptativo.
+**Cribado frente a diagnóstico.** Las pruebas breves sacrifican amplitud: con dos o cuatro subtests no se puede describir un perfil de capacidades ni detectar con fiabilidad discrepancias entre áreas. Por eso sirven para decidir **quién necesita** una evaluación completa, no para sustituirla. Por ejemplo, el K-BIT basta para comprobar si una paciente puede responder un autoinforme largo; si el resultado se acercara al límite de la discapacidad intelectual, harían falta una escala completa y una evaluación del funcionamiento adaptativo.
 
 | Prueba | Aplicación | Uso principal |
 | --- | --- | --- |
@@ -298,7 +298,7 @@ Como muestra la figura 8.1, el perfil permite ver de un vistazo qué aptitudes d
 
 **FACT.** Las **Pruebas de Clasificación de Aptitudes** de Flanagan tienen su origen en los programas de selección de pilotos y personal de aviación del ejército estadounidense durante la Segunda Guerra Mundial. Su rasgo diferencial es el método: en lugar de partir del análisis factorial, se identificaron los **elementos del trabajo** mediante el **análisis de incidentes críticos**, es decir, recogiendo conductas concretas que distinguían un desempeño eficaz de uno ineficaz en distintas ocupaciones. Cada prueba mide uno de esos elementos (inspección, memoria, coordinación, comprensión mecánica, entre otros), y las puntuaciones se combinan para estimar la adecuación a diferentes ocupaciones.
 
-**PMA.** El test de **Aptitudes Mentales Primarias**, en la adaptación de TEA, traslada directamente el modelo de Thurstone a una batería breve. Evalúa cinco factores: verbal, espacial, razonamiento, numérico y fluidez verbal. Se usa en orientación escolar y en selección, y es una buena ilustración de cómo un modelo teórico se convierte en un instrumento.
+**PMA.** El test de **Aptitudes Mentales Primarias**, en la adaptación de TEA, traslada directamente el modelo de Thurstone a una batería breve. Evalúa cinco factores: verbal, espacial, razonamiento, numérico y fluidez verbal. Ilustra bien cómo un modelo teórico se convierte en un instrumento.
 
 | Batería | Origen | Qué aporta |
 | --- | --- | --- |

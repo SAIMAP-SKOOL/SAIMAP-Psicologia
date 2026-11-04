@@ -26,7 +26,7 @@ Dentro de los inventarios conviven tres **enfoques de construcción**, que organ
 | Por áreas temáticas | Kuder | Agrupando actividades por su contenido (cálculo, música, aire libre…) | ¿Qué áreas de actividad prefiere? |
 | Empírico o de criterio | Strong | Comparando las respuestas con las de profesionales satisfechos | ¿Se parecen sus gustos a los de quienes ejercen tal profesión? |
 
-**Formato absoluto y formato relativo.** Los inventarios difieren también en cómo se responde. En el **formato absoluto** (o normativo) cada actividad se valora por separado («me gusta», «me es indiferente», «me disgusta»). Las puntuaciones de cada escala son independientes y se pueden comparar con un baremo y entre personas. En el **formato relativo** o **ipsativo**, la persona elige entre varias actividades a la vez, de modo que preferir una supone renunciar a otra. Este formato reduce la tendencia a decir que todo gusta, pero obliga a interpretar el perfil dentro de la propia persona (apartado 14.3).
+**Formato absoluto y formato relativo.** En el **formato absoluto** (o normativo) cada actividad se valora por separado («me gusta», «me es indiferente», «me disgusta»), y las escalas pueden compararse con un baremo y entre personas. En el **formato relativo** o **ipsativo** se elige entre varias actividades a la vez, de modo que preferir una supone renunciar a otra; el perfil se interpreta entonces dentro de la propia persona (apartado 14.3).
 
 **Para qué sirven.** Se usan sobre todo en la **orientación académica** al final de la secundaria, pero también en los **cambios de carrera** de la vida adulta y, con más prudencia, en selección de personal, donde el candidato sabe qué intereses «convienen» y puede ajustar sus respuestas (Evaluación Psicológica I). Los intereses son bastante **estables** desde el final de la adolescencia, aunque no inmutables, así que un resultado describe el momento actual y sirve para abrir opciones, no para dictar el futuro. La orientación como proceso educativo se trata en Psicología Educativa y Orientación.
 
@@ -51,7 +51,7 @@ Los seis tipos se conocen por sus iniciales, **RIASEC**:
 
 Figura 14.1. **El hexágono RIASEC.** Los seis tipos de Holland aparecen en su orden circular. Los tipos adyacentes indican una combinación de consistencia alta y los opuestos, de consistencia baja; el ejemplo destacado es el código SAE. Elaboración propia.
 
-Como muestra la figura 14.1, el resultado de una evaluación no es un solo tipo, sino un **código de tres letras** con los tipos más altos en orden. Un código SAE describe a alguien sobre todo social, después artístico y después emprendedor, un perfil frecuente en la docencia de materias creativas o en la animación sociocultural. Las ocupaciones también reciben un código, de modo que se pueden buscar las que coinciden con el de la persona. Bases de datos ocupacionales como O∗NET clasifican las profesiones con códigos RIASEC.
+Como muestra la figura 14.1, el resultado de una evaluación no es un solo tipo, sino un **código de tres letras** con los tipos más altos en orden. Un código SAE describe a alguien sobre todo social, después artístico y después emprendedor. Las ocupaciones también reciben código (bases de datos como O∗NET las clasifican así), de modo que se buscan las que coinciden con el de la persona.
 
 **Cuatro conceptos clave.** El hexágono permite definir los conceptos con los que se interpreta un perfil:
 
@@ -91,12 +91,12 @@ Este formato da lugar a puntuaciones **ipsativas**: la suma de las puntuaciones 
 
 1. El perfil indica qué áreas prefiere la persona **en relación con sus otras áreas**, no cuánto interés tiene en términos absolutos.
 2. Las comparaciones **entre personas** son problemáticas. Que Ana puntúe más que Luis en Musical no significa que le guste más la música; puede que a Luis le guste mucho, pero aún más otra cosa.
-3. Las escalas no son independientes: si una sube, otras tienen que bajar, lo que produce correlaciones negativas artificiales entre ellas y complica los análisis estadísticos.
+3. Las escalas no son independientes: si una sube, otras bajan, lo que genera correlaciones negativas artificiales.
 4. A cambio, el formato **reduce** la aquiescencia y la tendencia a responder que todo gusta, y dificulta presentarse de forma favorable cuando las opciones son igual de deseables.
 
 El mismo principio de elección forzada aparece en algunos inventarios de personalidad, como el EPPS, para controlar la deseabilidad social (Unidad 9). Las propiedades estadísticas de las puntuaciones ipsativas se estudian en Psicometría.
 
-**La escala de verificación.** Incluye tríadas cuyas respuestas son muy previsibles en la población general. Si la persona elige de forma poco habitual en muchas de ellas, su protocolo puede reflejar descuido, respuestas al azar, problemas de comprensión o falta de sinceridad, y conviene no interpretarlo sin más. Es un control de validez del protocolo, no un detector de mentiras.
+**La escala de verificación.** Incluye tríadas de respuesta muy previsible. Muchas elecciones inusuales en ellas sugieren descuido, azar o problemas de comprensión, y el protocolo no debe interpretarse sin más. Es un control de validez, no un detector de mentiras.
 
 **Interpretación.** Las puntuaciones directas se convierten en **percentiles** y se interpreta el perfil completo, atendiendo a las combinaciones de áreas altas. Un caso: Irene, de 16 años, puntúa alto en Literario y Persuasivo y muy bajo en Cálculo y Mecánico. El orientador no concluye que «vale para el Derecho», sino que explora con ella profesiones donde escribir y convencer se combinan (periodismo, comunicación, gestión cultural) y comprueba si sus aptitudes las apoyan.
 
@@ -106,7 +106,7 @@ Un error frecuente es creer que el Kuder es un inventario empírico como el Stro
 
 Edward K. Strong publicó en 1927 el *Strong Vocational Interest Blank* (SVIB), el primer gran inventario de intereses. Su heredero actual es el **Strong Interest Inventory**. Lo que lo hace singular es su método de construcción: el **método empírico de criterio externo**.
 
-La lógica es la siguiente. Se reúne un grupo de profesionales de una ocupación que llevan tiempo ejerciéndola y están **satisfechos** con ella, por ejemplo ingenieros. Se les aplica una larga lista de ítems: ocupaciones, asignaturas, actividades de ocio, tipos de personas. Sus respuestas se comparan con las de una **muestra de referencia** de personas de muchas profesiones. Los ítems que diferencian a los ingenieros del grupo de referencia, sea cual sea su contenido, forman la **escala ocupacional** de ingeniero. Si una persona responde como suelen hacerlo los ingenieros satisfechos, puntuará alto en esa escala.
+Se reúne un grupo de profesionales de una ocupación, con experiencia y **satisfechos** con ella, por ejemplo ingenieros, y se les aplica una larga lista de ítems sobre ocupaciones, asignaturas, ocio y tipos de personas. Sus respuestas se comparan con las de una **muestra de referencia** de personas de muchas profesiones. Los ítems que diferencian a los ingenieros del grupo de referencia, sea cual sea su contenido, forman la **escala ocupacional** de ingeniero. Si una persona responde como suelen hacerlo los ingenieros satisfechos, puntuará alto en esa escala.
 
 El supuesto de fondo es sencillo: quien comparte los gustos de las personas satisfechas en una profesión tiene más probabilidades de sentirse a gusto en ella. Nótese que el criterio es la satisfacción, no la competencia: la escala dice si alguien se parece en sus gustos a los ingenieros, no si sería un buen ingeniero.
 
@@ -126,7 +126,7 @@ Es la misma estrategia con la que se construyó el MMPI, que comparaba pacientes
 - **Escalas ocupacionales:** el núcleo empírico original, que compara a la persona con los profesionales satisfechos de cada ocupación.
 - **Estilos personales** e índices de control de la aplicación.
 
-La integración del RIASEC en el Strong muestra que los tres enfoques de la unidad no son rivales: un perfil se puede leer a la vez como tipo, como área y como parecido con grupos profesionales.
+La integración del RIASEC en el Strong muestra que los tres enfoques de la unidad no son rivales.
 
 **Normas y sexo.** Hombres y mujeres difieren en promedio en algunos intereses, por lo que los inventarios ofrecen a menudo normas separadas por sexo o combinadas. Se debate cuál es más justa: las separadas evitan perfiles estereotipados, pero pueden ocultar diferencias reales. Lo importante es que el resultado amplíe opciones.
 
@@ -229,12 +229,12 @@ Hay cientos de escalas publicadas, muchas creadas para un solo estudio y de cali
 
 La construcción sigue unos pasos:
 
-1. Se redacta un banco amplio de enunciados claramente favorables o desfavorables. Los neutros o ambiguos se descartan, porque no discriminan.
+1. Se redacta un banco amplio de enunciados claramente favorables o desfavorables; los neutros se descartan porque no discriminan.
 2. Se aplica a una muestra piloto.
-3. Se hace un **análisis de ítems**: se conservan los que más correlacionan con la puntuación total o los que mejor diferencian a quienes puntúan alto de quienes puntúan bajo.
-4. Se comprueba la fiabilidad de la escala final y, si procede, su estructura con análisis factorial.
+3. Se hace un **análisis de ítems**: se conservan los que más correlacionan con la puntuación total o mejor separan a quienes puntúan alto y bajo.
+4. Se comprueba la fiabilidad de la escala final.
 
-La inclusión de ítems en ambos sentidos tiene una función de control: ayuda a detectar y compensar la **aquiescencia**, la tendencia a estar de acuerdo con todo.
+Los ítems en ambos sentidos ayudan a controlar la **aquiescencia**, la tendencia a estar de acuerdo con todo.
 
 Dos precisiones evitan errores frecuentes. Primera: estrictamente, una **escala Likert** es el conjunto de ítems sumados, no un ítem suelto con cinco opciones. Ese ítem aislado es un «ítem de tipo Likert». Segunda: la escala Likert no es lo mismo que el diferencial semántico. En el Likert se gradúa el acuerdo con un enunciado; en el diferencial semántico se sitúa un concepto entre dos adjetivos opuestos (Unidad 2).
 
@@ -285,7 +285,7 @@ Figura 15.1. **Tres formas de construir una escala de actitud.** A la izquierda,
 
 Como muestra la figura 15.1, con 5 ítems y 6 sujetos hay 30 respuestas; si solo una se sale del patrón, la reproductibilidad es 1 − 1/30 ≈ 0,97, por encima del criterio de 0,90.
 
-El escalograma tiene dos ventajas: garantiza que los ítems miden **una sola dimensión** y da a la puntuación total un significado muy preciso. Su inconveniente es que exige una consistencia que las actitudes reales rara vez muestran, sobre todo cuando son complejas o tienen varias facetas. Por eso funciona mejor con contenidos muy delimitados y se usa más como modelo conceptual que como técnica aplicada. Su idea de ordenar ítems y personas en un mismo continuo es un antecedente determinista de la teoría de respuesta al ítem, que admite errores probabilísticos (Psicometría).
+El escalograma garantiza que los ítems miden **una sola dimensión** y da a la puntuación total un significado preciso, pero exige una consistencia que las actitudes complejas rara vez muestran, por lo que se usa más como modelo conceptual que como técnica aplicada. Su idea de ordenar ítems y personas en un mismo continuo es un antecedente determinista de la teoría de respuesta al ítem, que admite errores probabilísticos (Psicometría).
 
 | Rasgo | Likert | Thurstone | Guttman |
 | --- | --- | --- | --- |
@@ -293,11 +293,9 @@ El escalograma tiene dos ventajas: garantiza que los ítems miden **una sola dim
 | Clave de la construcción | Análisis de ítems | Valores escalares de jueces | Escalograma |
 | Indicador de calidad | Fiabilidad, correlación ítem-total | Dispersión (ambigüedad) de los ítems | Reproductibilidad ≥ 0,90 |
 
-Confundir Thurstone con Guttman es un error frecuente: Thurstone busca intervalos iguales entre ítems situados por jueces; Guttman, un orden acumulativo en el que aceptar un ítem implica aceptar los inferiores.
-
 **Otras técnicas.**
 
-- **Escala de distancia social de Bogardus (1925).** Pregunta hasta qué grado de cercanía se aceptaría a miembros de un grupo: desde excluirlos del país hasta aceptarlos como familia por matrimonio, pasando por vecinos o compañeros de trabajo. Tiene lógica acumulativa, como el escalograma: quien acepta a alguien como familiar suele aceptarlo también como vecino.
+- **Escala de distancia social de Bogardus (1925).** Pregunta hasta qué grado de cercanía se aceptaría a miembros de un grupo, desde excluirlos del país hasta aceptarlos como familia. Tiene lógica acumulativa: quien acepta a alguien como familiar suele aceptarlo como vecino.
 - **Diferencial semántico** (Osgood, Suci y Tannenbaum, 1957). El factor de **evaluación** (bueno-malo, agradable-desagradable, útil-inútil) es una medida directa del componente evaluativo de la actitud (Unidad 2).
 - **Preguntas abiertas**, que captan matices pero son difíciles de puntuar de forma fiable.
 
@@ -319,13 +317,13 @@ La lógica es que las tareas son más fáciles y rápidas cuando las categorías
 **El debate.** La investigación posterior ha matizado mucho esas expectativas:
 
 - **Fiabilidad.** La fiabilidad test-retest es **baja** para un instrumento que pretende medir algo estable de una persona: la misma persona puede obtener resultados bastante distintos en dos aplicaciones.
-- **Predicción de la conducta.** El metaanálisis de Oswald et al. (2013) halló una correlación de solo **r ≈ 0,15** entre las puntuaciones del IAT y criterios de discriminación étnica o racial, una capacidad predictiva débil y no superior a la de las medidas explícitas.
+- **Predicción de la conducta.** El metaanálisis de Oswald et al. (2013) halló una correlación de solo **r ≈ 0,15** entre las puntuaciones del IAT y criterios de discriminación étnica o racial, una capacidad predictiva débil.
 - **Cambio.** Según el metaanálisis de Forscher et al. (2019), modificar las puntuaciones en medidas implícitas no se traduce necesariamente en cambios en la conducta.
-- **Interpretación.** Se discute qué mide exactamente: una actitud personal, asociaciones culturales que la persona conoce pero no comparte, la familiaridad con los estímulos o habilidades generales para cambiar de tarea.
+- **Interpretación.** Se discute si mide una actitud personal, asociaciones culturales que la persona conoce pero no comparte o la familiaridad con los estímulos.
 
 **Uso responsable.** De este debate se deriva una conclusión práctica clara. El IAT es una herramienta de **investigación** útil para estudiar procesos en grupos, pero **no** es un instrumento de diagnóstico individual: no permite afirmar que una persona concreta tiene prejuicios ni predecir cómo se comportará. Usarlo para seleccionar personal, para decidir sobre una persona o para «demostrar» el racismo oculto de alguien no tiene apoyo empírico.
 
-Un caso: en un curso de formación, un participante hace un IAT en línea y obtiene una puntuación que indica asociación negativa con un grupo. Se angustia pensando que es «racista sin saberlo». La interpretación adecuada es más modesta: un resultado aislado, con baja fiabilidad, no define su actitud ni predice su conducta. Puede ser una ocasión para reflexionar, no un diagnóstico.
+Un caso: en un curso de formación, un participante obtiene en un IAT en línea una asociación negativa con un grupo y se angustia pensando que es «racista sin saberlo». Un resultado aislado y poco fiable no define su actitud ni predice su conducta: puede invitar a reflexionar, pero no es un diagnóstico.
 
 Otras medidas implícitas, como el **priming evaluativo**, comparten buena parte de estas limitaciones. Las actitudes implícitas y el prejuicio se estudian en Psicología Social.
 
@@ -345,7 +343,7 @@ Otras medidas implícitas, como el **priming evaluativo**, comparten buena parte
 
 | Concepto | Definición |
 | --- | --- |
-| Actitud | Evaluación duradera, favorable o desfavorable, de un objeto, con componentes cognitivo, afectivo y conductual |
+| Actitud | Evaluación duradera, favorable o desfavorable, de un objeto (componentes cognitivo, afectivo y conductual) |
 | Escala Likert | Escala sumativa de ítems de acuerdo seleccionados por análisis de ítems (Likert, 1932) |
 | Ítem invertido | Enunciado desfavorable cuya respuesta se recodifica; ayuda a controlar la aquiescencia |
 | Valor escalar | Mediana de las valoraciones de los jueces sobre un enunciado en el método de Thurstone |
@@ -382,9 +380,9 @@ c) Garantizar que la escala sea acumulativa
 
 **5.** Según la evidencia disponible sobre el IAT, ¿qué afirmación es correcta?
 a) Su fiabilidad test-retest es alta y permite diagnosticar prejuicios individuales
-b) Su relación con la conducta discriminatoria es débil, en torno a r ≈ 0,15
-c) Predice la conducta mucho mejor que las medidas explícitas
+b) Predice la conducta mucho mejor que las medidas explícitas
+c) Su relación con la conducta discriminatoria es débil, en torno a r ≈ 0,15
 
 ### Soluciones
 
-**1 a.** La mediana de los jueces sitúa el enunciado en el continuo, y la dispersión indica su ambigüedad. **2 c.** El escalograma es acumulativo; la b describe el método de Thurstone. **3 b.** 1 − 2/(4 × 10) = 1 − 0,05 = 0,95, por encima del criterio de 0,90. **4 b.** Quien está de acuerdo con todo queda en evidencia al aceptar enunciados contradictorios; además, se invierten al puntuar. **5 b.** Oswald et al. (2013) hallaron una predicción débil, y su fiabilidad test-retest es baja.
+**1 a.** La mediana de los jueces sitúa el enunciado en el continuo, y la dispersión indica su ambigüedad. **2 c.** El escalograma es acumulativo; la b describe el método de Thurstone. **3 b.** 1 − 2/(4 × 10) = 1 − 0,05 = 0,95, por encima del criterio de 0,90. **4 b.** Quien está de acuerdo con todo queda en evidencia al aceptar enunciados contradictorios; además, se invierten al puntuar. **5 c.** Oswald et al. (2013) hallaron una predicción débil, y su fiabilidad test-retest es baja.
