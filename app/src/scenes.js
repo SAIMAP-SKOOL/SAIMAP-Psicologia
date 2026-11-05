@@ -1038,6 +1038,186 @@
       s += pers(70, 500, .75, '#2D5A7B', .5) + `<g opacity=".5" transform="translate(140 490) rotate(25)">${pers(0, 0, .75, '#5FA47A', 1)}</g><path d="M86 470Q110 456 128 470" stroke="#26323A" stroke-width="6" fill="none" opacity=".45" stroke-linecap="round"/>`;
       return { tint: '#FCF1F0', road: 'rope', svg: svg(s) }; }
   };
+  // ---------- Evaluación Psicológica I ----------
+  const clip = (x, y, s, col, op, lines) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><rect x="-44" y="-58" width="88" height="116" rx="8" fill="#fff" stroke="${col}" stroke-width="5"/><rect x="-18" y="-66" width="36" height="16" rx="5" fill="${col}"/>${Array.from({ length: lines || 4 }, (_, i) => `<path d="M-28 ${-30 + i * 18}H${18 - (i % 2) * 14}" stroke="${col}" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M24 ${-34 + i * 18}l5 5l9 -10" stroke="#5FA47A" stroke-width="4" fill="none" stroke-linecap="round"/>`).join('')}</g>`;
+  const lens = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><circle r="34" fill="#fff" stroke="${col}" stroke-width="7"/><path d="M24 24L58 58" stroke="${col}" stroke-width="11" stroke-linecap="round"/></g>`;
+  const scale2 = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}" stroke="${col}" stroke-width="5" fill="none" stroke-linecap="round"><path d="M0 -60V60M-40 60H40M-70 -40H70"/><path d="M-70 -40L-90 10H-50Z M70 -40L50 10H90Z" fill="${col}" fill-opacity=".25"/><circle cy="-64" r="7" fill="${col}"/></g>`;
+  const eye2 = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><path d="M-60 0Q0 -42 60 0Q0 42 -60 0Z" fill="#fff" stroke="${col}" stroke-width="5"/><circle r="20" fill="${col}"/><circle r="8" fill="#26323A"/></g>`;
+  const clock = (x, y, s, col, op, h) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><circle r="46" fill="#fff" stroke="${col}" stroke-width="6"/>${Array.from({ length: 12 }, (_, i) => `<path d="M0 -38V-32" stroke="${col}" stroke-width="3" transform="rotate(${i * 30})"/>`).join('')}<path d="M0 0V-26M0 0L${h || 18} 8" stroke="#26323A" stroke-width="5" stroke-linecap="round"/></g>`;
+  const EV1 = {
+    // 1 · Qué es evaluar: lupa sobre una persona y una ficha
+    1: () => { const r = rng(401); let s = `<rect width="400" height="600" fill="#EEF3F8"/>`;
+      s += pers(290, 190, 1.6, '#2D5A7B', .45) + lens(320, 170, 1.1, '#C8553D', .5);
+      s += clip(95, 470, .9, '#7A5BA8', .5, 4) + dots(r, 12, '#9DB4C8', 2, 5, .35);
+      return { tint: '#EEF3F8', road: 'dots', svg: svg(s) }; },
+    // 2 · Historia: cronoscopio (reloj) y libro antiguo
+    2: () => { let s = paper('#F6F1E8', '#E9DFCD', 25);
+      s += clock(300, 160, 1.4, '#C8553D', .5, 20);
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M-60 -40Q-30 -52 0 -40Q30 -52 60 -40V44Q30 32 0 44Q-30 32 -60 44Z" fill="#fff" stroke="#2D5A7B" stroke-width="5"/><path d="M0 -40V44" stroke="#2D5A7B" stroke-width="4"/>${[-24, -10, 4, 18].map(y => `<path d="M-48 ${y}H-12M12 ${y}H48" stroke="#E0A83A" stroke-width="4" stroke-linecap="round"/>`).join('')}</g>`;
+      return { tint: '#F6F1E8', road: 'ink', svg: svg(s) }; },
+    // 3 · Modelos: seis piezas de distinto color y un rompecabezas
+    3: () => { let s = `<rect width="400" height="600" fill="#F2EDF8"/>`;
+      const C = ['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8', '#26323A'];
+      s += `<g opacity=".45">${C.map((c, i) => `<rect x="${220 + (i % 3) * 52}" y="${110 + Math.floor(i / 3) * 52}" width="44" height="44" rx="10" fill="${c}"/>`).join('')}</g>`;
+      s += card(95, 470, 120, 84, -6, '#2D5A7B', .45, 3);
+      return { tint: '#F2EDF8', road: 'pegs', svg: svg(s) }; },
+    // 4 · Disyuntivas y conducta: balanza y cadena E-O-R-K-C
+    4: () => { let s = `<rect width="400" height="600" fill="#EAF4EE"/>`;
+      s += scale2(290, 170, 1.0, '#2D5A7B', .5);
+      s += `<g opacity=".5" transform="translate(30 470)">${['E', 'O', 'R', 'K', 'C'].map((t, i) => `<circle cx="${i * 34}" cy="0" r="14" fill="${['#2D5A7B', '#7A5BA8', '#C8553D', '#E0A83A', '#5FA47A'][i]}"/><text x="${i * 34}" y="5" text-anchor="middle" font-size="14" font-family="sans-serif" font-weight="700" fill="#fff">${t}</text>`).join('')}</g>`;
+      return { tint: '#EAF4EE', road: 'chain', svg: svg(s) }; },
+    // 5 · Proceso: diagrama de flujo con flecha de vuelta
+    5: () => { let s = paper('#EEF3F8', '#DCE5EE', 25);
+      s += `<g opacity=".5" transform="translate(290 170)">${[-80, -27, 27, 80].map((y, i) => `<rect x="-52" y="${y - 18}" width="104" height="36" rx="10" fill="${['#2D5A7B', '#7A5BA8', '#C8553D', '#5FA47A'][i]}"/>`).join('')}<path d="M0 -62V-45M0 -9V9M0 45V62" stroke="#26323A" stroke-width="4"/><path d="M52 27Q86 0 52 -27" stroke="#E0A83A" stroke-width="5" fill="none"/></g>`;
+      s += clip(95, 470, .85, '#2D5A7B', .45, 4);
+      return { tint: '#EEF3F8', road: 'trail', svg: svg(s) }; },
+    // 6 · Juicio clínico: cerebro con interrogantes y una regla actuarial
+    6: () => { let s = `<rect width="400" height="600" fill="#FBEDEA"/>`;
+      s += `<g opacity=".45" transform="translate(300 160)"><ellipse rx="70" ry="52" fill="#fff" stroke="#C8553D" stroke-width="6"/><path d="M0 -50V50M-40 -20Q-20 0 -40 20M40 -20Q20 0 40 20" stroke="#C8553D" stroke-width="5" fill="none"/></g>`;
+      s += `<g opacity=".5" font-family="sans-serif" font-weight="700" fill="#7A5BA8">${[[230, 100, 30], [360, 90, 26], [370, 230, 22]].map(([x, y, z]) => `<text x="${x}" y="${y}" font-size="${z}">?</text>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><rect x="-70" y="-14" width="140" height="28" rx="6" fill="#E0A83A"/>${Array.from({ length: 13 }, (_, i) => `<path d="M${-62 + i * 10.3} -14V${i % 2 ? -4 : 2}" stroke="#26323A" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#FBEDEA', road: 'ruler', svg: svg(s) }; },
+    // 7 · Informe: documento firmado y bocadillo de devolución
+    7: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += card(300, 170, 150, 190, 5, '#2D5A7B', .5, 8) + `<path d="M250 250q12 -14 24 0t24 0" stroke="#C8553D" stroke-width="4" fill="none" opacity=".5" transform="rotate(5 300 170)"/>`;
+      s += bubble(40, 430, 120, 64, '#5FA47A', .45);
+      return { tint: '#F6F1E8', road: 'talk', svg: svg(s) }; },
+    // 8 · Ética: candado y escudo
+    8: () => { let s = `<rect width="400" height="600" fill="#EEF3F8"/>`;
+      s += `<g opacity=".45" transform="translate(300 170)"><path d="M-36 -10V-40A36 36 0 0 1 36 -40V-10" stroke="#2D5A7B" stroke-width="12" fill="none"/><rect x="-56" y="-14" width="112" height="90" rx="14" fill="#2D5A7B"/><circle cy="24" r="12" fill="#fff"/><path d="M0 30V52" stroke="#fff" stroke-width="7"/></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M0 -60L50 -40V0Q50 40 0 60Q-50 40 -50 0V-40Z" fill="#5FA47A"/><path d="M-20 0l14 14l26 -28" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/></g>`;
+      return { tint: '#EEF3F8', road: 'rope', svg: svg(s) }; },
+    // 9 · Fiabilidad: diana con impactos agrupados y curva normal
+    9: () => { let s = paper('#EAF4EE', '#D7E8DC', 25);
+      s += `<g opacity=".5" transform="translate(300 170)">${[70, 50, 30, 12].map((rr, i) => `<circle r="${rr}" fill="${i % 2 ? '#fff' : '#C8553D'}" stroke="#C8553D" stroke-width="3"/>`).join('')}${[[8, -6], [-4, 6], [10, 8], [-8, -4]].map(([a, b]) => `<circle cx="${a + 28}" cy="${b - 24}" r="5" fill="#26323A"/>`).join('')}</g>`;
+      s += bell(20, 510, 160, 90, '#2D5A7B', 5, .5, 'rgba(45,90,123,.15)');
+      return { tint: '#EAF4EE', road: 'bars', svg: svg(s) }; },
+    // 10 · Validez: diana centrada y sello de calidad
+    10: () => { let s = `<rect width="400" height="600" fill="#F2EDF8"/>`;
+      s += `<g opacity=".5" transform="translate(300 170)">${[70, 50, 30, 12].map((rr, i) => `<circle r="${rr}" fill="${i % 2 ? '#fff' : '#7A5BA8'}" stroke="#7A5BA8" stroke-width="3"/>`).join('')}${[[3, -4], [-4, 3], [5, 4], [-2, -5]].map(([a, b]) => `<circle cx="${a}" cy="${b}" r="5" fill="#26323A"/>`).join('')}</g>`;
+      s += star(95, 470, 56, '#E0A83A', .45) + `<path d="M75 470l14 14l26 -28" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".7"/>`;
+      return { tint: '#F2EDF8', road: 'grid', svg: svg(s) }; },
+    // 11 · Entrevista: dos personas conversando
+    11: () => { let s = `<rect width="400" height="600" fill="#FDF3EC"/>`;
+      s += pers(250, 200, 1.4, '#2D5A7B', .45) + pers(340, 210, 1.3, '#C8553D', .45) + bubble(230, 70, 110, 52, '#E0A83A', .45) + bubble(290, 110, 90, 44, '#5FA47A', .4, 'r');
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M-60 -50H60L12 10V50H-12V10Z" fill="#7A5BA8"/></g>`;
+      return { tint: '#FDF3EC', road: 'talk', svg: svg(s) }; },
+    // 12 · Tipos de entrevista: micrófono-grabadora y maletín
+    12: () => { let s = `<rect width="400" height="600" fill="#EEF3F8"/>`;
+      s += `<g opacity=".45" transform="translate(300 170)"><rect x="-26" y="-70" width="52" height="90" rx="26" fill="#2D5A7B"/><path d="M-44 0A44 44 0 0 0 44 0M0 44V74M-26 74H26" stroke="#2D5A7B" stroke-width="7" fill="none" stroke-linecap="round"/></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><rect x="-60" y="-34" width="120" height="78" rx="10" fill="#C8553D"/><path d="M-22 -34V-50H22V-34" stroke="#C8553D" stroke-width="7" fill="none"/><path d="M-60 0H60" stroke="#fff" stroke-width="4"/></g>`;
+      return { tint: '#EEF3F8', road: 'street', svg: svg(s) }; },
+    // 13 · Observación: ojo y hoja de registro
+    13: () => { let s = paper('#EAF4EE', '#D7E8DC', 25);
+      s += eye2(300, 160, 1.4, '#5FA47A', .5);
+      s += `<g opacity=".45" transform="translate(95 470)"><rect x="-64" y="-50" width="128" height="100" rx="8" fill="#fff" stroke="#2D5A7B" stroke-width="5"/>${[0, 1, 2, 3, 4, 5].map(i => `<path d="M${-64 + i * 21.3} -50V50" stroke="#2D5A7B" stroke-width="2"/>`).join('')}${[[0, 0], [2, 1], [3, 0], [4, 2], [1, 2]].map(([c, rr]) => `<path d="M${-56 + c * 21.3} ${-38 + rr * 30}l10 10" stroke="#C8553D" stroke-width="4"/>`).join('')}</g>`;
+      return { tint: '#EAF4EE', road: 'scan', svg: svg(s) }; },
+    // 14 · Muestreo: cronómetro e intervalos
+    14: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += clock(300, 170, 1.5, '#2D5A7B', .5, 24);
+      s += `<g opacity=".5" transform="translate(30 470)">${[0, 1, 2, 3, 4, 5].map(i => `<rect x="${i * 24}" y="-20" width="20" height="40" rx="4" fill="${[1, 0, 1, 1, 0, 1][i] ? '#E0A83A' : '#fff'}" stroke="#E0A83A" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#F6F1E8', road: 'dots', svg: svg(s) }; },
+    // 15 · Autoinforme: cuestionario con casillas y lápiz
+    15: () => { let s = `<rect width="400" height="600" fill="#FBEDEA"/>`;
+      s += clip(300, 170, 1.3, '#C8553D', .5, 5);
+      s += `<g opacity=".45" transform="translate(95 470) rotate(-35)"><rect x="-10" y="-70" width="20" height="120" fill="#E0A83A"/><path d="M-10 50L0 72L10 50Z" fill="#26323A"/><rect x="-10" y="-80" width="20" height="12" fill="#C8553D"/></g>`;
+      return { tint: '#FBEDEA', road: 'crumbs', svg: svg(s) }; },
+    // 16 · Tipos de autoinforme: diario y bocadillo de pensamiento
+    16: () => { let s = `<rect width="400" height="600" fill="#F2EDF8"/>`;
+      s += `<g opacity=".45" transform="translate(300 170)"><rect x="-60" y="-76" width="120" height="152" rx="10" fill="#7A5BA8"/><rect x="-46" y="-62" width="92" height="124" rx="6" fill="#fff"/>${[-40, -22, -4, 14, 32].map(y => `<path d="M-34 ${y}H34" stroke="#7A5BA8" stroke-width="4" stroke-linecap="round" opacity=".6"/>`).join('')}</g>`;
+      s += `<g opacity=".45"><ellipse cx="110" cy="460" rx="58" ry="38" fill="#5FA47A"/><circle cx="60" cy="512" r="12" fill="#5FA47A"/><circle cx="44" cy="536" r="7" fill="#5FA47A"/></g>`;
+      return { tint: '#F2EDF8', road: 'vine', svg: svg(s) }; },
+  };
+
+  // ---------- Evaluación Psicológica II ----------
+  const blot = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}" fill="${col}"><path d="M0 -50C-14 -30 -40 -44 -54 -20C-66 0 -40 8 -50 28C-58 46 -24 50 -12 36C-6 50 0 56 0 56C0 56 6 50 12 36C24 50 58 46 50 28C40 8 66 0 54 -20C40 -44 14 -30 0 -50Z"/></g>`;
+  const brain = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><path d="M-62 10C-70 -30 -40 -60 -6 -56C20 -70 64 -50 64 -10C76 14 54 44 24 40C10 56 -30 54 -40 36C-60 36 -66 24 -62 10Z" fill="${col}"/><path d="M-40 -20Q-20 -36 0 -18Q20 -36 40 -14M-44 12Q-20 -2 0 16Q22 0 44 18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".7"/></g>`;
+  const hexa = (x, y, r, cols, op) => `<g opacity="${op || .5}">${cols.map((c, i) => { const a = (150 - i * 60) * Math.PI / 180; return `<circle cx="${f(x + Math.cos(a) * r)}" cy="${f(y - Math.sin(a) * r)}" r="${f(r * .32)}" fill="${c}"/>`; }).join('')}<path d="${[0, 1, 2, 3, 4, 5, 6].map(i => { const a = (150 - i * 60) * Math.PI / 180; return (i ? 'L' : 'M') + f(x + Math.cos(a) * r) + ' ' + f(y - Math.sin(a) * r); }).join('')}" stroke="#26323A" stroke-width="3" fill="none"/></g>`;
+  const EV2 = {
+    // 1 · Técnicas objetivas: onda de registro y cronómetro
+    1: () => { let s = paper('#EEF3F8', '#DCE5EE', 25);
+      s += sine(200, 120, 190, 22, 3, '#C8553D', 5, .5) + sine(200, 200, 190, 12, 6, '#2D5A7B', 4, .45) + sine(200, 260, 190, 30, 1.5, '#5FA47A', 4, .45);
+      s += clock(95, 470, 1.1, '#2D5A7B', .45, 16);
+      return { tint: '#EEF3F8', road: 'ecg', svg: svg(s) }; },
+    // 2 · Técnicas subjetivas: rejilla de colores y escala bipolar
+    2: () => { let s = `<rect width="400" height="600" fill="#F2EDF8"/>`;
+      const C = ['#2D5A7B', '#7A5BA8', '#C8553D', '#E0A83A', '#5FA47A'];
+      s += `<g opacity=".45">${Array.from({ length: 16 }, (_, i) => `<rect x="${230 + (i % 4) * 36}" y="${100 + Math.floor(i / 4) * 36}" width="32" height="32" rx="5" fill="${C[(i * 3) % 5]}"/>`).join('')}</g>`;
+      s += `<g opacity=".5" transform="translate(30 470)"><path d="M0 0H140" stroke="#26323A" stroke-width="4"/>${[0, 1, 2, 3, 4, 5, 6].map(i => `<circle cx="${i * 23.3}" cy="0" r="${i === 2 ? 10 : 6}" fill="${i === 2 ? '#C8553D' : '#fff'}" stroke="#26323A" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#F2EDF8', road: 'grid', svg: svg(s) }; },
+    // 3 · Proyectivas I: mancha de tinta simétrica inventada y tarjeta
+    3: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += blot(300, 170, 1.5, '#26323A', .45);
+      s += card(95, 470, 110, 80, -8, '#C8553D', .45, 2);
+      return { tint: '#F6F1E8', road: 'ink', svg: svg(s) }; },
+    // 4 · Proyectivas II: árbol dibujado y casa
+    4: () => { let s = `<rect width="400" height="600" fill="#EAF4EE"/>`;
+      s += `<g opacity=".45" transform="translate(300 180)"><rect x="-10" y="0" width="20" height="80" fill="#8B5E3C"/><circle cy="-30" r="56" fill="#5FA47A"/><circle cx="-34" cy="-6" r="30" fill="#5FA47A"/><circle cx="36" cy="-4" r="32" fill="#5FA47A"/></g>`;
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M-50 -10L0 -56L50 -10V50H-50Z" fill="#fff" stroke="#C8553D" stroke-width="5"/><rect x="-12" y="16" width="24" height="34" fill="#C8553D"/><rect x="18" y="-4" width="18" height="18" fill="#E0A83A"/></g>`;
+      return { tint: '#EAF4EE', road: 'vine', svg: svg(s) }; },
+    // 5 · Teorías de la inteligencia: jerarquía g y engranajes
+    5: () => { let s = paper('#EEF3F8', '#DCE5EE', 25);
+      s += `<g opacity=".5" transform="translate(300 150)"><circle r="20" fill="#2D5A7B"/>${[-60, -20, 20, 60].map((x, i) => `<path d="M0 18L${x} 70" stroke="#2D5A7B" stroke-width="3"/><circle cx="${x}" cy="80" r="14" fill="${['#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8'][i]}"/>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 470)" fill="none" stroke="#7A5BA8" stroke-width="10">${Array.from({ length: 8 }, (_, i) => `<path d="M0 -44V-30" transform="rotate(${i * 45})"/>`).join('')}<circle r="30"/></g>`;
+      return { tint: '#EEF3F8', road: 'tract', svg: svg(s) }; },
+    // 6 · Historia y efecto Flynn: gráfico ascendente y bombilla
+    6: () => { let s = `<rect width="400" height="600" fill="#FDF3EC"/>`;
+      s += bars(230, 260, [40, 62, 84, 106, 128, 140], 22, 8, ['#E0A83A', '#E0A83A', '#C8553D', '#C8553D', '#2D5A7B', '#2D5A7B'], .45);
+      s += `<g opacity=".45" transform="translate(95 470)"><circle cy="-14" r="36" fill="#E0A83A"/><rect x="-16" y="20" width="32" height="26" rx="4" fill="#26323A"/></g>`;
+      return { tint: '#FDF3EC', road: 'bars', svg: svg(s) }; },
+    // 7 · Wechsler: campana del CI y bloques
+    7: () => { let s = `<rect width="400" height="600" fill="#EAF4EE"/>`;
+      s += bell(200, 250, 180, 130, '#2D5A7B', 5, .5, 'rgba(95,164,122,.25)');
+      s += `<g opacity=".5" transform="translate(95 470)">${[[-30, 10, '#C8553D'], [10, 10, '#fff'], [-30, -30, '#fff'], [10, -30, '#C8553D']].map(([x, y, c]) => `<rect x="${x}" y="${y}" width="38" height="38" fill="${c}" stroke="#C8553D" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#EAF4EE', road: 'ci', svg: svg(s) }; },
+    // 8 · Otros tests y aptitudes: matriz con hueco y fichas de dominó
+    8: () => { let s = paper('#F2EDF8', '#E3DAF0', 25);
+      s += `<g opacity=".5">${Array.from({ length: 9 }, (_, i) => i === 8 ? `<rect x="${236 + (i % 3) * 50}" y="${100 + Math.floor(i / 3) * 50}" width="42" height="42" rx="6" fill="none" stroke="#7A5BA8" stroke-width="4" stroke-dasharray="6 5"/>` : `<rect x="${236 + (i % 3) * 50}" y="${100 + Math.floor(i / 3) * 50}" width="42" height="42" rx="6" fill="#fff" stroke="#7A5BA8" stroke-width="3"/><circle cx="${257 + (i % 3) * 50}" cy="${121 + Math.floor(i / 3) * 50}" r="${5 + (i % 3) * 4}" fill="#7A5BA8"/>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(95 470) rotate(-12)"><rect x="-24" y="-48" width="48" height="96" rx="8" fill="#fff" stroke="#26323A" stroke-width="4"/><path d="M-24 0H24" stroke="#26323A" stroke-width="3"/>${[[-10, -32], [10, -16], [0, -24], [-10, 16], [10, 32]].map(([a, b]) => `<circle cx="${a}" cy="${b}" r="5" fill="#26323A"/>`).join('')}</g>`;
+      return { tint: '#F2EDF8', road: 'dice', svg: svg(s) }; },
+    // 9 · Autoinformes de personalidad: máscara y casillas V/F
+    9: () => { let s = `<rect width="400" height="600" fill="#FBEDEA"/>`;
+      s += `<g opacity=".45" transform="translate(300 170)"><path d="M-70 -40Q0 -70 70 -40Q76 20 40 50Q0 70 -40 50Q-76 20 -70 -40Z" fill="#C8553D"/><ellipse cx="-28" cy="-10" rx="16" ry="10" fill="#fff"/><ellipse cx="28" cy="-10" rx="16" ry="10" fill="#fff"/><path d="M-20 26Q0 38 20 26" stroke="#fff" stroke-width="5" fill="none"/></g>`;
+      s += clip(95, 470, .85, '#2D5A7B', .45, 4);
+      return { tint: '#FBEDEA', road: 'crumbs', svg: svg(s) }; },
+    // 10 · Inventarios clínicos: perfil de puntuaciones T
+    10: () => { let s = paper('#EEF3F8', '#DCE5EE', 25);
+      const pts = [62, 74, 60, 55, 50, 57, 70, 61, 45, 60];
+      s += `<g opacity=".5"><path d="M220 130H390" stroke="#C8553D" stroke-width="3" stroke-dasharray="7 5"/><path d="${pts.map((v, i) => (i ? 'L' : 'M') + (226 + i * 18) + ' ' + (250 - (v - 40) * 3)).join('')}" stroke="#2D5A7B" stroke-width="5" fill="none"/>${pts.map((v, i) => `<circle cx="${226 + i * 18}" cy="${250 - (v - 40) * 3}" r="5" fill="#2D5A7B"/>`).join('')}</g>`;
+      s += card(95, 470, 110, 80, 6, '#7A5BA8', .45, 3);
+      return { tint: '#EEF3F8', road: 'ruler', svg: svg(s) }; },
+    // 11 · Modelos dimensionales: cinco barras y estrella de cinco puntas
+    11: () => { let s = `<rect width="400" height="600" fill="#EAF4EE"/>`;
+      s += bars(240, 250, [120, 70, 140, 95, 60], 24, 8, ['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8'], .45);
+      s += star(95, 470, 58, '#7A5BA8', .45);
+      return { tint: '#EAF4EE', road: 'spread', svg: svg(s) }; },
+    // 12 · Neuropsicología I: cerebro y lámpara de laboratorio
+    12: () => { let s = `<rect width="400" height="600" fill="#F6F1E8"/>`;
+      s += brain(300, 170, 1.3, '#C8553D', .45);
+      s += lens(95, 465, .9, '#2D5A7B', .45);
+      return { tint: '#F6F1E8', road: 'gyrus', svg: svg(s) }; },
+    // 13 · Cribado y pruebas: reloj dibujado y senda numerada (TMT)
+    13: () => { let s = paper('#EEF3F8', '#DCE5EE', 25);
+      s += clock(300, 160, 1.4, '#2D5A7B', .5, 20);
+      s += `<g opacity=".5" transform="translate(40 440)">${[[0, 0], [60, 30], [20, 60], [90, 80], [50, 110]].map(([x, y], i, a) => (i ? `<path d="M${a[i - 1][0]} ${a[i - 1][1]}L${x} ${y}" stroke="#5FA47A" stroke-width="3"/>` : '') + `<circle cx="${x}" cy="${y}" r="13" fill="#fff" stroke="#5FA47A" stroke-width="3"/><text x="${x}" y="${y + 5}" text-anchor="middle" font-size="13" font-family="sans-serif" font-weight="700" fill="#26323A">${i + 1}</text>`).join('')}</g>`;
+      return { tint: '#EEF3F8', road: 'trail', svg: svg(s) }; },
+    // 14 · Intereses vocacionales: hexágono RIASEC y brújula
+    14: () => { let s = `<rect width="400" height="600" fill="#FDF3EC"/>`;
+      s += hexa(300, 170, 70, ['#C8553D', '#2D5A7B', '#7A5BA8', '#5FA47A', '#E0A83A', '#3E8E9A'], .5);
+      s += `<g opacity=".45" transform="translate(95 470)"><circle r="46" fill="#fff" stroke="#26323A" stroke-width="5"/><path d="M0 -36L10 0L0 36L-10 0Z" fill="#C8553D"/></g>`;
+      return { tint: '#FDF3EC', road: 'street', svg: svg(s) }; },
+    // 15 · Actitudes: escala de acuerdo y caras
+    15: () => { let s = `<rect width="400" height="600" fill="#F2EDF8"/>`;
+      s += face(250, 150, 30, 'sad', '#C8553D', .45) + face(320, 150, 30, 'neutral', '#E0A83A', .45) + face(285, 230, 30, 'joy', '#5FA47A', .45);
+      s += `<g opacity=".5" transform="translate(30 470)">${[0, 1, 2, 3, 4].map(i => `<circle cx="${i * 34}" cy="0" r="13" fill="${i === 3 ? '#7A5BA8' : '#fff'}" stroke="#7A5BA8" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#F2EDF8', road: 'pegs', svg: svg(s) }; },
+    // 16 · Salud y calidad de vida: corazón y línea de pulso
+    16: () => { let s = `<rect width="400" height="600" fill="#FBEDEA"/>`;
+      s += heart(300, 170, 4.2, '#C8553D', .45);
+      s += `<g opacity=".5"><path d="M20 470H70L84 440L100 500L114 455L124 470H180" stroke="#5FA47A" stroke-width="5" fill="none" stroke-linejoin="round"/></g>`;
+      return { tint: '#FBEDEA', road: 'ecg', svg: svg(s) }; },
+  };
+
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -1048,5 +1228,7 @@
     'aprendizaje': n => cache['x' + n] || (cache['x' + n] = AL[n] ? AL[n]() : null),
     'desarrollo-infancia': n => cache['d' + n] || (cache['d' + n] = DI[n] ? DI[n]() : null),
     'historia': n => cache['h' + n] || (cache['h' + n] = HC[n] ? HC[n]() : null),
-    'social': n => cache['s' + n] || (cache['s' + n] = SO[n] ? SO[n]() : null) };
+    'social': n => cache['s' + n] || (cache['s' + n] = SO[n] ? SO[n]() : null),
+    'evaluacion-1': n => cache['v' + n] || (cache['v' + n] = EV1[n] ? EV1[n]() : null),
+    'evaluacion-2': n => cache['w' + n] || (cache['w' + n] = EV2[n] ? EV2[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
