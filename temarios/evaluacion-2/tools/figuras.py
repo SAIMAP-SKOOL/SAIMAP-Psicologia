@@ -360,7 +360,7 @@ if want('mmpi-familia'):
     fig, ax = canvas(9.0, 2.9, 18, 5.8)
     rows = [['Versión', 'Año', 'Adaptación española', 'Ítems', 'Escalas'],
             ['MMPI', '1943', '—', '566', 'L, F, K y 10 clínicas'],
-            ['MMPI-2', '1989', '1999 (TEA; 4.ª ed. 2019)', '567', 'Validez, clínicas, contenido, suplementarias, PSY-5'],
+            ['MMPI-2', '1989', '1999 (TEA)', '567', 'Validez, clínicas, contenido, suplementarias, PSY-5'],
             ['MMPI-2-RF', '2008', 'TEA', '338', '51 escalas; clínicas reestructuradas (RC)'],
             ['MMPI-3', '2020', 'Hogrefe TEA, 2026', '335', '52 escalas (nuevas: alimentación, compulsividad…)']]
     table(ax, .2, 5.6, [2.4, 1.4, 4.4, 1.4, 8.2], 1.05, rows, fs=8)
@@ -370,7 +370,7 @@ if want('mmpi-familia'):
 if want('perfil-mmpi'):
     fig, ax = plt.subplots(figsize=(7.0, 3.3))
     lab = ['L', 'F', 'K', '1\nHs', '2\nD', '3\nHy', '4\nPd', '5\nMf', '6\nPa', '7\nPt', '8\nSc', '9\nMa', '0\nSi']
-    val = [52, 58, 48, 62, 74, 60, 55, 50, 57, 70, 61, 45, 66]
+    val = [52, 58, 48, 62, 74, 60, 55, 50, 57, 70, 61, 45, 60]
     ax.axhspan(65, 100, color=A, alpha=.08); ax.axhline(65, color=A, lw=1.2, ls='--'); ax.text(13.1, 65.6, 'T = 65', fontsize=7.8, color=A, ha='right')
     ax.axhline(50, color=MUTE, lw=.8, ls=':')
     ax.plot(range(3), val[:3], color=V, marker='o', lw=1.8); ax.plot(range(3, 13), val[3:], color=P, marker='o', lw=1.8)

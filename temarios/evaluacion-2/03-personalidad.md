@@ -8,9 +8,9 @@ Los cuestionarios e inventarios de personalidad son, con diferencia, los instrum
 
 ### 9.1 Características y usos de las pruebas objetivas de personalidad
 
-Se llama **prueba objetiva de personalidad** a un cuestionario o inventario de autoinforme con **estímulos estructurados**, **respuesta cerrada** y **corrección objetiva**. La persona lee una serie de afirmaciones breves o adjetivos y elige entre unas pocas opciones: verdadero o falso, una escala de acuerdo de cuatro o cinco puntos, o una elección entre dos frases. Las respuestas se suman en **escalas** según una plantilla fija, de modo que dos correctores, o un programa informático, llegan exactamente a la misma puntuación.
+Se llama **prueba objetiva de personalidad** a un cuestionario o inventario de autoinforme con **estímulos estructurados**, **respuesta cerrada** y **corrección objetiva**. La persona lee frases cortas o palabras sueltas que la describen y elige entre unas pocas opciones: verdadero o falso, una escala de acuerdo de cuatro o cinco puntos, o una elección entre dos frases. Las respuestas se suman en **escalas** según una plantilla fija, de modo que dos correctores, o un programa informático, llegan exactamente a la misma puntuación.
 
-Conviene aclarar el adjetivo. «Objetiva» no significa que la prueba esté libre de sesgos ni que no haya que interpretar los resultados. Se refiere a la **corrección**: no depende del juicio del evaluador, a diferencia de lo que ocurre con las técnicas proyectivas (Unidades 3 y 4). Hay además una ambigüedad terminológica. En la tradición de Cattell, los «datos T» o de test objetivo eran pruebas de rendimiento en las que la persona no sabe qué se mide (Unidad 1); en el uso habitual, en cambio, «prueba objetiva de personalidad» designa el autoinforme estructurado. En esta unidad se usa este segundo sentido.
+Conviene aclarar el adjetivo. Lo «objetivo» es el paso de las respuestas a la puntuación (la **corrección**): cualquier corrector, con la misma plantilla, obtiene el mismo número. La interpretación posterior sigue exigiendo juicio clínico, y las respuestas pueden estar sesgadas. En las técnicas proyectivas (Unidades 3 y 4), en cambio, ya la codificación depende del evaluador. Hay además una ambigüedad terminológica. En la tradición de Cattell, los «datos T» o de test objetivo eran pruebas de rendimiento en las que la persona no sabe qué se mide (Unidad 1); en el uso habitual, en cambio, «prueba objetiva de personalidad» designa el autoinforme estructurado. En esta unidad se usa este segundo sentido.
 
 Los rasgos que definen estos instrumentos son cinco:
 
@@ -27,9 +27,9 @@ Su base es el **autoinforme**: la persona informa de cómo se ve a sí misma. Lo
 | Ámbito | Para qué se usan | Ejemplos de instrumentos |
 | --- | --- | --- |
 | Clínico y forense | Describir el funcionamiento, orientar el diagnóstico, medir el cambio, valorar la credibilidad del perfil | MMPI-2, MCMI-IV, PAI |
-| Orientación | Favorecer el autoconocimiento en decisiones académicas o personales | 16PF-5, NEO-FFI |
-| Selección y organizaciones | Estimar el ajuste a un puesto, el estilo de trabajo o el riesgo de conductas contraproducentes | Inventarios de cinco factores, pruebas de integridad |
-| Investigación | Estudiar la estructura de la personalidad y su relación con la salud, el rendimiento o la conducta | NEO-PI-R, EPQ-R, HEXACO |
+| Orientación | Aportar información sobre el propio estilo que ayude a elegir estudios o profesión | 16PF-5, NEO-FFI |
+| Selección y organizaciones | Completar con datos de personalidad la valoración de candidatos (p. ej., responsabilidad o estabilidad emocional) | Inventarios de cinco factores, 16PF-5 |
+| Investigación | Poner a prueba modelos de rasgos y examinar qué predicen | NEO-PI-R, EPQ-R, HEXACO |
 
 En la práctica española dominan los instrumentos psicométricos. En la encuesta de Muñiz, Hernández y Fernández-Hermida (2020) a profesionales de la psicología, los 25 tests más usados eran psicométricos, con el WISC, el MCMI y el PAI a la cabeza, y ninguna técnica proyectiva figuraba entre ellos.
 
@@ -95,7 +95,7 @@ Los autores de tests han ideado varias estrategias para reducir los sesgos o, al
 
 Figura 9.1. **Sesgos de respuesta y estrategias de control.** Cada sesgo de respuesta, desde la deseabilidad social hasta el falseamiento positivo, aparece junto a la estrategia que lo controla y un instrumento de ejemplo (BIDR, escalas del MMPI-2, EPPS). Elaboración propia.
 
-Como muestra la figura 9.1, las estrategias principales son seis:
+La figura 9.1 recoge las cinco que se aplican en la construcción y la corrección; la sexta es un método de investigación. Las estrategias principales son seis:
 
 1. **Frecuencia empírica de respuesta.** Se incluyen ítems que casi nadie contesta en una dirección determinada; elegir muchas respuestas infrecuentes es una señal de alarma. Es la lógica de la escala F del MMPI.
 2. **Consistencia entre pares de ítems.** Se seleccionan pares de ítems de contenido parecido u opuesto. Responder de forma incoherente a muchos pares indica respuesta aleatoria o descuidada. En el MMPI-2, la escala **VRIN** aplica este principio.
@@ -199,7 +199,7 @@ Como muestra la figura 10.1, cada estrategia responde a una pregunta distinta.
 
 **2. Empírica de criterio externo.** Pregunta: «¿qué ítems responden de forma distinta los miembros de un grupo criterio y los de un grupo de comparación?». No importa lo que dice el ítem, sino que **discrimine**. Se aplica un gran conjunto de ítems a un grupo con un diagnóstico, por ejemplo depresión, y a un grupo de personas sin trastorno, y se conservan los ítems en los que difieren, aunque su contenido no tenga relación evidente con el criterio. Es el método del **MMPI**. Ventajas: la escala predice el criterio y contiene ítems **sutiles**, difíciles de falsear. Inconvenientes: las escalas son heterogéneas, comparten ítems entre sí, carecen de una teoría que las explique y quedan atadas a los diagnósticos de la época en que se construyeron.
 
-**3. Factorial.** Pregunta: «¿qué ítems tienden a responderse juntos?». Se aplica un amplio conjunto de ítems, se estudian sus correlaciones y se agrupan en factores, que pasan a ser las escalas. Así se construyeron el **16PF** de Cattell y los cuestionarios de Eysenck, y el análisis factorial fue decisivo en los inventarios de cinco factores, como el NEO. Ventajas: escalas homogéneas, con buena consistencia interna y poco solapamiento. Inconvenientes: el resultado depende del conjunto inicial de ítems y de las decisiones del análisis, y nombrar los factores exige interpretación.
+**3. Factorial.** Pregunta: «¿qué ítems tienden a responderse juntos?». Se aplica un amplio conjunto de ítems, se estudian sus correlaciones y se agrupan en factores, que pasan a ser las escalas. Así se construyeron el **16PF** de Cattell y los cuestionarios de Eysenck, y el análisis factorial fue decisivo en los inventarios de cinco factores, como el NEO. Ventajas: escalas homogéneas, con buena consistencia interna y poco solapamiento. Inconvenientes: si un aspecto de la personalidad no estaba representado entre los ítems iniciales, ningún análisis lo hará aparecer; además, cuántos factores retener y cómo llamarlos son decisiones del investigador.
 
 **4. Secuencial o mixta.** Es el modelo actual. Combina las anteriores por etapas: se define el constructo a partir de una teoría, se redactan ítems por contenido, se depuran con análisis estadísticos para lograr escalas homogéneas y poco sensibles a la deseabilidad, y se comprueba su relación con criterios externos. Jackson la sistematizó en el **PRF** y el **JPI**, y es la lógica del **MCMI** y del **PAI** (apartado 10.4).
 
@@ -216,7 +216,7 @@ Un ejemplo para fijar la diferencia. Se quiere una escala de impulsividad. Con l
 
 El **Inventario Multifásico de Personalidad de Minnesota** (MMPI) es el inventario clínico más estudiado de la historia. Lo publicaron en 1943 el psicólogo Starke Hathaway y el psiquiatra J. Charnley McKinley, de la Universidad de Minnesota. Su objetivo era práctico: disponer de una herramienta que ayudara a asignar diagnósticos a los pacientes de un hospital.
 
-**La construcción original.** Hathaway y McKinley reunieron un amplio conjunto de afirmaciones sobre síntomas, actitudes, costumbres y salud física, con respuesta verdadero o falso. Las aplicaron a grupos de pacientes con diagnósticos concretos y a un grupo de comparación de personas sin trastorno, y para cada escala conservaron los ítems que separaban a los pacientes de ese diagnóstico de los demás. Es el método **empírico de criterio externo** (apartado 10.1), no el factorial. De ahí los nombres de las escalas clínicas, como psicastenia o histeria, que reflejan las categorías diagnósticas de la época. El resultado fueron 566 ítems, tres escalas de validez (L, F y K) y diez escalas clínicas.
+**La construcción original.** Hathaway y McKinley reunieron un amplio conjunto de afirmaciones sobre síntomas, actitudes, costumbres y salud física, con respuesta verdadero o falso. Las aplicaron a grupos de pacientes con diagnósticos concretos y a un grupo de comparación de personas sin trastorno, y para cada escala conservaron los ítems que separaban a los pacientes de ese diagnóstico de los demás. Es el método **empírico de criterio externo** (apartado 10.1), no el factorial. De ahí los nombres de las escalas clínicas, como psicastenia o histeria, que reflejan las categorías diagnósticas de la época. La forma de cuadernillo quedó en 566 ítems (550 distintos y 16 repetidos), con tres escalas de validez (L, F y K) y diez escalas clínicas.
 
 **Las revisiones.** Con el tiempo, el MMPI acumuló problemas: baremos antiguos, ítems con lenguaje anticuado o inapropiado y escalas clínicas muy correlacionadas entre sí por compartir ítems. Las versiones posteriores responden a esos problemas.
 
@@ -233,7 +233,7 @@ Como muestra la figura 10.2, la evolución ha seguido cuatro pasos:
 | MMPI-2-RF | 2008 | 338 | 51 escalas; escalas clínicas reestructuradas (RC) | TEA |
 | MMPI-3 | 2020 | 335 | 52 escalas; nuevas escalas de problemas de alimentación, compulsividad, impulsividad y autoimportancia | Hogrefe TEA (2026), adaptación de P. Santamaría |
 
-**MMPI-2.** Mantuvo las escalas clínicas originales para conservar la enorme investigación acumulada, pero actualizó los baremos y añadió las escalas de validez VRIN, TRIN, F(B), F(p), FBS y S (Unidad 9), las **escalas de contenido**, construidas por contenido y por tanto más transparentes, las **escalas suplementarias** y las escalas **PSY-5**, que describen cinco dimensiones de personalidad patológica.
+**MMPI-2.** Mantuvo las escalas clínicas originales para conservar la enorme investigación acumulada, pero actualizó los baremos y añadió las escalas de validez VRIN, TRIN y F(B); F(p) y S se incorporaron en 1995 y FBS, de forma oficial, en 2007 (Unidad 9), las **escalas de contenido**, construidas por contenido y por tanto más transparentes, las **escalas suplementarias** y las escalas **PSY-5**, que describen cinco dimensiones de personalidad patológica.
 
 **MMPI-2-RF.** Es una versión reducida y reestructurada. Su núcleo son las **escalas clínicas reestructuradas (RC)**: se extrajo de las escalas clínicas un factor general de malestar, la **desmoralización**, que explicaba buena parte de su solapamiento, y se depuraron las escalas para que fueran más homogéneas y distintas entre sí. Es un buen ejemplo de cómo un instrumento nacido de la estrategia empírica incorpora después procedimientos factoriales.
 
@@ -327,7 +327,7 @@ La elección depende de la pregunta. Si interesa sobre todo la personalidad pato
 
 **Mito:** «El MMPI se construyó mediante análisis factorial».
 
-**Realidad:** Hathaway y McKinley (1943) seleccionaron los ítems por su capacidad para distinguir a grupos de pacientes con un diagnóstico de un grupo sin trastorno, con independencia de su contenido: es el método empírico de criterio externo. El análisis factorial es la estrategia del 16PF de Cattell o de los cuestionarios de Eysenck. Solo más tarde, con las escalas reestructuradas del MMPI-2-RF (2008), se incorporaron procedimientos factoriales a la familia MMPI.
+**Realidad:** Hathaway y McKinley (1943) seleccionaron los ítems por su capacidad para distinguir a grupos de pacientes con un diagnóstico de un grupo sin trastorno, con independencia de su contenido: es el método empírico de criterio externo. El análisis factorial es la estrategia del 16PF de Cattell o de los cuestionarios de Eysenck. Solo más tarde, con las escalas reestructuradas (RC; Tellegen et al., 2003), integradas después en el MMPI-2-RF (2008), los procedimientos factoriales pasaron a ocupar un lugar central en la familia MMPI.
 
 ### Conceptos clave
 

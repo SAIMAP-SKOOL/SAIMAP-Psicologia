@@ -24,10 +24,10 @@
 | MMPI-3 (2020; España, 2026) | 335 ítems y 52 escalas | 10 |
 | Costa y McCrae (1992) | NEO-PI-R: 5 factores × 6 facetas, 240 ítems | 11 |
 | Krueger et al. (2012) | PID-5: 220 ítems, 25 facetas y 5 dominios del modelo alternativo del DSM-5 | 11 |
-| Broca (1861); Wernicke (1874); Luria | Localización del lenguaje; sistemas funcionales y evaluación cualitativa | 12 |
+| Broca (1861); Wernicke (1874); Luria (1962) | Localización del lenguaje; sistemas funcionales y evaluación cualitativa | 12 |
 | Peña-Casanova et al. (2009) | NEURONORMA: normas españolas conjuntas para mayores de 49 años, ajustadas por edad y escolaridad | 12 |
 | Nasreddine et al. (2005) | MoCA frente a MMSE en el deterioro cognitivo leve: sensibilidad del 90 % frente al 18 % | 13 |
-| Holland (RIASEC) | Seis tipos en un hexágono; congruencia, consistencia y diferenciación | 14 |
+| Holland (1959/1997) | Seis tipos en un hexágono; congruencia, consistencia y diferenciación | 14 |
 | Likert (1932); Thurstone y Chave (1929); Guttman (1944) | Escalas sumativas, de intervalos aparentemente iguales y acumulativas | 15 |
 | Oswald et al. (2013) | El IAT predice la discriminación de forma débil (r ≈ 0,15) | 15 |
 | Alonso, Prieto y Antó (1995) | Versión española del SF-36: 8 escalas y 2 componentes sumario | 16 |
@@ -41,7 +41,7 @@
 | «Las técnicas subjetivas son pura opinión y no pueden analizarse de forma cuantitativa» | El diferencial semántico y la rejilla admiten índices y análisis factoriales o de componentes | 2 |
 | «El Rorschach no tiene ninguna validez» | Algunas variables, sobre todo las de distorsión perceptiva y pensamiento desorganizado, tienen validez aceptable (Mihura et al., 2013) | 3 |
 | «Las técnicas proyectivas son tan fiables y válidas como los tests psicométricos» | La mayoría de sus índices carece de apoyo y de validez incremental (Lilienfeld et al., 2000) | 4 |
-| «La teoría de las inteligencias múltiples está avalada empíricamente» | Las «inteligencias» académicas saturan en g y faltan pruebas de su independencia (Waterhouse, 2006) | 5 |
+| «La teoría de las inteligencias múltiples está avalada empíricamente» | Las «inteligencias» académicas saturan en g (Visser, Ashton y Vernon, 2006) y faltan pruebas de su independencia (Waterhouse, 2006) | 5 |
 | «El CI es inmutable» | Es estable, pero cambia con la escolarización, entre generaciones (efecto Flynn) y por el error de medida | 6 |
 | «Las escalas de Wechsler se pueden aplicar en grupo» | Son de aplicación individual, como el Stanford-Binet y el K-BIT | 7 |
 | «Las matrices de Raven son un test libre de cultura» | Reducen la carga cultural, pero no la eliminan | 8 |
@@ -58,7 +58,7 @@
 
 ### Manuales de referencia
 
-- Cohen, R. J., Schneider, W. J. y Tobin, R. (2022). *Psychological testing and assessment* (10.ª ed.). McGraw-Hill.
+- Cohen, R. J., Schneider, W. J. y Tobin, R. M. (2022). *Psychological testing and assessment* (10.ª ed.). McGraw-Hill.
 - Fernández-Ballesteros, R. (dir.) (2011). *Evaluación psicológica: conceptos, métodos y estudio de casos* (2.ª ed.). Pirámide.
 - Groth-Marnat, G. y Wright, A. J. (2016). *Handbook of psychological assessment* (6.ª ed.). Wiley.
 - Lezak, M. D., Howieson, D. B., Bigler, E. D. y Tranel, D. (2012). *Neuropsychological assessment* (5.ª ed.). Oxford University Press.
@@ -77,17 +77,25 @@
 - Alonso, J., Prieto, L. y Antó, J. M. (1995). La versión española del SF-36 Health Survey (Cuestionario de Salud SF-36): un instrumento para la medida de los resultados clínicos. *Medicina Clínica, 104*(20), 771–776.
 - Bratsberg, B. y Rogeberg, O. (2018). Flynn effect and its reversal are both environmentally caused. *Proceedings of the National Academy of Sciences, 115*(26), 6674–6678.
 - Flynn, J. R. (1987). Massive IQ gains in 14 nations: What IQ tests really measure. *Psychological Bulletin, 101*(2), 171–191.
+- Forscher, P. S., Lai, C. K., Axt, J. R., Ebersole, C. R., Herman, M., Devine, P. G. y Nosek, B. A. (2019). A meta-analysis of procedures to change implicit measures. *Journal of Personality and Social Psychology, 117*(3), 522–559.
+- Greenwald, A. G., McGhee, D. E. y Schwartz, J. L. K. (1998). Measuring individual differences in implicit cognition: The implicit association test. *Journal of Personality and Social Psychology, 74*(6), 1464–1480.
+- Krueger, R. F., Derringer, J., Markon, K. E., Watson, D. y Skodol, A. E. (2012). Initial construction of a maladaptive personality trait model and inventory for DSM-5. *Psychological Medicine, 42*(9), 1879–1890.
 - Lilienfeld, S. O., Wood, J. M. y Garb, H. N. (2000). The scientific status of projective techniques. *Psychological Science in the Public Interest, 1*(2), 27–66.
 - Mihura, J. L., Meyer, G. J., Dumitrascu, N. y Bombel, G. (2013). The validity of individual Rorschach variables: Systematic reviews and meta-analyses of the Comprehensive System. *Psychological Bulletin, 139*(3), 548–605.
 - Muñiz, J., Hernández, A. y Fernández-Hermida, J. R. (2020). Utilización de los tests en España: el punto de vista de los psicólogos. *Papeles del Psicólogo, 41*(1), 1–15.
 - Nasreddine, Z. S., Phillips, N. A., Bédirian, V., Charbonneau, S., Whitehead, V., Collin, I., Cummings, J. L. y Chertkow, H. (2005). The Montreal Cognitive Assessment, MoCA: A brief screening tool for mild cognitive impairment. *Journal of the American Geriatrics Society, 53*(4), 695–699.
 - Oswald, F. L., Mitchell, G., Blanton, H., Jaccard, J. y Tetlock, P. E. (2013). Predicting ethnic and racial discrimination: A meta-analysis of IAT criterion studies. *Journal of Personality and Social Psychology, 105*(2), 171–192.
 - Pashler, H., McDaniel, M., Rohrer, D. y Bjork, R. (2008). Learning styles: Concepts and evidence. *Psychological Science in the Public Interest, 9*(3), 105–119.
+- Paulhus, D. L. (1984). Two-component models of socially desirable responding. *Journal of Personality and Social Psychology, 46*(3), 598–609.
 - Peña-Casanova, J. et al. (2009). Spanish Multicenter Normative Studies (NEURONORMA Project): Methods and sample characteristics. *Archives of Clinical Neuropsychology, 24*(4), 307–319.
+- Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. *Consulting Psychology Journal: Practice and Research, 57*(3), 210–221.
+- Quintana, J. M., Padierna, A., Esteban, C., Arostegui, I., Bilbao, A. y Ruiz, I. (2003). Evaluation of the psychometric characteristics of the Spanish version of the Hospital Anxiety and Depression Scale. *Acta Psychiatrica Scandinavica, 107*(3), 216–221.
 - Remor, E. (2006). Psychometric properties of a European Spanish version of the Perceived Stress Scale (PSS). *The Spanish Journal of Psychology, 9*(1), 86–93.
 - Ritchie, S. J. y Tucker-Drob, E. M. (2018). How much does education improve intelligence? A meta-analysis. *Psychological Science, 29*(8), 1358–1369.
 - Trahan, L. H., Stuebing, K. K., Fletcher, J. M. y Hiscock, M. (2014). The Flynn effect: A meta-analysis. *Psychological Bulletin, 140*(5), 1332–1360.
+- Visser, B. A., Ashton, M. C. y Vernon, P. A. (2006). Beyond g: Putting multiple intelligences theory to the test. *Intelligence, 34*(5), 487–502.
 - Waterhouse, L. (2006). Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review. *Educational Psychologist, 41*(4), 207–225.
+- Zigmond, A. S. y Snaith, R. P. (1983). The Hospital Anxiety and Depression Scale. *Acta Psychiatrica Scandinavica, 67*(6), 361–370.
 
 ### Documentos institucionales
 

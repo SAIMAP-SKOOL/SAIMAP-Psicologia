@@ -8,19 +8,19 @@ La evaluación neuropsicológica estudia cómo se refleja en la conducta y en el
 
 ### 12.1 Antecedentes históricos
 
-La idea de que cada capacidad mental depende de una parte concreta del cerebro tiene un precedente poco científico: la **frenología** de Franz Joseph Gall, a comienzos del siglo XIX, que pretendía leer el carácter en los relieves del cráneo. La frenología es hoy una pseudociencia, pero dejó planteada una pregunta legítima: ¿están localizadas las funciones mentales?
+La idea de que cada capacidad mental depende de una parte concreta del cerebro tiene un precedente poco científico: la **frenología** de Franz Joseph Gall, a comienzos del siglo XIX, que suponía un «órgano» cerebral para cada facultad y creía poder estimar su tamaño palpando el cráneo. Carecía de base empírica, pero puso sobre la mesa la pregunta que guiaría el siglo: ¿están localizadas las funciones mentales?
 
 La primera respuesta sólida llegó del **método anatomoclínico**: observar a un paciente en vida y relacionar sus síntomas con la lesión hallada en la autopsia. En 1861, **Paul Broca** estudió a Louis Victor Leborgne, un paciente que entendía buena parte de lo que se le decía, pero apenas podía producir otra cosa que la sílaba «tan». La autopsia mostró una lesión en la parte posterior del lóbulo frontal izquierdo. Unos años después, **Carl Wernicke** (1874) describió el cuadro inverso: pacientes que hablaban con fluidez, pero con un discurso poco comprensible y una comprensión muy alterada, con lesiones en la región temporal posterior izquierda.
 
 ![](wm-broca-wernicke.jpg)
 
-Figura 12.1. **Los inicios de la neuropsicología.** Paul Broca; el cerebro de su paciente Louis Victor Leborgne («Tan»), conservado en el Museo Dupuytren de París, con la lesión frontal izquierda que Broca describió en 1861, y Carl Wernicke (hacia 1900). Fuente: Wikimedia Commons; retratos de dominio público; cerebro: Selbymay, CC BY-SA 4.0.
+Figura 12.1. **Los inicios de la neuropsicología.** Paul Broca; el cerebro de su paciente Louis Victor Leborgne («Tan»), conservado en el Museo Dupuytren de París, cuya lesión frontal izquierda describió Broca en 1861, y Carl Wernicke (hacia 1900). Fuente: Wikimedia Commons; retratos de dominio público; cerebro: Selbymay, CC BY-SA 4.0.
 
-Como muestra la figura 12.1, estos casos convirtieron el lenguaje en el primer gran ejemplo de especialización cerebral. Antes incluso, en 1848, un accidente laboral había aportado otro caso célebre: **Phineas Gage**, a quien una barra de hierro atravesó el lóbulo frontal. Sobrevivió, y quienes lo conocían describieron un cambio notable en su carácter, con más impulsividad y menos respeto por las normas.
+Como muestra la figura 12.1, estos casos convirtieron el lenguaje en el primer gran ejemplo de especialización cerebral. Antes incluso, en 1848, un accidente laboral había aportado otro caso célebre: **Phineas Gage**, a quien una barra de hierro atravesó el lóbulo frontal. Sobrevivió, y su médico, John Harlow, describió años después (1868) un cambio notable en su carácter, con más impulsividad y menos respeto por las normas; casi todo lo que se sabe procede de ese testimonio.
 
 ![s](wm-gage.jpg)
 
-Figura 12.2. **Phineas Gage con la barra de hierro que le atravesó el lóbulo frontal en 1848.** Su cambio de conducta tras el accidente se convirtió en un caso clásico de la relación entre lóbulo frontal y personalidad. Fuente: retrato de autor desconocido, Wikimedia Commons; dominio público.
+Figura 12.2. **Phineas Gage con la barra de hierro que le atravesó el lóbulo frontal en 1848.** Su caso, documentado sobre todo por su médico, se convirtió en un clásico de la relación entre lóbulo frontal y conducta. Fuente: retrato de autor desconocido, Wikimedia Commons; dominio público.
 
 El caso de la figura 12.2 conviene contarlo con prudencia. La versión popular se fue exagerando con los años, y hoy se sabe que en su última etapa Gage mostró cierta recuperación de su adaptación social. Sigue siendo un caso clásico, pero no una prueba de que el lóbulo frontal sea «el centro de la personalidad».
 
@@ -47,10 +47,10 @@ Sus objetivos principales son seis:
 
 1. **Diagnóstico.** Detectar alteraciones cognitivas y contribuir al diagnóstico diferencial, por ejemplo entre un deterioro neurodegenerativo incipiente y las quejas de memoria asociadas a una depresión.
 2. **Perfil funcional.** Describir qué capacidades están conservadas y cuáles alteradas. Ese mapa de fortalezas y debilidades es la base de casi todo lo demás.
-3. **Seguimiento.** Repetir la evaluación para valorar la evolución: la recuperación tras un ictus o un traumatismo craneoencefálico, o el avance de una enfermedad progresiva.
+3. **Seguimiento.** Comparar evaluaciones sucesivas de la misma persona para saber si mejora, se mantiene o empeora, y ajustar con ello el tratamiento.
 4. **Rehabilitación y reinserción.** Diseñar programas de rehabilitación cognitiva y orientar decisiones como la vuelta al trabajo, la conducción o la vida independiente.
 5. **Evaluación forense.** Valorar secuelas en litigios, incapacidades o procedimientos penales, donde la validez del rendimiento debe comprobarse siempre (Unidad 13).
-6. **Investigación.** Estudiar el funcionamiento cerebral normal y patológico y medir los efectos cognitivos de fármacos y tratamientos.
+6. **Investigación.** Aportar datos sobre la relación entre cerebro y conducta y servir de medida de resultado en ensayos de fármacos o de programas de rehabilitación.
 
 Los **ámbitos** de aplicación son amplios: neurología (ictus, traumatismos, epilepsia, esclerosis múltiple, demencias), psiquiatría (alteraciones cognitivas en la esquizofrenia o la depresión), neurodesarrollo (TDAH, dificultades de aprendizaje), envejecimiento, contexto laboral y contexto judicial.
 
@@ -69,7 +69,7 @@ Figura 12.3. **Batería fija y batería flexible.** Comparación del procedimien
 Como muestra la figura 12.3, las dos baterías fijas clásicas son estas:
 
 - **Batería Halstead-Reitan.** Procede del trabajo de Halstead (1947) y Reitan. Incluye pruebas como el Test de Categorías (formación de conceptos), el golpeteo digital (velocidad motora), la Prueba de Ejecución Táctil, el Test de Ritmo de Seashore y la percepción de sonidos del habla, además del Trail Making Test. Varias de sus puntuaciones se combinan en un **índice de deterioro** que indica si el rendimiento global es compatible con daño cerebral. Su aplicación es muy larga.
-- **Batería Luria-Nebraska** (Golden, 1980). Intenta convertir en una prueba estandarizada y puntuable los procedimientos de exploración de Luria. Ofrece escalas clínicas para áreas como la motricidad, el lenguaje, la lectura, la escritura o la memoria. Se le critica, entre otras cosas, el peso del lenguaje en muchos ítems, que perjudica a las personas con afasia.
+- **Batería Luria-Nebraska** (Golden, 1980). Intenta convertir en una prueba estandarizada y puntuable los procedimientos de exploración de Luria. Ofrece escalas clínicas para áreas como la motricidad, el lenguaje, la lectura, la escritura o la memoria. Se le ha reprochado que simplifica en exceso el método de Luria, que era cualitativo, y que sus escalas de localización no tienen la validez que su nombre sugiere.
 
 Las ventajas de la batería fija son la **comparabilidad** entre pacientes y centros y su utilidad para la **investigación**: con las mismas pruebas en todos los casos, se pueden acumular datos y comparar grupos. Sus inconvenientes son la **duración**, la **rigidez** (se aplican pruebas innecesarias y faltan otras que harían falta) y el desgaste del paciente.
 
@@ -206,7 +206,7 @@ Un resultado positivo en un cribado obliga a evaluar a fondo. Un resultado negat
 
 ### 13.2 La inteligencia como complemento y el CI premórbido
 
-Las escalas de inteligencia, sobre todo la **WAIS-IV** (Unidad 7), son un complemento habitual de la evaluación neuropsicológica. Aportan un **marco de referencia** del rendimiento general y, a través de sus índices (comprensión verbal, razonamiento perceptivo, memoria de trabajo y velocidad de procesamiento), una primera visión de fortalezas y debilidades. Una velocidad de procesamiento muy por debajo del resto, por ejemplo, es frecuente tras un traumatismo craneoencefálico.
+Las escalas de inteligencia, sobre todo la **WAIS-IV** (Unidad 7), son un complemento habitual de la evaluación neuropsicológica. Sitúan el rendimiento global de la persona respecto a su grupo de edad y, con sus cuatro índices (comprensión verbal, razonamiento perceptivo, memoria de trabajo y velocidad de procesamiento), sugieren qué áreas conviene explorar con más detalle. Una velocidad de procesamiento muy por debajo del resto, por ejemplo, es frecuente tras un traumatismo craneoencefálico.
 
 Conviene no confundir los dos tipos de evaluación. Una **evaluación de la inteligencia no es una evaluación neuropsicológica**. Las escalas de inteligencia no exploran a fondo la memoria a largo plazo, el lenguaje o muchas funciones ejecutivas, y una persona puede tener un CI total en la media con una alteración grave de la memoria. Además, las diferencias entre índices deben interpretarse con cautela: diferencias de varios puntos son frecuentes en la población sin lesión, y no indican por sí solas un deterioro.
 
@@ -255,7 +255,7 @@ En una batería flexible se combinan pruebas específicas según las hipótesis.
 
 ![](funciones-pruebas.png)
 
-Figura 13.2. **Funciones cognitivas y pruebas que las evalúan.** Matriz que relaciona la atención y la velocidad (TMT-A, Stroop), las funciones ejecutivas (TMT-B, interferencia del Stroop, WCST, fluidez fonética), la memoria verbal (RAVLT, TAVEC), la memoria visual y la visoconstrucción (Figura de Rey) y el lenguaje (fluidez semántica, denominación). Elaboración propia.
+Figura 13.2. **Funciones cognitivas y pruebas que las evalúan.** Matriz que relaciona la atención y la velocidad (TMT-A, Stroop), las funciones ejecutivas (TMT-B, interferencia del Stroop, WCST, fluidez fonética), la memoria verbal (RAVLT, TAVEC), la memoria visual y la visoconstrucción (Figura de Rey) y el lenguaje (fluidez fonética y semántica). Elaboración propia.
 
 Como muestra la figura 13.2, cada función se explora con varias pruebas y cada prueba aporta información sobre varias funciones.
 

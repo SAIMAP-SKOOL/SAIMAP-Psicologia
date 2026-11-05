@@ -10,7 +10,7 @@ Saber qué le gusta hacer a una persona y qué opina de un objeto, un grupo o un
 
 Los **intereses vocacionales** son preferencias relativamente estables por ciertas actividades, ambientes de trabajo y ocupaciones. Responden a la pregunta «¿qué me gustaría hacer?», no a «¿qué sé hacer?» ni a «¿cómo soy?». Esa distinción importa. Una persona puede tener mucha aptitud numérica y aburrirse con la contabilidad, o adorar la música sin oído para tocar un instrumento. Por eso la orientación profesional combina la evaluación de intereses con la de aptitudes (Unidad 8) y, a menudo, con la de personalidad.
 
-La frontera con la personalidad y con las actitudes es difusa: lo que separa estos ámbitos es más el propósito de la evaluación y la tradición de cada instrumento que una diferencia teórica nítida.
+Intereses, rasgos y actitudes se solapan en parte (el gusto por tratar con gente tiene algo de las tres cosas); se estudian por separado más por tradición y propósito que por una separación teórica clara.
 
 **Formas de conocer los intereses.** Hay tres vías principales, que no se excluyen:
 
@@ -28,7 +28,7 @@ Dentro de los inventarios conviven tres **enfoques de construcción**, que organ
 
 **Formato absoluto y formato relativo.** En el **formato absoluto** (o normativo) cada actividad se valora por separado («me gusta», «me es indiferente», «me disgusta»), y las escalas pueden compararse con un baremo y entre personas. En el **formato relativo** o **ipsativo** se elige entre varias actividades a la vez, de modo que preferir una supone renunciar a otra; el perfil se interpreta entonces dentro de la propia persona (apartado 14.3).
 
-**Para qué sirven.** Se usan sobre todo en la **orientación académica** al final de la secundaria, pero también en los **cambios de carrera** de la vida adulta y, con más prudencia, en selección de personal, donde el candidato sabe qué intereses «convienen» y puede ajustar sus respuestas (Evaluación Psicológica I). Los intereses son bastante **estables** desde el final de la adolescencia, aunque no inmutables, así que un resultado describe el momento actual y sirve para abrir opciones, no para dictar el futuro. La orientación como proceso educativo se trata en Psicología Educativa y Orientación.
+**Para qué sirven.** Se usan sobre todo en la **orientación académica** al final de la secundaria, pero también en los **cambios de carrera** de la vida adulta y, con más prudencia, en selección de personal, donde el candidato sabe qué intereses «convienen» y puede ajustar sus respuestas (Evaluación Psicológica I). Los intereses son bastante **estables** desde el final de la adolescencia, aunque no inmutables, así que conviene leer el resultado como punto de partida para explorar opciones y repetir la evaluación si las circunstancias cambian. La orientación como proceso educativo se trata en Psicología Educativa y Orientación.
 
 ### 14.2 El modelo RIASEC de Holland y el SDS
 
@@ -85,7 +85,7 @@ Los inventarios de **Kuder** representan el enfoque por **áreas temáticas**. E
 
 Las áreas recuerdan a los tipos RIASEC, pero no se derivan de una teoría de la personalidad, sino del contenido de las tareas.
 
-**Elección forzada en tríadas.** El rasgo que más distingue al Kuder es su formato. Cada ítem presenta **tres actividades** y la persona debe marcar la que **más** le gusta y la que **menos** le gusta. Por ejemplo: «visitar un museo de ciencias», «organizar una fiesta benéfica» y «ordenar la biblioteca de casa». Nadie puede decir que le encanta todo: cada elección favorece un área a costa de otra.
+**Elección forzada en tríadas.** El rasgo que más distingue al Kuder es su formato. Cada ítem presenta **tres actividades** y la persona señala su actividad **preferida** y la que **menos** le atrae. Por ejemplo: «visitar un museo de ciencias», «organizar una fiesta benéfica» y «ordenar la biblioteca de casa». Nadie puede decir que le encanta todo: cada elección favorece un área a costa de otra.
 
 Este formato da lugar a puntuaciones **ipsativas**: la suma de las puntuaciones de todas las escalas es aproximadamente la misma para todo el mundo, porque lo que se reparte es una cantidad fija de preferencias. Las consecuencias son importantes:
 
@@ -108,7 +108,7 @@ Edward K. Strong publicó en 1927 el *Strong Vocational Interest Blank* (SVIB), 
 
 Se reúne un grupo de profesionales de una ocupación, con experiencia y **satisfechos** con ella, por ejemplo ingenieros, y se les aplica una larga lista de ítems sobre ocupaciones, asignaturas, ocio y tipos de personas. Sus respuestas se comparan con las de una **muestra de referencia** de personas de muchas profesiones. Los ítems que diferencian a los ingenieros del grupo de referencia, sea cual sea su contenido, forman la **escala ocupacional** de ingeniero. Si una persona responde como suelen hacerlo los ingenieros satisfechos, puntuará alto en esa escala.
 
-El supuesto de fondo es sencillo: quien comparte los gustos de las personas satisfechas en una profesión tiene más probabilidades de sentirse a gusto en ella. Nótese que el criterio es la satisfacción, no la competencia: la escala dice si alguien se parece en sus gustos a los ingenieros, no si sería un buen ingeniero.
+La apuesta de Strong era que parecerse en los gustos a quienes disfrutan de un oficio anticipa la propia satisfacción en él. Nótese que el criterio es la satisfacción, no la competencia: la escala dice si alguien se parece en sus gustos a los ingenieros, no si sería un buen ingeniero.
 
 Es la misma estrategia con la que se construyó el MMPI, que comparaba pacientes con personas sin diagnóstico (Unidad 10). Y tiene las mismas ventajas e inconvenientes:
 
@@ -122,7 +122,7 @@ Es la misma estrategia con la que se construyó el MMPI, que comparaba pacientes
 **Escalas del inventario actual.** Para superar la falta de interpretación teórica, las versiones posteriores añadieron otros niveles de puntuación, de lo general a lo específico:
 
 - **Temas ocupacionales generales:** los seis tipos RIASEC de Holland, que dan una visión global.
-- **Escalas de intereses básicos:** áreas más concretas agrupadas dentro de cada tema (por ejemplo, ventas o derecho dentro del tema Emprendedor).
+- **Escalas de intereses básicos:** áreas más concretas agrupadas dentro de cada tema (por ejemplo, enseñanza o asesoramiento dentro del tema Social).
 - **Escalas ocupacionales:** el núcleo empírico original, que compara a la persona con los profesionales satisfechos de cada ocupación.
 - **Estilos personales** e índices de control de la aplicación.
 
@@ -198,7 +198,7 @@ c) ser autoaplicado y autocorregido por la propia persona
 
 ### 15.1 Concepto de actitud y estrategias de medida
 
-Una **actitud** es una evaluación relativamente duradera, favorable o desfavorable, de un objeto. El objeto puede ser casi cualquier cosa: una idea (la democracia), una práctica (la vacunación), un grupo social (las personas mayores), una institución (la universidad), un producto o una persona concreta. Las actitudes interesan porque resumen cómo valoramos el mundo y porque se supone que orientan la conducta.
+Una **actitud** es una evaluación relativamente duradera, favorable o desfavorable, de un objeto. El objeto puede ser casi cualquier cosa: la energía nuclear, el teletrabajo, los turistas, la sanidad pública, una marca de refrescos o un vecino concreto. Las actitudes interesan porque resumen cómo valoramos el mundo y porque se supone que orientan la conducta.
 
 El modelo clásico describe la actitud con **tres componentes** (Rosenberg y Hovland, 1960):
 
@@ -217,11 +217,11 @@ Los tres no siempre coinciden: alguien puede creer que el ejercicio es sano, sen
 | Registros psicofisiológicos | Activación ante el objeto | Difícil de controlar voluntariamente | Indica intensidad, no dirección (Unidad 1) |
 | Medidas implícitas | Tiempos de reacción en tareas de clasificación | No preguntan directamente | Fiabilidad y validez discutidas (apartado 15.4) |
 
-En la práctica, la gran mayoría de las medidas son **escalas de autoinforme**. Captan sobre todo el componente cognitivo y lo que la persona está dispuesta a declarar, y la deseabilidad social pesa mucho en temas sensibles, como los prejuicios (Evaluación Psicológica I y Unidad 9).
+En la práctica, casi todo lo publicado son **escalas de autoinforme**. Recogen lo que la persona cree y está dispuesta a contar, más que sus emociones o sus actos, y la deseabilidad social pesa mucho en temas sensibles, como los prejuicios (Evaluación Psicológica I y Unidad 9).
 
-**Lo que distingue a las escalas de actitudes** no son sus ítems, que pueden parecerse mucho entre sí, sino el **método de construcción**: cómo se eligen los enunciados y cómo se combinan las respuestas en una puntuación. Los tres métodos clásicos son los de Likert, Thurstone y Guttman (apartados 15.2 y 15.3). A ellos se suman el **diferencial semántico** de Osgood, que mide el significado connotativo de un objeto con pares de adjetivos opuestos y cuyo factor de evaluación funciona como medida de actitud (Unidad 2), y la **escala de distancia social** de Bogardus (1925).
+Dos escalas con enunciados casi idénticos pueden ser muy distintas según **cómo se construyeron**: cómo se eligieron los enunciados y cómo se combinan las respuestas. Hay tres procedimientos clásicos, asociados a Likert, Thurstone y Guttman (apartados 15.2 y 15.3). A ellos se suman el **diferencial semántico** de Osgood, que mide el significado connotativo de un objeto con pares de adjetivos opuestos y cuyo factor de evaluación funciona como medida de actitud (Unidad 2), y la **escala de distancia social** de Bogardus (1925).
 
-Hay cientos de escalas publicadas, muchas creadas para un solo estudio y de calidad muy variable, así que antes de usar una conviene revisar cómo se construyó y qué fiabilidad y validez tiene. Un ejemplo: un ayuntamiento que quiere conocer la actitud vecinal hacia los carriles bici obtendrá poca precisión con una sola pregunta («¿está a favor?») y bastante más con una escala de varios enunciados bien construida.
+La oferta de escalas es enorme y desigual, y muchas se diseñaron para un único estudio, así que antes de usar una conviene revisar cómo se construyó y qué fiabilidad y validez tiene. Un ejemplo: un ayuntamiento que quiere conocer la actitud vecinal hacia los carriles bici obtendrá poca precisión con una sola pregunta («¿está a favor?») y bastante más con una escala de varios enunciados bien construida.
 
 ### 15.2 Escalas Likert y Thurstone
 
@@ -261,7 +261,7 @@ La principal crítica al método de Thurstone es su **coste**, y se comprobó ad
 
 ### 15.3 Escalas Guttman y otras técnicas
 
-**El escalograma de Guttman.** Louis Guttman (1944) propuso un modelo más exigente: una escala **acumulativa**. Los ítems se ordenan por intensidad, de modo que aceptar un ítem implica aceptar todos los de menor intensidad. Si alguien está de acuerdo con el enunciado más extremo, debería estarlo con todos los demás; si rechaza uno moderado, debería rechazar todos los que están por encima.
+**El escalograma de Guttman.** Louis Guttman (1944) propuso un modelo más exigente: una escala **acumulativa**. Los ítems se ordenan por intensidad, de modo que aceptar un ítem implica aceptar todos los de menor intensidad. Dicho de otro modo, las respuestas de cada persona forman una escalera sin huecos: un «sí» después de un «no» rompe el patrón.
 
 Un ejemplo con la actitud hacia el reciclaje:
 
@@ -273,7 +273,7 @@ Un ejemplo con la actitud hacia el reciclaje:
 
 En una escala perfecta, basta con saber **cuántos** ítems acepta una persona para saber **cuáles** acepta. Quien acepta tres ha aceptado el 1, el 2 y el 3. La puntuación total permite reproducir todo el patrón de respuestas.
 
-**El coeficiente de reproductibilidad.** Los datos reales nunca son perfectos. Se llama **error** a cada respuesta que no encaja con el patrón esperado según la puntuación total. El grado de ajuste se resume con el **coeficiente de reproductibilidad**:
+**El coeficiente de reproductibilidad.** Los datos reales nunca son perfectos. Se llama **error** a cada respuesta que habría que cambiar, como mínimo, para convertir el patrón de una persona en un patrón perfecto. El grado de ajuste se resume con el **coeficiente de reproductibilidad**:
 
 Reproductibilidad = 1 − errores / (ítems × sujetos)
 
@@ -285,7 +285,7 @@ Figura 15.1. **Tres formas de construir una escala de actitud.** A la izquierda,
 
 Como muestra la figura 15.1, con 5 ítems y 6 sujetos hay 30 respuestas; si solo una se sale del patrón, la reproductibilidad es 1 − 1/30 ≈ 0,97, por encima del criterio de 0,90.
 
-El escalograma garantiza que los ítems miden **una sola dimensión** y da a la puntuación total un significado preciso, pero exige una consistencia que las actitudes complejas rara vez muestran, por lo que se usa más como modelo conceptual que como técnica aplicada. Su idea de ordenar ítems y personas en un mismo continuo es un antecedente determinista de la teoría de respuesta al ítem, que admite errores probabilísticos (Psicometría).
+El escalograma garantiza que los ítems miden **una sola dimensión** y da a la puntuación total un significado preciso, pero con actitudes de muchas facetas es raro llegar a 0,90, y por eso se cita más de lo que se aplica. Su idea de ordenar ítems y personas en un mismo continuo es un antecedente determinista de la teoría de respuesta al ítem, que admite errores probabilísticos (Psicometría).
 
 | Rasgo | Likert | Thurstone | Guttman |
 | --- | --- | --- | --- |

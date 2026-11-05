@@ -8,18 +8,18 @@ La psicología de la salud no se ocupa solo del malestar emocional: también eva
 
 ### 16.1 Calidad de vida relacionada con la salud: SF-36, SF-12, EQ-5D y WHOQOL-BREF
 
-La Organización Mundial de la Salud define la salud como un estado de completo bienestar físico, mental y social, y no solo como la ausencia de enfermedad. Por eso, para saber cómo está un paciente no bastan sus análisis. Dos personas con la misma artrosis de rodilla pueden vivirla de forma muy distinta: una sigue caminando a diario y la otra ha dejado de salir de casa.
+Desde su Constitución de 1946, la Organización Mundial de la Salud entiende la salud como algo más que no estar enfermo: incluye el bienestar físico, mental y social. Por eso, para saber cómo está un paciente no bastan sus análisis. Dos personas con la misma artrosis de rodilla pueden vivirla de forma muy distinta: una sigue caminando a diario y la otra ha dejado de salir de casa.
 
 La **calidad de vida relacionada con la salud (CVRS)** es la valoración que hace la propia persona de cómo su estado de salud afecta a su funcionamiento físico, emocional y social. Es una medida **subjetiva**: recoge la percepción del paciente, no la salud «objetiva», y complementa los indicadores clínicos sin sustituirlos. Se usa para describir el impacto de una enfermedad, comparar tratamientos, seguir la evolución de un paciente y planificar recursos.
 
 Los instrumentos de CVRS se dividen en dos grandes grupos:
 
 - **Genéricos**: sirven para cualquier población, sana o enferma, y permiten comparar grupos clínicos distintos entre sí y con la población general. Son el SF-36, el SF-12, el EQ-5D y el WHOQOL-BREF.
-- **Específicos**: se diseñan para una enfermedad o un grupo concreto (cáncer, insuficiencia cardiaca, artritis). Son más sensibles a los cambios propios de esa enfermedad, pero no permiten comparar entre enfermedades.
+- **Específicos**: se diseñan para una enfermedad o un grupo concreto (cáncer, asma, diabetes). Son más sensibles a los cambios propios de esa enfermedad, pero no permiten comparar entre enfermedades.
 
 Lo habitual es combinar un instrumento genérico con uno específico.
 
-**El SF-36** (Ware y Sherbourne, 1992) es el cuestionario genérico más extendido. Tiene 36 ítems agrupados en **8 escalas**: función física, rol físico, dolor corporal, salud general, vitalidad, función social, rol emocional y salud mental. Las escalas se combinan en **dos componentes sumario**, uno **físico** y otro **mental**. Cada escala se puntúa de forma que las puntuaciones más altas indican mejor estado de salud. La versión española de Alonso, Prieto y Antó (1995) mostró una consistencia interna entre .71 y .94 en casi todas las escalas, con una excepción: la de Función Social, que solo alcanzó .45. Conviene recordar este dato al interpretar esa escala aislada.
+**El SF-36** (Ware y Sherbourne, 1992) es el cuestionario genérico más extendido. Tiene 36 ítems agrupados en **8 escalas**: función física, rol físico, dolor corporal, salud general, vitalidad, función social, rol emocional y salud mental. Las escalas se combinan en **dos componentes sumario**, uno **físico** y otro **mental**. Cada escala se puntúa de forma que las puntuaciones más altas indican mejor estado de salud. La versión española de Alonso, Prieto y Antó (1995) mostró una consistencia interna entre 0,71 y 0,94 en casi todas las escalas, con una excepción: la de Función Social, que solo alcanzó 0,45. Conviene recordar este dato al interpretar esa escala aislada.
 
 | Instrumento | Ítems | Estructura | Rasgo distintivo |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ Conviene subrayar que se habla de **patrón de conducta**, no de rasgo de person
 
 **El tipo D.** Denollet propuso la **personalidad tipo D** (de *distressed*, «angustiado») como combinación de dos rasgos: **afectividad negativa** (tendencia a sentir preocupación, tristeza e irritación) e **inhibición social** (tendencia a no expresar esas emociones por miedo al rechazo). Se evalúa con la **DS14**, una escala de 14 ítems con una subescala para cada rasgo; se considera tipo D a quien puntúa alto en ambas. Los estudios iniciales en pacientes cardiacos hallaron un peor pronóstico, pero las **réplicas posteriores han sido más débiles**, y su valor predictivo sigue en debate.
 
-**El tipo C.** Se propuso como un estilo asociado al cáncer: complacencia, poca asertividad y **supresión de las emociones negativas**, sobre todo de la ira. La hipótesis tuvo mucha difusión, pero la evidencia de que este estilo cause cáncer o acelere su evolución es **débil** (ver el mito de esta unidad). Una variable relacionada, la **alexitimia** o dificultad para identificar y expresar las emociones, se evalúa con la **TAS-20** y se estudia como factor de vulnerabilidad al estrés.
+**El tipo C.** Se propuso como un estilo asociado al cáncer: complacencia, poca asertividad y **supresión de las emociones negativas**, sobre todo de la ira. La hipótesis tuvo mucha difusión, pero la evidencia de que este estilo cause cáncer o acelere su evolución es **débil** (ver el mito de esta unidad). Una variable relacionada es la **alexitimia**: a la persona le cuesta reconocer qué siente y ponerle palabras. Su medida más usada es la **TAS-20** (Bagby, Parker y Taylor, 1994).
 
 | Patrón | Rasgos centrales | Enfermedad estudiada | Instrumento | Estado de la evidencia |
 | --- | --- | --- | --- | --- |
@@ -65,7 +65,7 @@ Si Andrés, tras un infarto, puntúa alto en la escala de Cook-Medley y en las d
 
 ### 16.3 Estilo de vida y prevención
 
-Buena parte de la enfermedad crónica se relaciona con **conductas de salud** cotidianas: actividad física, alimentación, tabaco, alcohol y sueño. El **estilo de vida** es el conjunto relativamente estable de esas conductas. Evaluarlo sirve para estimar riesgos, decidir qué cambiar primero y comprobar si una intervención preventiva funciona.
+Muchas enfermedades crónicas tienen detrás **conductas de salud** que se repiten a diario: qué se come, cuánto se camina, si se fuma o se bebe y cómo se duerme. El **estilo de vida** es el conjunto relativamente estable de esas conductas. Evaluarlo sirve para estimar riesgos, decidir qué cambiar primero y comprobar si una intervención preventiva funciona.
 
 **Métodos de evaluación.** Se usan los mismos métodos generales que en cualquier evaluación, cuyas garantías se estudian en Evaluación Psicológica I:
 
@@ -77,7 +77,7 @@ Buena parte de la enfermedad crónica se relaciona con **conductas de salud** co
 
 Los autoinformes tienden a infravalorar las conductas mal vistas, como beber, y a sobrevalorar las deseables, como el ejercicio. Los autorregistros son más precisos, pero exigen constancia y pueden modificar la conducta registrada (reactividad). Conviene combinar fuentes.
 
-**El estadio de cambio.** Saber qué hace una persona no basta: hay que saber si está dispuesta a cambiar. El **modelo transteórico** de Prochaska y DiClemente (1983) describe el cambio de conducta como un proceso en etapas:
+**El estadio de cambio.** Saber qué hace una persona no basta: hay que saber si está dispuesta a cambiar. El **modelo transteórico** de Prochaska y DiClemente (1983), que incorporó más tarde el estadio de preparación (Prochaska, DiClemente y Norcross, 1992), describe el cambio de conducta como un proceso en etapas:
 
 | Estadio | Situación de la persona | Ejemplo (tabaco) |
 | --- | --- | --- |
@@ -101,17 +101,17 @@ Las variables de esta sección suelen organizarse en un modelo secuencial. Las *
 
 ![](salud-modelo.png)
 
-Figura 16.1. **Modelo de evaluación en psicología de la salud.** Secuencia personalidad → estrés → afrontamiento → salud, con un instrumento en cada paso (DS14, PSS, COPE, HADS y SF-36) y el apoyo social como modulador de todo el proceso. Elaboración propia.
+Figura 16.1. **Modelo de evaluación en psicología de la salud.** Secuencia personalidad → estrés percibido → afrontamiento → malestar emocional → salud y calidad de vida, con sus instrumentos (DS14; PSS; COPE y Brief COPE; HADS; SF-36, EQ-5D y WHOQOL-BREF) y el apoyo social como modulador de todo el proceso. Elaboración propia.
 
 Como muestra la figura 16.1, cada caja del modelo tiene su instrumento de referencia.
 
-**Estrés percibido.** La perspectiva actual, basada en el modelo transaccional de Lazarus y Folkman (1984), entiende el estrés como el resultado de la **valoración** que hace la persona: una situación es estresante cuando se percibe como amenazante y se juzga que los recursos propios no bastan. Por eso tiene sentido medir el estrés **percibido**, no solo los acontecimientos vividos. La **PSS** (*Perceived Stress Scale*; Cohen, Kamarck y Mermelstein, 1983) pregunta con qué frecuencia la persona ha sentido su vida como impredecible, incontrolable o sobrecargada durante el último mes. En la adaptación española de Remor (2006), con 440 participantes, la versión de 14 ítems obtuvo un α de .81 y la de 10 ítems, de .82.
+**Estrés percibido.** La perspectiva actual, basada en el modelo transaccional de Lazarus y Folkman (1984), entiende el estrés como el resultado de la **valoración** que hace la persona: una situación es estresante cuando se percibe como amenazante y se juzga que los recursos propios no bastan. Por eso tiene sentido medir el estrés **percibido**, no solo los acontecimientos vividos. La **PSS** (*Perceived Stress Scale*; Cohen, Kamarck y Mermelstein, 1983) pregunta con qué frecuencia la persona ha sentido su vida como impredecible, incontrolable o sobrecargada durante el último mes. En la adaptación española de Remor (2006), con 440 participantes, la versión de 14 ítems obtuvo un α de 0,81 y la de 10 ítems, de 0,82.
 
-**Afrontamiento.** El **afrontamiento** son los esfuerzos cognitivos y conductuales para manejar una situación estresante. Se distinguen estrategias **centradas en el problema** (planificar, buscar información, actuar) y **centradas en la emoción** (buscar consuelo, reinterpretar, desahogarse), además de estrategias de evitación, como la negación. El **COPE** (Carver, Scheier y Weintraub, 1989) evalúa un amplio abanico de estrategias, y su versión abreviada, el **Brief COPE**, se usa mucho con pacientes por su brevedad. Ninguna estrategia es buena o mala en sí: centrarse en el problema ayuda cuando la situación es controlable, y aceptar o reinterpretar, cuando no lo es.
+**Afrontamiento.** El **afrontamiento** son los esfuerzos cognitivos y conductuales para manejar una situación estresante (Lazarus y Folkman, 1984). Se distinguen estrategias **centradas en el problema** (planificar, buscar información, actuar) y **centradas en la emoción** (buscar consuelo, reinterpretar, desahogarse), además de estrategias de evitación, como la negación. El **COPE** (Carver, Scheier y Weintraub, 1989) evalúa un amplio abanico de estrategias, y su versión abreviada, el **Brief COPE**, se usa mucho con pacientes por su brevedad. Ninguna estrategia es buena o mala en sí: centrarse en el problema ayuda cuando la situación es controlable, y aceptar o reinterpretar, cuando no lo es.
 
 **Apoyo social.** Conviene distinguir el apoyo **estructural** (tamaño y frecuencia de contacto de la red) del **funcional** (ayuda emocional, material o informativa que se obtiene), y el apoyo **percibido** del **recibido**. El que más se relaciona con la salud es el percibido: sentir que habrá alguien disponible si se necesita. Se evalúa con cuestionarios como el de apoyo social del estudio MOS o el Duke-UNC.
 
-**Ansiedad y depresión en pacientes médicos.** Evaluar el malestar emocional en una persona con una enfermedad física plantea un problema: síntomas como el cansancio, el insomnio o la pérdida de apetito pueden deberse a la propia enfermedad. La **HADS** (*Hospital Anxiety and Depression Scale*; Zigmond y Snaith, 1983) resuelve este problema **excluyendo los síntomas somáticos**. Tiene **14 ítems**, 7 de ansiedad y 7 de depresión, cada uno puntuado de 0 a 3. En la versión española, la consistencia interna es de aproximadamente .86 en cada subescala (Quintana et al., 2003). Es una herramienta de **cribado**: una puntuación alta indica que conviene una evaluación más completa, no establece un diagnóstico. Los criterios diagnósticos de los trastornos de ansiedad y depresivos se estudian en Psicopatología.
+**Ansiedad y depresión en pacientes médicos.** Evaluar el malestar emocional en una persona con una enfermedad física plantea un problema: síntomas como el cansancio, el insomnio o la pérdida de apetito pueden deberse a la propia enfermedad. La **HADS** (*Hospital Anxiety and Depression Scale*; Zigmond y Snaith, 1983) resuelve este problema **excluyendo los síntomas somáticos**. Tiene **14 ítems**, 7 de ansiedad y 7 de depresión, cada uno puntuado de 0 a 3. En la versión española, la consistencia interna es de aproximadamente 0,86 en cada subescala (Quintana et al., 2003). Es una herramienta de **cribado**: una puntuación alta indica que conviene una evaluación más completa, no establece un diagnóstico. Los criterios diagnósticos de los trastornos de ansiedad y depresivos se estudian en Psicopatología.
 
 Un ejemplo: Rosa, en tratamiento con quimioterapia, está muy cansada, pero puntúa bajo en la subescala de depresión de la HADS porque esta no pregunta por el cansancio, sino, entre otras cosas, por la capacidad de disfrutar. Su malestar físico no se confunde con un trastorno del estado de ánimo.
 
