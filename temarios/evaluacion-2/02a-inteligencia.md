@@ -57,7 +57,7 @@ Cada combinación sería una capacidad distinta: 5 × 4 × 6 = 120 en la versió
 
 ![](modelos-factoriales.png)
 
-Figura 5.1. **Siete modelos factoriales de la inteligencia.** Comparación de Spearman (*g* y *s*, 1904), Thurstone (aptitudes primarias, 1938), Vernon (jerárquico, 1950), Cattell-Horn (Gf-Gc, 1963), Guilford (estructura del intelecto, 1967), Carroll (tres estratos, 1993) y el modelo CHC, con un pictograma de la estructura de cada uno. Elaboración propia.
+Figura 5.1. **Siete modelos factoriales de la inteligencia.** Comparación de Spearman (*g* y *s*, 1904), Thurstone (aptitudes primarias, 1938), Vernon (jerárquico, 1950), Guilford (estructura del intelecto, 1967), Cattell-Horn (Gf-Gc, 1963), Carroll (tres estratos, 1993) y el modelo CHC, con un pictograma de la estructura de cada uno. Elaboración propia.
 
 Como muestra la figura 5.1, se pasó de un factor único a muchos factores y, finalmente, a los modelos **jerárquicos**, hoy la mejor descripción de los datos, en los que *g* y las aptitudes específicas conviven en niveles distintos. El papel de *g* en las diferencias individuales se trata en Personalidad y Diferencias Individuales.
 
@@ -104,7 +104,7 @@ El modelo CHC es hoy el **marco de referencia** para construir e interpretar las
 
 ### 5.4 Teorías alternativas: Gardner, Sternberg e inteligencia emocional
 
-**Gardner: las inteligencias múltiples.** Gardner (1983) propuso que no hay una inteligencia, sino varias **relativamente independientes**: lingüística, lógico-matemática, espacial, musical, corporal-cinestésica, interpersonal e intrapersonal; después añadió la naturalista. Para identificarlas no usó el análisis factorial, sino criterios de otro tipo, como la existencia de lesiones cerebrales que afectan a una capacidad aislada o de personas con un talento excepcional en un solo dominio. La teoría tuvo un enorme éxito en la escuela, porque invita a valorar capacidades que los tests clásicos ignoran.
+**Gardner: las inteligencias múltiples.** Gardner (1983) propuso que no hay una inteligencia, sino varias, con bastante **autonomía** entre sí: lingüística, lógico-matemática, espacial, musical, corporal-cinestésica, interpersonal e intrapersonal; después añadió la naturalista. Para identificarlas no usó el análisis factorial, sino criterios de otro tipo, como la existencia de lesiones cerebrales que afectan a una capacidad aislada o de personas con un talento excepcional en un solo dominio. La teoría tuvo un enorme éxito en la escuela, porque invita a valorar capacidades que los tests clásicos ignoran.
 
 El problema es la **evidencia**. Gardner no desarrolló instrumentos estandarizados para medir cada inteligencia, y la independencia que postula no se confirma: Visser, Ashton y Vernon (2006) hallaron que las inteligencias de contenido más académico correlacionan entre sí y saturan en *g*, en lugar de ser independientes. La revisión de Waterhouse (2006) concluyó que la teoría carece de validación empírica. Algo parecido ocurre con los **estilos de aprendizaje**, con los que a menudo se mezcla: no hay pruebas de que enseñar a cada alumno en su estilo preferido (visual, auditivo…) mejore su rendimiento (Pashler et al., 2008). Ambos temas se amplían en Psicología Educativa y Orientación.
 
@@ -194,7 +194,7 @@ c) Su validez incremental sobre *g* está ya demostrada sin discusión
 
 ### 6.1 De Galton a Binet y Simon
 
-Antes de que existiera la psicología como ciencia, la filosofía ya había reflexionado sobre la razón y las facultades mentales. Pero el intento de **medir** las diferencias intelectuales entre personas surge en el siglo XIX, de la mano de la estadística y de la biología evolucionista.
+La idea de **medir** en qué se diferencian intelectualmente las personas es reciente: tomó forma en la segunda mitad del siglo XIX, cuando la teoría de la evolución puso el foco en la variación entre individuos y la estadística ofreció herramientas para describirla.
 
 **Francis Galton**, primo de Darwin, estaba convencido de que la capacidad intelectual se hereda, y lo defendió estudiando la frecuencia de personas eminentes en ciertas familias. En 1884 abrió en Londres un **laboratorio antropométrico** en el que, a cambio de una pequeña cantidad, los visitantes se sometían a mediciones de estatura, fuerza, agudeza visual y auditiva, discriminación sensorial y **tiempo de reacción**. Su hipótesis era que una mente capaz debía tener sentidos más finos y reacciones más rápidas. Galton hizo aportaciones metodológicas duraderas, como la idea de **correlación** y el uso de la distribución normal para describir diferencias individuales. También acuñó el término «eugenesia» y la promovió, una herencia que la psicología actual rechaza.
 
@@ -231,7 +231,7 @@ Un niño de diez años con una edad mental de doce obtiene un CI de 120. El índ
 
 Figura 6.2. **Evaluación colectiva en el ejército de EE. UU.** Soldados estadounidenses realizando un precursor del Army Alpha en noviembre de 1917. Fuente: Departamento de Guerra de EE. UU., Wikimedia Commons; dominio público.
 
-Como se ve en la figura 6.2, un solo examinador podía evaluar a decenas de personas a la vez. Tras la guerra, el formato pasó a la escuela y a la empresa. La experiencia tuvo también un lado oscuro: los resultados se usaron para apoyar argumentos racistas y políticas de restricción de la inmigración, sin tener en cuenta que muchos evaluados apenas hablaban inglés o habían ido poco a la escuela.
+La figura 6.2 muestra a varios reclutas respondiendo a la vez, cada uno con su hoja; con este formato, un solo examinador podía evaluar a decenas de personas. Tras la guerra, el formato pasó a la escuela y a la empresa. La experiencia tuvo también un lado oscuro: los resultados se usaron para apoyar argumentos racistas y políticas de restricción de la inmigración, sin tener en cuenta que muchos evaluados apenas hablaban inglés o habían ido poco a la escuela.
 
 En 1938 aparecieron las **matrices de Raven**, para medir *g* con material no verbal, y entre 1940 y 1960 llegó el **auge factorial**: baterías que ofrecían un perfil de aptitudes (apartado 5.2).
 
@@ -258,7 +258,7 @@ La figura 6.3 resume más de un siglo de historia.
 
 ### 6.3 El efecto Flynn y su inversión
 
-**El efecto Flynn.** Flynn (1984, 1987) documentó un fenómeno inesperado: a lo largo del siglo XX, las puntuaciones brutas en los tests de inteligencia **aumentaron de generación en generación** en muchos países. Como los tests se baremaban cada cierto tiempo, cada nueva versión era más exigente, y la subida pasaba desapercibida. El metaanálisis de Trahan, Stuebing, Fletcher y Hiscock (2014), con 285 estudios y 14.031 participantes, estimó una ganancia media de **2,31 puntos de CI por década** (IC 95 %: 1,99–2,64), y de 2,93 puntos con las versiones modernas de Wechsler y Stanford-Binet. Las ganancias fueron mayores en las tareas de razonamiento fluido, como las matrices, que en las de conocimiento.
+**El efecto Flynn.** Flynn (1984, 1987) documentó un fenómeno inesperado: a lo largo del siglo XX, las puntuaciones brutas en los tests de inteligencia **aumentaron de generación en generación** en muchos países. Como los tests se baremaban cada cierto tiempo, cada nueva versión era más exigente, y la subida pasaba desapercibida. El metaanálisis de Trahan, Stuebing, Fletcher y Hiscock (2014), con 285 estudios y 14.031 participantes, estimó una ganancia media de **2,31 puntos de CI por década** (IC 95 %: 1,99–2,64), y de 2,93 puntos con las versiones modernas de Wechsler y Stanford-Binet. Las ganancias fueron mayores en las tareas de razonamiento fluido, como las matrices, que en las de conocimiento (Flynn, 1987).
 
 Un aumento tan rápido no puede deberse a cambios genéticos: unas pocas décadas no bastan para modificar el acervo genético de una población. Las explicaciones propuestas son **ambientales**: mejor nutrición y salud, más años de escolarización, familias más pequeñas y un entorno cotidiano más exigente en pensamiento abstracto. Su peso relativo se sigue discutiendo. Tampoco significa necesariamente que las generaciones nuevas sean «más listas» en todo: lo que ha aumentado es el rendimiento en lo que miden los tests.
 

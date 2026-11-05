@@ -43,7 +43,7 @@ Hoy los cronómetros se han sustituido por ordenadores y sensores, pero la lógi
 
 Según la función que evalúan, las técnicas objetivas se agrupan en tres categorías. La frontera no siempre es nítida: casi toda tarea cognitiva exige una respuesta motora, y muchas se combinan con registros fisiológicos.
 
-**Técnicas cognitivas.** Evalúan procesos como la percepción, la atención, la memoria, el control inhibitorio o la velocidad de procesamiento. Los instrumentos clásicos son el **taquistoscopio**, que presenta estímulos visuales durante tiempos muy breves y controlados, y las tareas de **tiempo de reacción**. Hoy predominan las tareas informatizadas: versiones del Stroop, tareas *go/no-go* (responder ante un estímulo e inhibir la respuesta ante otro), tareas *n-back* de memoria de trabajo o pruebas de atención sostenida. Muchas de ellas se usan en neuropsicología (Unidad 13).
+**Técnicas cognitivas.** Se centran en la eficacia con que se percibe, se atiende, se retiene información, se frena una respuesta o se procesa con rapidez. Los instrumentos clásicos son el **taquistoscopio**, que presenta estímulos visuales durante tiempos muy breves y controlados, y las tareas de **tiempo de reacción**. Hoy predominan las tareas informatizadas: versiones del Stroop, tareas *go/no-go* (responder ante un estímulo e inhibir la respuesta ante otro), tareas *n-back* de memoria de trabajo o pruebas de atención sostenida. Muchas de ellas se usan en neuropsicología (Unidad 13).
 
 Dentro de este grupo se incluyen también las medidas de **estilos cognitivos**, formas habituales de procesar la información que no son ni mejores ni peores en sí mismas:
 
@@ -70,7 +70,7 @@ Toda evaluación psicofisiológica combina dos elementos: un **registro** fiable
 
 ![m](psicofisiologia.png)
 
-Figura 1.3. **Puntos de registro psicofisiológico.** EEG y potenciales evocados en el cuero cabelludo; pupilometría en el ojo; EMG en un músculo facial o del antebrazo; ECG y frecuencia cardiaca en el tórax; respiración mediante una banda torácica; actividad electrodérmica en los dedos. Elaboración propia.
+Figura 1.3. **Puntos de registro psicofisiológico.** EEG y potenciales evocados en el cuero cabelludo; pupilometría en el ojo; EMG en un músculo facial; ECG y frecuencia cardiaca en el tórax; respiración mediante una banda torácica; actividad electrodérmica en los dedos. Elaboración propia.
 
 Como muestra la figura 1.3, cada sensor capta una señal distinta:
 
@@ -104,7 +104,7 @@ Un ejemplo muestra la inespecificidad. Dos personas ven la imagen de una araña 
 - **Sueño**: el registro conjunto de EEG, EMG y movimientos oculares identifica sus fases.
 - **Dolor**, sobre todo cuando la persona no puede informar bien.
 
-**Ética.** Que el dato sea difícil de falsear lo vuelve también delicado. Exige **consentimiento informado** (qué se registra, para qué y con qué molestias), **uso dentro del marco validado**, **protección de datos** (la información fisiológica es un dato de salud, categoría especial en el RGPD) e **interpretación integrada** con otras fuentes. La ética general del uso de tests se estudia en *Evaluación Psicológica I*.
+**Ética.** Que el dato sea difícil de falsear lo vuelve también delicado. Exige **consentimiento informado** (qué se registra, para qué y con qué molestias), **uso dentro del marco validado**, **protección de datos** (la información fisiológica puede constituir un dato de salud, categoría especial en el RGPD) e **interpretación integrada** con otras fuentes. La ética general del uso de tests se estudia en *Evaluación Psicológica I*.
 
 **El polígrafo.** Es el ejemplo más conocido de técnica psicofisiológica y también el más malinterpretado. Como muestra la figura 1.4, registra varias respuestas autónomas a la vez.
 
@@ -117,7 +117,7 @@ El polígrafo **no detecta mentiras**: detecta **activación**. Lo que se interp
 | Procedimiento | Lógica | Problema principal |
 | --- | --- | --- |
 | Test de la pregunta de control | Compara las preguntas sobre el delito con otras de control, incómodas para casi todos | Un inocente nervioso puede activarse más ante las preguntas del delito |
-| Test de información oculta (CIT) | Comprueba si la persona reacciona ante detalles del hecho que solo conocería el autor | Requiere detalles que no se hayan difundido |
+| Test de información oculta (*Concealed Information Test*) | Comprueba si la persona reacciona ante detalles del hecho que solo conocería el autor | Requiere detalles que no se hayan difundido |
 
 El **test de información oculta** tiene más base científica, porque no depende de suponer que el culpable se pondrá más nervioso, sino de que reconoce lo que no debería conocer. El informe del National Research Council (NRC, 2003) concluyó que el polígrafo discrimina **por encima del azar** cuando se investiga un incidente concreto, pero que es **vulnerable a contramedidas** y produce **muchos falsos positivos** cuando se usa como cribado en poblaciones donde casi nadie es culpable.
 
@@ -234,11 +234,11 @@ Dos instrumentos clásicos son:
 | Instrumento | Autores | Características |
 | --- | --- | --- |
 | ACL (*Adjective Check List*) | Gough y Heilbrun (1965) | 300 adjetivos; se marcan los que describen a la persona; varias escalas de personalidad |
-| MAACL (*Multiple Affect Adjective Check List*) | Zuckerman | Lista de adjetivos de estados afectivos como ansiedad, depresión y hostilidad |
+| MAACL (*Multiple Affect Adjective Check List*) | Zuckerman y Lubin (1965) | Lista de adjetivos de estados afectivos como ansiedad, depresión y hostilidad |
 
 La **ACL** contiene 300 adjetivos de uso común (como «activo», «desconfiado», «generoso») y se puntúa en escalas que agrupan los adjetivos relacionados con distintas características de personalidad. Uno de sus problemas, común a toda lista de marcado, es que **el número de adjetivos marcados** influye en las puntuaciones: quien marca muchos tiende a puntuar más alto en casi todas las escalas. Por eso la propia ACL tiene en cuenta el total de adjetivos marcados al interpretar el perfil.
 
-Las listas de adjetivos de **estado de ánimo** se usan mucho en investigación y en psicología de la salud y del deporte, porque son breves y pueden repetirse con frecuencia para seguir los cambios del estado afectivo. Un ejemplo muy difundido es el POMS (*Profile of Mood States*), que agrupa sus adjetivos en varios estados de ánimo, como tensión, depresión, cólera, vigor, fatiga y confusión.
+Las listas de adjetivos de **estado de ánimo** se usan mucho en investigación y en psicología de la salud y del deporte, porque son breves y pueden repetirse con frecuencia para seguir los cambios del estado afectivo. En psicología del deporte se ha usado mucho el POMS (*Profile of Mood States*; McNair, Lorr y Droppleman, 1971), con escalas de tensión-ansiedad, depresión, cólera-hostilidad, vigor, fatiga y confusión.
 
 **Ventajas.** Son rápidas, fáciles de entender y aplicables a casi cualquier persona con un vocabulario básico. Se adaptan a distintos objetos de evaluación y a distintos momentos, y permiten comparar perspectivas: autodescripción y heterodescripción, yo actual y yo ideal.
 
@@ -305,7 +305,7 @@ Figura 2.2. **Rejilla de constructos personales y su representación gráfica.**
 
 Los **dilemas implicativos**, desarrollados en España por Feixas y Saúl, ayudan a entender por qué alguien no cambia aunque quiera. Un joven con fobia social quiere pasar de «tímido» a «sociable», pero para él «sociable» va unido a «superficial», y valora mucho ser «profundo». Cambiar el síntoma amenaza su identidad.
 
-**Aplicaciones y límites.** La rejilla se usa en **psicoterapia**, sobre todo constructivista, para explorar cómo construye la persona su mundo social y evaluar el cambio, y en **orientación vocacional**, con profesiones como elementos. Su aplicación es larga, exige que la persona verbalice sus constructos y dificulta la comparación entre personas, porque cada rejilla tiene constructos distintos.
+**Aplicaciones y límites.** La rejilla se usa en **psicoterapia**, sobre todo constructivista, para describir con qué dimensiones interpreta la persona sus relaciones y comprobar si cambian con el tratamiento, y en **orientación vocacional**, con profesiones como elementos. Su aplicación es larga, exige que la persona verbalice sus constructos y dificulta la comparación entre personas, porque cada rejilla tiene constructos distintos.
 
 ### Consenso y debate
 

@@ -41,9 +41,9 @@ Nacidas en la psicología dinámica, las proyectivas deben cumplir, como cualqui
 
 Hermann Rorschach, psiquiatra suizo, publicó en 1921 *Psychodiagnostik*, donde presentaba su prueba de interpretación de formas fortuitas. La concibió más como una tarea **perceptiva** que como una ventana al inconsciente: le interesaba cómo organiza cada persona un estímulo ambiguo. La lectura psicoanalítica llegó después, de la mano de sus continuadores.
 
-![](wm-rorschach.jpg)
+![s](wm-rorschach.jpg)
 
-Figura 3.2. **Hermann Rorschach (hacia 1910) y la lámina I de su test (1921).** Se reproduce solo la primera lámina por razones de ética profesional y seguridad del test. Fuente: Wikimedia Commons; dominio público.
+Figura 3.2. **Hermann Rorschach (hacia 1910).** Por ética profesional y para proteger la seguridad del test, este libro no reproduce ninguna de sus láminas. Fuente: Wikimedia Commons; dominio público.
 
 **El material.** El test consta de **10 láminas** con manchas de tinta simétricas, que se presentan siempre en el mismo orden:
 
@@ -53,7 +53,7 @@ Figura 3.2. **Hermann Rorschach (hacia 1910) y la lámina I de su test (1921).**
 | Bicolores | II y III | Negro y rojo |
 | Cromáticas | VIII, IX y X | Varios colores |
 
-La figura 3.2 muestra la primera lámina. Las láminas son de dominio público por antigüedad, pero la ética profesional pide no difundirlas ni comentar sus respuestas habituales: si una persona llega a la evaluación con las respuestas aprendidas, el test pierde su valor.
+Las láminas son de dominio público por antigüedad y circulan por internet, pero la ética profesional pide no difundirlas ni comentar sus respuestas habituales: si una persona llega a la evaluación con las respuestas aprendidas, el test pierde su valor.
 
 **La administración** tiene dos fases:
 
@@ -113,7 +113,7 @@ El **Test de Apercepción Temática** (TAT) fue creado en la Clínica Psicológi
 
 **El material.** Son **31 láminas**: 30 con escenas en blanco y negro, de ambigüedad variable, y **una en blanco**. Algunas se destinan a todos los evaluados y otras a grupos concretos según la **edad y el sexo**. De ellas se seleccionan habitualmente entre **10 y 20**, en función de la persona y de lo que se quiere explorar.
 
-**La administración.** Se presentan las láminas una a una y se pide que se invente una historia sobre cada una que diga qué está pasando, qué lo ha provocado, qué piensan y sienten los personajes y cómo termina. Ante la lámina en blanco, la persona imagina primero una escena y luego cuenta la historia. El evaluador registra los relatos de forma literal, junto con las pausas, los comentarios y el tiempo; puede pedir aclaraciones si falta alguna parte de la consigna, pero sin sugerir contenidos.
+**La administración.** Se presentan las láminas una a una y se pide que se invente una historia sobre cada una que diga qué ocurre en la escena, qué ha llevado hasta ella, qué pasa por la cabeza de los personajes y cómo acaba. Ante la lámina en blanco, la persona imagina primero una escena y luego cuenta la historia. El evaluador registra los relatos de forma literal, junto con las pausas, los comentarios y el tiempo; puede pedir aclaraciones si falta alguna parte de la consigna, pero sin sugerir contenidos.
 
 **El análisis clásico.** Murray interpretaba los relatos con su modelo de **necesidades y presiones**, basado en el sistema de necesidades que había descrito en 1938:
 
@@ -214,16 +214,16 @@ Las **técnicas gráficas** piden a la persona que dibuje algo a partir de una c
 
 La diferencia es importante. Goodenough no buscaba conflictos, sino un índice de desarrollo cognitivo: cuantos más detalles correctos dibuja un niño, más maduro es su concepto de la figura humana. Machover tomó el mismo material y le dio una lectura simbólica. Koppitz intentó una vía intermedia, con criterios explícitos y separando lo que es propio de la edad de lo que sería un signo emocional.
 
-**El test de la familia.** Louis Corman (1961) propuso pedir al niño que dibuje **una familia que imagine**, y no la suya. La consigna indirecta buscaba reducir la censura: el niño representaría su propia familia sin sentirse obligado a hacerlo. Tras el dibujo se pregunta quién es cada personaje, quién es el más feliz o el menos simpático y con quién le gustaría estar. El análisis atiende a quién aparece y quién falta, al orden y el tamaño de las figuras, a las distancias entre ellas y a la identificación del niño con alguno de los personajes.
+**El test de la familia.** Louis Corman (1961) propuso pedir al niño que dibuje **una familia que imagine**, en lugar de pedirle directamente la suya. La consigna indirecta buscaba reducir la censura: el niño representaría su propia familia sin sentirse obligado a hacerlo. Tras el dibujo se pregunta quién es cada personaje, quién es el más feliz o el menos simpático y con quién le gustaría estar. El análisis atiende a quién aparece y quién falta, al orden y el tamaño de las figuras, a las distancias entre ellas y a la identificación del niño con alguno de los personajes.
 
-**El HTP** (*House-Tree-Person*, casa-árbol-persona). John N. Buck (1948) pidió tres dibujos en hojas separadas, una casa, un árbol y una persona, seguidos de un interrogatorio sobre cada uno. La casa se asocia al ámbito familiar, el árbol a la vivencia de uno mismo en un nivel más profundo y la persona a la autoimagen y las relaciones. La interpretación compara los tres dibujos entre sí.
+**El HTP** (*House-Tree-Person*, casa-árbol-persona). John N. Buck (1948) pidió dibujar una casa, un árbol y una persona, cada uno en su propia hoja, seguidos de un interrogatorio sobre cada uno. La casa se asocia al ámbito familiar, el árbol a la vivencia de uno mismo en un nivel más profundo y la persona a la autoimagen y las relaciones. La interpretación compara los tres dibujos entre sí.
 
 **Dos formas de interpretar.** Conviene distinguir:
 
 - **Interpretación por signos**: cada rasgo aislado se traduce en un significado (un tamaño, un trazo, una omisión). Es la base de buena parte de los manuales clásicos.
 - **Valoración global**: se juzga el dibujo en conjunto, a menudo con escalas explícitas, como hicieron Goodenough y Koppitz.
 
-La interpretación por signos **carece de validez**: los significados atribuidos a rasgos concretos no se confirman en estudios controlados (Lilienfeld, Wood y Garb, 2000). Que los dibujos infantiles cambian con la edad sí está bien establecido, pero eso no los convierte en un test de inteligencia.
+La interpretación por signos **carece de validez**: los significados atribuidos a rasgos concretos no se confirman en estudios controlados (Lilienfeld, Wood y Garb, 2000). Que los dibujos infantiles cambian con la edad sí está bien establecido, y las escalas evolutivas (Goodenough-Harris, Koppitz) correlacionan de forma moderada con el CI, pero no sustituyen a un test de inteligencia.
 
 Un ejemplo ilustra el riesgo. Si una niña de seis años dibuja una familia diminuta en una esquina, antes de pensar en inseguridad hay que considerar su desarrollo gráfico, la prisa por volver al recreo o su costumbre en clase. Un dibujo es una conducta con muchas causas posibles.
 
@@ -235,7 +235,7 @@ Un ejemplo ilustra el riesgo. Si una niña de seis años dibuja una familia dimi
 
 **Las frases incompletas.** Se presentan comienzos de frase que la persona termina con lo primero que se le ocurre, por ejemplo:
 
-- «Lo que más me preocupa…»
+- «Los domingos por la tarde…»
 - «Cuando estoy solo…»
 - «Mi jefe…»
 
@@ -247,7 +247,7 @@ Hay varias versiones clásicas, como las de **Sacks** y **Rotter**. La de Rotter
 | Fábulas de Düss | Düss, 1940 | Completar 10 fábulas | Niños |
 | Frases incompletas | Sacks; Rotter | Terminar frases por escrito | Adolescentes y adultos |
 
-Un minicaso muestra el uso más razonable de estas técnicas. Un adolescente que apenas habla en la entrevista completa la frase «En casa…» con «nadie escucha». La respuesta no diagnostica nada, pero ofrece un tema concreto para retomar en la siguiente sesión. Así entendidas, las técnicas narrativas funcionan como **facilitadoras de la entrevista** y como fuente de hipótesis, no como tests que miden un constructo.
+Un minicaso muestra el uso más razonable de estas técnicas. Un adolescente que apenas habla en la entrevista completa la frase «Cuando hablo en voz alta…» con «nadie escucha». La respuesta no diagnostica nada, pero ofrece un tema concreto para retomar en la siguiente sesión. Así entendidas, las técnicas narrativas funcionan como **facilitadoras de la entrevista** y como fuente de hipótesis, no como tests que miden un constructo.
 
 A diferencia de un cuestionario, donde cada respuesta suma a una escala con propiedades conocidas, aquí cada respuesta se lee por su contenido. Esa riqueza cualitativa es su ventaja y la razón por la que cuesta demostrar que dos evaluadores llegarían a la misma conclusión.
 

@@ -83,7 +83,7 @@ El **CIT** se obtiene con **7 subtests**, y no con los 10. Además de los primar
 - **Razonamiento Cuantitativo**: problemas con números y cantidades.
 - **Memoria de Trabajo Auditiva**: tareas de retención presentadas de forma oral.
 - **No Verbal**: reduce al mínimo las demandas de lenguaje expresivo; útil con niños con trastornos del lenguaje o que dominan poco el castellano.
-- **Capacidad General**: equivalente al ICG de la WAIS-IV, basado en subtests de comprensión verbal y razonamiento.
+- **Capacidad General**: equivalente al ICG de la WAIS-IV, basado en subtests de comprensión verbal, visoespacial y razonamiento fluido.
 - **Competencia Cognitiva**: reúne la memoria de trabajo y la velocidad de procesamiento.
 
 Comparar Capacidad General y Competencia Cognitiva es habitual: un niño puede razonar bien y rendir peor en clase porque procesa con lentitud. Ese patrón no diagnostica nada por sí solo, pero orienta la evaluación y las adaptaciones escolares.
@@ -212,7 +212,7 @@ Raven es un **test de poder**, no de velocidad: lo que importa es hasta qué dif
 
 **¿Es un test libre de cultura?** No. Raven tiene una **carga cultural reducida**, pero no nula. Resolver matrices requiere familiaridad con el formato de las tareas abstractas, con las hojas de respuesta y con la idea misma de buscar reglas en patrones geométricos, algo que la escolarización entrena. La prueba más clara es histórica: las ganancias asociadas al efecto Flynn han sido especialmente grandes en tests de tipo Raven (Flynn, 1987), y unas subidas tan rápidas, en pocas décadas, solo pueden deberse a cambios ambientales (Unidad 6). Un test que se ve tan afectado por el entorno no puede estar «libre» de él.
 
-**Los tests de dominós.** Siguen la misma lógica que Raven con otro material: series de fichas de dominó cuya última ficha está vacía. La persona debe deducir la regla que gobierna la serie (una progresión, una alternancia, una suma) y escribir los puntos que corresponden a cada mitad de la ficha. Las versiones más conocidas son el **D-48**, derivado del trabajo de Anstey, y el **D-70**. Se consideran medidas **no verbales de g** y tienen un componente de razonamiento numérico mayor que las matrices. Se aplican de forma individual o colectiva, con un tiempo límite amplio que permite a casi todos intentar todos los ítems.
+**Los tests de dominós.** Siguen la misma lógica que Raven con otro material: series de fichas de dominó cuya última ficha está vacía. La persona debe deducir la regla que gobierna la serie (una progresión, una alternancia, una suma) y escribir los puntos que corresponden a cada mitad de la ficha. Las versiones más conocidas son el **D-48**, derivado del trabajo de Anstey, y el **D-70**. Se consideran medidas **no verbales de g** y tienen un componente de razonamiento numérico mayor que las matrices. Se aplican de forma individual o colectiva, con un tiempo límite holgado, porque lo que interesa es el nivel de razonamiento y no la rapidez.
 
 | Rasgo | Raven | Dominós |
 | --- | --- | --- |
@@ -237,9 +237,9 @@ Estas tres pruebas son de **aplicación individual**, como las escalas de Wechsl
 | Procesamiento visoespacial | Subtest verbal | Subtest no verbal |
 | Memoria de trabajo | Subtest verbal | Subtest no verbal |
 
-El resultado son 10 subtests que permiten obtener un CI total, un CI verbal, un CI no verbal y puntuaciones en los cinco factores. La ventaja del diseño es que cada factor puede valorarse con y sin lenguaje, lo que ayuda con personas con dificultades de expresión oral. Las ediciones antiguas usaban una DT de 16; la SB5 adopta la métrica habitual, con media 100 y DT 15. Sus ítems muy fáciles y muy difíciles le dan buen suelo y buen techo, útiles en la discapacidad intelectual grave y en las altas capacidades.
+El resultado son 10 subtests que permiten obtener un CI total, un CI verbal, un CI no verbal y puntuaciones en los cinco factores. La ventaja del diseño es que cada factor puede valorarse con y sin lenguaje, lo que ayuda con personas con dificultades de expresión oral. Desde la revisión de 1960 hasta la cuarta edición (1986), el Stanford-Binet usaba un CI de desviación con DT 16; la SB5 adopta la métrica habitual, con media 100 y DT 15. Sus ítems muy fáciles y muy difíciles le dan buen suelo y buen techo, útiles en la discapacidad intelectual grave y en las altas capacidades.
 
-**K-BIT.** El Test Breve de Inteligencia de Kaufman (Kaufman, 1990) tiene solo **dos subtests**: **vocabulario**, que se relaciona con la inteligencia cristalizada, y **matrices**, que se relaciona con la fluida. Ofrece una puntuación verbal, una no verbal y un CI compuesto. Su brevedad lo hace útil para un cribado, para estimar el nivel intelectual en una investigación o para decidir si hace falta una evaluación más completa. Pearson tiene en curso una revisión del KBIT-2.
+**K-BIT.** El Test Breve de Inteligencia de Kaufman (Kaufman y Kaufman, 1990) tiene solo **dos subtests**: **vocabulario**, que se relaciona con la inteligencia cristalizada, y **matrices**, que se relaciona con la fluida. Ofrece una puntuación verbal, una no verbal y un CI compuesto. Su brevedad lo hace útil para un cribado, para estimar el nivel intelectual en una investigación o para decidir si hace falta una evaluación más completa. Pearson tiene en curso una revisión del KBIT-2.
 
 **RIAS.** Las Escalas de Inteligencia de Reynolds (Reynolds y Kamphaus, 2003), adaptadas por TEA, ofrecen un **índice verbal**, un **índice no verbal** y un **índice de memoria**, además de un índice global. Se aplican en relativamente poco tiempo y reducen las exigencias motoras y de velocidad, lo que permite separar mejor la capacidad de razonamiento de la rapidez manual.
 
@@ -286,7 +286,7 @@ Hay que insistir en una distinción que a menudo se confunde: **las escalas de W
 - De la **inteligencia general**, que es una capacidad amplia, común a todas las tareas cognitivas.
 - Del **rendimiento** o la **habilidad adquirida**, que describe lo que la persona ya sabe hacer. Una aptitud mira al futuro: alguien con buena aptitud espacial y sin formación técnica aprenderá antes a leer planos que otra persona con poca aptitud.
 
-La evaluación de aptitudes es heredera del modelo de **aptitudes mentales primarias** de Thurstone (Unidad 5). Su ámbito natural es la orientación académica y profesional y la selección de personal. Las **baterías de aptitudes múltiples** reúnen varias pruebas, cada una centrada en una aptitud, y tienen una ventaja metodológica: todas se baremaron con la **misma muestra normativa**, lo que permite comparar las aptitudes de una persona entre sí y obtener un **perfil**.
+La evaluación de aptitudes es heredera del modelo de **aptitudes mentales primarias** de Thurstone (Unidad 5). Su ámbito natural es la orientación académica y profesional y la selección de personal. Las **baterías de aptitudes múltiples** reúnen varias pruebas, cada una centrada en una aptitud, y tienen una ventaja metodológica: al compartir **grupo normativo**, sus puntuaciones están en la misma escala, y eso permite comparar las aptitudes de una persona entre sí y obtener un **perfil**.
 
 **DAT y DAT-5.** El **Test de Aptitudes Diferenciales** de Bennett, Seashore y Wesman es la batería de aptitudes múltiples más conocida; en España se usa la adaptación de TEA del DAT-5. Evalúa razonamiento verbal, razonamiento numérico, razonamiento abstracto, razonamiento mecánico, relaciones espaciales, ortografía y velocidad y precisión perceptiva. La suma de razonamiento verbal y numérico se ha usado tradicionalmente como indicador de **aptitud académica**, porque es la combinación que mejor predice el rendimiento escolar.
 
@@ -296,7 +296,7 @@ Figura 8.1. **Perfil de aptitudes de una estudiante de bachillerato.** Percentil
 
 Como muestra la figura 8.1, el perfil permite ver de un vistazo qué aptitudes destacan dentro de la misma persona. Una estudiante con este patrón, buena en razonamiento abstracto y verbal y menos en el mecánico, podría inclinarse por estudios en los que pese más el razonamiento con conceptos que el manejo de máquinas, pero la decisión debe integrar también sus intereses (Unidad 14), su rendimiento académico y sus circunstancias. Un perfil de aptitudes informa; no decide.
 
-**FACT.** Las **Pruebas de Clasificación de Aptitudes** de Flanagan tienen su origen en los programas de selección de pilotos y personal de aviación del ejército estadounidense durante la Segunda Guerra Mundial. Su rasgo diferencial es el método: en lugar de partir del análisis factorial, se identificaron los **elementos del trabajo** mediante el **análisis de incidentes críticos**, es decir, recogiendo conductas concretas que distinguían un desempeño eficaz de uno ineficaz en distintas ocupaciones. Cada prueba mide uno de esos elementos (inspección, memoria, coordinación, comprensión mecánica, entre otros), y las puntuaciones se combinan para estimar la adecuación a diferentes ocupaciones.
+**FACT.** Las **Pruebas de Clasificación de Aptitudes** de Flanagan derivan del trabajo de este psicólogo en la selección de tripulaciones de vuelo para las fuerzas aéreas estadounidenses en la Segunda Guerra Mundial. Su rasgo diferencial es el método: en lugar de partir del análisis factorial, se identificaron los **elementos del trabajo** mediante el **análisis de incidentes críticos**, es decir, recogiendo conductas concretas que distinguían un desempeño eficaz de uno ineficaz en distintas ocupaciones. Cada prueba mide uno de esos elementos (inspección, memoria, coordinación, comprensión mecánica, entre otros), y las puntuaciones se combinan para estimar la adecuación a diferentes ocupaciones.
 
 **PMA.** El test de **Aptitudes Mentales Primarias**, en la adaptación de TEA, traslada directamente el modelo de Thurstone a una batería breve. Evalúa cinco factores: verbal, espacial, razonamiento, numérico y fluidez verbal. Ilustra bien cómo un modelo teórico se convierte en un instrumento.
 
@@ -328,7 +328,7 @@ Como muestra la figura 8.1, el perfil permite ver de un vistazo qué aptitudes d
 | Test de poder | Test que mide el nivel de dificultad alcanzado, no la rapidez de ejecución |
 | Carga cultural | Grado en que el rendimiento en un test depende de conocimientos y experiencias culturales |
 | Stanford-Binet 5 | Escala individual de 2 a 85 años o más con 5 factores en dominios verbal y no verbal (Roid, 2003) |
-| K-BIT | Test breve individual con vocabulario y matrices, útil para el cribado (Kaufman, 1990) |
+| K-BIT | Test breve individual con vocabulario y matrices, útil para el cribado (Kaufman y Kaufman, 1990) |
 | Test colectivo | Prueba diseñada para aplicarse a muchas personas a la vez con instrucciones escritas |
 | Aptitud | Capacidad específica que predice la facilidad para aprender en un ámbito concreto |
 | Batería de aptitudes múltiples | Conjunto de pruebas de aptitudes baremadas con la misma muestra, que permite un perfil |

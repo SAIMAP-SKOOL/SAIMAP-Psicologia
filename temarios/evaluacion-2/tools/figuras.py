@@ -105,14 +105,15 @@ if want('psicofisiologia'):
 if want('poligrafo-tasa-base'):
     fig, ax = canvas(6.8, 3.6, 13.6, 7.2)
     ax.text(6.8, 6.8, 'Cribado de 1.000 personas · 10 culpables · sensibilidad = especificidad = 0,85', ha='center', fontsize=8.8, color=INK, weight='bold')
-    cells = [('8,5', 'culpables\ndetectados', G, 3.2, 4.4), ('1,5', 'culpables no\ndetectados', A, 6.2, 4.4), ('148,5', 'inocentes\nseñalados', A, 3.2, 1.9), ('841,5', 'inocentes\ndescartados', G, 6.2, 1.9)]
+    cells = [('8,5', 'culpables\ndetectados', G, 3.2, 4.4), ('148,5', 'inocentes\nseñalados', A, 6.2, 4.4), ('1,5', 'culpables no\ndetectados', A, 3.2, 1.9), ('841,5', 'inocentes\ndescartados', G, 6.2, 1.9)]
+    ax.text(3.2, 5.75, 'Culpables (10)', ha='center', fontsize=8.4, color=INK, weight='bold'); ax.text(6.2, 5.75, 'Inocentes (990)', ha='center', fontsize=8.4, color=INK, weight='bold')
     for v, t, c, x, y in cells:
         ax.add_patch(FancyBboxPatch((x - 1.3, y - 1.0), 2.6, 2.0, boxstyle='round,pad=0.02,rounding_size=0.1', fc=c, alpha=.18, ec=c))
         ax.text(x, y + .35, v, ha='center', fontsize=13, weight='bold', color=INK); ax.text(x, y - .45, t, ha='center', va='center', fontsize=7.4, color=INK)
     ax.text(1.3, 4.4, 'Positivo', ha='right', va='center', fontsize=8.2, weight='bold', color=INK); ax.text(1.3, 1.9, 'Negativo', ha='right', va='center', fontsize=8.2, weight='bold', color=INK)
     ax.text(10.6, 4.3, 'De cada 157 «positivos»,\nsolo unos 8–9 son culpables', ha='center', fontsize=8.6, color=A, weight='bold')
     ax.text(10.6, 2.9, 'VPP ≈ 8,5 / 157 ≈ 5 %', ha='center', fontsize=11, color=P, weight='bold')
-    ax.text(.2, .1, 'Caso hipotético; cifras calculadas. La fila superior son resultados positivos y la inferior negativos.', fontsize=7.0, color=MUTE)
+    ax.text(.2, .1, 'Caso hipotético; cifras calculadas. Filas: resultado del polígrafo; columnas: situación real.', fontsize=7.0, color=MUTE)
     save(fig, 'poligrafo-tasa-base.png')
 
 # U2 · diferencial semántico
