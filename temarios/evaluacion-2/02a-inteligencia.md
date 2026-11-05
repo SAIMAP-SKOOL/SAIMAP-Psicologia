@@ -29,7 +29,7 @@ Los enfoques no se excluyen: las baterías actuales combinan una estructura fact
 
 ### 5.2 Los modelos factoriales clásicos: Spearman, Thurstone, Guilford y Vernon
 
-**Spearman: el factor *g*.** Spearman (1904) observó que todos los tests de capacidad correlacionan positivamente entre sí: quien rinde bien en uno tiende a rendir bien en los demás. Lo explicó con su **teoría bifactorial**: cada tarea depende de un **factor general (*g*)**, común a todas, y de un **factor específico (*s*)**, propio de esa tarea. El factor *g* sería una especie de energía mental general; los factores *s*, habilidades concretas que no se transfieren. Los tests que más saturan en *g* son los de razonamiento abstracto, como las matrices de Raven y los dominós (Unidad 8).
+**Spearman: el factor g.** Spearman (1904) observó que todos los tests de capacidad correlacionan positivamente entre sí: quien rinde bien en uno tiende a rendir bien en los demás. Lo explicó con su **teoría bifactorial**: cada tarea depende de un **factor general (g)**, común a todas, y de un **factor específico (s)**, propio de esa tarea. El factor *g* sería una especie de energía mental general; los factores *s*, habilidades concretas que no se transfieren. Los tests que más saturan en *g* son los de razonamiento abstracto, como las matrices de Raven y los dominós (Unidad 8).
 
 **Thurstone: las aptitudes primarias.** Thurstone (1938) aplicó un análisis factorial múltiple a una batería amplia de tests y no encontró un único factor dominante, sino varias **Aptitudes Mentales Primarias** relativamente independientes:
 

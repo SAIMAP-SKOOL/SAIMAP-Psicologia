@@ -197,7 +197,7 @@ c) repetir la escala en una aplicación colectiva
 
 ### 8.1 Matrices de Raven y tests de dominós
 
-**Las matrices progresivas de Raven.** John C. Raven publicó en 1938 un test que se ha convertido en el prototipo de la medida de la **inteligencia fluida (Gf)** y del factor ***g***. Cada ítem presenta una matriz de figuras abstractas que siguen una o varias reglas (de forma, de número, de posición) y a la que le falta una pieza; la persona debe elegir entre varias opciones la que completa el patrón. No hay que leer ni hablar, y el contenido no remite a conocimientos escolares. La dificultad aumenta de forma progresiva, de ahí el nombre: los primeros ítems se resuelven por percepción de la forma y los últimos exigen descubrir varias reglas a la vez y combinarlas.
+**Las matrices progresivas de Raven.** John C. Raven publicó en 1938 un test que se ha convertido en el prototipo de la medida de la **inteligencia fluida (Gf)** y del **factor g**. Cada ítem presenta una matriz de figuras abstractas que siguen una o varias reglas (de forma, de número, de posición) y a la que le falta una pieza; la persona debe elegir entre varias opciones la que completa el patrón. No hay que leer ni hablar, y el contenido no remite a conocimientos escolares. La dificultad aumenta de forma progresiva, de ahí el nombre: los primeros ítems se resuelven por percepción de la forma y los últimos exigen descubrir varias reglas a la vez y combinarlas.
 
 Existen varias versiones según el nivel de la población:
 
@@ -212,7 +212,7 @@ Raven es un **test de poder**, no de velocidad: lo que importa es hasta qué dif
 
 **¿Es un test libre de cultura?** No. Raven tiene una **carga cultural reducida**, pero no nula. Resolver matrices requiere familiaridad con el formato de las tareas abstractas, con las hojas de respuesta y con la idea misma de buscar reglas en patrones geométricos, algo que la escolarización entrena. La prueba más clara es histórica: las ganancias asociadas al efecto Flynn han sido especialmente grandes en tests de tipo Raven (Flynn, 1987), y unas subidas tan rápidas, en pocas décadas, solo pueden deberse a cambios ambientales (Unidad 6). Un test que se ve tan afectado por el entorno no puede estar «libre» de él.
 
-**Los tests de dominós.** Siguen la misma lógica que Raven con otro material: series de fichas de dominó cuya última ficha está vacía. La persona debe deducir la regla que gobierna la serie (una progresión, una alternancia, una suma) y escribir los puntos que corresponden a cada mitad de la ficha. Las versiones más conocidas son el **D-48**, derivado del trabajo de Anstey, y el **D-70**. Se consideran medidas **no verbales de *g*** y tienen un componente de razonamiento numérico mayor que las matrices. Se aplican de forma individual o colectiva, con un tiempo límite amplio que permite a casi todos intentar todos los ítems.
+**Los tests de dominós.** Siguen la misma lógica que Raven con otro material: series de fichas de dominó cuya última ficha está vacía. La persona debe deducir la regla que gobierna la serie (una progresión, una alternancia, una suma) y escribir los puntos que corresponden a cada mitad de la ficha. Las versiones más conocidas son el **D-48**, derivado del trabajo de Anstey, y el **D-70**. Se consideran medidas **no verbales de g** y tienen un componente de razonamiento numérico mayor que las matrices. Se aplican de forma individual o colectiva, con un tiempo límite amplio que permite a casi todos intentar todos los ítems.
 
 | Rasgo | Raven | Dominós |
 | --- | --- | --- |

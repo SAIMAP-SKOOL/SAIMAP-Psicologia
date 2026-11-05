@@ -100,7 +100,7 @@ Un ejemplo muestra la inespecificidad. Dos personas ven la imagen de una araña 
 **Aplicaciones.** Estas técnicas se usan sobre todo en investigación, pero tienen aplicaciones clínicas consolidadas:
 
 - **Ansiedad y estrés**: reactividad ante estímulos temidos y su cambio tras el tratamiento.
-- ***Biofeedback***: devolver a la persona, en tiempo real, información sobre una señal (tensión muscular, temperatura) para que aprenda a modificarla, por ejemplo en cefaleas tensionales.
+- **Biofeedback**: devolver a la persona, en tiempo real, información sobre una señal (tensión muscular, temperatura) para que aprenda a modificarla, por ejemplo en cefaleas tensionales.
 - **Sueño**: el registro conjunto de EEG, EMG y movimientos oculares identifica sus fases.
 - **Dolor**, sobre todo cuando la persona no puede informar bien.
 
