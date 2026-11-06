@@ -4,14 +4,17 @@ Temarios SAIMAP Psicología. Adaptado del constructor de libros de SAIMAP Lingo.
 Construye <dir>/pdf/<pdf> a partir de los Markdown listados en <dir>/book.json.
 El tema de color va en book.json: "colors": {"P":..., "A":..., "TINT":..., "STRIPE":[...]}.
 """
-import os
-import sys, os, re, json, html as H
+import sys, os, subprocess, re, json, html as H
 import markdown
 from playwright.sync_api import sync_playwright
 from pypdf import PdfReader
 
 D = os.path.abspath(sys.argv[1])
 CFG = json.load(open(os.path.join(D, 'book.json'), encoding='utf-8'))
+# FORMATO=a4 (por defecto: PDF de la app) o FORMATO=7x10 (interior de imprenta para KDP, 7 × 10 in)
+FORMATO = os.environ.get('FORMATO', 'a4').lower()
+FMT = {'a4': dict(w='210mm', h='297mm', top='18mm', bottom='20mm', side='16mm', cover='255mm', t='46pt', s='19pt', d='130mm', suf=''),
+       '7x10': dict(w='7in', h='10in', top='15mm', bottom='18mm', side='16.5mm', cover='214mm', t='36pt', s='16pt', d='118mm', suf='_7x10')}[FORMATO]
 _C = CFG['colors']
 P, A, TINT = _C['P'], _C['A'], _C['TINT']          # primary, accent, primary tint
 STRIPE = _C['STRIPE']
@@ -99,7 +102,7 @@ if stray:
     print('STRAY ASTERISKS:', len(stray)); [print('   ', s) for s in stray[:40]]
 
 CSS = '''
-@page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+@page { size: PAGEW PAGEH; margin: PAGEM; }
 * { box-sizing: border-box; }
 body { font-family: "Liberation Sans", "DejaVu Sans", Arial, sans-serif; font-size: 10pt; line-height: 1.4; color: #26323A; margin: 0; }
 h1 { font-size: 25pt; color: P; margin: 0 0 6mm; padding-bottom: 3mm; border-bottom: 2.5pt solid P; break-before: page; }
@@ -152,27 +155,42 @@ figure { margin: 4mm 0 5mm; break-inside: avoid; }
 figure p.fig { margin: 0 0 1.5mm; }
 p.cap { font-size: 8pt; color: #6b767d; line-height: 1.35; text-align: center; margin: 0 6mm; }
 p.cap strong { color: #26323A; }
-.cover { height: 255mm; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 0 8mm; break-after: page; }
+.cover { height: COVERH; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 0 8mm; break-after: page; }
 .cover .flag { display: flex; width: 60mm; height: 5mm; margin-bottom: 14mm; }
 .cover .flag i { flex: 1; }
-.cover .t { font-size: 46pt; font-weight: 700; color: P; line-height: 1.05; }
-.cover .s { font-size: 19pt; margin-top: 6mm; color: #26323A; }
-.cover .d { font-size: 12pt; margin-top: 10mm; color: #5b6770; max-width: 130mm; }
+.cover .t { font-size: COVERT; font-weight: 700; color: P; line-height: 1.05; }
+.cover .s { font-size: COVERS; margin-top: 6mm; color: #26323A; }
+.cover .d { font-size: 12pt; margin-top: 10mm; color: #5b6770; max-width: COVERD; }
 .cover .b { margin-top: auto; font-size: 13pt; font-weight: 700; letter-spacing: 2pt; color: A; }
 .cover .lv { display: flex; gap: 2.5mm; margin-top: 16mm; }
 .cover .lv span { padding: 2mm 4.5mm; border-radius: 2.5mm; color: #fff; font-weight: 700; font-size: 13pt; }
 .toc h1 { break-before: auto; }
+.blk.answers.t1 { font-size: 8.4pt; line-height: 1.3; padding-top: 2mm; } .blk.test.t1 { font-size: 8.9pt; line-height: 1.32; }
+.blk.answers.t2 { font-size: 8pt; line-height: 1.25; padding: 1.6mm 4mm 1mm; margin-top: 2mm; } .blk.test.t2 { font-size: 8.5pt; line-height: 1.28; margin-top: 3mm; }
 .toc .l1 { font-weight: 700; color: P; margin-top: 3.2mm; font-size: 11.5pt; }
 .toc .row { display: flex; align-items: baseline; gap: 2mm; font-size: 9.6pt; line-height: 1.32; }
 .toc .row a { color: inherit; text-decoration: none; }
 .toc .dots { flex: 1; border-bottom: 0.6pt dotted #9aa5ab; transform: translateY(-1mm); }
 .toc .l2 { padding-left: 5mm; }
 '''
+CSS = (CSS.replace('PAGEW', FMT['w']).replace('PAGEH', FMT['h']).replace('PAGEM', f"{FMT['top']} {FMT['side']} {FMT['bottom']} {FMT['side']}")
+       .replace('COVERH', FMT['cover']).replace('COVERT', FMT['t']).replace('COVERS', FMT['s']).replace('COVERD', FMT['d']))
 CSS = re.sub(r'\bTINT\b', TINT, CSS)
 CSS = re.sub(r'(?<![\w#-])P(?=[;\s])', P, CSS)
 CSS = re.sub(r'(?<![\w#-])A(?=[;\s])', A, CSS)
 
 LV = ['#8FBF9F', '#5FA47A', '#2E7D5B', '#3F6FA8', '#5B4A6B', '#C8443C']
+
+
+TIGHT = {}   # anclas de unidad -> nivel de ajuste (para evitar páginas con 1-3 líneas sueltas)
+def tighten(html):
+    for a, lv in TIGHT.items():
+        m = re.search(f'id="{a}"', html)
+        if not m: continue
+        nx = re.compile(r'<h[12] id="sec\d+"').search(html, m.end()); end = nx.start() if nx else len(html)
+        seg = re.sub(r'class="blk (answers|test)"', rf'class="blk \1 t{lv}"', html[m.end():end])
+        html = html[:m.end()] + seg + html[end:]
+    return html
 
 
 def build(pages):
@@ -186,14 +204,14 @@ def build(pages):
              + ''.join(f'<span style="background:{c}">{l}</span>' for l, c in zip(CFG['tags'], CFG.get('tag_colors', LV))) +
              '</div><div class="b">SAIMAP PSICOLOGÍA</div></div>')
     return (f'<!doctype html><html lang="{CFG["lang"]}"><head><meta charset="utf-8"><title>{CFG["title"]}</title>'
-            f'<style>{CSS}</style></head><body>{cover}{t}{body}</body></html>')
+            f'<style>{CSS}</style></head><body>{cover}{t}{tighten(body)}</body></html>')
 
 
-FOOT = ('<div style="width:100%;font-size:8pt;color:#8A949B;font-family:Liberation Sans,Arial;padding:0 16mm;display:flex;justify-content:space-between">'
+FOOT = ('<div style="width:100%;font-size:8pt;color:#8A949B;font-family:Liberation Sans,Arial;padding:0 ' + FMT['side'] + ';display:flex;justify-content:space-between">'
         f'<span>{CFG["footer"]}</span><span class="pageNumber"></span></div>')
 HTML = os.path.join(D, 'book.html')
 os.makedirs(os.path.join(D, 'pdf'), exist_ok=True)
-OUT = os.path.join(D, 'pdf', CFG['pdf'])
+OUT = os.path.join(D, 'pdf', CFG['pdf'][:-4] + FMT['suf'] + '.pdf')
 
 
 def render(pages):
@@ -203,21 +221,50 @@ def render(pages):
         pg = b.new_page()
         pg.goto('file://' + HTML)
         pg.wait_for_load_state('networkidle')
-        pg.pdf(path=OUT, format='A4', print_background=True, display_header_footer=True, header_template='<span></span>',
-               footer_template=FOOT, margin={'top': '18mm', 'bottom': '20mm', 'left': '16mm', 'right': '16mm'})
+        pg.pdf(path=OUT, width=FMT['w'], height=FMT['h'], print_background=True, display_header_footer=True, header_template='<span></span>',
+               footer_template=FOOT, margin={'top': FMT['top'], 'bottom': FMT['bottom'], 'left': FMT['side'], 'right': FMT['side']})
         b.close()
 
 
-render({})
-r = PdfReader(OUT)
-pages = {}
-nd = r.named_destinations
-for lvl, txt, a in toc:
-    for k in (a, '/' + a):
-        if k in nd:
-            pages[a] = r.get_destination_page_number(nd[k]) + 1
-print('toc', len(toc), 'resolved', len(pages), 'pages', len(r.pages))
-render(pages)
-r2 = PdfReader(OUT)
-assert len(r2.pages) == len(r.pages), 'page count changed between passes'
-print('final pages', len(r2.pages), os.path.getsize(OUT), OUT)
+def paginate():
+    render({})
+    r = PdfReader(OUT); pages = {}
+    nd = r.named_destinations
+    for lvl, txt, a in toc:
+        for k in (a, '/' + a):
+            if k in nd:
+                pages[a] = r.get_destination_page_number(nd[k]) + 1
+    print('toc', len(toc), 'resolved', len(pages), 'pages', len(r.pages))
+    render(pages)
+    r2 = PdfReader(OUT)
+    assert len(r2.pages) == len(r.pages), 'page count changed between passes'
+    return pages, len(r2.pages)
+
+
+def sparse(pages, npg):
+    """Páginas con ≤ 6 líneas de texto seguidas de un comienzo de capítulo o unidad → ancla de la unidad que se desborda."""
+    starts = set(pages.values()); out = {}
+    for pnum in range(3, npg):
+        if pnum + 1 not in starts: continue
+        txt = subprocess.run(['pdftotext', '-f', str(pnum), '-l', str(pnum), '-layout', OUT, '-'], capture_output=True, text=True).stdout
+        lines = [l for l in txt.splitlines() if l.strip()][:-1]          # sin el pie de página
+        if 0 < len(lines) <= 6 and not any(pages.get(a) == pnum for _, _, a in toc):
+            a = [x[2] for x in toc if pages.get(x[2], 10**6) <= pnum][-1]   # última sección (en orden) que empieza antes
+            out[pnum] = a
+    return out
+
+
+pages, npg = paginate()
+if FORMATO != 'a4':
+    for it in range(3):
+        bad = sparse(pages, npg)
+        if not bad: break
+        changed = False
+        for pnum, a in bad.items():
+            if TIGHT.get(a, 0) < 2: TIGHT[a] = TIGHT.get(a, 0) + 1; changed = True
+        print('ajuste de soluciones en', len(bad), 'unidades:', sorted(bad))
+        if not changed: break
+        pages, npg = paginate()
+    left = sparse(pages, npg)
+    if left: print('AVISO: quedan páginas casi vacías:', sorted(left))
+print('final pages', npg, os.path.getsize(OUT), OUT)

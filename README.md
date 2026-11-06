@@ -8,7 +8,8 @@
 ## Comandos
 - `python3 kit/build_temario.py temarios/<id>`: genera el PDF del temario en `temarios/<id>/pdf/`.
 - `python3 kit/build_epub.py temarios/<id> [salida.epub]`: genera el EPUB del temario (por defecto junto al PDF).
-- `python3 kit/build_kdp.py <carpeta con los PDF> <salida>`: cubiertas completas para KDP (contraportada, lomo numerado y portada) e interiores sin portada. Papel con `PAPEL=color-premium|color-estandar|bn-blanco|bn-crema`.
+- `python3 kit/build_kdp.py <carpeta con los PDF> <salida>`: cubiertas para KDP e interiores sin portada. `FORMATO=a4|7x10`, `TAPA=blanda|dura|ambas`, `PAPEL=color-premium|color-estandar|bn-blanco|bn-crema`; `DURA='{"id":[ancho,alto]}'` fija el tamaño exacto que pida KDP.
+- `FORMATO=7x10 python3 kit/build_temario.py temarios/<id>`: interior de imprenta 7 × 10 in (`pdf/<nombre>_7x10.pdf`), con ajuste automático de soluciones sueltas.
 - `python3 temarios/<id>/tools/figuras.py [nombre…]`: regenera las figuras propias.
 - `node cursos/check_course.js cursos/<id>`: valida un curso.
 - `python3 app/build.py`: genera la web en `app/dist/`, incluida la teoría por apartados.
