@@ -152,6 +152,7 @@
     out.days = [...new Set([].concat(a.days || [], b.days || []))].sort().slice(-400);
     out.day = late.day || ''; out.streak = late.streak || 0; out.dx = late.dx || 0; out.t = Math.max(a.t || 0, b.t || 0);
     out.goal = newer.goal || a.goal || b.goal || 30; out.route = a.route || b.route || '';
+    if (newer.en || a.en || b.en) out.en = newer.en || a.en || b.en;   // vidas: las del dispositivo usado más recientemente
     const hist = Object.assign({}, b.hist || {}); for (const [d, x] of Object.entries(a.hist || {})) hist[d] = Math.max(hist[d] || 0, x);
     if (Object.keys(hist).length) out.hist = Object.fromEntries(Object.entries(hist).sort().slice(-240));
     return out;

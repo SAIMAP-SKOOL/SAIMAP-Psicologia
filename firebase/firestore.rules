@@ -1,0 +1,33 @@
+rules_version = '2';
+// Reglas comunes de la cuenta SAIMAP (proyecto saimap-lingo): SAIMAP Lingo y SAIMAP Psicología.
+// Este archivo es el que se despliega (firebase/firestore.rules en el repositorio de SAIMAP Psicología).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Cada persona solo puede leer, escribir y borrar su propio progreso:
+    //   users/<uid>                  → italiano
+    //   users/<uid>/courses/<idioma> → resto de idiomas
+    match /users/{uid} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      match /courses/{course} {
+        allow read, delete: if request.auth != null && request.auth.uid == uid;
+        allow create, update: if request.auth != null && request.auth.uid == uid
+                              && course.matches("^[a-z]{2,3}$");
+      }
+      //   users/<uid>/psicologia/<doc> → SAIMAP Psicología (_global y una por asignatura)
+      match /psicologia/{doc} {
+        allow read, delete: if request.auth != null && request.auth.uid == uid;
+        allow create, update: if request.auth != null && request.auth.uid == uid
+                              && doc.matches("^[a-z0-9_-]{1,40}$");
+      }
+    }
+    //   ent/<uid> → suscripciones Premium. Solo lo escribe el servidor (Cloud Functions), tras comprobar la compra con Google Play.
+    match /ent/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+    //   config/testers y compras/<token>: solo el servidor
+    match /config/{doc} { allow read, write: if false; }
+    match /compras/{doc} { allow read, write: if false; }
+  }
+}

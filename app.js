@@ -30,6 +30,9 @@
     chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
     id: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="11" r="2.5"/><path d="M5.5 17c.6-1.8 1.9-2.6 3.5-2.6s2.9.8 3.5 2.6M15 10h3.5M15 14h3"/></svg>',
     heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 20.5S3 15 3 8.8A4.8 4.8 0 0 1 12 6.6a4.8 4.8 0 0 1 9 2.2C21 15 12 20.5 12 20.5z"/><path d="M7 12h2.5l1.5-3 2 6 1.5-3H17"/></svg>',
+    heart: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.2S2.5 15.4 2.5 8.9A5.2 5.2 0 0 1 12 6a5.2 5.2 0 0 1 9.5 2.9c0 6.5-9.5 12.3-9.5 12.3z"/></svg>',
+    gem: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 21 8 9l4-6 4 6z"/></svg>',
+    inf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 12c-2-2.7-3.7-4-5.5-4a4 4 0 0 0 0 8c1.8 0 3.5-1.3 5.5-4zm0 0c2 2.7 3.7 4 5.5 4a4 4 0 0 0 0-8c-1.8 0-3.5 1.3-5.5 4z"/></svg>',
     down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>',
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
   };
@@ -84,14 +87,16 @@
       firebase.initializeApp(cfg);
       const auth = firebase.auth(), fs = firebase.firestore();
       Cloud.on = true; Cloud.auth = auth; Cloud.fs = fs; auth.languageCode = 'es';
+      try { if (firebase.functions) Cloud.fn = firebase.app().functions('europe-west1'); } catch (e) { }
       auth.getRedirectResult().catch(e => { formMsg = authMsg(e); refreshAcct(); });
       auth.onAuthStateChanged(async u => {
         if (u) {
           Object.assign(Cloud, { uid: u.uid, name: u.displayName || '', email: u.email || '', photo: u.photoURL || '' });
           Cloud.col = fs.collection('users').doc(u.uid).collection('psicologia');
           try { await pull(); Cloud.err = ''; } catch (e) { Cloud.err = 'No se ha podido cargar el progreso de tu cuenta.'; }
+          if (FEAT.vidas) await loadEnt();
           if (!L) route(true);
-        } else Object.assign(Cloud, { uid: null, col: null, name: '', email: '', photo: '' });
+        } else { Object.assign(Cloud, { uid: null, col: null, name: '', email: '', photo: '' }); if (ENT) setEnt(null); }
         const first = !Cloud.ready; Cloud.ready = true; refreshAcct();
         if (!u && first && !L) route(true);   // muestra el aviso de iniciar sesión
       });
@@ -213,6 +218,7 @@
     return `<header class="top">${left || `<div class="brand"><span class="logo" aria-hidden="true">Ψ</span><span>SAIMAP <i>Psicología</i></span></div>`}
       <button class="stat fire ${s ? 'lit' : ''}" data-act="stats" aria-label="Racha: ${s} ${s === 1 ? 'día' : 'días'}. Ver estadísticas">${I.fire}${s}</button>
       <button class="stat xp" data-act="stats" aria-label="${G.xp} puntos de experiencia. Ver estadísticas">${I.bolt}${G.xp}</button>
+      ${FEAT.vidas ? (isPremium() ? `<button class="stat life inf" data-act="premium" aria-label="Premium: vidas infinitas">${I.heart}${I.inf.replace('<svg', '<svg style="width:18px;height:18px"')}</button>` : `<button class="stat life ${lives().n ? '' : 'empty'}" data-act="premium" aria-label="${lives().n} vidas">${I.heart}${lives().n}</button>`) : ''}
       <button class="iconbtn" data-act="settings" aria-label="Ajustes">${I.gear}</button></header>`;
   }
   function sheet(html, onClose) {
@@ -225,6 +231,81 @@
   }
   function greet() { const h = new Date().getHours(); return h < 6 ? 'Buenas noches' : h < 14 ? 'Buenos días' : h < 21 ? 'Buenas tardes' : 'Buenas noches'; }
   const scrollTop = () => window.scrollTo(0, 0);
+
+  // ---------- vidas (energía) ----------
+  // 5 vidas. Solo se pierde una con el primer fallo de cada pregunta en una lección nueva; los repasos nunca gastan.
+  // Se recupera una cada 4 horas y otra al terminar un repaso (de fallos o del día). Premium: vidas infinitas.
+  const FEAT = Object.assign({ vidas: false }, CAT.features || {}, LS.get('sp.feat', {}));
+  const LIFE_MAX = 5, REGEN = 4 * 3600e3;
+  function lives() {
+    const e = Object.assign({ n: LIFE_MAX, t: Date.now() }, G.en || {}), now = Date.now();
+    if (e.n >= LIFE_MAX) { e.n = LIFE_MAX; e.t = now; }
+    else { const k = Math.floor((now - e.t) / REGEN); if (k > 0) { e.n = Math.min(LIFE_MAX, e.n + k); e.t = e.n >= LIFE_MAX ? now : e.t + k * REGEN; } }
+    G.en = e; return e;
+  }
+  const nextLife = () => { const e = lives(); return e.n >= LIFE_MAX ? 0 : Math.max(0, REGEN - (Date.now() - e.t)); };
+  const fmtWait = ms => { const m = Math.ceil(ms / 60000), h = Math.floor(m / 60); return h ? `${h} h ${m % 60} min` : `${m} min`; };
+  const usesLives = () => FEAT.vidas && !isPremium();
+  function loseLife() { const e = lives(); if (e.n >= LIFE_MAX) e.t = Date.now(); e.n = Math.max(0, e.n - 1); saveG(); }
+  function gainLife() { const e = lives(); if (e.n < LIFE_MAX) { e.n++; if (e.n >= LIFE_MAX) e.t = Date.now(); saveG(); return true; } return false; }
+
+  // ---------- Premium: estado (lo escribe el servidor en ent/<uid>) ----------
+  let ENT = LS.get('sp.ent', null);   // { uid, premium, until, product, source }
+  function isPremium() {
+    if (!ENT || !ENT.premium || !(ENT.until > Date.now())) return false;
+    // con la cuenta cargada, Premium debe ser de esa cuenta; sin Firebase (sin conexión al abrir) o mientras carga, vale lo guardado
+    return Cloud.on && Cloud.ready ? !!Cloud.uid && ENT.uid === Cloud.uid : true;
+  }
+  function setEnt(e) { ENT = e && Cloud.uid ? Object.assign({ uid: Cloud.uid }, e) : null; LS.set('sp.ent', ENT); }
+  const callFn = (name, data) => Cloud.fn ? Cloud.fn.httpsCallable(name)(Object.assign({ app: 'psicologia' }, data || {})).then(r => r.data) : Promise.reject(new Error('Sin conexión con el servidor.'));
+  async function loadEnt() {
+    if (!Cloud.uid) { setEnt(null); return; }
+    try { const d = await Cloud.fs.collection('ent').doc(Cloud.uid).get(); const e = d.exists && (d.data() || {}).psicologia; setEnt(e ? { premium: !!e.premium, until: e.until || 0, product: e.product || null, source: e.source || 'play' } : null); } catch (e) { }
+    const last = LS.get('sp.entChk', 0);
+    if (Date.now() - last > 20 * 3600e3 || (ENT && ENT.until < Date.now())) {
+      try { setEnt(await callFn('comprobarPremium')); LS.set('sp.entChk', Date.now()); } catch (e) { }
+    }
+    if (!isPremium()) Bill.restore().catch(() => { });
+  }
+
+  // ---------- pago con Google Play (Digital Goods API + Payment Request, dentro de la app de Android) ----------
+  const PAY = 'https://play.google.com/billing', SKUS = { anual: 'premium_anual', mensual: 'premium_mensual' };
+  const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.saimap.psicologia';
+  var Bill = {
+    svc: undefined,
+    get() {
+      if (!Bill.svc) Bill.svc = 'getDigitalGoodsService' in window ? window.getDigitalGoodsService(PAY).catch(() => null) : Promise.resolve(null);
+      return Bill.svc;
+    },
+    async prices() {
+      const svc = await Bill.get(); if (!svc) return {};
+      try {
+        const out = {};
+        for (const d of await svc.getDetails(Object.values(SKUS))) {
+          const f = v => new Intl.NumberFormat('es-ES', { style: 'currency', currency: d.price.currency }).format(v);
+          out[d.itemId] = f(+d.price.value); if (d.itemId === SKUS.anual) out.anualMes = f(Math.floor(+d.price.value / 12 * 100) / 100);
+        }
+        return out;
+      } catch (e) { return {}; }
+    },
+    async buy(sku) {
+      const svc = await Bill.get(); if (!svc) throw new Error('Las suscripciones se gestionan desde la app de Android.');
+      const req = new PaymentRequest([{ supportedMethods: PAY, data: { sku } }], { total: { label: 'Total', amount: { currency: 'EUR', value: '0' } } });
+      const res = await req.show();
+      try { const r = await callFn('verificarCompra', { token: res.details.purchaseToken, product: sku }); setEnt(r); await res.complete(r.premium ? 'success' : 'fail'); return r; }
+      catch (e) { try { await res.complete('fail'); } catch (e2) { } throw e; }
+    },
+    async restore() {
+      const svc = await Bill.get(); if (!svc || !Cloud.uid) return false;
+      for (const p of await svc.listPurchases()) {
+        if (!Object.values(SKUS).includes(p.itemId)) continue;
+        const r = await callFn('verificarCompra', { token: p.purchaseToken, product: p.itemId }); setEnt(r);
+        if (r.premium) { if (!L) route(true); return true; }
+      }
+      return false;
+    }
+  };
+  const manageUrl = () => 'https://play.google.com/store/account/subscriptions?package=com.saimap.psicologia' + (ENT && ENT.product && ENT.product !== 'tester' ? '&sku=' + ENT.product : '');
 
   // ---------- recordatorio diario: notificación local que el service worker comprueba en segundo plano ----------
   // (Periodic Background Sync de Chrome/Android: el sistema decide cuándo mirar, así que puede llegar con retraso)
@@ -249,6 +330,7 @@
   function openSettings() {
     const sh = sheet(`<h2>Ajustes</h2>
       <div class="acct"></div>
+      ${FEAT.vidas ? `<button class="btn ${isPremium() ? 'plain' : 'gold'}" data-prem>${isPremium() ? 'Premium activo · ver detalles' : 'Hazte Premium'}</button>` : ''}
       <div class="setrow"><span>Tema</span><div class="seg">${[['auto', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([k, t]) => `<button data-th="${k}" class="${prefs.theme === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
       <div class="setrow"><span>Meta diaria</span><div class="seg">${[20, 30, 50].map(n => `<button data-goal="${n}" class="${G.goal === n ? 'on' : ''}">${n} XP</button>`).join('')}</div></div>
       <div class="setrow"><span>Recordatorio diario</span><div style="display:flex;gap:8px;align-items:center"><select data-remh aria-label="Hora del recordatorio">${Array.from({ length: 15 }, (_, i) => i + 8).map(h => `<option value="${h}" ${prefs.remH === h ? 'selected' : ''}>${h}:00</option>`).join('')}</select><button class="togg" role="switch" aria-checked="${!!prefs.rem}" data-tg="rem" aria-label="Recordatorio diario"></button></div></div>
@@ -287,9 +369,10 @@
         else { b.dataset.sure = 1; b.textContent = 'Pulsa otra vez para confirmar'; b.classList.replace('plain', 'warn'); }
       }
       else if (b.hasAttribute('data-close')) sh.close();
+      else if (b.hasAttribute('data-prem')) { sh.close(); go('#/premium'); }
     });
   }
-  $app.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) openSettings(); else if (e.target.closest('[data-act="stats"]')) go('#/stats'); });
+  $app.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) openSettings(); else if (e.target.closest('[data-act="stats"]')) go('#/stats'); else if (e.target.closest('[data-act="premium"]')) isPremium() || !FEAT.vidas ? go('#/premium') : showNoLives(null); });
 
   // ---------- bienvenida: elegir ruta ----------
   function showWelcome() {
@@ -441,7 +524,8 @@
     $app.innerHTML = html;
     $app.querySelector('[data-home]').onclick = () => go('#/');
     const wb = $app.querySelector('[data-weak]'); if (wb) wb.onclick = () => startLesson(id, 0, 0, 'weak');
-    const ob = $app.querySelector('[data-off]'); ob.onclick = () => { if (!ob.classList.contains('ok')) downloadCourse(id, ob); };
+    const ob = $app.querySelector('[data-off]'); ob.onclick = () => { if (ob.classList.contains('ok')) return; if (usesLives()) return go('#/premium'); downloadCourse(id, ob); };
+    if (usesLives() && !OFF[id]) ob.innerHTML = I.down + 'Descargar <span class="badge-prem">Premium</span>';
     if (nx) loadTheory(id, nx.u).catch(() => { });   // precarga la teoría de la siguiente lección
     $app.querySelectorAll('.node').forEach(b => b.onclick = () => openNode(id, +b.dataset.u, +b.dataset.m));
     drawRoads();
@@ -556,6 +640,7 @@
   function startLesson(id, u, m, mode, items) {
     const E = engine(id), S = courseState(id);
     setHue(hueOf(id));
+    if (!mode && usesLives() && lives().n <= 0) return showNoLives(id);
     const ex = mode === 'redo' ? P.shuffle(items).map(i => E.build(i, typeOfItem(E, S, i), true)) : mode === 'daily' ? E.genDaily(S) : mode === 'weak' ? E.genWeak(S) : E.gen(S, u, m);
     if (!ex.length) { sheet(`<h2>Aún no hay suficiente</h2><p class="sub">Haz alguna lección más y vuelve.</p><button class="btn" onclick="this.closest('.veil').remove()">Vale</button>`); return; }
     L = { id, u, m, mode, E, S, queue: ex.slice(), total: ex.length, done: 0, ok: 0, firstTry: 0, retried: new Set(), start: Date.now(), combo: 0, miss: [], xp0: P.todayXp(G) };
@@ -571,7 +656,7 @@
     const ex = L.queue[0];
     if (!ex) return showResult();
     const pct = Math.round(100 * L.done / (L.total + L.retried.size));
-    $app.innerHTML = `<div class="lesson"><div class="lbar"><button class="x" data-quit aria-label="Salir">${I.x}</button><div class="meter" role="progressbar" aria-label="Progreso de la lección" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div></div>
+    $app.innerHTML = `<div class="lesson"><div class="lbar"><button class="x" data-quit aria-label="Salir">${I.x}</button><div class="meter" role="progressbar" aria-label="Progreso de la lección" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div>${!L.mode && usesLives() ? `<span class="lifebar" aria-label="${lives().n} vidas">${I.heart}${lives().n}</span>` : ''}</div>
       <div class="stage"><div class="kind">${KIND[ex.type]}${ex.review ? '<span class="rv">Repaso</span>' : ''}</div><div id="body"></div></div>
       <div class="checkbar" id="bar" role="status" aria-live="polite"><button class="btn" id="chk" disabled>Comprobar</button></div></div>`;
     $app.querySelector('[data-quit]').onclick = quitLesson;
@@ -669,12 +754,15 @@
     L.done++;
     if (!res.ok && ex.item && !L.miss.some(x => x.item.k === ex.item.k)) L.miss.push({ item: ex.item, type: ex.type, answer: ex.answer });
     L.combo = res.ok ? L.combo + 1 : 0;
+    const lost = !res.ok && !L.mode && !ex.retry && usesLives();
+    if (lost) loseLife();
+    const out = lost && lives().n <= 0;
     if (!res.silent) { FX.buzz(res.ok ? 'ok' : 'no'); FX.tone(res.ok ? 'ok' : 'no'); }
     if ([3, 5, 8, 12, 16].includes(L.combo)) showCombo(L.combo);
     // un fallo vuelve una vez al final de la lección
     if (!res.ok && ex.type !== 'match' && !ex.retry) { const again = L.E.build(ex.item, ex.type === 'cd' || ex.type === 'dc' || ex.type === 'type' ? 'cd' : ex.type, true); again.retry = true; L.retried.add(again); L.queue.push(again); }
     L.queue.shift();
-    if (res.silent) { saveC(L.id, L.S); return renderEx(); }
+    if (res.silent) { saveC(L.id, L.S); if (out) { const id0 = L.id; L = null; return showNoLives(id0, true); } return renderEx(); }
     let detail = '';
     const it = ex.item;
     if (ex.type === 'cd' || ex.type === 'dc' || ex.type === 'type') detail = `<b>${esc(it.c)}</b>: ${esc(it.d)}`;
@@ -687,7 +775,8 @@
     bar.className = 'checkbar ' + (res.ok ? 'ok' : 'no');
     bar.innerHTML = `<div class="fb">${window.psique ? `<span class="fm">${psique(res.ok ? (L.combo >= 3 ? 'wow' : 'happy') : res.unsure ? 'calm' : 'sad')}</span>` : `<span class="fi">${res.ok ? I.check : I.x}</span>`}<div><h3>${title}</h3>${detail ? `<p>${detail}</p>` : ''}${!res.ok && ex.type === 'type' ? `<p>Respuesta: <b>${esc(ex.answer)}</b></p>` : ''}</div></div><button class="btn ${res.ok ? 'good' : 'warn'}" id="next">Continuar</button>`;
     const nb = bar.querySelector('#next'); nb.focus();
-    nb.onclick = () => { saveC(L.id, L.S); renderEx(); };
+    nb.onclick = () => { saveC(L.id, L.S); if (out) { const id0 = L.id; L = null; return showNoLives(id0, true); } renderEx(); };
+    if (lost) { const lb = $app.querySelector('.lifebar'); if (lb) lb.innerHTML = I.heart + lives().n; }
   }
   function showCombo(n) {
     document.querySelectorAll('.combo').forEach(x => x.remove());
@@ -714,6 +803,7 @@
     saveC(L.id, L.S); saveG();
     const goalNow = L.xp0 < G.goal && P.todayXp(G) >= G.goal, party = r.stars === 3 || L.m === 5 || goalNow;
     if (party) { FX.confetti(); FX.buzz('win'); FX.tone('win'); }
+    const lifeUp = L.mode && usesLives() && gainLife();
     const miss = L.miss.slice(), recap = miss.length ? `<div class="recap"><h2>Para repasar (${miss.length})</h2>${miss.slice(0, 6).map(x => `<div class="it">${missLine(x)}</div>`).join('')}${miss.length > 6 ? `<p class="small">y ${miss.length - 6} más</p>` : ''}</div>` : '';
     const mins = Math.max(1, Math.round((Date.now() - L.start) / 60000));
     const title = L.mode === 'daily' ? 'Repaso del día completado' : L.mode === 'weak' || L.mode === 'redo' ? 'Fallos repasados' : L.m === 5 ? '¡Unidad ' + L.u + ' completada!' : '¡Lección completada!';
@@ -723,6 +813,7 @@
       <h1>${title}</h1><p class="sub">${acc >= 0.9 ? 'Lo dominas.' : acc >= 0.7 ? 'Buen trabajo. Lo que falló volverá en los repasos.' : 'Lo que ha costado volverá en los repasos hasta que salga solo.'}</p>
       <div class="kpis"><div class="kpi"><b>+${r.gain}</b><small>XP</small></div><div class="kpi"><b>${Math.round(acc * 100)} %</b><small>aciertos</small></div><div class="kpi"><b>${mins}′</b><small>minutos</small></div></div>
       <div class="kpis" style="grid-template-columns:1fr 1fr"><div class="kpi"><b>${P.liveStreak(G)}</b><small>${P.liveStreak(G) === 1 ? 'día de racha' : 'días de racha'}</small></div><div class="kpi"><b>${P.todayXp(G)} / ${G.goal}</b><small>${goalNow ? '¡Meta conseguida!' : 'XP de hoy'}</small></div></div>
+      ${lifeUp ? `<div class="kpi" style="width:100%;border-color:var(--coral)"><b style="color:var(--coral)">+1 vida</b><small>por repasar · tienes ${lives().n} de ${LIFE_MAX}</small></div>` : ''}
       ${recap}
       ${miss.length ? `<button class="btn plain" id="redo">Repasar ${miss.length === 1 ? 'este fallo' : 'estos ' + miss.length + ' fallos'}</button>` : ''}
       <button class="btn" id="cont">Continuar</button></div></div>`;
@@ -732,6 +823,67 @@
       if (/\/t\//.test(CUR)) { CUR = '#/c/' + back; try { history.replaceState(null, '', CUR); } catch (e) { } route(); } else go('#/c/' + back);
     };
     scrollTop();
+  }
+
+  // ---------- hoja de vidas ----------
+  function showNoLives(id, ended) {
+    const e = lives(), wait = nextLife(), S = id ? courseState(id) : null, E = id ? engine(id) : null;
+    const weak = E ? E.weakItems(S).length : 0, daily = E ? E.dailyReady(S) : false;
+    const sh = sheet(`<div class="nolives"><div class="mascot">${window.psique ? psique(e.n ? 'happy' : 'sad') : ''}</div>
+      <h2>${e.n ? `Tienes ${e.n} ${e.n === 1 ? 'vida' : 'vidas'}` : 'Te has quedado sin vidas'}</h2>
+      <div class="hearts" aria-hidden="true">${Array.from({ length: LIFE_MAX }, (_, i) => I.heart.replace('<svg', `<svg class="${i < e.n ? 'on' : ''}"`)).join('')}</div>
+      <p class="sub">${ended ? 'La lección se ha quedado a medias. ' : ''}Pierdes una vida con el primer fallo de cada pregunta en las lecciones nuevas. La teoría y los repasos son siempre libres.</p>
+      ${wait ? `<p class="timer">Próxima vida en ${fmtWait(wait)}</p>` : ''}</div>
+      ${weak ? `<button class="btn" data-w>Repasar mis fallos (+1 vida)</button>` : daily ? `<button class="btn" data-d>Hacer el repaso del día (+1 vida)</button>` : ''}
+      <button class="btn gold" data-p>${I.inf.replace('<svg', '<svg style="width:20px;height:20px;display:inline-block;vertical-align:-4px;margin-right:6px"')}Vidas infinitas con Premium</button>
+      <button class="btn plain" data-x>${ended ? 'Salir' : 'Ahora no'}</button>`, () => { if (ended) route(); });
+    const q = k => sh.el.querySelector(k);
+    if (q('[data-w]')) q('[data-w]').onclick = () => { sh.close(); startLesson(id, 0, 0, 'weak'); };
+    if (q('[data-d]')) q('[data-d]').onclick = () => { sh.close(); startLesson(id, 0, 0, 'daily'); };
+    q('[data-p]').onclick = () => { sh.close(); go('#/premium'); };
+    q('[data-x]').onclick = sh.close;
+  }
+
+  // ---------- Premium ----------
+  async function showPremium() {
+    setHue(null);
+    const prem = isPremium();
+    let sel = 'anual';
+    const perks = [[I.inf, 'Vidas infinitas', 'Estudia sin límite y sin esperas'], [I.down, 'Asignaturas sin conexión', 'Descarga la teoría y las figuras para el tren o la biblioteca'], [I.gem, 'Insignia Premium', 'Y apoyas que haya asignaturas nuevas']];
+    $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button>`) + `<section class="prem">
+      <div class="phero"><div class="mascot fly">${window.psique ? psique('wow') : ''}</div><h1>SAIMAP Premium</h1><p>${prem ? (ENT.source === 'tester' ? 'Tienes Premium como tester. ¡Gracias por ayudar!' : 'Eres Premium hasta el ' + new Date(ENT.until).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + '. Se renueva automáticamente.') : 'Todo SAIMAP Psicología, sin límites.'}</p></div>
+      <div class="perks">${perks.map(([ic, t, d]) => `<div class="perk"><i>${ic}</i><div><b>${t}</b><small>${d}</small></div></div>`).join('')}</div>
+      ${prem ? (ENT.source === 'tester' ? '' : `<a class="btn plain" href="${manageUrl()}" target="_blank" rel="noopener">Gestionar mi suscripción</a>`) : `
+      <div class="plans" role="radiogroup" aria-label="Plan">
+        <button class="plan on" data-plan="anual" role="radio" aria-checked="true"><span class="save">Ahorra un 58 %</span><span class="t">Anual</span><b data-price="premium_anual">9,99 €</b><small>al año · <span data-price="anualMes">0,83 €</span>/mes</small></button>
+        <button class="plan" data-plan="mensual" role="radio" aria-checked="false"><span class="t">Mensual</span><b data-price="premium_mensual">1,99 €</b><small>al mes</small></button>
+      </div>
+      <p class="msg" id="pmsg" aria-live="polite"></p>
+      <button class="btn gold" id="buy">Suscribirme</button>
+      <p class="fine">Precios con impuestos incluidos. La suscripción se cobra en tu cuenta de Google Play, se renueva automáticamente y puedes cancelarla cuando quieras en <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play › Suscripciones</a>.</p>
+      <button class="linkbtn" id="restore">Ya estoy suscrito: restaurar compra</button>`}
+      <p class="fine"><a href="privacidad.html">Privacidad</a> · El temario, la teoría y los repasos son gratis para todo el mundo.</p>
+    </section>`;
+    $app.querySelector('[data-home]').onclick = () => history.length > 1 ? history.back() : go('#/');
+    scrollTop();
+    if (prem) return;
+    const msg = $app.querySelector('#pmsg'), buy = $app.querySelector('#buy');
+    $app.querySelectorAll('[data-plan]').forEach(b => b.onclick = () => { sel = b.dataset.plan; $app.querySelectorAll('[data-plan]').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-checked', x === b); }); });
+    Bill.prices().then(pr => { for (const [k, v] of Object.entries(pr)) { const el = $app.querySelector(`[data-price="${k}"]`); if (el) el.textContent = v; } });
+    const svc = await Bill.get();
+    if (!svc) { buy.textContent = 'Suscribirme en la app de Android'; buy.onclick = () => window.open(PLAY_URL, '_blank', 'noopener'); msg.textContent = 'Las suscripciones se hacen desde la app de Android de SAIMAP Psicología.'; }
+    else buy.onclick = async () => {
+      if (!Cloud.uid) { msg.textContent = 'Inicia sesión primero: Premium va unido a tu cuenta SAIMAP para que lo tengas en todos tus dispositivos.'; openSettings(); return; }
+      buy.disabled = true; msg.textContent = '';
+      try { const r = await Bill.buy(SKUS[sel]); if (r.premium) { FX.confetti(); FX.tone('win'); showPremium(); } else { msg.textContent = 'La compra no se ha completado.'; buy.disabled = false; } }
+      catch (e) { msg.textContent = e && e.name === 'AbortError' ? '' : (e && e.message) || 'No se ha podido completar la compra.'; buy.disabled = false; }
+    };
+    $app.querySelector('#restore').onclick = async () => {
+      if (!Cloud.uid) { msg.textContent = 'Inicia sesión con la cuenta con la que te suscribiste.'; openSettings(); return; }
+      msg.textContent = 'Comprobando…';
+      try { const ok = (await Bill.restore()) || ((await callFn('comprobarPremium').then(r => (setEnt(r), r.premium)).catch(() => false))); msg.textContent = ok ? '¡Premium activado!' : 'No hemos encontrado ninguna suscripción activa en esta cuenta.'; if (ok) showPremium(); }
+      catch (e) { msg.textContent = 'No se ha podido comprobar. Revisa la conexión.'; }
+    };
   }
 
   // ---------- estadísticas ----------
@@ -788,6 +940,7 @@
     const m = h.match(/^#\/c\/([\w-]+)(?:\/t\/(\d+)\/(\d))?/);
     if (m && courseMeta(m[1]) && courseMeta(m[1]).estado === 'ok') m[2] ? showTheory(m[1], +m[2], +m[3]) : showCourse(m[1]);
     else if (h === '#/stats') showStats();
+    else if (h === '#/premium' && FEAT.vidas) showPremium();
     else showHome();
   }
   window.addEventListener('popstate', () => { CUR = location.hash || '#/'; swap(() => route()); });

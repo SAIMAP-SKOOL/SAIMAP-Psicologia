@@ -1,0 +1,38 @@
+# Despliega las funciones de Premium (verificarCompra, comprobarPremium, limpiarCuenta) y las reglas de Firestore
+# en el proyecto saimap-lingo. Necesita el secreto FIREBASE_SA (clave JSON de una cuenta de servicio de despliegue).
+# Sin el secreto no hace nada. El resultado queda en la rama "firebase-deploy" (estado.txt y deploy.log).
+name: Firebase
+on:
+  push:
+    branches: [main]
+    paths: ["firebase/**", ".github/workflows/firebase.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: "20" }
+      - name: Desplegar
+        env:
+          SA: ${{ secrets.FIREBASE_SA }}
+        run: |
+          set -o pipefail
+          if [ -z "$SA" ]; then echo "Falta el secreto FIREBASE_SA: no se despliega." | tee deploy.log; exit 0; fi
+          printf '%s' "$SA" > "$RUNNER_TEMP/sa.json"
+          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/sa.json"
+          cd firebase/functions && npm install --no-audit --no-fund 2>&1 | tail -3 | tee ../../deploy.log
+          cd .. && npx --yes firebase-tools@13 deploy --only functions,firestore:rules --project saimap-lingo --force --non-interactive 2>&1 | tee -a ../deploy.log
+          rm -f "$RUNNER_TEMP/sa.json"
+      - name: Publicar el resultado en la rama firebase-deploy
+        if: always()
+        run: |
+          mkdir out; cp deploy.log out/ || true
+          echo "${GITHUB_SHA} ${{ job.status }}" > out/estado.txt
+          cd out && git init -q -b firebase-deploy
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Despliegue ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" firebase-deploy
