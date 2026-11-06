@@ -30,7 +30,7 @@ window.COURSE.units.push(
       "Una evaluadora registra, sin que el niño lo sepa, cuánto se alarga su tiempo de reacción a lo largo de una tarea. ¿Qué tipo de dato obtiene según Cattell?|Datos T|Datos Q|Datos L|Es conducta en una situación de prueba estandarizada y enmascarada, la base de las técnicas objetivas.",
       "¿Qué dos criterios sitúan las grandes familias de técnicas en el mapa del capítulo?|Estructuración y enmascaramiento|Fiabilidad y validez del registro|Tipo de material y de evaluador|Las objetivas combinan estructuración y enmascaramiento altos, y las proyectivas, estructuración baja y enmascaramiento alto.",
       "Las bajas laborales y los informes de profesores de una persona son, para Cattell,…|datos L|datos Q|datos T|Los datos L recogen registros de la vida real o valoraciones de observadores.",
-      "¿Qué combinación sitúa a las técnicas subjetivas en el mapa de técnicas?|Estructuración media y enmascaramiento bajo|Estructuración baja y enmascaramiento alto|Estructuración alta y enmascaramiento alto|Las proyectivas tienen estructuración baja y enmascaramiento alto, y las objetivas, ambos altos."
+      "¿Qué combinación sitúa a las técnicas objetivas en el mapa de técnicas?|Estructuración alta y enmascaramiento alto|Estructuración alta y enmascaramiento bajo|Estructuración baja y enmascaramiento alto|Alta y bajo corresponde a los autoinformes psicométricos, y baja y alto, a las proyectivas."
     ],
     inc: [
       "Sobre los rasgos de las técnicas objetivas|El resultado depende del juicio del evaluador|El estímulo y la respuesta están muy estructurados|La persona no puede controlar fácilmente su respuesta|Una de sus señas es la independencia del evaluador: el resultado es un número que no depende de quien aplica la prueba."
@@ -120,7 +120,7 @@ window.COURSE.units.push(
     v: [
       "Biofeedback=Devolver en tiempo real información de una señal para aprender a modificarla",
       "Polígrafo=Registra a la vez varias respuestas autónomas, no el engaño",
-      "Prueba de preguntas control=Compara las preguntas del delito con otras incómodas para casi todos",
+      "Test de la pregunta de control=Compara las preguntas del delito con otras incómodas para casi todos",
       "Test de información oculta=Comprueba si se reacciona ante detalles que solo conocería el autor",
       "Contramedidas=Maniobras con las que un culpable entrenado altera el registro",
       "Tasa base=Proporción de casos verdaderos en la población evaluada",
@@ -168,7 +168,7 @@ window.COURSE.units.push(
       "Heterodescripción=Descripción de una persona hecha por otra, como un familiar o un docente"
     ],
     g: [
-      "En el mapa de técnicas, las subjetivas tienen estructuración media y enmascaramiento ___.|bajo|alto|medio",
+      "En la rejilla de Kelly, la persona produce sus propios criterios de ___.|comparación|corrección|puntuación",
       "En el Q-sort, el número fijo de tarjetas por pila reproduce una distribución aproximadamente ___.|normal|uniforme|asimétrica",
       "Como no están enmascaradas, las técnicas subjetivas están expuestas a la ___ social.|deseabilidad|comparación|facilitación",
       "Muchas versiones de las técnicas subjetivas se construyen ___ y carecen de normas.|ad hoc|en serie|por consenso",
@@ -248,7 +248,7 @@ window.COURSE.units.push(
       "El par «pesado-ligero» pertenece al factor de ___.|potencia|actividad|evaluación",
       "El par «vivo-apagado» pertenece al factor de ___.|actividad|potencia|evaluación",
       "El diferencial semántico se ha usado mucho para medir actitudes porque el factor de ___ es el de más peso.|evaluación|potencia|actividad",
-      "En el diferencial semántico, el centro de la escala indica ___ o que ninguno de los dos adjetivos se aplica.|neutralidad|desacuerdo|ambivalencia"
+      "En el diferencial semántico, el centro de la escala indica ___ o que ninguno de los dos adjetivos se aplica.|neutralidad|desacuerdo|rechazo"
     ],
     tf: [
       "En el diferencial semántico la persona valora su grado de acuerdo con un enunciado sobre el concepto.|F|Eso es una escala Likert. En el diferencial semántico no hay enunciado: hay un concepto y dos adjetivos opuestos.",
@@ -365,7 +365,7 @@ window.COURSE.units.push(
       "El Rorschach consta de ___ láminas con manchas de tinta simétricas.|10|12|31",
       "Las láminas II y III combinan el negro y el ___.|rojo|azul|gris",
       "En el Sistema Comprehensivo, evaluador y evaluado se sientan ___ para reducir la influencia de los gestos.|al lado|enfrente|de espaldas",
-      "Durante la respuesta libre, la persona puede dar tantas respuestas como quiera y ___ la lámina.|girar|tocar|describir",
+      "Durante la respuesta libre, la persona puede dar tantas respuestas como quiera y ___ la lámina.|girar|dibujar|ordenar",
       "Rorschach concibió su prueba más como una tarea ___ que como una ventana al inconsciente.|perceptiva|proyectiva|narrativa"
     ],
     tf: [
@@ -498,7 +498,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Una niña de seis años dibuja una familia diminuta en una esquina de la hoja. ¿Qué conclusión es más prudente?|Considerar antes otras causas posibles|Interpretar inseguridad en el ámbito familiar|Descartar el dibujo por falta de validez|Un dibujo tiene muchas causas: su desarrollo gráfico, la prisa por volver al recreo o su costumbre en clase.",
-      "¿Qué diferencia a Goodenough de Machover en el uso de la figura humana?|Madurez intelectual frente a lectura proyectiva|Lectura proyectiva frente a madurez intelectual|Indicadores emocionales frente a evolutivos|Goodenough puntuaba detalles para estimar el desarrollo cognitivo. Machover dio al mismo material una lectura simbólica.",
+      "¿Qué diferencia a Goodenough de Machover en el uso de la figura humana?|Madurez intelectual frente a lectura proyectiva|Signos aislados frente a escala global|Indicadores emocionales frente a evolutivos|Goodenough puntuaba detalles para estimar el desarrollo cognitivo. Machover dio al mismo material una lectura simbólica.",
       "¿Qué hace el examinador tras el dibujo en el test de Corman?|Pregunta quién es cada personaje|Pide dibujar una casa y un árbol|Puntúa los detalles para la edad mental|Pregunta quién es cada personaje, quién es el más feliz o el menos simpático y con quién le gustaría estar.",
       "¿Qué tipo de interpretación de los dibujos utilizaban Goodenough y Koppitz?|Global, con escalas explícitas|Por signos aislados de cada rasgo|Simbólica, centrada en conflictos|La valoración global juzga el dibujo en conjunto, a menudo con escalas explícitas. La de signos carece de validez."
     ],
@@ -517,7 +517,7 @@ window.COURSE.units.push(
       "Test del pueblo=Construir un pueblo con piezas y relatarlo (Arthus, 1949)",
       "Henri Arthus=Autor de una técnica lúdica y no verbal útil con niños que hablan poco",
       "Fábulas de Düss=Diez relatos incompletos para niños sobre conflictos psicosexuales (1940)",
-      "Frases incompletas=Comienzos de frase que se terminan con lo primero que se ocurre",
+      "Frases incompletas=Comienzos de frase que se terminan con lo primero que se le ocurre a la persona",
       "Rotter=Autor de frases incompletas con puntuación del ajuste general",
       "Estadios psicosexuales=Marco teórico desde el que se diseñaron las fábulas de Düss",
       "Facilitadora de la entrevista=Uso de una técnica para abrir temas, no para medir un constructo",
@@ -539,7 +539,7 @@ window.COURSE.units.push(
     q: [
       "Un adolescente que apenas habla completa «Cuando hablo en voz alta…» con «nadie escucha». ¿Qué uso de la respuesta es más adecuado?|Retomar el tema en la entrevista|Diagnosticar una fobia social|Puntuar su nivel de ajuste global|La respuesta no diagnostica nada, pero ofrece un tema concreto para retomar en la siguiente sesión.",
       "¿Qué técnica encaja mejor con un niño que apenas habla?|El test del pueblo|Las frases incompletas|Las fábulas de Düss|Es una técnica lúdica y no verbal. Las frases y las fábulas exigen respuestas verbales.",
-      "¿En qué familia de Lindzey se sitúa el test del pueblo?|Expresivas|Construcción|Completamiento|Lindzey incluye en las expresivas el juego y la construcción con objetos. Otros manuales la llaman constructiva.",
+      "¿Qué observa el evaluador en el test del pueblo?|El proceso, la organización y el relato|Solo el número de piezas colocadas|El tiempo que tarda en cada pieza|Se atiende a qué coloca primero, qué deja fuera, si rectifica, cómo organiza el espacio y qué relata.",
       "¿Qué conflictos exploraban las fábulas de Düss?|Dependencia, rivalidad, celos y culpa|Logro, afiliación, poder y autonomía|Ajuste escolar, laboral y familiar|Exploraban los conflictos de los estadios psicosexuales, como dependencia, rivalidad, celos, miedo o culpa."
     ],
     inc: [
@@ -569,7 +569,7 @@ window.COURSE.units.push(
       "Aunque los códigos coincidan, el paso a las conclusiones sigue dependiendo del ___ clínico.|juicio|sistema|registro"
     ],
     tf: [
-      "La baja correlación del Rorschach con los autoinformes demuestra que el test carece de validez.|F|Mide cómo actúa la persona ante una tarea, no lo que dice de sí misma: es lógico que coincida poco con un cuestionario.",
+      "Mihura et al. (2013) hallaron apoyo empírico para todas las variables del Sistema Comprehensivo que revisaron.|F|Solo 30 de 65 tuvieron apoyo bueno o excelente, y 22 carecieron de apoyo o de estudios: la validez es desigual.",
       "Las variables del Rorschach con mejor apoyo fueron las de distorsión perceptiva y pensamiento desorganizado.|V",
       "Lilienfeld, Wood y Garb (2000) hallaron índices proyectivos fiables para detectar el abuso sexual infantil a partir de dibujos.|F|No hay hallazgos replicados que permitan detectar el abuso sexual infantil con dibujos u otras proyectivas.",
       "Según Mihura et al. (2013), las variables del Rorschach mostraron con criterios externos un efecto de tamaño moderado.|V"
@@ -609,7 +609,7 @@ window.COURSE.units.push(
     tf: [
       "Los participantes de Chapman y Chapman eran clínicos expertos en dibujos proyectivos.|F|Eran estudiantes sin formación clínica, y aun así «vieron» las mismas asociaciones que defendían los clínicos.",
       "La correlación ilusoria sugiere que lo que «se ve» en la práctica clínica puede ser una relación que no existe.|V",
-      "En un proceso de custodia, un dibujo del test de Corman basta para concluir que un niño rechaza a su padre.|F|El signo no tiene validez demostrada y hay muchas explicaciones alternativas: como mucho sugiere una pregunta para la entrevista.",
+      "Tomar como signo patológico una costumbre gráfica propia del grupo de la persona es un caso de sobrepatologización.|F|Es el sesgo cultural. La sobrepatologización lee como síntoma lo que es normal para la edad o el contexto.",
       "Proteger la seguridad del material implica no difundir láminas ni respuestas habituales.|V"
     ],
     q: [

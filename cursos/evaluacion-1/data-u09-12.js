@@ -86,7 +86,7 @@ window.COURSE.units.push(
       "Intervalo del 95 %=Puntuación observada más y menos 1,96 errores típicos",
       "Fiabilidad perfecta=Caso en que el error típico vale cero",
       "Fiabilidad nula=Caso en que el error típico iguala la desviación típica del test",
-      "Precisión en la TRI=Error distinto por nivel, menor en la zona central del atributo",
+      "Precisión en la TRI=Error distinto por nivel, que suele ser menor en la zona central",
       "Art. 48 del Código=Pide expresar el grado de certeza de las conclusiones"
     ],
     g: [
@@ -109,7 +109,7 @@ window.COURSE.units.push(
       "Un estudiante obtiene 112 en un test con ETM de 4,5. ¿Cómo se expresa mejor en el informe?|Entre 103 y 121 al 95 %|CI exacto de 112 puntos|Entre 107 y 117 al 95 %|112 ± 1,96·4,5 da de 103,18 a 120,82. El intervalo de 107,5 a 116,5 es el del 68 %."
     ],
     inc: [
-      "Sobre el ETM y los intervalos|El intervalo del 95 % se obtiene con X ± 1·ETM|Informar con intervalos refleja lo que se sabe|Los tests miden mejor en la zona central del atributo|El intervalo X ± 1·ETM es el del 68 %. Para el del 95 % se usa 1,96·ETM."
+      "Sobre el ETM y los intervalos|El intervalo del 95 % se obtiene con X ± 1·ETM|Informar con intervalos refleja lo que se sabe|Los tests suelen medir mejor en la zona central|El intervalo X ± 1·ETM es el del 68 %. Para el del 95 % se usa 1,96·ETM."
     ],
     seq: [
       "Interpretar una puntuación con su error|Calcular el ETM>Multiplicar el ETM por 1,96>Sumar y restar a la puntuación observada>Interpretar el intervalo resultante"
@@ -203,7 +203,7 @@ window.COURSE.units.push(
       "Validez retrospectiva=El criterio procede del pasado, como el historial académico",
       "Contaminación del criterio=Quien valora el criterio conoce las puntuaciones del test",
       "Varianza de método=Parte de lo medido que se debe al instrumento y no al rasgo",
-      "Validez incremental=Mejora de la predicción respecto a lo que ya aportaban otras fuentes"
+      "Matriz multirrasgo-multimétodo=Varios rasgos medidos con varios métodos (Campbell y Fiske)"
     ],
     g: [
       "Con rxx de 0,81 y ryy de 0,64, el coeficiente de validez máximo posible es ___.|0,72|0,52|0,81",
@@ -216,7 +216,7 @@ window.COURSE.units.push(
       "Si dos rasgos distintos medidos con el mismo método correlacionan más que un mismo rasgo con métodos distintos, hay varianza de método.|V",
       "Un criterio poco fiable no afecta a la correlación entre un buen test y ese criterio.|F|Si el criterio es poco fiable, la correlación baja aunque el test sea bueno.",
       "Si una escala de depresión correlaciona tanto con deseabilidad social como con otra de depresión, falla la evidencia convergente.|F|Falla la discriminante: debería correlacionar bajo con un constructo distinto como la deseabilidad social.",
-      "Añadir una prueba larga y costosa solo se justifica si aporta información nueva.|V"
+      "El coeficiente de validez no puede superar la raíz cuadrada del producto de las fiabilidades del test y del criterio.|V"
     ],
     q: [
       "Un cuestionario de cribado se aplica el mismo día que una entrevista estructurada que sirve de criterio diagnóstico. ¿Qué evidencia se obtiene?|Concurrente|Predictiva|Retrospectiva|El criterio se mide a la vez que el test. Si se midiera después, sería evidencia predictiva.",
@@ -251,7 +251,7 @@ window.COURSE.units.push(
       "En la curva ROC, el eje horizontal representa ___.|1 − especificidad|la sensibilidad|el VPP"
     ],
     tf: [
-      "El VPP de un test se mantiene aunque se aplique donde el trastorno es mucho más raro.|F|Los valores predictivos dependen de la tasa base: con prevalencia baja crecen los falsos positivos y baja el VPP.",
+      "El AUC solo puede calcularse una vez fijado el punto de corte.|F|El AUC resume todos los puntos de corte a la vez y permite comparar tests con independencia de él.",
       "Bajar el punto de corte aumenta la sensibilidad y reduce la especificidad.|V",
       "La sensibilidad indica la probabilidad de tener el trastorno cuando se ha dado positivo.|F|Eso es el VPP. La sensibilidad es la proporción de personas con el trastorno que el test detecta.",
       "Si el criterio de referencia también se equivoca, los índices de utilidad diagnóstica quedan distorsionados.|V"
@@ -260,14 +260,14 @@ window.COURSE.units.push(
       "Un cuestionario se aplica a 100 personas, 20 con el trastorno según la entrevista. Detecta a 16 de ellas y da positivo en 8 de las 80 sanas. ¿Cuál es su VPP?|0,67|0,80|0,90|VPP de 16 / 24, es decir 0,67. La sensibilidad sería 16 / 20 (0,80) y la especificidad, 72 / 80 (0,90).",
       "Un test va a apoyar una medida judicial con consecuencias graves. ¿Qué conviene priorizar al fijar el punto de corte?|Una especificidad alta|Una sensibilidad alta|Un VPN elevado|Cuando un positivo tiene consecuencias graves se prefiere una especificidad alta, que reduce los falsos positivos.",
       "¿Cómo puede interpretarse un AUC de 0,80?|Que un afectado al azar supere a un sano|Que detecta al 80 % de los afectados|Que el 80 % de los positivos lo tienen|El AUC es la probabilidad de que una persona del grupo con el trastorno puntúe más que una del grupo sin él.",
-      "Un cuestionario pasa de un centro especializado a la población general, donde el trastorno es raro. ¿Qué índice cambiará?|El valor predictivo positivo|La sensibilidad del test|La especificidad del test|Sensibilidad y especificidad son propiedades del test. El VPP baja porque crecen los falsos positivos del grupo sano."
+      "Un cribado de depresión da 34 verdaderos positivos, 16 falsos positivos, 6 falsos negativos y 144 verdaderos negativos. ¿Cuál es el VPN?|0,96|0,90|0,85|144 / 150 da 0,96. El 0,90 es la especificidad (144 / 160), y el 0,85, la sensibilidad (34 / 40)."
     ],
     inc: [
       "Sobre la utilidad diagnóstica|Un AUC de 1 indica un test que no discrimina|Subir el punto de corte aumenta la especificidad|Los valores predictivos dependen de la tasa base|Un AUC de 1 es discriminación perfecta. El azar corresponde a 0,5."
     ],
     seq: [],
     cls: [
-      "Índice diagnóstico|Propiedad del test frente al criterio: sensibilidad; especificidad|Depende de la tasa base: valor predictivo positivo; valor predictivo negativo"
+      "Celda de la tabla de clasificación|Test positivo: verdaderos positivos; falsos positivos|Test negativo: verdaderos negativos; falsos negativos"
     ] },
   { t: "Calidad y uso de los tests: CET-R, directrices ITC y uso en España",
     tip: "Quien evalúa es sobre todo usuario de tests y debe escogerlos con información fiable. El CET-R (Hernández et al., 2016), revisión del cuestionario de Prieto y Muñiz (2000) basada en el modelo de la EFPA, guía la revisión experta, y la Comisión de Test del COP publica revisiones desde 2010. La ITC tiene directrices de uso, adaptación (2.ª ed., 2017), seguridad y control de calidad. En España dominan los tests psicométricos, pero solo el 22,5 % conocía las revisiones.",
@@ -290,9 +290,9 @@ window.COURSE.units.push(
     ],
     tf: [
       "Para adaptar un test a otra cultura basta con una buena traducción de sus ítems.|F|Hay que comprobar que los ítems significan lo mismo, que la estructura se mantiene y que hay baremos propios.",
-      "Según la encuesta de 2020, las técnicas proyectivas no aparecían entre los 25 tests más usados.|V",
+      "La encuesta de Muñiz y Fernández-Hermida (2000) reunió a 3.455 psicólogos.|V",
       "En la encuesta de 2010, el MCMI ocupó el primer lugar, por delante del WISC.|F|Fue al revés: el WISC quedó en primer lugar y el MCMI, en segundo.",
-      "La Ley de IA de la UE considera de alto riesgo ciertos usos de sistemas de IA en empleo y educación.|V"
+      "Elegir un test solo porque es el que hay en el centro, sin revisar sus evidencias para ese uso, contradice las buenas prácticas.|V"
     ],
     q: [
       "Una psicóloga va a usar en España un cuestionario traducido por un compañero, sin estudios de equivalencia ni baremos propios. ¿Qué directriz incumple?|La de traducción y adaptación|La de seguridad de materiales|La de control de calidad|La adaptación exige equivalencia de significado y de estructura y baremos propios. También choca con los arts. 6 y 18.",
@@ -304,7 +304,7 @@ window.COURSE.units.push(
       "Sobre la calidad y el uso de los tests|El CET-R se usa para corregir cada protocolo|La ITC tiene una directriz sobre seguridad|El WISC era el más usado en la encuesta de 2010|El CET-R es una guía para que revisores expertos valoren la calidad de un test con criterios explícitos."
     ],
     seq: [
-      "Hitos en la calidad de los tests en España|Primer cuestionario de Prieto y Muñiz>Inicio de las revisiones de la Comisión de Test>Modelo europeo de la EFPA>Publicación del CET-R>Encuesta de Muñiz, Hernández y Fernández-Hermida"
+      "Hitos en la evaluación de la calidad de los tests|Primer cuestionario de Prieto y Muñiz>Inicio de las revisiones de la Comisión de Test>Modelo europeo de la EFPA>Publicación del CET-R>Encuesta de Muñiz, Hernández y Fernández-Hermida"
     ],
     cls: [
       "Directriz de la ITC|Uso de los tests: elección del test; comunicación de resultados|Traducción y adaptación: equivalencia cultural; baremos propios|Seguridad: protección de materiales; protección de resultados"
@@ -319,7 +319,7 @@ window.COURSE.units.push(
       "Fidelidad=Precisión con la que un método mide cada aspecto",
       "Doble canal=Recoger lo que se dice y cómo se dice",
       "Roles diferenciados=Uno pregunta y dirige y el otro informa, en una relación asimétrica",
-      "Sesgo de confirmación=Preguntar solo lo que encaja con la primera impresión",
+      "Interacción en dos sentidos=Lo que dice cada uno modifica lo que pregunta o cuenta el otro",
       "Efecto halo=Extender una característica llamativa al juicio global",
       "Primacía y recencia=Dar más peso a lo dicho al principio o al final"
     ],
@@ -452,7 +452,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Una paciente dice: «Desde que empecé el trabajo nuevo no duermo y llego a casa agotada». El psicólogo responde: «Parece que se siente desbordada con esta etapa». ¿Qué técnica usa?|Reflejo|Paráfrasis|Clarificación|Devuelve una emoción que no se ha nombrado. La paráfrasis devolvería el contenido: duerme mal y acaba sin energía.",
-      "Ante esa misma frase, el psicólogo pregunta: «¿Le cuesta dormirse o se despierta por la noche?». ¿Qué técnica es?|Clarificación|Paráfrasis|Resumen|Pide precisar algo ambiguo. Es una pregunta, no una técnica de devolución.",
+      "Una paciente dice que no duerme desde que cambió de trabajo, y el psicólogo pregunta: «¿Le cuesta dormirse o se despierta por la noche?». ¿Qué técnica es?|Clarificación|Paráfrasis|Resumen|Pide precisar algo ambiguo. Es una pregunta, no una técnica de devolución.",
       "«Me cuenta que la relación con su hermano va bien, y a la vez que lleva meses sin cogerle el teléfono.» ¿Qué técnica es?|Confrontación|Paráfrasis|Clarificación|Señala una discrepancia sin tono acusador. Exige que la relación ya esté establecida.",
       "Con un paciente muy ansioso y poco hablador, ¿qué secuencia de preguntas conviene?|Embudo invertido|Embudo clásico|Preguntas encadenadas|Se empieza por preguntas concretas y fáciles y se abre a medida que la persona se siente cómoda."
     ],
@@ -482,7 +482,7 @@ window.COURSE.units.push(
       "El objetivo principal de la apertura es crear ___.|rapport|hipótesis|encuadre",
       "En el cierre conviene no abrir temas nuevos con carga ___.|emocional|cognitiva|diagnóstica",
       "Quedarse con la primera hipótesis es el error típico de la fase de ___.|desarrollo|apertura|cierre",
-      "La información para el consentimiento informado se prepara en la ___.|preentrevista|apertura|reflexión posterior"
+      "En la reflexión posterior, el entrevistador separa lo observado de lo ___.|inferido|olvidado|deseado"
     ],
     tf: [
       "Pasar directamente a las preguntas cerradas es el error típico de la apertura.|V",
@@ -546,7 +546,7 @@ window.COURSE.units.push(
     v: [
       "Examen del estado mental=Exploración ordenada de cómo se presenta la persona en la entrevista",
       "Insight=Conciencia del problema",
-      "Kanfer y Saslow (1965)=Propusieron el análisis conductual como alternativa al diagnóstico",
+      "Juicio=Capacidad de valorar la situación, explorada en el examen del estado mental",
       "Fórmula E-O-R-K-C=Estímulos, organismo, respuesta, contingencia y consecuencias",
       "Ambivalencia=No tener claro que se quiera cambiar una conducta",
       "OARS=Abiertas, afirmaciones, reflejos y resúmenes",
@@ -556,7 +556,7 @@ window.COURSE.units.push(
     g: [
       "El examen del estado mental procede de la tradición ___.|médica|conductual|humanista",
       "En las siglas OARS, la A corresponde a ___.|afirmaciones|aclaraciones|acuerdos",
-      "Kanfer y Saslow propusieron el análisis conductual como alternativa a la clasificación en ___.|1965|1991|1984",
+      "La entrevista motivacional se usa mucho con conductas ___ y de salud.|adictivas|psicóticas|disociativas",
       "La tercera edición de la obra de Miller y Rollnick sobre la entrevista motivacional es de ___.|2013|2009|2002",
       "En la entrevista conductual, las preguntas más útiles suelen ser las de qué, cuándo, dónde y ___.|cómo|por qué|quién"
     ],
@@ -589,7 +589,7 @@ window.COURSE.units.push(
       "Cambio de perspectiva=Describir lo ocurrido como lo habría visto otra persona presente",
       "Escalas con anclajes=Describen cómo es una respuesta pobre, aceptable o excelente",
       "Memoria reconstructiva=Razón por la que las preguntas sugestivas pueden añadir detalles falsos",
-      "Achenbach y col. (1987)=Metaanálisis con r medio de 0,22 entre el niño y otros informantes"
+      "Köhnken et al. (1999)=Metaanálisis con unos 2.500 entrevistados sobre la entrevista cognitiva"
     ],
     g: [
       "Según Köhnken et al. (1999), la entrevista cognitiva aumentó los detalles correctos con una d de ___.|0,87|0,28|1,20",
@@ -602,12 +602,12 @@ window.COURSE.units.push(
       "La entrevista cognitiva protege al testigo frente a la información engañosa que reciba después.|F|Es su límite real: no protege frente a la sugestión posterior.",
       "El efecto de la entrevista cognitiva es algo menor en niños.|V",
       "Según Schmidt y Hunter (1998), la entrevista estructurada tenía una validez de 0,42.|F|Schmidt y Hunter daban 0,51 y 0,38. El 0,42 es la cifra revisada de Sackett et al. (2022).",
-      "Repetir una pregunta a un niño pequeño puede hacerle pensar que su primera respuesta era errónea.|V"
+      "Con niños conviene usar frases cortas, palabras conocidas y una sola pregunta cada vez.|V"
     ],
     q: [
       "Una policía pide a una testigo que cuente el robo empezando por el final. ¿Qué técnica de la entrevista cognitiva usa?|Cambio de orden|Cambio de perspectiva|Reinstauración del contexto|Relatar los hechos en otro orden, por ejemplo desde el final, es la técnica del cambio de orden.",
       "Una empresa quiere que su entrevista de selección prediga mejor el desempeño. ¿Qué cambio es más eficaz?|Usar escalas con anclajes|Dar libertad al entrevistador|Confiar en la primera impresión|La versión que mejor funciona usa las mismas preguntas, escalas con anclajes y varios evaluadores independientes.",
-      "Los padres y los profesores describen a un niño de forma distinta a como él se describe. ¿Qué interpretación es correcta?|Cada informante ve una parte distinta|Alguno de los informantes miente|El niño no es un informante válido|La concordancia entre informantes es modesta (r 0,22) y no implica mentira: cada uno ve una parte de la conducta.",
+      "Al entrevistar a una niña de cinco años, el psicólogo repite una pregunta que ella ya ha contestado. ¿Qué riesgo corre?|Que crea que su respuesta era errónea|Que recuerde mejor lo que ocurrió|Que gane confianza en el entrevistador|Los niños pequeños tienden a contestar lo que creen que el adulto espera, y repetir la pregunta sugiere que la primera respuesta falló.",
       "Según la evidencia, ¿qué consigue la entrevista cognitiva frente a la estándar?|Más detalles correctos y pocos más errores|Más errores que detalles correctos nuevos|Igual número de errores y de aciertos|d de 0,87 en correctos y de 0,28 en incorrectos, con una exactitud global similar (85 % frente a 82 %)."
     ],
     inc: [

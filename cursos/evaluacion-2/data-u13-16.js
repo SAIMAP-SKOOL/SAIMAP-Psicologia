@@ -264,7 +264,7 @@ window.COURSE.units.push(
       "Irene, de 16 años, puntúa alto en Literario y Persuasivo en el Kuder. ¿Qué haría bien su orientador?|Explorar profesiones que combinen ambas|Concluir que vale para el Derecho|Compararla con otra alumna en Literario|El perfil indica preferencias relativas. Se exploran opciones como periodismo o comunicación y se comprueban sus aptitudes.",
       "Un protocolo del Kuder tiene muchas elecciones inusuales en las tríadas previsibles. ¿Qué sugiere?|Descuido, azar o problemas de comprensión|Un perfil muy diferenciado de intereses|Un intento claro de mentir al evaluador|La escala de verificación detecta respuestas poco atentas o mal comprendidas, y el protocolo no debe interpretarse sin más.",
       "¿Por qué son problemáticas las comparaciones entre personas en el Kuder?|Se reparte una cantidad fija de preferencias|Cada escala usa un baremo distinto por sexo|Las tríadas tienen una fiabilidad muy baja|Preferir un área obliga a renunciar a otra, así que el perfil es relativo a la propia persona.",
-      "¿En qué inventario de personalidad aparece también la elección forzada para controlar la deseabilidad social?|EPPS|SDS|Strong|El EPPS usa el mismo principio de elección forzada que el Kuder (Unidad 9)."
+      "¿Qué consecuencia tiene que las escalas del Kuder dependan unas de otras?|Correlaciones negativas artificiales|Una fiabilidad test-retest más alta|Perfiles planos en casi todos los casos|Si una escala sube, otras tienen que bajar, porque se reparte una cantidad fija de preferencias."
     ],
     inc: [
       "Sobre el Kuder|Su perfil indica cuánto interés absoluto tiene la persona|Cada ítem pide la actividad preferida y la menos atractiva|Sus áreas recuerdan a los tipos RIASEC|El perfil indica qué áreas prefiere en relación con sus otras áreas, no cuánto interés absoluto tiene."
@@ -324,7 +324,7 @@ window.COURSE.units.push(
       "Componente conductual=Intenciones y tendencias de acción hacia el objeto",
       "LaPiere (1934)=Estudio clásico en que lo declarado por carta no coincidía con lo hecho",
       "Registro psicofisiológico=Activación ante el objeto que indica intensidad, no dirección",
-      "Diferencial semántico=Pares de adjetivos opuestos cuyo factor de evaluación mide actitud",
+      "Escala de autoinforme=Estrategia barata y rápida, pero expuesta a la deseabilidad social",
       "Distancia social=Escala de Bogardus (1925) sobre el grado de cercanía que se aceptaría"
     ],
     g: [
@@ -380,7 +380,7 @@ window.COURSE.units.push(
     ],
     q: [
       "En una escala Thurstone, alguien acepta «los carriles bici mejoran la ciudad» (valor alto) y «la bici tiene ventajas e inconvenientes» (valor medio). ¿Dónde queda?|En una zona moderadamente favorable|En el extremo más favorable del continuo|En el punto neutro exacto de la escala|Su puntuación es la mediana o la media de los valores escalares aceptados, entre el medio y el alto.",
-      "¿En qué se diferencia el Likert del diferencial semántico?|Gradúa el acuerdo con un enunciado|Sitúa un concepto entre dos adjetivos|Usa jueces para escalar los ítems|En el diferencial semántico se sitúa un concepto entre adjetivos opuestos. El Likert gradúa el acuerdo.",
+      "¿Qué se hace con las respuestas a los enunciados desfavorables de una escala Likert?|Se invierten antes de sumar|Se eliminan del análisis|Se les asigna un valor escalar|Se invierten para que una puntuación alta indique siempre una actitud favorable. El valor escalar es propio de Thurstone.",
       "¿Qué enunciados se eliminan en el método de Thurstone?|Los de mucha dispersión entre jueces|Los de valor escalar moderado|Los que tienen redacción desfavorable|La dispersión indica ambigüedad. Se conservan enunciados repartidos por el continuo y con poca dispersión.",
       "¿Cuál es la principal crítica al método de Thurstone?|Su elevado coste de construcción|Que evita los ítems moderados|Que suma respuestas ordinales|Es caro, y además la actitud de los jueces puede influir. Sumar respuestas ordinales es la crítica al Likert."
     ],
@@ -409,7 +409,7 @@ window.COURSE.units.push(
       "Con 5 ítems, 6 sujetos y un error, la reproductibilidad es aproximadamente ___.|0,97|0,83|0,90",
       "Con 4 ítems, 10 sujetos y 4 errores, la reproductibilidad es ___.|0,90|0,96|0,60",
       "El escalograma es un antecedente ___ de la teoría de respuesta al ítem.|determinista|probabilístico|factorial",
-      "El diferencial semántico fue propuesto por Osgood, Suci y Tannenbaum en ___.|1957|1925|1944",
+      "Por convención, la reproductibilidad mínima de un escalograma es de ___.|0,90|0,80|0,95",
       "En la escala de Bogardus, quien acepta a alguien como familiar suele aceptarlo también como ___.|vecino|jefe|socio"
     ],
     tf: [
@@ -422,7 +422,7 @@ window.COURSE.units.push(
       "Un escalograma de 5 ítems se aplica a 20 sujetos y aparecen 15 errores. ¿Forma una escala acumulativa?|No, la reproductibilidad es de 0,85|Sí, la reproductibilidad es de 0,85|Sí, la reproductibilidad es de 0,95|1 − 15/100 da 0,85, por debajo del 0,90 exigido por convención.",
       "En un escalograma sobre reciclaje, alguien acepta tres ítems. En una escala perfecta, ¿cuáles ha aceptado?|Los tres de menor intensidad|Los tres de mayor intensidad|Tres cualesquiera del total|En una escala acumulativa, aceptar un ítem implica aceptar todos los de menor intensidad.",
       "¿Qué indicador de calidad es propio del escalograma?|La reproductibilidad|La dispersión de los jueces|La correlación ítem-total|La dispersión de los jueces es propia de Thurstone, y la correlación ítem-total, del Likert.",
-      "Para un estudio con muchas personas, ¿qué escala suele bastar?|Una escala Likert|Un escalograma|Una escala Thurstone|El escalograma es más informativo para comprobar si unos ítems ordenan una actitud unidimensional."
+      "Para un estudio con muchas personas, ¿qué escala suele bastar?|Una escala Likert|Un escalograma|Una escala Thurstone|La Likert es sencilla y fiable. El escalograma se reserva para comprobar si unos ítems ordenan una actitud unidimensional."
     ],
     inc: [
       "Sobre el escalograma de Guttman|Admite errores probabilísticos como la teoría de respuesta al ítem|Un sí después de un no rompe el patrón|Da a la puntuación total un significado preciso|Es determinista. La teoría de respuesta al ítem, de la que es antecedente, sí admite errores probabilísticos."
@@ -563,7 +563,7 @@ window.COURSE.units.push(
       "Los autoinformes tienden a ___ las conductas mal vistas, como beber.|infravalorar|sobrevalorar|ignorar",
       "El estadio de preparación se incorporó al modelo en ___.|1992|1983|1984",
       "Una persona que lleva dos meses sin fumar está en el estadio de ___.|acción|preparación|mantenimiento",
-      "Quien atribuye su salud al ___ tiende a implicarse menos en la prevención.|azar|médico|esfuerzo",
+      "Quien atribuye su salud al ___ tiende a implicarse menos en la prevención.|azar|ejercicio|esfuerzo",
       "Los recuentos de comprimidos no garantizan que el fármaco se haya ___.|tomado|recetado|comprado"
     ],
     tf: [

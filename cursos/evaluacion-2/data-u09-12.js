@@ -15,8 +15,8 @@ window.COURSE.units.push(
     ],
     g: [
       "En las pruebas objetivas, lo que no depende del evaluador es la ___.|corrección|interpretación|integración",
-      "En la encuesta de 2020, el WISC, el MCMI y el ___ encabezaban los tests más usados en España.|PAI|MMPI-2|16PF-5",
-      "En la tradición de Cattell, los datos ___ eran pruebas de rendimiento con un objetivo encubierto.|T|Q|L",
+      "Las pruebas objetivas son económicas y se corrigen sin error de ___.|juicio|medida|muestreo",
+      "En un autoinforme, las respuestas se suman en ___ según una plantilla fija.|escalas|consignas|láminas",
       "Su punto débil es que dependen de que la persona quiera y ___ describirse con precisión.|pueda|suela|prefiera",
       "En las técnicas proyectivas, a diferencia de los autoinformes, ya la ___ depende del evaluador.|codificación|aplicación|consigna"
     ],
@@ -78,7 +78,7 @@ window.COURSE.units.push(
       "Modelo de referencia|Rasgo-factorial: 16PF-5; EPQ-R; NEO-PI-R; BFQ|Clínico-empírico: MMPI|Teórico: MCMI; TCI-R"
     ] },
   { t: "Sesgos de respuesta: deseabilidad, aquiescencia y falseamiento",
-    tip: "Un sesgo de respuesta es contestar por razones distintas del contenido del ítem. Los estilos son tendencias estables y en gran parte no intencionadas, como la aquiescencia; las actitudes son distorsiones más o menos deliberadas, como el falseamiento. Paulhus (1984) separó en la deseabilidad social el autoengaño y el manejo de la impresión. La misma puntuación se interpreta según el contexto.",
+    tip: "Un sesgo de respuesta es contestar por razones distintas del contenido del ítem. Los estilos son tendencias estables y en gran parte no intencionadas, como la aquiescencia. Las actitudes son distorsiones más o menos deliberadas, como el falseamiento. Paulhus (1984) separó en la deseabilidad social el autoengaño y el manejo de la impresión. La misma puntuación se interpreta según el contexto.",
     v: [
       "Sesgo de respuesta=Tendencia a contestar por razones distintas del contenido del ítem",
       "Estilo de respuesta=Tendencia estable y poco intencionada que aparece sea cual sea el contenido",
@@ -248,7 +248,7 @@ window.COURSE.units.push(
       "La tétrada psicótica reúne las escalas 6, 7, 8 y ___.|9|0|4",
       "La escala 6 (Pa) recoge suspicacia, sensibilidad interpersonal e ideas de ___.|persecución|grandeza|culpa",
       "Un código 2-7 reúne depresión y ___.|ansiedad|suspicacia|impulsividad",
-      "Muchos clínicos prefieren referirse a las escalas clínicas por su ___.|número|nombre|abreviatura"
+      "Muchos clínicos prefieren referirse a las escalas clínicas por su ___.|número|nombre|autor"
     ],
     tf: [
       "Una puntuación alta en la escala 8 significa que la persona tiene esquizofrenia.|F|Indica que respondió como aquellos pacientes en una serie de ítems. Los nombres de las escalas son históricos.",
@@ -314,8 +314,8 @@ window.COURSE.units.push(
   { t: "16PF-5 y EPQ-R",
     tip: "El 16PF-5 de Cattell (185 ítems) ofrece 16 escalas primarias, 5 dimensiones globales y 3 índices de estilo de respuesta, y su factor B es una breve medida de capacidad. El EPQ-R de Eysenck mide E, N, P y la escala L. Su psicoticismo no mide psicosis, sino dureza, frialdad e impulsividad. La diferencia de fondo entre ambos es de nivel de análisis.",
     v: [
-      "Datos L=Registros de la vida real en el análisis de Cattell",
-      "Datos Q=Información procedente de cuestionarios en el análisis de Cattell",
+      "Extraversión (EPQ-R)=Sociabilidad, actividad y búsqueda de estimulación",
+      "Atención a las normas=Escala primaria del 16PF-5, útil para puestos con normas de seguridad estrictas",
       "Factor B=Escala primaria del 16PF que es una breve medida de capacidad intelectual",
       "Dimensiones globales=Extraversión, ansiedad, dureza, independencia y autocontrol",
       "Psicoticismo (EPQ-R)=Dureza, frialdad, impulsividad y despreocupación por las normas",
@@ -404,7 +404,7 @@ window.COURSE.units.push(
       "La autodirección y la cooperación son dimensiones de ___.|carácter|temperamento|apertura",
       "El HEXACO-PI-R se usa sobre todo en ___.|investigación|selección|clínica",
       "La búsqueda de novedad se relaciona con la extraversión y con la baja ___.|responsabilidad|amabilidad|emocionalidad",
-      "La evitación del daño se relaciona con el ___.|neuroticismo|psicoticismo|desapego"
+      "La evitación del daño se relaciona con el ___.|neuroticismo|psicoticismo|antagonismo"
     ],
     tf: [
       "El TCI fue desarrollado por Eysenck a partir de sus superfactores.|F|Es de Cloninger, y su lógica de temperamento frente a carácter es distinta de la de los superfactores de Eysenck.",
@@ -517,7 +517,7 @@ window.COURSE.units.push(
     ],
     g: [
       "Hay alteraciones funcionales con una resonancia casi normal, como tras un traumatismo ___.|leve|grave|abierto",
-      "En la evaluación forense, la validez del ___ debe comprobarse siempre.|rendimiento|protocolo|baremo",
+      "En la evaluación forense, la validez del ___ debe comprobarse siempre.|rendimiento|diagnóstico|baremo",
       "El TDAH y las dificultades de aprendizaje pertenecen al ámbito del ___.|neurodesarrollo|envejecimiento|contexto laboral",
       "Durante décadas, la pregunta principal fue si había lesión y ___ estaba.|dónde|cuándo|cómo",
       "Comparar dos evaluaciones de la misma persona separadas por un año responde al objetivo de ___.|seguimiento|diagnóstico|investigación"

@@ -18,12 +18,12 @@ window.COURSE.units.push(
       "La rama interventivo-valorativa sigue una lógica cercana a la ___.|experimental|correlacional|idiográfica",
       "Las fases básicas del proceso son ___, y se añade otra cuando hay intervención.|cuatro|tres|seis",
       "La flecha de retorno de la figura indica que la ___ puede obligar a reformular las hipótesis.|contrastación|demanda|devolución",
-      "Orientar el cambio y valorar sus efectos exigen la rama ___.|interventivo-valorativa|descriptivo-predictiva|correlacional-normativa"
+      "En la rama descriptivo-predictiva, las puntuaciones se comparan con normas o ___.|criterios|tratamientos|hipótesis"
     ],
     tf: [
       "En el modelo de Fernández-Ballesteros, las conclusiones deben apoyarse en datos que otro evaluador podría revisar.|V",
       "Evaluar es una secuencia lineal: se recoge información, se pasa una batería de tests y se redacta el informe.|F|Es un mito: el proceso es cíclico y la contrastación puede obligar a reformular las hipótesis.",
-      "Describir, clasificar, predecir y explicar pueden cerrarse en la rama descriptivo-predictiva.|V",
+      "Durante la intervención puede aparecer información que obligue a revisar lo que se creía saber del caso.|V",
       "La rama descriptivo-predictiva introduce un tratamiento y mide su efecto.|F|Eso es propio de la rama interventivo-valorativa. La descriptivo-predictiva compara con normas o criterios."
     ],
     q: [
@@ -51,18 +51,18 @@ window.COURSE.units.push(
       "Hipótesis de asociación=Afirma que dos variables van juntas, lo que permite predecir",
       "Hipótesis funcional=Explica por qué ocurre la conducta: qué la provoca y qué la mantiene",
       "Enunciado verificable=Predicción concreta que indica qué se debería observar si la hipótesis es cierta",
-      "Achenbach y cols. (1987)=Metaanálisis de 119 estudios sobre la concordancia entre informantes"
+      "Primera entrevista=Recogida inicial del problema, su historia, su contexto y los recursos de la persona"
     ],
     g: [
       "En el metaanálisis de Achenbach y cols., la correlación media entre dos profesores fue de ___.|0,60|0,28|0,22",
-      "Entre el propio niño y los demás informantes, la correlación media fue de ___.|0,22|0,28|0,60",
+      "«Si se le dan fichas más fáciles, se levantará menos que en la línea base» es un enunciado ___.|verificable|normativo|diagnóstico",
       "El Código Deontológico pide rechazar un encargo que se vaya a usar contra los intereses de las personas en su art. ___.|24|25|39",
       "Las hipótesis ___ son las que más información dan para intervenir.|funcionales|de semejanza|de cuantificación",
       "Rettew et al. (2009) hallaron una concordancia ___ entre el diagnóstico rutinario y el de entrevistas estandarizadas.|baja|alta|perfecta"
     ],
     tf: [
       "Quien consulta no siempre es quien va a ser evaluado.|V",
-      "Entre un profesor y un progenitor, la concordancia media fue la más baja del metaanálisis de Achenbach y cols.|F|Fue de 0,28. La más baja, 0,22, se dio entre el propio niño y los demás informantes.",
+      "Comprobar las condiciones de partida consiste en revisar que el material de los tests esté completo.|F|Consiste en verificar la competencia del evaluador, la legitimidad de la demanda y que la persona esté informada.",
       "Las hipótesis funcionales suelen apoyarse en hipótesis de cuantificación, semejanza o asociación.|V",
       "«Las interrupciones son más frecuentes con tareas escritas largas» es una hipótesis funcional.|F|Solo dice que dos variables van juntas: es de asociación o predictiva. La funcional explica por qué ocurre."
     ],
@@ -94,7 +94,7 @@ window.COURSE.units.push(
     g: [
       "Si la hipótesis habla de frecuencia en el aula, un cuestionario de personalidad incumple el criterio de ___.|pertinencia|coste|variedad",
       "Si los datos contradicen la hipótesis, se descarta y se vuelve a la fase ___.|2|1|4",
-      "Comparar la tendencia de la línea base con la del tratamiento es más seguro que una medida antes y otra ___.|después|durante|base",
+      "Tras la línea base, la conducta de Hugo se sigue registrando durante el tratamiento mediante medidas ___.|repetidas|aisladas|únicas",
       "Cuando no hay intervención prevista, la evaluación acaba en la fase de ___.|resultados e informe|contrastación|seguimiento",
       "Si la conducta reaparece tras el seguimiento, el proceso vuelve a empezar con hipótesis ___.|nuevas|iguales|previas"
     ],
@@ -129,7 +129,7 @@ window.COURSE.units.push(
       "Standards (2014)=Normas de AERA, APA y NCME centradas sobre todo en los tests",
       "Código Deontológico=Norma que regula la conducta ética del profesional",
       "Lista de comprobación=Uso práctico de las GAP para revisar cada fase del proceso",
-      "European Journal=Revista de evaluación psicológica en la que se publicaron las GAP"
+      "European Journal of Psychological Assessment=Revista en la que se publicaron las GAP en 2001"
     ],
     g: [
       "Las GAP contienen ___ directrices.|96|69|100",
@@ -147,7 +147,7 @@ window.COURSE.units.push(
     q: [
       "Un psicólogo de empresa recibe el encargo de evaluar a un empleado por «problemas de actitud». Según el espíritu de las GAP, ¿qué hace primero?|Aclarar la conducta y la legitimidad|Aplicar un test de personalidad|Elegir una batería de actitudes|Antes de aplicar pruebas aclara qué conducta preocupa, quién recibe el informe, si el trabajador está informado y si la demanda es legítima.",
       "¿Qué distingue a las GAP de los Standards (2014)?|Cubren el proceso completo|Son normas legales europeas|Regulan solo la ética|Los Standards se centran en los tests. Las GAP abarcan desde la demanda hasta el seguimiento.",
-      "¿Quién coordinó el grupo de trabajo que elaboró las GAP?|Rocío Fernández-Ballesteros|Thomas Achenbach|David Rettew|El grupo de la EAPA lo coordinó Fernández-Ballesteros, y se publicaron como Fernández-Ballesteros et al. (2001).",
+      "¿Quién coordinó el grupo de trabajo que elaboró las GAP?|Rocío Fernández-Ballesteros|Paul Meehl|Mariano Yela|El grupo de la EAPA lo coordinó Fernández-Ballesteros, y se publicaron como Fernández-Ballesteros et al. (2001).",
       "En la fase de hipótesis, ¿qué cuestión de control ayudan a revisar las GAP?|Si hay explicaciones alternativas|Si el informe es comprensible|Si se ha previsto el seguimiento|En la fase de hipótesis se revisa si se han considerado alternativas y si son contrastables."
     ],
     inc: [
@@ -186,8 +186,8 @@ window.COURSE.units.push(
     ],
     q: [
       "Un equipo de orientación decide qué alumnos necesitan refuerzo lector, y cada orientadora pondera distinto caligrafía, conducta e informe familiar. ¿Qué mejora más la coherencia?|Una regla validada que combine los datos|Más años de experiencia del equipo|Una entrevista más larga con cada familia|Una regla explícita pondera siempre igual. La orientadora sigue revisando los casos dudosos.",
-      "¿Qué concluyó Meehl (1954) tras revisar los estudios disponibles?|Las reglas igualaban o superaban al clínico|El clínico superaba a las reglas en general|Ambos métodos eran siempre equivalentes|Su libro desató la polémica al cuestionar que la experiencia integre mejor los datos que una fórmula.",
-      "¿Para qué sigue siendo imprescindible el clínico según el temario?|Para detectar circunstancias excepcionales|Para sumar los datos ya reunidos|Para ponderar las variables del caso|También analiza la demanda, decide qué datos recoger, los obtiene y comunica los resultados.",
+      "Un clínico veterano sostiene que su intuición integra los datos mejor que cualquier regla. ¿Qué indica la evidencia desde Meehl (1954)?|Que suele ocurrir lo contrario|Que tiene razón si es experto|Que depende solo del tipo de dato|La combinación mecánica iguala o supera al juicio en la gran mayoría de las comparaciones (Grove et al., 2000).",
+      "¿Para qué sigue siendo imprescindible el clínico pese a los datos de Grove et al.?|Para detectar circunstancias excepcionales|Para sumar los datos ya reunidos|Para ponderar las variables del caso|También analiza la demanda, decide qué datos recoger, los obtiene y comunica los resultados.",
       "¿Qué cuestión sigue en debate sobre el juicio clínico?|En qué situaciones concretas añade valor|Si la mecánica supera en la mayoría|Si el juicio humano tiene sesgos|Dado que cerca de la mitad de las comparaciones terminan en empate, se discute cuándo aporta valor."
     ],
     inc: [
@@ -340,7 +340,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Los padres de Clara, de 8 años, necesitan acreditar ante el colegio que su hija requiere más tiempo en los exámenes. ¿Qué documento corresponde?|Un certificado|Un informe técnico|Un informe personal|El certificado es breve, para un uso único y predeterminado, sin más datos que los imprescindibles.",
-      "¿Qué rasgo distingue al informe personal del técnico?|Lenguaje llano para el evaluado|Inclusión de puntuaciones|Uso único y predeterminado|El personal se dirige al evaluado o su familia, sin tecnicismos. El técnico se dirige a otros profesionales.",
+      "¿Qué rasgo es propio del informe personal y no del técnico?|Lenguaje llano para el evaluado|Inclusión de puntuaciones|Uso único y predeterminado|El personal se dirige al evaluado o su familia, sin tecnicismos. El técnico se dirige a otros profesionales.",
       "Una aseguradora encarga una evaluación y el evaluado pide ver el informe. ¿Qué procede?|Reconocer su derecho a conocerlo|Negárselo por no ser el cliente|Remitirle a la aseguradora|El art. 42 reconoce ese derecho aunque lo solicite un tercero, salvo grave perjuicio.",
       "¿Qué función cumple el informe al permitir que otro profesional revise lo hecho?|Documentar|Comunicar|Certificar|Documentar es dejar constancia de qué se hizo, con qué técnicas y en qué fechas."
     ],
@@ -368,7 +368,7 @@ window.COURSE.units.push(
       "En la identificación debe figurar el número de ___ del evaluador.|colegiado|registro|expediente",
       "«Lloró dos veces al hablar de su padre» es un ___.|dato|diagnóstico|juicio",
       "Presentar los resultados test por test obliga al lector a hacer la ___.|integración|corrección|baremación",
-      "Conviene anotar la demanda con las palabras de ___.|quien la trae|el evaluador|el tribunal"
+      "Conviene anotar la demanda con las palabras de ___.|quien la trae|quien evalúa|quien juzga"
     ],
     tf: [
       "El art. 48 exige que el informe exprese su alcance, sus limitaciones y el grado de certeza de sus conclusiones.|V",
@@ -432,7 +432,7 @@ window.COURSE.units.push(
   { t: "La entrevista de devolución y el informe pericial",
     tip: "La devolución sigue cinco pasos: recordar la demanda, exponer los hallazgos empezando por los recursos, comprobar la comprensión y la reacción, dar recomendaciones concretas y entregar el informe escrito si se pide. No se ocultan los aspectos negativos, se presentan de forma comprensible. El informe pericial responde al objeto de la pericia, separa datos de inferencias y hace constar sus límites. El perito no decide: aporta conocimiento para que decida el juez.",
     v: [
-      "Devolución=Comunicación oral de los resultados a la persona evaluada o a quien corresponda",
+      "Recomendaciones=Cuarto paso de la devolución: propuestas concretas y viables",
       "Empezar por los recursos=Exponer primero los puntos fuertes antes que las dificultades",
       "Comprobar la comprensión=Preguntar qué se ha entendido, cómo se siente y qué dudas hay",
       "Objeto de la pericia=Preguntas concretas que el procedimiento judicial plantea al perito",
@@ -500,10 +500,10 @@ window.COURSE.units.push(
       "Un psicólogo aplica una técnica novedosa sin estudios que la respalden y no avisa al cliente. ¿Qué artículo vulnera sobre todo?|Art. 18|Art. 19|Art. 45|El art. 18 exige informar antes del carácter experimental de los procedimientos no contrastados.",
       "Una psicóloga recibe a un adolescente derivado por su centro. Antes de empezar, ¿qué le exige el art. 25?|Explicar qué va a hacer y para qué|Pedir permiso al centro escolar|Aplicar solo pruebas de su gabinete|El art. 25 obliga a informar del método. Con menores, se hará saber a sus padres o tutores.",
       "Un cuestionario descargado de una web sin baremos ni estudios de validez se usa para un diagnóstico. ¿Qué artículos lo desaconsejan?|Los artículos 6, 17 y 18|Los artículos 12, 19 y 24|Los artículos 40, 42 y 43|Exigen conocer las garantías de lo que se aplica y no presentar como contrastado lo que no lo está.",
-      "En el minicaso del adolescente, ¿qué artículo regula decidir con la familia qué información llega al centro?|Art. 41|Art. 46|Art. 49|El art. 41 permite comunicar a terceros solo con autorización del interesado."
+      "Una psicóloga evalúa a un adolescente derivado por su centro y debe decidir con la familia qué información llega al centro. ¿Qué artículo lo regula?|Art. 41|Art. 46|Art. 49|El art. 41 permite comunicar a terceros solo con autorización del interesado."
     ],
     inc: [
-      "Sobre el Código Deontológico vigente|Es el nuevo Código aprobado en 2026|Su versión consolidada se cita como COP, 2015|Se modificó en 2010, 2014 y 2015|El nuevo Código sigue en tramitación. El vigente es el de 1987 con sus modificaciones."
+      "Sobre el Código Deontológico vigente|Solo obliga a los psicólogos sanitarios|Su versión consolidada se cita como COP, 2015|Se modificó en 2010, 2014 y 2015|Obliga a los psicólogos colegiados, no solo a los de un ámbito concreto como el sanitario."
     ],
     seq: [
       "Historia del Código Deontológico vigente|Aprobación por el COP (1987)>Adaptación a la Ley Ómnibus (2010)>Modificación de 2014>Modificación de 2015"
@@ -526,9 +526,9 @@ window.COURSE.units.push(
     g: [
       "El secreto profesional persiste tras el fallecimiento de la persona según el art. ___.|49|45|40",
       "El anonimato al exponer casos con fines docentes se regula en el art. ___.|45|44|47",
-      "La presencia de terceros en la evaluación requiere el consentimiento del evaluado según el art. ___.|47|41|43",
+      "La prohibición de usar la información obtenida en beneficio propio figura en el art. ___.|44|46|42",
       "La Ley ___ regula la información, el consentimiento y la documentación clínica en el ámbito sanitario.|41/2002|3/2018|2024/1689",
-      "La excepción al secreto debe justificarse y no convertirse en la ___.|norma|regla de oro|práctica"
+      "La excepción al secreto debe justificarse y no convertirse en la ___.|norma|excepción|sanción"
     ],
     tf: [
       "La empresa que encarga la evaluación de un candidato puede recibir toda la información que este haya contado.|F|Es una trampa típica: según el art. 43, el informe para la institución se limita a lo acordado para ese fin.",
@@ -572,11 +572,11 @@ window.COURSE.units.push(
       "El art. 25 exige literalmente el consentimiento de ambos progenitores para evaluar a un menor.|F|Dice «se hará saber a sus padres o tutores». El consentimiento de ambos lo acordó el Consejo General en 2002 para tratamientos.",
       "La conducta prudente incluye informar también al menor, con un lenguaje adaptado a su edad.|V",
       "Si un progenitor paga la evaluación de su hijo, decide él solo.|F|Es un mito: pagar no otorga la decisión. Lo prudente es informar a ambos, documentarlo y guiarse por el interés del menor.",
-      "El evaluado debe saber que, si la evaluación la pide un tercero, el informe no es para él.|V"
+      "Si la evaluación la pide un tercero, el evaluado debe saber que el informe no es para él, aunque conserve el derecho a conocerlo.|V"
     ],
     q: [
       "Una madre separada pide evaluar la atención de su hija de nueve años y paga las sesiones. El padre no sabe nada. ¿Qué es lo prudente?|Informar también al padre|Evaluar solo con la madre|Pedir permiso al colegio|Pagar no da la decisión en exclusiva: el padre debe ser informado, y en muchos colegios se exigiría su conformidad.",
-      "En el caso anterior, la madre quiere usar el informe en un procedimiento de custodia. ¿Qué ocurre?|La evaluación entra en el terreno pericial|La evaluación se mantiene como clínica|El informe pasa a ser un certificado|Cambia de naturaleza y entra en el terreno pericial, con exigencias propias de Psicología Jurídica.",
+      "Una madre separada quiere usar en un procedimiento de custodia el informe sobre la atención de su hija. ¿Qué ocurre?|La evaluación entra en el terreno pericial|La evaluación se mantiene como clínica|El informe pasa a ser un certificado|Cambia de naturaleza y entra en el terreno pericial, con exigencias propias de Psicología Jurídica.",
       "¿Qué elemento forma parte del consentimiento informado en evaluación?|Quién recibirá los resultados|El precio de cada sesión|La puntuación esperada|Incluye objetivo y solicitante, técnicas y tiempo, destinatarios, límites de la confidencialidad y derechos.",
       "Un psicólogo sabe que una empresa usará su evaluación para perjudicar a un trabajador. ¿Qué le exige el Código?|Rechazar el encargo|Avisar al trabajador|Pedir más honorarios|El art. 24 obliga a rechazar el encargo si se va a usar contra los intereses de las personas."
     ],

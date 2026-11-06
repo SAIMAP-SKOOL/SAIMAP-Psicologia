@@ -23,7 +23,7 @@ window.COURSE.units.push(
     tf: [
       "Los cuatro primeros objetivos clásicos pueden cerrar una evaluación por sí solos, sin intervención posterior.|V",
       "Evaluar consiste sobre todo en reunir el mayor número posible de datos sobre la persona.|F|El evaluador parte de una pregunta, propone hipótesis y elige las técnicas que permiten contrastarlas.",
-      "En la definición de Fernández-Ballesteros, lo evaluado incluye respuestas fisiológicas y características estables como los rasgos.|V",
+      "Lo que se evalúa incluye, además de lo que la persona hace, piensa y siente, sus respuestas fisiológicas y rasgos estables.|V",
       "La evaluación psicológica termina cuando se obtiene la puntuación del test principal.|F|Termina con una respuesta razonada a la demanda, comunicada de forma comprensible y respetando las normas éticas."
     ],
     q: [
@@ -109,7 +109,7 @@ window.COURSE.units.push(
       "En un peritaje, la psicóloga tiene presente que de su informe puede depender una sentencia. ¿Qué aspecto de la demanda analiza?|La decisión que depende del resultado|El grado de voluntariedad del evaluado|Quién formula la petición inicial|Del resultado puede depender un tratamiento, una adaptación escolar, una contratación o una sentencia."
     ],
     inc: [
-      "Sobre el análisis de la demanda|Quien pide la evaluación es siempre la persona evaluada|Hay que analizar el grado de voluntariedad del evaluado|La demanda puede proceder de un juzgado o una aseguradora|Quien pide no siempre es el evaluado: unos padres o una empresa son clientes, y la persona evaluada es otra."
+      "Sobre el análisis de la demanda|La distorsión intencionada es típica de la demanda voluntaria|Hay que analizar el grado de voluntariedad del evaluado|La demanda puede proceder de un juzgado o una aseguradora|La distorsión preocupa sobre todo en las demandas de terceros, como la selección o el peritaje, no en la voluntaria."
     ],
     seq: [],
     cls: [
@@ -144,7 +144,7 @@ window.COURSE.units.push(
       "La tutora de Pablo, de 12 años, describe interrupciones constantes, sus padres no ven nada parecido en casa y la observación las sitúa en matemáticas. ¿Cómo debe interpretarse la discrepancia?|Como información sobre el contexto|Como prueba de que los padres mienten|Como error de medida que hay que descartar|El desacuerdo indica en qué situaciones aparece el problema. Juntas, las fuentes sugieren una dificultad de aprendizaje.",
       "¿Qué acuerdo medio halló el metaanálisis entre un progenitor y un profesor?|0,28|0,60|0,22|Entre informantes de distinto tipo fue de 0,28, frente a 0,60 entre similares y 0,22 entre el sujeto y los demás.",
       "¿Qué método capta mejor pensamientos, emociones y experiencias privadas?|El autoinforme|La observación|El registro de productos|Su riesgo típico es la deseabilidad social y los estilos de respuesta.",
-      "Antes de añadir un cuarto cuestionario, un evaluador se pregunta qué aportará que no den los tres anteriores. ¿Qué criterio aplica?|La validez incremental|La fiabilidad interjueces|El ancho de banda|Cada técnica nueva debería añadir algo que las anteriores no daban (Hunsley y Mash)."
+      "¿Qué riesgo típico se atribuye a los tests de rendimiento?|Situación artificial y motivación variable|Deseabilidad social y estilos de respuesta|Reactividad y errores del observador|Miden aptitudes en condiciones controladas, a costa de una situación artificial. Las otras opciones son del autoinforme y la observación."
     ],
     inc: [
       "Sobre la evaluación multimétodo|Existe una regla única para ponderar a cada informante|Integrar datos discrepantes exige juicio del evaluador|Cada método tiene ventajas y sesgos característicos|No hay una regla única para decidir cuánto peso dar a cada informante. Es una cuestión en debate."
@@ -241,7 +241,7 @@ window.COURSE.units.push(
       "CI de desviación=Posición respecto al grupo de edad, con media 100 y DT 15 (Wechsler-Bellevue, 1939)",
       "MMPI=Inventario de 1943 con ítems elegidos por diferenciar grupos clínicos",
       "TAT=Técnica proyectiva de Morgan y Murray (1935)",
-      "Correlación ilusoria=Relaciones entre signos y diagnósticos que los clínicos ven sin que existan",
+      "Yerkes=Dirigió el grupo que elaboró en 1917 las pruebas colectivas del ejército de EE. UU.",
       "Meehl (1954)=Mostró que la predicción estadística igualaba o superaba al juicio clínico",
       "GAP=Guías para el Proceso de Evaluación (Fernández-Ballesteros et al., 2001)"
     ],
@@ -295,7 +295,7 @@ window.COURSE.units.push(
     tf: [
       "Mariano Yela fue el primer catedrático de psicología de la historia de España.|F|Fue el primero de la nueva etapa. A comienzos del siglo XX ya existía la cátedra de Psicología Experimental de Simarro.",
       "Las fuentes discrepan sobre si el departamento del CSIC dirigido por Germain se creó en 1943 o en 1948.|V",
-      "En noviembre de 2026 el nuevo Código Deontológico ya está aprobado definitivamente y en vigor.|F|El proyecto se aprobó en febrero de 2026, pero no consta su aprobación definitiva: está en tramitación.",
+      "La Escuela de Psicología y Psicotecnia de Madrid fue la primera institución española de psicotecnia.|F|Antes, en 1918–1919, se creó en Barcelona el Institut d'Orientació Professional, con Mira i López.",
       "La Guerra Civil interrumpió el desarrollo de la psicotecnia, y Mira i López marchó al exilio.|V"
     ],
     q: [
@@ -365,18 +365,18 @@ window.COURSE.units.push(
       "El nivel de inferencia del modelo médico es ___.|medio-alto|muy alto|bajo-medio",
       "En la práctica psicoanalítica no hay una fase de evaluación separada del ___.|tratamiento|diagnóstico|informe",
       "El Código Deontológico pide cautela con etiquetas como «normal/anormal» en su artículo ___.|12|25|6",
-      "En España, ninguna técnica proyectiva figura entre los ___ tests más usados.|25|10|50",
+      "El modelo dinámico deriva del ___.|psicoanálisis|conductismo|humanismo",
       "El modelo médico aporta un ___ común entre profesionales y da acceso a prestaciones.|lenguaje|baremo|método"
     ],
     tf: [
       "En el modelo dinámico, el objeto de estudio es la conducta en sí misma.|F|Le interesa lo que la conducta expresa de la vida mental inconsciente, no la conducta en sí.",
       "Dos personas con el mismo diagnóstico pueden necesitar intervenciones distintas.|V",
-      "Rettew et al. (2009) demostraron que el diagnóstico clínico rutinario es peor que el de las entrevistas estandarizadas.|F|Hallaron baja concordancia (kappa de 0,27), pero advierten que eso no demuestra cuál de las dos vías es peor.",
+      "En el modelo médico, cada síntoma interesa por sí mismo, con independencia del cuadro que forme con otros.|F|Interesa qué cuadro forman juntos, el síndrome: cada síntoma funciona como una pista del trastorno de fondo.",
       "Los modelos médico y dinámico comparten con el psicométrico la idea de que las causas de la conducta son internas.|V"
     ],
     q: [
       "Un clínico pide a una paciente que describa láminas ambiguas y deduce de ellas conflictos de su infancia que ella desconoce. ¿Qué modelo aplica?|El dinámico|El fenomenológico|El médico|Usa técnicas proyectivas para inferir conflictos inconscientes. Es el modelo con el nivel de inferencia más alto.",
-      "¿Qué concordancia media hallaron Rettew et al. entre el diagnóstico rutinario y las entrevistas estandarizadas?|Baja, con kappa de 0,27|Alta, con kappa de 0,72|Moderada, con kappa de 0,50|Analizaron 38 estudios. La concordancia fue baja, aunque eso no demuestra cuál de las dos vías es peor.",
+      "¿Qué técnicas usa preferentemente el modelo médico?|Entrevista clínica y examen del estado mental|Láminas ambiguas y asociación libre|Observación directa y análisis funcional|Las completa con escalas de síntomas y observación, y toma como referencia el DSM y la CIE.",
       "¿Qué límite se atribuye al diagnóstico del modelo médico?|La etiqueta no explica qué mantiene el problema|No permite un lenguaje común entre profesionales|Impide el acceso a tratamientos y prestaciones|Además, dos personas con el mismo diagnóstico pueden necesitar intervenciones distintas, y la etiqueta puede estigmatizar.",
       "¿Qué problema mostraron los estudios sobre correlación ilusoria en las técnicas proyectivas?|Los clínicos veían relaciones inexistentes|Los pacientes falseaban sus respuestas|Las láminas carecían de baremos fiables|Los clínicos podían «ver» en estas pruebas relaciones entre signos y diagnósticos que no existían en los datos."
     ],
@@ -484,11 +484,11 @@ window.COURSE.units.push(
       "Freud, Rogers y Kelly son ejemplos de autores de orientación ___.|idiográfica|nomotética|idiotética",
       "El enfoque idiotético describe a cada persona sin transformar sus puntuaciones en ___ de grupo.|normas|criterios|medias",
       "Una escala de 0 a 10 en la que el paciente puntúa su dolor es cuantitativa y ___ a la vez.|subjetiva|objetiva|cualitativa",
-      "Lo ipsativo es un tipo de ___, mientras que lo idiográfico es una orientación general.|puntuación|enfoque|modelo"
+      "El enfoque idiotético busca principios generales a partir de muchas descripciones ___.|individuales|normativas|grupales"
     ],
     tf: [
       "Cuantitativo y objetivo son equivalentes, igual que cualitativo y subjetivo.|F|No coinciden: una escala de dolor de 0 a 10 es cuantitativa y subjetiva, y un registro narrativo puede ser riguroso.",
-      "Allport aparece a la vez como quien popularizó la distinción y como autor de orientación idiográfica.|V",
+      "Allport, que popularizó la distinción entre nomotético e idiográfico, es él mismo un autor de orientación idiográfica.|V",
       "El enfoque idiotético ha desplazado a los enfoques nomotético e idiográfico clásicos.|F|No los ha desplazado y recibió críticas metodológicas (Paunonen, 1986), aunque muestra que pueden articularse.",
       "Una entrevista abierta puede generar hipótesis que después se contrastan con medidas cuantitativas.|V"
     ],
@@ -528,7 +528,7 @@ window.COURSE.units.push(
       "Las puntuaciones ipsativas permiten comparar directamente a distintas personas.|F|Ordenan las preferencias dentro de la misma persona, así que no permiten comparar directamente a distintos sujetos.",
       "Para la muestra, el problema central es demostrar que es representativa de la conducta en otras situaciones y momentos.|V",
       "Las unidades molares facilitan el acuerdo entre observadores, aunque pueden perder significado.|F|Son las unidades moleculares las que facilitan el acuerdo entre observadores, a riesgo de perder significado.",
-      "La entrevista tiene mucho ancho de banda y una fidelidad variable.|V"
+      "Un test específico de atención tiene poco ancho de banda y mucha fidelidad.|V"
     ],
     q: [
       "Un niño llora en clase. La psicóloga averigua que unas veces lo hace para obtener atención y otras para evitar una tarea difícil. ¿Qué disyuntiva ilustra?|Estructura frente a función|Rasgo frente a estado|Molar frente a molecular|La misma topografía puede cumplir funciones distintas: describir la conducta no basta, hay que saber para qué sirve.",
@@ -537,7 +537,7 @@ window.COURSE.units.push(
       "En todos los ítems, una persona elige entre «me gusta organizar» y «me gusta crear». ¿Qué no puede concluirse?|Que le guste organizar más que a otra|Que ella prefiera organizar antes que crear|Cuál es su orden de preferencias|Las puntuaciones ipsativas ordenan preferencias dentro de la persona, pero no permiten comparar sujetos."
     ],
     inc: [
-      "Sobre las referencias de interpretación|La interpretación normativa compara con un nivel de dominio|La interpretación ipsativa compara a la persona consigo misma|La unidad elegida fija la fiabilidad alcanzable|La comparación con un nivel de dominio fijado es criterial. La normativa compara con un grupo de referencia."
+      "Sobre estas disyuntivas|La interpretación normativa compara con un nivel de dominio|La interpretación ipsativa compara a la persona consigo misma|La unidad elegida fija la fiabilidad alcanzable|La comparación con un nivel de dominio fijado es criterial. La normativa compara con un grupo de referencia."
     ],
     seq: [],
     cls: [

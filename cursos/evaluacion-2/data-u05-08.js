@@ -216,7 +216,7 @@ window.COURSE.units.push(
       "El comité que elaboró los tests del ejército en 1917 lo dirigió ___.|Yerkes|Terman|Wechsler",
       "En adultos, el CI de razón ___ artificialmente porque la edad mental deja de crecer.|baja|sube|oscila",
       "Con el CI de desviación, quien está una DT por encima de la media de su edad obtiene ___.|115|110|116",
-      "Las escalas de Wechsler y el Stanford-Binet son de aplicación ___.|individual|colectiva|autoaplicada"
+      "Terman multiplicó el cociente por 100 para evitar los ___.|decimales|negativos|empates"
     ],
     tf: [
       "Terman propuso el cociente entre edad mental y cronológica, y Stern lo multiplicó por 100.|F|Es al revés: Stern (1912) propuso el cociente, y Terman (1916) lo multiplicó por 100 en el Stanford-Binet.",
@@ -292,10 +292,10 @@ window.COURSE.units.push(
       "La evaluación dinámica conecta con la zona de desarrollo próximo de ___.|Vygotsky|Piaget|Feuerstein",
       "El principal inconveniente de la evaluación dinámica es su difícil ___.|estandarización|interpretación|administración",
       "Los tests adaptativos informatizados se basan en la teoría de ___ al ítem.|respuesta|ajuste|selección",
-      "El CI es uno de los rasgos psicológicos más estables a partir de la ___.|adolescencia|infancia|edad adulta"
+      "El CI es uno de los rasgos psicológicos más estables a partir de la ___.|adolescencia|infancia|vejez"
     ],
     tf: [
-      "Las matrices de tipo Raven son pruebas libres de cultura.|F|Ningún test lo está: las matrices exigen familiaridad con el papel y lápiz y con el razonamiento abstracto escolar.",
+      "Un ítem de información general mide lo mismo en cualquier persona, con independencia del entorno en que haya crecido.|F|Favorece a quien ha crecido rodeado de ese conocimiento: es el sesgo cultural que llevó a buscar pruebas de menor carga cultural.",
       "Una heredabilidad alta dentro de un grupo implica que las diferencias entre grupos son genéticas.|F|No lo implica, ni tampoco que el CI sea inmodificable.",
       "En la evaluación dinámica, el evaluador actúa como mediador activo.|V",
       "Cada año adicional de escolarización se asocia con una ganancia estimada de entre 1 y 5 puntos de CI.|V"
