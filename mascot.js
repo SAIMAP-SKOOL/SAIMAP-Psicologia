@@ -47,7 +47,7 @@
     const antenna = s => `<path d="M${60 + s * 6} 34C${60 + s * 9} 24 ${60 + s * 16} 15 ${60 + s * 22} 12C${60 + s * 28} 9 ${60 + s * 31} 14 ${60 + s * 27} 17C${60 + s * 24} 19 ${60 + s * 22} 15 ${60 + s * 25} 14" fill="none" stroke="${k}" stroke-width="2.1" stroke-linecap="round"/><circle cx="${60 + s * 25}" cy="14" r="2.3" fill="#F08A73"/>`;
     const sparkle = wow ? `<path d="M104 4l1.8 4.4 4.4 1.8-4.4 1.8-1.8 4.4-1.8-4.4-4.4-1.8 4.4-1.8z" fill="#F5B81F"/><path d="M14 2l1.4 3.4 3.4 1.4-3.4 1.4L14 11.6l-1.4-3.4-3.4-1.4 3.4-1.4z" fill="#F5B81F"/>` : '';
     const tear = sad ? `<path d="M68.5 56q2.2 3.6 0 5q-2.2-1.4 0-5z" fill="#7CC6EA"/>` : '';
-    return `<svg class="psique" viewBox="0 0 120 124" aria-hidden="true"><defs>
+    return `<svg class="psique m-${mood || 'happy'}" viewBox="0 0 120 124" aria-hidden="true"><defs>
       <radialGradient id="${id}u" cx=".35" cy=".45" r=".8"><stop offset="0" stop-color="#9AD6F2"/><stop offset=".5" stop-color="#3E93C2"/><stop offset="1" stop-color="#1D5C7E"/></radialGradient>
       <linearGradient id="${id}l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F9B9A6"/><stop offset=".6" stop-color="#E06E54"/><stop offset="1" stop-color="#C24A33"/></linearGradient>
       <radialGradient id="${id}h" cx=".42" cy=".35" r=".75"><stop offset="0" stop-color="#FFFDF8"/><stop offset=".75" stop-color="#FFF1DE"/><stop offset="1" stop-color="#F0D3B2"/></radialGradient>

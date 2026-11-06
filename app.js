@@ -30,10 +30,14 @@
     chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
     id: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="11" r="2.5"/><path d="M5.5 17c.6-1.8 1.9-2.6 3.5-2.6s2.9.8 3.5 2.6M15 10h3.5M15 14h3"/></svg>',
     heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 20.5S3 15 3 8.8A4.8 4.8 0 0 1 12 6.6a4.8 4.8 0 0 1 9 2.2C21 15 12 20.5 12 20.5z"/><path d="M7 12h2.5l1.5-3 2 6 1.5-3H17"/></svg>',
+    down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>',
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
   };
   const areaOf = id => CAT.areas.find(a => a.id === id) || { ico: 'book', t: '' };
   const courseMeta = id => CAT.courses.find(c => c.id === id);
+  const COLOR_HUE = { 1: 201, 2: 158, 3: 10, 4: 262, 5: 188 };
+  const hueOf = id => { const m = courseMeta(id) || {}; return m.hue != null ? m.hue : COLOR_HUE[m.color || 1]; };
+  const setHue = h => document.documentElement.style.setProperty('--h', h == null ? 201 : h);
 
   // ---------- almacenamiento ----------
   const LS = {
@@ -41,7 +45,7 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
   };
   let G = Object.assign(P.blankGlobal(), LS.get('sp.g', {}));
-  const saveG = () => { LS.set('sp.g', G); queuePush('_global'); };
+  const saveG = () => { LS.set('sp.g', G); queuePush('_global'); remSync(); };
   const courseState = id => Object.assign(P.blankCourse(), LS.get('sp.c.' + id, {}));
   const saveC = (id, S) => { LS.set('sp.c.' + id, S); queuePush(id); };
   const localCourses = () => { try { return Object.keys(localStorage).filter(k => k.startsWith('sp.c.')).map(k => k.slice(5)); } catch (e) { return []; } };
@@ -161,9 +165,37 @@
       if (ok) { sh.close(); route(); } else ev.target.disabled = false;
     };
   }
-  const prefs = Object.assign({ theme: 'auto' }, LS.get('sp.prefs', {}));
+  const prefs = Object.assign({ theme: 'auto', vib: true, snd: false, motion: 'auto', fs: 16.5, rem: false, remH: 19 }, LS.get('sp.prefs', {}));
+  const savePrefs = () => LS.set('sp.prefs', prefs);
   const applyTheme = () => { if (prefs.theme === 'auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', prefs.theme); };
-  applyTheme();
+  const applyMotion = () => document.documentElement.classList.toggle('still', prefs.motion === 'reduce');
+  const still = () => prefs.motion === 'reduce' || matchMedia('(prefers-reduced-motion: reduce)').matches;
+  applyTheme(); applyMotion();
+
+  // ---------- efectos: vibración, sonidos (sintetizados, sin archivos) y confeti ----------
+  const FX = {
+    buzz(kind) { if (!prefs.vib || !navigator.vibrate) return; try { navigator.vibrate(kind === 'ok' ? 18 : kind === 'no' ? [40, 60, 40] : [20, 40, 20, 40, 60]); } catch (e) { } },
+    ac: null,
+    tone(kind) {
+      if (!prefs.snd) return;
+      try {
+        const A = FX.ac || (FX.ac = new (window.AudioContext || window.webkitAudioContext)()), t0 = A.currentTime;
+        const seq = kind === 'ok' ? [[660, 0, .09], [990, .08, .14]] : kind === 'no' ? [[220, 0, .12], [175, .1, .18]] : [[523, 0, .1], [659, .1, .1], [784, .2, .1], [1047, .3, .25]];
+        seq.forEach(([f, d, len]) => {
+          const o = A.createOscillator(), g = A.createGain(); o.type = kind === 'no' ? 'triangle' : 'sine'; o.frequency.value = f;
+          g.gain.setValueAtTime(0.0001, t0 + d); g.gain.exponentialRampToValueAtTime(0.16, t0 + d + .015); g.gain.exponentialRampToValueAtTime(0.0001, t0 + d + len);
+          o.connect(g).connect(A.destination); o.start(t0 + d); o.stop(t0 + d + len + .02);
+        });
+      } catch (e) { }
+    },
+    confetti() {
+      if (still()) return;
+      const box = document.createElement('div'); box.className = 'confetti'; box.setAttribute('aria-hidden', 'true');
+      const cols = ['#F5B81F', '#D2553C', '#1D5C7E', '#17875A', '#6A4FC0', '#4CC6D8'];
+      box.innerHTML = Array.from({ length: 90 }, () => `<i style="left:${Math.random() * 100}%;background:${cols[Math.floor(Math.random() * cols.length)]};--dx:${Math.round((Math.random() - .5) * 160)}px;--rot:${Math.round(Math.random() * 720)}deg;animation-duration:${(1.6 + Math.random() * 1.4).toFixed(2)}s;animation-delay:${(Math.random() * .4).toFixed(2)}s"></i>`).join('');
+      document.body.appendChild(box); setTimeout(() => box.remove(), 3600);
+    }
+  };
 
   // ---------- cursos (se cargan bajo demanda) ----------
   const COURSES = {}, ENGINES = {};
@@ -179,8 +211,8 @@
   function topbar(left) {
     const s = P.liveStreak(G);
     return `<header class="top">${left || `<div class="brand"><span class="logo" aria-hidden="true">Ψ</span><span>SAIMAP <i>Psicología</i></span></div>`}
-      <span class="stat fire ${s ? 'lit' : ''}" title="Racha de días">${I.fire}${s}</span>
-      <span class="stat xp" title="Puntos de experiencia">${I.bolt}${G.xp}</span>
+      <button class="stat fire ${s ? 'lit' : ''}" data-act="stats" aria-label="Racha: ${s} ${s === 1 ? 'día' : 'días'}. Ver estadísticas">${I.fire}${s}</button>
+      <button class="stat xp" data-act="stats" aria-label="${G.xp} puntos de experiencia. Ver estadísticas">${I.bolt}${G.xp}</button>
       <button class="iconbtn" data-act="settings" aria-label="Ajustes">${I.gear}</button></header>`;
   }
   function sheet(html, onClose) {
@@ -194,22 +226,57 @@
   function greet() { const h = new Date().getHours(); return h < 6 ? 'Buenas noches' : h < 14 ? 'Buenos días' : h < 21 ? 'Buenas tardes' : 'Buenas noches'; }
   const scrollTop = () => window.scrollTo(0, 0);
 
+  // ---------- recordatorio diario: notificación local que el service worker comprueba en segundo plano ----------
+  // (Periodic Background Sync de Chrome/Android: el sistema decide cuándo mirar, así que puede llegar con retraso)
+  var REM = {
+    db() { return new Promise((ok, ko) => { const r = indexedDB.open('sp-rem', 1); r.onupgradeneeded = () => r.result.createObjectStore('kv'); r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error); }); },
+    async put(v) { try { const d = await REM.db(); d.transaction('kv', 'readwrite').objectStore('kv').put(v, 'state'); } catch (e) { } },
+    supported() { return 'serviceWorker' in navigator && 'Notification' in window && location.protocol === 'https:' && !window.SP_NO_SW; },
+    async enable() {
+      if (!REM.supported()) return 'Aquí no se pueden activar recordatorios. Funcionan en la app de Android y en Chrome.';
+      let perm = Notification.permission; if (perm !== 'granted') perm = await Notification.requestPermission();
+      if (perm !== 'granted') return 'Sin permiso para mostrar notificaciones. Puedes darlo en los ajustes del móvil.';
+      const reg = await navigator.serviceWorker.ready;
+      if (!reg.periodicSync) return 'Activado, pero este navegador no comprueba en segundo plano: solo te avisará si tienes la app abierta.';
+      try { await reg.periodicSync.register('sp-recordatorio', { minInterval: 4 * 3600 * 1000 }); } catch (e) { return 'Activado. El sistema decidirá cuándo comprobarlo, así que el aviso puede llegar con algo de retraso.'; }
+      return 'Activado. Te avisaremos a partir de esa hora si aún no has llegado a tu meta.';
+    },
+    async disable() { try { const reg = await navigator.serviceWorker.ready; if (reg.periodicSync) await reg.periodicSync.unregister('sp-recordatorio'); } catch (e) { } }
+  };
+  function remSync() { if (REM) REM.put({ on: !!prefs.rem, hour: prefs.remH, day: G.day || '', dx: P.todayXp(G), goal: G.goal || 30, streak: P.liveStreak(G) }); }
+
   // ---------- ajustes ----------
   function openSettings() {
     const sh = sheet(`<h2>Ajustes</h2>
       <div class="acct"></div>
       <div class="setrow"><span>Tema</span><div class="seg">${[['auto', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([k, t]) => `<button data-th="${k}" class="${prefs.theme === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
       <div class="setrow"><span>Meta diaria</span><div class="seg">${[20, 30, 50].map(n => `<button data-goal="${n}" class="${G.goal === n ? 'on' : ''}">${n} XP</button>`).join('')}</div></div>
+      <div class="setrow"><span>Recordatorio diario</span><div style="display:flex;gap:8px;align-items:center"><select data-remh aria-label="Hora del recordatorio">${Array.from({ length: 15 }, (_, i) => i + 8).map(h => `<option value="${h}" ${prefs.remH === h ? 'selected' : ''}>${h}:00</option>`).join('')}</select><button class="togg" role="switch" aria-checked="${!!prefs.rem}" data-tg="rem" aria-label="Recordatorio diario"></button></div></div>
+      <p class="setnote" id="remnote">${prefs.rem ? 'Te avisaremos a partir de esa hora si aún no has llegado a tu meta.' : 'Un aviso al día si aún no has llegado a tu meta.'}</p>
+      <div class="setrow"><span>Sonidos</span><button class="togg" role="switch" aria-checked="${!!prefs.snd}" data-tg="snd" aria-label="Sonidos"></button></div>
+      <div class="setrow"><span>Vibración</span><button class="togg" role="switch" aria-checked="${!!prefs.vib}" data-tg="vib" aria-label="Vibración"></button></div>
+      <div class="setrow"><span>Animaciones</span><div class="seg">${[['auto', 'Normales'], ['reduce', 'Reducidas']].map(([k, t]) => `<button data-mo="${k}" class="${prefs.motion === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
       <button class="btn plain" data-route>Cambiar de ruta</button>
       <button class="btn plain" data-reset>Borrar mi progreso</button>
       <p class="small"><a href="privacidad.html">Política de privacidad</a> · <a href="borrar-cuenta.html">Borrar la cuenta</a></p>
       <p class="small">SAIMAP Psicología tiene una finalidad exclusivamente educativa y no sustituye la evaluación ni el consejo de un profesional sanitario. Proyecto independiente, no vinculado a ninguna universidad.</p>
       <button class="btn" data-close>Cerrar</button>`, () => { acctBox = null; });
     acctBox = sh.el.querySelector('.acct'); paintAcct(acctBox);
+    sh.el.querySelector('[data-remh]').onchange = e => { prefs.remH = +e.target.value; savePrefs(); remSync(); };
     sh.el.addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b || b.closest('.acct')) return;
       if (b.dataset.th) { prefs.theme = b.dataset.th; LS.set('sp.prefs', prefs); applyTheme(); sh.el.querySelectorAll('[data-th]').forEach(x => x.classList.toggle('on', x === b)); }
       else if (b.dataset.goal) { G.goal = +b.dataset.goal; saveG(); sh.el.querySelectorAll('[data-goal]').forEach(x => x.classList.toggle('on', x === b)); }
+      else if (b.dataset.mo) { prefs.motion = b.dataset.mo; savePrefs(); applyMotion(); sh.el.querySelectorAll('[data-mo]').forEach(x => x.classList.toggle('on', x === b)); }
+      else if (b.dataset.tg) {
+        const k = b.dataset.tg, on = !prefs[k]; prefs[k] = on; savePrefs(); b.setAttribute('aria-checked', on);
+        if (k === 'snd' && on) FX.tone('ok'); if (k === 'vib' && on) FX.buzz('ok');
+        if (k === 'rem') {
+          const note = sh.el.querySelector('#remnote');
+          if (on) { note.textContent = 'Activando…'; REM.enable().then(m => { note.textContent = m; if (/^(Aquí|Sin permiso)/.test(m)) { prefs.rem = false; savePrefs(); b.setAttribute('aria-checked', false); } remSync(); }); }
+          else { REM.disable(); remSync(); note.textContent = 'Recordatorio desactivado.'; }
+        }
+      }
       else if (b.hasAttribute('data-route')) { sh.close(); showWelcome(); }
       else if (b.hasAttribute('data-reset')) {
         if (b.dataset.sure) {
@@ -222,11 +289,12 @@
       else if (b.hasAttribute('data-close')) sh.close();
     });
   }
-  $app.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) openSettings(); });
+  $app.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) openSettings(); else if (e.target.closest('[data-act="stats"]')) go('#/stats'); });
 
   // ---------- bienvenida: elegir ruta ----------
   function showWelcome() {
-        $app.innerHTML = `<section class="welcome">
+    setHue(null);
+    $app.innerHTML = `<section class="welcome">
       <div class="mascot-hi">${window.psique ? psique('wow') : ''}<p class="bubble">¡Hola! Soy <b>Psique</b>. En griego, <i>psyché</i> significa «alma» y también «mariposa»: por eso la psicología lleva una Ψ.</p></div>
       <h1>¿Qué quieres hacer?</h1>
       <p>Elige una ruta. Puedes cambiarla cuando quieras: tu progreso se guarda en cada asignatura y cuenta en todas las rutas.</p>
@@ -242,11 +310,43 @@
     const a = areaOf(m.area);
     if (m.estado !== 'ok') return `<div class="ccard soon"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b><small>${esc(a.t)}</small></div><span class="pill">Pronto</span></div>`;
     const S = courseState(id), done = Object.keys(S.done).length, tot = (m.units || 16) * 5, pct = Math.round(100 * done / tot);
-    return `<button class="ccard c${m.color || 1}" data-c="${id}"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b>
+    return `<button class="ccard" style="--h:${hueOf(id)}" data-c="${id}"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b>
       <div class="meter" aria-label="Progreso ${pct} %"><i style="width:${pct}%"></i></div><small>${pct ? pct + ' % completado' : 'Sin empezar'} · ${esc(a.t)}</small></div>${extra || ''}</button>`;
+  }
+  // anillo de la meta diaria y semana de la racha
+  function ring(v, max) {
+    const C = 2 * Math.PI * 26, p = Math.min(1, v / max);
+    return `<div class="ring" role="img" aria-label="${v} de ${max} XP hoy"><svg viewBox="0 0 64 64"><circle class="bg" cx="32" cy="32" r="26"/><circle class="fg" cx="32" cy="32" r="26" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - p)).toFixed(1)}"/></svg><span>${p >= 1 ? I.check.replace('<svg', '<svg style="width:26px;height:26px;color:var(--ok)"') : `<span>${v}<small>de ${max}</small></span>`}</span></div>`;
+  }
+  function weekStrip() {
+    const days = new Set(G.days || []), now = new Date(), dow = (now.getDay() + 6) % 7, L = 'LMXJVSD';
+    let h = '';
+    for (let i = 0; i < 7; i++) {
+      const d = new Date(now); d.setDate(now.getDate() - dow + i); const k = P.dayStr(d);
+      const on = days.has(k), today = i === dow, fut = i > dow;
+      h += `<div class="d ${on ? 'on' : ''} ${today ? 'today' : ''} ${fut ? 'future' : ''}" aria-label="${['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'][i]}${on ? ': estudiado' : ''}"><i>${on ? I.fire : ''}</i>${L[i]}</div>`;
+    }
+    return `<div class="week" role="group" aria-label="Esta semana">${h}</div>`;
+  }
+  // tarjeta «Continuar»: la siguiente lección de la asignatura usada más recientemente
+  async function fillContinue(box) {
+    const ok = CAT.courses.filter(c => c.estado === 'ok');
+    const started = ok.map(c => [c.id, courseState(c.id)]).filter(([, S]) => Object.keys(S.done).length).sort((a, b) => (b[1].t || 0) - (a[1].t || 0));
+    let id = started.length ? started[0][0] : null;
+    if (!id) { const r = CAT.routes.find(x => x.id === G.route) || CAT.routes[0]; id = ((r.groups || [])[0] || { courses: [] }).courses.find(c => (courseMeta(c) || {}).estado === 'ok') || ok[0].id; }
+    try { await loadCourse(id); } catch (e) { box.remove(); return; }
+    if (!box.isConnected) return;
+    const C = COURSES[id], E = engine(id), S = courseState(id), nx = E.nextUp(S), m = courseMeta(id);
+    box.style.setProperty('--h', hueOf(id)); box.classList.remove('skel');
+    if (!nx) { box.innerHTML = `<span class="play">${I.trophy}</span><div><small>Asignatura completada</small><b>${esc(m.t)}</b><p>Repasa cuando quieras o empieza otra.</p></div>`; box.onclick = () => go('#/c/' + id); return; }
+    const u = C.units[nx.u - 1], lt = nx.m <= 4 ? u.mods[nx.m - 1].t : 'Repaso de la unidad';
+    box.innerHTML = `<span class="play">${I.play}</span><div><small>${started.length ? 'Continúa' : 'Empieza'} · ${esc(C.short || m.t)}</small><b>${esc(lt)}</b><p>Unidad ${nx.u} · ${esc(u.t)}</p></div>`;
+    box.setAttribute('aria-label', `${started.length ? 'Continuar' : 'Empezar'}: ${lt}, unidad ${nx.u} de ${C.short || m.t}`);
+    box.onclick = () => openNode(id, nx.u, nx.m);
   }
   function showHome() {
     if (!G.route) return showWelcome();
+    setHue(null);
     const r = CAT.routes.find(x => x.id === G.route) || CAT.routes[0];
     const xpToday = P.todayXp(G), goal = G.goal || 30;
     let body = '';
@@ -270,9 +370,11 @@
       daily = `<button class="daily ${dd ? 'done' : ''}" data-daily="${cid}"><span class="dico">${I.cal}</span><div><b>${dd ? 'Repaso del día hecho' : 'Repaso del día'}</b><p>${esc(courseMeta(cid).t)} · ${dd ? 'Puedes repetirlo cuando quieras' : '20 preguntas de lo que ya has visto, empezando por lo más flojo'}</p></div></button>`;
     }
     $app.innerHTML = topbar() + `
-      <section class="hero"><span class="mascot">${window.psique ? psique(xpToday >= goal ? 'wow' : 'happy') : 'Ψ'}</span><div><h1>${greet()}</h1><p>${xpToday >= goal ? '¡Meta diaria conseguida!' : 'Unos minutos al día bastan para avanzar.'}</p>
-      <div class="goal"><div class="meter"><i style="width:${Math.min(100, Math.round(100 * xpToday / goal))}%"></i></div><span>${xpToday} / ${goal} XP hoy</span></div></div></section>
+      <section class="hero"><span class="mascot fly">${window.psique ? psique(xpToday >= goal ? 'wow' : 'happy') : 'Ψ'}</span><div><h1>${greet()}</h1><p>${xpToday >= goal ? '¡Meta diaria conseguida!' : xpToday ? `Te quedan ${goal - xpToday} XP para tu meta.` : 'Unos minutos al día bastan para avanzar.'}</p></div>${ring(xpToday, goal)}</section>
+      ${weekStrip()}
+      <button class="cont skel" id="cont" aria-label="Continuar"><span class="play">${I.play}</span><div><small>Cargando…</small></div></button>
       ${daily}
+      <div class="linkrow"><button data-act="stats">${I.chart}Ver mis estadísticas</button></div>
       ${Cloud.on && Cloud.ready && !Cloud.uid ? `<div class="notice"><span>Inicia sesión para guardar tu progreso en tu cuenta y usarlo en cualquier dispositivo.</span><button class="btn plain sm" data-act="settings">Entrar</button></div>` : ''}
       <nav class="tabs" aria-label="Rutas">${CAT.routes.map(x => `<button class="tab ${x.id === r.id ? 'on' : ''}" data-tab="${x.id}">${I[x.ico]}${esc(x.t)}</button>`).join('')}</nav>
       ${body}
@@ -280,10 +382,33 @@
     $app.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { G.route = b.dataset.tab; saveG(); showHome(); });
     $app.querySelectorAll('[data-c]').forEach(b => b.onclick = () => go('#/c/' + b.dataset.c));
     $app.querySelectorAll('[data-daily]').forEach(b => b.onclick = () => startDaily(b.dataset.daily));
+    fillContinue($app.querySelector('#cont'));
+  }
+
+  // ---------- descargar una asignatura (curso + teoría + figuras) para usarla sin conexión ----------
+  const OFF = LS.get('sp.off', {});
+  async function downloadCourse(id, btn) {
+    const set = t => { btn.innerHTML = I.down + esc(t); };
+    if (!('caches' in window)) return set('No disponible en este navegador');
+    btn.disabled = true;
+    try {
+      const C = COURSES[id], cache = await caches.open('sp-off-' + id), imgs = new Set();
+      const urls = ['cursos/' + id + '.js'].concat(C.units.map((_, i) => 'teoria/' + id + '/u' + String(i + 1).padStart(2, '0') + '.json'));
+      let n = 0;
+      for (const u of urls) {
+        const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(u);
+        if (u.endsWith('.json')) { const j = await r.clone().json(); (j.m || []).concat(j.c || '').join(' ').replace(/src="([^"]+)"/g, (_, x) => imgs.add(x)); }
+        await cache.put(u, r); set('Descargando… ' + Math.round(50 * ++n / urls.length) + ' %');
+      }
+      const list = [...imgs]; n = 0;
+      for (const u of list) { const r = await fetch(u); if (r.ok) await cache.put(u, r); set('Descargando… ' + (50 + Math.round(50 * ++n / list.length)) + ' %'); }
+      OFF[id] = Date.now(); LS.set('sp.off', OFF); btn.classList.add('ok'); set('Disponible sin conexión');
+    } catch (e) { set('Error de conexión. Vuelve a intentarlo'); btn.disabled = false; }
   }
 
   // ---------- curso ----------
   async function showCourse(id) {
+    setHue(hueOf(id));
     $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px">Cargando…</div>`);
     try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar() + `<p class="empty-note">No se ha podido cargar el curso. Comprueba la conexión y vuelve a intentarlo.</p>`; return; }
     const C = COURSES[id], E = engine(id), S = courseState(id), pr = E.progress(S), nx = E.nextUp(S);
@@ -292,7 +417,8 @@
     html += `<section class="chead"><h1>${esc(C.title)}</h1><div class="meter"><i style="width:${pr.pct}%"></i></div>
       <small>${pr.done} de ${pr.total} lecciones · ${pr.pct} %</small>
       <div class="row">${C.temario ? `<a class="chip" href="temarios/${esc(C.temario)}" target="_blank" rel="noopener">${I.book}Temario</a>` : ''}
-      ${weak ? `<button class="chip" data-weak>${I.redo}Repasar fallos (${weak})</button>` : ''}</div></section>`;
+      ${weak ? `<button class="chip" data-weak>${I.redo}Repasar fallos (${weak})</button>` : ''}
+      <button class="chip ${OFF[id] ? 'ok' : ''}" data-off>${I.down}${OFF[id] ? 'Disponible sin conexión' : 'Descargar'}</button></div></section>`;
     let flip = false;
     for (const cap of C.capitulos) {
       html += `<div class="cap"><b>CAP. ${cap.n}</b><h2>${esc(cap.t)}</h2></div>`;
@@ -305,7 +431,7 @@
         for (let m = 1; m <= 5; m++) {
           const id2 = E.modId(n, m), d = S.done[id2], op = E.unlocked(S, n, m), now = nx && nx.u === n && nx.m === m;
           const t = m <= 4 ? u.mods[m - 1].t : 'Repaso de la unidad';
-          html += `<button class="node ${d ? 'done' : op ? 'open' : 'shut'} ${now ? 'now' : ''}" data-u="${n}" data-m="${m}" ${op ? '' : 'aria-disabled="true"'}>
+          html += `<button class="node ${d ? 'done' : op ? 'open' : 'shut'} ${now ? 'now' : ''}" data-u="${n}" data-m="${m}" ${op ? '' : 'aria-disabled="true"'} aria-label="${esc(t)}. ${d ? 'Hecha, ' + d.s + ' de 3 estrellas' : now ? 'Siguiente lección' : op ? 'Disponible' : 'Bloqueada'}">
             <span class="disc">${d ? (m === 5 ? I.trophy : I.check) : op ? (m === 5 ? I.trophy : I.play) : I.lock}</span><b>${esc(t)}</b>${d ? stars(d.s) : ''}</button>`;
         }
         html += `</div></section>`; flip = !flip;
@@ -315,6 +441,8 @@
     $app.innerHTML = html;
     $app.querySelector('[data-home]').onclick = () => go('#/');
     const wb = $app.querySelector('[data-weak]'); if (wb) wb.onclick = () => startLesson(id, 0, 0, 'weak');
+    const ob = $app.querySelector('[data-off]'); ob.onclick = () => { if (!ob.classList.contains('ok')) downloadCourse(id, ob); };
+    if (nx) loadTheory(id, nx.u).catch(() => { });   // precarga la teoría de la siguiente lección
     $app.querySelectorAll('.node').forEach(b => b.onclick = () => openNode(id, +b.dataset.u, +b.dataset.m));
     drawRoads();
     const target = nx ? document.getElementById('u' + nx.u) : null;
@@ -334,6 +462,7 @@
     try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar() + `<p class="empty-note">No se ha podido cargar el curso. Comprueba la conexión y vuelve a intentarlo.</p>`; return; }
     const C = COURSES[id], E = engine(id), S = courseState(id), unit = C.units[u - 1];
     if (!unit || m < 1 || m > 5) return go('#/c/' + id);
+    setHue(hueOf(id));
     const info = m <= 4 ? E.modInfo(u, m) : null, op = E.unlocked(S, u, m), d = S.done[E.modId(u, m)];
     const col = 1 + ((u - 1) % 5);
     $app.innerHTML = topbar(`<button class="iconbtn" data-back aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px;min-width:0"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(C.short || C.title)}</span></div>`) +
@@ -342,13 +471,15 @@
         ${m === 5 ? `<p class="sub">${esc(unit.t)}. Antes del repaso, los recuadros finales del tema: ejemplos, consenso y debate, mitos, conceptos clave y la clave PIR.</p>` : ''}
         ${!op ? `<p class="sub">Termina la lección anterior para desbloquear esta. Puedes leer el temario y practicarla igualmente.</p>` : ''}
         ${d ? `<p class="sub">Mejor resultado: ${'★'.repeat(d.s)}${'☆'.repeat(3 - d.s)} · Hecha ${d.n} ${d.n === 1 ? 'vez' : 'veces'}</p>` : ''}
-        <button class="skip" data-go>${I.play}Ir directamente a los ejercicios</button></header>
-        <div class="tbody" aria-busy="true"><p class="sub">Cargando el temario…</p></div></article>
+        <div class="ttools"><button class="skip" data-go>${I.play}Ir directamente a los ejercicios</button><div class="fsz" role="group" aria-label="Tamaño del texto"><button data-fs="-1" aria-label="Texto más pequeño">A−</button><button data-fs="1" aria-label="Texto más grande">A+</button></div></div></header>
+        <div class="tbody" aria-busy="true" style="--tfs:${prefs.fs}px"><p class="sub">Cargando el temario…</p></div></article>
+      <div class="readbar" aria-hidden="true"><i></i></div>
       <div class="tbar"><button class="btn" data-go>${d ? 'Repetir la lección' : m === 5 ? 'Empezar el repaso' : op ? 'Empezar la lección' : 'Practicar igualmente'}</button></div>`;
     $app.querySelector('[data-back]').onclick = () => go('#/c/' + id);
     $app.querySelectorAll('[data-go]').forEach(b => b.onclick = () => startLesson(id, u, m));
     scrollTop();
     const body = $app.querySelector('.tbody');
+    $app.querySelectorAll('[data-fs]').forEach(b => b.onclick = () => { prefs.fs = Math.max(14.5, Math.min(21, prefs.fs + (+b.dataset.fs) * 1.5)); savePrefs(); body.style.setProperty('--tfs', prefs.fs + 'px'); });
     try {
       const T = await loadTheory(id, u);
       if (!body.isConnected) return;
@@ -359,8 +490,40 @@
       body.innerHTML = (m <= 4 ? `<div class="tip"><b>La idea clave</b>${esc(info.tip)}</div>` : '') + `<p class="sub">No se ha podido cargar el temario de este apartado. Comprueba la conexión; también puedes abrir el PDF desde la página del curso.</p>`;
     }
     body.removeAttribute('aria-busy');
-    body.querySelectorAll('figure img').forEach(im => im.onclick = () => { const s = sheet(`<img class="zoom" src="${im.getAttribute('src')}" alt=""><button class="btn plain" data-x>Cerrar</button>`); s.el.querySelector('[data-x]').onclick = s.close; });
+    body.querySelectorAll('figure img').forEach(im => im.onclick = () => { const s = sheet(`<img class="zoom" src="${im.getAttribute('src')}" alt="${esc(im.alt)}"><button class="btn plain" data-x>Cerrar</button>`); s.el.querySelector('[data-x]').onclick = s.close; });
+    glossary(body, E.ITEMS.filter(i => i.kind === 'v' && i.u === u));
+    if (u < C.units.length && m >= 4) loadTheory(id, u + 1).catch(() => { });   // precarga la unidad siguiente
   }
+  // términos clave del apartado: se pueden tocar para ver su definición (sale de los «Conceptos clave» del curso)
+  function glossary(body, items) {
+    const norm = t => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    const terms = items.map(i => [norm(i.c), i]).filter(([t]) => t.length >= 4 && t.length <= 40).sort((a, b) => b[0].length - a[0].length);
+    if (!terms.length) return;
+    const used = new Set(), reEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest('h1,h2,h3,figcaption,th,.term,button,a,.blk.claves,.obj') || !n.parentElement.closest('p,li,td') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const [t, it] of terms) {
+      if (used.has(t.toLowerCase())) continue;
+      const re = new RegExp('(^|[^\\p{L}\\p{N}])(' + reEsc(t) + ')(?=$|[^\\p{L}\\p{N}])', 'iu');
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i], mm = re.exec(n.data); if (!mm) continue;
+        const start = mm.index + mm[1].length, after = n.splitText(start), rest = after.splitText(mm[2].length);
+        const b = document.createElement('button'); b.className = 'term'; b.type = 'button'; b.textContent = after.data; b.dataset.k = it.k;
+        b.setAttribute('aria-label', after.data + ': ver definición');
+        after.replaceWith(b); nodes.splice(i, 1, n, rest); used.add(t.toLowerCase()); break;
+      }
+    }
+    body.addEventListener('click', e => {
+      const b = e.target.closest('.term'); if (!b) return;
+      const it = items.find(x => x.k === b.dataset.k); if (!it) return;
+      const sh = sheet(`<div class="gloss"><b>${esc(it.c)}</b>${esc(it.d)}</div><button class="btn plain" data-x>Cerrar</button>`); sh.el.querySelector('[data-x]').onclick = sh.close;
+    });
+  }
+  // barra de progreso de lectura en la teoría
+  window.addEventListener('scroll', () => {
+    const bar = document.querySelector('.readbar i'); if (!bar) return;
+    const h = document.documentElement.scrollHeight - innerHeight; bar.style.width = (h > 0 ? Math.min(100, 100 * scrollY / h) : 0) + '%';
+  }, { passive: true });
 
   // ---------- caminos sobre los escenarios (como en SAIMAP Lingo) ----------
   function drawRoads() {
@@ -389,11 +552,13 @@
   // ---------- lección ----------
   let L = null;   // estado de la lección en curso
   async function startDaily(id) { await loadCourse(id); startLesson(id, 0, 0, 'daily'); }
-  function startLesson(id, u, m, mode) {
+  const typeOfItem = (E, S, i) => i.kind === 'seq' || i.kind === 'cls' ? i.kind : E.typeFor(i, S);
+  function startLesson(id, u, m, mode, items) {
     const E = engine(id), S = courseState(id);
-    const ex = mode === 'daily' ? E.genDaily(S) : mode === 'weak' ? E.genWeak(S) : E.gen(S, u, m);
+    setHue(hueOf(id));
+    const ex = mode === 'redo' ? P.shuffle(items).map(i => E.build(i, typeOfItem(E, S, i), true)) : mode === 'daily' ? E.genDaily(S) : mode === 'weak' ? E.genWeak(S) : E.gen(S, u, m);
     if (!ex.length) { sheet(`<h2>Aún no hay suficiente</h2><p class="sub">Haz alguna lección más y vuelve.</p><button class="btn" onclick="this.closest('.veil').remove()">Vale</button>`); return; }
-    L = { id, u, m, mode, E, S, queue: ex.slice(), total: ex.length, done: 0, ok: 0, firstTry: 0, retried: new Set(), start: Date.now() };
+    L = { id, u, m, mode, E, S, queue: ex.slice(), total: ex.length, done: 0, ok: 0, firstTry: 0, retried: new Set(), start: Date.now(), combo: 0, miss: [], xp0: P.todayXp(G) };
     renderEx();
   }
   function quitLesson() {
@@ -406,9 +571,9 @@
     const ex = L.queue[0];
     if (!ex) return showResult();
     const pct = Math.round(100 * L.done / (L.total + L.retried.size));
-    $app.innerHTML = `<div class="lesson"><div class="lbar"><button class="x" data-quit aria-label="Salir">${I.x}</button><div class="meter"><i style="width:${pct}%"></i></div></div>
+    $app.innerHTML = `<div class="lesson"><div class="lbar"><button class="x" data-quit aria-label="Salir">${I.x}</button><div class="meter" role="progressbar" aria-label="Progreso de la lección" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div></div>
       <div class="stage"><div class="kind">${KIND[ex.type]}${ex.review ? '<span class="rv">Repaso</span>' : ''}</div><div id="body"></div></div>
-      <div class="checkbar" id="bar"><button class="btn" id="chk" disabled>Comprobar</button></div></div>`;
+      <div class="checkbar" id="bar" role="status" aria-live="polite"><button class="btn" id="chk" disabled>Comprobar</button></div></div>`;
     $app.querySelector('[data-quit]').onclick = quitLesson;
     const body = $app.querySelector('#body'), chk = $app.querySelector('#chk');
     const R = RENDER[ex.type](ex, body, chk);
@@ -502,6 +667,10 @@
     if (!res.recorded && ex.item) P.record(L.S, ex.item.k, res.ok);
     if (res.ok) L.ok++;
     L.done++;
+    if (!res.ok && ex.item && !L.miss.some(x => x.item.k === ex.item.k)) L.miss.push({ item: ex.item, type: ex.type, answer: ex.answer });
+    L.combo = res.ok ? L.combo + 1 : 0;
+    if (!res.silent) { FX.buzz(res.ok ? 'ok' : 'no'); FX.tone(res.ok ? 'ok' : 'no'); }
+    if ([3, 5, 8, 12, 16].includes(L.combo)) showCombo(L.combo);
     // un fallo vuelve una vez al final de la lección
     if (!res.ok && ex.type !== 'match' && !ex.retry) { const again = L.E.build(ex.item, ex.type === 'cd' || ex.type === 'dc' || ex.type === 'type' ? 'cd' : ex.type, true); again.retry = true; L.retried.add(again); L.queue.push(again); }
     L.queue.shift();
@@ -516,46 +685,116 @@
     else if (ex.type === 'cls') detail = res.ok ? '' : `${res.errors} ${res.errors === 1 ? 'elemento mal colocado' : 'elementos mal colocados'}; están marcados en rojo en su categoría correcta.`;
     const title = res.ok ? (res.accent ? '¡Bien! Ojo con las tildes' : ['¡Correcto!', '¡Muy bien!', '¡Exacto!', '¡Eso es!'][Math.floor(Math.random() * 4)]) : res.unsure ? 'Sin problema: así se aprende' : 'No exactamente';
     bar.className = 'checkbar ' + (res.ok ? 'ok' : 'no');
-    bar.innerHTML = `<div class="fb"><span class="fi">${res.ok ? I.check : I.x}</span><div><h3>${title}</h3>${detail ? `<p>${detail}</p>` : ''}${!res.ok && ex.type === 'type' ? `<p>Respuesta: <b>${esc(ex.answer)}</b></p>` : ''}</div></div><button class="btn ${res.ok ? 'good' : 'warn'}" id="next">Continuar</button>`;
+    bar.innerHTML = `<div class="fb">${window.psique ? `<span class="fm">${psique(res.ok ? (L.combo >= 3 ? 'wow' : 'happy') : res.unsure ? 'calm' : 'sad')}</span>` : `<span class="fi">${res.ok ? I.check : I.x}</span>`}<div><h3>${title}</h3>${detail ? `<p>${detail}</p>` : ''}${!res.ok && ex.type === 'type' ? `<p>Respuesta: <b>${esc(ex.answer)}</b></p>` : ''}</div></div><button class="btn ${res.ok ? 'good' : 'warn'}" id="next">Continuar</button>`;
     const nb = bar.querySelector('#next'); nb.focus();
     nb.onclick = () => { saveC(L.id, L.S); renderEx(); };
+  }
+  function showCombo(n) {
+    document.querySelectorAll('.combo').forEach(x => x.remove());
+    const c = document.createElement('div'); c.className = 'combo'; c.setAttribute('aria-hidden', 'true');
+    c.innerHTML = (window.psique ? psique('wow') : '') + `¡${n} seguidas!`;
+    document.body.appendChild(c); setTimeout(() => c.remove(), 1500);
+  }
+  // una línea por fallo, para el resumen final
+  function missLine(x) {
+    const it = x.item;
+    if (it.kind === 'v') return `<b>${esc(it.c)}</b>: ${esc(it.d)}`;
+    if (it.kind === 'g') return esc(it.q.replace('___', '«' + it.a + '»'));
+    if (it.kind === 'tf') return `${esc(it.q)}<small>Es ${it.a ? 'verdadera' : 'falsa'}.${it.why ? ' ' + esc(it.why) : ''}</small>`;
+    if (it.kind === 'q' || it.kind === 'inc') return `${esc(it.q)}<small>${it.kind === 'inc' ? 'La incorrecta' : 'Respuesta'}: <b>${esc(it.a)}</b>${it.why ? '. ' + esc(it.why) : ''}</small>`;
+    if (it.kind === 'seq') return `${esc(it.q)}<small>${it.steps.map((t, i) => (i + 1) + '. ' + esc(t)).join(' · ')}</small>`;
+    return esc(it.q || '');
   }
   function showResult() {
     const acc = L.done ? L.ok / L.done : 1;
     const id = L.mode ? null : L.E.modId(L.u, L.m);
     const r = P.finish(G, L.S, id, acc, L.mode === 'daily');
+    G.hist = G.hist || {}; G.hist[P.dayStr()] = P.todayXp(G);
+    const hk = Object.keys(G.hist).sort(); if (hk.length > 240) hk.slice(0, hk.length - 240).forEach(k => delete G.hist[k]);
     saveC(L.id, L.S); saveG();
+    const goalNow = L.xp0 < G.goal && P.todayXp(G) >= G.goal, party = r.stars === 3 || L.m === 5 || goalNow;
+    if (party) { FX.confetti(); FX.buzz('win'); FX.tone('win'); }
+    const miss = L.miss.slice(), recap = miss.length ? `<div class="recap"><h2>Para repasar (${miss.length})</h2>${miss.slice(0, 6).map(x => `<div class="it">${missLine(x)}</div>`).join('')}${miss.length > 6 ? `<p class="small">y ${miss.length - 6} más</p>` : ''}</div>` : '';
     const mins = Math.max(1, Math.round((Date.now() - L.start) / 60000));
-    const title = L.mode === 'daily' ? 'Repaso del día completado' : L.mode === 'weak' ? 'Fallos repasados' : L.m === 5 ? '¡Unidad ' + L.u + ' completada!' : '¡Lección completada!';
+    const title = L.mode === 'daily' ? 'Repaso del día completado' : L.mode === 'weak' || L.mode === 'redo' ? 'Fallos repasados' : L.m === 5 ? '¡Unidad ' + L.u + ' completada!' : '¡Lección completada!';
     $app.innerHTML = `<div class="lesson"><div class="result">
-      <div class="mascot big">${window.psique ? psique(acc >= 0.99 ? 'wink' : acc >= 0.9 ? 'wow' : acc >= 0.7 ? 'happy' : 'calm') : ''}</div>
+      <div class="mascot big fly">${window.psique ? psique(acc >= 0.99 ? 'wink' : acc >= 0.9 ? 'wow' : acc >= 0.7 ? 'happy' : 'calm') : ''}</div>
       <div class="bigstars">${[1, 2, 3].map(i => I.star.replace('<svg', `<svg class="${i <= r.stars ? 'on' : ''}"`)).join('')}</div>
       <h1>${title}</h1><p class="sub">${acc >= 0.9 ? 'Lo dominas.' : acc >= 0.7 ? 'Buen trabajo. Lo que falló volverá en los repasos.' : 'Lo que ha costado volverá en los repasos hasta que salga solo.'}</p>
       <div class="kpis"><div class="kpi"><b>+${r.gain}</b><small>XP</small></div><div class="kpi"><b>${Math.round(acc * 100)} %</b><small>aciertos</small></div><div class="kpi"><b>${mins}′</b><small>minutos</small></div></div>
-      <div class="kpis" style="grid-template-columns:1fr 1fr"><div class="kpi"><b>${P.liveStreak(G)}</b><small>${P.liveStreak(G) === 1 ? 'día de racha' : 'días de racha'}</small></div><div class="kpi"><b>${P.todayXp(G)} / ${G.goal}</b><small>XP de hoy</small></div></div>
+      <div class="kpis" style="grid-template-columns:1fr 1fr"><div class="kpi"><b>${P.liveStreak(G)}</b><small>${P.liveStreak(G) === 1 ? 'día de racha' : 'días de racha'}</small></div><div class="kpi"><b>${P.todayXp(G)} / ${G.goal}</b><small>${goalNow ? '¡Meta conseguida!' : 'XP de hoy'}</small></div></div>
+      ${recap}
+      ${miss.length ? `<button class="btn plain" id="redo">Repasar ${miss.length === 1 ? 'este fallo' : 'estos ' + miss.length + ' fallos'}</button>` : ''}
       <button class="btn" id="cont">Continuar</button></div></div>`;
     const back = L.id; L = null;
+    const rb = $app.querySelector('#redo'); if (rb) rb.onclick = () => startLesson(back, 0, 0, 'redo', miss.map(x => x.item));
     $app.querySelector('#cont').onclick = () => {   // desde la teoría, «Continuar» sustituye esa entrada del historial
       if (/\/t\//.test(CUR)) { CUR = '#/c/' + back; try { history.replaceState(null, '', CUR); } catch (e) { } route(); } else go('#/c/' + back);
     };
     scrollTop();
   }
 
+  // ---------- estadísticas ----------
+  async function showStats() {
+    setHue(null);
+    const days = new Set(G.days || []), hist = G.hist || {}, goal = G.goal || 30;
+    let best = 0, run = 0, prev = null;
+    for (const d of [...days].sort()) { const t = new Date(d + 'T12:00'); run = prev && (t - prev) / 864e5 < 1.5 ? run + 1 : 1; best = Math.max(best, run); prev = t; }
+    const now = new Date(), dow = (now.getDay() + 6) % 7, W = 18, start = new Date(now); start.setDate(now.getDate() - dow - 7 * (W - 1));
+    let cells = '';
+    for (let i = 0; i < W * 7; i++) {
+      const d = new Date(start); d.setDate(start.getDate() + i); const k = P.dayStr(d);
+      if (d > now) { cells += '<i style="visibility:hidden"></i>'; continue; }
+      const x = hist[k], lv = x != null ? (x >= goal ? 3 : x >= goal / 2 ? 2 : x > 0 ? 1 : 0) : days.has(k) ? 2 : 0;
+      cells += `<i class="${lv ? 'l' + lv : ''} ${k === P.dayStr() ? 't' : ''}" title="${k}${x ? ' · ' + x + ' XP' : ''}"></i>`;
+    }
+    const started = CAT.courses.filter(c => c.estado === 'ok').map(c => [c, courseState(c.id)]).filter(([, S]) => Object.keys(S.done).length || Object.keys(S.it).length);
+    const rows = started.map(([c, S]) => {
+      const done = Object.keys(S.done).length, tot = (c.units || 16) * 5, pct = Math.round(100 * done / tot);
+      let ok = 0, ko = 0; for (const v of Object.values(S.it)) { ok += v[0] || 0; ko += v[1] || 0; }
+      const acc = ok + ko ? Math.round(100 * ok / (ok + ko)) : 0;
+      return `<button class="crow" style="--h:${hueOf(c.id)}" data-c="${c.id}"><span class="dot"></span><div><b>${esc(c.t)}</b><div class="meter"><i style="width:${pct}%"></i></div><small>${done} de ${tot} lecciones · ${acc} % de aciertos</small></div></button>`;
+    }).join('');
+    $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px">Estadísticas</div>`) + `<section class="stats">
+      <h1>Tu progreso</h1>
+      <div class="kgrid"><div class="kpi"><b>${P.liveStreak(G)}</b><small>días de racha</small></div><div class="kpi"><b>${best}</b><small>mejor racha</small></div><div class="kpi"><b>${G.xp}</b><small>XP en total</small></div><div class="kpi"><b>${days.size}</b><small>días estudiando</small></div></div>
+      <h2>Actividad · últimas ${W} semanas</h2><div class="heat" role="img" aria-label="Días con actividad en las últimas ${W} semanas">${cells}</div>
+      <h2>Asignaturas</h2>${rows || '<p class="empty-note">Aún no has empezado ninguna asignatura.</p>'}
+      <h2>Lo que más te cuesta</h2><div class="weak" id="weak"><p class="sub">${started.length ? 'Calculando…' : 'Cuando hagas algunas lecciones, aquí verás los conceptos que más fallas.'}</p></div>
+    </section>`;
+    $app.querySelector('[data-home]').onclick = () => go('#/');
+    $app.querySelectorAll('[data-c]').forEach(b => b.onclick = () => go('#/c/' + b.dataset.c));
+    scrollTop();
+    const box = $app.querySelector('#weak'), out = [];
+    for (const [c, S] of started) {
+      try { await loadCourse(c.id); } catch (e) { continue; }
+      const E = engine(c.id);
+      E.weakItems(S).map(i => [((S.it[i.k] || [])[1] || 0) - ((S.it[i.k] || [])[0] || 0) * .5, i]).filter(([sc]) => sc > 0).forEach(([sc, i]) => out.push([sc, i, c]));
+    }
+    if (!box.isConnected) return;
+    out.sort((a, b) => b[0] - a[0]);
+    box.innerHTML = out.length ? out.slice(0, 8).map(([, i, c]) => `<div><b>${esc(i.kind === 'v' ? i.c : (i.q || '').slice(0, 90) + ((i.q || '').length > 90 ? '…' : ''))}</b><small>${esc(courseMeta(c.id).t)} · unidad ${i.u}</small></div>`).join('') + `<p class="small">Puedes repasarlos con «Repasar fallos» en cada asignatura.</p>` : '<p class="sub">¡Nada destacable! No hay conceptos que se te resistan.</p>';
+  }
+
   // ---------- router ----------
   let CUR = location.hash || '#/';
-  function go(h) { CUR = h; try { history.pushState(null, '', h); } catch (e) { } route(); }
+  // transiciones suaves entre pantallas (si el navegador las admite y no se han reducido las animaciones)
+  const swap = fn => { if (document.startViewTransition && !still()) document.startViewTransition(fn); else fn(); };
+  function go(h) { CUR = h; try { history.pushState(null, '', h); } catch (e) { } swap(() => route()); }
   function route(keepSheets) {
     if (L) return;
     if (keepSheets !== true) document.querySelectorAll('.veil').forEach(v => v.remove());
     const h = CUR;
     const m = h.match(/^#\/c\/([\w-]+)(?:\/t\/(\d+)\/(\d))?/);
     if (m && courseMeta(m[1]) && courseMeta(m[1]).estado === 'ok') m[2] ? showTheory(m[1], +m[2], +m[3]) : showCourse(m[1]);
+    else if (h === '#/stats') showStats();
     else showHome();
   }
-  window.addEventListener('popstate', () => { CUR = location.hash || '#/'; route(); });
+  window.addEventListener('popstate', () => { CUR = location.hash || '#/'; swap(() => route()); });
   route();
   initCloud();
   window.SPCloud = Cloud;
+  remSync();
 
   if ('serviceWorker' in navigator && location.protocol === 'https:' && !window.SP_NO_SW) navigator.serviceWorker.register('sw.js').catch(() => { });
 })();
