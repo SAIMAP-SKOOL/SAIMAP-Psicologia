@@ -25,7 +25,7 @@ TAPA = os.environ.get('TAPA', 'blanda')                     # blanda | dura | am
 BL = 0.125                                                  # sangrado de la tapa blanda
 # Tapa dura (estuche laminado): envoltura de ~15 mm alrededor y bisagra de 10 mm junto al lomo. KDP solo da el lomo exacto
 # en su calculadora: aquí se estima y, si el visor de KDP pide otro tamaño, se fija en DURA (ancho × alto en pulgadas).
-WRAP, HINGE, BOARD = 0.591, 0.394, 0.118
+WRAP, HINGE, BOARD = 0.591, 0.394, 0.1175   # KDP 7×10, 84 pág.: 15,961 × 11,417 in (confirmado en el visor)
 DURA = json.loads(os.environ.get('DURA', '{}'))             # {"bases-biologicas": [15.2, 11.418], ...} tamaños exactos de KDP
 SERIE = [  # orden de la colección (1.º de Grado)
     ('bases-biologicas', 'Bases Biológicas del Comportamiento'),
@@ -155,7 +155,7 @@ with sync_playwright() as pw:
                 html, W, Hh = page(meta, n, npg_even, front, spine_in, show)
                 name = f'{base}-cubierta' if FORMATO == 'a4' else f'{base}-cubierta-blanda'
             else:
-                EY = WRAP + BOARD / 2
+                EY = WRAP + BOARD                     # 11,417 in de alto para 7 × 10 (confirmado por KDP)
                 if bid in DURA:                       # tamaño exacto pedido por KDP
                     W0, H0 = DURA[bid]; EY = (H0 - TH) / 2
                     spine_in = round(W0 - 2 * (TW + WRAP) - HINGE, 4)
@@ -168,6 +168,10 @@ with sync_playwright() as pw:
             pg.set_content(html, wait_until='load')
             cover = os.path.join(OUT, f'{name}.pdf')
             pg.pdf(path=cover, width=f'{W}in', height=f'{Hh}in', print_background=True)
+            cr = PdfReader(cover); cw = PdfWriter(); p0 = cr.pages[0]     # tamaño exacto (Chromium redondea a píxeles)
+            from pypdf.generic import RectangleObject
+            box = RectangleObject([0, 0, round(W * 72, 3), round(Hh * 72, 3)])
+            p0.mediabox = box; p0.cropbox = box; p0.trimbox = box; p0.bleedbox = box; cw.add_page(p0); cw.write(cover)
             pg.set_viewport_size({'width': int(W * 96), 'height': int(Hh * 96)})
             pg.screenshot(path=os.path.join(OUT, f'{name}-vista.png'))
             pg.close()
