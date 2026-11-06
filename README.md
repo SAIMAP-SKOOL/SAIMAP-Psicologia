@@ -3,6 +3,7 @@
 - `app/`: código de la app.
 - `cursos/`: contenido de los cursos.
 - `kit/`: constructor de temarios y plantillas del proceso.
+- `firebase/`: funciones de Premium (`verificarCompra`, `comprobarPremium`, `limpiarCuenta`) y reglas de Firestore comunes con SAIMAP Lingo. Se despliegan desde `main` con `.github/workflows/firebase.yml` (secreto `FIREBASE_SA`).
 - `temarios/<asignatura>/`: fuentes de los temarios (Markdown, `img/`, `tools/figuras.py` y `book.json`).
 
 ## Comandos
@@ -18,6 +19,7 @@
   - `python3 app/tests/test_teoria.py`
   - `python3 app/tests/test_ui.py`
   - `python3 app/tests/test_teoria_ui.py <id>`
+  - `python3 app/tests/test_vidas.py` (vidas y Premium con la facturación simulada)
 - `kit/publicar.sh <clon de main>`: construye y copia la web a la rama `main`.
 
 ## Plantillas del proceso (`kit/proceso/`)
@@ -26,3 +28,8 @@
 - `figuras_base.py`: utilidades de matplotlib para las figuras propias.
 
 La rama `main` contiene la web publicada y el proyecto Android. Los PDF no se versionan aquí: se generan.
+
+## Vidas y Premium
+- Interruptor: `features.vidas` en `app/src/catalog.js` (en local se puede forzar con `localStorage['sp.feat'] = '{"vidas":true}'`).
+- 5 vidas; se pierde una con el primer fallo de cada pregunta en lecciones nuevas; +1 cada 4 h y +1 al terminar un repaso. Teoría y repasos, libres.
+- Premium: suscripciones de Google Play `premium_mensual` y `premium_anual` (Digital Goods API en la TWA). El servidor escribe `ent/<uid>.psicologia`; los testers van en `config/testers {emails: [...]}`.

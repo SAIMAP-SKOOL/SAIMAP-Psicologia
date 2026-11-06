@@ -431,6 +431,31 @@ img.zoom{width:100%;height:auto;background:#fff;border-radius:12px}
 .togg[aria-checked="true"]{background:var(--ok)}.togg[aria-checked="true"]::after{left:25px}
 .setrow select{padding:7px 10px;border-radius:10px;border:2px solid var(--line);background:var(--surface);color:var(--ink);font:700 14px var(--body)}
 .setnote{font-size:12.5px;color:var(--muted);font-weight:600;margin-top:-6px}
+
+/* vidas y Premium */
+.stat.life svg{color:var(--coral)}.stat.life.empty{background:color-mix(in srgb,var(--coral) 14%,var(--surface));border-color:var(--coral)}
+.stat.life.inf{background:linear-gradient(135deg,#FFE7A3,#F5B81F);border-color:var(--sun-deep);color:var(--sun-ink)}.stat.life.inf svg{color:#B03A2E}
+@media (max-width:400px){.top .brand>span:not(.logo){display:none}}
+.lifebar{display:flex;align-items:center;gap:4px;font:800 15px/1 var(--display);color:var(--coral)}.lifebar svg{width:20px;height:20px}
+.nolives{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
+.nolives .mascot{width:120px;height:124px}
+.hearts{display:flex;gap:6px}.hearts svg{width:28px;height:28px;color:var(--line)}.hearts svg.on{color:var(--coral)}
+.timer{font:800 15px/1 var(--display);color:var(--muted)}
+.prem{display:flex;flex-direction:column;gap:14px;padding-bottom:30px}
+.prem .phero{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:18px 16px;border-radius:24px;background:linear-gradient(160deg,#FFF1C9,#FFE0A3 55%,#F9C66B);color:#3A2A00;box-shadow:0 5px 0 #C58F07}
+.prem .phero .mascot{width:110px;height:114px}.prem .phero h1{font-size:28px}.prem .phero p{font-size:15px;opacity:.85}
+.perks{display:flex;flex-direction:column;gap:8px}
+.perk{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:16px;background:var(--surface);border:2px solid var(--line)}
+.perk i{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--sun-soft);color:var(--sun-deep);flex:none}.perk i svg{width:22px;height:22px}
+.perk b{display:block;font:800 15.5px/1.2 var(--display)}.perk small{display:block;color:var(--muted);font-size:13px;line-height:1.35;margin-top:2px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.plan{position:relative;padding:16px 12px 14px;border-radius:18px;background:var(--surface);border:3px solid var(--line);text-align:center;display:flex;flex-direction:column;gap:4px;align-items:center}
+.plan.on{border-color:var(--sun-deep);background:var(--sun-soft)}
+.plan b{font:800 22px/1.1 var(--display)}.plan small{color:var(--muted);font-size:13px}.plan .t{font:800 13px/1 var(--display);letter-spacing:.06em;text-transform:uppercase}
+.plan .save{position:absolute;top:-11px;left:50%;transform:translateX(-50%);padding:4px 8px;border-radius:8px;background:var(--ok);color:#fff;font:800 11px/1 var(--display);white-space:nowrap}
+.btn.gold{background:#F5B81F;color:#3A2A00;box-shadow:0 5px 0 #B88A12}
+.fine{font-size:12.5px;color:var(--muted);text-align:center;font-weight:600}.fine a{color:var(--brand)}
+.badge-prem{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border-radius:7px;background:#F5B81F;color:#3A2A00;font:800 11px/1 var(--display);letter-spacing:.04em;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -439,6 +464,7 @@ img.zoom{width:100%;height:auto;background:#fff;border-radius:12px}
 <!--FIREBASE--><script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-functions-compat.js"></script>
 <script src="firebase-config.js"></script><!--/FIREBASE-->
 <script src="catalog.js"></script>
 <script src="engine.js"></script>

@@ -51,7 +51,7 @@ with sync_playwright() as p:
     for scheme in ('light', 'dark'):
         ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, color_scheme=scheme)
         pg = ctx.new_page()
-        pg.on('console', lambda m: m.type == 'error' and errs.append('consola: ' + m.text))
+        pg.on('console', lambda m: m.type == 'error' and 'ERR_FAILED' not in m.text and errs.append('consola: ' + m.text))
         pg.on('requestfailed', lambda r: '127.0.0.1' in r.url and errs.append('fallo de carga: ' + r.url))
         pg.on('pageerror', lambda e: errs.append('error JS: ' + str(e)))
         pg.route(re.compile(r'^https?://(?!127\.0\.0\.1)'), lambda r: r.abort())
