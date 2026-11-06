@@ -83,4 +83,14 @@ style = re.search(r'<style>.*?</style>', html, re.S).group(0)
 fonts = re.search(r'<link rel="stylesheet"[^>]+>', html).group(0)
 body = re.search(r'<body>(.*)</body>', html, re.S).group(1).replace('<script src="catalog.js">', '<script>window.SP_NO_SW=1</script>\n<script src="catalog.js">')
 open(os.path.join(ART, 'index.html'), 'w', encoding='utf-8').write(f'{title}\n<meta name="claude:viewport-fit-sides" content="cover">\n{fonts}\n{style}\n{body}')
+# La vista previa admite como máximo 512 archivos: incrusta las figuras de la teoría en cada unidad (data URI) y borra img/.
+import base64, glob
+for jf in glob.glob(os.path.join(ART, 'teoria', '*', 'u*.json')):
+    cid = os.path.basename(os.path.dirname(jf)); txt = open(jf, encoding='utf-8').read()
+    def _inl(m):
+        fp = os.path.join(ART, 'teoria', cid, 'img', m.group(1))
+        return 'src=\\"data:image/webp;base64,' + base64.b64encode(open(fp, 'rb').read()).decode() + '\\"' if os.path.exists(fp) else m.group(0)
+    txt = re.sub(r'src=\\"teoria/' + re.escape(cid) + r'/img/([^"\\]+)\\"', _inl, txt)
+    open(jf, 'w', encoding='utf-8').write(txt)
+for d in glob.glob(os.path.join(ART, 'teoria', '*', 'img')): shutil.rmtree(d)
 print('vista previa lista en dist-artifact/')

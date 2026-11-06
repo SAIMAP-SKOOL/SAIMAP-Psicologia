@@ -296,7 +296,7 @@ window.COURSE.units.push(
       "La EMA elimina por completo la reactividad de la medida.|F|Puede ser reactiva: registrar el estado de ánimo varias veces al día puede modificarlo. Además supone carga.",
       "Los TAI logran mediciones precisas con menos ítems.|V",
       "La validez de las métricas pasivas para inferir estados psicológicos está bien establecida.|F|Sigue en discusión. Prometen datos continuos y poco reactivos, pero su validez está todavía en debate.",
-      "Los datos digitales de salud son de categoría especial según el Reglamento General de Protección de Datos.|V"
+      "La sensorización pasiva registra datos sin que la persona tenga que responder.|V"
     ],
     q: [
       "Una entrevista breve y un cuestionario ya permiten decidir si una paciente necesita tratamiento. ¿Cuándo se justifica añadir una prueba larga?|Si mejora el acierto de la decisión|Si la paciente tiene tiempo libre|Si la prueba es muy conocida|Es el criterio de validez incremental: solo se añade si aporta información que no se tenía ya.",

@@ -119,7 +119,7 @@ window.COURSE.units.push(
     tip: "Una puntuación directa no significa nada sin una referencia. La interpretación normativa la compara con un grupo mediante baremos representativos, amplios y actuales, y la criterial, con un criterio de dominio. Las escalas típicas se obtienen de z con transformaciones lineales: T (50 y 10), CI (100 y 15), escalar Wechsler (10 y 3), eneatipo (5 y 2) y decatipo (5,5 y 2). El percentil es ordinal y no se puede promediar ni restar.",
     v: [
       "Baremo=Tabla que transforma puntuaciones directas en derivadas según una muestra normativa",
-      "Interpretación criterial=Comparación con un dominio o un punto de corte, no con otras personas",
+      "Muestra normativa=Grupo representativo, amplio y actual con el que se elabora el baremo",
       "Puntuación z=Distancia a la media expresada en desviaciones típicas",
       "Puntuación T=Escala de media 50 y desviación típica 10",
       "Escalar Wechsler=Escala de media 10 y desviación típica 3 de las subpruebas",
@@ -234,11 +234,11 @@ window.COURSE.units.push(
   { t: "Utilidad diagnóstica: sensibilidad, especificidad y curvas ROC",
     tip: "Cuando un test clasifica, su validez se expresa con índices de utilidad diagnóstica frente a un criterio. La sensibilidad y la especificidad son propiedades del test, mientras que los valores predictivos dependen de la tasa base. Bajar el punto de corte sube la sensibilidad y baja la especificidad, y la elección depende del coste de cada error. La curva ROC muestra todos los puntos de corte, y su área (AUC) va de 0,5, azar, a 1, discriminación perfecta.",
     v: [
-      "Sensibilidad=Proporción de personas con el trastorno que el test detecta",
-      "Especificidad=Proporción de personas sin el trastorno que el test descarta",
+      "Utilidad diagnóstica=Validez de un test que clasifica, expresada frente a un criterio",
+      "Criterio de referencia=Clasificación, como una entrevista estructurada, con la que se compara el test",
       "Valor predictivo positivo=Proporción de positivos que realmente tienen el trastorno",
       "Valor predictivo negativo=Proporción de negativos que realmente no lo tienen",
-      "Falso positivo=Persona sin el trastorno clasificada como positiva",
+      "Verdadero negativo=Persona sin el trastorno a la que el test clasifica como negativa",
       "Curva ROC=Sensibilidad frente a 1 − especificidad para cada punto de corte",
       "AUC=Área bajo la curva, índice resumen de discriminación",
       "Punto de corte=Valor a partir del cual una puntuación continua se considera positiva"
@@ -357,7 +357,7 @@ window.COURSE.units.push(
       "Entrevista estructurada=Preguntas, orden y codificación fijados, con resultado por reglas",
       "Entrevista conjunta=Con una pareja o una familia, permite ver cómo interactúan",
       "Entrevista de anamnesis=Reconstruye la historia vital, a veces con una línea de vida",
-      "Entrevista de devolución=Comunica los resultados de la evaluación",
+      "Entrevista de profundización=Explora áreas concretas o contrasta hipótesis",
       "Entrevista de orientación=Ayuda a decidir un itinerario, como elegir estudios",
       "Comparabilidad=Todas las personas reciben las mismas preguntas y criterios"
     ],
@@ -546,7 +546,7 @@ window.COURSE.units.push(
     v: [
       "Examen del estado mental=Exploración ordenada de cómo se presenta la persona en la entrevista",
       "Insight=Conciencia del problema",
-      "Juicio=Capacidad de valorar la situación, explorada en el examen del estado mental",
+      "Afecto y humor=Estado emocional observado y el que la persona describe",
       "Fórmula E-O-R-K-C=Estímulos, organismo, respuesta, contingencia y consecuencias",
       "Ambivalencia=No tener claro que se quiera cambiar una conducta",
       "OARS=Abiertas, afirmaciones, reflejos y resúmenes",

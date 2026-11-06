@@ -68,7 +68,7 @@ window.COURSE.units.push(
       "Un programa reduce las discusiones de una pareja de cinco a dos por semana, pero cada una pasa de diez minutos a una hora. ¿Qué se concluye?|Frecuencia y duración se contradicen|El tratamiento ha funcionado sin duda|Solo importa la reducción de frecuencia|La frecuencia sugiere mejoría y la duración, lo contrario. Registrar más de una propiedad protege de este error.",
       "Preocupa que un niño tarde mucho en obedecer las instrucciones de sus padres. ¿Qué medida conviene?|La latencia|La frecuencia|La duración|La pregunta de evaluación guía la elección: interesa cuánto tarda en empezar la respuesta, no cuántas órdenes cumple.",
       "Diez interrupciones en una sesión de una hora y diez en una de veinte minutos…|no equivalen, por lo que se usa la tasa|equivalen, porque la frecuencia es la misma|no equivalen, por lo que se usa la latencia|Con sesiones de distinta duración la frecuencia bruta engaña. La tasa expresa los episodios por unidad de tiempo.",
-      "Para evaluar cuánto tiempo pasa un alumno concentrado en la tarea, ¿qué medida es la más adecuada?|La duración|La tasa|La ocurrencia|Interesa cuánto tiempo ocupa la conducta, no cuántas veces aparece. Puede expresarse como porcentaje del tiempo."
+      "Para evaluar cuánto tiempo juega un niño con otros en el recreo, ¿qué medida es la más adecuada?|La duración|La tasa|La ocurrencia|Interesa cuánto tiempo ocupa la conducta, no cuántas veces aparece. Puede expresarse como porcentaje del tiempo."
     ],
     inc: [
       "Sobre la elección de la unidad de medida|Es una decisión neutra que no afecta a las conclusiones|Depende de la pregunta de evaluación|Depende de la forma de la conducta y del coste|No es neutra: una misma conducta puede parecer que mejora o que empeora según la propiedad que se mida."
@@ -83,7 +83,7 @@ window.COURSE.units.push(
       "Registro narrativo=Descripción libre de lo que ocurre, sin esquema previo, útil para crear categorías",
       "Registro anecdótico=Variante del diario que recoge episodios llamativos",
       "Escala de apreciación=Valoración al final de un periodo del grado en que se da una conducta",
-      "Efecto halo=Una impresión general tiñe la valoración de aspectos concretos",
+      "Catálogo de conducta=Lista de conductas definidas de antemano en la que se marca cuáles aparecen",
       "Lenidad o severidad=Tendencia a puntuar a todos alto o a todos bajo",
       "Error lógico=Puntuar parecido rasgos que el observador cree relacionados",
       "Matriz de interacción=Cruza conductas de dos personas para ver qué sigue a qué",
@@ -130,7 +130,7 @@ window.COURSE.units.push(
     g: [
       "Que cualquier conducta del ámbito pueda asignarse a alguna categoría es el requisito de ___.|exhaustividad|mutua exclusividad|homogeneidad",
       "Para codificar a la vez qué dice un niño, a quién y con qué tono se usan los ___.|formatos de campo|catálogos de conducta|mapas de conducta",
-      "Cuantas más categorías tiene un sistema, ___ es el acuerdo entre observadores.|menor|mayor|igual",
+      "Los sistemas de categorías permiten un análisis ___: qué categoría tiende a seguir a cuál.|secuencial|factorial|normativo",
       "El vídeo con codificación posterior permite revisar las escenas y calcular el ___ con calma.|acuerdo|baremo|sesgo",
       "Los registros automáticos de datos de salud exigen consentimiento informado y cumplir el ___.|RGPD|DSM|BIDR"
     ],
@@ -138,7 +138,7 @@ window.COURSE.units.push(
       "Si el actígrafo marca inactividad, puede concluirse que la persona estaba dormida.|F|El dato no distingue si dormía, estaba tumbada despierta o se había quitado la pulsera: la inferencia sigue abierta.",
       "En la práctica clínica rara vez se construye un sistema de categorías para un solo caso.|V",
       "Un sistema con más categorías, al ser más detallado, logra más acuerdo entre observadores.|F|Ocurre lo contrario: cuantas más categorías, menor acuerdo entre observadores.",
-      "La validez de las métricas pasivas obtenidas con móviles y dispositivos ponibles está en debate.|V"
+      "Los sensores de frecuencia cardiaca o de conductancia de la piel son procedimientos automáticos de registro.|V"
     ],
     q: [
       "Un sistema define «agresión física» como contacto que puede causar daño, incluye empujar y pellizcar y excluye chocar sin querer en la fila. ¿Para qué sirve esta última frase?|Para que los observadores coincidan|Para hacer el sistema exhaustivo|Para crear un formato de campo|El contraejemplo delimita la categoría. Sin él, dos observadores registrarían cosas distintas.",
@@ -169,7 +169,7 @@ window.COURSE.units.push(
     ],
     g: [
       "El intervalo parcial ___ la duración de la conducta.|sobreestima|infraestima|reproduce",
-      "El error de las estrategias de muestreo ___ al alargar el intervalo.|crece|disminuye|desaparece",
+      "Si no se sabe lo bastante de la conducta para decidir el muestreo de tiempo, conviene una ___ breve.|preobservación|devolución|anamnesis",
       "El ___ es el criterio de comparación de los demás métodos de muestreo.|registro continuo|intervalo parcial|muestreo momentáneo",
       "Para no dejar escapar conductas breves, como un tic, sirve el muestreo de intervalo ___.|parcial|total|largo",
       "Si se evalúa una residencia, se selecciona a algunas personas y se ___ a quién se observa.|rota|repite|empareja"
@@ -279,14 +279,14 @@ window.COURSE.units.push(
       "Kappa de Cohen=Índice de acuerdo que descuenta el esperado por azar",
       "Landis y Koch (1977)=Propusieron franjas convencionales para interpretar kappa",
       "Estabilidad temporal=Mantenimiento de la conducta registrada en distintas sesiones",
-      "Teoría de la generalizabilidad=Estima a la vez la variación por observador, sesión o situación"
+      "Criterio de acuerdo=Nivel fijado de antemano que deben alcanzar los observadores al entrenarse"
     ],
     g: [
-      "Con un acuerdo observado de 0,80 y un acuerdo por azar de 0,50, kappa vale ___.|0,60|0,30|0,80",
+      "Con un acuerdo observado de 0,70 y un acuerdo por azar de 0,40, kappa vale ___.|0,50|0,30|0,70",
       "Si un observador cuenta 18 conductas y otro 20, el acuerdo total es del ___.|90 %|80 %|95 %",
-      "Según Landis y Koch, un kappa por encima de 0,80 indica un acuerdo ___.|casi perfecto|sustancial|moderado",
+      "Un kappa de 0,60 queda en el techo de la franja ___ de Landis y Koch.|moderada|sustancial|casi perfecta",
       "El acuerdo por intervalos es más exigente que el total, pero no corrige el acuerdo por ___.|azar|deriva|reactividad",
-      "La teoría de la generalizabilidad se debe a Cronbach, Gleser, Nanda y ___.|Rajaratnam|Kanowitz|Martindale"
+      "La estabilidad temporal se comprueba ___ los datos de dos o más momentos.|correlacionando|promediando|sumando"
     ],
     tf: [
       "Kappa vale 0 cuando el acuerdo no supera al que cabría esperar por azar.|V",
@@ -296,7 +296,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Dos observadores registran 20 intervalos. Coinciden en 16 y el acuerdo esperado por azar es 0,50. ¿Cuánto vale kappa?|0,60|0,80|0,30|El acuerdo observado es 16/20, 0,80. Kappa es (0,80 − 0,50) / (1 − 0,50), es decir, 0,30 / 0,50, que da 0,60.",
-      "Dos observadores coinciden en el 90 % de los intervalos al registrar una conducta muy rara. ¿Qué conviene concluir?|Hay que calcular kappa antes de valorarlo|El registro es exacto y no necesita revisión|El acuerdo es casi perfecto según Landis y Koch|Con conductas raras el acuerdo por azar es muy alto. En el ejemplo del temario, un 90 % se queda en un κ de 0,44.",
+      "Dos observadores coinciden en el 90 % de los intervalos al registrar una conducta muy rara. ¿Qué conviene concluir?|Hay que calcular kappa antes de valorarlo|El registro es exacto y no necesita revisión|El acuerdo es casi perfecto según Landis y Koch|Con conductas raras el acuerdo por azar es muy alto. Con una conducta rara, un 90 % de acuerdo puede quedarse en un κ de 0,44.",
       "¿Qué índice de acuerdo entre observadores es el más laxo?|El acuerdo total|El acuerdo por intervalos|El kappa de Cohen|Compara solo los totales: los observadores pueden haber contado episodios distintos y coincidir en la suma.",
       "En la planificación de la observación, ¿qué paso va justo antes de entrenar a los observadores?|Decidir el muestreo|Elegir la técnica de registro|Analizar los datos|El orden es objetivo, definiciones operativas, unidades, técnica, muestreo, entrenamiento, controles y análisis."
     ],
@@ -360,20 +360,20 @@ window.COURSE.units.push(
       "Triangulación=Contrastar la respuesta con otras ocasiones, formatos, huellas e informantes",
       "Tipo de manifestación=Variable que distingue respuesta motora, fisiológica, cognitiva o subjetiva",
       "Variable tiempo=Si lo preguntado se refiere al pasado, al presente o al futuro",
-      "Achenbach et al. (1987)=Metaanálisis con correlación media de 0,22 entre sujeto y otros informantes",
+      "Indicador=Respuesta que remite a un constructo que no aparece en ella de forma literal",
       "Huella comprobable=Rastro externo como un ticket o un historial de llamadas"
     ],
     g: [
       "Fernández-Ballesteros clasifica los autoinformes según cuánto tiene que ___ el evaluador.|interpretar|preguntar|observar",
       "La evaluación conductual prefiere los autoinformes ___ porque reducen la inferencia.|directos|indirectos|proyectivos",
-      "La correlación media entre el propio sujeto y otros informantes fue de solo ___.|0,22|0,60|0,44",
+      "Si un paciente anota que se despierta tres veces cada noche, esa respuesta ya es el ___ que interesa.|dato|signo|síntoma",
       "Pensar «me voy a desmayar» corresponde a una manifestación ___.|cognitiva|motora|fisiológica",
       "Un mismo instrumento puede usarse de forma directa o indirecta según cómo se ___.|interprete|aplique|construya"
     ],
     tf: [
       "Un autoinforme isomórfico es objetivo porque no requiere inferencia del evaluador.|F|Sigue pasando por las cuatro fases de respuesta: cambia la inferencia del evaluador, no la exactitud de la persona.",
       "Los modelos psicométrico y dinámico usan con más frecuencia autoinformes indirectos.|V",
-      "La baja correlación entre el sujeto y otros informantes indica que alguno de ellos miente.|F|Cada informante ve una parte distinta de la conducta. La discrepancia no indica mentira.",
+      "Notar taquicardia es un ejemplo de manifestación cognitiva en un autoinforme.|F|Es una manifestación fisiológica. Lo cognitivo sería pensar «me voy a desmayar», y lo motor, evitar el metro.",
       "Las horas de sueño son más contrastables con criterios externos que el grado de tristeza.|V"
     ],
     q: [
@@ -397,21 +397,21 @@ window.COURSE.units.push(
       "Vía empírica=Ítems elegidos por su capacidad para diferenciar grupos, como en el MMPI",
       "Vía factorial=Ítems elegidos por su peso en un factor, como en el 16PF",
       "Elección forzada=Elegir entre afirmaciones de deseabilidad parecida",
-      "Puntuación ipsativa=Compara las preferencias de la persona entre sí, no con otras personas",
+      "Vía racional=Ítems elegidos según lo que propone la teoría",
       "Escala analógico-visual=Línea de 100 mm entre dos extremos en la que se marca un punto",
       "Q-sort=Reparto de tarjetas en montones según una distribución forzada cuasinormal"
     ],
     g: [
-      "El STAI pregunta cómo se siente la persona «en general» y cómo se siente ___.|ahora mismo|cada semana|en el pasado",
+      "El Fear Survey Schedule (Wolpe y Lang, 1964) evalúa repertorios ___.|clínico-conductuales|cognitivos|narrativos",
       "El ATQ de Hollon y Kendall evalúa repertorios ___.|cognitivos|clínico-conductuales|narrativos",
-      "La rejilla de constructos personales de ___ es una técnica idiográfica.|Kelly|McAdams|Stephenson",
+      "Las construcciones ___, como las de la rejilla de constructos, muestran cómo organiza la persona su propio mundo.|idiográficas|normativas|criteriales",
       "Con un número ___ de opciones en una escala Likert se evita el punto medio.|par|impar|alto",
       "El Q-sort fue propuesto por ___ en 1953.|Stephenson|Spielberger|Kelly"
     ],
     tf: [
-      "La elección forzada produce puntuaciones ipsativas, que comparan a la persona con un grupo normativo.|F|Las puntuaciones ipsativas comparan las preferencias de la persona entre sí, no con las de otras personas.",
+      "En la escala analógico-visual la persona elige entre cuatro y siete opciones de respuesta.|F|Marca un punto en una línea de 100 mm entre dos extremos. Entre 4 y 7 opciones es lo habitual en las escalas Likert.",
       "El formato dicotómico favorece la aquiescencia, y el Likert, la tendencia central o extrema.|V",
-      "En el Q-sort la persona coloca libremente las tarjetas en los montones que quiera.|F|Sigue una distribución forzada cuasinormal: pocas tarjetas en los extremos y muchas en el centro.",
+      "Las preguntas no estructuradas son iguales para todos y tienen respuestas predeterminadas.|F|Eso define las estructuradas. Las no estructuradas plantean una consigna abierta, como «Cuénteme cómo es un día normal».",
       "El autorregistro es el ejemplo típico de pregunta semiestructurada.|V"
     ],
     q: [
@@ -487,7 +487,7 @@ window.COURSE.units.push(
       "Poder situar a la persona en un baremo es la ventaja de la ___ de los cuestionarios.|comparabilidad|economía|estandarización"
     ],
     tf: [
-      "Un α de 0,89 demuestra que el BDI-II mide una sola dimensión.|F|Un α alto indica covariación entre ítems. La unidimensionalidad se comprueba analizando la estructura interna.",
+      "La adaptación española del BDI-II se estudió solo con población clínica.|F|Se estudió primero con 590 universitarios y después en población general (Sanz, Perdigón y Vázquez, 2003).",
       "Una puntuación alta en el BDI-II basta para diagnosticar un episodio depresivo.|F|Indica síntomas intensos, pero el diagnóstico exige entrevista clínica, historia del caso y otros datos.",
       "Los nombres cuestionario, inventario y escala se usan de forma bastante intercambiable.|V",
       "Medir el cambio antes, durante y después de una intervención es uno de los usos de los cuestionarios.|V"
@@ -513,7 +513,7 @@ window.COURSE.units.push(
       "Hoja ABC=Antecedente, conducta o pensamiento y consecuencia de cada episodio",
       "Valencia=Carácter deseable o indeseable de la conducta registrada",
       "Registro previo=Anotar la conducta antes de realizarla, como el cigarrillo antes de encenderlo",
-      "EMA=Respuestas breves en el móvil varias veces al día, en el momento y lugar reales",
+      "Metas y retroalimentación=Factor que, según Nelson, aumenta la reactividad del autorregistro",
       "Nelson (1977)=Describió los factores que aumentan la reactividad del autorregistro",
       "Korotitsch y Nelson-Gray=Describieron en 1999 los dos componentes de la autoobservación anotada"
     ],
@@ -521,7 +521,7 @@ window.COURSE.units.push(
       "Las conductas deseables tienden a ___ al autorregistrarlas.|aumentar|disminuir|estabilizarse",
       "Conviene anotar la conducta ___, no al final del día.|justo después|a la semana|antes de dormir",
       "El autorregistro es una técnica ___, porque el evaluador define qué se anota y la persona observa.|semiestructurada|estructurada|no estructurada",
-      "La EMA reduce el sesgo de ___ y gana validez ecológica.|recuerdo|aquiescencia|deseabilidad",
+      "Una libreta, un contador de muñeca o una aplicación sirven si la persona puede usarlos en el ___.|momento|despacho|fin de semana",
       "Para el tratamiento, la reactividad del autorregistro es una ___.|ventaja|amenaza|limitación"
     ],
     tf: [
@@ -599,7 +599,7 @@ window.COURSE.units.push(
       "Cuando informan familiares o docentes, la información deja de ser un ___.|autoinforme|registro|testimonio",
       "Desde el enfoque de ___, la identidad es una historia de vida interiorizada.|McAdams|Kelly|Stephenson",
       "La línea de vida ayuda especialmente a quien tiene dificultades para ___.|escribir|recordar|hablar",
-      "La fiabilidad y la validez de la entrevista aumentan con la ___.|estructura|duración|empatía",
+      "Al relato autobiográfico pueden sumarse documentos ___, como un diario o una carta.|personales|clínicos|oficiales",
       "El principal riesgo de la autobiografía es la ___ del recuerdo.|reconstrucción|reactividad|aquiescencia"
     ],
     tf: [
