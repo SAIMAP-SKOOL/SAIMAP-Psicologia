@@ -13,8 +13,8 @@ D = os.path.abspath(sys.argv[1])
 CFG = json.load(open(os.path.join(D, 'book.json'), encoding='utf-8'))
 # FORMATO=a4 (por defecto: PDF de la app) o FORMATO=7x10 (interior de imprenta para KDP, 7 × 10 in)
 FORMATO = os.environ.get('FORMATO', 'a4').lower()
-FMT = {'a4': dict(w='210mm', h='297mm', top='18mm', bottom='20mm', side='16mm', cover='255mm', t='46pt', s='19pt', d='130mm', suf=''),
-       '7x10': dict(w='7in', h='10in', top='15mm', bottom='18mm', side='16.5mm', cover='214mm', t='36pt', s='16pt', d='118mm', suf='_7x10')}[FORMATO]
+FMT = {'a4': dict(w='210mm', h='297mm', top='18mm', bottom='20mm', side='16mm', cover='255mm', t='46pt', s='19pt', d='130mm', suf='', foot='0'),
+       '7x10': dict(w='7in', h='10in', top='15mm', bottom='18mm', side='16.5mm', cover='214mm', t='36pt', s='16pt', d='118mm', suf='_7x10', foot='5mm')}[FORMATO]
 _C = CFG['colors']
 P, A, TINT = _C['P'], _C['A'], _C['TINT']          # primary, accent, primary tint
 STRIPE = _C['STRIPE']
@@ -207,7 +207,7 @@ def build(pages):
             f'<style>{CSS}</style></head><body>{cover}{t}{tighten(body)}</body></html>')
 
 
-FOOT = ('<div style="width:100%;font-size:8pt;color:#8A949B;font-family:Liberation Sans,Arial;padding:0 ' + FMT['side'] + ';display:flex;justify-content:space-between">'
+FOOT = ('<div style="width:100%;font-size:8pt;color:#8A949B;font-family:Liberation Sans,Arial;padding:0 ' + FMT['side'] + ' ' + FMT['foot'] + ';display:flex;justify-content:space-between">'
         f'<span>{CFG["footer"]}</span><span class="pageNumber"></span></div>')
 HTML = os.path.join(D, 'book.html')
 os.makedirs(os.path.join(D, 'pdf'), exist_ok=True)

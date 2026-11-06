@@ -50,7 +50,7 @@ def front_png(pdf, out):
     subprocess.run(['pdftoppm', '-r', '300', '-f', '1', '-l', '1', '-png', '-singlefile', pdf, base], check=True)
     im = Image.open(base + '.png').convert('RGB')
     w, h = im.size
-    im.paste((255, 255, 255), (0, int(h * .948), w, h))     # quita el pie de página (título y número)
+    im.paste((255, 255, 255), (0, int(h * (.948 if FORMATO == 'a4' else .925)), w, h))     # quita el pie de página (título y número)
     im.save(out, optimize=True)
     return out
 
