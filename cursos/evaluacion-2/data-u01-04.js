@@ -120,7 +120,7 @@ window.COURSE.units.push(
     v: [
       "Biofeedback=Devolver en tiempo real información de una señal para aprender a modificarla",
       "Polígrafo=Registra a la vez varias respuestas autónomas, no el engaño",
-      "Test de la pregunta de control=Compara las preguntas del delito con otras incómodas para casi todos",
+      "Test de pregunta de control=Compara las preguntas del delito con otras incómodas para casi todos",
       "Test de información oculta=Comprueba si se reacciona ante detalles que solo conocería el autor",
       "Contramedidas=Maniobras con las que un culpable entrenado altera el registro",
       "Tasa base=Proporción de casos verdaderos en la población evaluada",
@@ -203,7 +203,7 @@ window.COURSE.units.push(
       "POMS=Perfil de estados de ánimo muy usado en psicología del deporte (McNair et al., 1971)",
       "Consigna de rasgo=Pide marcar cómo es uno en general",
       "Consigna de estado=Pide marcar cómo se siente uno hoy",
-      "Aquiescencia=Tendencia a aceptar o marcar con independencia del contenido"
+      "Marcar mucho=Estilo de respuesta que eleva la puntuación en casi todas las escalas de una lista"
     ],
     g: [
       "La ACL contiene ___ adjetivos de uso común.|300|150|500",
@@ -558,7 +558,7 @@ window.COURSE.units.push(
       "Distorsión perceptiva=Variables del Rorschach con buen apoyo, útiles ante procesos psicóticos",
       "Pensamiento desorganizado=Variables del Rorschach bien apoyadas junto a las de distorsión perceptiva",
       "Lilienfeld, Wood y Garb=Revisión de 2000 que niega validez a los dibujos interpretados por signos",
-      "Muñiz et al. (2020)=Encuesta española: los 25 tests más usados son psicométricos",
+      "Criterios externos=Diagnósticos, observación o rendimiento, con los que el Rorschach correlacionó 0,27",
       "Wood et al. (2001)=Mostraron que las normas del Sistema Comprehensivo sobrepatologizaban"
     ],
     g: [

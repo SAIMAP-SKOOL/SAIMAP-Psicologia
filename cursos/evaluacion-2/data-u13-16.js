@@ -240,7 +240,7 @@ window.COURSE.units.push(
     v: [
       "Kuder-C=Versión clásica de TEA con 10 escalas de interés y una de verificación",
       "Tríada=Ítem con tres actividades del que se elige la preferida y la menos atractiva",
-      "Puntuación ipsativa=Relativa a las demás escalas de la misma persona",
+      "Formato relativo=Elegir entre varias actividades, de modo que preferir una supone renunciar a otra",
       "Escala de verificación=Tríadas de respuesta previsible para detectar descuido o azar",
       "Correlaciones artificiales=Negativas, porque si una escala sube otras tienen que bajar",
       "Escala de Cálculo=Preferencia por llevar cuentas y trabajar con números",
@@ -360,7 +360,7 @@ window.COURSE.units.push(
       "Ítem invertido=Enunciado desfavorable que se recodifica y ayuda a controlar la aquiescencia",
       "Ítem de tipo Likert=Un único ítem con respuesta graduada, no una escala completa",
       "Análisis de ítems=Selección por correlación con el total o por capacidad de discriminar",
-      "Aquiescencia=Tendencia a estar de acuerdo con todo",
+      "Respuestas ordinales=Categorías ordenadas cuya suma supone distancias iguales entre ellas",
       "Valor escalar=Mediana de las valoraciones de los jueces sobre un enunciado",
       "Ambigüedad del enunciado=Dispersión de las valoraciones de los jueces",
       "Intervalos aparentemente iguales=Método de Thurstone y Chave, con jueces y 11 categorías"
