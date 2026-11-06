@@ -11,12 +11,13 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SRC, DIST = os.path.join(HERE, 'src'), os.path.join(HERE, 'dist')
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 
 shutil.rmtree(DIST, ignore_errors=True)
 os.makedirs(os.path.join(DIST, 'cursos')); os.makedirs(os.path.join(DIST, 'temarios')); os.makedirs(os.path.join(DIST, 'icons'))
 for f in ('index.html', 'app.js', 'engine.js', 'catalog.js', 'mascot.js', 'scenes.js', 'privacidad.html', 'borrar-cuenta.html', 'firebase-config.js'):
     shutil.copy(os.path.join(SRC, f), DIST)
+shutil.copytree(os.path.join(SRC, 'fonts'), os.path.join(DIST, 'fonts'))   # tipografías propias (sin Google Fonts)
 
 # cursos: course.js + data-*.js envueltos en una función que recibe un "window" propio
 for cdir in sorted(glob.glob(os.path.join(ROOT, 'cursos', '*', 'course.js'))):
@@ -63,12 +64,32 @@ sw = f"""// SAIMAP Psicología · service worker (caché para usar la app sin co
 const CACHE = 'sp-{VERSION}-{h}';
 const FILES = {json.dumps(['./'] + files)};
 self.addEventListener('install', e => {{ e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); }});
-self.addEventListener('activate', e => {{ e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); }});
+self.addEventListener('activate', e => {{ e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && !k.startsWith('sp-off-')).map(k => caches.delete(k)))).then(() => self.clients.claim())); }});
+// teoría y cursos: primero la red (contenido al día) y, sin conexión, lo guardado; el resto, primero la caché
 self.addEventListener('fetch', e => {{
   const u = new URL(e.request.url);
   if (e.request.method !== 'GET' || u.origin !== location.origin) return;
+  if (/\/(teoria|cursos)\//.test(u.pathname)) {{
+    e.respondWith(fetch(e.request).then(res => {{ const cp = res.clone(); if (res.ok) caches.open(CACHE).then(c => c.put(e.request, cp)); return res; }}).catch(() => caches.match(e.request)));
+    return;
+  }}
   e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(res => {{ const cp = res.clone(); if (res.ok) caches.open(CACHE).then(c => c.put(e.request, cp)); return res; }})));
 }});
+// recordatorio diario: el sistema despierta al service worker de vez en cuando (Periodic Background Sync)
+const remState = () => new Promise(ok => {{ try {{ const r = indexedDB.open('sp-rem', 1); r.onupgradeneeded = () => r.result.createObjectStore('kv');
+  r.onsuccess = () => {{ const q = r.result.transaction('kv').objectStore('kv').get('state'); q.onsuccess = () => ok(q.result || null); q.onerror = () => ok(null); }}; r.onerror = () => ok(null); }} catch (e) {{ ok(null); }} }});
+const ds = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+async function remind() {{
+  const st = await remState(), now = new Date(), today = ds(now);
+  if (!st || !st.on || now.getHours() < st.hour) return;
+  const xp = st.day === today ? st.dx : 0; if (xp >= st.goal) return;
+  const shown = await self.registration.getNotifications({{ tag: 'sp-rem-' + today }}); if (shown.length) return;
+  const c = await caches.open('sp-rem-flag'); if (await c.match('/' + today)) return; await c.put('/' + today, new Response('1'));
+  await self.registration.showNotification('Psique te espera', {{ tag: 'sp-rem-' + today, icon: 'icons/icon-192.png', badge: 'icons/icon-192.png', lang: 'es',
+    body: xp ? 'Te quedan ' + (st.goal - xp) + ' XP para tu meta de hoy.' : st.streak ? 'Haz una lección para no perder tu racha de ' + st.streak + (st.streak === 1 ? ' día.' : ' días.') : 'Unos minutos de estudio y llegas a tu meta de hoy.' }});
+}}
+self.addEventListener('periodicsync', e => {{ if (e.tag === 'sp-recordatorio') e.waitUntil(remind()); }});
+self.addEventListener('notificationclick', e => {{ e.notification.close(); e.waitUntil(self.clients.matchAll({{ type: 'window' }}).then(ws => ws.length ? ws[0].focus() : self.clients.openWindow('./'))); }});
 """
 open(os.path.join(DIST, 'sw.js'), 'w', encoding='utf-8').write(sw)
 print('dist listo:', len(files) + 1, 'archivos · versión', VERSION, h)
@@ -80,7 +101,7 @@ for f in ('sw.js', 'manifest.webmanifest', 'firebase-config.js'): os.remove(os.p
 html = re.sub(r'<!--FIREBASE-->.*?<!--/FIREBASE-->\n?', '', open(os.path.join(DIST, 'index.html'), encoding='utf-8').read(), flags=re.S)   # la vista previa no usa cuentas
 title = re.search(r'<title>.*?</title>', html).group(0)
 style = re.search(r'<style>.*?</style>', html, re.S).group(0)
-fonts = re.search(r'<link rel="stylesheet"[^>]+>', html).group(0)
+fonts = ''   # las tipografías van en fonts/ (las @font-face están en el propio estilo)
 body = re.search(r'<body>(.*)</body>', html, re.S).group(1).replace('<script src="catalog.js">', '<script>window.SP_NO_SW=1</script>\n<script src="catalog.js">')
 open(os.path.join(ART, 'index.html'), 'w', encoding='utf-8').write(f'{title}\n<meta name="claude:viewport-fit-sides" content="cover">\n{fonts}\n{style}\n{body}')
 # La vista previa admite como máximo 512 archivos: incrusta las figuras de la teoría en cada unidad (data URI) y borra img/.

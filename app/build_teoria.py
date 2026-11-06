@@ -66,7 +66,10 @@ def to_html(md, cid, used):
         name = os.path.splitext(f)[0] + '.webp'
         return f'<p class="fig {size}"><img src="teoria/{cid}/img/{name}" alt="" loading="lazy" decoding="async"></p>'
     h = re.sub(r'<p><img alt="([^"]*)" src="([^"]+)" ?/?></p>', img, h)
-    h = re.sub(r'(<p class="fig[^"]*">.*?</p>)\s*<p>(Figura .*?)</p>', r'<figure>\1<figcaption>\2</figcaption></figure>', h, flags=re.S)
+    def fig(m):   # el pie sirve también de texto alternativo (lectores de pantalla)
+        alt = H.escape(re.sub(r'^Figura\s+[\d.]+\.\s*', '', re.sub(r'<[^>]+>', '', m.group(2))).strip(), quote=True)
+        return '<figure>' + m.group(1).replace('alt=""', f'alt="{alt}"', 1) + '<figcaption>' + m.group(2) + '</figcaption></figure>'
+    h = re.sub(r'(<p class="fig[^"]*">.*?</p>)\s*<p>(Figura .*?)</p>', fig, h, flags=re.S)
     h = re.sub(r'<thead>\s*<tr>\s*(?:<th></th>\s*)+</tr>\s*</thead>', '', h)
     # fórmulas: conservar los espacios que separan expresiones en una misma línea
     h = re.sub(r'<blockquote>.*?</blockquote>', lambda m: re.sub(r'(?<=\S) {2,}(?=\S)', '<span class="sp"></span>', m.group(0)), h, flags=re.S)
