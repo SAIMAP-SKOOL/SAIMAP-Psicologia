@@ -3,7 +3,7 @@
 // el progreso se guarda por curso, así que lo hecho en una ruta cuenta en todas.
 window.SP_CATALOG = {
   // vidas y Premium: se activan cuando la suscripción de Google Play y el servidor están listos
-  features: { vidas: false },
+  features: { vidas: true },
   areas: [
     { id: 'fund', t: 'Fundamentos e historia', ico: 'book' },
     { id: 'basicos', t: 'Procesos psicológicos básicos', ico: 'spark' },
