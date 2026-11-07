@@ -263,7 +263,8 @@
     if (!Cloud.uid) { setEnt(null); return; }
     try { const d = await Cloud.fs.collection('ent').doc(Cloud.uid).get(); const e = d.exists && (d.data() || {}).psicologia; setEnt(e ? { premium: !!e.premium, until: e.until || 0, product: e.product || null, source: e.source || 'play' } : null); } catch (e) { }
     const last = LS.get('sp.entChk', 0);
-    if (Date.now() - last > 20 * 3600e3 || (ENT && ENT.until < Date.now())) {
+    // con Premium se vuelve a comprobar cada 20 h; sin Premium, cada 30 min (p. ej. alguien recién añadido como tester)
+    if (Date.now() - last > (ENT && ENT.premium ? 20 * 3600e3 : 30 * 60e3) || (ENT && ENT.until < Date.now())) {
       try { setEnt(await callFn('comprobarPremium')); LS.set('sp.entChk', Date.now()); } catch (e) { }
     }
     if (!isPremium()) Bill.restore().catch(() => { });
