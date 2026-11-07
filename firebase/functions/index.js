@@ -6,7 +6,6 @@
 //   compras/<sha256(token)> = { uid, app, product }       → un comprobante solo vale para una cuenta
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
 const { setGlobalOptions } = require('firebase-functions/v2');
-const functionsV1 = require('firebase-functions/v1');
 const { initializeApp } = require('firebase-admin/app');
 const { getFirestore } = require('firebase-admin/firestore');
 const { google } = require('googleapis');
@@ -76,8 +75,13 @@ exports.comprobarPremium = onCall({ region: REGION }, async req => {
 });
 
 // Al borrar la cuenta SAIMAP se borran también sus datos de suscripción
-exports.limpiarCuenta = functionsV1.region(REGION).runWith({ serviceAccount: SA }).auth.user().onDelete(async user => {
-  await db.doc('ent/' + user.uid).delete().catch(() => {});
-  const q = await db.collection('compras').where('uid', '==', user.uid).get();
+// La app la llama justo antes de borrar la cuenta: elimina el estado de Premium y los vínculos de compra.
+// (La suscripción en sí se cancela en Google Play.)
+exports.borrarPremium = onCall({ region: REGION }, async req => {
+  if (!req.auth) throw new HttpsError('unauthenticated', 'Inicia sesión.');
+  const uid = req.auth.uid;
+  await db.doc('ent/' + uid).delete().catch(() => {});
+  const q = await db.collection('compras').where('uid', '==', uid).get();
   await Promise.all(q.docs.map(d => d.ref.delete()));
+  return { ok: true };
 });

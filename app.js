@@ -123,6 +123,7 @@
       else if (isGoogle) await u.reauthenticateWithPopup(new firebase.auth.GoogleAuthProvider());
       clearTimeout(pushTimer); dirty = new Set(); const col = Cloud.col; Cloud.col = null;
       const base = Cloud.fs.collection('users').doc(u.uid);
+      await callFn('borrarPremium').catch(() => {});
       for (const name of ['psicologia', 'courses']) { const s = await base.collection(name).get(); await Promise.all(s.docs.map(d => d.ref.delete())); }
       await base.delete(); await u.delete();
       clearLocal(); formMsg = 'Tu cuenta y tu progreso se han borrado.'; return true;
