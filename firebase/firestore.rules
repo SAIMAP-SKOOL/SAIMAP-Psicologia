@@ -31,3 +31,4 @@ service cloud.firestore {
     match /compras/{doc} { allow read, write: if false; }
   }
 }
+
