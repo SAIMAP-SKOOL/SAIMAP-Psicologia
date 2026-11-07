@@ -3,7 +3,7 @@
 - `app/`: código de la app.
 - `cursos/`: contenido de los cursos.
 - `kit/`: constructor de temarios y plantillas del proceso.
-- `firebase/`: funciones de Premium (`verificarCompra`, `comprobarPremium`, `limpiarCuenta`) y reglas de Firestore comunes con SAIMAP Lingo. Se despliegan desde `main` con `.github/workflows/firebase.yml` (secreto `FIREBASE_SA`).
+- `firebase/`: funciones de Premium (`verificarCompra`, `comprobarPremium`, `borrarPremium`) y reglas de Firestore comunes con SAIMAP Lingo. Se despliegan desde `main` con `.github/workflows/firebase.yml` (sin claves: Workload Identity, cuenta `github-deploy`).
 - `temarios/<asignatura>/`: fuentes de los temarios (Markdown, `img/`, `tools/figuras.py` y `book.json`).
 
 ## Comandos
