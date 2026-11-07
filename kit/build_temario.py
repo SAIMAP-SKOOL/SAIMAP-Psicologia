@@ -4,7 +4,7 @@ Temarios SAIMAP Psicología. Adaptado del constructor de libros de SAIMAP Lingo.
 Construye <dir>/pdf/<pdf> a partir de los Markdown listados en <dir>/book.json.
 El tema de color va en book.json: "colors": {"P":..., "A":..., "TINT":..., "STRIPE":[...]}.
 """
-import sys, os, subprocess, re, json, html as H
+import sys, os, subprocess, re, json, glob, html as H
 import markdown
 from playwright.sync_api import sync_playwright
 from pypdf import PdfReader
@@ -290,21 +290,29 @@ if KDP:
     import io
     from pypdf import PdfWriter
     from reportlab.pdfgen import canvas
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    FONT = 'Helvetica'   # se incrusta Liberation Sans (la del pie): KDP pide todas las fuentes incrustadas
+    for fp in ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf'] + glob.glob('/usr/share/fonts/**/LiberationSans-Regular.ttf', recursive=True):
+        if os.path.exists(fp): pdfmetrics.registerFont(TTFont('LibSans', fp)); FONT = 'LibSans'; break
     r = PdfReader(OUT); w = PdfWriter(); F = F_PHYS[0]
     pw_, ph_ = float(r.pages[0].mediabox.width), float(r.pages[0].mediabox.height)
     for i, pg_ in enumerate(r.pages, 1):
         if i == F and len(w.pages) % 2 == 1: w.add_blank_page(pw_, ph_)
         w.add_page(pg_)
     F2 = F + (len(w.pages) - len(r.pages))
-    buf = io.BytesIO(); c = canvas.Canvas(buf, pagesize=(pw_, ph_))
+    buf = io.BytesIO()
+    c = canvas.Canvas(buf, pagesize=(pw_, ph_), initialFontName=FONT, initialFontSize=8)   # sin Helvetica sin incrustar
     side = float(FMT['side'][:-2]) * 72 / 25.4
     for i in range(1, len(w.pages) + 1):
         if i >= F2:
-            c.setFont('Helvetica', 8); c.setFillColorRGB(0x8A / 255, 0x94 / 255, 0x9B / 255)
+            c.setFont(FONT, 8); c.setFillColorRGB(0x8A / 255, 0x94 / 255, 0x9B / 255)
             c.drawRightString(pw_ - side, ph_ - 689.2 * ph_ / 720, str(i - F2 + 1))
         c.showPage()
     c.save(); nums = PdfReader(io.BytesIO(buf.getvalue()))
-    for i, pg_ in enumerate(w.pages): pg_.merge_page(nums.pages[i])
+    for i, pg_ in enumerate(w.pages):
+        if i + 1 >= F2: pg_.merge_page(nums.pages[i])
+        if '/Annots' in pg_: del pg_['/Annots']      # sin enlaces internos: en papel no sirven y KDP los marca
     w.write(OUT); npg = len(w.pages)
     print('KDP: primer capítulo en la página física', F2, '(número 1)')
 print('final pages', npg, os.path.getsize(OUT), OUT)
