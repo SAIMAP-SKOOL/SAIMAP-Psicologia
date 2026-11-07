@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
-        with: { node-version: "20" }
+        with: { node-version: "22" }
       - uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: projects/103281447895/locations/global/workloadIdentityPools/github/providers/saimap-psicologia
@@ -27,7 +27,7 @@ jobs:
         run: |
           set -o pipefail
           cd firebase/functions && npm install --no-audit --no-fund 2>&1 | tail -3 | tee ../../deploy.log
-          cd .. && npx --yes firebase-tools@13 deploy --only functions,firestore:rules --project saimap-lingo --force --non-interactive 2>&1 | tee -a ../deploy.log
+          cd .. && npx --yes firebase-tools@14 deploy --only functions,firestore:rules --project saimap-lingo --force --non-interactive 2>&1 | tee -a ../deploy.log
       - name: Publicar el resultado en la rama firebase-deploy
         if: always()
         run: |
