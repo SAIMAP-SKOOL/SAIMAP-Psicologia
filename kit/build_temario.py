@@ -167,6 +167,7 @@ p.cap strong { color: #26323A; }
 .toc h1 { break-before: auto; }
 .blk.answers.t1 { font-size: 8.4pt; line-height: 1.3; padding-top: 2mm; } .blk.test.t1 { font-size: 8.9pt; line-height: 1.32; }
 .blk.answers.t2 { font-size: 8pt; line-height: 1.25; padding: 1.6mm 4mm 1mm; margin-top: 2mm; } .blk.test.t2 { font-size: 8.5pt; line-height: 1.28; margin-top: 3mm; }
+.blk.answers.t3 { font-size: 7.8pt; line-height: 1.2; padding: 1.4mm 4mm 1mm; margin-top: 1.6mm; } .blk.test.t3 { font-size: 8.2pt; line-height: 1.22; margin-top: 2mm; }
 .toc .l1 { font-weight: 700; color: P; margin-top: 3.2mm; font-size: 11.5pt; }
 .toc .row { display: flex; align-items: baseline; gap: 2mm; font-size: 9.6pt; line-height: 1.32; }
 .toc .row a { color: inherit; text-decoration: none; }
@@ -182,7 +183,22 @@ CSS = re.sub(r'(?<![\w#-])A(?=[;\s])', A, CSS)
 LV = ['#8FBF9F', '#5FA47A', '#2E7D5B', '#3F6FA8', '#5B4A6B', '#C8443C']
 
 
-TIGHT = {}   # anclas de unidad -> nivel de ajuste (para evitar páginas con 1-3 líneas sueltas)
+TIGHT = {}
+# KDP=1: interior de imprenta sin portada; el índice y la presentación van sin número y la numeración
+# empieza en 1 en el primer capítulo (página impar), como pide KDP. Salida: <pdf>_<formato>_KDP-interior.pdf
+KDP = os.environ.get('KDP') == '1'
+F_PHYS = [None]   # página física (sin portada) del primer capítulo
+
+
+def first_main():
+    for lvl, txt, a in toc:
+        if re.match(r'(Cap[ií]tulo|Unidad|Tema|Parte)\b', txt): return a
+    return toc[0][2]
+
+
+def disp(pages):
+    if not KDP or not F_PHYS[0]: return pages
+    return {a: p - F_PHYS[0] + 1 for a, p in pages.items() if p >= F_PHYS[0]}   # anclas de unidad -> nivel de ajuste (para evitar páginas con 1-3 líneas sueltas)
 def tighten(html):
     for a, lv in TIGHT.items():
         m = re.search(f'id="{a}"', html)
@@ -203,15 +219,16 @@ def build(pages):
              f'<div class="s">{CFG["subtitle"]}</div><div class="d">{CFG["blurb"]}</div><div class="lv">'
              + ''.join(f'<span style="background:{c}">{l}</span>' for l, c in zip(CFG['tags'], CFG.get('tag_colors', LV))) +
              '</div><div class="b">SAIMAP PSICOLOGÍA</div></div>')
+    if KDP: cover = ''
     return (f'<!doctype html><html lang="{CFG["lang"]}"><head><meta charset="utf-8"><title>{CFG["title"]}</title>'
             f'<style>{CSS}</style></head><body>{cover}{t}{tighten(body)}</body></html>')
 
 
 FOOT = ('<div style="width:100%;font-size:8pt;color:#8A949B;font-family:Liberation Sans,Arial;padding:0 ' + FMT['side'] + ' ' + FMT['foot'] + ';display:flex;justify-content:space-between">'
-        f'<span>{CFG["footer"]}</span><span class="pageNumber"></span></div>')
+        f'<span>{CFG["footer"]}</span>' + ('' if KDP else '<span class="pageNumber"></span>') + '</div>')
 HTML = os.path.join(D, 'book.html')
 os.makedirs(os.path.join(D, 'pdf'), exist_ok=True)
-OUT = os.path.join(D, 'pdf', CFG['pdf'][:-4] + FMT['suf'] + '.pdf')
+OUT = os.path.join(D, 'pdf', CFG['pdf'][:-4] + FMT['suf'] + ('_KDP-interior' if KDP else '') + '.pdf')
 
 
 def render(pages):
@@ -235,7 +252,8 @@ def paginate():
             if k in nd:
                 pages[a] = r.get_destination_page_number(nd[k]) + 1
     print('toc', len(toc), 'resolved', len(pages), 'pages', len(r.pages))
-    render(pages)
+    if KDP: F_PHYS[0] = pages.get(first_main())
+    render(disp(pages))
     r2 = PdfReader(OUT)
     assert len(r2.pages) == len(r.pages), 'page count changed between passes'
     return pages, len(r2.pages)
@@ -244,7 +262,7 @@ def paginate():
 def sparse(pages, npg):
     """Páginas con ≤ 6 líneas de texto seguidas de un comienzo de capítulo o unidad → ancla de la unidad que se desborda."""
     starts = set(pages.values()); out = {}
-    for pnum in range(3, npg):
+    for pnum in range(2 if KDP else 3, npg):
         if pnum + 1 not in starts: continue
         txt = subprocess.run(['pdftotext', '-f', str(pnum), '-l', str(pnum), '-layout', OUT, '-'], capture_output=True, text=True).stdout
         lines = [l for l in txt.splitlines() if l.strip()][:-1]          # sin el pie de página
@@ -256,15 +274,37 @@ def sparse(pages, npg):
 
 pages, npg = paginate()
 if FORMATO != 'a4':
-    for it in range(3):
+    for it in range(4):
         bad = sparse(pages, npg)
         if not bad: break
         changed = False
         for pnum, a in bad.items():
-            if TIGHT.get(a, 0) < 2: TIGHT[a] = TIGHT.get(a, 0) + 1; changed = True
+            if TIGHT.get(a, 0) < 3: TIGHT[a] = TIGHT.get(a, 0) + 1; changed = True
         print('ajuste de soluciones en', len(bad), 'unidades:', sorted(bad))
         if not changed: break
         pages, npg = paginate()
     left = sparse(pages, npg)
     if left: print('AVISO: quedan páginas casi vacías:', sorted(left))
+if KDP:
+    # página en blanco para que el primer capítulo caiga en impar (derecha) y números de página desde 1
+    import io
+    from pypdf import PdfWriter
+    from reportlab.pdfgen import canvas
+    r = PdfReader(OUT); w = PdfWriter(); F = F_PHYS[0]
+    pw_, ph_ = float(r.pages[0].mediabox.width), float(r.pages[0].mediabox.height)
+    for i, pg_ in enumerate(r.pages, 1):
+        if i == F and len(w.pages) % 2 == 1: w.add_blank_page(pw_, ph_)
+        w.add_page(pg_)
+    F2 = F + (len(w.pages) - len(r.pages))
+    buf = io.BytesIO(); c = canvas.Canvas(buf, pagesize=(pw_, ph_))
+    side = float(FMT['side'][:-2]) * 72 / 25.4
+    for i in range(1, len(w.pages) + 1):
+        if i >= F2:
+            c.setFont('Helvetica', 8); c.setFillColorRGB(0x8A / 255, 0x94 / 255, 0x9B / 255)
+            c.drawRightString(pw_ - side, ph_ - 689.2 * ph_ / 720, str(i - F2 + 1))
+        c.showPage()
+    c.save(); nums = PdfReader(io.BytesIO(buf.getvalue()))
+    for i, pg_ in enumerate(w.pages): pg_.merge_page(nums.pages[i])
+    w.write(OUT); npg = len(w.pages)
+    print('KDP: primer capítulo en la página física', F2, '(número 1)')
 print('final pages', npg, os.path.getsize(OUT), OUT)

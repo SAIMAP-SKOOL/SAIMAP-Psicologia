@@ -11,6 +11,7 @@
 - `python3 kit/build_epub.py temarios/<id> [salida.epub]`: genera el EPUB del temario (por defecto junto al PDF).
 - `python3 kit/build_kdp.py <carpeta con los PDF> <salida>`: cubiertas para KDP e interiores sin portada. `FORMATO=a4|7x10`, `TAPA=blanda|dura|ambas`, `PAPEL=color-premium|color-estandar|bn-blanco|bn-crema`; `DURA='{"id":[ancho,alto]}'` fija el tamaño exacto que pida KDP.
 - `FORMATO=7x10 python3 kit/build_temario.py temarios/<id>`: interior de imprenta 7 × 10 in (`pdf/<nombre>_7x10.pdf`), con ajuste automático de soluciones sueltas.
+- `FORMATO=7x10 KDP=1 python3 kit/build_temario.py temarios/<id>`: interior para KDP sin portada, con índice y presentación sin número y la numeración desde 1 en el capítulo 1 (página impar). `build_kdp.py` lo usa si existe. `SOLO=<id>` en `build_kdp.py` genera solo ese libro. El texto del lomo deja 2 mm a cada lado y se omite si no cabe a 6 pt.
 - `python3 temarios/<id>/tools/figuras.py [nombre…]`: regenera las figuras propias.
 - `node cursos/check_course.js cursos/<id>`: valida un curso.
 - `python3 app/build.py`: genera la web en `app/dist/`, incluida la teoría por apartados.

@@ -85,9 +85,12 @@ ol.col li.me { color: #26323A; font-weight: 700; } ol.col li.me b { background: 
 .spine { background: P; color: #fff; display: flex; flex-direction: column; align-items: center; }
 .spine .num { font-weight: 800; color: #fff; line-height: 1; text-align: center; padding-bottom: 1.6mm; border-bottom: .5mm solid rgba(255,255,255,.7); }
 .spine .txt { flex: 1; display: flex; align-items: center; justify-content: center; }
-.spine .rot { transform: rotate(-90deg); white-space: nowrap; font-weight: 700; display: flex; gap: 4mm; align-items: center; }
+.spine .rot { transform: rotate(-90deg); white-space: nowrap; font-weight: 700; display: flex; gap: 4mm; align-items: center; line-height: 1.05; }
 .spine .rot span { font-weight: 400; opacity: .85; }
 '''
+
+def spine_fits(spine_in): return (spine_in * 25.4 - 4.0) / (1.05 * 0.3528) >= 6
+
 
 def page(meta, n, pages_int, front, spine_in, show_text, EX=BL, EY=BL, m=0.5, band=0.0, hg=0.0):
     """EX/EY: borde exterior (sangrado o envoltura); band: franja extra de color del lomo a cada lado (bisagra)."""
@@ -120,9 +123,12 @@ def page(meta, n, pages_int, front, spine_in, show_text, EX=BL, EY=BL, m=0.5, ba
           <div class="barcode"></div></div>
       </div></div>'''
     sw = spine_in * 25.4   # mm
+    # KDP exige ≥ 1,6 mm libres a cada lado del texto del lomo: se dejan 2 mm. El renglón ocupa ~1,05 em
+    # (acentos y descendentes); si no cabe con al menos 6 pt, el lomo va sin texto.
+    fs = min(9.5, (sw - 4.0) / (1.05 * 0.3528))
+    if fs < 6: show_text = False
     if show_text:
-        fs = min(9.5, max(6.5, (sw - 3.6) * 2.4))       # pt, deja ≥ 1,6 mm a cada lado
-        cap = sw - 3.3                                    # altura útil con ≥ 1,6 mm a cada lado
+        cap = sw - 4.0                                    # ancho útil con 2 mm a cada lado
         nd = min(cap / .72, cap / (.58 * len(str(n)))) * 2.835   # pt: cabe en alto y en ancho (cifra ≈ 0,72 × 0,56 em)
         stext = f'''<div style="height:{EY + .45}in"></div><div class="num" style="font-size:{nd:.1f}pt;width:{cap:.2f}mm">{n}</div>
           <div class="txt"><div class="rot" style="font-size:{fs:.1f}pt">{H.escape(title)}<span>SAIMAP Psicología</span></div></div>
@@ -137,21 +143,26 @@ report = []
 with sync_playwright() as pw:
     br = pw.chromium.launch()
     for n, (bid, title) in enumerate(SERIE, 1):
+        if os.environ.get('SOLO') and bid not in os.environ['SOLO'].split(','): continue   # SOLO=bases-biologicas,historia
         D = os.path.join(ROOT, 'temarios', bid)
         meta = json.load(open(os.path.join(D, 'book.json'), encoding='utf-8'))
         meta['_title'] = title
         meta['_figs'] = sum(len(re.findall(r'^Figura \d', open(f, encoding='utf-8').read(), re.M)) for f in glob.glob(os.path.join(D, '0*.md')))
         pdf = find_pdf(meta['pdf'][:-4] + SUF + '.pdf'); base = meta['pdf'][:-4] + ('_KDP' if FORMATO == 'a4' else '_KDP-' + FORMATO)
-        # interior sin la portada
-        r = PdfReader(pdf); w = PdfWriter()
-        for p in r.pages[1:]: w.add_page(p)
-        interior = os.path.join(OUT, f'{base}-interior.pdf'); w.write(interior)
-        npg = len(r.pages) - 1; npg_even = npg + (npg % 2)
+        interior = os.path.join(OUT, f'{base}-interior.pdf')
+        kdp_int = glob.glob(os.path.join(ROOT, 'temarios', bid, 'pdf', meta['pdf'][:-4] + SUF + '_KDP-interior.pdf'))
+        if kdp_int:   # interior hecho con KDP=1 build_temario.py: sin portada y numerado desde el capítulo 1
+            import shutil; shutil.copy(kdp_int[0], interior); npg = len(PdfReader(interior).pages)
+        else:         # interior = temario sin la portada
+            r = PdfReader(pdf); w = PdfWriter()
+            for p in r.pages[1:]: w.add_page(p)
+            w.write(interior); npg = len(r.pages) - 1
+        npg_even = npg + (npg % 2)
         front = front_png(pdf, os.path.join(OUT, f'.{bid}-front.png'))
         tapas = ['blanda', 'dura'] if TAPA == 'ambas' else [TAPA]
         for tapa in tapas:
             if tapa == 'blanda':
-                spine_in = round(npg_even * GROSOR, 4); show = npg_even >= 79
+                spine_in = round(npg_even * GROSOR, 4); show = npg_even >= 79 and spine_fits(spine_in)
                 html, W, Hh = page(meta, n, npg_even, front, spine_in, show)
                 name = f'{base}-cubierta' if FORMATO == 'a4' else f'{base}-cubierta-blanda'
             else:
