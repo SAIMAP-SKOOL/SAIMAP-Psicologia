@@ -5,6 +5,7 @@
 //   config/testers = { emails: ['correo@ejemplo.com', ...] }  → Premium gratis para testers (todas las apps)
 //   compras/<sha256(token)> = { uid, app, product }       → un comprobante solo vale para una cuenta
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
+const { setGlobalOptions } = require('firebase-functions/v2');
 const functionsV1 = require('firebase-functions/v1');
 const { initializeApp } = require('firebase-admin/app');
 const { getFirestore } = require('firebase-admin/firestore');
@@ -41,6 +42,10 @@ async function checkPlay(app, token, product) {
 }
 
 // La app envía el comprobante justo después de comprar o al restaurar compras
+// Cuenta de servicio propia, invitada en Play Console (ver compras y suscripciones) y con acceso a Firestore
+const SA = 'saimap-premium@saimap-lingo.iam.gserviceaccount.com';
+setGlobalOptions({ region: REGION, serviceAccount: SA, maxInstances: 5 });
+
 exports.verificarCompra = onCall({ region: REGION }, async req => {
   if (!req.auth) throw new HttpsError('unauthenticated', 'Inicia sesión para activar Premium.');
   const app = req.data && req.data.app || 'psicologia', token = req.data && req.data.token;
@@ -71,7 +76,7 @@ exports.comprobarPremium = onCall({ region: REGION }, async req => {
 });
 
 // Al borrar la cuenta SAIMAP se borran también sus datos de suscripción
-exports.limpiarCuenta = functionsV1.region(REGION).auth.user().onDelete(async user => {
+exports.limpiarCuenta = functionsV1.region(REGION).runWith({ serviceAccount: SA }).auth.user().onDelete(async user => {
   await db.doc('ent/' + user.uid).delete().catch(() => {});
   const q = await db.collection('compras').where('uid', '==', user.uid).get();
   await Promise.all(q.docs.map(d => d.ref.delete()));
