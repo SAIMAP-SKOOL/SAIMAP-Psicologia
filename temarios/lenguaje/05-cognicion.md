@@ -12,15 +12,15 @@ Las respuestas clásicas a si se puede pensar sin lenguaje cubren todas las comb
 
 **El pensamiento es habla interior.** Para el conductismo de Watson (1913), pensar era hablar en silencio: movimientos mínimos de la laringe y de la lengua. Si fuera así, paralizar el aparato fonador debería suprimir el pensamiento. Smith, Brown, Toman y Goodman (1947) lo comprobaron: Smith, uno de los autores, recibió curare, que paraliza la musculatura voluntaria, y siguió percibiendo, pensando y recordando lo que ocurría. Pensar no se reduce a hablar por dentro.
 
-**El pensamiento precede al lenguaje.** Para Piaget, el lenguaje es una manifestación más de la **función simbólica**, que aparece cuando el desarrollo cognitivo ya la permite. El lenguaje refleja lo que el niño ha construido, pero no lo crea. El **habla egocéntrica** del preescolar, que habla mientras juega sin dirigirse a nadie, sería síntoma de su dificultad para adoptar la perspectiva del otro y se apagaría al superarse el egocentrismo.
+**El pensamiento precede al lenguaje.** Para Piaget, el lenguaje es una manifestación de la **función simbólica**: refleja lo que el desarrollo cognitivo ha construido, pero no lo crea. El **habla egocéntrica** del preescolar, que habla jugando sin dirigirse a nadie, sería síntoma de su dificultad para adoptar la perspectiva del otro y se apagaría al superarse el egocentrismo.
 
-**Orígenes distintos que convergen.** Vygotsky (1934/1962) propuso que el pensamiento tiene una fase **prelingüística** y el habla una fase **preintelectual**, y que ambas líneas se cruzan hacia los dos años: el pensamiento se vuelve verbal y el lenguaje, racional. El habla egocéntrica no es un residuo, sino un **habla privada** que ayuda a planificar y que, al interiorizarse, se convierte en **habla interna**. Berk (1992) observó que el habla privada aumenta cuando la tarea es más difícil, como quien se dice en voz baja «primero el tornillo de la izquierda» al montar un mueble. Vygotsky no defendía un determinismo, sino una interacción. Ambas posiciones se tratan en la Unidad 4 y en Desarrollo: Infancia y Adolescencia.
+**Orígenes distintos que convergen.** Vygotsky (1934/1962) propuso que el pensamiento tiene una fase **prelingüística** y el habla una fase **preintelectual**, y que ambas líneas se cruzan hacia los dos años: el pensamiento se vuelve verbal y el lenguaje, racional. El habla egocéntrica no es un residuo, sino un **habla privada** que ayuda a planificar y que, al interiorizarse, se convierte en **habla interna**. El habla privada aumenta con la dificultad de la tarea (Berk, 1992), como cuando alguien se dice «primero el tornillo de la izquierda» al montar un mueble. Vygotsky no defendía un determinismo, sino una interacción. Ambas posiciones se tratan en la Unidad 4 y en Desarrollo: Infancia y Adolescencia.
 
-**Un lenguaje propio del pensamiento.** Fodor (1975) sostuvo que pensamos en un código mental propio, el **mentalés** o lenguaje del pensamiento, que no es ninguna lengua natural; aprender una lengua consistiría en asociar palabras a conceptos que ya existen en ese código, una idea que popularizó Pinker (1994). Fodor (1983) defendió también la **modularidad**: el procesamiento del lenguaje sería un sistema especializado, rápido y relativamente encapsulado frente al pensamiento general.
+**Un lenguaje propio del pensamiento.** Fodor (1975) sostuvo que pensamos en un código mental propio, el **mentalés** o lenguaje del pensamiento, que no es ninguna lengua natural; aprender una lengua sería asociar palabras a conceptos que ya existen en ese código (véase también Pinker, 1994). Fodor (1983) defendió además la **modularidad**: el lenguaje sería un sistema especializado, rápido y relativamente encapsulado.
 
 **Lo que muestran los pacientes y la neuroimagen.** Varley, Klessinger, Romanowski y Siegal (2005) comprobaron que personas con afasia grave, incapaces de procesar la gramática de las oraciones, seguían resolviendo cálculos. Fedorenko, Piantadosi y Gibson (2024) revisaron la evidencia: la red frontotemporal izquierda del lenguaje (Unidad 11) apenas se activa durante tareas de matemáticas, lógica, programación o teoría de la mente, y personas con afasia global pueden razonar o jugar al ajedrez. Concluyen que el lenguaje es sobre todo una herramienta de comunicación y transmisión cultural, no el soporte del pensamiento, con un matiz que ellos mismos reconocen: el lenguaje puede ser decisivo para **desarrollar** ciertas capacidades, como sugieren los retrasos en teoría de la mente de los niños sordos con acceso tardío a una lengua (Unidad 8).
 
-**El lenguaje como herramienta cognitiva.** Una posición intermedia (Clark, 1998; Spelke) propone que el lenguaje no es imprescindible para pensar, pero sirve para **combinar** representaciones de sistemas distintos. Hermer-Vazquez, Spelke y Katsnelson (1999) pidieron a adultos que se reorientaran en una sala usando a la vez la forma de la habitación y el color de una pared. Mientras repetían en voz alta un texto (**sombra verbal**), dejaban de combinar ambas claves; una tarea de interferencia no verbal no producía ese efecto. Las palabras actuarían como pegamento entre módulos. El tema se amplía en la futura asignatura de Psicología del Pensamiento.
+**El lenguaje como herramienta cognitiva.** Una posición intermedia (Clark, 1998; Spelke) propone que el lenguaje no es imprescindible para pensar, pero sirve para **combinar** representaciones de sistemas distintos. En el estudio de Hermer-Vazquez, Spelke y Katsnelson (1999), adultos que debían reorientarse en una sala con la forma de la habitación y el color de una pared dejaban de combinar ambas claves mientras repetían un texto en voz alta (**sombra verbal**), pero no con una interferencia no verbal. El tema se amplía en la futura asignatura de Psicología del Pensamiento.
 
 ### 14.2 La hipótesis de Sapir-Whorf
 
@@ -31,7 +31,7 @@ Edward Sapir (1929) y su discípulo Benjamin Lee Whorf (1940; recopilación pós
 | Fuerte: determinismo lingüístico | La lengua fija las categorías de pensamiento; sin la palabra no hay concepto | Descartada |
 | Débil: relativismo lingüístico | La lengua influye en algunos procesos y tareas, sobre todo si se usa durante la tarea | Apoyo parcial y discutido |
 
-Una versión débil influyente es el **«pensar para hablar»** de Slobin (1996): al preparar un enunciado atendemos a lo que la lengua obliga a codificar. El español suele poner la trayectoria en el verbo («entró corriendo») y el inglés, la manera (*ran in*), y eso influye en qué detalles se mencionan al narrar.
+Una versión débil influyente es el **«pensar para hablar»** de Slobin (1996): al preparar un enunciado atendemos a lo que la lengua obliga a codificar; el español pone la trayectoria en el verbo («entró corriendo») y el inglés, la manera (*ran in*).
 
 ![](whorf.png)
 
@@ -43,13 +43,13 @@ Figura 14.1. **Del determinismo al universalismo.** Espectro con tres posiciones
 
 **Espacio.** Lenguas como el guugu yimithirr (Australia) o el tzeltal (México) usan un **marco absoluto** («la taza está al norte del plato») en lugar de uno **relativo** («a la izquierda»). En tareas no verbales de rotación, sus hablantes tienden a conservar la orientación cardinal (Levinson, 2003; Majid et al., 2004), aunque Li y Gleitman (2002) objetaron que el entorno de la prueba podía explicar parte del efecto.
 
-**Tiempo y género.** Boroditsky (2001) afirmó que los hablantes de mandarín piensan el tiempo en vertical, pero tres réplicas fallaron (Chen, 2007; January y Kako, 2007; Tse y Altarriba, 2008), y Chen et al. (2011) atribuyen las diferencias residuales a la dirección de la escritura. Según Boroditsky, Schmidt y Phillips (2003), los hablantes describían los objetos con adjetivos acordes a su género gramatical («llave» es femenina en español y masculina en alemán), un resultado difícil de replicar (Mickan, Schiefke y Stefanowitsch, 2014). Tampoco se sostuvo que el chino dificultara el razonamiento contrafáctico (Bloom, 1981; refutado por Au, 1983).
+**Tiempo y género.** Boroditsky (2001) afirmó que los hablantes de mandarín piensan el tiempo en vertical, pero tres réplicas fallaron (Chen, 2007; January y Kako, 2007; Tse y Altarriba, 2008); Chen et al. (2011) atribuyen lo que queda a la dirección de la escritura. Según Boroditsky, Schmidt y Phillips (2003), los hablantes describían los objetos con adjetivos acordes a su género gramatical («llave» es femenina en español y masculina en alemán), un resultado difícil de replicar (Mickan, Schiefke y Stefanowitsch, 2014).
 
 ### 14.3 Lenguaje y categorías
 
 Categorizar es agrupar entidades distintas para tratarlas como equivalentes: basta saber que algo es una silla para esperar poder sentarse. Las palabras son el medio principal por el que las categorías se comparten. Los modelos de categorización se estudian a fondo en Psicología de la Memoria; aquí interesa su vertiente lingüística.
 
-**De la definición al prototipo.** La **visión clásica** suponía que el significado de una palabra es una lista de rasgos necesarios y suficientes. Wittgenstein señaló que los miembros de muchas categorías solo comparten un **parecido de familia**. Labov (1973) mostró a los participantes dibujos de recipientes que variaban de forma gradual y les pidió que los nombraran: la frontera entre «taza» y «cuenco» era difusa y se desplazaba según la anchura y según el uso imaginado (tomar café o servir comida). Rosch (1973, 1975) propuso que las categorías se organizan en torno a un **prototipo** y tienen **tipicidad graduada**: un petirrojo es mejor ejemplo de pájaro que un pingüino, se verifica antes como pájaro y se menciona antes al enumerar pájaros. Los **modelos de ejemplares** (Medin y Schaffer, 1978) lo sustituyen por los casos recordados.
+**De la definición al prototipo.** La **visión clásica** suponía que el significado de una palabra es una lista de rasgos necesarios y suficientes. Wittgenstein señaló que muchas categorías solo comparten un **parecido de familia**. Labov (1973) pidió nombrar dibujos de recipientes que variaban de forma gradual: la frontera entre «taza» y «cuenco» era difusa y se desplazaba según la anchura y según el uso imaginado (tomar café o servir comida). Rosch (1973, 1975) propuso que las categorías se organizan en torno a un **prototipo** y tienen **tipicidad graduada**: un petirrojo es mejor ejemplo de pájaro que un pingüino, se verifica antes como pájaro y se menciona antes al enumerar pájaros. Los **modelos de ejemplares** (Medin y Schaffer, 1978) lo sustituyen por los casos recordados.
 
 **El nivel básico.** Rosch, Mervis, Gray, Johnson y Boyes-Braem (1976) mostraron que, en una jerarquía, el nivel intermedio es privilegiado:
 
@@ -59,7 +59,7 @@ Categorizar es agrupar entidades distintas para tratarlas como equivalentes: bas
 | Básico | silla | Se aprende antes, se nombra más rápido y maximiza la información |
 | Subordinado | silla de cocina | Muy específico; apenas añade información útil |
 
-Ante un objeto se dice «una silla», no «un mueble». El nivel básico no es el más abstracto, sino el que ofrece mejor equilibrio entre información y distinción, y cambia con la **pericia**: para un jardinero, «rosal trepador» puede funcionar como nivel básico.
+El nivel básico no es el más abstracto, sino el que mejor equilibra información y distinción, y cambia con la **pericia**: para un jardinero, «rosal trepador» puede funcionar como básico.
 
 **La lingüística cognitiva.** Lakoff (1987) usó un ejemplo del dyirbal, una lengua australiana, cuya clase nominal *balan* incluye mujeres, fuego y cosas peligrosas, para mostrar que las categorías lingüísticas se construyen por encadenamiento de experiencias y no por definiciones. Lakoff y Johnson (1980) propusieron que buena parte del pensamiento abstracto se apoya en **metáforas conceptuales** que proyectan un dominio concreto sobre otro abstracto:
 
@@ -68,7 +68,7 @@ Ante un objeto se dice «una silla», no «un mueble». El nivel básico no es e
 
 No son adornos sueltos, sino familias sistemáticas. Si guían también el razonamiento no verbal es una cuestión abierta, ligada al debate de la semántica corporeizada (Unidad 10).
 
-**Las palabras invitan a categorizar.** En la infancia, oír un mismo nombre aplicado a objetos diferentes ayuda a agruparlos. Waxman y Markow (1995) observaron que, en bebés de en torno al año, etiquetar varios objetos con el mismo sustantivo («mira, un animal») aumentaba la atención a lo que tenían en común, frente a presentarlos sin nombre; Xu (2002) mostró que las etiquetas distintas ayudan también a individuar objetos. Los sustantivos facilitan especialmente las categorías de objetos. Cuando una madre dice «la ballena no es un pez», la palabra empuja al niño a buscar algo más que el parecido superficial. El lenguaje no crea las categorías de la nada, pero orienta cuáles se forman y con qué rapidez, y permite transmitir categorías que nadie podría descubrir solo, como «mamífero» o «impuesto».
+**Las palabras invitan a categorizar.** En la infancia, oír un mismo nombre aplicado a objetos diferentes ayuda a agruparlos. Waxman y Markow (1995) observaron que, en bebés de en torno al año, etiquetar varios objetos con el mismo sustantivo («mira, un animal») aumentaba la atención a lo que tenían en común, frente a presentarlos sin nombre; las etiquetas distintas ayudan además a individuar objetos (Xu, 2002). Cuando una madre dice «la ballena no es un pez», la palabra empuja al niño a buscar algo más que el parecido superficial. El lenguaje no crea las categorías de la nada, pero orienta cuáles se forman y con qué rapidez, y permite transmitir categorías que nadie podría descubrir solo, como «mamífero» o «impuesto».
 
 ### 14.4 Lenguaje y funciones cognitivas
 
@@ -82,23 +82,23 @@ Comprender una frase exige mantenerla en memoria, seleccionar lo relevante y con
 | Longitud de palabra (Baddeley, Thomson y Buchanan, 1975) | Se recuerdan menos palabras largas que cortas | Cuesta más repasar las largas |
 | Supresión articulatoria | Repetir «la, la, la» reduce el recuerdo | Bloquea el repaso |
 
-Con presentación visual, la supresión articulatoria hace desaparecer el efecto de longitud, porque impide el repaso y el paso del texto al código sonoro. Baddeley, Gathercole y Papagno (1998) defendieron que el bucle es un **dispositivo para aprender palabras**: la capacidad de repetir pseudopalabras predice el vocabulario, y por eso la repetición de pseudopalabras se usa como marcador del TDL (Unidad 5). La **amplitud lectora** (Daneman y Carpenter, 1980) (leer frases y recordar su última palabra) se relaciona con la comprensión de textos, y la **denominación automatizada rápida** (RAN: nombrar deprisa colores, dígitos u objetos) es un índice de la eficacia del acceso al léxico. En la memoria a largo plazo, el significado se conserva mucho mejor que la forma: Sachs (1967) mostró que, tras unas frases intercaladas, se detectan los cambios de sentido de una oración, pero no los de forma, como pasar de activa a pasiva. Todo esto se amplía en Psicología de la Memoria.
+Con presentación visual, la supresión articulatoria hace desaparecer el efecto de longitud, porque impide el repaso y el paso del texto al código sonoro. Baddeley, Gathercole y Papagno (1998) defendieron que el bucle es un **dispositivo para aprender palabras**: repetir pseudopalabras predice el vocabulario y es un marcador del TDL (Unidad 5). La **amplitud lectora** (Daneman y Carpenter, 1980) (leer frases y recordar su última palabra) se relaciona con la comprensión de textos, y la **denominación automatizada rápida** (RAN: nombrar deprisa colores, dígitos u objetos) es un índice de la eficacia del acceso al léxico. En la memoria a largo plazo, el significado se conserva mucho mejor que la forma: Sachs (1967) mostró que, tras unas frases intercaladas, se detectan los cambios de sentido de una oración, pero no los de forma, como pasar de activa a pasiva. Todo esto se amplía en Psicología de la Memoria.
 
-**Atención.** Cherry (1953) estudió la **escucha dicótica** y el **efecto cóctel**: se sigue un mensaje e ignora otro, del que apenas se recuerda nada. Moray (1959) mostró que el propio nombre sí se detecta a menudo en el mensaje no atendido. En el **efecto Stroop** (Stroop, 1935), nombrar el color de la tinta de la palabra «ROJO» escrita en verde es más lento, porque la lectura es automática. Hablar también consume atención: mantener una conversación compleja al volante empeora la conducción. La interpretación simultánea, que obliga a escuchar en una lengua y producir en otra a la vez, es el caso extremo. Estos fenómenos se tratan en Atención y Percepción.
+**Atención.** Cherry (1953) estudió la **escucha dicótica** y el **efecto cóctel**: se sigue un mensaje e ignora otro, del que apenas se recuerda nada. Moray (1959) mostró que el propio nombre sí se detecta a menudo en el mensaje no atendido. En el **efecto Stroop** (Stroop, 1935), nombrar el color de la tinta de la palabra «ROJO» escrita en verde es más lento, porque la lectura es automática. Hablar también consume atención: una conversación compleja al volante empeora la conducción. Estos fenómenos se tratan en Atención y Percepción.
 
 **Funciones ejecutivas.** Miyake et al. (2000), con 137 universitarios y análisis factorial confirmatorio, describieron una estructura de **unidad y diversidad** con tres componentes relacionados pero separables: **inhibición**, **alternancia** o flexibilidad y **actualización** de la memoria de trabajo. Garon, Bryson y Smith (2008) revisaron su desarrollo en preescolares. El lenguaje actúa como **regulador de la conducta**: Luria (1961) mostró que la instrucción verbal llega a dirigir de forma eficaz una acción sencilla, como apretar una pera de goma ante una señal, hacia los 4–5 años. El habla interna ayuda a planificar. Las tareas de **fluidez verbal** distinguen dos componentes: la **fonémica** (decir palabras que empiecen por p) depende más del lóbulo frontal y la **semántica** (decir animales), del temporal. En el síndrome disejecutivo, el discurso pierde el hilo y se vuelve **tangencial**.
 
 ### Consenso y debate
 
-**Consenso:** el pensamiento no se reduce al habla interior (Smith et al., 1947) y es posible razonar con graves lesiones del lenguaje (Varley et al., 2005; Fedorenko et al., 2024). La versión fuerte de Sapir-Whorf está descartada. Hay universales en el léxico del color (Berlin y Kay, 1969), y el lenguaje modula algunas tareas, sobre todo cuando se usa durante ellas. El bucle fonológico sostiene el aprendizaje de palabras.
+**Consenso:** el pensamiento no se reduce al habla interior (Smith et al., 1947) y se puede razonar con graves lesiones del lenguaje (Varley et al., 2005; Fedorenko et al., 2024). La versión fuerte de Sapir-Whorf está descartada; hay universales en el léxico del color (Berlin y Kay, 1969) y el lenguaje modula algunas tareas, sobre todo cuando se usa durante ellas.
 
 **Debate:** el alcance de la versión débil: los azules rusos (Winawer et al., 2007, frente a Martinovic et al., 2020), el tiempo vertical en mandarín y el género gramatical resisten mal las réplicas; los efectos sobre el número y el espacio son más sólidos, aunque discutidos. También se debate si el lenguaje, sin ser necesario para pensar, es imprescindible para desarrollar o combinar ciertas capacidades (Hermer-Vazquez et al., 1999).
 
 ### Mito frecuente
 
-**Mito:** «Los esquimales tienen cien palabras para la nieve, prueba de que la lengua determina cómo se percibe el mundo».
+**Mito:** «Los esquimales tienen cien palabras para la nieve, prueba de que la lengua determina la percepción».
 
-**Realidad:** Boas (1911) citó cuatro raíces; Whorf (1940) amplió la cifra sin datos y la prensa la infló. Martin (1986) y Pullum (1991) desmontaron el mito: el inuit y el yupik son lenguas polisintéticas, que forman palabras sin límite a partir de pocas raíces, así que contar «palabras» entre lenguas tan distintas tiene poco sentido. Aunque algunos dialectos tengan muchos términos relacionados con la nieve (Krupnik y Müller-Wille, 2010), un vocabulario especializado refleja interés práctico, como el de un esquiador o un enólogo, no una percepción distinta.
+**Realidad:** Boas (1911) citó cuatro raíces; Whorf (1940) amplió la cifra sin datos y la prensa la infló. Martin (1986) y Pullum (1991) desmontaron el mito: el inuit y el yupik son lenguas polisintéticas que forman palabras sin límite con pocas raíces, así que contar «palabras» tiene poco sentido. Algunos dialectos sí tienen muchos términos relacionados con la nieve (Krupnik y Müller-Wille, 2010), pero un vocabulario especializado, como el de un enólogo, refleja interés práctico, no una percepción distinta.
 
 ### Conceptos clave
 
@@ -115,7 +115,7 @@ Con presentación visual, la supresión articulatoria hace desaparecer el efecto
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta qué defiende cada posición clásica (Watson, Piaget, Vygotsky, Fodor), la diferencia entre determinismo y relativismo y qué apoyan los estudios de color. La trampa típica es atribuir a Berlin y Kay apoyo al relativismo, cuando sus datos apoyan universales, o presentar el mito de la nieve como prueba de Whorf. También se confunde a Vygotsky con un determinista y se olvida que el efecto de longitud de palabra desaparece con supresión articulatoria en presentación visual.
+**Prioridad alta.** Se pregunta qué defiende cada posición clásica, la diferencia entre determinismo y relativismo y qué apoyan los estudios de color. La trampa típica es atribuir a Berlin y Kay apoyo al relativismo, cuando sus datos apoyan universales, o usar el mito de la nieve como prueba de Whorf. También se presenta a Vygotsky como determinista y se olvida que el efecto de longitud desaparece con supresión articulatoria en presentación visual.
 
 ### Autoevaluación
 
@@ -146,7 +146,7 @@ c) se usan palabras de alta frecuencia
 
 ### Soluciones
 
-**1 b.** Smith siguió pensando con la musculatura paralizada, contra el conductismo de Watson. **2 c.** El orden de aparición de los términos básicos es bastante universal. **3 a.** La interferencia verbal bloquea las etiquetas, lo que sugiere un efecto en línea del lenguaje. **4 c.** No es el nivel más abstracto, sino el más informativo y distintivo a la vez. **5 b.** La supresión impide el repaso y el paso al código fonológico.
+**1 b.** Smith siguió pensando con la musculatura paralizada. **2 c.** El orden de aparición de los términos básicos es bastante universal. **3 a.** La interferencia verbal bloquea las etiquetas, lo que sugiere un efecto en línea del lenguaje. **4 c.** No es el nivel más abstracto, sino el más informativo y distintivo a la vez. **5 b.** La supresión impide el repaso y el paso al código fonológico.
 
 ## Unidad 15 · Cultura y multilingüismo
 
@@ -202,7 +202,7 @@ Si un bilingüe pasa el día inhibiendo una lengua y cambiando entre ambas, ¿no
 
 **Las réplicas.** Paap y Greenberg (2013) compararon bilingües y monolingües en 15 indicadores de funcionamiento ejecutivo y no hallaron ventaja en ninguno. De Bruin, Treccani y Della Sala (2015) siguieron los resúmenes presentados a congresos y comprobaron que los que informaban de una ventaja acababan publicados en revista con mucha más frecuencia que los que no la hallaban: un claro **sesgo de publicación**. Si solo se publican los resultados positivos, la literatura sobreestima el efecto.
 
-**El metaanálisis de referencia.** Lehtonen et al. (2018) reunieron 152 estudios con adultos y 891 tamaños del efecto sobre inhibición, alternancia, memoria de trabajo, control atencional y planificación.
+**El metaanálisis de referencia.** Lehtonen et al. (2018) reunieron 152 estudios con adultos y 891 tamaños del efecto sobre distintos componentes del funcionamiento ejecutivo.
 
 ![m](bilingue-meta.png)
 
@@ -234,7 +234,7 @@ La **reserva cognitiva** (Stern, 2002, 2009) es la capacidad de tolerar un grado
 
 | Estudio | Retraso del inicio | Riesgo de demencia |
 | --- | --- | --- |
-| Mukadam, Sommerlad y Livingston (2017) | 13 estudios revisados | 4 estudios prospectivos: OR = 0,96 (0,74–1,23), sin protección |
+| Mukadam, Sommerlad y Livingston (2017) | Revisa 13 estudios; los retrospectivos apuntan a un retraso | 4 estudios prospectivos: OR = 0,96 (0,74–1,23), sin protección |
 | Brini et al. (2020) | Síntomas de Alzheimer 4,7 años más tarde (IC 3,3–6,1); diagnóstico 3,3 años | OR = 0,89 (0,68–1,16), no significativo |
 | Anderson, Hawrylewicz y Grundy (2020) | Edad de inicio: d = 0,32 | Incidencia: d = 0,10, mucho menor |
 
@@ -242,7 +242,7 @@ La fórmula correcta es: **el bilingüismo se asocia con un retraso del inicio d
 
 **Evidencia neurocientífica.** Mechelli et al. (2004) hallaron mayor densidad de sustancia gris en el parietal inferior izquierdo de los bilingües, mayor cuanto antes se aprendía la segunda lengua y cuanto más alta era la competencia, con una muestra pequeña. Luk et al. (2011) describieron mejor integridad de la sustancia blanca en bilingües mayores. Mårtensson et al. (2012) estudiaron a intérpretes militares suecos tras tres meses de estudio intensivo de una lengua: aumentó el volumen del hipocampo y el grosor cortical en los giros frontal medio, frontal inferior y temporal superior izquierdos. Aprender una lengua es una experiencia que modifica el cerebro, como cualquier aprendizaje intenso. La cautela es necesaria: son estudios pequeños, a menudo sin prerregistro, con resultados heterogéneos y sin relación clara con ventajas conductuales.
 
-**A lo largo del ciclo vital.** En la infancia, el bilingüismo no retrasa el lenguaje (Unidad 5). En la vida adulta, sus ventajas más claras son sociales, culturales, académicas y laborales; los beneficios cognitivos «extra» son pequeños y discutidos. En la vejez, el aprendizaje tardío de lenguas se estudia como intervención, con resultados modestos por ahora (aprox.). Para alguien de 70 años, apuntarse a clases de italiano tiene sentido por el placer, la actividad social y el reto, no como vacuna contra la demencia. Las bases neurales de la plasticidad se estudian en Bases Biológicas del Comportamiento.
+**A lo largo del ciclo vital.** En la infancia, el bilingüismo no retrasa el lenguaje (Unidad 5). En la vida adulta, sus ventajas claras son sociales, culturales, académicas y laborales; las cognitivas «extra», pequeñas y discutidas. En la vejez, el aprendizaje tardío de lenguas se estudia como intervención, con resultados modestos por ahora (aprox.). Para alguien de 70 años, apuntarse a clases de italiano tiene sentido por el placer, la actividad social y el reto, no como vacuna contra la demencia. Las bases neurales de la plasticidad se estudian en Bases Biológicas del Comportamiento.
 
 ### Consenso y debate
 
@@ -254,7 +254,7 @@ La fórmula correcta es: **el bilingüismo se asocia con un retraso del inicio d
 
 **Mito:** «Hablar dos lenguas entrena el cerebro: los bilingües tienen mejores funciones ejecutivas y menos riesgo de tener demencia».
 
-**Realidad:** tras corregir el sesgo de publicación, la ventaja ejecutiva en adultos se queda en g = −0,08, sin diferencia del cero (Lehtonen et al., 2018; de Bruin et al., 2015). En demencia, los estudios clínicos informan de que los síntomas aparecen unos años más tarde (Bialystok et al., 2007; Alladi et al., 2013), pero los metaanálisis no hallan menor riesgo (Mukadam et al., 2017; Brini et al., 2020): el bilingüismo retrasa el inicio, no reduce el riesgo.
+**Realidad:** tras corregir el sesgo de publicación, la ventaja ejecutiva en adultos se queda en g = −0,08, no distinguible de cero (Lehtonen et al., 2018; de Bruin et al., 2015). En demencia, los estudios clínicos informan de que los síntomas aparecen unos años más tarde (Bialystok et al., 2007; Alladi et al., 2013), pero los metaanálisis no hallan menor riesgo (Mukadam et al., 2017; Brini et al., 2020): el bilingüismo retrasa el inicio, no reduce el riesgo.
 
 ### Conceptos clave
 
@@ -271,7 +271,7 @@ La fórmula correcta es: **el bilingüismo se asocia con un retraso del inicio d
 
 ### Clave PIR
 
-**Prioridad media.** Se pregunta qué predice el modelo jerárquico revisado, qué explica el control inhibitorio de Green y por qué los costes de cambio son mayores al volver a la lengua dominante. En bilingüismo y cognición, la trampa típica es presentar la ventaja ejecutiva como un hecho establecido o confundir el retraso del inicio de los síntomas de demencia con un menor riesgo. En cultura, conviene saber situar ejemplos de alto y bajo contexto y reconocer los componentes del modelo SPEAKING.
+**Prioridad media.** Se pregunta qué predice el modelo jerárquico revisado, qué explica el control inhibitorio de Green y por qué cuesta más volver a la lengua dominante. La trampa típica es presentar la ventaja ejecutiva como un hecho o confundir el retraso del inicio de los síntomas de demencia con un menor riesgo. En cultura, conviene situar ejemplos de alto y bajo contexto y reconocer el modelo SPEAKING.
 
 ### Autoevaluación
 
@@ -293,7 +293,7 @@ c) con los nodos de lengua del BIA+
 **4.** Tras corregir el sesgo de publicación, Lehtonen et al. (2018) estimaron una ventaja bilingüe…
 a) no distinguible del cero
 b) moderada y significativa
-c) grande en inhibición
+c) grande en tareas de inhibición
 
 **5.** La conclusión más ajustada de los metaanálisis sobre bilingüismo y demencia es que el bilingüismo…
 a) reduce a la mitad el riesgo de demencia

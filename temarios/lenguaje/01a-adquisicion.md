@@ -14,7 +14,7 @@ En la vida diaria se usan «lenguaje», «lengua», «idioma» y «habla» casi 
 - Una **lengua** es un **sistema concreto** compartido por una comunidad: el español, el euskera, el gallego o la lengua de signos española. Tiene un vocabulario, unos sonidos o signos y una gramática propios.
 - El **habla** es la **realización individual y concreta** de una lengua: lo que dice una persona en un momento dado, con su voz, su ritmo y sus titubeos.
 
-La distinción procede de Ferdinand de Saussure, cuyo *Curso de lingüística general* se publicó en 1916, después de su muerte, a partir de los apuntes de sus alumnos. Saussure separó la ***langue*** (la lengua como sistema social, que nadie posee entero y que existe en la comunidad) de la ***parole*** (el habla, acto individual). Para él, la unidad de la lengua es el **signo lingüístico**, que une un **significante** (la imagen acústica, por ejemplo la secuencia /mesa/) y un **significado** (el concepto). Ese vínculo es **arbitrario**: nada en el sonido de «mesa» recuerda a una mesa, y por eso otras lenguas dicen *table* o *mahaia*. Además, el significante es **lineal**: los sonidos se suceden uno tras otro en el tiempo.
+La distinción procede de Ferdinand de Saussure, cuyo *Curso de lingüística general* se publicó en 1916, después de su muerte, a partir de los apuntes de sus alumnos. Saussure separó la **lengua** (*langue*), sistema social que nadie posee entero y que existe en la comunidad, del **habla** (*parole*), acto individual. Para él, la unidad de la lengua es el **signo lingüístico**, que une un **significante** (la imagen acústica, por ejemplo la secuencia /mesa/) y un **significado** (el concepto). Ese vínculo es **arbitrario**: nada en el sonido de «mesa» recuerda a una mesa, y por eso otras lenguas dicen *table* o *mahaia*. Además, el significante es **lineal**: los sonidos se suceden uno tras otro en el tiempo.
 
 ![m](lengua-lenguaje-habla.png)
 
@@ -36,9 +36,7 @@ Ninguna de estas variedades es una forma «defectuosa» de la lengua. Todas tien
 - **Trastornos del habla**: trastorno fonológico, apraxia verbal infantil, disartria, tartamudez.
 - **Trastornos del lenguaje**: trastorno del desarrollo del lenguaje (TDL), afasias.
 
-Un niño puede pronunciar mal la /r/ y tener un vocabulario y una gramática excelentes; otro puede pronunciar con claridad y, sin embargo, no comprender frases pasivas. Son problemas distintos, con evaluación e intervención distintas (Unidad 5).
-
-Dos errores típicos de examen: decir que el «habla» es el sistema social (lo es la lengua) y atribuir la pareja *langue/parole* a Chomsky. Saussure habló de lengua y habla; Chomsky, de competencia y actuación, como se ve en el apartado siguiente.
+Un niño puede pronunciar mal la /r/ y tener un vocabulario y una gramática excelentes; otro puede pronunciar con claridad y no comprender frases pasivas. Son problemas distintos, con evaluación e intervención distintas (Unidad 5).
 
 ### 1.2 Competencia, actuación y competencia comunicativa
 
@@ -82,23 +80,23 @@ Como estos procesos son rápidos e inconscientes, no basta con preguntar a las p
 
 Algunas ideas para entender la tabla:
 
-- Las tareas conductuales se basan en una lógica sencilla: si una condición tarda más, es que exige más procesamiento. La decisión léxica y el priming se estudian a fondo en la Unidad 10.
-- Los **movimientos oculares** son una medida muy natural de la lectura, porque no interrumpen la tarea. El seguimiento de la mirada en la lectura se trata también en la asignatura de Atención y Percepción.
+- Las tareas conductuales siguen una lógica sencilla: si una condición tarda más, exige más procesamiento. La decisión léxica y el priming se estudian en la Unidad 10.
+- Los **movimientos oculares** no interrumpen la lectura, por eso son una medida muy natural (véase también Atención y Percepción).
 - En el paradigma del **mundo visual**, si alguien oye «el niño va a beberse el…» y en la pantalla hay un vaso y un balón, mirará al vaso antes de oír el sustantivo. La mirada revela qué interpretación se está construyendo y si se anticipa (Unidad 11).
 - Los **ERP** tienen una resolución temporal de milisegundos, pero localizan mal; la **neuroimagen funcional** localiza mejor, pero es más lenta. Por eso se combinan.
 - El **estudio de pacientes** (neuropsicología cognitiva) busca **disociaciones**: si una persona lee palabras conocidas pero no pseudopalabras, y otra muestra el patrón contrario, se infiere que hay procesos separables (Unidades 9 y 11).
 
 En la investigación con bebés, que no pueden pulsar botones, se usan medidas de **atención** y **preferencia**: la intensidad de la succión ante un sonido nuevo, el tiempo que miran hacia un altavoz o la recuperación del interés cuando cambia un estímulo al que se habían habituado (Unidad 2). En niños algo mayores se recogen muestras de habla espontánea y **inventarios** que rellenan las familias, como los Inventarios MacArthur-Bates, con adaptación española (López-Ornat et al., 2005). Los tests de lenguaje y sus propiedades psicométricas se estudian en Evaluación Psicológica.
 
-Ningún método basta por sí solo. Un resultado gana fuerza cuando lo confirman tareas distintas, y se ha visto en los últimos años que los estudios grandes con varios laboratorios son la mejor forma de saber qué efectos son sólidos (Unidad 2).
+Ningún método basta por sí solo. Un resultado gana fuerza cuando lo confirman tareas distintas y estudios grandes con varios laboratorios (Unidad 2).
 
 ### 1.4 Lenguaje y comunicación: conceptos básicos
 
 **Comunicar** es transmitir información de un organismo a otro de forma que influya en su conducta o en su estado. La comunicación es mucho más amplia que el lenguaje:
 
-- Los animales se comunican: las abejas indican dónde está el alimento y algunos monos emiten llamadas de alarma diferentes según el depredador (Unidad 7).
-- Las personas se comunican también sin palabras: con la mirada, los gestos, la distancia o el tono de voz (Unidad 16).
-- Un bebé de pocos meses comunica hambre o malestar con el llanto mucho antes de decir su primera palabra (Unidad 2).
+- Los animales se comunican: las abejas indican dónde está el alimento y algunos monos tienen llamadas de alarma distintas según el depredador (Unidad 7).
+- Las personas se comunican también sin palabras: con la mirada, los gestos, la distancia o el tono (Unidad 16).
+- Un bebé comunica hambre o malestar con el llanto mucho antes de su primera palabra (Unidad 2).
 
 El **lenguaje humano** es un tipo particular de comunicación. Lo que lo define no es el canal (puede ser oral, escrito o signado), sino que es un **sistema de signos combinables según reglas**. Con un número limitado de sonidos se forman miles de palabras, y con esas palabras se construye un número **ilimitado** de oraciones, muchas de ellas nuevas. Una persona puede entender sin esfuerzo «mañana mi gata va a probar el pienso de pollo que compré en rebajas», aunque nunca haya oído esa frase. Además, el lenguaje permite hablar de lo que no está presente: del pasado, del futuro, de lo imaginario o de lo falso. Estas propiedades, que Hockett (1960) recogió en sus **rasgos de diseño**, se estudian en la Unidad 6, y su comparación con la comunicación animal, en la Unidad 7.
 
@@ -190,14 +188,14 @@ c) que no requieren ninguna tarea por parte del participante
 
 ### 2.1 Percepción temprana del habla
 
-Antes de decir nada, el bebé lleva meses escuchando. El oído funciona en el último trimestre del embarazo y, aunque las paredes del útero filtran los sonidos agudos, dejan pasar el ritmo y la melodía de la voz. Por eso el recién nacido no llega «en blanco»:
+Antes de decir nada, el bebé lleva tiempo escuchando, y el recién nacido no llega «en blanco»:
 
 - **Prefiere la voz de su madre** a la de otras mujeres. DeCasper y Fifer (1980) lo demostraron con un procedimiento en el que el bebé, succionando de una manera u otra, hacía sonar una voz o la otra.
 - **Reconoce la prosodia de su lengua**, es decir, su ritmo y su entonación característicos, y la distingue de lenguas con un ritmo diferente (Mehler et al., 1988).
 
 **Percepción categórica en bebés.** Eimas, Siqueland, Jusczyk y Vigorito (1971) estudiaron a bebés de uno y cuatro meses con la técnica de **succión de alta amplitud**: el bebé succiona con fuerza cuando oye algo nuevo y, a medida que se aburre, la succión disminuye. Si al cambiar el sonido vuelve a succionar con fuerza, es que ha notado la diferencia. Los bebés distinguían /ba/ de /pa/, pero no dos variantes acústicas igual de distintas dentro de la misma categoría. Es decir, percibían el habla de forma **categórica**, como los adultos (Unidad 9).
 
-Este resultado se interpretó al principio como prueba de un mecanismo innato exclusivo del habla humana. Hoy se sabe que la percepción categórica aparece también en otros mamíferos, como las chinchillas (Kuhl y Miller, 1975), así que refleja en parte propiedades generales del sistema auditivo. Lo importante para el desarrollo es que el bebé empieza con una capacidad muy amplia: puede distinguir contrastes de casi cualquier lengua del mundo, incluidos los que no se usan en su entorno.
+Al principio se vio aquí un mecanismo innato exclusivo del habla humana, pero la percepción categórica aparece también en chinchillas (Kuhl y Miller, 1975), así que refleja en parte propiedades generales del sistema auditivo. Lo importante es que el bebé empieza con una capacidad muy amplia: distingue contrastes de casi cualquier lengua, incluidos los que no se usan en su entorno.
 
 **El estrechamiento perceptivo.** Esa capacidad universal no dura. Werker y Tees (1984) examinaron a bebés de familias angloparlantes con contrastes de consonantes del hindi y del salish (nthlakampx), una lengua indígena de Canadá, que no existen en inglés. Los adultos angloparlantes apenas los distinguían. Los bebés de 6–8 meses, en cambio, sí lo hacían en su mayoría; a los 8–10 meses ya lo conseguían menos, y a los 10–12 meses solo una minoría. Los bebés que crecían oyendo esas lenguas, por el contrario, mantenían la discriminación.
 
@@ -208,13 +206,6 @@ Figura 2.1. **Estrechamiento perceptivo.** Proporción de bebés que discriminan
 Como muestra la figura 2.1, durante el segundo semestre de vida la percepción se **especializa** en los contrastes de la lengua del entorno. No es una pérdida en el sentido de un deterioro, sino una **reorganización**: el bebé deja de atender a diferencias que su lengua no usa y se vuelve más eficaz con las que sí usa. Un bebé que crece en español aprende que la diferencia entre /r/ y /rr/ («pero» y «perro») cambia el significado; uno que crece en japonés, que no la tiene, deja de prestarle atención.
 
 Las **vocales** se reorganizan antes que las consonantes, hacia los 6 meses (Kuhl et al., 1992). Patricia Kuhl describió este proceso con la metáfora del **imán de la lengua nativa**: las vocales más típicas de la propia lengua funcionan como un imán perceptivo que «atrae» a los sonidos parecidos, de modo que las variantes cercanas a ese prototipo se perciben como más similares entre sí. La experiencia con la lengua del entorno deforma así el espacio perceptivo del bebé.
-
-| Edad aproximada | Capacidad |
-| --- | --- |
-| Recién nacido | Preferencia por la voz materna y por la prosodia de su lengua |
-| 1–4 meses | Percepción categórica de contrastes consonánticos |
-| ≈6 meses | Reorganización de las vocales según la lengua del entorno |
-| 10–12 meses | Pérdida de la discriminación de muchos contrastes consonánticos no nativos |
 
 Las bases generales de la percepción del habla, como la falta de invarianza o el problema de la segmentación, se estudian en la Unidad 9 y en la asignatura de Atención y Percepción.
 
@@ -228,21 +219,21 @@ El habla no trae espacios entre palabras. Cuando escuchamos una lengua desconoci
 
 Figura 2.2. **Probabilidades de transición en un habla continua.** Flujo sin pausas de tres «palabras» inventadas (bi-da-ku, pa-do-ti, go-la-bu): dentro de cada palabra, la probabilidad de transición entre sílabas es 1,0 y entre palabras ronda 0,33; los cortes caen donde la probabilidad baja. Esquema ilustrativo. Elaboración propia.
 
-Tras unos 2 minutos de exposición, los bebés escuchaban durante más tiempo las secuencias que cruzaban fronteras que las «palabras» del lenguaje inventado, señal de que las distinguían. Como muestra la figura 2.2, habían usado las regularidades estadísticas para segmentar el habla. En el español real ocurre algo parecido: después de «pe» puede venir casi cualquier cosa, pero en «pelota» la sílaba «lo» sigue a «pe» con más regularidad que la sílaba que sigue a «ta».
+Tras unos 2 minutos de exposición, los bebés escuchaban durante más tiempo las secuencias que cruzaban fronteras que las «palabras» del lenguaje inventado, señal de que las distinguían. Como muestra la figura 2.2, habían usado las regularidades estadísticas para segmentar el habla. En español ocurre algo parecido: dentro de «pelota», a «lo» le sigue siempre «ta», pero tras «ta», al final de la palabra, puede venir cualquier cosa («pelota roja», «pelota grande»).
 
 El hallazgo mostró que los bebés son aprendices muy potentes de regularidades. Sin embargo, **no resuelve** el debate entre innatismo y empirismo (Unidad 4): el aprendizaje estadístico es compatible con que existan sesgos innatos que orienten qué regularidades se calculan. El aprendizaje estadístico como mecanismo general se estudia también en la asignatura de Aprendizaje.
 
-**La interacción social.** Saber calcular estadísticas no basta. Kuhl, Tsao y Liu (2003) expusieron a bebés estadounidenses de unos 9 meses, que nunca habían oído mandarín, a 12 sesiones de 25 minutos (unas 5 horas en total) con una hablante de mandarín que les leía cuentos y jugaba con ellos. Otros bebés recibieron exactamente el mismo contenido en DVD o solo en audio, y un grupo control tuvo sesiones en inglés.
+**La interacción social.** Saber calcular estadísticas no basta. Kuhl, Tsao y Liu (2003) expusieron a bebés estadounidenses de unos 9 meses, que nunca habían oído mandarín, a 12 sesiones de 25 minutos (unas 5 horas en total) con hablantes de mandarín que les leían cuentos y jugaban con ellos. Otros bebés recibieron exactamente el mismo contenido en DVD o solo en audio, y un grupo control tuvo sesiones en inglés.
 
 ![s](kuhl.png)
 
 Figura 2.3. **Interacción en vivo frente a pantalla (Kuhl et al., 2003).** Porcentaje de aciertos en un contraste del mandarín tras 12 sesiones: 65,7 % con exposición en vivo al mandarín y 56,7 % en el grupo control con sesiones en inglés; con DVD audiovisual o solo audio no hubo aprendizaje (nivel del control). Elaboración propia.
 
-Como muestra la figura 2.3, solo los bebés que interactuaron con una persona en vivo recuperaron la discriminación de un contraste del mandarín. Con la misma exposición por pantalla no hubo aprendizaje. La interacción parece aportar atención, contingencia (la adulta responde a lo que hace el bebé) y claves sociales que guían qué merece ser aprendido. Este resultado es relevante para el debate sobre las pantallas en la infancia (Unidad 5).
+Como muestra la figura 2.3, solo los bebés que interactuaron con una persona en vivo recuperaron la discriminación de un contraste del mandarín. Con la misma exposición por pantalla no hubo aprendizaje. La interacción parece aportar atención, respuestas contingentes a lo que hace el bebé y claves sociales sobre qué merece aprenderse, algo relevante para el debate sobre las pantallas (Unidad 5).
 
-**El habla dirigida al bebé.** Los adultos de muchas culturas hablan a los bebés con un tono más agudo, una entonación exagerada, frases cortas y muchas repeticiones («¿Dónde está la pelota? ¡Ahí está la pelota!»). Se sabía que los bebés prefieren este estilo, pero los estudios eran pequeños. El proyecto **ManyBabies 1** (ManyBabies Consortium, 2020) lo comprobó en 67 laboratorios con 2.329 bebés monolingües. La preferencia por el habla dirigida al bebé se confirmó, con un tamaño del efecto d = 0,35 [0,29; 0,42]. Es un efecto real, pero aproximadamente la **mitad** del estimado en los metaanálisis previos (d ≈ 0,67). Además, era mayor en los bebés de más edad y cuando la lengua del estímulo, inglés norteamericano, coincidía con la del bebé.
+**El habla dirigida al bebé.** Muchos adultos hablan a los bebés con tono agudo, entonación exagerada, frases cortas y repeticiones («¿Dónde está la pelota? ¡Ahí está la pelota!»). Se sabía que los bebés prefieren este estilo, pero con estudios pequeños. El proyecto **ManyBabies 1** (ManyBabies Consortium, 2020) lo comprobó en 67 laboratorios con 2.329 bebés monolingües. La preferencia por el habla dirigida al bebé se confirmó, con un tamaño del efecto d = 0,35 [0,29; 0,42]. Es un efecto real, pero aproximadamente la **mitad** del estimado en los metaanálisis previos (d ≈ 0,67). Además, era mayor en los bebés de más edad y cuando la lengua del estímulo, inglés norteamericano, coincidía con la del bebé.
 
-ManyBabies 1 es también una lección de método: los estudios pequeños tienden a sobrestimar los efectos, y la colaboración entre muchos laboratorios permite estimarlos mejor (Unidad 1). Hay que añadir que el habla dirigida al bebé no es universal: en algunas culturas apenas se usa y los niños aprenden su lengua igualmente (Unidad 4).
+La lección de método es clara: los estudios pequeños tienden a sobrestimar los efectos. Además, el habla dirigida al bebé no es universal: en algunas culturas apenas se usa y los niños aprenden igualmente (Unidad 4).
 
 ### 2.3 Desarrollo prelingüístico y comunicación intencional
 
@@ -256,7 +247,7 @@ El primer año es la **etapa prelingüística**: el bebé aún no usa palabras, 
 4. **Balbuceo canónico**, hacia los 6–10 meses: sílabas bien formadas de consonante y vocal, a menudo repetidas («ba-ba-ba», «ma-ma-ma»).
 5. **Balbuceo variado y jerga**, hacia los 10–12 meses: se combinan sílabas distintas («ba-de-ga») con la entonación de la lengua del entorno, de modo que suena como si el bebé «hablara» sin palabras.
 
-El balbuceo canónico es un hito importante, porque su retraso es una señal de alerta. Los bebés sordos inician el balbuceo canónico tarde o no llegan a hacerlo, aunque sí produzcan arrullos. Y los bebés expuestos a una lengua de signos producen un **balbuceo manual**: movimientos de las manos repetidos y rítmicos que reproducen unidades de esa lengua (Petitto y Marentette, 1991). El balbuceo, por tanto, no es un mero ejercicio motor de la boca, sino una fase de la adquisición de una lengua, sea oral o signada.
+El retraso del balbuceo canónico es una señal de alerta: los bebés sordos lo inician tarde o no llegan a hacerlo. Y los bebés expuestos a una lengua de signos producen un **balbuceo manual**, movimientos repetidos y rítmicos de las manos con unidades de esa lengua (Petitto y Marentette, 1991). El balbuceo no es un mero ejercicio de la boca, sino una fase de la adquisición de una lengua, oral o signada.
 
 **La comunicación intencional.** Hacia los 9–10 meses se produce un cambio cualitativo que Michael Tomasello llamó la **revolución de los nueve meses**. Aparece la **atención conjunta**: el bebé y el adulto atienden a la vez a un mismo objeto y ambos saben que lo comparten. El bebé sigue la mirada del adulto, mira alternativamente al objeto y a la persona, y empieza a **señalar**. A partir de aquí, comunicar ya no es solo expresar un estado, sino dirigir la atención del otro.
 
@@ -267,9 +258,9 @@ Bates, Camaioni y Volterra (1975) distinguieron dos usos de los primeros gestos:
 | Protoimperativo | Usar al adulto como medio para conseguir un objeto | Señalar la galleta del armario mirando a la madre hasta que se la da |
 | Protodeclarativo | Compartir la atención sobre algo con el adulto | Señalar un perro en el parque y mirar al padre, sonriendo, para que también lo vea |
 
-Los protodeclarativos son especialmente reveladores, porque su único objetivo es **compartir**. Están típicamente reducidos en niños autistas, en quienes los gestos de petición suelen aparecer con más facilidad que los de mostrar. Un error frecuente de examen es invertirlos: el protoimperativo **pide**; el protodeclarativo **comparte**.
+Los protodeclarativos son especialmente reveladores, porque su único objetivo es **compartir**, y están típicamente reducidos en el autismo. El protoimperativo **pide**; el protodeclarativo **comparte**.
 
-Las mismas autoras describieron una progresión que toma los términos de la teoría de los actos de habla de Austin (Unidad 8): primero una fase **perlocutiva**, en la que las conductas del bebé producen efectos en el adulto sin que haya intención; después una fase **ilocutiva**, hacia el final del primer año, en la que el bebé ya actúa con intención mediante gestos y vocalizaciones; y por último una fase **locutiva**, en la que esa intención se expresa con palabras.
+Las mismas autoras describieron una progresión con términos de la teoría de los actos de habla (Unidad 8): una fase **perlocutiva**, en la que la conducta del bebé produce efectos en el adulto sin intención; una fase **ilocutiva**, hacia el final del primer año, en la que ya actúa con intención mediante gestos y vocalizaciones; y una fase **locutiva**, en la que esa intención se expresa con palabras.
 
 ![](hitos.png)
 
