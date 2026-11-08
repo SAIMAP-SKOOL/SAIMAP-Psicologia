@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Psicología del Lenguaje · SAIMAP Psicología",
+  "cover_title": "Psicología<br>del Lenguaje",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo adquirimos, comprendemos y producimos el lenguaje: desarrollo y teorías de la adquisición, trastornos del desarrollo, comunicación animal y pragmática, percepción del habla y lectura, acceso léxico, sintaxis y discurso, producción y conversación, lenguaje y pensamiento, bilingüismo y habilidades comunicativas. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología del Lenguaje · SAIMAP Psicología",
+  "pdf": "Psicologia-del-Lenguaje_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#3E8E9B",
+      "#2D5A7B",
+      "#7A5BA8",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01a-adquisicion.md",
+    "01b-adquisicion.md",
+    "02-comunicacion.md",
+    "03-comprension.md",
+    "04-produccion.md",
+    "05-cognicion.md",
+    "06-habilidades.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01a-adquisicion.md",
+    "01b-adquisicion.md",
+    "02-comunicacion.md",
+    "03-comprension.md",
+    "04-produccion.md",
+    "05-cognicion.md",
+    "06-habilidades.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
