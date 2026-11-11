@@ -26,7 +26,7 @@ window.SP_CATALOG = {
     { id: 'aprendizaje', t: 'Psicología del Aprendizaje', area: 'basicos', estado: 'ok', color: 2, hue: 96 },
     { id: 'desarrollo-infancia', t: 'Desarrollo: Infancia y Adolescencia', area: 'des', estado: 'ok', color: 3, hue: 34 },
     { id: 'social', t: 'Psicología Social', area: 'soc', estado: 'ok', color: 1, hue: 322 },
-    { id: 'historia', t: 'Historia, Ciencia y Profesión', area: 'fund', estado: 'ok', color: 4, hue: 16 },
+    { id: 'historia', t: 'Historia de la Psicología', area: 'fund', estado: 'ok', color: 4, hue: 16 },
     { id: 'evaluacion-1', t: 'Evaluación Psicológica I', area: 'pers', estado: 'ok', color: 2, hue: 292 },
     { id: 'evaluacion-2', t: 'Evaluación Psicológica II', area: 'pers', estado: 'ok', color: 3, hue: 250 },
     { id: 'personalidad-1', t: 'Personalidad y Diferencias Individuales I', area: 'pers', estado: 'soon' },
