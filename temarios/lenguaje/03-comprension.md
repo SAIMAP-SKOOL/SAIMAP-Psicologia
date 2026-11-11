@@ -43,13 +43,13 @@ Las críticas son de peso. Hickok (2009) señaló que las lesiones del sistema m
 | Efecto Ganong (Ganong, 1980) | Un sonido ambiguo se percibe como el fonema que forma una palabra | Un sonido a medio camino entre /t/ y /d/ ante «-omate» se oye como /t/ |
 | Efecto del contexto de frase (Miller, Heise y Lichten, 1951) | Las palabras enmascaradas por ruido se reconocen mejor dentro de una frase que aisladas | «Pásame la sal» se entiende en un bar ruidoso; «sal», sola, mucho peor |
 
-En el estudio de Warren, realizado en inglés, los oyentes ni siquiera sabían decir en qué punto de la palabra había sonado el ruido. Estos fenómenos encajan con los modelos **interactivos**, como TRACE (Unidad 10). Los modelos **autónomos** los explican de otro modo: la percepción sería ascendente y el léxico solo intervendría en la decisión posterior. El debate no es si el contexto influye, sino en qué momento.
+En el estudio de Warren, en inglés, los oyentes ni siquiera localizaban el ruido. Estos fenómenos encajan con los modelos **interactivos**, como TRACE (Unidad 10). Los modelos **autónomos** los explican de otro modo: la percepción sería ascendente y el léxico solo intervendría en la decisión posterior. El debate no es si el contexto influye, sino en qué momento.
 
 **Claves de segmentación.** Para colocar las fronteras entre palabras, el oyente aprovecha regularidades de su lengua:
 
-- **Claves métricas.** En inglés, la mayoría de las palabras de contenido empiezan por una sílaba fuerte, y los angloparlantes tienden a situar una frontera ante cada sílaba acentuada (Cutler y Norris, 1988). En francés, la unidad de segmentación parece ser la sílaba (Mehler et al., 1981), y en español la sílaba también desempeña un papel destacado (Sebastián-Gallés et al., 1992).
+- **Claves métricas.** En inglés, los oyentes sitúan una frontera ante cada sílaba fuerte (Cutler y Norris, 1988); en francés, la unidad parece ser la sílaba (Mehler et al., 1981), que también pesa en español (Sebastián-Gallés et al., 1992).
 - **Probabilidades de transición** entre sílabas, que los bebés de 8 meses ya aprovechan (Saffran et al., 1996; Unidad 2).
-- **Fonotaxis**, es decir, las combinaciones de sonidos permitidas. En español ninguna palabra empieza por /s/ seguida de consonante, de modo que en «los trenes» la frontera tiene que caer entre la /s/ y la /t/.
+- **Fonotaxis**: en español ninguna palabra empieza por /s/ más consonante, así que en «los trenes» la frontera cae entre /s/ y /t/.
 
 Cada lengua entrena un procedimiento de segmentación propio, y quien aprende un idioma tiene que adquirir también sus claves: al principio, una conversación entre nativos parece una sola palabra interminable. La percepción del habla combina, en suma, información **ascendente** (la señal) y **descendente** (léxico, contexto y expectativas). Sus aspectos perceptivos generales se estudian en la asignatura de Atención y Percepción.
 
@@ -70,10 +70,7 @@ La **amplitud perceptiva** se midió con la **ventana móvil** (McConkie y Rayne
 
 **Superioridad de la palabra.** Una letra se identifica mejor dentro de una palabra que sola o en una cadena sin sentido (Reicher, 1969; Wheeler, 1970): la A final se reconoce mejor en «MESA» que en «SMEA». El **modelo de activación interactiva** (McClelland y Rumelhart, 1981) lo explica con niveles de rasgos, letras y palabras conectados en ambos sentidos: la palabra activada refuerza sus letras.
 
-**El modelo de doble ruta.** Para leer en voz alta existen dos caminos (Coltheart et al., 2001):
-
-- La **ruta léxica** reconoce la palabra entera en el léxico ortográfico y recupera su significado y su pronunciación almacenada. Es imprescindible para las palabras **irregulares**, como «pizza» o «sándwich».
-- La **ruta subléxica** convierte cada grafema en su fonema. Es imprescindible para las **pseudopalabras** («tadermo») y las palabras nuevas.
+**El modelo de doble ruta** (Coltheart et al., 2001). La **ruta léxica** reconoce la palabra entera y recupera su significado y pronunciación; es imprescindible para las **irregulares**, como «pizza». La **ruta subléxica** convierte cada grafema en su fonema; es imprescindible para las **pseudopalabras** («tadermo»).
 
 ![](doble-ruta.png)
 
@@ -97,7 +94,7 @@ Como muestra la figura 9.4, la mayoría casi nunca o casi siempre experimenta la
 
 **Las lenguas de signos.** Son **lenguas naturales completas**, no mímica ni una versión manual de la lengua oral. Tienen un nivel equivalente a la fonología, con unidades sin significado como la **configuración** de la mano, el **lugar** y el **movimiento**, además de morfología y una sintaxis que aprovecha el espacio. No son universales: la lengua de signos española (LSE) y la catalana son distintas. Las lesiones del hemisferio izquierdo producen en personas signantes **afasias de signos** comparables a las orales, mientras que las derechas que alteran el procesamiento espacial suelen respetar la lengua (Hickok, Bellugi y Klima, 1996). El lenguaje no depende del canal auditivo.
 
-España tiene un papel destacado en la historia de la educación de las personas sordas. En el siglo XVI, el monje benedictino Pedro Ponce de León enseñó a hablar y a escribir a niños sordos en el monasterio de Oña, y Juan Pablo Bonet publicó en 1620 su *Reducción de las letras y arte para enseñar a hablar a los mudos*.
+España destaca en la historia de la educación de las personas sordas: en el siglo XVI, el benedictino Pedro Ponce de León enseñó a niños sordos en el monasterio de Oña, y Juan Pablo Bonet publicó en 1620 su *Reducción de las letras y arte para enseñar a hablar a los mudos*.
 
 ![s](wm-bonet-1620.jpg)
 
@@ -107,15 +104,15 @@ El alfabeto dactilológico de la figura 9.5 representa letras con la mano; no es
 
 ### Consenso y debate
 
-**Consenso:** el habla carece de invarianza acústica y de pausas fiables entre palabras, y el oyente combina la señal con conocimiento léxico, contexto y claves de segmentación propias de su lengua. La percepción categórica es real, pero no exclusiva del habla ni del ser humano. El modelo de doble ruta explica bien los patrones de las dislexias adquiridas. La integración audiovisual existe, y las lenguas de signos son lenguas naturales completas.
+**Consenso:** el habla carece de invarianza y de pausas fiables, y el oyente combina la señal con léxico, contexto y claves de su lengua. La percepción categórica es real, pero no exclusiva del habla ni del ser humano. La doble ruta explica bien las dislexias adquiridas, y las lenguas de signos son lenguas naturales completas.
 
-**Debate:** si el contexto modifica la percepción misma, como sostienen los modelos interactivos, o solo la decisión posterior, como sostienen los autónomos; qué papel tiene el sistema motor en la percepción del habla; si la lectura se explica mejor con dos rutas separadas o con una red única de tipo triángulo; y por qué el efecto McGurk varía tanto entre personas.
+**Debate:** si el contexto modifica la percepción (modelos interactivos) o solo la decisión posterior (autónomos); qué papel tiene el sistema motor; si la lectura se explica mejor con dos rutas o con una red de tipo triángulo; y por qué el efecto McGurk varía tanto entre personas.
 
 ### Mito frecuente
 
 **Mito:** «Con las técnicas de lectura rápida se pueden leer mil palabras por minuto sin perder comprensión».
 
-**Realidad:** la velocidad de lectura está limitada por la duración de las fijaciones, la agudeza de la fóvea y el tiempo que exige reconocer cada palabra. Acelerar más allá de esos límites equivale a saltarse texto, y la comprensión baja (Rayner et al., 2016). Leer más deprisa sin entender menos depende sobre todo de reconocer las palabras con más facilidad, es decir, del vocabulario y del conocimiento del tema.
+**Realidad:** la velocidad de lectura está limitada por la duración de las fijaciones, la agudeza de la fóvea y el tiempo que exige reconocer cada palabra. Acelerar más allá equivale a saltarse texto, y la comprensión baja (Rayner et al., 2016).
 
 ### Conceptos clave
 
@@ -132,7 +129,7 @@ El alfabeto dactilológico de la figura 9.5 representa letras con la mano; no es
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta qué dislexia adquirida corresponde a cada patrón de lectura (pseudopalabras, palabras irregulares, errores semánticos), los parámetros de los movimientos oculares, la percepción categórica y los efectos de arriba-abajo como la restauración fonémica o el efecto Ganong. La trampa más típica es atribuir el fallo con pseudopalabras a la dislexia superficial, cuando corresponde a la fonológica. Otras son creer que la percepción categórica demuestra un módulo exclusivamente humano o que en las ortografías transparentes no existe la dislexia superficial.
+**Prioridad alta.** Se pregunta qué dislexia adquirida corresponde a cada patrón de lectura, los parámetros de los movimientos oculares, la percepción categórica y los efectos de arriba-abajo (restauración fonémica, Ganong). La trampa más típica es atribuir el fallo con pseudopalabras a la dislexia superficial, cuando es la fonológica. Otras: creer que la percepción categórica demuestra un módulo humano o que en ortografías transparentes no hay dislexia superficial.
 
 ### Autoevaluación
 
@@ -239,54 +236,48 @@ Hay acuerdo en que varios candidatos se activan a la vez y compiten; el desacuer
 
 ### 10.3 Priming y ambigüedad léxica
 
-El **priming** o facilitación es la influencia de un estímulo previo (el *prime*) sobre el procesamiento de otro posterior (el *target*). Se distinguen varios tipos. En el **priming de repetición**, una palabra se reconoce más rápido si se ha visto poco antes. En el **priming semántico**, se reconoce antes si va precedida de otra relacionada en significado.
+El **priming** o facilitación es la influencia de un estímulo previo (*prime*) sobre el procesamiento de otro posterior. En el **priming de repetición**, una palabra se reconoce antes si se ha visto poco antes; en el **semántico**, si la precede otra relacionada en significado.
 
-Meyer y Schvaneveldt (1971) presentaron pares de cadenas de letras en inglés y pidieron decidir si ambas eran palabras. La respuesta era más rápida cuando estaban relacionadas, como en el par «pan – mantequilla», que cuando no lo estaban. En español, «tenedor» facilita «cuchillo». La explicación más aceptada es la **propagación de la activación**: al procesar una palabra, la activación se extiende a las relacionadas y las deja preparadas (apartado 10.4). El priming semántico se estudia también en la asignatura de Psicología de la Memoria, junto con la memoria implícita.
+Meyer y Schvaneveldt (1971) presentaron pares de cadenas de letras en inglés y pidieron decidir si ambas eran palabras. La respuesta era más rápida cuando estaban relacionadas, como en el par «pan – mantequilla», que cuando no lo estaban. En español, «tenedor» facilita «cuchillo». La explicación más aceptada es la **propagación de la activación** (apartado 10.4; se amplía en Psicología de la Memoria). El priming sirve, además, para averiguar qué se ha activado en un momento preciso, y así se aplicó a la **ambigüedad léxica**.
 
-El priming es, además, una herramienta: permite averiguar qué se ha activado en la mente del oyente en un momento preciso, sin preguntárselo. Esa lógica se aplicó al problema de la **ambigüedad léxica**.
-
-**Palabras ambiguas.** Muchas palabras tienen más de un significado. «Banco» puede ser un asiento o una entidad financiera; «vela», una pieza de cera o la tela de un barco. En la conversación rara vez lo notamos, porque el contexto suele dejar claro el sentido. La cuestión es **cuándo** interviene ese contexto.
-
-Hay dos hipótesis:
+**Palabras ambiguas.** «Banco» puede ser un asiento o una entidad financiera; «vela», una pieza de cera o la tela de un barco. El contexto suele dejar claro el sentido; la cuestión es **cuándo** interviene. Hay dos hipótesis:
 
 - **Acceso exhaustivo**: al encontrar la palabra se activan **todos** sus significados, y después el contexto selecciona el adecuado.
 - **Acceso selectivo**: el contexto actúa desde el principio y solo se activa el significado que encaja.
 
-Swinney (1979) lo puso a prueba con la técnica de **priming intermodal**. Los participantes **escuchaban** frases en inglés que contenían una palabra ambigua en un contexto que favorecía uno de sus significados. Justo cuando terminaba la palabra ambigua aparecía en una pantalla una palabra **escrita** sobre la que debían hacer una decisión léxica. Esa palabra podía estar relacionada con el significado adecuado, con el no adecuado o con ninguno.
+Swinney (1979) lo puso a prueba con la técnica de **priming intermodal**. Los participantes **escuchaban** frases en inglés con una palabra ambigua en un contexto que favorecía uno de sus significados. Justo al terminar esa palabra aparecía otra **escrita** para una decisión léxica, relacionada con el significado adecuado, con el no adecuado o con ninguno.
 
-El resultado fue claro. Inmediatamente después de la palabra ambigua, se facilitaban las palabras relacionadas con **ambos** significados, incluido el que el contexto descartaba. Si la palabra escrita aparecía un poco más tarde, solo se facilitaban las relacionadas con el significado adecuado. Aplicado a nuestro ejemplo: en «Se sentó en el banco del parque», durante un instante también se activaría el sentido financiero, que enseguida se suprime.
+Inmediatamente después de la palabra ambigua se facilitaban las palabras relacionadas con **ambos** significados, incluido el que el contexto descartaba. Si la palabra escrita aparecía un poco más tarde, solo se facilitaban las relacionadas con el significado adecuado. Aplicado a nuestro ejemplo: en «Se sentó en el banco del parque», durante un instante también se activaría el sentido financiero, que enseguida se suprime.
 
-Los datos apoyaron el **acceso exhaustivo**, seguido de una selección rápida en pocos cientos de milisegundos. Esto encaja con la idea de un acceso léxico **autónomo** en su primera fase, sobre el que actúa luego el contexto. La cuestión no quedó cerrada: se sigue discutiendo si un contexto muy restrictivo o el predominio de uno de los significados pueden adelantar la selección, y la respuesta probablemente depende del tipo de ambigüedad y de la tarea.
+Los datos apoyaron el **acceso exhaustivo**, con una primera fase **autónoma** y una selección rápida después. Se sigue discutiendo si un contexto muy restrictivo o el predominio de un significado pueden adelantar la selección.
 
 | Hipótesis | Qué se activa al principio | Papel del contexto |
 | --- | --- | --- |
 | Acceso exhaustivo | Todos los significados | Selecciona después |
 | Acceso selectivo | Solo el significado que encaja | Actúa desde el inicio |
 
-La ambigüedad léxica tiene consecuencias prácticas. Los chistes basados en dobles sentidos aprovechan que el significado descartado sigue disponible durante un instante; y en la conversación, la reactivación de un significado no deseado es fuente de malentendidos. La ambigüedad se extiende también a la estructura de las oraciones, que se trata en la Unidad 11.
+Los chistes de doble sentido aprovechan que el significado descartado sigue disponible un instante. La ambigüedad de la estructura de las oraciones se trata en la Unidad 11.
 
 ### 10.4 La organización del significado
 
-Si el priming semántico existe, el significado de las palabras debe estar **organizado**: algunas entradas están más cerca que otras. Se han propuesto varias formas de describir esa organización, que se estudian con detalle en la asignatura de Psicología de la Memoria y que aquí se resumen desde el punto de vista del lenguaje.
+Si existe el priming semántico, el significado debe estar **organizado**: unas entradas están más cerca que otras. Los modelos se estudian en detalle en Psicología de la Memoria; aquí se resumen desde el lenguaje.
 
 **Redes jerárquicas.** Collins y Quillian (1969) propusieron una red de conceptos ordenados de lo general a lo particular, en la que cada propiedad se guarda en el nivel más alto al que se aplica. Predecía que verificar «un canario tiene piel» sería más lento que «un canario canta», porque exige recorrer más niveles. Los datos de tipicidad (se verifica antes «un gorrión es un pájaro» que «un pingüino es un pájaro») cuestionaron la jerarquía estricta.
 
 **Propagación de la activación.** Collins y Loftus (1975) sustituyeron la jerarquía por una red con enlaces de longitud variable según la relación entre conceptos. La activación de un nodo se extiende a los vecinos y se debilita con la distancia. Es la explicación estándar del priming semántico del apartado 10.3.
 
-**Rasgos y prototipos.** Otra forma de describir el significado es como un conjunto de **rasgos semánticos**: «silla» tendría rasgos como «mueble», «para sentarse», «con respaldo». La teoría de los **prototipos** (Rosch, 1975) añadió que las categorías se organizan alrededor de su miembro más típico, con límites difusos. Estos modelos explican por qué los ejemplos típicos se procesan antes. La relación entre palabras y categorías se retoma en la Unidad 14. Los modelos conexionistas actuales representan el significado como **patrones distribuidos** de activación en muchas unidades, más que como nodos aislados.
+**Rasgos y prototipos.** El significado puede describirse como un conjunto de **rasgos semánticos** («silla»: mueble, para sentarse, con respaldo). La teoría de los **prototipos** (Rosch, 1975) añadió que las categorías se organizan alrededor de su miembro más típico, con límites difusos (Unidad 14). Los modelos conexionistas representan el significado como **patrones distribuidos** de activación, no como nodos aislados.
 
-**La semántica corporeizada.** Una propuesta más reciente sostiene que el significado de las palabras se apoya en los mismos sistemas sensoriales y motores que se usan al percibir y actuar. Hauk, Johnsrude y Pulvermüller (2004) mostraron que leer en inglés verbos de acción referidos a la cara, los brazos o las piernas, como «lamer», «coger» o «patear», activaba zonas de la corteza motora próximas a las que controlan esas partes del cuerpo, con una organización **somatotópica**.
+**La semántica corporeizada.** Propone que el significado se apoya en los sistemas sensoriales y motores que se usan al percibir y actuar. Hauk, Johnsrude y Pulvermüller (2004) mostraron que leer en inglés verbos de acción referidos a la cara, los brazos o las piernas, como «lamer», «coger» o «patear», activaba zonas de la corteza motora próximas a las que controlan esas partes del cuerpo, con una organización **somatotópica**.
 
 El hallazgo es sólido, pero su interpretación está en **debate**:
 
 - Para unos, esa activación motora **forma parte** del significado: entender «patear» incluye simular la acción.
 - Para otros, es un **efecto secundario** o epifenómeno: la activación se propaga a la corteza motora una vez comprendida la palabra, pero no es necesaria para comprenderla.
 
-Para decidirlo se estudia, por ejemplo, si las alteraciones motoras afectan a la comprensión de los verbos de acción, y la cuestión sigue abierta. Además, la semántica corporeizada explica mejor las palabras concretas que las abstractas, como «justicia» o «probabilidad».
+La cuestión sigue abierta, y la propuesta explica mejor las palabras concretas que las abstractas, como «justicia».
 
-**Un centro semántico.** Otra línea de investigación propone que el conocimiento conceptual combina representaciones repartidas por la corteza (los «radios»: aspecto, sonido, acción) con un **centro transmodal** en el lóbulo temporal anterior que las integra (*hub-and-spoke*; Patterson, Nestor y Rogers, 2007). La prueba principal es la **demencia semántica**: cuando se degenera esa región, se pierde el significado de palabras y objetos en todas las modalidades, sea cual sea la vía de entrada. Esta propuesta integra la idea de rasgos distribuidos con la de una representación conceptual unificada, y se retoma en la Unidad 11.
-
-Un ejemplo resume las cuatro perspectivas. Al leer «guitarra», se facilita «violín» porque están cerca en la red (propagación de la activación); se reconoce como instrumento típico (prototipos); quizá se activen zonas relacionadas con tocar (semántica corporeizada); y todo ello se integra en un concepto único que una persona con demencia semántica puede ir perdiendo.
+**Un centro semántico.** Otra línea de investigación propone que el conocimiento conceptual combina representaciones repartidas por la corteza (los «radios»: aspecto, sonido, acción) con un **centro transmodal** en el lóbulo temporal anterior que las integra (*hub-and-spoke*; Patterson, Nestor y Rogers, 2007). La prueba principal es la **demencia semántica**: cuando se degenera esa región, se pierde el significado de palabras y objetos en todas las modalidades (Unidad 11). Un ejemplo resume las perspectivas: «guitarra» facilita «violín» (propagación de la activación), es un instrumento típico (prototipos), quizá activa zonas ligadas a tocar (corporeización) y forma un concepto único que la demencia semántica puede ir borrando.
 
 ### Consenso y debate
 
@@ -354,34 +345,34 @@ c) reduce la actividad de toda la corteza motora
 
 ### 11.1 Procesamiento sintáctico
 
-Comprender una oración exige saber **quién hizo qué a quién**, y eso depende de su estructura. El **análisis sintáctico** (*parsing*) consiste en asignar a cada palabra su función y agruparlas en sintagmas. No se espera al final: el procesador trabaja de forma **incremental**, palabra a palabra. La ventaja es la rapidez; el riesgo, comprometerse con un análisis antes de tiempo.
+Comprender una oración exige saber **quién hizo qué a quién**. El **análisis sintáctico** (*parsing*) asigna a cada palabra su función y las agrupa en sintagmas de forma **incremental**, palabra a palabra: es rápido, pero puede comprometerse antes de tiempo.
 
-El problema aparece con la **ambigüedad sintáctica**. En «Vi al hombre con los prismáticos», los prismáticos pueden ser el instrumento con el que miré o algo que llevaba el hombre. Hay ambigüedades temporales que se resuelven más adelante y obligan a rehacer el análisis. El ejemplo clásico, en inglés, es «The horse raced past the barn fell» (Bever, 1970), que casi todo el mundo lee mal la primera vez. En español: «Mientras María cosía el vestido se cayó al suelo». Se tiende a leer «el vestido» como lo que cosía María, y «se cayó» obliga a reinterpretarlo como sujeto. Son oraciones de **vía muerta** (*garden path*): el lector sigue un camino que no lleva a ninguna parte.
+El problema es la **ambigüedad sintáctica**. En «Vi al hombre con los prismáticos», estos pueden ser el instrumento o algo que llevaba el hombre. Algunas ambigüedades temporales obligan a rehacer el análisis, como la inglesa «The horse raced past the barn fell» (Bever, 1970) o «Mientras María cosía el vestido se cayó al suelo», donde «el vestido» se lee primero como lo cosido y luego debe reinterpretarse como sujeto. Son oraciones de **vía muerta** (*garden path*).
 
-**El modelo de vía muerta** (Frazier, 1979; Frazier y Rayner, 1982; Frazier, 1987). Es un modelo **serial y modular**. El procesador construye **una sola** estructura usando solo información sintáctica y dos principios de economía:
+**El modelo de vía muerta** (Frazier, 1979; Frazier y Rayner, 1982; Frazier, 1987). Modelo **serial y modular**: se construye **una sola** estructura con información sintáctica y dos principios de economía:
 
 - **Adjunción mínima**: preferir la estructura con menos nodos.
 - **Cierre tardío**: adjuntar cada palabra nueva al sintagma que se está procesando.
 
-La semántica y el contexto intervienen **después**, para comprobar el análisis y, si falla, **reanalizar**. La evidencia procede de los movimientos oculares: en la región que desambigua aparecen fijaciones más largas y regresiones.
+La semántica y el contexto intervienen **después** y, si el análisis falla, se **reanaliza**: en la región que desambigua aparecen fijaciones más largas y regresiones.
 
 ![](via-muerta.png)
 
 Figura 11.1. **Dos formas de resolver la ambigüedad sintáctica.** El modelo de vía muerta procede en fases (sintaxis, interpretación y reanálisis); los modelos de restricciones usan a la vez frecuencia léxica, semántica, contexto referencial y prosodia. Abajo, la preferencia por la adjunción alta en español (Cuetos y Mitchell, 1988). Esquema ilustrativo. Elaboración propia.
 
-**Un contraejemplo español.** Cuetos y Mitchell (1988) presentaron oraciones como «Alguien disparó contra el criado de la actriz que estaba en el balcón». Los hispanohablantes preferían que estuviera en el balcón **el criado**, el primer sustantivo (**adjunción alta**), al contrario que los angloparlantes y que lo que predice el cierre tardío. Como muestra la figura 11.1, este resultado cuestionó la universalidad del principio y dio lugar a explicaciones basadas en la exposición a cada lengua y en la prosodia.
+**Un contraejemplo español.** Ante «Alguien disparó contra el criado de la actriz que estaba en el balcón», los hispanohablantes preferían que estuviera en el balcón **el criado** (**adjunción alta**), al contrario que los angloparlantes y que el cierre tardío (Cuetos y Mitchell, 1988). Como muestra la figura 11.1, esto cuestionó la universalidad del principio y llevó a explicaciones basadas en la exposición a cada lengua y en la prosodia.
 
-**Los modelos basados en restricciones** (MacDonald, Pearlmutter y Seidenberg, 1994; Trueswell, Tanenhaus y Garnsey, 1994) sostienen que se consideran **varios análisis en paralelo** y que todas las fuentes de información actúan **desde el principio**: la frecuencia con que un verbo aparece en cada estructura, la plausibilidad semántica y el contexto. Por ejemplo, en inglés «The evidence examined by the lawyer…» causa poca dificultad, porque una evidencia no puede examinar nada (**animacidad**).
+**Los modelos basados en restricciones** (MacDonald, Pearlmutter y Seidenberg, 1994; Trueswell, Tanenhaus y Garnsey, 1994) consideran **varios análisis en paralelo**, con todas las fuentes de información actuando **desde el principio**: frecuencia de cada estructura con un verbo, plausibilidad y contexto. En inglés, «The evidence examined by the lawyer…» apenas causa dificultad, porque una evidencia no examina nada (**animacidad**).
 
-**El paradigma del mundo visual** (Tanenhaus et al., 1995) registra la mirada mientras se escuchan instrucciones sobre objetos reales. Con «Put the apple on the towel in the box» y una sola manzana, los oyentes miraban primero la toalla vacía, como si fuera el destino. Con dos manzanas, una sobre una toalla, ese error desaparecía: el **contexto referencial** actuaba de inmediato, como predicen los modelos interactivos.
+**El paradigma del mundo visual** (Tanenhaus et al., 1995) registra la mirada mientras se oyen instrucciones sobre objetos. Con «Put the apple on the towel in the box» y una sola manzana, se miraba primero la toalla vacía como destino; con dos manzanas, una sobre una toalla, el error desaparecía: el **contexto referencial** actuaba de inmediato.
 
-**Procesamiento suficientemente bueno.** Ferreira, Bailey y Ferraro (2002) y Ferreira (2003) defienden que a menudo construimos representaciones **superficiales**. Tras leer en inglés oraciones de este tipo, muchos lectores seguían creyendo que la protagonista había hecho la primera acción (Christianson et al., 2001); en el ejemplo anterior, equivaldría a seguir pensando que María cosía el vestido. En la **ilusión de Moisés** (Erickson y Mattson, 1981), muchas personas responden «dos» a «¿Cuántos animales de cada especie llevó Moisés en el arca?» sin advertir que fue Noé.
+**Procesamiento suficientemente bueno.** A menudo construimos representaciones **superficiales** (Ferreira, Bailey y Ferraro, 2002; Ferreira, 2003). Tras leer oraciones de vía muerta en inglés, muchos lectores conservaban la interpretación inicial errónea (Christianson et al., 2001): sería como seguir creyendo que María cosía el vestido. En la **ilusión de Moisés** (Erickson y Mattson, 1981), muchas personas responden «dos» a «¿Cuántos animales de cada especie llevó Moisés en el arca?» sin advertir que fue Noé.
 
-**Memoria de trabajo.** Las relativas de objeto («El periodista al que atacó el senador…») cuestan más que las de sujeto («El periodista que atacó al senador…»), porque obligan a mantener más elementos pendientes (Just y Carpenter, 1992; Gibson, 1998).
+**Memoria de trabajo.** Las relativas de objeto («El periodista al que atacó el senador…») cuestan más que las de sujeto («El periodista que atacó al senador…») porque mantienen más elementos pendientes (Just y Carpenter, 1992; Gibson, 1998).
 
 ### 11.2 Potenciales evocados y predicción
 
-Los **potenciales evocados** (ERP) registran con electrodos en el cuero cabelludo la actividad eléctrica cerebral asociada a un estímulo, con una resolución temporal de milisegundos. Su localización es imprecisa, pero son ideales para saber **cuándo** ocurre algo. Las ondas se nombran por su polaridad (N negativa, P positiva) y su latencia aproximada; por convención, en los estudios de lenguaje se dibujan a menudo con los valores negativos hacia arriba.
+Los **potenciales evocados** (ERP) registran desde el cuero cabelludo la actividad eléctrica ligada a un estímulo con precisión de milisegundos: localizan mal, pero dicen **cuándo** ocurre algo. Las ondas se nombran por su polaridad (N, P) y su latencia aproximada.
 
 ![m](erp.png)
 
@@ -395,48 +386,46 @@ Como muestra la figura 11.2, los dos componentes más estudiados responden a vio
 | P600 (Osterhout y Holcomb, 1992) | ≈600 ms, positiva | Anomalía sintáctica o necesidad de reanálisis | «Los niños juega en el parque» |
 | LAN y ELAN | Más tempranas, anteriores izquierdas | Violaciones morfosintácticas y de estructura de la frase | Errores de concordancia o de categoría de palabra |
 
-La N400 no es una «onda de error»: su amplitud es **graduada** y refleja lo difícil que resulta integrar el significado de una palabra en el contexto. Una palabra posible pero poco esperada también la produce, aunque menor. La P600 se asocia al reanálisis y aparece también en las oraciones de vía muerta.
+La N400 no es una «onda de error»: su amplitud es **graduada** según lo difícil que resulta integrar el significado; una palabra posible pero poco esperada la produce menor. La P600 aparece también en las oraciones de vía muerta. La correspondencia **N400 = semántica, P600 = sintaxis** es útil, pero no exacta: Kuperberg (2007) revisó casos de **P600 semántica**, en oraciones gramaticales con una relación temática imposible, como «La comida devoró al niño».
 
-La correspondencia **N400 = semántica, P600 = sintaxis** es útil, pero no exacta. Kuperberg (2007) revisó casos de **P600 semántica**: oraciones gramaticales con una relación temática imposible, como «La comida devoró al niño», generan una P600 en vez de la N400 esperada. Parece que el sistema detecta primero un conflicto entre el significado de las palabras y la estructura, y lo trata como un problema de integración.
-
-**La predicción.** Comprender no consiste solo en reaccionar a lo que llega: el oyente **anticipa**. Altmann y Kamide (1999), con el mundo visual, presentaron en inglés frases equivalentes a «El chico se comerá el pastel» ante una escena con un pastel y varios objetos no comestibles. Las miradas se dirigían al pastel **al oír el verbo**, antes de que se nombrara. Con «moverá», en cambio, no había preferencia. El significado del verbo restringe de inmediato los candidatos.
+**La predicción.** El oyente **anticipa**. Altmann y Kamide (1999) presentaron en inglés frases equivalentes a «El chico se comerá el pastel» ante una escena con un pastel y objetos no comestibles: las miradas iban al pastel **al oír el verbo**, antes de que se nombrara; con «moverá», no. El verbo restringe de inmediato los candidatos.
 
 ¿Hasta dónde llega esa anticipación? DeLong, Urbach y Kutas (2005) usaron la diferencia inglesa entre los artículos *a* y *an*, que depende del sonido de la palabra siguiente. Hallaron que la N400 del **artículo** variaba según lo predecible que fuera el sustantivo esperado, lo que sugería que se preactivaba incluso su **forma**. Nieuwland et al. (2018) repitieron el estudio en 9 laboratorios con 334 participantes. El efecto en el sustantivo se replicó con claridad, pero en el artículo **no hubo un efecto fiable**.
 
-La conclusión actual es matizada. Predecimos el **significado** de lo que viene, pero no hay evidencia convincente de que preactivemos de forma rutinaria la **forma** concreta de las palabras. Esta capacidad de anticipación es la que permite, por ejemplo, terminar mentalmente la frase de un amigo o preparar la respuesta mientras el otro aún habla, algo esencial en la conversación (Unidad 13).
+Conclusión: predecimos el **significado** de lo que viene, pero no hay evidencia convincente de que preactivemos de forma rutinaria la **forma** de las palabras. Esa anticipación permite preparar la respuesta mientras el otro aún habla (Unidad 13).
 
 ### 11.3 Comprensión del discurso
 
-Entender un texto o una conversación exige ir más allá de las oraciones sueltas y construir una representación **coherente** del conjunto. Van Dijk y Kintsch (1983) distinguieron tres niveles de representación:
+Entender un texto exige construir una representación **coherente** del conjunto. Van Dijk y Kintsch (1983) distinguieron tres niveles:
 
-- **Superficie**: las palabras exactas y su estructura. Se olvida pronto: Sachs (1967) mostró que, poco después de leer una frase, se reconoce mal si cambió de voz activa a pasiva, pero muy bien si cambió el significado.
-- **Texto base**: las **proposiciones** o ideas que expresa el texto y su organización local y global (la **macroestructura**, ya presente en Kintsch y van Dijk, 1978).
-- **Modelo de situación**: la representación de **lo que ocurre** en el mundo descrito, que integra el texto con el conocimiento previo.
+- **Superficie**: las palabras exactas. Se olvida pronto: poco después de leer una frase se detecta mal un cambio de activa a pasiva, pero muy bien un cambio de significado (Sachs, 1967).
+- **Texto base**: las **proposiciones** del texto y su organización local y global (la **macroestructura**; Kintsch y van Dijk, 1978).
+- **Modelo de situación**: **lo que ocurre** en el mundo descrito, integrado con el conocimiento previo.
 
 ![m](discurso.png)
 
 Figura 11.3. **Niveles de representación del discurso.** De la superficie se pasa al texto base y de ahí al modelo de situación, que se organiza en cinco dimensiones: tiempo, espacio, causalidad, intencionalidad y protagonistas. Esquema ilustrativo. Elaboración propia.
 
-**El modelo de construcción-integración** (Kintsch, 1988) describe cómo se forman esos niveles. En la fase de **construcción**, cada frase activa de forma ascendente y poco controlada proposiciones y asociaciones, pertinentes o no. En la de **integración**, la activación se propaga por la red y lo que no encaja con el resto pierde fuerza. Así, «banco» activa al principio sus dos sentidos (Unidad 10), pero solo sobrevive el coherente con el texto.
+**El modelo de construcción-integración** (Kintsch, 1988) tiene dos fases. En la de **construcción**, cada frase activa de forma ascendente y poco controlada proposiciones y asociaciones, pertinentes o no; en la de **integración**, la activación se propaga y lo que no encaja pierde fuerza. Así, «banco» activa sus dos sentidos (Unidad 10), pero solo sobrevive el coherente.
 
-**Los modelos de situación.** Como muestra la figura 11.3, el **modelo de indexación de eventos** (Zwaan, Langston y Graesser, 1995; Zwaan y Radvansky, 1998) propone que el lector sigue cinco dimensiones: **tiempo, espacio, causalidad, intencionalidad** (metas de los personajes) y **protagonistas**. Una discontinuidad en cualquiera de ellas, como «una semana después» o la entrada de un personaje nuevo, aumenta el tiempo de lectura. Los enunciados con más conexiones causales con el resto del texto se recuerdan mejor y se juzgan más importantes.
+**Los modelos de situación.** Como muestra la figura 11.3, el **modelo de indexación de eventos** (Zwaan, Langston y Graesser, 1995; Zwaan y Radvansky, 1998) propone que el lector sigue cinco dimensiones: **tiempo, espacio, causalidad, intencionalidad** (metas) y **protagonistas**. Una discontinuidad, como «una semana después» o un personaje nuevo, alarga la lectura. Los enunciados con más conexiones causales se recuerdan mejor y se juzgan más importantes.
 
 **Las inferencias.** Ningún texto lo dice todo:
 
-- Las **inferencias puente** o cohesivas son necesarias para la coherencia. Según el **contrato dado-nuevo** (Haviland y Clark, 1974), cada frase conecta información conocida con información nueva. «Sacamos la tortilla de la nevera. La tortilla estaba fría» se lee rápido; si la primera frase dice «sacamos la comida», hace falta inferir que había tortilla, y la lectura se enlentece.
+- Las **inferencias puente** son necesarias para la coherencia. Según el **contrato dado-nuevo** (Haviland y Clark, 1974), cada frase une lo conocido con lo nuevo: «Sacamos la tortilla de la nevera. La tortilla estaba fría» se lee rápido; con «sacamos la comida», hay que inferir la tortilla y la lectura se enlentece.
 - Las **inferencias elaborativas** o predictivas no son necesarias: leer que un jarrón cae al suelo puede llevar a inferir que se rompe.
 
-La **hipótesis minimalista** (McKoon y Ratcliff, 1992) sostiene que solo se hacen de forma automática las inferencias necesarias para la coherencia local y las que resultan muy fáciles. La **construccionista** (Graesser, Singer y Trabasso, 1994) defiende que el lector infiere también las metas y causas que explican lo que ocurre. Las inferencias puente son claramente automáticas; muchas elaborativas solo aparecen si el contexto las apoya mucho.
+Para la **hipótesis minimalista** (McKoon y Ratcliff, 1992), solo son automáticas las inferencias necesarias para la coherencia local y las muy fáciles; para la **construccionista** (Graesser, Singer y Trabasso, 1994), también se infieren las metas y causas que explican lo que ocurre.
 
-**Conocimiento previo.** Bransford y Johnson (1972) mostraron que un texto abstracto se entiende y recuerda mucho mejor si su título se da antes de leerlo, y Bransford, Barclay y Franks (1972) que se reconocen falsamente frases nuevas coherentes con el modelo de situación construido. Estos estudios, con los esquemas de Bartlett (1932), se tratan en la asignatura de Psicología de la Memoria.
+**Conocimiento previo.** Un texto abstracto se entiende y recuerda mejor si el título se da antes (Bransford y Johnson, 1972), y se reconocen falsamente frases nuevas coherentes con el modelo de situación (Bransford, Barclay y Franks, 1972). Estos estudios y los esquemas de Bartlett (1932) se tratan en Psicología de la Memoria.
 
-**Cohesión y coherencia.** La **cohesión** está en el texto: conectores, pronombres, repeticiones (Halliday y Hasan, 1976). La **coherencia** está en la mente del lector. Un texto puede tener muchos conectores y resultar incoherente, o apenas tenerlos y entenderse bien.
+**Cohesión y coherencia.** La **cohesión** está en el texto: conectores, pronombres, repeticiones (Halliday y Hasan, 1976). La **coherencia** está en la mente del lector: hay textos llenos de conectores e incoherentes.
 
-**Lenguaje figurado.** El **modelo pragmático estándar** sostiene que primero se calcula el sentido literal y, si no encaja, se busca el figurado (Unidad 8). Glucksberg (1982) halló que el sentido metafórico se procesa de forma **automática** aunque no se pida: interfiere al juzgar si «algunos jefes son tiburones» es literalmente verdadero, un efecto de tipo Stroop. La **hipótesis de la saliencia graduada** (Giora, 1997) propone que se accede primero al significado más **saliente** (frecuente y familiar), sea literal o figurado.
+**Lenguaje figurado.** Según el **modelo pragmático estándar**, primero se calcula el sentido literal y, si no encaja, el figurado (Unidad 8). Pero el sentido metafórico se procesa de forma **automática**: interfiere al juzgar si «algunos jefes son tiburones» es literalmente verdadero, un efecto de tipo Stroop (Glucksberg, 1982). La **saliencia graduada** (Giora, 1997) propone acceder primero al significado más **saliente**, sea literal o figurado.
 
 ### 11.4 Bases neurales de la comprensión y afasias
 
-**El modelo clásico.** Paul Broca (1861) describió a Leborgne, un paciente que solo emitía la sílaba «tan» y cuya lesión afectaba al tercio posterior del giro frontal inferior izquierdo. Carl Wernicke (1874) describió pacientes con habla fluida pero vacía y mala comprensión tras lesiones en el giro temporal superior posterior izquierdo. Lichtheim (1885) añadió un centro conceptual y predijo las afasias transcorticales, y Geschwind (1965) actualizó el esquema con el **fascículo arqueado**: el **modelo de Wernicke-Lichtheim-Geschwind**.
+**El modelo clásico.** Broca (1861) describió a Leborgne, que solo emitía «tan», con lesión en el giro frontal inferior izquierdo; Wernicke (1874), pacientes con habla fluida pero vacía y mala comprensión tras lesiones del giro temporal superior posterior izquierdo. Lichtheim (1885) añadió un centro conceptual y predijo las afasias transcorticales, y Geschwind (1965) destacó el **fascículo arqueado**: es el **modelo de Wernicke-Lichtheim-Geschwind**.
 
 ![m](wm-broca-wernicke.jpg)
 
@@ -446,14 +435,14 @@ Figura 11.4. **Áreas de Broca y de Wernicke y fascículo arqueado.** Vista late
 
 Figura 11.5. **El cerebro de Leborgne («Tan»), conservado en París.** El paciente de Broca (1861); la lesión frontal izquierda era más extensa que el área que hoy lleva su nombre. Fuente: Selbymay, Wikimedia Commons, CC BY-SA 4.0.
 
-**Los modelos actuales.** El esquema de la figura 11.4 se ha superado. Tremblay y Dick (2016) encuestaron a 159 investigadores: solo el 2 % consideraba el modelo clásico la mejor teoría disponible, y no había acuerdo sobre dónde está el «área de Wernicke». Como muestra la figura 11.5, la lesión de Leborgne era más extensa que el área de Broca, y el área de Broca participa también en la sintaxis y la comprensión. Los modelos actuales destacan:
+**Los modelos actuales.** El esquema de la figura 11.4 está superado: como muestra la figura 11.5, la lesión de Leborgne era más extensa que el área de Broca, y esta participa también en la sintaxis y la comprensión (véase el mito de esta unidad). Los modelos actuales destacan:
 
-- La **doble vía** de Hickok y Poeppel (2007): una vía **ventral**, temporal y **bilateral**, que lleva del sonido al significado; y una **dorsal**, temporoparietal-frontal y lateralizada a la izquierda, que lleva del sonido a la articulación y sostiene la repetición. A lo largo del lóbulo temporal, el procesamiento avanza de unidades sonoras simples hacia palabras y frases.
-- Friederici (2012) distingue dos vías dorsales, una para la sintaxis compleja y otra para la repetición, además de las ventrales. Hagoort (2013), en su modelo MUC (memoria, unificación y control), sitúa en el giro frontal inferior la **unificación** de las palabras en frases.
-- La **red del lenguaje** frontotemporal izquierda, identificada en cada persona y distinta de las redes de demanda múltiple y de teoría de la mente (Fedorenko et al., 2010), y el **lóbulo temporal anterior** como centro semántico (Unidad 10).
-- El **hemisferio derecho** contribuye a la prosodia, las inferencias, el humor, las metáforas y el discurso; sus lesiones causan dificultades pragmáticas. La lateralización se trató en la Unidad 3.
+- La **doble vía** (Hickok y Poeppel, 2007): **ventral**, temporal y **bilateral**, del sonido al significado; **dorsal**, temporoparietal-frontal e izquierda, del sonido a la articulación y la repetición.
+- Dos vías dorsales, para la sintaxis compleja y la repetición (Friederici, 2012), y el giro frontal inferior como espacio de **unificación** en el modelo MUC (Hagoort, 2013).
+- Una **red del lenguaje** frontotemporal izquierda, distinta de las redes de demanda múltiple y de teoría de la mente (Fedorenko et al., 2010), y el **lóbulo temporal anterior** como centro semántico (Unidad 10).
+- El **hemisferio derecho**, que contribuye a la prosodia, las inferencias, el humor y las metáforas; sus lesiones causan dificultades pragmáticas (lateralización, Unidad 3).
 
-**Clasificación de las afasias.** La clasificación de Boston usa cuatro criterios: **fluencia**, **comprensión**, **repetición** y **denominación**. La anomia está en casi todas.
+**Clasificación de las afasias.** La de Boston usa **fluencia**, **comprensión**, **repetición** y **denominación**; la anomia está en casi todas.
 
 ![](afasias.png)
 
@@ -470,21 +459,21 @@ Figura 11.6. **Árbol de clasificación de las afasias.** Tres preguntas sucesiv
 | Conducción | Fluente | Buena | Muy alterada | Parafasias fonémicas con aproximaciones sucesivas |
 | Anómica | Fluente | Buena | Conservada | Solo dificultad para encontrar palabras |
 
-Como muestra la figura 11.6, las **transcorticales** conservan la repetición. Hay además afasias **subcorticales**, por lesiones en el tálamo o los ganglios basales.
+Como muestra la figura 11.6, las **transcorticales** conservan la repetición. Existen además afasias **subcorticales** (tálamo, ganglios basales).
 
-**Afasia progresiva primaria.** Es una pérdida gradual del lenguaje por neurodegeneración. Gorno-Tempini et al. (2011) describieron tres variantes: **no fluente o agramatical** (frontal inferior posterior e ínsula izquierdos), **semántica** (temporal anterior; anomia y pérdida del significado de las palabras) y **logopénica** (temporoparietal; anomia y mala repetición de frases, a menudo con patología de Alzheimer). Las bases biológicas se amplían en la asignatura de Bases Biológicas del Comportamiento; la producción y la apraxia del habla, en la Unidad 12; la intervención en la afasia, en la Unidad 16.
+**Afasia progresiva primaria.** Es una pérdida gradual del lenguaje por neurodegeneración. Los criterios de Gorno-Tempini et al. (2011) distinguen tres variantes: **no fluente o agramatical** (frontal inferior posterior e ínsula izquierdos), **semántica** (temporal anterior; anomia y pérdida del significado de las palabras) y **logopénica** (temporoparietal; anomia y mala repetición de frases, a menudo con patología de Alzheimer). Se amplía en Bases Biológicas del Comportamiento; la producción, en la Unidad 12, y la intervención, en la Unidad 16.
 
 ### Consenso y debate
 
-**Consenso:** el análisis sintáctico es incremental, y las ambigüedades temporales producen costes medibles; la información léxica, semántica y referencial se usa muy pronto. La N400 se asocia sobre todo a la integración del significado y la P600 al reanálisis sintáctico. Comprender un texto implica construir un modelo de situación con inferencias puente. El lenguaje depende de una red frontotemporal izquierda y de vías dorsal y ventral, y el modelo clásico de dos áreas está superado.
+**Consenso:** el análisis sintáctico es incremental y la información léxica, semántica y referencial se usa muy pronto. La N400 se asocia sobre todo a la integración del significado y la P600 al reanálisis sintáctico. Comprender un texto implica construir un modelo de situación con inferencias puente. El modelo clásico de dos áreas está superado por una red frontotemporal con vías dorsal y ventral.
 
-**Debate:** si el procesador construye primero una sola estructura (Frazier) o varias en paralelo (restricciones); hasta qué punto la comprensión es solo «suficientemente buena»; si se predice la forma de las palabras o solo su significado (Nieuwland et al., 2018); qué inferencias elaborativas son automáticas; y si el sentido figurado requiere pasar antes por el literal.
+**Debate:** si se construye una sola estructura (Frazier) o varias en paralelo (restricciones); cuánto es solo «suficientemente buena» la comprensión; si se predice la forma de las palabras o solo su significado (Nieuwland et al., 2018); qué inferencias elaborativas son automáticas; y si el sentido figurado pasa antes por el literal.
 
 ### Mito frecuente
 
 **Mito:** «El área de Broca se encarga de producir el lenguaje y el área de Wernicke de comprenderlo».
 
-**Realidad:** es la versión simplificada del modelo clásico, hoy superado. Solo el 2 % de 159 investigadores lo consideraba la mejor teoría disponible (Tremblay y Dick, 2016). El área de Broca interviene también en la sintaxis y la comprensión; la afasia de Broca persistente implica lesiones más extensas que esa área; y la comprensión depende de una red amplia, con una vía ventral bilateral (Hickok y Poeppel, 2007).
+**Realidad:** es la versión simplificada de un modelo superado: en una encuesta a 159 investigadores, solo el 2 % lo consideraba la mejor teoría disponible, y no había acuerdo sobre dónde está el «área de Wernicke» (Tremblay y Dick, 2016). El área de Broca interviene en la sintaxis y la comprensión, la afasia de Broca persistente implica lesiones más extensas, y la comprensión depende de una red amplia con una vía ventral bilateral (Hickok y Poeppel, 2007).
 
 ### Conceptos clave
 
@@ -501,7 +490,7 @@ Como muestra la figura 11.6, las **transcorticales** conservan la repetición. H
 
 ### Clave PIR
 
-**Prioridad alta.** Se pregunta el modelo de vía muerta y sus principios frente a los modelos de restricciones, el resultado de Cuetos y Mitchell (1988), los componentes N400 y P600, los niveles de representación del discurso y la clasificación de las afasias por fluencia, comprensión y repetición. Trampas típicas: invertir la asignación de la N400 y la P600, atribuir la adjunción mínima a MacDonald o el modelo de restricciones a Frazier, confundir texto base y modelo de situación, y confundir la afasia de conducción (repite mal, comprende bien) con la transcortical sensorial (repite bien, comprende mal).
+**Prioridad alta.** Se pregunta el modelo de vía muerta y sus principios frente a los modelos de restricciones, el resultado de Cuetos y Mitchell (1988), los componentes N400 y P600, los niveles de representación del discurso y la clasificación de las afasias por fluencia, comprensión y repetición. Trampas típicas: invertir la N400 y la P600, atribuir la adjunción mínima a MacDonald, confundir texto base y modelo de situación, y confundir la conducción (repite mal, comprende bien) con la transcortical sensorial (repite bien, comprende mal).
 
 ### Autoevaluación
 
