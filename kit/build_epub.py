@@ -45,6 +45,11 @@ for idx, fn in enumerate(CFG['files']):
         return f'<p class="fig {size}"><img src="img/{name}" alt="" /></p>'
     h = re.sub(r'<p><img alt="([^"]*)" src="([^"]+)" ?/?></p>', img, h)
     h = re.sub(r'(<p class="fig[^"]*">.*?</p>)\s*<p>(Figura .*?)</p>', r'<figure>\1<figcaption>\2</figcaption></figure>', h, flags=re.S)
+    # texto alternativo = pie de figura (accesibilidad de KDP): «Figura 3.2. Título. Descripción…»
+    def alt(m):
+        cap = re.sub(r'<[^>]+>', '', m.group(2)); cap = re.sub(r'\s+', ' ', cap).strip().replace('"', '&quot;')
+        return m.group(1).replace('alt=""', f'alt="{cap}"', 1) + m.group(2)
+    h = re.sub(r'(<figure><p class="fig[^"]*"><img [^>]*alt=""[^>]*/></p>)(<figcaption>.*?</figcaption>)', alt, h, flags=re.S)
     h = re.sub(r'<thead>\s*<tr>\s*(?:<th></th>\s*)+</tr>\s*</thead>', '', h)
     parts = re.split(r'(?=<h[123][ >])', h); out = ''
     for part in parts:
