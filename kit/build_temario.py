@@ -314,5 +314,9 @@ if KDP:
         if i + 1 >= F2: pg_.merge_page(nums.pages[i])
         if '/Annots' in pg_: del pg_['/Annots']      # sin enlaces internos: en papel no sirven y KDP los marca
     w.write(OUT); npg = len(w.pages)
+    import shutil
+    if shutil.which('qpdf'):   # pypdf deja los flujos sin comprimir: qpdf lo reduce a ~1/3
+        tmp = OUT + '.tmp'; subprocess.run(['qpdf', '--compress-streams=y', '--recompress-flate', '--compression-level=9', '--object-streams=generate', OUT, tmp], check=False)
+        if os.path.exists(tmp) and os.path.getsize(tmp) > 0: os.replace(tmp, OUT)
     print('KDP: primer capítulo en la página física', F2, '(número 1)')
 print('final pages', npg, os.path.getsize(OUT), OUT)

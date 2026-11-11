@@ -1,7 +1,7 @@
 {
   "lang": "es",
-  "title": "Psicología: historia, ciencia y profesión · SAIMAP Psicología",
-  "cover_title": "Psicología:<br>historia, ciencia<br>y profesión",
+  "title": "Historia de la Psicología · SAIMAP Psicología",
+  "cover_title": "Historia de<br>la Psicología",
   "subtitle": "Temario SAIMAP · Psicología",
   "blurb": "16 unidades sobre cómo nació y cómo ha cambiado la psicología: historiografía, antecedentes filosóficos y fisiológicos, la fundación, las escuelas europeas y americanas, el conductismo, la revolución cognitiva, el psicoanálisis, el humanismo, la crisis de replicación, la profesión en España y la deontología. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
   "tags": [
@@ -10,19 +10,19 @@
     "Ampliación PIR"
   ],
   "tag_colors": [
-    "#7A5BA8",
     "#2D5A7B",
+    "#5FA47A",
     "#C8553D"
   ],
   "toc_title": "Índice",
-  "footer": "Psicología: historia, ciencia y profesión · SAIMAP Psicología",
-  "pdf": "Psicologia-Historia-Ciencia-y-Profesion_SAIMAP.pdf",
+  "footer": "Historia de la Psicología · SAIMAP Psicología",
+  "pdf": "Historia-de-la-Psicologia_SAIMAP.pdf",
   "colors": {
-    "P": "#7A5BA8",
+    "P": "#2D5A7B",
     "A": "#C8553D",
-    "TINT": "#EFEAF5",
+    "TINT": "#E6EEF4",
     "STRIPE": [
-      "#7A5BA8",
+      "#C8553D",
       "#2D5A7B",
       "#5FA47A",
       "#E0A83A"

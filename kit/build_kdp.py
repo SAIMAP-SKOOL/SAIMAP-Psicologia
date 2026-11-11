@@ -29,7 +29,7 @@ WRAP, HINGE, BOARD = 0.591, 0.394, 0.1175   # KDP 7×10, 84 pág.: 15,961 × 11,
 DURA = json.loads(os.environ.get('DURA', '{}'))             # {"bases-biologicas": [15.2, 11.418], ...} tamaños exactos de KDP
 SERIE = [  # orden de la colección (1.º de Grado)
     ('bases-biologicas', 'Bases Biológicas del Comportamiento'),
-    ('historia', 'Psicología: Historia, Ciencia y Profesión'),
+    ('historia', 'Historia de la Psicología'),
     ('estadistica-1', 'Fundamentos de Estadística'),
     ('aprendizaje', 'Psicología del Aprendizaje'),
     ('memoria', 'Psicología de la Memoria'),

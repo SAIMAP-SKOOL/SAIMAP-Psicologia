@@ -1,4 +1,4 @@
-"""Figuras propias del temario de Psicología: historia, ciencia y profesión. python3 tools/figuras.py → img/*"""
+"""Figuras propias del temario de Historia de la Psicología. python3 tools/figuras.py → img/*"""
 import os, sys, numpy as np, matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt

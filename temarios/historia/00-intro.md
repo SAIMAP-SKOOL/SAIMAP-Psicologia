@@ -2,7 +2,7 @@
 
 *Versión 1.0 · octubre de 2026*
 
-Este temario forma parte de **SAIMAP Psicología**, una plataforma de estudio para estudiantes de Psicología y para cualquier persona interesada en la disciplina. Cubre los contenidos de la asignatura de primer curso *Psicología: historia, ciencia y profesión* (en otros planes de estudio, *Historia de la Psicología* o *Fundamentos históricos y profesionales de la Psicología*) y sirve de base a las unidades de la aplicación.
+Este temario forma parte de **SAIMAP Psicología**, una plataforma de estudio para estudiantes de Psicología y para cualquier persona interesada en la disciplina. Cubre los contenidos de la asignatura de primer curso dedicada a la historia de la psicología y a la profesión (según el plan de estudios, *Historia de la Psicología*, *Fundamentos históricos y profesionales de la Psicología* u otros nombres parecidos) y sirve de base a las unidades de la aplicación.
 
 El texto es original. Empieza por las herramientas para leer la historia con espíritu crítico y por los antecedentes filosóficos y fisiológicos de la nueva ciencia. Sigue con la fundación de la psicología a finales del siglo XIX, las escuelas europeas y estadounidenses hasta la II Guerra Mundial y las «tres fuerzas» de la posguerra: conductismo y cognitivismo, psicoanálisis y humanismo. Termina con el presente: la crisis de replicación, la construcción de la profesión en España y la ética y la deontología del psicólogo.
 
