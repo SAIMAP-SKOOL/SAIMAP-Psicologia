@@ -8,36 +8,34 @@ Entender a alguien parece instantáneo, pero exige convertir una señal física 
 
 ### 9.1 El reto de percibir el habla
 
-Oír a alguien que habla nuestra lengua da la impresión de recibir una sucesión ordenada de palabras separadas. La señal que llega al oído es muy distinta: una onda de presión que varía de forma continua en **frecuencia**, **amplitud** y **duración**. La **fonética articulatoria** describe cómo se producen los sonidos con el tracto vocal (Unidad 12); la **fonética acústica**, qué propiedades físicas tiene la señal resultante. El oyente tiene que pasar de esa señal a **fonemas**, las unidades abstractas que distinguen significados (Unidad 6).
-
-La herramienta clásica para ver la señal es el **espectrograma**.
+Oír nuestra lengua da la impresión de recibir palabras bien separadas. La señal que llega al oído es otra cosa: una onda que varía de forma continua en **frecuencia**, **amplitud** y **duración**. La **fonética articulatoria** describe cómo se producen los sonidos (Unidad 12); la **fonética acústica**, las propiedades físicas de la señal, que se visualizan en un **espectrograma**. El oyente tiene que pasar de esa señal a **fonemas**, las unidades abstractas que distinguen significados (Unidad 6).
 
 ![m](wm-espectrograma.png)
 
 Figura 9.1. **Espectrograma de una frase hablada.** Tiempo en horizontal, frecuencia en vertical; las bandas oscuras son los formantes, que se desplazan de forma continua sin pausas entre palabras. Frase inglesa «I owe you». Fuente: Jonas.kluk, Wikimedia Commons, dominio público; rótulos traducidos por SAIMAP.
 
-Como muestra la figura 9.1, la energía se concentra en bandas llamadas **formantes**, que dependen de la forma que adopta el tracto vocal en cada momento. Las vocales se reconocen sobre todo por la posición de los dos primeros formantes, y muchas consonantes, por las **transiciones** de los formantes hacia la vocal siguiente. De aquí surgen los dos problemas centrales de la percepción del habla (Liberman, Cooper, Shankweiler y Studdert-Kennedy, 1967):
+Como muestra la figura 9.1, la energía se concentra en bandas llamadas **formantes**, que dependen de la forma del tracto vocal. Las vocales se reconocen sobre todo por los dos primeros formantes, y muchas consonantes, por las **transiciones** de los formantes hacia la vocal siguiente. De aquí surgen dos problemas centrales (Liberman, Cooper, Shankweiler y Studdert-Kennedy, 1967):
 
-- **Falta de invarianza.** Un mismo fonema no tiene una forma acústica fija. Por la **coarticulación**, cada sonido se articula solapado con sus vecinos: la /d/ de «di» y la de «du» tienen transiciones de formantes muy distintas y, sin embargo, se oyen como el mismo sonido. A esto se suman las diferencias entre hablantes (voces graves y agudas, acentos) y la velocidad del habla.
-- **Segmentación.** En la señal no hay pausas fiables entre palabras. Hay silencios dentro de las palabras, por ejemplo durante el cierre de una /p/ o una /t/, y faltan entre ellas. Quien escucha una lengua desconocida percibe un chorro continuo; quien la conoce, palabras separadas. Las fronteras las pone el oyente.
+- **Falta de invarianza.** Un mismo fonema no tiene una forma acústica fija. Por la **coarticulación**, cada sonido se solapa con sus vecinos: la /d/ de «di» y la de «du» tienen transiciones muy distintas y se oyen igual. Se suman las diferencias entre hablantes y la velocidad del habla.
+- **Segmentación.** No hay pausas fiables entre palabras: hay silencios dentro de ellas, como el cierre de una /p/, y faltan entre ellas. Una lengua desconocida suena como un chorro continuo. Las fronteras las pone el oyente.
 
-**La percepción categórica.** Liberman, Harris, Hoffman y Griffith (1957) crearon sílabas sintéticas que variaban en pasos iguales a lo largo de un continuo acústico. Uno de los más estudiados es el **tiempo de inicio de la sonoridad** (VOT, *voice onset time*): el intervalo entre la apertura de los labios y el comienzo de la vibración de las cuerdas vocales, que separa /ba/ de /pa/. Los oyentes no perciben un cambio gradual. Identifican los estímulos de un lado como /ba/ y los del otro como /pa/, con un salto brusco en la frontera. Además, discriminan mucho mejor dos estímulos de categorías distintas que dos de la misma categoría, aunque la diferencia física sea idéntica.
+**La percepción categórica.** Liberman, Harris, Hoffman y Griffith (1957) crearon sílabas sintéticas que variaban en pasos iguales a lo largo de un continuo. Uno de los más estudiados es el **tiempo de inicio de la sonoridad** (VOT): el intervalo entre la apertura de los labios y la vibración de las cuerdas vocales, que separa /ba/ de /pa/. Los oyentes no perciben un cambio gradual, sino un salto brusco en la frontera, y discriminan mucho mejor dos estímulos de categorías distintas que dos de la misma, aunque la diferencia física sea idéntica.
 
 ![m](percepcion-categorica.png)
 
 Figura 9.2. **Percepción categórica en un continuo /ba/–/pa/.** La curva de identificación pasa bruscamente de /ba/ a /pa/ a lo largo del continuo de VOT, y la discriminación alcanza su máximo justo en la frontera entre categorías. Esquema ilustrativo. Elaboración propia.
 
-La figura 9.2 resume el patrón. Durante años se interpretó como la prueba de un modo de percepción especial para el habla. Hoy se matiza en dos sentidos. Primero, la discriminación dentro de una categoría **no es nula**: con tareas sensibles, los oyentes detectan diferencias entre variantes de un mismo fonema. Segundo, la percepción categórica **no es exclusiva del habla ni del ser humano**: Kuhl y Miller (1975) la observaron en chinchillas, y también aparece con algunos sonidos no lingüísticos. En la Unidad 2 se vio que los bebés discriminan estos contrastes desde las primeras semanas.
+La figura 9.2 resume el patrón, que durante años se tomó como prueba de un modo de percepción especial para el habla. Hoy se matiza: la discriminación dentro de una categoría **no es nula**, y la percepción categórica **no es exclusiva del habla ni del ser humano**, porque Kuhl y Miller (1975) la observaron en chinchillas. En la Unidad 2 se vio que los bebés ya discriminan estos contrastes.
 
-**Normalización y adaptación.** El oyente ajusta su análisis a cada hablante: tras unas pocas frases, una voz nueva o un acento poco familiar se entienden mejor. Heald y Nusbaum (2014) defienden un **enfoque activo** de la percepción del habla. No se trata de comparar de forma pasiva la señal con plantillas fijas, sino de formular hipótesis guiadas por la atención, el contexto y la experiencia, y corregirlas sobre la marcha. Por eso las categorías fonéticas siguen siendo plásticas en la edad adulta. Quien se muda de Valladolid a Cádiz nota que la primera semana le cuesta seguir las conversaciones rápidas y que, poco a poco, deja de hacer esfuerzo.
+**Normalización y adaptación.** El oyente ajusta su análisis a cada hablante. Heald y Nusbaum (2014) defienden un **enfoque activo**: percibir el habla no es comparar la señal con plantillas fijas, sino formular hipótesis guiadas por la atención, el contexto y la experiencia, y corregirlas sobre la marcha. Por eso las categorías siguen siendo plásticas en la edad adulta. Quien se muda de Valladolid a Cádiz nota que la primera semana le cuesta seguir las conversaciones rápidas y que, poco a poco, deja de hacer esfuerzo.
 
 ### 9.2 Teorías y efectos de arriba-abajo
 
-¿Cómo resuelve el oyente la falta de invarianza? La respuesta más influyente del siglo XX fue la **teoría motora de la percepción del habla** (Liberman et al., 1967), revisada por Liberman y Mattingly (1985). Su idea central es que no percibimos los sonidos como tales, sino los **gestos articulatorios** que el hablante pretendía realizar. La señal acústica de una /d/ cambia mucho según la vocal, pero el gesto de apoyar la punta de la lengua detrás de los dientes sería más estable. Para recuperar esos gestos, el oyente usaría su propio conocimiento de cómo se habla. La teoría recibió nuevo interés con el descubrimiento de las **neuronas espejo**, que se activan tanto al ejecutar una acción como al observarla.
+¿Cómo resuelve el oyente la falta de invarianza? La respuesta más influyente fue la **teoría motora** (Liberman et al., 1967), revisada por Liberman y Mattingly (1985): no percibimos sonidos, sino los **gestos articulatorios** que el hablante pretendía realizar. La acústica de una /d/ cambia según la vocal, pero el gesto de apoyar la lengua detrás de los dientes sería más estable. La teoría recibió nuevo interés con las **neuronas espejo**, que se activan al ejecutar una acción y al observarla.
 
-Las críticas son de peso. Hickok (2009) señaló que las lesiones que dañan el sistema motor del habla no eliminan la comprensión: hay pacientes que apenas pueden articular y entienden bien lo que se les dice. Además, los bebés discriminan contrastes que todavía no producen, y algunos animales muestran percepción categórica (apartado 9.1). La posición actual es que el sistema motor **puede contribuir** a percibir el habla, sobre todo en condiciones difíciles, pero no es imprescindible.
+Las críticas son de peso. Hickok (2009) señaló que las lesiones del sistema motor del habla no eliminan la comprensión: hay pacientes que apenas articulan y entienden bien. Además, los bebés discriminan contrastes que aún no producen, y algunos animales muestran percepción categórica. Hoy se acepta que el sistema motor **puede contribuir**, sobre todo en condiciones difíciles, pero no es imprescindible.
 
-**Efectos de arriba-abajo.** Varias observaciones muestran que el conocimiento léxico y el contexto influyen en lo que se oye:
+**Efectos de arriba-abajo.** El conocimiento léxico y el contexto influyen en lo que se oye:
 
 | Fenómeno | Qué ocurre | Ejemplo propio |
 | --- | --- | --- |
@@ -45,7 +43,7 @@ Las críticas son de peso. Hickok (2009) señaló que las lesiones que dañan el
 | Efecto Ganong (Ganong, 1980) | Un sonido ambiguo se percibe como el fonema que forma una palabra | Un sonido a medio camino entre /t/ y /d/ ante «-omate» se oye como /t/ |
 | Efecto del contexto de frase (Miller, Heise y Lichten, 1951) | Las palabras enmascaradas por ruido se reconocen mejor dentro de una frase que aisladas | «Pásame la sal» se entiende en un bar ruidoso; «sal», sola, mucho peor |
 
-En el estudio de Warren, realizado en inglés, los oyentes no solo restauraban el sonido ausente: tampoco sabían decir en qué punto de la palabra había sonado el ruido. En el efecto Ganong, un mismo estímulo acústico se percibe como un fonema u otro según cuál de las dos opciones da lugar a una palabra real. Estos fenómenos encajan con los modelos **interactivos** del reconocimiento de palabras, como TRACE (Unidad 10). Los modelos **autónomos** los explican de otro modo: la percepción sería ascendente y el léxico solo intervendría en la decisión posterior. El debate no es si el contexto influye, que lo hace, sino en qué momento.
+En el estudio de Warren, realizado en inglés, los oyentes ni siquiera sabían decir en qué punto de la palabra había sonado el ruido. Estos fenómenos encajan con los modelos **interactivos**, como TRACE (Unidad 10). Los modelos **autónomos** los explican de otro modo: la percepción sería ascendente y el léxico solo intervendría en la decisión posterior. El debate no es si el contexto influye, sino en qué momento.
 
 **Claves de segmentación.** Para colocar las fronteras entre palabras, el oyente aprovecha regularidades de su lengua:
 
@@ -53,13 +51,13 @@ En el estudio de Warren, realizado en inglés, los oyentes no solo restauraban e
 - **Probabilidades de transición** entre sílabas, que los bebés de 8 meses ya aprovechan (Saffran et al., 1996; Unidad 2).
 - **Fonotaxis**, es decir, las combinaciones de sonidos permitidas. En español ninguna palabra empieza por /s/ seguida de consonante, de modo que en «los trenes» la frontera tiene que caer entre la /s/ y la /t/.
 
-Cada lengua entrena así un procedimiento de segmentación propio. Por eso quien aprende un idioma tiene que adquirir, además del vocabulario, las claves para «trocear» su habla; al principio, una conversación entre nativos parece una sola palabra interminable. La percepción del habla combina, en suma, información **ascendente** (la señal) y **descendente** (el léxico, el contexto y las expectativas). La percepción del habla en general, la escucha en ambientes ruidosos y la atención auditiva se estudian también en la asignatura de Atención y Percepción.
+Cada lengua entrena un procedimiento de segmentación propio, y quien aprende un idioma tiene que adquirir también sus claves: al principio, una conversación entre nativos parece una sola palabra interminable. La percepción del habla combina, en suma, información **ascendente** (la señal) y **descendente** (léxico, contexto y expectativas). Sus aspectos perceptivos generales se estudian en la asignatura de Atención y Percepción.
 
 ### 9.3 La lectura
 
-Leer plantea un problema distinto. La escritura ofrece unidades **discretas y estables**: letras separadas y palabras delimitadas por espacios, así que desaparece el problema de la segmentación. A cambio, la lectura es un invento cultural reciente que se aprende con instrucción explícita y que obliga a conectar patrones visuales con la fonología y con el significado.
+La escritura ofrece unidades **discretas y estables**, letras y palabras separadas por espacios, así que desaparece el problema de la segmentación. A cambio, la lectura es un invento cultural reciente que se aprende con instrucción y obliga a conectar patrones visuales con la fonología y el significado.
 
-**Movimientos oculares.** Al leer, los ojos no se deslizan de forma continua por la línea. Alternan **fijaciones**, en las que el ojo se detiene y extrae información, con **sacadas**, saltos rápidos durante los que apenas se percibe nada. Según la revisión de Rayner (1998), en lectores adultos de lenguas alfabéticas:
+**Movimientos oculares.** Los ojos alternan **fijaciones**, en las que se extrae información, con **sacadas**, saltos rápidos durante los que apenas se percibe nada. Según la revisión de Rayner (1998), en lectores adultos de lenguas alfabéticas:
 
 | Parámetro | Valor típico |
 | --- | --- |
@@ -68,11 +66,9 @@ Leer plantea un problema distinto. La escritura ofrece unidades **discretas y es
 | Regresiones (saltos hacia atrás) | 10–15 % de las sacadas |
 | Amplitud perceptiva | 3–4 caracteres a la izquierda y 14–15 a la derecha del punto de fijación |
 
-La **amplitud perceptiva** se midió con la técnica de la **ventana móvil** (McConkie y Rayner, 1975): solo se muestra intacto el texto que rodea el punto de fijación y se comprueba cuánta ventana hace falta para leer con normalidad. Es asimétrica hacia donde avanza la lectura, y la identificación de palabras solo llega a unos 7–8 caracteres a la derecha. Las palabras largas, poco frecuentes o poco predecibles reciben más fijaciones y más largas; muchas palabras función breves, como «de» o «la», se saltan. Los movimientos oculares se tratan con más detalle en la asignatura de Atención y Percepción.
+La **amplitud perceptiva** se midió con la **ventana móvil** (McConkie y Rayner, 1975): solo se muestra intacto el texto alrededor de la fijación. Es asimétrica hacia donde avanza la lectura, y la identificación de palabras llega a unos 7–8 caracteres a la derecha. Las palabras largas, infrecuentes o impredecibles reciben más fijaciones y más largas; muchas palabras función breves («de», «la») se saltan. Estos límites explican por qué no funciona la **lectura rápida** que promete multiplicar la velocidad sin perder comprensión (Rayner et al., 2016). Los movimientos oculares se amplían en Atención y Percepción.
 
-Estos límites explican por qué la **lectura rápida** que promete multiplicar la velocidad sin perder comprensión no funciona: acelerar más allá de ellos equivale a saltarse texto (Rayner et al., 2016).
-
-**Efecto de superioridad de la palabra.** Reicher (1969) y Wheeler (1970) mostraron que una letra se identifica mejor cuando forma parte de una palabra que cuando aparece sola o en una cadena sin sentido: la A final se reconoce mejor en «MESA» que aislada o en «SMEA». El **modelo de activación interactiva** (McClelland y Rumelhart, 1981) lo explica con tres niveles (rasgos, letras y palabras) conectados en ambos sentidos: la palabra activada refuerza a sus propias letras.
+**Superioridad de la palabra.** Una letra se identifica mejor dentro de una palabra que sola o en una cadena sin sentido (Reicher, 1969; Wheeler, 1970): la A final se reconoce mejor en «MESA» que en «SMEA». El **modelo de activación interactiva** (McClelland y Rumelhart, 1981) lo explica con niveles de rasgos, letras y palabras conectados en ambos sentidos: la palabra activada refuerza sus letras.
 
 **El modelo de doble ruta.** Para leer en voz alta existen dos caminos (Coltheart et al., 2001):
 
@@ -83,9 +79,9 @@ Estos límites explican por qué la **lectura rápida** que promete multiplicar 
 
 Figura 9.3. **Modelo de doble ruta de lectura.** Del análisis visual parten la ruta léxica (léxico ortográfico, sistema semántico y léxico fonológico) y la ruta subléxica de conversión grafema-fonema, que confluyen en el habla; las marcas indican dónde falla cada dislexia adquirida. Esquema ilustrativo. Elaboración propia.
 
-Como muestra la figura 9.3, las **dislexias adquiridas** tras una lesión cerebral se explican como daños selectivos. En la **fonológica** falla la ruta subléxica: se leen palabras conocidas, pero no pseudopalabras. En la **superficial** falla la ruta léxica: se regularizan las palabras irregulares; en español, donde casi todo puede leerse por la ruta subléxica, se detecta por la lentitud y por los errores con homófonos («vaca» y «baca»). En la **profunda**, al déficit fonológico se suman **errores semánticos**, como leer «árbol» donde pone «bosque». La alternativa conexionista es el **modelo de triángulo** (Seidenberg y McClelland, 1989; Plaut et al., 1996): una sola red con unidades ortográficas, fonológicas y semánticas, sin reglas explícitas ni léxicos separados.
+Como muestra la figura 9.3, las **dislexias adquiridas** se explican como daños selectivos. En la **fonológica** falla la ruta subléxica: se leen palabras conocidas, pero no pseudopalabras. En la **superficial** falla la ruta léxica: se regularizan las irregulares; en español se detecta por la lentitud y los errores con homófonos («vaca» y «baca»). En la **profunda** se suman **errores semánticos**, como leer «árbol» donde pone «bosque». La alternativa conexionista es el **modelo de triángulo** (Seidenberg y McClelland, 1989; Plaut et al., 1996): una sola red ortográfica, fonológica y semántica, sin reglas ni léxicos separados.
 
-La **dislexia evolutiva** es una dificultad persistente para aprender a leer pese a una escolarización adecuada. Su núcleo más aceptado es un **déficit fonológico**, y su prevalencia se estima, de forma aproximada, entre el 5 % y el 10 % según el criterio. Con la alfabetización se especializa una región del giro fusiforme izquierdo, el **área visual de la forma de las palabras**, que Dehaene y Cohen (2011) interpretan como un caso de «reciclaje neuronal» de circuitos visuales previos. La evaluación e intervención de la dislexia corresponden a las futuras asignaturas de Psicopatología e Intervención Infantil.
+La **dislexia evolutiva** es una dificultad persistente para aprender a leer pese a una escolarización adecuada; su núcleo más aceptado es un **déficit fonológico**, y su prevalencia se estima, de forma aproximada, entre el 5 % y el 10 % según el criterio (se amplía en Psicopatología e Intervención Infantil). Con la alfabetización se especializa el **área visual de la forma de las palabras**, en el giro fusiforme izquierdo, un caso de «reciclaje neuronal» de circuitos visuales (Dehaene y Cohen, 2011).
 
 ### 9.4 Integración multisensorial y lengua de signos
 
@@ -231,7 +227,7 @@ Los modelos del acceso léxico intentan explicar cómo se pasa de la señal a la
 
 Figura 10.1. **Tres modelos del acceso léxico.** El logogén muestra detectores que acumulan evidencia hasta superar su umbral; la cohorte, el embudo de candidatos para «cocodrilo» hasta el punto de unicidad; TRACE, los niveles de rasgos, fonemas y palabras con conexiones en ambos sentidos. Esquema ilustrativo. Elaboración propia.
 
-Como muestra la figura 10.1, al oír «cocodrilo» la cohorte inicial de /k/ incluye «casa», «coco», «color» o «cuna»; con /ko/ quedan «coco», «color» o «cofre»; con /koko/, «coco» y «cocodrilo»; y con /kokod/ la palabra ya es única, aunque falten tres sílabas.
+Como muestra la figura 10.1, al oír «cocodrilo» la cohorte inicial de /k/ incluye «casa», «coco», «color» o «cuna»; con /ko/ quedan «coco», «color» o «cofre»; con /koko/, «coco» y «cocodrilo»; y con /kokod/ la palabra ya es única, aunque falte casi la mitad de la palabra.
 
 **Merge y Shortlist** (Norris, McQueen y Cutler, 2000). Este grupo defiende que la retroalimentación de TRACE **no es necesaria**: los efectos léxicos sobre los fonemas pueden explicarse si la decisión fonémica integra la información de ambos niveles sin que el léxico modifique la percepción. Es la versión moderna del enfoque autónomo.
 
@@ -292,7 +288,7 @@ El hallazgo es sólido, pero su interpretación está en **debate**:
 - Para unos, esa activación motora **forma parte** del significado: entender «patear» incluye simular la acción.
 - Para otros, es un **efecto secundario** o epifenómeno: la activación se propaga a la corteza motora una vez comprendida la palabra, pero no es necesaria para comprenderla.
 
-Una forma de decidir es estudiar a pacientes con lesiones motoras y comprobar si su comprensión de los verbos de acción está alterada, pero los resultados no son concluyentes. Además, la semántica corporeizada explica mejor las palabras concretas que las abstractas, como «justicia» o «probabilidad».
+Para decidirlo se estudia, por ejemplo, si las alteraciones motoras afectan a la comprensión de los verbos de acción, y la cuestión sigue abierta. Además, la semántica corporeizada explica mejor las palabras concretas que las abstractas, como «justicia» o «probabilidad».
 
 **Un centro semántico.** Otra línea de investigación propone que el conocimiento conceptual combina representaciones repartidas por la corteza (los «radios»: aspecto, sonido, acción) con un **centro transmodal** en el lóbulo temporal anterior que las integra (*hub-and-spoke*; Patterson, Nestor y Rogers, 2007). La prueba principal es la **demencia semántica**: cuando se degenera esa región, se pierde el significado de palabras y objetos en todas las modalidades, sea cual sea la vía de entrada. Esta propuesta integra la idea de rasgos distribuidos con la de una representación conceptual unificada, y se retoma en la Unidad 11.
 
@@ -385,7 +381,7 @@ Figura 11.1. **Dos formas de resolver la ambigüedad sintáctica.** El modelo de
 
 **El paradigma del mundo visual** (Tanenhaus et al., 1995) registra la mirada mientras se escuchan instrucciones sobre objetos reales. Con «Put the apple on the towel in the box» y una sola manzana, los oyentes miraban primero la toalla vacía, como si fuera el destino. Con dos manzanas, una sobre una toalla, ese error desaparecía: el **contexto referencial** actuaba de inmediato, como predicen los modelos interactivos.
 
-**Procesamiento suficientemente bueno.** Ferreira, Bailey y Ferraro (2002) y Ferreira (2003) defienden que a menudo construimos representaciones **superficiales**. Tras leer la versión inglesa de la oración de María, muchos lectores siguen creyendo que María cosía el vestido (Christianson et al., 2001). En la **ilusión de Moisés** (Erickson y Mattson, 1981), muchas personas responden «dos» a «¿Cuántos animales de cada especie llevó Moisés en el arca?» sin advertir que fue Noé.
+**Procesamiento suficientemente bueno.** Ferreira, Bailey y Ferraro (2002) y Ferreira (2003) defienden que a menudo construimos representaciones **superficiales**. Tras leer en inglés oraciones de este tipo, muchos lectores seguían creyendo que la protagonista había hecho la primera acción (Christianson et al., 2001); en el ejemplo anterior, equivaldría a seguir pensando que María cosía el vestido. En la **ilusión de Moisés** (Erickson y Mattson, 1981), muchas personas responden «dos» a «¿Cuántos animales de cada especie llevó Moisés en el arca?» sin advertir que fue Noé.
 
 **Memoria de trabajo.** Las relativas de objeto («El periodista al que atacó el senador…») cuestan más que las de sujeto («El periodista que atacó al senador…»), porque obligan a mantener más elementos pendientes (Just y Carpenter, 1992; Gibson, 1998).
 
@@ -442,7 +438,7 @@ La **hipótesis minimalista** (McKoon y Ratcliff, 1992) sostiene que solo se hac
 
 **Cohesión y coherencia.** La **cohesión** está en el texto: conectores, pronombres, repeticiones (Halliday y Hasan, 1976). La **coherencia** está en la mente del lector. Un texto puede tener muchos conectores y resultar incoherente, o apenas tenerlos y entenderse bien.
 
-**Lenguaje figurado.** El **modelo pragmático estándar** sostiene que primero se calcula el sentido literal y, si no encaja, se busca el figurado (Unidad 8). Glucksberg (1982) halló que el sentido metafórico se procesa de forma **automática** aunque no se pida: interfiere al juzgar si «algunos trabajos son cárceles» es literalmente verdadero, un efecto de tipo Stroop. La **hipótesis de la saliencia graduada** (Giora, 1997) propone que se accede primero al significado más **saliente** (frecuente y familiar), sea literal o figurado.
+**Lenguaje figurado.** El **modelo pragmático estándar** sostiene que primero se calcula el sentido literal y, si no encaja, se busca el figurado (Unidad 8). Glucksberg (1982) halló que el sentido metafórico se procesa de forma **automática** aunque no se pida: interfiere al juzgar si «algunos jefes son tiburones» es literalmente verdadero, un efecto de tipo Stroop. La **hipótesis de la saliencia graduada** (Giora, 1997) propone que se accede primero al significado más **saliente** (frecuente y familiar), sea literal o figurado.
 
 ### 11.4 Bases neurales de la comprensión y afasias
 
@@ -458,7 +454,7 @@ Figura 11.5. **El cerebro de Leborgne («Tan»), conservado en París.** El paci
 
 **Los modelos actuales.** El esquema de la figura 11.4 se ha superado. Tremblay y Dick (2016) encuestaron a 159 investigadores: solo el 2 % consideraba el modelo clásico la mejor teoría disponible, y no había acuerdo sobre dónde está el «área de Wernicke». Como muestra la figura 11.5, la lesión de Leborgne era más extensa que el área de Broca, y el área de Broca participa también en la sintaxis y la comprensión. Los modelos actuales destacan:
 
-- La **doble vía** de Hickok y Poeppel (2007): una vía **ventral**, temporal y **bilateral**, que lleva del sonido al significado; y una **dorsal**, temporoparietal-frontal y lateralizada a la izquierda, que lleva del sonido a la articulación y sostiene la repetición. En el lóbulo temporal, las zonas posteriores procesan unidades simples y las anteriores, palabras y frases.
+- La **doble vía** de Hickok y Poeppel (2007): una vía **ventral**, temporal y **bilateral**, que lleva del sonido al significado; y una **dorsal**, temporoparietal-frontal y lateralizada a la izquierda, que lleva del sonido a la articulación y sostiene la repetición. A lo largo del lóbulo temporal, el procesamiento avanza de unidades sonoras simples hacia palabras y frases.
 - Friederici (2012) distingue dos vías dorsales, una para la sintaxis compleja y otra para la repetición, además de las ventrales. Hagoort (2013), en su modelo MUC (memoria, unificación y control), sitúa en el giro frontal inferior la **unificación** de las palabras en frases.
 - La **red del lenguaje** frontotemporal izquierda, identificada en cada persona y distinta de las redes de demanda múltiple y de teoría de la mente (Fedorenko et al., 2010), y el **lóbulo temporal anterior** como centro semántico (Unidad 10).
 - El **hemisferio derecho** contribuye a la prosodia, las inferencias, el humor, las metáforas y el discurso; sus lesiones causan dificultades pragmáticas. La lateralización se trató en la Unidad 3.

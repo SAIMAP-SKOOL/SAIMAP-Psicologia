@@ -190,7 +190,7 @@ c) que no requieren ninguna tarea por parte del participante
 
 Antes de decir nada, el bebé lleva tiempo escuchando, y el recién nacido no llega «en blanco»:
 
-- **Prefiere la voz de su madre** a la de otras mujeres. DeCasper y Fifer (1980) lo demostraron con un procedimiento en el que el bebé, succionando de una manera u otra, hacía sonar una voz o la otra.
+- **Prefiere la voz de su madre** a la de otras mujeres: succiona de la forma que hace sonar esa voz (DeCasper y Fifer, 1980).
 - **Reconoce la prosodia de su lengua**, es decir, su ritmo y su entonación característicos, y la distingue de lenguas con un ritmo diferente (Mehler et al., 1988).
 
 **Percepción categórica en bebés.** Eimas, Siqueland, Jusczyk y Vigorito (1971) estudiaron a bebés de uno y cuatro meses con la técnica de **succión de alta amplitud**: el bebé succiona con fuerza cuando oye algo nuevo y, a medida que se aburre, la succión disminuye. Si al cambiar el sonido vuelve a succionar con fuerza, es que ha notado la diferencia. Los bebés distinguían /ba/ de /pa/, pero no dos variantes acústicas igual de distintas dentro de la misma categoría. Es decir, percibían el habla de forma **categórica**, como los adultos (Unidad 9).
@@ -203,7 +203,7 @@ Al principio se vio aquí un mecanismo innato exclusivo del habla humana, pero l
 
 Figura 2.1. **Estrechamiento perceptivo.** Proporción de bebés que discriminan un contraste no nativo a los 6–8, 8–10 y 10–12 meses, que pasa de alta a baja, frente a un contraste nativo que se mantiene. Basado en Werker y Tees (1984), con valores ilustrativos. Esquema ilustrativo. Elaboración propia.
 
-Como muestra la figura 2.1, durante el segundo semestre de vida la percepción se **especializa** en los contrastes de la lengua del entorno. No es una pérdida en el sentido de un deterioro, sino una **reorganización**: el bebé deja de atender a diferencias que su lengua no usa y se vuelve más eficaz con las que sí usa. Un bebé que crece en español aprende que la diferencia entre /r/ y /rr/ («pero» y «perro») cambia el significado; uno que crece en japonés, que no la tiene, deja de prestarle atención.
+Como muestra la figura 2.1, durante el segundo semestre de vida la percepción se **especializa** en los contrastes de la lengua del entorno. No es un deterioro, sino una **reorganización**: el bebé deja de atender a diferencias que su lengua no usa. Un bebé que crece en español aprende que la diferencia entre /r/ y /rr/ («pero» y «perro») cambia el significado; uno que crece en japonés, que no la tiene, deja de prestarle atención.
 
 Las **vocales** se reorganizan antes que las consonantes, hacia los 6 meses (Kuhl et al., 1992). Patricia Kuhl describió este proceso con la metáfora del **imán de la lengua nativa**: las vocales más típicas de la propia lengua funcionan como un imán perceptivo que «atrae» a los sonidos parecidos, de modo que las variantes cercanas a ese prototipo se perciben como más similares entre sí. La experiencia con la lengua del entorno deforma así el espacio perceptivo del bebé.
 
@@ -211,7 +211,7 @@ Las bases generales de la percepción del habla, como la falta de invarianza o e
 
 ### 2.2 Aprendizaje estadístico e interacción social
 
-El habla no trae espacios entre palabras. Cuando escuchamos una lengua desconocida, oímos un chorro continuo de sonido, y eso es lo que oye un bebé. ¿Cómo descubre dónde empieza y dónde acaba cada palabra?
+El habla no trae espacios entre palabras: un bebé oye un chorro continuo de sonido. ¿Cómo descubre dónde empieza cada palabra?
 
 **El aprendizaje estadístico.** Saffran, Aslin y Newport (1996) dieron una respuesta parcial. Presentaron a bebés de 8 meses una secuencia continua de sílabas sintéticas, sin pausas ni cambios de entonación, construida con unas pocas «palabras» inventadas de tres sílabas. La única pista para segmentarla era estadística: dentro de una palabra, una sílaba siempre iba seguida de la misma; entre palabras, la sílaba siguiente podía ser cualquiera de varias. Es decir, la **probabilidad de transición** entre sílabas era alta dentro de las palabras y baja en las fronteras.
 
@@ -221,7 +221,7 @@ Figura 2.2. **Probabilidades de transición en un habla continua.** Flujo sin pa
 
 Tras unos 2 minutos de exposición, los bebés escuchaban durante más tiempo las secuencias que cruzaban fronteras que las «palabras» del lenguaje inventado, señal de que las distinguían. Como muestra la figura 2.2, habían usado las regularidades estadísticas para segmentar el habla. En español ocurre algo parecido: dentro de «pelota», a «lo» le sigue siempre «ta», pero tras «ta», al final de la palabra, puede venir cualquier cosa («pelota roja», «pelota grande»).
 
-El hallazgo mostró que los bebés son aprendices muy potentes de regularidades. Sin embargo, **no resuelve** el debate entre innatismo y empirismo (Unidad 4): el aprendizaje estadístico es compatible con que existan sesgos innatos que orienten qué regularidades se calculan. El aprendizaje estadístico como mecanismo general se estudia también en la asignatura de Aprendizaje.
+El hallazgo **no resuelve** el debate entre innatismo y empirismo (Unidad 4): el aprendizaje estadístico es compatible con sesgos innatos que orienten qué regularidades se calculan. Como mecanismo general se estudia en la asignatura de Aprendizaje.
 
 **La interacción social.** Saber calcular estadísticas no basta. Kuhl, Tsao y Liu (2003) expusieron a bebés estadounidenses de unos 9 meses, que nunca habían oído mandarín, a 12 sesiones de 25 minutos (unas 5 horas en total) con hablantes de mandarín que les leían cuentos y jugaban con ellos. Otros bebés recibieron exactamente el mismo contenido en DVD o solo en audio, y un grupo control tuvo sesiones en inglés.
 
@@ -241,15 +241,15 @@ El primer año es la **etapa prelingüística**: el bebé aún no usa palabras, 
 
 **Las vocalizaciones.** La secuencia típica es esta:
 
-1. **Llanto**: desde el nacimiento. Al principio es reflejo, pero pronto se diferencia según el motivo (hambre, dolor, malestar), y los cuidadores aprenden a interpretarlo.
-2. **Arrullos o gorjeos** (*cooing*), hacia los 2–3 meses: sonidos vocálicos y suaves, a menudo en momentos de bienestar y en intercambio con el adulto.
-3. **Juego vocálico**, hacia los 4–6 meses: el bebé explora su voz con gritos, chillidos, gruñidos y cambios de tono.
-4. **Balbuceo canónico**, hacia los 6–10 meses: sílabas bien formadas de consonante y vocal, a menudo repetidas («ba-ba-ba», «ma-ma-ma»).
-5. **Balbuceo variado y jerga**, hacia los 10–12 meses: se combinan sílabas distintas («ba-de-ga») con la entonación de la lengua del entorno, de modo que suena como si el bebé «hablara» sin palabras.
+1. **Llanto**: desde el nacimiento; pronto se diferencia según el motivo (hambre, dolor, malestar).
+2. **Arrullos o gorjeos** (*cooing*), hacia los 2–3 meses: sonidos vocálicos suaves, a menudo en intercambio con el adulto.
+3. **Juego vocálico**, hacia los 4–6 meses: gritos, chillidos y cambios de tono.
+4. **Balbuceo canónico**, hacia los 6–10 meses: sílabas de consonante y vocal, a menudo repetidas («ba-ba-ba»).
+5. **Balbuceo variado y jerga**, hacia los 10–12 meses: sílabas distintas («ba-de-ga») con la entonación de la lengua del entorno, como si el bebé «hablara» sin palabras.
 
 El retraso del balbuceo canónico es una señal de alerta: los bebés sordos lo inician tarde o no llegan a hacerlo. Y los bebés expuestos a una lengua de signos producen un **balbuceo manual**, movimientos repetidos y rítmicos de las manos con unidades de esa lengua (Petitto y Marentette, 1991). El balbuceo no es un mero ejercicio de la boca, sino una fase de la adquisición de una lengua, oral o signada.
 
-**La comunicación intencional.** Hacia los 9–10 meses se produce un cambio cualitativo que Michael Tomasello llamó la **revolución de los nueve meses**. Aparece la **atención conjunta**: el bebé y el adulto atienden a la vez a un mismo objeto y ambos saben que lo comparten. El bebé sigue la mirada del adulto, mira alternativamente al objeto y a la persona, y empieza a **señalar**. A partir de aquí, comunicar ya no es solo expresar un estado, sino dirigir la atención del otro.
+**La comunicación intencional.** Hacia los 9–10 meses se produce un cambio cualitativo que Michael Tomasello llamó la **revolución de los nueve meses**. Aparece la **atención conjunta**: el bebé y el adulto atienden a la vez a un mismo objeto y ambos saben que lo comparten. El bebé sigue la mirada del adulto, alterna la suya entre el objeto y la persona, y empieza a **señalar**. A partir de aquí, comunicar ya no es solo expresar un estado, sino dirigir la atención del otro.
 
 Bates, Camaioni y Volterra (1975) distinguieron dos usos de los primeros gestos:
 
@@ -266,37 +266,37 @@ Las mismas autoras describieron una progresión con términos de la teoría de l
 
 Figura 2.4. **Hitos del desarrollo del lenguaje de 0 a 72 meses.** Bandas desde el llanto y los arrullos (2–3 meses) hasta la conciencia fonológica y la lectura (60–72 meses), pasando por el balbuceo canónico (6–10 meses), la atención conjunta y los gestos (≈9–10 meses), las primeras palabras (≈12 meses), las 50 palabras (≈18 meses), las combinaciones de dos palabras (18–24 meses), la explosión gramatical (24–36 meses) y las subordinadas (36–60 meses). Los rangos son orientativos. Esquema ilustrativo. Elaboración propia.
 
-La figura 2.4 resume el recorrido que se estudia en esta unidad y en la siguiente. Las edades son **rangos orientativos**, no normas rígidas: hay una gran variabilidad entre niños con un desarrollo típico. Los hitos generales del desarrollo infantil y su relación con el desarrollo cognitivo y social se tratan en Desarrollo: Infancia y Adolescencia.
+La figura 2.4 resume el recorrido de esta unidad y la siguiente. Las edades son **rangos orientativos**, no normas rígidas. Los hitos generales del desarrollo infantil se tratan en Desarrollo: Infancia y Adolescencia.
 
 ### 2.4 Primeras palabras y aprendizaje del léxico
 
-Las **primeras palabras** aparecen hacia los 12 meses, con un rango amplio entre los 8 y los 18 meses. Suelen ser nombres de personas, animales, comida o juguetes, rutinas sociales («hola», «adiós») y palabras como «más» o «no». La comprensión va por delante de la producción: un bebé entiende bastantes palabras antes de decir la primera.
+Las **primeras palabras** aparecen hacia los 12 meses, con un rango amplio entre los 8 y los 18 meses. Suelen nombrar personas, animales, comida o juguetes, o acompañar rutinas sociales («hola», «adiós»). La comprensión va por delante de la producción.
 
 En esta etapa, una sola palabra puede funcionar como un enunciado completo: es la **holofrase**. «¡Agua!» puede querer decir «quiero agua», «se ha caído el agua» o «mira, el mar», y el adulto lo interpreta por el contexto y la entonación.
 
 El significado de las primeras palabras no coincide siempre con el adulto:
 
-- **Sobreextensión**: usar una palabra para más referentes de los que abarca. Un niño llama «guau» a los perros, pero también a los gatos, las vacas y los caballos.
-- **Infraextensión**: usar una palabra para menos referentes. Un niño solo llama «coche» al coche de su familia, o «flor» solo a las margaritas del jardín.
+- **Sobreextensión**: usar una palabra para más referentes de los que abarca, como llamar «guau» a perros, gatos y vacas.
+- **Infraextensión**: usar una palabra para menos referentes, como llamar «coche» solo al de la familia.
 
-Ambos errores muestran que el niño está formando categorías a partir de rasgos (forma, tamaño, movimiento) y que las ajusta con la experiencia.
+Ambos errores muestran que el niño forma categorías a partir de rasgos (forma, tamaño, movimiento) y las ajusta con la experiencia.
 
 **¿Hay una explosión de vocabulario?** El ritmo inicial es lento. Hacia los 18 meses muchos niños tienen unas 50 palabras, y a partir de ahí el vocabulario crece más deprisa. Durante años se dio por hecho que todos los niños pasan por un **estirón** o «explosión de vocabulario», un cambio brusco de ritmo. Ganger y Brent (2004) lo comprobaron con métodos estadísticos en 38 niños y solo una minoría, en torno a **uno de cada cinco**, mostraba un verdadero estirón; en los demás, el crecimiento era gradual y acelerado, pero sin un punto de inflexión claro.
 
-**Cómo se aprende el significado.** Ante una palabra nueva, el niño se enfrenta a un problema enorme: si alguien señala un conejo y dice «gazapo», la palabra podría referirse al animal, a sus orejas, a su color o a la acción de saltar. Se han propuesto varios mecanismos que reducen las posibilidades:
+**Cómo se aprende el significado.** Si alguien señala un conejo y dice «gazapo», la palabra podría referirse al animal, a sus orejas, a su color o a la acción de saltar. Varios mecanismos reducen las posibilidades:
 
-- **Mapeo rápido** (*fast mapping*): los niños pueden asociar una palabra nueva a un significado tras muy pocas exposiciones. Carey y Bartlett (1978) introdujeron una palabra nueva para un color («cromo») en una situación cotidiana con niños de 3–4 años, y tras una sola exposición muchos retenían parte de su significado.
+- **Mapeo rápido** (*fast mapping*): asociar una palabra nueva a un significado tras muy pocas exposiciones. Carey y Bartlett (1978) usaron una palabra nueva para un color («cromo») con niños de 3–4 años, y tras una sola exposición muchos retenían parte de su significado.
 - **Sesgos o restricciones léxicas**, descritos por Ellen Markman: el sesgo de **objeto completo** (una palabra nueva nombra el objeto entero, no una parte); el sesgo **taxonómico** (se extiende a objetos de la misma clase, no a objetos relacionados temáticamente, como el conejo y su zanahoria); y la **exclusividad mutua** (cada objeto tiene un solo nombre). Si un niño que ya conoce «taza» oye «mira, el asa», supondrá que «asa» no se refiere a la taza, sino a otra cosa: probablemente la parte que no tiene nombre.
 - **Bootstrapping sintáctico**: la estructura de la frase ayuda a descubrir el significado de los verbos (Gleitman, 1990). Si un niño oye «la niña está ditando al perro», la estructura sugiere que la niña hace algo al perro; si oye «la niña y el perro están ditando», que hacen algo juntos. Naigles (1990) mostró que los niños pequeños usan este tipo de pistas para interpretar verbos nuevos.
 - **Claves sociales**: los niños tienen en cuenta la intención del hablante. Baldwin (1991) comprobó que, cuando un adulto decía una palabra nueva mirando a un objeto distinto del que estaba mirando el niño, los niños asociaban la palabra al objeto que miraba el adulto, no al suyo.
 
-Estos mecanismos actúan a la vez. Su interpretación, como restricciones innatas o como estrategias aprendidas a partir de la interacción, forma parte del debate entre teorías de la Unidad 4.
+Estos mecanismos actúan a la vez; si son restricciones innatas o estrategias aprendidas se discute en la Unidad 4.
 
 ### Consenso y debate
 
 **Consenso:** el recién nacido ya prefiere la voz materna y la prosodia de su lengua, y durante el primer año la percepción se especializa en los contrastes de la lengua del entorno (Werker y Tees, 1984). Los bebés detectan regularidades estadísticas del habla (Saffran et al., 1996), pero el aprendizaje fonético temprano necesita interacción social (Kuhl et al., 2003). La preferencia por el habla dirigida al bebé es real, aunque más pequeña de lo que se creía (ManyBabies Consortium, 2020).
 
-**Debate:** qué implica el aprendizaje estadístico para la discusión entre innatismo y empirismo, qué aporta exactamente la interacción en vivo que no aporta una pantalla, y si los sesgos léxicos son restricciones innatas o estrategias que emergen del uso y de las claves sociales.
+**Debate:** qué implica el aprendizaje estadístico para la discusión entre innatismo y empirismo, qué aporta la interacción en vivo que no aporta una pantalla y si los sesgos léxicos son innatos o emergen del uso.
 
 ### Mito frecuente
 
@@ -335,7 +335,7 @@ c) las probabilidades de transición entre sílabas
 
 **3.** En el estudio de Kuhl, Tsao y Liu (2003), la discriminación de un contraste del mandarín mejoró con…
 a) la exposición en DVD audiovisual
-b) la interacción con una hablante en vivo
+b) la interacción con hablantes en vivo
 c) la exposición solo en audio
 
 **4.** Un bebé señala un avión en el cielo y mira a su madre, sonriendo, para que ella también lo vea. Es un…
@@ -343,10 +343,10 @@ a) protodeclarativo
 b) protoimperativo
 c) balbuceo variado
 
-**5.** Un niño que ya sabe decir «taza» oye «mira, el asa» y supone que «asa» nombra otra cosa. Aplica el sesgo de…
-a) objeto completo
-b) taxonomía
-c) exclusividad mutua
+**5.** Un niño que ya sabe decir «taza» oye «mira, el asa» y supone que «asa» nombra otra cosa. Aplica el sesgo…
+a) de objeto completo
+b) taxonómico
+c) de exclusividad mutua
 
 ### Soluciones
 
@@ -362,16 +362,16 @@ Entre los 18 y los 24 meses aparecen las primeras **combinaciones de dos palabra
 
 Las primeras frases tienen un estilo **telegráfico**: se conservan las palabras de contenido (sustantivos, verbos, adjetivos) y faltan las **palabras función** y las terminaciones gramaticales. «Mamá agua» o «nene cae» transmiten lo esencial, como un telegrama.
 
-**La longitud media del enunciado.** Roger Brown (1973) propuso medir el avance gramatical con la **longitud media del enunciado** (LME), calculada en **morfemas**, no en palabras. Se toma una muestra de habla espontánea y se cuenta la media de morfemas por enunciado. «Perro» tiene un morfema; «perros», dos (perro + -s); «los perros comen» tiene más que «perro come». La LME es mejor indicador del desarrollo que la edad, porque niños de la misma edad pueden estar en momentos muy distintos. Brown describió **cinco estadios** según la LME, desde las combinaciones simples hasta las oraciones complejas.
+**La longitud media del enunciado.** Roger Brown (1973) propuso medir el avance gramatical con la **longitud media del enunciado** (LME), calculada en **morfemas**, no en palabras. Se calcula sobre una muestra de habla espontánea: «perro» tiene un morfema; «perros», dos (perro + -s). La LME es mejor indicador que la edad, porque niños de la misma edad pueden estar en momentos muy distintos. Brown describió **cinco estadios** según la LME, desde las combinaciones simples hasta las oraciones complejas.
 
-Brown observó además que, en inglés, 14 morfemas gramaticales se adquieren en un **orden muy estable** de un niño a otro: por ejemplo, la terminación -*ing* del gerundio aparece antes que el posesivo. En español, que tiene una **flexión** mucho más rica que el inglés (persona, número, tiempo y modo en el verbo; género y número en el nombre), los niños empiezan pronto a usar terminaciones verbales, artículos y concordancias, aunque con errores.
+Brown observó además que, en inglés, 14 morfemas gramaticales se adquieren en un **orden muy estable** de un niño a otro: por ejemplo, la terminación *-ing* del gerundio aparece antes que el posesivo. En español, que tiene una **flexión** mucho más rica que el inglés (persona, número, tiempo y modo en el verbo; género y número en el nombre), los niños empiezan pronto a usar terminaciones verbales, artículos y concordancias, aunque con errores.
 
-**La explosión gramatical.** Entre los 2 y los 3 años la gramática se transforma con rapidez. Aparecen los artículos, las preposiciones, los pronombres, los tiempos verbales y las primeras oraciones con más de un elemento. En esta etapa surgen errores muy reveladores:
+**La explosión gramatical.** Entre los 2 y los 3 años aparecen artículos, preposiciones, pronombres y tiempos verbales, y con ellos errores muy reveladores:
 
-- **Sobrerregularización**: aplicar una regla a una forma irregular. «Yo sabo», «lo he rompido», «ayer poní la mesa». Son errores que el niño no ha oído a ningún adulto, así que no pueden ser imitaciones: demuestran que ha extraído una regla y la aplica de forma productiva.
-- **Curva en U**: un niño puede decir correctamente «puse» al principio, porque la ha aprendido como forma suelta; después dice «poní», cuando descubre la regla; y finalmente vuelve a «puse», cuando aprende que ese verbo es una excepción. El rendimiento baja y vuelve a subir, dibujando una U.
+- **Sobrerregularización**: aplicar una regla a una forma irregular («yo sabo», «lo he rompido», «ayer poní la mesa»). El niño no ha oído estas formas a ningún adulto: no son imitaciones, sino la aplicación productiva de una regla.
+- **Curva en U**: el niño dice primero «puse», aprendida como forma suelta; después «poní», al descubrir la regla; y luego vuelve a «puse», al aprender la excepción.
 
-¿Cuánto sobrerregularizan los niños? Marcus et al. (1992) analizaron muestras de 83 niños y hallaron que la sobrerregularización es **infrecuente**: la tasa mediana era del 2,5 % de los verbos irregulares producidos. La mayor parte del tiempo los niños usan bien las formas irregulares que conocen. Lo valioso de estos errores no es su cantidad, sino lo que revelan: el niño no solo almacena formas, sino que generaliza reglas. La explicación de este patrón enfrentó a los modelos de reglas y a los conexionistas (Unidad 4).
+¿Cuánto sobrerregularizan? Marcus et al. (1992) analizaron muestras de 83 niños: la sobrerregularización es **infrecuente**, con una tasa mediana del 2,5 % de los verbos irregulares producidos. Lo valioso de estos errores no es su cantidad, sino que muestran que el niño generaliza reglas. La explicación de este patrón enfrentó a los modelos de reglas y a los conexionistas (Unidad 4).
 
 **Hacia la oración compleja.** A partir de las oraciones simples, el niño empieza a unir proposiciones. Primero aparecen las **coordinadas** («quiero agua y galletas», «se cayó y lloró»), y entre los 3 y los 5 años, las **subordinadas**: causales («porque»), temporales («cuando»), relativas («el perro que ladra») y completivas («creo que…»). Hacia los 5 años, la mayoría de los niños domina las estructuras básicas de su lengua, aunque el desarrollo de la sintaxis compleja y del uso continúa durante años.
 
@@ -383,7 +383,7 @@ Brown observó además que, en inglés, 14 morfemas gramaticales se adquieren en
 
 ### 3.2 El lenguaje en la etapa escolar y la adolescencia
 
-A los 5 o 6 años, el niño habla con fluidez y usa la gramática básica de su lengua. Sin embargo, el desarrollo no se detiene: cambia de foco. Lo que se desarrolla en la etapa escolar es, sobre todo, la capacidad de **reflexionar** sobre el lenguaje, de **usarlo** con flexibilidad y de manejar discursos largos.
+A los 5 o 6 años el niño habla con fluidez, pero el desarrollo no se detiene: cambia de foco hacia la capacidad de **reflexionar** sobre el lenguaje, **usarlo** con flexibilidad y manejar discursos largos.
 
 **La conciencia metalingüística.** Es la capacidad de tomar el lenguaje como objeto de reflexión: darse cuenta de que una frase es ambigua, de que una palabra es larga aunque nombre algo pequeño («hormiga» frente a «sol») o de que dos palabras riman. Un componente esencial es la **conciencia fonológica**: la capacidad de identificar y manipular los sonidos de las palabras, desde las sílabas («¿cuántos trozos tiene "mariposa"?») hasta los fonemas («¿qué queda si a "sopa" le quitas la /s/?»). La conciencia fonológica es clave para aprender a leer, porque leer en una escritura alfabética exige relacionar letras con sonidos. Sus dificultades están en la base de la dislexia evolutiva (Unidad 9).
 
@@ -391,15 +391,9 @@ A los 5 o 6 años, el niño habla con fluidez y usa la gramática básica de su 
 
 **Las narrativas.** Contar una historia exige organizar sucesos en el tiempo, explicar causas y tener en cuenta lo que sabe el oyente. Hacia los 3–4 años las narraciones son secuencias de hechos poco conectados («y luego… y luego…»). En la etapa escolar adquieren una **macroestructura**: presentación, un problema, los intentos de resolverlo y un desenlace, lo que Stein y Glenn (1979) describieron como la **estructura de episodio**. Los niños aprenden también a adaptar su mensaje al oyente: ya a los 4 años hablan de forma más simple a niños más pequeños que a adultos (Shatz y Gelman, 1973), aunque sus descripciones siguen siendo a menudo poco informativas cuando el oyente no ve lo que ellos ven.
 
-**La adolescencia.** En la adolescencia se desarrollan el lenguaje figurado más abstracto, la **argumentación** y la persuasión, el discurso expositivo (explicar un tema, resumir un texto) y la sintaxis compleja propia de la escritura académica. La jerga adolescente cumple una función de **identidad** de grupo: marca quién pertenece y quién no. El desarrollo pragmático y el de las estructuras sintácticas más complejas continúan hasta el final de la adolescencia.
+**La adolescencia.** En la adolescencia se desarrollan el lenguaje figurado más abstracto, la **argumentación** y la persuasión, el discurso expositivo (explicar un tema, resumir un texto) y la sintaxis compleja propia de la escritura académica. La jerga cumple una función de **identidad** de grupo. El desarrollo pragmático y el de las estructuras sintácticas más complejas continúan hasta el final de la adolescencia.
 
-**Toda la vida.** El vocabulario sigue creciendo durante toda la vida: un adulto aprende términos de su profesión, de sus aficiones o de la actualidad. En la vejez el vocabulario se mantiene estable o crece, aunque aumentan los episodios de **punta de la lengua** (saber una palabra y no poder decirla, Unidad 12) y cuesta más comprender frases complejas en ambientes ruidosos.
-
-| Etapa | Avances principales |
-| --- | --- |
-| Etapa escolar | Conciencia fonológica y lectura, lenguaje figurado, ironía, narrativas con estructura de episodio |
-| Adolescencia | Argumentación, discurso expositivo, sintaxis compleja, jerga como marca de identidad |
-| Adultez y vejez | Vocabulario estable o creciente; más fenómenos de punta de la lengua |
+**Toda la vida.** El vocabulario crece durante toda la vida: términos de la profesión, de las aficiones o de la actualidad. En la vejez se mantiene estable o crece, aunque aumentan los episodios de **punta de la lengua** (Unidad 12) y cuesta más comprender frases complejas con ruido.
 
 El desarrollo de las habilidades comunicativas a lo largo de la vida se retoma en la Unidad 16, y la relación del lenguaje con el desarrollo cognitivo y social del niño se estudia en Desarrollo: Infancia y Adolescencia.
 
@@ -411,7 +405,7 @@ El lenguaje se apoya en un cerebro que está madurando. Tres procesos son especi
 
 **Mielinización.** La mielina acelera la transmisión entre regiones. El **fascículo arqueado**, que une las regiones temporales y frontales del lenguaje dentro de la llamada **vía dorsal**, se mieliniza de forma progresiva y madura tarde. Su maduración se ha relacionado con la comprensión de la sintaxis compleja, que sigue mejorando en la etapa escolar (Friederici, 2012).
 
-**Lateralización temprana.** En la mayoría de las personas, el hemisferio izquierdo tiene un papel dominante en el lenguaje. ¿Es un resultado del aprendizaje o está presente desde el principio? Lenneberg (1967) defendió que al nacer ambos hemisferios eran **equipotenciales** y que la lateralización se completaba hacia la pubertad. Los datos posteriores no apoyan la versión fuerte de esa idea:
+**Lateralización temprana.** ¿La dominancia izquierda para el lenguaje es fruto del aprendizaje o está presente desde el principio? Lenneberg (1967) defendió que al nacer ambos hemisferios eran **equipotenciales** y que la lateralización se completaba hacia la pubertad. Los datos posteriores no apoyan la versión fuerte de esa idea:
 
 - Con potenciales evocados, Molfese observó desde la década de 1970 respuestas asimétricas al habla en recién nacidos (Molfese y Betz, 1988).
 - Con resonancia magnética funcional, Dehaene-Lambertz, Dehaene y Hertz-Pannier (2002) encontraron en bebés de 3 meses una activación ante el habla predominantemente izquierda, en regiones parecidas a las del adulto.
@@ -420,11 +414,11 @@ La especialización izquierda, por tanto, está presente muy pronto, aunque se r
 
 **Dominancia y lateralidad manual.** Alrededor del 95 % de los diestros tiene el lenguaje lateralizado en el hemisferio izquierdo; en los zurdos, la proporción baja a un 70–75 % aproximadamente. Knecht et al. (2000) midieron la dominancia con ecografía Doppler transcraneal funcional en 326 personas sanas: la dominancia derecha aparecía en el 4 % de los diestros fuertes y en el 27 % de los zurdos fuertes, y su probabilidad aumentaba de forma lineal con el grado de zurdería. La relación entre mano y lenguaje es, por tanto, una cuestión de probabilidad, no una regla.
 
-Antes de algunas cirugías se usa la **prueba de Wada** (1949), que consiste en inyectar amobarbital en una arteria carótida para «dormir» temporalmente un hemisferio y comprobar si el paciente puede seguir hablando. Es una técnica invasiva; no debe confundirse con la **escucha dicótica**, que también informa sobre la lateralización pero de forma conductual y no invasiva (Unidad 14).
+Antes de algunas cirugías se usa la **prueba de Wada** (1949), que consiste en inyectar amobarbital en una arteria carótida para «dormir» temporalmente un hemisferio y comprobar si el paciente puede seguir hablando. Es invasiva; no debe confundirse con la **escucha dicótica**, que informa sobre la lateralización de forma conductual y no invasiva (véase Atención y Percepción).
 
 La dominancia izquierda no significa que el hemisferio derecho no participe. Este contribuye a la **prosodia emocional**, la comprensión del **discurso**, las **inferencias**, el **lenguaje figurado** y el **humor** (Unidad 11).
 
-**Plasticidad.** El cerebro infantil tiene una gran capacidad de reorganización. Algunos niños a los que se ha extirpado el hemisferio izquierdo por epilepsias graves han mostrado una recuperación notable del lenguaje, como el caso Alex (Vargha-Khadem et al., 1997). Los adultos se recuperan peor tras lesiones similares. La plasticidad tiene límites, pero muestra que el lenguaje no está atado de forma rígida a una región desde el nacimiento.
+**Plasticidad.** El cerebro infantil tiene una gran capacidad de reorganización. Algunos niños a los que se ha extirpado el hemisferio izquierdo por enfermedades graves han mostrado una recuperación notable del lenguaje, como el caso Alex (Vargha-Khadem et al., 1997). Los adultos se recuperan peor tras lesiones similares.
 
 **Requisitos cognitivos.** El lenguaje se desarrolla junto con otras capacidades que le sirven de base o lo acompañan: la **función simbólica** (entender que algo puede representar otra cosa), la **permanencia del objeto**, la **memoria de trabajo** y la **atención conjunta**. Las bases de la lateralización y de las afasias se estudian en Bases Biológicas del Comportamiento.
 
@@ -432,9 +426,9 @@ La dominancia izquierda no significa que el hemisferio derecho no participe. Est
 
 Un **periodo crítico** es una ventana de tiempo en la que una capacidad debe recibir la experiencia adecuada para desarrollarse con normalidad; fuera de ella, el aprendizaje ya no es posible o queda muy limitado. Un **periodo sensible** es una versión más suave: el aprendizaje es más fácil durante una etapa, pero la capacidad disminuye de forma gradual, sin desaparecer.
 
-**La propuesta de Lenneberg.** Lenneberg (1967) planteó que el lenguaje tiene un periodo crítico que termina hacia la **pubertad** y lo relacionó con la lateralización y la pérdida de plasticidad cerebral. Era una idea coherente con su visión biológica del lenguaje (Unidad 4).
+**La propuesta de Lenneberg.** Lenneberg (1967) planteó un periodo crítico para el lenguaje que termina hacia la **pubertad**, ligado a la lateralización y a la pérdida de plasticidad (Unidad 4).
 
-**Los casos de privación.** La evidencia más llamativa, pero también la más difícil de interpretar, procede de niños que crecieron casi sin contacto con el lenguaje. **Genie** fue encontrada a los 13 años tras haber pasado la infancia encerrada y aislada (Curtiss, 1977). Con la intervención aprendió bastante vocabulario, pero su gramática quedó muy limitada. El caso parece apoyar el periodo crítico, pero tiene problemas graves: Genie sufrió maltrato, desnutrición y aislamiento emocional, y no se puede descartar que tuviera dificultades previas. Un único caso, con tantos factores mezclados, no permite separar el efecto de la edad del resto.
+**Los casos de privación.** La evidencia más llamativa, y la más difícil de interpretar, procede de niños criados casi sin contacto con el lenguaje. **Genie** fue encontrada a los 13 años tras haber pasado la infancia encerrada y aislada (Curtiss, 1977). Con la intervención aprendió bastante vocabulario, pero su gramática quedó muy limitada. El caso parece apoyar el periodo crítico, pero tiene problemas graves: Genie sufrió maltrato, desnutrición y aislamiento emocional, y no se puede descartar que tuviera dificultades previas. Un único caso, con tantos factores mezclados, no permite separar el efecto de la edad del resto.
 
 **Las segundas lenguas.** Johnson y Newport (1989) estudiaron a inmigrantes chinos y coreanos en Estados Unidos con una prueba de juicios gramaticales en inglés. El rendimiento disminuía cuanto más tarde habían llegado al país hasta la pubertad; entre quienes llegaron después, el rendimiento era más bajo y variable. Los resultados se interpretaron a favor de un periodo crítico.
 
@@ -447,7 +441,7 @@ Dos estudios posteriores, con muestras enormes, matizaron esa conclusión:
 
 Figura 3.1. **¿Ventana que se cierra o declive gradual?** Dos curvas del dominio gramatical de una segunda lengua según la edad de inicio: un escalón en la pubertad, como en la versión estricta del periodo crítico, frente a un declive gradual (Hakuta et al., 2003), con una inflexión hacia los 17–18 años según Hartshorne et al. (2018). Esquema ilustrativo. Elaboración propia.
 
-Como muestra la figura 3.1, la imagen de una ventana que se cierra de golpe en la pubertad no se sostiene. La propuesta más defendible hoy es la de un **periodo sensible** con un declive gradual de la facilidad para aprender. El acento, que depende de la percepción y de la articulación, suele ser lo más difícil de adquirir en una lengua aprendida tarde, mientras que el vocabulario puede seguir aprendiéndose toda la vida.
+Como muestra la figura 3.1, la imagen de una ventana que se cierra de golpe en la pubertad no se sostiene. La propuesta más defendible hoy es la de un **periodo sensible** con un declive gradual de la facilidad para aprender la gramática, mientras que el vocabulario puede seguir aprendiéndose toda la vida.
 
 **La lengua de signos nicaragüense.** Un apoyo distinto procede de Nicaragua. Cuando se crearon allí las primeras escuelas para niños sordos, estos niños, que no tenían una lengua común, desarrollaron entre ellos una nueva lengua de signos. La lengua fue ganando estructura gramatical de una cohorte de alumnos a la siguiente, y los niños que se incorporaban más pequeños a la comunidad eran los que dominaban mejor los recursos gramaticales que iban surgiendo (Senghas y Coppola, 2001; Senghas, Kita y Özyürek, 2004). Los niños pequeños no solo aprenden una lengua: pueden darle forma. Este caso se discute en la Unidad 4 como argumento a favor de las bases biológicas del lenguaje.
 
