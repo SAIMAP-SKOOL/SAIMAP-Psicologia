@@ -437,15 +437,15 @@ Otros ejemplos de burla abierta:
 - **Cantidad**: la **tautología** «Un examen es un examen» no informa, y por eso se interpreta (hay que tomárselo en serio).
 - **Modo**: hablar del «señor de barba blanca y traje rojo» delante de los niños en diciembre comunica que no conviene nombrarlo.
 
-**Implicatura frente a presuposición.** La presuposición (apartado 6.4) se mantiene bajo la negación y no se cancela con facilidad; la implicatura sí se cancela. Confundirlas es otra trampa clásica de examen.
+**Implicatura frente a presuposición.** La presuposición (apartado 6.4) se mantiene bajo la negación y no se cancela con facilidad; la implicatura sí se cancela.
 
 **El desarrollo.** Los niños calculan las implicaturas escalares más tarde que los adultos en tareas metalingüísticas: tienden a aceptar «algunos» cuando en realidad son todos (Noveck, 2001). En tareas más sencillas y con contextos que hacen relevante la diferencia, las detectan antes (Papafragou y Musolino, 2003).
 
 ### 8.3 Relevancia y fundamento común
 
-El enfoque de Grice abrió el estudio de la pragmática, pero dejó preguntas abiertas: ¿cuántas máximas hay realmente?, ¿cómo elige el oyente entre varias interpretaciones posibles? Dos líneas de trabajo dieron respuestas distintas.
+El enfoque de Grice dejó preguntas abiertas: ¿cuántas máximas hay?, ¿cómo elige el oyente entre interpretaciones?
 
-**Los neo-griceanos.** Algunos autores conservaron el espíritu de Grice y simplificaron sus máximas. Horn (1984) las redujo a dos principios: el **principio Q** (di todo lo que puedas, que genera implicaturas como la escalar) y el **principio R** (no digas más de lo necesario, que lleva al oyente a enriquecer lo dicho). Levinson (2000) desarrolló el estudio de las **implicaturas generalizadas**, que funcionan como interpretaciones por defecto.
+**Los neo-griceanos.** Estos autores simplificaron las máximas. Horn (1984) las redujo a dos principios: el **principio Q** (di todo lo que puedas, que genera implicaturas como la escalar) y el **principio R** (no digas más de lo necesario, que lleva al oyente a enriquecer lo dicho). Levinson (2000) desarrolló el estudio de las **implicaturas generalizadas**, que funcionan como interpretaciones por defecto.
 
 **La teoría de la relevancia.** Sperber y Wilson (1986) propusieron un cambio más profundo. Para ellos, la comunicación humana es **ostensivo-inferencial**: el hablante muestra que quiere comunicar algo, y el oyente infiere qué es. Toda la interpretación se rige por un solo principio: **todo enunciado comunica la presunción de su propia relevancia óptima**. La relevancia es un equilibrio entre dos factores:
 
@@ -462,13 +462,13 @@ La teoría introduce además el concepto de **explicatura**: lo comunicado expl�
 | Neo-griceanos (Horn, 1984; Levinson, 2000) | Pocos principios e interpretaciones por defecto | Implicaturas generalizadas casi automáticas |
 | Relevancia (Sperber y Wilson, 1986) | Máximo efecto con mínimo esfuerzo | Interviene ya en lo dicho (explicaturas) |
 
-**El fundamento común.** Herbert Clark subrayó otra condición de la comunicación: los interlocutores necesitan un **fundamento común** (*common ground*), el conjunto de conocimientos, creencias y supuestos que saben que comparten. Se apoya en la pertenencia a las mismas comunidades (dos estudiantes de Psicología saben qué es el PIR), en la experiencia compartida (lo que pasó en la última clase) y en lo que ambos tienen delante en ese momento. Hablar es una **actividad conjunta** (Clark, 1996): no se limita a emitir mensajes, sino que coordina acciones con otra persona.
+**El fundamento común.** Herbert Clark subrayó otra condición de la comunicación: los interlocutores necesitan un **fundamento común** (*common ground*), el conjunto de conocimientos, creencias y supuestos que saben que comparten. Se apoya en la pertenencia a las mismas comunidades (dos estudiantes de Psicología saben qué es el PIR), en la experiencia compartida (lo que pasó en la última clase) y en lo que ambos tienen delante en ese momento. Hablar es una **actividad conjunta** que coordina acciones con otra persona (Clark, 1996).
 
 El fundamento común se construye mediante el **grounding** o anclaje (Clark y Brennan, 1991): los interlocutores van dando y pidiendo pruebas de que se entienden con asentimientos, repeticiones, preguntas o simples «ajá». El medio influye en su coste: cara a cara se ve enseguida si el otro ha entendido; por mensajes escritos hay que confirmarlo de forma explícita. Los pactos conceptuales y el alineamiento entre hablantes se tratan en la Unidad 13, y la comunicación digital, en la Unidad 16.
 
 ### 8.4 Teoría de la mente y comunicación
 
-Interpretar un acto indirecto, una ironía o una implicatura exige atribuir intenciones al hablante. La capacidad de atribuir estados mentales (creencias, deseos, intenciones, emociones) a uno mismo y a los demás se llama **teoría de la mente** (ToM, del inglés *theory of mind*), término que acuñaron Premack y Woodruff (1978) con chimpancés. Su desarrollo general se estudia en Desarrollo: Infancia y Adolescencia; aquí interesa su relación con el lenguaje.
+Interpretar un acto indirecto, una ironía o una implicatura exige atribuir intenciones al hablante. La capacidad de atribuir estados mentales (creencias, deseos, intenciones, emociones) a uno mismo y a los demás se llama **teoría de la mente** (ToM, del inglés *theory of mind*), término que acuñaron Premack y Woodruff (1978) con chimpancés. Su desarrollo general se estudia en Desarrollo: Infancia y Adolescencia.
 
 **Las tareas de falsa creencia.** La prueba de referencia consiste en entender que alguien puede creer algo falso y actuar según esa creencia. Wimmer y Perner (1983) crearon la historia de Maxi, que no ve cómo su madre cambia de sitio su chocolate. Baron-Cohen, Leslie y Frith (1985) la adaptaron con dos muñecas, Sally y Ana, y la aplicaron a niños autistas (figura 8.3). Perner, Leekam y Wimmer (1987) añadieron la tarea de **contenido inesperado**: una caja de golosinas que en realidad contiene lápices.
 
@@ -494,13 +494,13 @@ El metaanálisis de Wellman, Cross y Watson (2001), con 178 estudios, mostró un
 
 **Consenso:** lo comunicado va más allá de lo dicho y se recupera por inferencia, guiada por el contexto y por expectativas de cooperación o relevancia. La falsa creencia explícita se aprueba de forma progresiva hacia los 4–5 años, con un patrón similar entre culturas (Wellman et al., 2001), y el lenguaje se relaciona de forma clara con ella (Milligan et al., 2007).
 
-**Debate:** si la pragmática se explica mejor con las máximas de Grice, con los principios neo-griceanos o con un único principio de relevancia (Sperber y Wilson, 1986). También se discute si los bebés tienen una ToM implícita: los hallazgos de Onishi y Baillargeon (2005) no se han replicado de forma consistente, y ManyBabies 2 aún no se ha publicado en revista.
+**Debate:** si la pragmática se explica mejor con las máximas de Grice, con los principios neo-griceanos o con un único principio de relevancia (Sperber y Wilson, 1986). También, si los bebés tienen una ToM implícita: Onishi y Baillargeon (2005) no se han replicado de forma consistente.
 
 ### Mito frecuente
 
 **Mito:** «La teoría de la mente aparece de golpe a los cuatro años».
 
-**Realidad:** la comprensión de la falsa creencia explícita mejora de forma gradual con la edad. En el metaanálisis de Wellman, Cross y Watson (2001), hacia los 44 meses aciertan aproximadamente la mitad de los niños de EE. UU. (en torno al 69 % en Australia y al 40 % en Japón), con el mismo patrón evolutivo en todos los países. Antes aparecen precursores como la atención conjunta y el juego simulado, y la comprensión de segundo orden llega hacia los 6–7 años.
+**Realidad:** la comprensión de la falsa creencia explícita mejora de forma gradual con la edad. En el metaanálisis de Wellman, Cross y Watson (2001), hacia los 44 meses aciertan aproximadamente la mitad de los niños de EE. UU. (en torno al 69 % en Australia y al 40 % en Japón), con el mismo patrón evolutivo en todos los países. Antes aparecen precursores como la atención conjunta y el juego simulado.
 
 ### Conceptos clave
 
@@ -548,4 +548,4 @@ c) solo los niños con desarrollo típico de la muestra
 
 ### Soluciones
 
-**1 b.** El hablante se compromete con una acción futura propia. **2 a.** La falsedad es tan evidente que el oyente infiere la ironía. **3 c.** Las implicaturas conversacionales se pueden cancelar sin contradicción; las presuposiciones resisten la negación. **4 c.** Las explicaturas muestran que la inferencia interviene ya en lo dicho, no solo después. **5 a.** Aprobaron el 86 % con síndrome de Down y el 20 % de los autistas, frente al 85 % con desarrollo típico.
+**1 b.** El hablante se compromete con una acción futura propia. **2 a.** La falsedad es tan evidente que el oyente infiere la ironía. **3 c.** Se cancela sin contradicción; la presuposición, en cambio, resiste la negación. **4 c.** Y la inferencia interviene ya en lo dicho (explicaturas). **5 a.** Aprobaron el 86 % con síndrome de Down y el 20 % de los autistas (85 % con desarrollo típico).

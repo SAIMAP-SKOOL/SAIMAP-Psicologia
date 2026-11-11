@@ -85,19 +85,17 @@ La **dislexia evolutiva** es una dificultad persistente para aprender a leer pes
 
 ### 9.4 Integración multisensorial y lengua de signos
 
-La percepción del habla no depende solo del oído. En el **efecto McGurk** (McGurk y MacDonald, 1976), si se oye /ba/ mientras se ve a alguien articular /ga/, muchas personas perciben un tercer sonido, /da/. La información auditiva y la visual se funden de forma automática, sin que el oyente note el conflicto.
-
-El efecto es real, pero no universal. Basu Mallick, Magnotti y Beauchamp (2015) lo midieron en 360 personas y hallaron una variabilidad enorme: la susceptibilidad individual iba del 0 % al 100 %, y la mayoría se situaba en los extremos.
+En el **efecto McGurk** (McGurk y MacDonald, 1976), si se oye /ba/ mientras se ve a alguien articular /ga/, muchas personas perciben /da/: la información auditiva y la visual se funden de forma automática. El efecto es real, pero no universal. Basu Mallick, Magnotti y Beauchamp (2015) lo midieron en 360 personas: la susceptibilidad individual iba del 0 % al 100 %.
 
 ![m](mcgurk.png)
 
 Figura 9.4. **Variabilidad individual en el efecto McGurk.** La distribución de la susceptibilidad tiene forma de U: muchas personas casi nunca perciben la fusión y muchas casi siempre; alrededor del 77 % se sitúa en los extremos. Esquema con datos de Basu Mallick et al. (2015). Elaboración propia.
 
-Como muestra la figura 9.4, alrededor del 77 % de las personas casi nunca o casi siempre experimentan la ilusión. Según el estímulo, la tasa media oscilaba aproximadamente entre el 17 % y el 58 %, y la susceptibilidad de cada persona era muy estable: la correlación entre dos mediciones separadas por un año rondaba 0,91. Decir que «todo el mundo» oye /da/ es, por tanto, inexacto.
+Como muestra la figura 9.4, la mayoría casi nunca o casi siempre experimenta la ilusión. Según el estímulo, la tasa media oscilaba aproximadamente entre el 17 % y el 58 %, y la medida era muy estable en cada persona (correlación de ≈0,91 a un año). Decir que «todo el mundo» oye /da/ es inexacto.
 
-Fuera del laboratorio, la integración audiovisual tiene una utilidad clara. **Ver la cara** del hablante mejora la inteligibilidad del habla en ruido, y el beneficio es mayor cuanto peor es la relación entre señal y ruido (Sumby y Pollack, 1954). Por eso, en una terraza ruidosa, miramos la boca de quien nos habla sin darnos cuenta. El **surco temporal superior** se considera una zona clave de esa integración. Durante la pandemia de COVID-19, varios estudios señalaron que las mascarillas reducían la inteligibilidad y dificultaban percibir emociones. También los **gestos** y la **prosodia** se integran con el significado de las palabras mientras se comprende.
+**Ver la cara** del hablante mejora la inteligibilidad en ruido, y más cuanto peor es la relación señal-ruido (Sumby y Pollack, 1954): en una terraza ruidosa miramos la boca de quien nos habla sin darnos cuenta. El **surco temporal superior** es una zona clave de esa integración. Durante la pandemia, varios estudios señalaron que las mascarillas reducían la inteligibilidad y dificultaban percibir emociones. También los **gestos** y la **prosodia** se integran con el significado.
 
-**Las lenguas de signos.** Son **lenguas naturales completas**, no mímica ni una versión manual de la lengua oral. Tienen un nivel equivalente a la fonología, con unidades sin significado como la **configuración** de la mano, el **lugar** y el **movimiento**, además de morfología y una sintaxis que aprovecha el espacio. No son universales: la lengua de signos española (LSE) y la lengua de signos catalana son distintas entre sí y de la de otros países. Las lesiones del hemisferio izquierdo producen en personas sordas signantes **afasias de signos** comparables a las afasias orales, mientras que lesiones derechas que alteran el procesamiento espacial suelen respetar la lengua (Hickok, Bellugi y Klima, 1996). El lenguaje, por tanto, no depende del canal auditivo: la red cerebral que lo sostiene es en gran parte la misma con independencia de la modalidad.
+**Las lenguas de signos.** Son **lenguas naturales completas**, no mímica ni una versión manual de la lengua oral. Tienen un nivel equivalente a la fonología, con unidades sin significado como la **configuración** de la mano, el **lugar** y el **movimiento**, además de morfología y una sintaxis que aprovecha el espacio. No son universales: la lengua de signos española (LSE) y la catalana son distintas. Las lesiones del hemisferio izquierdo producen en personas signantes **afasias de signos** comparables a las orales, mientras que las derechas que alteran el procesamiento espacial suelen respetar la lengua (Hickok, Bellugi y Klima, 1996). El lenguaje no depende del canal auditivo.
 
 España tiene un papel destacado en la historia de la educación de las personas sordas. En el siglo XVI, el monje benedictino Pedro Ponce de León enseñó a hablar y a escribir a niños sordos en el monasterio de Oña, y Juan Pablo Bonet publicó en 1620 su *Reducción de las letras y arte para enseñar a hablar a los mudos*.
 
@@ -105,7 +103,7 @@ España tiene un papel destacado en la historia de la educación de las personas
 
 Figura 9.5. **La letra A en el «Abecedario demostrativo» de Juan Pablo Bonet (1620).** Uno de los primeros alfabetos manuales impresos para enseñar a personas sordas. Fuente: grabado de Diego de Astor, Wikimedia Commons, dominio público.
 
-El alfabeto dactilológico de la figura 9.5 representa letras de la lengua oral con la mano; no es en sí una lengua de signos, aunque estas lo usan para deletrear nombres. Hoy la Ley 27/2007 reconoce las lenguas de signos españolas. La **lectura labial** es un apoyo útil, pero insuficiente por sí sola, porque muchos fonemas se articulan con movimientos visibles casi idénticos. El caso de la lengua de signos nicaragüense, surgida en una comunidad escolar de niños sordos, se trató en la Unidad 3.
+El alfabeto dactilológico de la figura 9.5 representa letras con la mano; no es una lengua de signos, aunque estas lo usan para deletrear nombres. Hoy la Ley 27/2007 reconoce las lenguas de signos españolas. La **lectura labial** ayuda, pero no basta, porque muchos fonemas se ven casi idénticos en los labios. La lengua de signos nicaragüense se trató en la Unidad 3.
 
 ### Consenso y debate
 
@@ -173,9 +171,7 @@ c) desaparece al repetir la prueba un año después
 
 ### 10.1 El léxico mental y sus efectos
 
-Un adulto conoce decenas de miles de palabras, aunque las estimaciones varían mucho según qué se cuente como palabra y cómo se mida. Ese almacén es el **léxico mental**, y el proceso de encontrar en él la entrada que corresponde a lo que se oye o se lee es el **acceso léxico**. Ocurre en una fracción de segundo y casi siempre sin errores, pese a que muchas palabras se parecen entre sí.
-
-Cada entrada del léxico reúne varios tipos de información:
+Un adulto conoce decenas de miles de palabras, aunque las estimaciones varían mucho. Ese almacén es el **léxico mental**, y encontrar en él la entrada que corresponde a lo que se oye o se lee es el **acceso léxico**, que ocurre en una fracción de segundo. Cada entrada reúne información:
 
 - **Fonológica**: cómo suena la palabra.
 - **Ortográfica**: cómo se escribe.
@@ -183,9 +179,9 @@ Cada entrada del léxico reúne varios tipos de información:
 - **Sintáctica**: categoría gramatical, género, qué complementos admite un verbo.
 - **Semántica**: qué significa.
 
-En los modelos de producción se distingue entre el **lema**, que reúne la información sintáctica y semántica, y la **forma** o lexema, con la información fonológica (Unidad 12). La distinción ayuda a entender, por ejemplo, el estado de punta de la lengua: se sabe qué palabra se busca, e incluso su género, pero no aparece su sonido.
+Se distingue entre el **lema**, con la información sintáctica y semántica, y la **forma** o lexema, con la fonológica (Unidad 12). En el estado de punta de la lengua se sabe qué palabra se busca, incluso su género, pero no aparece su sonido.
 
-**Los efectos clásicos.** La investigación ha identificado variables que modulan la rapidez del reconocimiento:
+**Los efectos clásicos.** Varias variables modulan la rapidez del reconocimiento:
 
 | Efecto | Qué ocurre | Ejemplo |
 | --- | --- | --- |
@@ -195,9 +191,9 @@ En los modelos de producción se distingue entre el **lema**, que reúne la info
 | Vecindario ortográfico | Influye cuántas palabras se forman cambiando una sola letra (índice N) | «pato» tiene muchos vecinos (gato, palo, paso) |
 | Concreción e imaginabilidad | Las palabras concretas se procesan mejor que las abstractas | «manzana» frente a «justicia» |
 
-La frecuencia y la edad de adquisición están muy relacionadas, porque las palabras que se aprenden pronto suelen ser frecuentes, y separar sus efectos exige diseños cuidadosos. Ambas siguen siendo dos de los mejores predictores del tiempo de reconocimiento.
+La frecuencia y la edad de adquisición están muy relacionadas, y separar sus efectos exige diseños cuidadosos.
 
-**Las tareas.** Estos efectos se miden con un repertorio de tareas que se presentó en la Unidad 1:
+**Las tareas.** Estos efectos se miden con las tareas presentadas en la Unidad 1:
 
 - **Decisión léxica**: decidir lo más rápido posible si una cadena de letras o sonidos es una palabra.
 - **Nombrado**: leer en voz alta una palabra; se mide el tiempo hasta que se empieza a hablar.
@@ -205,21 +201,19 @@ La frecuencia y la edad de adquisición están muy relacionadas, porque las pala
 - **Seguimiento ocular**: medir la duración de las fijaciones sobre cada palabra durante la lectura normal (Unidad 9).
 - **Potenciales evocados**: registrar la actividad eléctrica cerebral, sobre todo el componente N400, sensible al significado (Unidad 11).
 
-Ninguna tarea es pura. La decisión léxica, por ejemplo, incluye un proceso de decisión que puede añadir efectos propios, y el nombrado puede resolverse en parte por la ruta subléxica sin acceder al significado, sobre todo en una ortografía transparente como la española. Por eso los resultados más sólidos son los que se repiten con varias tareas.
+Ninguna tarea es pura: la decisión léxica añade un proceso de decisión, y el nombrado puede resolverse por la ruta subléxica sin acceder al significado, sobre todo en español. Los resultados más sólidos se repiten con varias tareas.
 
-**Una red distribuida.** Los estudios de neuroimagen y potenciales evocados indican que el acceso léxico implica una red amplia: la corteza temporal superior y media, el giro fusiforme para la forma escrita (Unidad 9) y regiones frontales relacionadas con el control y la selección. La información fonológica, ortográfica y semántica se integra casi a la vez, en tiempo real. En las personas bilingües, además, el léxico de la lengua que no se está usando también se activa en parte, como se verá en la Unidad 15.
-
-Un ejemplo cotidiano reúne varios de estos efectos. Al ver de reojo el cartel de una tienda, se lee «farmacia» sin esfuerzo; si el cartel dijera «herboristería», costaría algo más. La segunda palabra es más larga, menos frecuente y se aprende más tarde, y cada uno de esos factores añade unos milisegundos al acceso.
+**Una red distribuida.** El acceso léxico implica la corteza temporal superior y media, el giro fusiforme para la forma escrita (Unidad 9) y regiones frontales de control y selección. En las personas bilingües, el léxico de la otra lengua también se activa en parte (Unidad 15). Un ejemplo cotidiano: «farmacia» se lee de reojo sin esfuerzo; «herboristería» cuesta algo más, porque es más larga, menos frecuente y se aprende más tarde.
 
 ### 10.2 Modelos del reconocimiento de palabras
 
-Los modelos del acceso léxico intentan explicar cómo se pasa de la señal a la entrada correcta y por qué aparecen los efectos del apartado anterior. Se diferencian en dos dimensiones: si el acceso es **serial** (se comparan los candidatos uno a uno) o **paralelo** (muchos a la vez), y si es **autónomo** (solo ascendente) o **interactivo** (los niveles superiores influyen en los inferiores).
+Los modelos del acceso léxico se diferencian en dos dimensiones: si el acceso es **serial** (se comparan los candidatos uno a uno) o **paralelo** (muchos a la vez), y si es **autónomo** (solo ascendente) o **interactivo** (los niveles superiores influyen en los inferiores).
 
-**El logogén** (Morton, 1969). Cada palabra tiene un detector, el **logogén**, que acumula evidencia sensorial y contextual. Cuando la evidencia supera su **umbral**, la palabra queda reconocida. Todos los logogenes trabajan en paralelo. La frecuencia se explica porque cada uso de una palabra **baja su umbral**: las palabras frecuentes necesitan menos evidencia. El contexto también aporta activación, lo que explica que una palabra esperada se reconozca antes.
+**El logogén** (Morton, 1969). Cada palabra tiene un detector, el **logogén**, que acumula evidencia sensorial y contextual en paralelo con los demás; cuando supera su **umbral**, la palabra queda reconocida. Cada uso **baja el umbral**, lo que explica el efecto de frecuencia, y el contexto aporta activación.
 
-**La búsqueda serial** (Forster, 1976). El léxico funciona como un diccionario con ficheros de acceso ordenados por frecuencia. La señal sirve para elegir el fichero adecuado, y dentro de él se buscan las entradas una a una, empezando por las más frecuentes. El acceso es **autónomo**: el contexto solo actúa después de encontrar la palabra.
+**La búsqueda serial** (Forster, 1976). El léxico funciona como un diccionario con ficheros ordenados por frecuencia, en los que se buscan las entradas una a una, empezando por las más frecuentes. El acceso es **autónomo**: el contexto actúa después.
 
-**La cohorte** (Marslen-Wilson y Welsh, 1978; Marslen-Wilson, 1987). Diseñado para el habla, que llega en el tiempo. Con los primeros sonidos se activa una **cohorte** de candidatos que empiezan igual, y cada sonido nuevo elimina a los que dejan de encajar. La palabra se reconoce en el **punto de unicidad**, cuando solo queda un candidato, a menudo antes de que termine. En la versión inicial, un desajuste eliminaba al candidato de golpe; en la de 1987, la activación es **gradual**, lo que permite recuperarse de un error en el primer sonido.
+**La cohorte** (Marslen-Wilson y Welsh, 1978; Marslen-Wilson, 1987). Pensado para el habla. Los primeros sonidos activan una **cohorte** de candidatos que empiezan igual, y cada sonido nuevo elimina a los que dejan de encajar hasta el **punto de unicidad**, cuando solo queda uno, a menudo antes de que acabe la palabra. En la versión de 1987 la activación es **gradual**, lo que permite recuperarse de un error en el primer sonido.
 
 **TRACE** (McClelland y Elman, 1986). Modelo conexionista **interactivo** con tres niveles: rasgos acústicos, fonemas y palabras. Las unidades de un mismo nivel compiten entre sí (inhibición lateral) y las palabras devuelven activación a sus fonemas. Esa retroalimentación explica la restauración fonémica y el efecto Ganong (Unidad 9).
 
@@ -227,9 +221,9 @@ Los modelos del acceso léxico intentan explicar cómo se pasa de la señal a la
 
 Figura 10.1. **Tres modelos del acceso léxico.** El logogén muestra detectores que acumulan evidencia hasta superar su umbral; la cohorte, el embudo de candidatos para «cocodrilo» hasta el punto de unicidad; TRACE, los niveles de rasgos, fonemas y palabras con conexiones en ambos sentidos. Esquema ilustrativo. Elaboración propia.
 
-Como muestra la figura 10.1, al oír «cocodrilo» la cohorte inicial de /k/ incluye «casa», «coco», «color» o «cuna»; con /ko/ quedan «coco», «color» o «cofre»; con /koko/, «coco» y «cocodrilo»; y con /kokod/ la palabra ya es única, aunque falte casi la mitad de la palabra.
+Como muestra la figura 10.1, al oír «cocodrilo» la cohorte inicial de /k/ incluye «casa», «coco», «color» o «cuna»; con /ko/ quedan «coco», «color» o «cofre»; con /koko/, «coco» y «cocodrilo»; y con /kokod/ ya es única, aunque falte por oír «-rilo».
 
-**Merge y Shortlist** (Norris, McQueen y Cutler, 2000). Este grupo defiende que la retroalimentación de TRACE **no es necesaria**: los efectos léxicos sobre los fonemas pueden explicarse si la decisión fonémica integra la información de ambos niveles sin que el léxico modifique la percepción. Es la versión moderna del enfoque autónomo.
+**Merge y Shortlist** (Norris, McQueen y Cutler, 2000). La retroalimentación de TRACE **no es necesaria**: los efectos léxicos se explican si la decisión fonémica integra ambos niveles sin que el léxico modifique la percepción. Es la versión moderna del enfoque autónomo.
 
 **Activación interactiva** (McClelland y Rumelhart, 1981). Su equivalente para la palabra escrita, con rasgos, letras y palabras, que explica el efecto de superioridad de la palabra (Unidad 9).
 

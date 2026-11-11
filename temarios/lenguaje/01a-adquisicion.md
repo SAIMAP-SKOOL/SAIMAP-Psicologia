@@ -86,7 +86,7 @@ Algunas ideas para entender la tabla:
 - Los **ERP** tienen una resolución temporal de milisegundos, pero localizan mal; la **neuroimagen funcional** localiza mejor, pero es más lenta. Por eso se combinan.
 - El **estudio de pacientes** (neuropsicología cognitiva) busca **disociaciones**: si una persona lee palabras conocidas pero no pseudopalabras, y otra muestra el patrón contrario, se infiere que hay procesos separables (Unidades 9 y 11).
 
-En la investigación con bebés, que no pueden pulsar botones, se usan medidas de **atención** y **preferencia**: la intensidad de la succión ante un sonido nuevo, el tiempo que miran hacia un altavoz o la recuperación del interés cuando cambia un estímulo al que se habían habituado (Unidad 2). En niños algo mayores se recogen muestras de habla espontánea y **inventarios** que rellenan las familias, como los Inventarios MacArthur-Bates, con adaptación española (López-Ornat et al., 2005). Los tests de lenguaje y sus propiedades psicométricas se estudian en Evaluación Psicológica.
+Con bebés se usan medidas de **atención** y **preferencia**, como la intensidad de la succión o el tiempo de mirada hacia un estímulo (Unidad 2). En niños algo mayores se recogen muestras de habla espontánea y **inventarios** que rellenan las familias, como los Inventarios MacArthur-Bates, con adaptación española (López-Ornat et al., 2005). Los tests de lenguaje y sus propiedades psicométricas se estudian en Evaluación Psicológica.
 
 Ningún método basta por sí solo. Un resultado gana fuerza cuando lo confirman tareas distintas y estudios grandes con varios laboratorios (Unidad 2).
 
@@ -193,7 +193,7 @@ Antes de decir nada, el bebé lleva tiempo escuchando, y el recién nacido no ll
 - **Prefiere la voz de su madre** a la de otras mujeres: succiona de la forma que hace sonar esa voz (DeCasper y Fifer, 1980).
 - **Reconoce la prosodia de su lengua**, es decir, su ritmo y su entonación característicos, y la distingue de lenguas con un ritmo diferente (Mehler et al., 1988).
 
-**Percepción categórica en bebés.** Eimas, Siqueland, Jusczyk y Vigorito (1971) estudiaron a bebés de uno y cuatro meses con la técnica de **succión de alta amplitud**: el bebé succiona con fuerza cuando oye algo nuevo y, a medida que se aburre, la succión disminuye. Si al cambiar el sonido vuelve a succionar con fuerza, es que ha notado la diferencia. Los bebés distinguían /ba/ de /pa/, pero no dos variantes acústicas igual de distintas dentro de la misma categoría. Es decir, percibían el habla de forma **categórica**, como los adultos (Unidad 9).
+**Percepción categórica en bebés.** Eimas, Siqueland, Jusczyk y Vigorito (1971) estudiaron a bebés de uno y cuatro meses con la técnica de **succión de alta amplitud**: la succión, intensa ante un sonido nuevo, decae con la repetición y se recupera si el bebé nota un cambio. Los bebés distinguían /ba/ de /pa/, pero no dos variantes acústicas igual de distintas dentro de la misma categoría. Es decir, percibían el habla de forma **categórica**, como los adultos (Unidad 9).
 
 Al principio se vio aquí un mecanismo innato exclusivo del habla humana, pero la percepción categórica aparece también en chinchillas (Kuhl y Miller, 1975), así que refleja en parte propiedades generales del sistema auditivo. Lo importante es que el bebé empieza con una capacidad muy amplia: distingue contrastes de casi cualquier lengua, incluidos los que no se usan en su entorno.
 
@@ -205,7 +205,7 @@ Figura 2.1. **Estrechamiento perceptivo.** Proporción de bebés que discriminan
 
 Como muestra la figura 2.1, durante el segundo semestre de vida la percepción se **especializa** en los contrastes de la lengua del entorno. No es un deterioro, sino una **reorganización**: el bebé deja de atender a diferencias que su lengua no usa. Un bebé que crece en español aprende que la diferencia entre /r/ y /rr/ («pero» y «perro») cambia el significado; uno que crece en japonés, que no la tiene, deja de prestarle atención.
 
-Las **vocales** se reorganizan antes que las consonantes, hacia los 6 meses (Kuhl et al., 1992). Patricia Kuhl describió este proceso con la metáfora del **imán de la lengua nativa**: las vocales más típicas de la propia lengua funcionan como un imán perceptivo que «atrae» a los sonidos parecidos, de modo que las variantes cercanas a ese prototipo se perciben como más similares entre sí. La experiencia con la lengua del entorno deforma así el espacio perceptivo del bebé.
+Las **vocales** se reorganizan antes que las consonantes, hacia los 6 meses (Kuhl et al., 1992). Patricia Kuhl lo describió con la metáfora del **imán de la lengua nativa**: las vocales típicas de la propia lengua «atraen» a los sonidos parecidos, que se perciben como más similares entre sí.
 
 Las bases generales de la percepción del habla, como la falta de invarianza o el problema de la segmentación, se estudian en la Unidad 9 y en la asignatura de Atención y Percepción.
 
@@ -223,15 +223,15 @@ Tras unos 2 minutos de exposición, los bebés escuchaban durante más tiempo la
 
 El hallazgo **no resuelve** el debate entre innatismo y empirismo (Unidad 4): el aprendizaje estadístico es compatible con sesgos innatos que orienten qué regularidades se calculan. Como mecanismo general se estudia en la asignatura de Aprendizaje.
 
-**La interacción social.** Saber calcular estadísticas no basta. Kuhl, Tsao y Liu (2003) expusieron a bebés estadounidenses de unos 9 meses, que nunca habían oído mandarín, a 12 sesiones de 25 minutos (unas 5 horas en total) con hablantes de mandarín que les leían cuentos y jugaban con ellos. Otros bebés recibieron exactamente el mismo contenido en DVD o solo en audio, y un grupo control tuvo sesiones en inglés.
+**La interacción social.** Saber calcular estadísticas no basta. Kuhl, Tsao y Liu (2003) expusieron a bebés estadounidenses de unos 9 meses, que nunca habían oído mandarín, a 12 sesiones de 25 minutos (unas 5 horas en total) con hablantes de mandarín que les leían cuentos y jugaban con ellos. Otros recibieron el mismo contenido en DVD o en audio, y un grupo control tuvo sesiones en inglés.
 
 ![s](kuhl.png)
 
 Figura 2.3. **Interacción en vivo frente a pantalla (Kuhl et al., 2003).** Porcentaje de aciertos en un contraste del mandarín tras 12 sesiones: 65,7 % con exposición en vivo al mandarín y 56,7 % en el grupo control con sesiones en inglés; con DVD audiovisual o solo audio no hubo aprendizaje (nivel del control). Elaboración propia.
 
-Como muestra la figura 2.3, solo los bebés que interactuaron con una persona en vivo recuperaron la discriminación de un contraste del mandarín. Con la misma exposición por pantalla no hubo aprendizaje. La interacción parece aportar atención, respuestas contingentes a lo que hace el bebé y claves sociales sobre qué merece aprenderse, algo relevante para el debate sobre las pantallas (Unidad 5).
+Como muestra la figura 2.3, solo aprendieron los bebés que interactuaron con personas en vivo. La interacción parece aportar atención, respuestas contingentes a lo que hace el bebé y claves sociales sobre qué merece aprenderse, algo relevante para el debate sobre las pantallas (Unidad 5).
 
-**El habla dirigida al bebé.** Muchos adultos hablan a los bebés con tono agudo, entonación exagerada, frases cortas y repeticiones («¿Dónde está la pelota? ¡Ahí está la pelota!»). Se sabía que los bebés prefieren este estilo, pero con estudios pequeños. El proyecto **ManyBabies 1** (ManyBabies Consortium, 2020) lo comprobó en 67 laboratorios con 2.329 bebés monolingües. La preferencia por el habla dirigida al bebé se confirmó, con un tamaño del efecto d = 0,35 [0,29; 0,42]. Es un efecto real, pero aproximadamente la **mitad** del estimado en los metaanálisis previos (d ≈ 0,67). Además, era mayor en los bebés de más edad y cuando la lengua del estímulo, inglés norteamericano, coincidía con la del bebé.
+**El habla dirigida al bebé.** Muchos adultos hablan a los bebés con tono agudo, entonación exagerada, frases cortas y repeticiones («¿Dónde está la pelota? ¡Ahí está la pelota!»). El proyecto **ManyBabies 1** (ManyBabies Consortium, 2020), con 67 laboratorios y 2.329 bebés monolingües, confirmó que los bebés lo prefieren: d = 0,35 [0,29; 0,42], aproximadamente la **mitad** del efecto estimado antes (d ≈ 0,67). El efecto era mayor con la edad y cuando la lengua del estímulo, inglés norteamericano, coincidía con la del bebé.
 
 La lección de método es clara: los estudios pequeños tienden a sobrestimar los efectos. Además, el habla dirigida al bebé no es universal: en algunas culturas apenas se usa y los niños aprenden igualmente (Unidad 4).
 
@@ -286,15 +286,15 @@ Ambos errores muestran que el niño forma categorías a partir de rasgos (forma,
 **Cómo se aprende el significado.** Si alguien señala un conejo y dice «gazapo», la palabra podría referirse al animal, a sus orejas, a su color o a la acción de saltar. Varios mecanismos reducen las posibilidades:
 
 - **Mapeo rápido** (*fast mapping*): asociar una palabra nueva a un significado tras muy pocas exposiciones. Carey y Bartlett (1978) usaron una palabra nueva para un color («cromo») con niños de 3–4 años, y tras una sola exposición muchos retenían parte de su significado.
-- **Sesgos o restricciones léxicas**, descritos por Ellen Markman: el sesgo de **objeto completo** (una palabra nueva nombra el objeto entero, no una parte); el sesgo **taxonómico** (se extiende a objetos de la misma clase, no a objetos relacionados temáticamente, como el conejo y su zanahoria); y la **exclusividad mutua** (cada objeto tiene un solo nombre). Si un niño que ya conoce «taza» oye «mira, el asa», supondrá que «asa» no se refiere a la taza, sino a otra cosa: probablemente la parte que no tiene nombre.
+- **Sesgos o restricciones léxicas**, descritos por Ellen Markman: el sesgo de **objeto completo** (una palabra nueva nombra el objeto entero, no una parte); el sesgo **taxonómico** (se extiende a objetos de la misma clase, no a los relacionados temáticamente, como el conejo y su zanahoria); y la **exclusividad mutua** (cada objeto tiene un solo nombre: si el niño ya conoce «taza» y oye «mira, el asa», supondrá que «asa» nombra otra cosa).
 - **Bootstrapping sintáctico**: la estructura de la frase ayuda a descubrir el significado de los verbos (Gleitman, 1990). Si un niño oye «la niña está ditando al perro», la estructura sugiere que la niña hace algo al perro; si oye «la niña y el perro están ditando», que hacen algo juntos. Naigles (1990) mostró que los niños pequeños usan este tipo de pistas para interpretar verbos nuevos.
-- **Claves sociales**: los niños tienen en cuenta la intención del hablante. Baldwin (1991) comprobó que, cuando un adulto decía una palabra nueva mirando a un objeto distinto del que estaba mirando el niño, los niños asociaban la palabra al objeto que miraba el adulto, no al suyo.
+- **Claves sociales**: los niños tienen en cuenta la intención del hablante. Baldwin (1991) comprobó que, si el adulto decía una palabra nueva mirando a un objeto distinto del que miraba el niño, este la asociaba al objeto que miraba el adulto.
 
 Estos mecanismos actúan a la vez; si son restricciones innatas o estrategias aprendidas se discute en la Unidad 4.
 
 ### Consenso y debate
 
-**Consenso:** el recién nacido ya prefiere la voz materna y la prosodia de su lengua, y durante el primer año la percepción se especializa en los contrastes de la lengua del entorno (Werker y Tees, 1984). Los bebés detectan regularidades estadísticas del habla (Saffran et al., 1996), pero el aprendizaje fonético temprano necesita interacción social (Kuhl et al., 2003). La preferencia por el habla dirigida al bebé es real, aunque más pequeña de lo que se creía (ManyBabies Consortium, 2020).
+**Consenso:** durante el primer año la percepción se especializa en los contrastes de la lengua del entorno (Werker y Tees, 1984). Los bebés detectan regularidades estadísticas del habla (Saffran et al., 1996), pero el aprendizaje fonético temprano necesita interacción social (Kuhl et al., 2003). La preferencia por el habla dirigida al bebé es real, aunque más pequeña de lo que se creía (ManyBabies Consortium, 2020).
 
 **Debate:** qué implica el aprendizaje estadístico para la discusión entre innatismo y empirismo, qué aporta la interacción en vivo que no aporta una pantalla y si los sesgos léxicos son innatos o emergen del uso.
 
@@ -319,7 +319,7 @@ Estos mecanismos actúan a la vez; si son restricciones innatas o estrategias ap
 
 ### Clave PIR
 
-**Prioridad alta.** Se preguntan los hitos y su orden aproximado, el estudio de Werker y Tees (1984), el de Saffran et al. (1996) y la diferencia entre protoimperativo y protodeclarativo. Trampas típicas: tomar las edades como normas rígidas, invertir protoimperativo (pedir) y protodeclarativo (compartir), y creer que la pérdida de contrastes no nativos ocurre en el segundo año, cuando se produce entre los 6 y los 12 meses.
+**Prioridad alta.** Se preguntan los hitos y su orden aproximado, el estudio de Werker y Tees (1984), el de Saffran et al. (1996) y la diferencia entre protoimperativo y protodeclarativo. Trampas típicas: tomar las edades como normas rígidas, invertir protoimperativo (pedir) y protodeclarativo (compartir) y situar la pérdida de contrastes no nativos en el segundo año (ocurre entre los 6 y los 12 meses).
 
 ### Autoevaluación
 
@@ -389,7 +389,7 @@ A los 5 o 6 años el niño habla con fluidez, pero el desarrollo no se detiene: 
 
 **El lenguaje figurado y el humor.** Durante la etapa escolar, el niño aprende a entender lo que no se dice de forma literal: metáforas («mi hermano es un tornado»), frases hechas («tomar el pelo»), chistes basados en dobles sentidos y la ironía. La comprensión de la ironía se consolida hacia los 6–8 años y se relaciona con la teoría de la mente de segundo orden: entender lo que una persona piensa sobre lo que piensa otra (Unidad 8). Un niño pequeño que oye «¡qué bien, ha empezado a llover!» antes de una excursión puede tomarlo al pie de la letra; uno mayor entiende el fastidio.
 
-**Las narrativas.** Contar una historia exige organizar sucesos en el tiempo, explicar causas y tener en cuenta lo que sabe el oyente. Hacia los 3–4 años las narraciones son secuencias de hechos poco conectados («y luego… y luego…»). En la etapa escolar adquieren una **macroestructura**: presentación, un problema, los intentos de resolverlo y un desenlace, lo que Stein y Glenn (1979) describieron como la **estructura de episodio**. Los niños aprenden también a adaptar su mensaje al oyente: ya a los 4 años hablan de forma más simple a niños más pequeños que a adultos (Shatz y Gelman, 1973), aunque sus descripciones siguen siendo a menudo poco informativas cuando el oyente no ve lo que ellos ven.
+**Las narrativas.** Contar una historia exige organizar sucesos en el tiempo, explicar causas y tener en cuenta lo que sabe el oyente. Hacia los 3–4 años las narraciones son secuencias de hechos poco conectados («y luego… y luego…»). En la etapa escolar adquieren una **macroestructura**: presentación, un problema, los intentos de resolverlo y un desenlace, lo que Stein y Glenn (1979) describieron como la **estructura de episodio**. También adaptan el mensaje al oyente: ya a los 4 años hablan de forma más simple a niños más pequeños que a adultos (Shatz y Gelman, 1973).
 
 **La adolescencia.** En la adolescencia se desarrollan el lenguaje figurado más abstracto, la **argumentación** y la persuasión, el discurso expositivo (explicar un tema, resumir un texto) y la sintaxis compleja propia de la escritura académica. La jerga cumple una función de **identidad** de grupo. El desarrollo pragmático y el de las estructuras sintácticas más complejas continúan hasta el final de la adolescencia.
 
@@ -412,7 +412,7 @@ El lenguaje se apoya en un cerebro que está madurando. Tres procesos son especi
 
 La especialización izquierda, por tanto, está presente muy pronto, aunque se refuerza con el desarrollo.
 
-**Dominancia y lateralidad manual.** Alrededor del 95 % de los diestros tiene el lenguaje lateralizado en el hemisferio izquierdo; en los zurdos, la proporción baja a un 70–75 % aproximadamente. Knecht et al. (2000) midieron la dominancia con ecografía Doppler transcraneal funcional en 326 personas sanas: la dominancia derecha aparecía en el 4 % de los diestros fuertes y en el 27 % de los zurdos fuertes, y su probabilidad aumentaba de forma lineal con el grado de zurdería. La relación entre mano y lenguaje es, por tanto, una cuestión de probabilidad, no una regla.
+**Dominancia y lateralidad manual.** Alrededor del 95 % de los diestros tiene el lenguaje lateralizado en el hemisferio izquierdo; en los zurdos, la proporción baja a un 70–75 % aproximadamente. Knecht et al. (2000) midieron la dominancia con ecografía Doppler transcraneal funcional en 326 personas sanas: la dominancia derecha aparecía en el 4 % de los diestros fuertes y en el 27 % de los zurdos fuertes, y su probabilidad aumentaba de forma lineal con el grado de zurdería: es una cuestión de probabilidad, no una regla.
 
 Antes de algunas cirugías se usa la **prueba de Wada** (1949), que consiste en inyectar amobarbital en una arteria carótida para «dormir» temporalmente un hemisferio y comprobar si el paciente puede seguir hablando. Es invasiva; no debe confundirse con la **escucha dicótica**, que informa sobre la lateralización de forma conductual y no invasiva (véase Atención y Percepción).
 
@@ -428,7 +428,7 @@ Un **periodo crítico** es una ventana de tiempo en la que una capacidad debe re
 
 **La propuesta de Lenneberg.** Lenneberg (1967) planteó un periodo crítico para el lenguaje que termina hacia la **pubertad**, ligado a la lateralización y a la pérdida de plasticidad (Unidad 4).
 
-**Los casos de privación.** La evidencia más llamativa, y la más difícil de interpretar, procede de niños criados casi sin contacto con el lenguaje. **Genie** fue encontrada a los 13 años tras haber pasado la infancia encerrada y aislada (Curtiss, 1977). Con la intervención aprendió bastante vocabulario, pero su gramática quedó muy limitada. El caso parece apoyar el periodo crítico, pero tiene problemas graves: Genie sufrió maltrato, desnutrición y aislamiento emocional, y no se puede descartar que tuviera dificultades previas. Un único caso, con tantos factores mezclados, no permite separar el efecto de la edad del resto.
+**Los casos de privación.** La evidencia más llamativa, y la más difícil de interpretar, procede de niños criados casi sin contacto con el lenguaje. **Genie** fue encontrada a los 13 años tras haber pasado la infancia encerrada y aislada (Curtiss, 1977). Con la intervención aprendió bastante vocabulario, pero su gramática quedó muy limitada. El caso parece apoyar el periodo crítico, pero Genie sufrió además maltrato, desnutrición y aislamiento emocional, y no se pueden descartar dificultades previas: un único caso así no separa el efecto de la edad del resto.
 
 **Las segundas lenguas.** Johnson y Newport (1989) estudiaron a inmigrantes chinos y coreanos en Estados Unidos con una prueba de juicios gramaticales en inglés. El rendimiento disminuía cuanto más tarde habían llegado al país hasta la pubertad; entre quienes llegaron después, el rendimiento era más bajo y variable. Los resultados se interpretaron a favor de un periodo crítico.
 
@@ -443,7 +443,7 @@ Figura 3.1. **¿Ventana que se cierra o declive gradual?** Dos curvas del domini
 
 Como muestra la figura 3.1, la imagen de una ventana que se cierra de golpe en la pubertad no se sostiene. La propuesta más defendible hoy es la de un **periodo sensible** con un declive gradual de la facilidad para aprender la gramática, mientras que el vocabulario puede seguir aprendiéndose toda la vida.
 
-**La lengua de signos nicaragüense.** Un apoyo distinto procede de Nicaragua. Cuando se crearon allí las primeras escuelas para niños sordos, estos niños, que no tenían una lengua común, desarrollaron entre ellos una nueva lengua de signos. La lengua fue ganando estructura gramatical de una cohorte de alumnos a la siguiente, y los niños que se incorporaban más pequeños a la comunidad eran los que dominaban mejor los recursos gramaticales que iban surgiendo (Senghas y Coppola, 2001; Senghas, Kita y Özyürek, 2004). Los niños pequeños no solo aprenden una lengua: pueden darle forma. Este caso se discute en la Unidad 4 como argumento a favor de las bases biológicas del lenguaje.
+**La lengua de signos nicaragüense.** Cuando se crearon en Nicaragua las primeras escuelas para niños sordos, estos niños, sin una lengua común, desarrollaron entre ellos una nueva lengua de signos. Ganó estructura gramatical de una cohorte a la siguiente, y quienes se incorporaban más pequeños dominaban mejor los recursos gramaticales que iban surgiendo (Senghas y Coppola, 2001; Senghas, Kita y Özyürek, 2004). El caso se retoma en la Unidad 4 como apoyo a las bases biológicas del lenguaje.
 
 ### Consenso y debate
 
