@@ -27,7 +27,7 @@ Figura 9.2. **Percepción categórica en un continuo /ba/–/pa/.** La curva de 
 
 La figura 9.2 resume el patrón, que durante años se tomó como prueba de un modo de percepción especial para el habla. Hoy se matiza: la discriminación dentro de una categoría **no es nula**, y la percepción categórica **no es exclusiva del habla ni del ser humano**, porque Kuhl y Miller (1975) la observaron en chinchillas. En la Unidad 2 se vio que los bebés ya discriminan estos contrastes.
 
-**Normalización y adaptación.** El oyente ajusta su análisis a cada hablante. Heald y Nusbaum (2014) defienden un **enfoque activo**: percibir el habla no es comparar la señal con plantillas fijas, sino formular hipótesis guiadas por la atención, el contexto y la experiencia, y corregirlas sobre la marcha. Por eso las categorías siguen siendo plásticas en la edad adulta. Quien se muda de Valladolid a Cádiz nota que la primera semana le cuesta seguir las conversaciones rápidas y que, poco a poco, deja de hacer esfuerzo.
+**Normalización y adaptación.** El oyente ajusta su análisis a cada hablante. Para Heald y Nusbaum (2014), el oyente no se limita a cotejar lo que oye con un repertorio fijo: anticipa qué puede venir, lo contrasta con la señal y rectifica cuando no encaja, apoyándose en lo que ya sabe de ese hablante y de la situación. Esa flexibilidad explica que las categorías sigan ajustándose en la edad adulta. Quien se muda de Valladolid a Cádiz nota que la primera semana le cuesta seguir las conversaciones rápidas y que, poco a poco, deja de hacer esfuerzo.
 
 ### 9.2 Teorías y efectos de arriba-abajo
 
@@ -98,7 +98,7 @@ España destaca en la historia de la educación de las personas sordas: en el si
 
 ![s](wm-bonet-1620.jpg)
 
-Figura 9.5. **La letra A en el «Abecedario demostrativo» de Juan Pablo Bonet (1620).** Uno de los primeros alfabetos manuales impresos para enseñar a personas sordas. Fuente: grabado de Diego de Astor, Wikimedia Commons, dominio público.
+Figura 9.5. **La letra A en el «Abecedario demostrativo» de Juan Pablo Bonet (1620).** Uno de los primeros alfabetos manuales impresos para enseñar a personas sordas. Grabado de Diego de Astor. Fuente: Diego de Astor, Wikimedia Commons, dominio público.
 
 El alfabeto dactilológico de la figura 9.5 representa letras con la mano; no es una lengua de signos, aunque estas lo usan para deletrear nombres. Hoy la Ley 27/2007 reconoce las lenguas de signos españolas. La **lectura labial** ayuda, pero no basta, porque muchos fonemas se ven casi idénticos en los labios. La lengua de signos nicaragüense se trató en la Unidad 3.
 
@@ -200,7 +200,7 @@ La frecuencia y la edad de adquisición están muy relacionadas, y separar sus e
 
 Ninguna tarea es pura: la decisión léxica añade un proceso de decisión, y el nombrado puede resolverse por la ruta subléxica sin acceder al significado, sobre todo en español. Los resultados más sólidos se repiten con varias tareas.
 
-**Una red distribuida.** El acceso léxico implica la corteza temporal superior y media, el giro fusiforme para la forma escrita (Unidad 9) y regiones frontales de control y selección. En las personas bilingües, el léxico de la otra lengua también se activa en parte (Unidad 15). Un ejemplo cotidiano: «farmacia» se lee de reojo sin esfuerzo; «herboristería» cuesta algo más, porque es más larga, menos frecuente y se aprende más tarde.
+**Las bases cerebrales.** Reconocer una palabra no depende de un único punto del cerebro: intervienen sobre todo zonas del lóbulo temporal, una región del giro fusiforme especializada en la forma escrita (Unidad 9) y áreas frontales que ayudan a elegir entre candidatos. En las personas bilingües, el léxico de la otra lengua también se activa en parte (Unidad 15). Un ejemplo cotidiano: «farmacia» se lee de reojo sin esfuerzo; «herboristería» cuesta algo más, porque es más larga, menos frecuente y se aprende más tarde.
 
 ### 10.2 Modelos del reconocimiento de palabras
 

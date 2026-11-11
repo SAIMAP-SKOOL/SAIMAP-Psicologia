@@ -90,7 +90,7 @@ Suler (2004) describió el **efecto de desinhibición online**. Escribir tambié
 
 ### 16.4 Evaluación, trastornos e intervención
 
-**Principios de evaluación.** La evaluación debe ser **multimétodo** y **ecológica**, atenta a la comunicación en situaciones reales. Debe partir de una buena historia clínica, analizar los errores y no solo los aciertos, explorar **todas las lenguas** de un niño bilingüe, ser sensible a la cultura y **descartar primero una pérdida auditiva**. Su fiabilidad y validez se estudian en Evaluación Psicológica.
+**Principios de evaluación.** La evaluación debe ser **multimétodo** y **ecológica**, atenta a la comunicación en situaciones reales. Conviene empezar por la historia del caso, fijarse en qué tipo de errores comete la persona (no solo en cuántos), explorar **todas las lenguas** de un niño bilingüe, ser sensible a la cultura y **descartar primero una pérdida auditiva**. Su fiabilidad y validez se estudian en Evaluación Psicológica.
 
 | Población | Instrumento (adaptación española) | Qué evalúa |
 | --- | --- | --- |
@@ -144,7 +144,7 @@ Se completan con muestras de habla espontánea (LME, diversidad léxica), repeti
 
 ### Clave PIR
 
-**Prioridad media.** Se pregunta por los componentes de la competencia comunicativa, las categorías de Ekman y Friesen (1969), las distancias de Hall y los instrumentos y terapias de la afasia. Trampas típicas: atribuir la competencia discursiva a Canale y Swain (1980) en lugar de a Canale (1983), confundir emblemas con ilustradores, tomar la regla 7-38-55 como ley general y asignar la terapia de entonación melódica a las afasias fluentes.
+**Prioridad alta.** Se pregunta por los componentes de la competencia comunicativa, las categorías de Ekman y Friesen (1969), las distancias de Hall y los instrumentos y terapias de la afasia. Trampas típicas: atribuir la competencia discursiva a Canale y Swain (1980) en lugar de a Canale (1983), confundir emblemas con ilustradores, tomar la regla 7-38-55 como ley general y asignar la terapia de entonación melódica a las afasias fluentes.
 
 ### Autoevaluación
 

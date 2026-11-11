@@ -267,7 +267,7 @@ Figura 7.4. **Rasgos de diseño en cinco sistemas de comunicación.** Valoració
 
 La figura permite leer tres ideas:
 
-1. **Ningún rasgo aislado es exclusivo, salvo quizá la recursividad.** Las abejas tienen desplazamiento; los vervet, llamadas con referencia; los carboneros, combinación ordenada; los chimpancés entrenados aprenden símbolos arbitrarios.
+1. **Casi ningún rasgo aislado es exclusivo.** En la figura solo la dualidad de patrón y la recursividad aparecen únicamente en el ser humano. Las abejas tienen desplazamiento; los vervet, llamadas con referencia; los carboneros, combinación ordenada; los chimpancés entrenados aprenden símbolos arbitrarios.
 2. **Los rasgos aparecen en grado parcial.** La productividad de la danza de las abejas o de las combinaciones de los carboneros es mínima comparada con la humana. La transmisión cultural de las aves canoras se limita al canto.
 3. **Lo único es la combinación.** Solo el lenguaje humano reúne a la vez productividad ilimitada, recursividad jerárquica, desplazamiento flexible y dualidad de patrón.
 
@@ -474,7 +474,7 @@ Interpretar un acto indirecto, una ironía o una implicatura exige atribuir inte
 
 ![m](sally-ana.png)
 
-Figura 8.3. **La tarea de Sally y Ana.** Arriba, el diseño de la tarea; abajo, porcentaje de niños que aciertan la pregunta de creencia: 85 % con desarrollo típico, 86 % con síndrome de Down y 20 % autistas (Baron-Cohen et al., 1985). Elaboración propia.
+Figura 8.3. **La tarea de Sally y Ana.** A la izquierda, las cuatro fases de la tarea; a la derecha, porcentaje de niños que aciertan la pregunta de creencia: 85 % con desarrollo típico, 86 % con síndrome de Down y 20 % autistas (Baron-Cohen et al., 1985). Elaboración propia.
 
 Como muestra la figura 8.3, en ese estudio aprobaron la pregunta de creencia 23 de 27 niños con desarrollo típico, 12 de 14 con síndrome de Down y solo 4 de 20 niños autistas, a pesar de que estos tenían una edad mental verbal mayor. Hoy el resultado se matiza: muchas personas autistas aprueban las tareas explícitas, y un déficit de ToM no explica por sí solo el autismo.
 

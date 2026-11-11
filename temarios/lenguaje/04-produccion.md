@@ -80,7 +80,7 @@ El habla espontánea nunca es del todo fluida. Las **disfluencias normales** inc
 
 Los hablantes se detienen muy poco después de detectar el error, a veces antes de terminar la palabra equivocada: el bucle interno revisa el plan antes de pronunciarlo.
 
-**Retroalimentación auditiva y control predictivo.** Oírse a uno mismo también sirve para controlar la articulación. Con la **retroalimentación auditiva demorada**, que devuelve la propia voz con un retraso de unos 200 ms, los hablantes típicos se vuelven disfluentes (Lee, 1950). Los modelos actuales, como DIVA o el modelo de control por retroalimentación de estado (Houde y Nagarajan, 2011), proponen que el sistema nervioso genera una **predicción** de las consecuencias sensoriales de cada orden motora (copia eferente) y la compara con lo que oye y siente. Si hay discrepancia, ajusta la articulación.
+**Retroalimentación auditiva y control predictivo.** Oírse a uno mismo también sirve para controlar la articulación. Con la **retroalimentación auditiva demorada**, que devuelve la propia voz con un retraso de unos 200 ms, los hablantes típicos se vuelven disfluentes (Lee, 1950). Los modelos actuales, como DIVA o el modelo de control por retroalimentación de estado (Houde y Nagarajan, 2011), tratan el habla como un movimiento guiado por expectativas: junto con cada orden a los músculos se envía una copia (**copia eferente**) que anticipa cómo debería sonar y sentirse el resultado. Cuando lo que llega por el oído y por el tacto de la boca no encaja con esa **predicción**, el sistema corrige la articulación sobre la marcha.
 
 **La tartamudez.** La **tartamudez** o **disfemia**, llamada en el DSM-5-TR trastorno de la fluidez de inicio en la infancia, se caracteriza por **repeticiones** de sonidos y sílabas («ca-ca-casa»), **prolongaciones** («sssopa») y **bloqueos**, a menudo acompañados de conductas secundarias como parpadeos o evitación de palabras. Algunos rasgos son útiles para entenderla:
 
@@ -113,7 +113,7 @@ El último eslabón es el **tracto vocal** (figura 12.3), cuyos órganos dan for
 
 ![s](wm-tracto-vocal.jpg)
 
-Figura 12.3. **Corte sagital del tracto vocal.** Cavidades nasal y oral, lengua, paladar, faringe y laringe en posición neutra. Fuente: Richard Wright y Dan McCloy, Wikimedia Commons, CC0.
+Figura 12.3. **Corte sagital del tracto vocal.** Silueta sin rótulos en posición neutra: arriba, la cavidad nasal; en el centro, la cavidad oral con la lengua bajo el paladar; detrás y hacia abajo, la faringe y la laringe. Fuente: Richard Wright y Dan McCloy, Wikimedia Commons, CC0.
 
 **Tres niveles de alteración.** Las lesiones de esta red producen trastornos que conviene no confundir:
 
@@ -193,7 +193,7 @@ c) una apraxia del habla
 
 ### 13.1 Turnos y estructura de la conversación
 
-La conversación es la forma más básica de uso del lenguaje: la primera que aprendemos y la que más practicamos. A diferencia de una conferencia, que es monológica, o de una entrevista de trabajo o un juicio, donde los turnos están asignados de antemano, en la conversación cotidiana nadie decide por adelantado quién habla ni cuánto. Aun así, rara vez es caótica. El **análisis de la conversación**, que estudia grabaciones de conversaciones reales transcritas con detalle, ha descrito cómo se consigue ese orden.
+La conversación es la forma más básica de uso del lenguaje: la primera que aprendemos y la que más practicamos. En una charla entre amigos no hay moderador, orden del día ni guion: nadie decide por adelantado quién habla ni cuánto. Aun así, rara vez es caótica. El **análisis de la conversación**, que estudia grabaciones de conversaciones reales transcritas con detalle, ha descrito cómo se consigue ese orden.
 
 **El sistema de turnos.** Sacks, Schegloff y Jefferson (1974) propusieron que los turnos se gestionan **localmente**, turno a turno. Cada turno se construye con unidades (una oración, un sintagma, incluso una palabra como «¿cuándo?») cuyo final es predecible. Al acabar cada unidad aparece un **lugar pertinente para la transición** (LPT), donde se aplican unas reglas ordenadas:
 
@@ -223,7 +223,7 @@ Los **marcadores del discurso**, como «bueno», «pues» u «o sea», organizan
 
 ### 13.2 Cortesía e imagen
 
-Si solo importara transmitir información, diríamos «dame un bolígrafo». Casi nadie lo dice así a un desconocido. La **cortesía** explica por qué a menudo sacrificamos la brevedad y la claridad para cuidar la relación.
+Si solo importara transmitir información, diríamos «dame un bolígrafo». Casi nadie lo dice así a un desconocido. La **cortesía** explica por qué tantas veces preferimos el rodeo a la vía más corta: el rodeo protege la relación.
 
 **La imagen.** Goffman (1967) llamó **imagen** (*face*) al valor social que cada persona reclama para sí en una interacción y que los demás pueden reforzar o dañar. Brown y Levinson (1987; primera versión en 1978) distinguieron dos vertientes:
 
@@ -272,7 +272,7 @@ Los tipos no son igual de frecuentes. Hay una clara **preferencia por la autorre
 
 Dingemanse, Torreira y Enfield (2013) analizaron «¿eh?» en 10 lenguas, entre ellas el español, y encontraron una forma y una función muy similares en todas: es una palabra casi universal. Dingemanse et al. (2015) estudiaron conversaciones informales en 12 lenguas de 8 familias distintas y hallaron una reparación iniciada por el otro aproximadamente cada 1,4 minutos (2.053 casos en 48,5 horas). En todas se cumplía un mismo principio: se prefiere el **iniciador más específico posible**. Preguntar «¿quién?» es más eficaz que «¿eh?», porque el hablante solo tiene que repetir el dato que faltaba.
 
-**La reparación en el desarrollo y en la clínica.** Los niños piden aclaraciones desde los dos años, aproximadamente. En el **TEA** y en el **TDL** (Unidad 5) son frecuentes las dificultades para detectar que el otro no ha entendido y para reformular. En la afasia y en las demencias, la reparación se vuelve más larga y costosa, y el interlocutor asume más peso: parafrasea lo que cree haber entendido y pide confirmación. Ante una persona con afasia que dice «el… lo de… para el pelo», es más útil preguntar «¿el peine?» que un «¿eh?» abierto, que la obliga a repetir lo que ya no consigue decir. El principio de especificidad tiene aquí una aplicación directa. Por eso formar a familiares y profesionales en estas estrategias es parte de la intervención (Unidad 16).
+**La reparación en el desarrollo y en la clínica.** Los niños piden aclaraciones desde los dos años, aproximadamente. En el **TEA** y en el **TDL** (Unidad 5) son frecuentes las dificultades para detectar que el otro no ha entendido y para reformular. En la afasia y en las demencias, la reparación se vuelve más larga y costosa, y el interlocutor tiene que hacer más parte del trabajo: ofrece su propia interpretación («¿quieres decir que…?») para que la persona la acepte o la corrija. Ante una persona con afasia que dice «el… lo de… para el pelo», es más útil preguntar «¿el peine?» que un «¿eh?» abierto, que la obliga a repetir lo que ya no consigue decir. El principio de especificidad tiene aquí una aplicación directa. Por eso formar a familiares y profesionales en estas estrategias es parte de la intervención (Unidad 16).
 
 ### 13.4 El lenguaje en la interacción social
 
@@ -317,7 +317,7 @@ El lenguaje no solo transmite contenidos: también indica quiénes somos, de dó
 
 ### Clave PIR
 
-**Prioridad media.** Se pregunta por los tipos de reparación de Schegloff, Jefferson y Sacks (1977), las estrategias de cortesía de Brown y Levinson y la diferencia entre imagen positiva y negativa. Trampas típicas: confundir imagen positiva (aprobación) con negativa (autonomía), creer que la heterorreparación es la forma preferida y pensar que el oyente espera al final del turno para empezar a planificar su respuesta.
+**Prioridad alta.** Se pregunta por los tipos de reparación de Schegloff, Jefferson y Sacks (1977), las estrategias de cortesía de Brown y Levinson y la diferencia entre imagen positiva y negativa. Trampas típicas: confundir imagen positiva (aprobación) con negativa (autonomía), creer que la heterorreparación es la forma preferida y pensar que el oyente espera al final del turno para empezar a planificar su respuesta.
 
 ### Autoevaluación
 

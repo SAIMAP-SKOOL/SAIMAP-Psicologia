@@ -48,7 +48,7 @@
 | Winawer et al. (2007); Martinovic et al. (2020) | Azules rusos y réplica fallida | 14 |
 | Miyake et al. (2000) | Funciones ejecutivas: inhibición, alternancia y actualización | 14 |
 | Lehtonen et al. (2018) | 152 estudios: ventaja bilingüe nula tras corregir el sesgo de publicación | 15 |
-| Bialystok, Craik y Freedman (2007); Alladi et al. (2013) | Inicio de la demencia ≈4,1 y 4,5 años más tarde en bilingües | 15 |
+| Bialystok, Craik y Freedman (2007); Alladi et al. (2013) | Inicio de los síntomas de demencia ≈4,1 y 4,5 años más tarde en bilingües | 15 |
 | Mukadam et al. (2017); Brini et al. (2020) | Sin reducción del riesgo de demencia (OR = 0,96 y 0,89, no significativas) | 15 |
 | Bond y DePaulo (2006) | Detección de mentiras ≈54 % (azar = 50 %) | 16 |
 | Kruger et al. (2005) | Se espera que el tono de un correo se entienda ≈78 % de las veces; se entiende ≈56 % | 16 |
@@ -71,7 +71,7 @@
 | Todo el mundo percibe el efecto McGurk | La susceptibilidad varía del 0 % al 100 % entre personas | 9 |
 | La lectura rápida no pierde comprensión | Leer más rápido es saltarse texto: baja la comprensión | 9 |
 | El cerebro predice la forma exacta de la palabra siguiente | La réplica de 2018 no lo confirma para la forma; sí se anticipa el significado | 11 |
-| La tartamudez la causan los nervios o los padres | Es un trastorno del neurodesarrollo con base genética; la mayoría de niños se recupera | 12 |
+| La tartamudez la causan los nervios o los padres | Es un trastorno del neurodesarrollo con base genética; la mayoría de niños se recupera | 5, 12 |
 | Las mujeres hablan mucho más que los hombres | Hablan una cantidad similar de palabras al día | 13 |
 | Los esquimales tienen cien palabras para la nieve | Son lenguas polisintéticas; el recuento de «palabras» no tiene sentido | 14 |
 | El bilingüismo mejora las funciones ejecutivas | Tras corregir el sesgo de publicación, el efecto en adultos es nulo | 15 |
