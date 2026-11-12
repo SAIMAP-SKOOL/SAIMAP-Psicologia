@@ -33,7 +33,7 @@ window.SP_CATALOG = {
     { id: 'personalidad-2', t: 'Personalidad y Diferencias Individuales II', area: 'pers', estado: 'soon' },
     { id: 'estadistica-2', t: 'Estadística Aplicada a las Ciencias de la Conducta', area: 'met', estado: 'soon' },
     { id: 'desarrollo-adulto', t: 'Desarrollo: Edad Adulta y Vejez', area: 'des', estado: 'soon' },
-    { id: 'lenguaje', t: 'Psicología del Lenguaje', area: 'basicos', estado: 'soon' },
+    { id: 'lenguaje', t: 'Psicología del Lenguaje', area: 'basicos', estado: 'ok', color: 4, hue: 128 },
     { id: 'educativa', t: 'Psicología Educativa', area: 'apl', estado: 'soon' },
     { id: 'fisiologica', t: 'Psicología Fisiológica', area: 'bio', estado: 'soon' },
     { id: 'psicopatologia', t: 'Psicopatología', area: 'clin', estado: 'soon' },
