@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Psicología del Pensamiento · SAIMAP Psicología",
+  "cover_title": "Psicología<br>del Pensamiento",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo pensamos, razonamos, resolvemos problemas y decidimos: historia y métodos, lenguaje y pensamiento, procesamiento dual, pensamiento crítico y creatividad, razonamiento deductivo e inductivo, insight y búsqueda, teoría de la perspectiva y decisiones reales. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 3.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología del Pensamiento · SAIMAP Psicología",
+  "pdf": "Psicologia-del-Pensamiento_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02-procesos.md",
+    "03-tipologias.md",
+    "04a-razonamiento.md",
+    "04b-razonamiento.md",
+    "05a-problemas.md",
+    "05b-problemas.md",
+    "06-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02-procesos.md",
+    "03-tipologias.md",
+    "04a-razonamiento.md",
+    "04b-razonamiento.md",
+    "05a-problemas.md",
+    "05b-problemas.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}

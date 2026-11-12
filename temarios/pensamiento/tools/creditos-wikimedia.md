@@ -1,0 +1,14 @@
+# Créditos de las imágenes de Wikimedia Commons · Psicología del Pensamiento
+
+| Archivo | Muestra | Autor | Título en Commons | Licencia | URL | Modificaciones |
+| --- | --- | --- | --- | --- | --- | --- |
+| wm-wundt.jpg | Retrato de Wilhelm Wundt | Autor desconocido | Wilhelm Wundt.jpg | Dominio público | https://commons.wikimedia.org/wiki/File:Wilhelm_Wundt.jpg | Ninguna |
+| wm-james.jpg | William James en la década de 1890 | Sarah Choate Sears | William James in 1890s.jpg | Dominio público | https://commons.wikimedia.org/wiki/File:William_James_in_1890s.jpg | Ninguna |
+| wm-simon.jpg | Retrato al óleo de Herbert A. Simon | Richard Rappaport | Herbert simon red complete.jpg | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | https://commons.wikimedia.org/wiki/File:Herbert_simon_red_complete.jpg | Ninguna |
+| wm-dewey.jpg | Retrato de John Dewey | Underwood & Underwood | John Dewey cph.3a51565.jpg | Dominio público | https://commons.wikimedia.org/wiki/File:John_Dewey_cph.3a51565.jpg | Reducida a 1200 px de alto aprox. |
+| wm-red-defecto.jpg | Tractografía de la red neuronal por defecto | Andreashorn | Default Mode Network Connectivity.png | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | https://commons.wikimedia.org/wiki/File:Default_Mode_Network_Connectivity.png | Las tres vistas, recolocadas en horizontal; reducida y convertida a JPEG |
+| wm-kohler-chimpance.jpg | Chimpancé apilando cajas para alcanzar un plátano | Samuel Jackson Holmes, en «Creation by Evolution» (1928) | Creation by Evolution (1928) p300 face chimpanzee piling boxes.jpg | Dominio público | https://commons.wikimedia.org/wiki/File:Creation_by_Evolution_(1928)_p300_face_chimpanzee_piling_boxes.jpg | Reducida a 1280 px de ancho |
+| wm-lobulos.png | Cara lateral del hemisferio cerebral izquierdo (Anatomía de Gray, fig. 726) | Henry Vandyke Carter | Gray726.png | Dominio público | https://commons.wikimedia.org/wiki/File:Gray726.png | Ninguna |
+| wm-hanoi.jpg | Torre de Hanói de madera | Evanherk | Tower of Hanoi.jpeg | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | https://commons.wikimedia.org/wiki/File:Tower_of_Hanoi.jpeg | Ninguna |
+| wm-kahneman.jpg | Daniel Kahneman | nrkbeta | Daniel Kahneman (3283955327) (cropped).jpg | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | https://commons.wikimedia.org/wiki/File:Daniel_Kahneman_(3283955327)_(cropped).jpg | Ninguna |
+| wm-gage.jpg | Cráneo de Phineas Gage y reconstrucción de la trayectoria de la barra y de las vías dañadas | Van Horn JD, Irimia A, Torgerson CM, Chambers MC, Kikinis R, et al. | Simulated Connectivity Damage of Phineas Gage.png | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5) | https://commons.wikimedia.org/wiki/File:Simulated_Connectivity_Damage_of_Phineas_Gage.png | Reducida a 1280 px de ancho y convertida a JPEG |
