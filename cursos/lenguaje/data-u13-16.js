@@ -425,9 +425,7 @@ window.COURSE.units.push(
     inc: [
       "Sobre la ventaja bilingüe|El bilingüismo carece de valor sin ventaja ejecutiva|Sus primeros estudios hallaron ventajas en tareas de conflicto|El sesgo de publicación sobreestima el efecto|Sus beneficios comunicativos, culturales, académicos y laborales son claros y no necesitan un efecto ejecutivo."
     ],
-    seq: [
-      "Evolución de la evidencia sobre la ventaja bilingüe|Primeros estudios de Bialystok con ventaja>Paap y Greenberg (2013) sin ventaja>De Bruin et al. (2015) con sesgo de publicación>Lehtonen et al. (2018) sin ventaja tras corregir"
-    ],
+    seq: [],
     cls: [
       "Contexto de uso (Green y Abutalebi)|Una sola lengua: español en casa e inglés en el trabajo; poco cambio|Dual: ambas lenguas en el mismo entorno; mucha supervisión e inhibición|Cambio de código denso: mezclar en la misma frase; poca inhibición"
     ] },
@@ -607,7 +605,7 @@ window.COURSE.units.push(
       "La afasia aparece en ≈___ de los ictus en fase aguda (Flowers et al., 2016).|30 %|15 %|43 %",
       "La revisión Cochrane de Brady et al. (2016) incluyó ___ ensayos.|57|18|960",
       "La colaboración RELEASE observó las mayores ganancias con ___ horas totales de terapia.|20–50|5–10|100–200",
-      "El programa ___ se usa para la tartamudez.|Lidcombe|Hanen|SPIKES",
+      "El entrenamiento en habilidades sociales combina instrucción, modelado, ensayo ___, retroalimentación y tareas para casa.|conductual|cognitivo|imaginado",
       "En el Alzheimer son típicos la anomia y el discurso ___.|vacío|tangencial|telegráfico"
     ],
     tf: [
