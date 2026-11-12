@@ -41,7 +41,7 @@ window.SP_CATALOG = {
     { id: 'metodos', t: 'Métodos y Diseños de Investigación', area: 'met', estado: 'soon' },
     { id: 'clinica', t: 'Psicología Clínica', area: 'clin', estado: 'soon' },
     { id: 'salud', t: 'Psicología de la Salud', area: 'clin', estado: 'soon' },
-    { id: 'pensamiento', t: 'Psicología del Pensamiento', area: 'basicos', estado: 'soon' },
+    { id: 'pensamiento', t: 'Psicología del Pensamiento', area: 'basicos', estado: 'ok', color: 5, hue: 52 },
     { id: 'trabajo', t: 'Psicología del Trabajo y las Organizaciones', area: 'apl', estado: 'soon' },
     { id: 'psicofarmacologia', t: 'Psicofarmacología', area: 'bio', estado: 'soon' },
     { id: 'psicometria', t: 'Psicometría', area: 'met', estado: 'soon' },
