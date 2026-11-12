@@ -55,13 +55,16 @@ if want('hitos'):
     x0, x1 = 1870, 2025
     X = lambda yr: 1 + (yr - x0) / (x1 - x0) * 20
     ax.plot([1, 21], [3.5, 3.5], color=INK, lw=2)
+    LV = {1879: 5.6, 1904: 1.5, 1913: 5.6, 1934: 1.5, 1945: 5.6, 1956: 0.3, 1972: 6.8, 1977: 1.5, 1983: 5.4, 2015: 5.6}
+    DX = {1983: .7, 1956: -.2}
     for i, (yr, t, c) in enumerate(H):
-        x = X(yr); up = i % 2 == 0; y = 5.4 if up else 1.6
+        x = X(yr); y = LV[yr]; up = y > 3.5
         ax.plot([x, x], [3.5, y + (-.6 if up else .6)], color=c, lw=1.2)
         ax.add_patch(Circle((x, 3.5), .16, color=c, zorder=3))
         lab = {1904: '1901–07', 1977: '1974–79', 2015: '2014–16'}.get(yr, str(yr))
         ax.text(x, 3.5 + (.45 if not up else -.45), lab, ha='center', va='center', fontsize=7.4, color=MUTE)
-        ax.text(x, y, t, ha='center', va='center', fontsize=7.6, color=c if c != MUTE else INK, weight='bold', linespacing=1.2)
+        ax.text(x + DX.get(yr, 0), y, t, ha='center', va='center', fontsize=7.6, color=c if c != MUTE else INK, weight='bold', linespacing=1.2)
+    ax.set_ylim(-.5, 7.5)
     save(fig, 'hitos.png')
 
 # U3 · protocolos verbales
@@ -81,7 +84,7 @@ if want('protocolos'):
 
 # U4 · conceptos
 if want('conceptos'):
-    fig, axs = plt.subplots(1, 3, figsize=(8.4, 3.2))
+    fig, axs = plt.subplots(1, 3, figsize=(8.4, 3.7))
     for ax in axs: ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis('off'); ax.set_aspect('equal')
     a = axs[0]; a.add_patch(Rectangle((1.5, 2), 7, 6, fc='#E6EEF4', ec=P, lw=2))
     for (x, y) in [(3, 6), (5, 4.5), (7, 6.5), (4, 3.2), (6.5, 3.5)]: a.add_patch(Circle((x, y), .45, color=P))
@@ -98,6 +101,7 @@ if want('conceptos'):
     a.add_patch(Circle((5, 5.6), .5, fc='white', ec=A, lw=2)); a.text(5, 5.6, '?', ha='center', va='center', color=A, weight='bold')
     for (x, y) in pts: a.plot([5, x], [5.6, y], color=A, lw=.8, ls=':')
     a.set_title('Ejemplares\nse compara el caso nuevo\ncon casos almacenados', fontsize=8.6)
+    fig.subplots_adjust(top=.76, bottom=.06)
     fig.text(.01, .02, 'Esquema ilustrativo, no datos', fontsize=7.4, color=MUTE)
     save(fig, 'conceptos.png')
 
@@ -108,7 +112,7 @@ if want('relatividad'):
     ax.add_patch(FancyArrowPatch((.5, 4.2), (11.5, 4.2), arrowstyle='<|-|>', mutation_scale=14, color=INK, lw=1.6))
     ax.text(.5, 5.0, 'Determinismo\n(versión fuerte, abandonada)', fontsize=8.2, color=A, weight='bold', va='center')
     ax.text(11.5, 5.0, 'Influencia\n(versión débil, evidencia mixta)', fontsize=8.2, color=G, weight='bold', va='center', ha='right')
-    for x, t, c in [(8.2, 'Número:\nlos numerales\ncomo herramienta', G), (9.9, 'Color:\nefectos\ncategoriales\nmodulados', P), (6.2, 'Tiempo vertical\nen mandarín:\nno replicado', A)]:
+    for x, t, c in [(7.0, 'Número:\nlos numerales\ncomo herramienta', G), (10.3, 'Color:\nefectos\ncategoriales\nmodulados', P), (3.7, 'Tiempo vertical\nen mandarín:\nno replicado', A)]:
         ax.add_patch(Circle((x, 4.2), .17, color=c, zorder=3)); ax.text(x, 2.6, t, ha='center', va='center', fontsize=7.6, color=c, weight='bold')
     ax.text(0.5, .5, 'Esquema ilustrativo', fontsize=7.4, color=MUTE)
     b = fig.add_axes([.66, .2, .32, .65])
@@ -380,12 +384,14 @@ if want('calor'):
 # U14 · Torre de Hanói (grafo de estados)
 if want('hanoi'):
     import itertools
-    def pos(s, d, size):
+    C = {0: (0, 0), 1: (-1, -1.7320508), 2: (1, -1.7320508)}
+    def pos(s, d, size, perm=(0, 1, 2)):
+        # triángulo de Sierpinski: el disco mayor elige el subtriángulo; dentro, se intercambian las otras dos esquinas
         if d == 0: return (0, 0)
-        # triángulo recursivo de Sierpinski: el disco mayor (último) decide el subtriángulo
-        peg = s[d - 1]; off = {0: (0, 0), 1: (-1, -1.7320508), 2: (1, -1.7320508)}[peg]
-        sub = pos(s, d - 1, size / 2); k = size / 2
-        return (off[0] * k + sub[0], off[1] * k + sub[1])
+        c = perm[s[d - 1]]; o = [k for k in (0, 1, 2) if k != c]
+        sw = {c: c, o[0]: o[1], o[1]: o[0]}
+        sub = pos(s, d - 1, size / 2, tuple(sw[perm[k]] for k in range(3))); k = size / 2
+        return (C[c][0] * k + sub[0], C[c][1] * k + sub[1])
     states = list(itertools.product(range(3), repeat=3))
     P2 = {s: pos(s, 3, 4) for s in states}
     def legal(a, b):
@@ -401,8 +407,8 @@ if want('hanoi'):
     for s in states: ax.add_patch(Circle(P2[s], .16, color=P if s not in opt else A, zorder=3))
     ax.text(P2[(0, 0, 0)][0], P2[(0, 0, 0)][1] + .45, 'Inicio: los 3 discos en la varilla 1', ha='center', fontsize=8.4, color=INK, weight='bold')
     ax.text(P2[(2, 2, 2)][0] + .3, P2[(2, 2, 2)][1] - .45, 'Meta: los 3 en la varilla 3', ha='center', fontsize=8.4, color=INK, weight='bold')
-    ax.text(-4.4, -6.6, '27 estados (nodos) · cada línea = un movimiento legal\nEn rojo, el camino mínimo: 7 movimientos (2³ − 1)', fontsize=8.2, color=INK)
-    ax.set_xlim(-4.6, 4.6); ax.set_ylim(-7.2, .9)
+    ax.text(-4.4, -7.0, '27 estados (nodos) · cada línea = un movimiento legal\nEn rojo, el camino mínimo: 7 movimientos (2³ − 1)', fontsize=8.2, color=INK)
+    ax.set_xlim(-4.6, 4.6); ax.set_ylim(-7.6, .9)
     save(fig, 'hanoi.png')
 
 # U15 · función de valor

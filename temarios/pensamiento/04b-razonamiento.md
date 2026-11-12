@@ -92,7 +92,7 @@ Como muestra la figura 11.3, el problema resulta mucho más claro en **frecuenci
 
 Figura 11.4. **Formato de la información y respuestas bayesianas.** Porcentaje de respuestas correctas con probabilidades frente a frecuencias naturales: del 16 % al 46 % con el menú estándar de datos y del 28 % al 50 % con el menú corto. Datos de Gigerenzer y Hoffrage (1995). Elaboración propia.
 
-Como muestra la figura 11.4, las frecuencias naturales casi triplican los aciertos con el menú estándar (tasa base, tasa de aciertos y falsos positivos) y también los mejoran con el menú corto, que da solo los dos datos imprescindibles. Aun así, la mitad de las respuestas siguen sin ser bayesianas. Hay dos explicaciones en **debate**. Para Gigerenzer, la mente está adaptada a la información tal como aparece en el entorno, en forma de recuentos (visión **ecológico-evolutiva**). Para Barbey y Sloman (2007), las frecuencias ayudan porque hacen visibles los **conjuntos anidados**: los positivos con cáncer son un subconjunto de todos los positivos.
+Como muestra la figura 11.4, las frecuencias naturales casi triplican los aciertos con el menú estándar (tasa base, tasa de aciertos y falsos positivos) y también los mejoran con el menú corto, que da solo los dos datos imprescindibles. Aun así, alrededor de la mitad de las respuestas siguen sin ser bayesianas. Hay dos explicaciones en **debate**. Para Gigerenzer, la mente está adaptada a la información tal como aparece en el entorno, en forma de recuentos (visión **ecológico-evolutiva**). Para Barbey y Sloman (2007), las frecuencias ayudan porque hacen visibles los **conjuntos anidados**: los positivos con cáncer son un subconjunto de todos los positivos.
 
 El enfoque bayesiano se usa también como **teoría de la cognición**: Tenenbaum, Kemp, Griffiths y Goodman (2011) describen muchos aprendizajes inductivos como inferencia bayesiana. Se discute si estos modelos describen **qué problema** resuelve la mente (nivel computacional) o **cómo** lo resuelve (nivel de proceso).
 
@@ -106,7 +106,7 @@ El enfoque bayesiano se usa también como **teoría de la cognición**: Tenenbau
 
 **Mito:** «Las personas somos incapaces de razonar de forma bayesiana: ignorar la tasa base es inevitable».
 
-**Realidad:** el rendimiento depende mucho del formato. Con frecuencias naturales, las respuestas bayesianas pasan del 16 % al 46 % y del 28 % al 50 % (Gigerenzer y Hoffrage, 1995). La mejora es grande, aunque no completa: la mitad de las respuestas siguen siendo incorrectas.
+**Realidad:** el rendimiento depende mucho del formato. Con frecuencias naturales, las respuestas bayesianas pasan del 16 % al 46 % y del 28 % al 50 % (Gigerenzer y Hoffrage, 1995). La mejora es grande, aunque no completa: alrededor de la mitad de las respuestas siguen sin ser bayesianas.
 
 ### Conceptos clave
 
@@ -256,9 +256,9 @@ La teoría es sugerente y está en **debate**: explica bien muchos datos ya cono
 
 ### Mito frecuente
 
-**Mito:** «Cuanto más inteligente es una persona, menos sesgos comete: una inteligencia alta elimina los errores de razonamiento».
+**Mito:** «El sesgo de confirmación demuestra que el razonamiento humano está mal diseñado».
 
-**Realidad:** muchos sesgos son relativamente independientes de la capacidad cognitiva. Lo que más protege es la disposición a reflexionar, a detectar el conflicto y a frenar la primera respuesta: la mente reflexiva de Stanovich, distinta de la capacidad que miden los tests de inteligencia. Una persona muy capaz que no se detiene a pensar cae en la misma intuición que cualquiera (Stanovich y West, 2000).
+**Realidad:** si la función principal del razonamiento es producir argumentos y evaluar los ajenos, buscar razones a favor de la propia postura es esperable, y en el diálogo entre personas que discrepan cada parte corrige lo que a la otra se le escapa (Mercier y Sperber, 2011). Además, la prueba positiva es un heurístico razonable en muchos entornos (Klayman y Ha, 1987), y desde la racionalidad ecológica un atajo se valora por su ajuste al entorno, no solo por su distancia a la norma (Gigerenzer y Goldstein, 1996). El sesgo es real y tiene costes, sobre todo al razonar en solitario o entre quienes piensan igual, pero no prueba un diseño defectuoso.
 
 ### Conceptos clave
 

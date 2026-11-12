@@ -61,10 +61,12 @@
 | La memoria de trabajo tiene una capacidad fija de siete elementos | El «7 ± 2» se refiere a fragmentos y hoy se estima una capacidad menor, en torno a cuatro | 4 |
 | La lengua determina lo que se puede pensar | El determinismo está abandonado; hay influencias modestas y específicas | 5 |
 | El Sistema 1 yerra y el Sistema 2 acierta | Las intuiciones pueden ser correctas y la deliberación puede racionalizar errores | 6 |
-| Las personas inteligentes no caen en sesgos | Muchos sesgos son poco dependientes de la capacidad cognitiva | 7, 12 |
-| La creatividad es cosa del hemisferio derecho | Depende de la interacción de redes bilaterales | 8, 13 |
+| Las personas inteligentes no caen en sesgos | Muchos sesgos son poco dependientes de la capacidad cognitiva | 7 |
+| La creatividad es cosa del hemisferio derecho | Depende de la interacción de redes bilaterales | 8 |
 | Una conclusión verdadera implica un razonamiento correcto | Validez y verdad son independientes | 9 |
 | Razonamos con lógica formal y los errores son despistes | Los errores son sistemáticos y dependen del contenido | 10 |
+| El sesgo de confirmación prueba que el razonamiento está mal diseñado | Es esperable si razonar sirve para argumentar; en el diálogo se corrige | 12 |
+| El insight es un golpe de suerte sin trabajo previo | Llega tras la preparación y el impasse; la incubación ayuda más tras una preparación larga | 13 |
 | Ignorar la tasa base es inevitable | Con frecuencias naturales el razonamiento bayesiano mejora mucho | 11 |
 | Los expertos tienen una memoria prodigiosa | Su ventaja se limita a configuraciones con sentido en su dominio | 14 |
 | Las pérdidas pesan exactamente el doble | La estimación media actual ronda λ ≈ 1,96 y varía mucho entre estudios | 15 |
@@ -104,13 +106,16 @@
 - Kahneman, D. y Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica, 47*(2), 263–291.
 - Khemlani, S. y Johnson-Laird, P. N. (2012). Theories of the syllogism: A meta-analysis. *Psychological Bulletin, 138*(3), 427–457.
 - Klein, R. A. et al. (2014). Investigating variation in replicability: A «many labs» replication project. *Social Psychology, 45*(3), 142–152. https://doi.org/10.1027/1864-9335/a000178
+- Kühberger, A. (1998). The influence of framing on risky decisions: A meta-analysis. *Organizational Behavior and Human Decision Processes, 75*(1), 23–55.
 - Maier, M. et al. (2022). No evidence for nudging after adjusting for publication bias. *Proceedings of the National Academy of Sciences, 119*(31), e2200300119. https://doi.org/10.1073/pnas.2200300119
+- Martinovic, J., Paramei, G. V. y MacInnes, W. J. (2020). Russian blues reveal the limits of language influencing colour discrimination. *Cognition, 201*, 104281.
 - Mercier, H. y Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences, 34*(2), 57–111.
 - Mertens, S., Herberz, M., Hahnel, U. J. J. y Brosch, T. (2022). The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains. *Proceedings of the National Academy of Sciences, 119*(1), e2107346118.
 - Pica, P., Lemer, C., Izard, V. y Dehaene, S. (2004). Exact and approximate arithmetic in an Amazonian indigene group. *Science, 306*(5695), 499–503. https://doi.org/10.1126/science.1102085
 - Ruggeri, K. et al. (2020). Replicating patterns of prospect theory for decision under risk. *Nature Human Behaviour, 4*, 622–633. https://doi.org/10.1038/s41562-020-0886-x
 - Scheibehenne, B., Greifeneder, R. y Todd, P. M. (2010). Can there ever be too many options? A meta-analytic review of choice overload. *Journal of Consumer Research, 37*(3), 409–425. https://doi.org/10.1086/651235
 - Sio, U. N. y Ormerod, T. C. (2009). Does incubation enhance problem solving? A meta-analytic review. *Psychological Bulletin, 135*(1), 94–120. https://doi.org/10.1037/a0014212
+- Smith, S. M., Brown, H. O., Toman, J. E. P. y Goodman, L. S. (1947). The lack of cerebral effects of d-tubocurarine. *Anesthesiology, 8*(1), 1–14.
 - Tversky, A. y Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science, 185*(4157), 1124–1131.
 - Tversky, A. y Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science, 211*(4481), 453–458.
 - Tversky, A. y Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. *Psychological Review, 90*(4), 293–315.

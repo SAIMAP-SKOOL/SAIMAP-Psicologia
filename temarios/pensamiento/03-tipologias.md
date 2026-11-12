@@ -8,7 +8,7 @@ Pensar no es una actividad única: a veces seguimos reglas paso a paso, a veces 
 
 ### 6.1 Pensamiento formal frente a pensamiento intuitivo
 
-El **pensamiento formal** o analítico aplica **reglas que no dependen del contenido**. Un argumento es válido por su forma, no por aquello de lo que habla. Si de «todos los X son Y» y «esto es un X» se sigue «esto es un Y», da igual que X sean gatos, impuestos o planetas. La lógica se apoya en principios elementales, como el de **no contradicción** (una afirmación no puede ser a la vez verdadera y falsa en el mismo sentido), y en reglas de inferencia que garantizan que, si las premisas son verdaderas, la conclusión también lo es. Este modo de pensar es lento, sigue pasos explícitos y exige mantener varias representaciones a la vez en la memoria de trabajo (Unidad 4).
+El **pensamiento formal** o analítico aplica **reglas que no dependen del contenido**. Un argumento es válido por su forma, no por aquello de lo que habla. Si de «todos los X son Y» y «esto es un X» se sigue «esto es un Y», da igual que X sean gatos, impuestos o planetas. La lógica se apoya en principios elementales, como el de **no contradicción** (no cabe afirmar y negar lo mismo a la vez y en el mismo sentido), y en reglas de inferencia que garantizan que, si las premisas son verdaderas, la conclusión también lo es. Este modo de pensar es lento, sigue pasos explícitos y exige mantener varias representaciones a la vez en la memoria de trabajo (Unidad 4).
 
 El **pensamiento intuitivo** funciona de otro modo. Es **rápido**, **asociativo** y se apoya en la experiencia acumulada: reconoce patrones, recupera lo que suele ocurrir y ofrece una respuesta casi sin esfuerzo. Por eso es muy **sensible a las creencias** y al contenido concreto del problema. Ante la misma estructura lógica, cambia la respuesta si el ejemplo resulta familiar o verosímil.
 
@@ -174,13 +174,13 @@ b) se basan en reglas comunes de un sistema único
 c) solo difieren en el grado de conciencia
 
 **5.** En los datos de Frederick (2005), el porcentaje de la muestra global que acertó los tres ítems del CRT fue…
-a) un 17 %
-b) un 33 %
-c) un 48 %
+a) un 33 %
+b) un 48 %
+c) un 17 %
 
 ### Soluciones
 
-**1 b.** Rapidez o conciencia son correlatos; lo definitorio es la memoria de trabajo y el desacoplamiento. **2 a.** La reflexión surge cuando algo no encaja y la acción habitual se interrumpe. **3 c.** La sensación de que la respuesta es correcta actúa como señal de parada (Thompson, Prowse Turner y Pennycook, 2011). **4 b.** Es la propuesta de sistema único frente a la arquitectura dual. **5 a.** El 33 % no acertó ninguno; el 48 % corresponde a los estudiantes del MIT.
+**1 b.** Rapidez o conciencia son correlatos; lo definitorio es la memoria de trabajo y el desacoplamiento. **2 a.** La reflexión surge cuando algo no encaja y la acción habitual se interrumpe. **3 c.** La sensación de que la respuesta es correcta actúa como señal de parada (Thompson, Prowse Turner y Pennycook, 2011). **4 b.** Es la propuesta de sistema único frente a la arquitectura dual. **5 c.** El 33 % no acertó ninguno; el 48 % corresponde a los estudiantes del MIT.
 
 ## Unidad 7 · Pensamiento crítico
 
@@ -221,7 +221,7 @@ Por último, la validez depende de la forma y la verdad, de cómo es el mundo: u
 
 El pensamiento crítico tiene que vigilar también los **sesgos** del propio juicio. El programa de **heurísticos y sesgos** arrancó con Tversky y Kahneman (1974): al juzgar probabilidades, las personas no calculan, sino que usan **heurísticos**, atajos que suelen funcionar pero producen **sesgos sistemáticos**, errores con una dirección predecible. El artículo describió tres:
 
-- **Representatividad**: se juzga la probabilidad de que algo pertenezca a una categoría por lo mucho que se **parece** a ella.
+- **Representatividad**: la probabilidad de que algo pertenezca a una categoría se estima por su **parecido** con el caso típico de esa categoría.
 - **Disponibilidad**: se juzga la frecuencia por la **facilidad** con que vienen ejemplos a la mente. Tras varios reportajes sobre robos en viviendas, uno sobrestima su frecuencia.
 - **Anclaje y ajuste**: se parte de un valor inicial, aunque sea arbitrario, y se ajusta de forma **insuficiente** (Jacowitz y Kahneman, 1995). Un precio de salida alto arrastra hacia arriba la contraoferta.
 
@@ -247,7 +247,7 @@ La respuesta típica ronda el **0,80** (aprox.): se toma la fiabilidad del testi
 | --- | --- | --- |
 | Confirmación | Buscar y valorar más la información que apoya lo que ya se cree | Unidad 11 (tarea 2-4-6) |
 | Retrospectivo | Tras conocer un resultado, creer que era más previsible de lo que era (Fischhoff, 1975) | — |
-| Exceso de confianza | Estar más seguro de los propios juicios de lo que justifica su acierto | Unidad 12 |
+| Exceso de confianza | Estar más seguro de los propios juicios de lo que justifica su acierto | — |
 | Efecto marco | Elegir distinto según se presente lo mismo como ganancia o como pérdida | Unidad 15 |
 | Sesgo de creencia | Juzgar un argumento por la credibilidad de su conclusión | Unidad 9 |
 
@@ -359,18 +359,18 @@ b) 0,41
 c) 0,15
 
 **4.** En Many Labs 1 (Klein et al., 2014), el efecto marco de la enfermedad asiática…
-a) no se replicó en ninguna muestra
+a) se replicó con un efecto menor que el original
 b) se replicó con un efecto mayor que el original
-c) se replicó con un efecto menor que el original
+c) no se replicó en ninguna muestra
 
 **5.** Según Abrami et al. (2015), las intervenciones para enseñar pensamiento crítico…
-a) tienen un efecto medio modesto, g+ = 0,30
-b) no muestran ningún efecto medio apreciable
-c) tienen un efecto muy grande y uniforme
+a) no muestran ningún efecto medio apreciable
+b) tienen un efecto muy grande y uniforme
+c) tienen un efecto medio modesto, g+ = 0,30
 
 ### Soluciones
 
-**1 c.** Se afirma el consecuente («ha estudiado») para concluir el antecedente; es una falacia formal. **2 a.** La descripción se parece a una feminista y la semejanza sustituye a la probabilidad. **3 b.** 0,12/(0,12 + 0,17) ≈ 0,41; 0,80 es la respuesta típica que ignora la tasa base. **4 c.** Se obtuvo d = 0,60 frente a 1,13 en el original. **5 a.** El efecto es real pero modesto, y mayor con diálogo, problemas auténticos y mentoría.
+**1 c.** Se afirma el consecuente («ha estudiado») para concluir el antecedente; es una falacia formal. **2 a.** La descripción se parece a una feminista y la semejanza sustituye a la probabilidad. **3 b.** 0,12/(0,12 + 0,17) ≈ 0,41; 0,80 es la respuesta típica que ignora la tasa base. **4 a.** Se obtuvo d = 0,60 frente a 1,13 en el original. **5 c.** El efecto es real pero modesto, y mayor con diálogo, problemas auténticos y mentoría.
 
 ## Unidad 8 · Creatividad y otros modos de pensar
 
@@ -484,7 +484,7 @@ El estudio clásico es el de Gick y Holyoak (1980) con el **problema de la radia
 
 Figura 8.3. **Problema de la radiación y análogo de la fortaleza.** Con la historia de la fortaleza y una pista para usarla, el 92 % resolvió el problema; sin la pista, solo el 20 %. Datos de Gick y Holyoak (1980, Exp. IV). Elaboración propia.
 
-Como muestra la figura 8.3, casi todos tenían la solución en la memoria, pero no la usaban si nadie les indicaba que la historia servía. El **cuello de botella** de la analogía es la **recuperación espontánea** de la fuente: tendemos a recuperar casos por su parecido superficial, no por su estructura.
+Como muestra la figura 8.3, la mayoría había leído la historia que contenía la solución, pero pocos la aplicaban si nadie les indicaba que servía para el problema. El **cuello de botella** de la analogía es la **recuperación espontánea** de la fuente: tendemos a recuperar casos por su parecido superficial, no por su estructura.
 
 **Pensamiento práctico.** Es el que se aplica a problemas cotidianos, mal definidos y ligados al contexto: organizar una semana con tres turnos de trabajo, negociar con un casero o saber cuándo conviene no discutir con un jefe. Sternberg, en su **teoría triárquica**, distinguió una inteligencia práctica, apoyada en el **conocimiento tácito**: saberes que no se enseñan de forma explícita y se adquieren con la experiencia (véase Psicología Diferencial).
 
@@ -544,10 +544,10 @@ b) producen menos ideas, en parte por el bloqueo de producción
 c) producen las mismas ideas, pero de mayor originalidad
 
 **5.** En Gick y Holyoak (1980), la mayoría resolvió el problema de la radiación solo cuando…
-a) leyó la historia sin recibir ninguna pista
-b) se le explicó directamente la solución médica
-c) recibió la historia y una pista para usarla
+a) recibió la historia y una pista para usarla
+b) leyó la historia sin recibir ninguna pista
+c) se le explicó directamente la solución médica
 
 ### Soluciones
 
-**1 b.** Muchas respuestas indican fluidez; que sean de una sola categoría, poca flexibilidad. **2 c.** La iluminación sigue a la incubación y la verificación cierra el proceso. **3 a.** La incubación ayuda más cuando ya se ha trabajado el problema; las tareas divergentes y las pausas de baja demanda también la favorecen. **4 b.** Los grupos nominales generan más ideas (Diehl y Stroebe, 1987). **5 c.** Con pista, el 92 %; sin ella, el 20 %: el problema es recuperar el análogo de forma espontánea.
+**1 b.** Muchas respuestas indican fluidez; que sean de una sola categoría, poca flexibilidad. **2 c.** La iluminación sigue a la incubación y la verificación cierra el proceso. **3 a.** La incubación ayuda más cuando ya se ha trabajado el problema; las tareas divergentes y las pausas de baja demanda también la favorecen. **4 b.** Los grupos nominales generan más ideas (Diehl y Stroebe, 1987). **5 a.** Con pista, el 92 %; sin ella, el 20 %: el problema es recuperar el análogo de forma espontánea.

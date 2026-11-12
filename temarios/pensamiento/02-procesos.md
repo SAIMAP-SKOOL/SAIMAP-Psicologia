@@ -163,13 +163,13 @@ b) la visión clásica de los conceptos
 c) los conceptos basados en teorías
 
 **5.** Un estudiante sabe aplicar la fórmula de Bayes, pero no se da cuenta de que un problema la requiere. Le falla el conocimiento…
-a) condicional
-b) declarativo
-c) procedimental
+a) declarativo
+b) procedimental
+c) condicional
 
 ### Soluciones
 
-**1 c.** Cuantos más modelos hay que mantener a la vez, mayor es la carga y más errores aparecen. **2 a.** El bucle fonológico y la agenda visoespacial mantienen información; el ejecutivo central los coordina. **3 b.** El nivel básico es el que se usa por defecto para nombrar; no debe confundirse con el prototipo. **4 c.** El conocimiento causal pesa más que la semejanza superficial. **5 a.** Sabe qué es y cómo se aplica, pero no cuándo ni por qué usarla.
+**1 c.** Cuantos más modelos hay que mantener a la vez, mayor es la carga y más errores aparecen. **2 a.** El bucle fonológico y la agenda visoespacial mantienen información; el ejecutivo central los coordina. **3 b.** El nivel básico es el que se usa por defecto para nombrar; no debe confundirse con el prototipo. **4 c.** El conocimiento causal pesa más que la semejanza superficial. **5 c.** Sabe qué es y cómo se aplica, pero no cuándo ni por qué usarla.
 
 ## Unidad 5 · Lenguaje y pensamiento
 
@@ -226,9 +226,9 @@ Un ejemplo práctico: alguien está agobiado por «todo lo que tiene pendiente»
 
 ### 5.3 Habla interna y autorregulación
 
-**De lo social a lo interno.** Vygotsky (1934) propuso que el pensamiento verbal surge de la interiorización del lenguaje social. El niño primero es guiado por las palabras del adulto; después se habla a sí mismo en voz alta mientras juega o resuelve una tarea (**habla privada**); por último, ese habla se interioriza y se convierte en **habla interna**, silenciosa y abreviada. Pensamiento y lenguaje tienen raíces distintas y convergen hacia los dos años, cuando el lenguaje se vuelve intelectual y el pensamiento, verbal.
+**De lo social a lo interno.** Vygotsky (1934) propuso que el pensamiento verbal surge de la interiorización del lenguaje social. El niño primero es guiado por las palabras del adulto; después se habla a sí mismo en voz alta mientras juega o resuelve una tarea (**habla privada**); por último, esa habla se interioriza y se convierte en **habla interna**, silenciosa y abreviada. Pensamiento y lenguaje tienen raíces distintas y convergen hacia los dos años, cuando el lenguaje se vuelve intelectual y el pensamiento, verbal.
 
-Aquí está una de las trampas más repetidas. Piaget llamó **habla egocéntrica** al habla del niño consigo mismo y la consideró un reflejo de su egocentrismo, destinado a **desaparecer**. Para Vygotsky, en cambio, ese habla no desaparece: **se interioriza** y adquiere una función de **autorregulación**. La asignatura de Desarrollo estudia ambas teorías en detalle.
+Aquí está una de las trampas más repetidas. Piaget llamó **habla egocéntrica** al habla del niño consigo mismo y la consideró un reflejo de su egocentrismo, destinado a **desaparecer**. Para Vygotsky, en cambio, esa habla no desaparece: **se interioriza** y adquiere una función de **autorregulación**. La asignatura de Desarrollo estudia ambas teorías en detalle.
 
 **La regulación verbal de la conducta.** Luria (1961), discípulo y colaborador de Vygotsky, estudió cómo las palabras llegan a iniciar, mantener e inhibir acciones: primero las del adulto, después las del propio niño. Esta línea de trabajo dio lugar a técnicas aplicadas, como el entrenamiento en autoinstrucciones de Meichenbaum y Goodman (1971), en el que se enseña a guiar la propia conducta con frases dichas primero en voz alta y luego en silencio.
 
@@ -253,7 +253,7 @@ Un dato experimental muestra su papel en el control. En tareas que exigen altern
 
 La revisión subraya que el habla interna no es uniforme. Puede ser **condensada**, casi telegráfica, o **expandida**, con frases completas; puede ser un monólogo o un diálogo entre voces. Las personas difieren mucho en cuánto la experimentan, y algunas dicen apenas tenerla.
 
-En el ámbito clínico, una hipótesis influyente propone que algunas **alucinaciones auditivas verbales** consisten en habla interna que la persona no reconoce como propia. Este tema se trata en Psicopatología. Watson (1913) ya identificó el pensamiento con el habla subvocal (Unidad 2); la investigación actual recupera el habla interna sin reducir a ella todo el pensamiento.
+En el ámbito clínico, una hipótesis influyente propone que algunas **alucinaciones auditivas verbales** consisten en habla interna que la persona no reconoce como propia. Este tema se trata en Psicopatología. Watson (1913, 1920) ya identificó el pensamiento con el habla subvocal (Unidad 2); la investigación actual recupera el habla interna sin reducir a ella todo el pensamiento.
 
 ### 5.4 Relatividad lingüística: qué dicen los datos
 
@@ -317,7 +317,7 @@ La interpretación más aceptada es que los numerales son una **tecnología cogn
 
 ### Autoevaluación
 
-**1.** Según Vygotsky (1934), el habla que el niño se dirige a sí mismo en voz alta…
+**1.** Según Vygotsky (1934), lo que el niño se dice en voz alta mientras juega o resuelve una tarea…
 a) desaparece al superar el egocentrismo
 b) se interioriza y pasa a regular la conducta
 c) es un simple reflejo de su pensamiento
@@ -333,8 +333,8 @@ b) emparejar objetos uno a uno a la vista
 c) comparar cantidades aproximadas grandes
 
 **4.** ¿Qué afirmación describe mejor el estado actual de la hipótesis de Sapir-Whorf?
-a) La versión fuerte tiene apoyo en el color
-b) La versión fuerte está abandonada y la débil tiene apoyo mixto
+a) La versión fuerte está abandonada y la débil tiene apoyo mixto
+b) La versión fuerte tiene apoyo en el color
 c) Ambas versiones han sido refutadas por completo
 
 **5.** Impedir el habla interna con supresión articulatoria aumenta sobre todo…
@@ -344,4 +344,4 @@ c) el coste de cambiar de una tarea a otra
 
 ### Soluciones
 
-**1 b.** Para Vygotsky el habla privada se interioriza y autorregula; la idea de que desaparece es de Piaget. **2 c.** Forzar la traducción verbal de algo difícil de expresar empeora su representación (Schooler y Engstler-Schooler, 1990). **3 a.** Emparejaban casi sin error con los objetos delante; fallaban cuando había que guardar la cantidad. **4 b.** El determinismo está abandonado; la influencia varía según el dominio. **5 c.** Sin la voz interna que recuerda qué toca hacer, cuesta más mantener el plan (Emerson y Miyake, 2003).
+**1 b.** Para Vygotsky el habla privada se interioriza y autorregula; la idea de que desaparece es de Piaget. **2 c.** Forzar la traducción verbal de algo difícil de expresar empeora su representación (Schooler y Engstler-Schooler, 1990). **3 a.** Emparejaban casi sin error con los objetos delante; fallaban cuando había que guardar la cantidad. **4 a.** El determinismo está abandonado; la influencia varía según el dominio. **5 c.** Sin la voz interna que recuerda qué toca hacer, cuesta más mantener el plan (Emerson y Miyake, 2003).

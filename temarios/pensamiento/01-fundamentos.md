@@ -12,7 +12,7 @@ En psicología, **pensar** es manipular representaciones mentales para ir más a
 
 El término «pensamiento» tiene dos sentidos que conviene separar desde el principio:
 
-- **Pensamiento como proceso**: la secuencia de operaciones mentales que transforma unas representaciones en otras. Comparar, descartar alternativas, buscar un ejemplo o imaginar una consecuencia son operaciones de este tipo.
+- **Pensamiento como proceso**: el encadenamiento de operaciones mentales que transforma unas representaciones en otras. Comparar, descartar alternativas, buscar un ejemplo o imaginar una consecuencia son operaciones de este tipo.
 - **Pensamiento como producto**: el resultado de esas operaciones. Puede ser un **concepto** («esto es una estafa telefónica»), un **juicio** («es poco probable que el banco me pida la clave por SMS»), una **conclusión**, una **decisión** o una **solución**.
 
 | Rasgo | Proceso | Producto |
@@ -132,7 +132,7 @@ El funcionalismo amplió además el campo de la psicología a las **diferencias 
 | Concepto | Definición |
 | --- | --- |
 | Pensamiento | Manipulación de representaciones para inferir, resolver problemas, juzgar o decidir |
-| Pensamiento como proceso | Secuencia de operaciones mentales que transforma unas representaciones en otras |
+| Pensamiento como proceso | Encadenamiento de operaciones mentales que transforma unas representaciones en otras |
 | Pensamiento como producto | Resultado del proceso: concepto, juicio, conclusión, decisión o solución |
 | Error sistemático | Equivocación que sigue un patrón y revela la estrategia de razonamiento empleada |
 | Introspección experimental | Método de Wundt: autoobservación entrenada de la experiencia ante estímulos controlados |
@@ -208,9 +208,9 @@ En 1913, **John B. Watson** publicó el artículo considerado el manifiesto del 
 
 Es frecuente leer que el conductismo **negó** el pensamiento. No es exacto. Watson no lo negó: lo **redefinió** como conducta. En su trabajo de 1920 sostuvo que pensar es, básicamente, **habla subvocal**: los mismos hábitos del lenguaje hablado, pero tan reducidos que solo producen movimientos mínimos de la laringe y la lengua. Pensar sería hablar en silencio, una **conducta implícita** que se aprende igual que cualquier otra.
 
-Esta tesis era comprobable, y se puso a prueba. Si pensar consiste en movimientos del aparato fonador, al paralizar esos músculos debería ser imposible pensar. En un experimento célebre, un investigador se administró curare, una sustancia que paraliza los músculos, y comprobó que, mientras duraba la parálisis, seguía siendo capaz de percibir, entender lo que le decían y recordarlo después (Smith et al., 1947). El pensamiento no requería, por tanto, movimientos musculares. La versión estricta de Watson quedó refutada, aunque se conserva la idea de que la actividad del habla puede acompañar a algunos pensamientos.
+Esta tesis era comprobable, y se puso a prueba. Si pensar consiste en movimientos del aparato fonador, al paralizar esos músculos debería ser imposible pensar. En un experimento célebre, un investigador se sometió a la acción del curare, una sustancia que paraliza los músculos, y comprobó que, mientras duraba la parálisis, seguía siendo capaz de percibir, entender lo que le decían y recordarlo después (Smith et al., 1947). El pensamiento no requería, por tanto, movimientos musculares. La versión estricta de Watson quedó refutada, aunque se conserva la idea de que la actividad del habla puede acompañar a algunos pensamientos.
 
-**B. F. Skinner** mantuvo un enfoque parecido. En *Verbal Behavior* (Skinner, 1957) trató el pensamiento como **conducta verbal encubierta**, sujeta a las mismas leyes del refuerzo que la conducta visible. Para Skinner, los procesos internos existen, pero no explican nada: son conducta que también hay que explicar por la historia de refuerzo. Las leyes del condicionamiento se estudian en la asignatura de Aprendizaje.
+**B. F. Skinner** mantuvo un enfoque parecido. En *Verbal Behavior* (Skinner, 1957) trató el pensamiento como **conducta verbal encubierta**, explicable por el refuerzo igual que la conducta visible. Para Skinner, los procesos internos existen, pero no explican nada: son conducta que también hay que explicar por la historia de refuerzo. Las leyes del condicionamiento se estudian en la asignatura de Aprendizaje.
 
 Dentro del propio conductismo surgieron voces que se acercaban a lo cognitivo. **Edward C. Tolman** defendió que las ratas que aprendían un laberinto formaban **mapas cognitivos** (Tolman, 1948), representaciones internas del entorno que les permitían tomar atajos nunca recorridos. Introdujo así **variables intermedias** entre el estímulo y la respuesta, como las expectativas y las metas, y anticipó ideas de la psicología cognitiva.
 
@@ -224,7 +224,7 @@ El balance es claro en dos sentidos. Por un lado, el conductismo aportó **rigor
 
 ### 2.3 Piaget y el desarrollo del pensamiento
 
-**Jean Piaget** abordó el pensamiento desde una pregunta distinta a la de las escuelas anteriores: no qué es, sino **cómo se construye**. Su epistemología genética sostiene que el pensamiento lógico no es innato ni se copia del exterior, sino que el niño lo construye mediante su **acción** sobre el mundo. Los niños no piensan igual que los adultos, no porque sepan menos, sino porque organizan el conocimiento de otra manera.
+**Jean Piaget** abordó el pensamiento desde una pregunta distinta a la de las escuelas anteriores: no qué es, sino **cómo se construye**. Su epistemología genética sostiene que el pensamiento lógico no es innato ni se copia del exterior, sino que el niño lo construye mediante su **acción** sobre el mundo. La diferencia entre el niño y el adulto no es de cantidad de conocimientos, sino de organización: cada etapa tiene su propia lógica.
 
 Los mecanismos de esta construcción son tres:
 
@@ -253,7 +253,7 @@ Un ejemplo: un niño de cinco años cree que hay más zumo en un vaso alto y est
 
 ### 2.4 Vygotsky: pensamiento, lenguaje y cultura
 
-**Lev S. Vygotsky** propuso una perspectiva **sociocultural**: las funciones mentales superiores, como razonar, planificar o regular la propia conducta, no se desarrollan solo desde dentro del niño, sino a partir de la interacción con los demás y de las herramientas que ofrece la cultura. Su obra más citada sobre este tema es *Pensamiento y lenguaje* (Vygotsky, 1934).
+**Lev S. Vygotsky** propuso una perspectiva **sociocultural**: capacidades como razonar, planificar o regular la propia conducta nacen de la interacción con los demás y de las herramientas que ofrece la cultura, y no solo de la maduración interna del niño. Su obra más citada sobre este tema es *Pensamiento y lenguaje* (Vygotsky, 1934).
 
 Tres ideas organizan su planteamiento:
 
@@ -324,9 +324,9 @@ a) el niño construye el conocimiento mediante la acción
 b) los adultos razonan de forma general con lógica formal
 c) el estadio sensoriomotor precede al preoperacional
 
-**4.** Para Vygotsky, el habla en voz alta que el niño se dirige a sí mismo…
-a) se interioriza y sirve para regular la propia acción
-b) refleja el egocentrismo y desaparece con la edad
+**4.** Para Vygotsky, lo que el niño se dice en voz alta mientras actúa…
+a) refleja el egocentrismo y desaparece con la edad
+b) se interioriza y sirve para regular la propia acción
 c) carece de relación con el desarrollo del pensamiento
 
 **5.** El experimento con curare de Smith et al. (1947) fue relevante porque mostró que…
@@ -336,7 +336,7 @@ c) se puede pensar con los músculos del habla paralizados
 
 ### Soluciones
 
-**1 a.** Ach (1905) mostró que la instrucción orienta las respuestas sin necesidad de recordarla de forma consciente. **2 c.** Watson redefinió el pensamiento como conducta, no lo negó. **3 b.** Muchos adultos fallan la versión abstracta de la tarea de selección y dependen del contenido. **4 a.** La interpretación de b corresponde a Piaget. **5 c.** El resultado refutó la versión estricta de la tesis de Watson.
+**1 a.** Ach (1905) mostró que la instrucción orienta las respuestas sin necesidad de recordarla de forma consciente. **2 c.** Watson redefinió el pensamiento como conducta, no lo negó. **3 b.** Muchos adultos fallan la versión abstracta de la tarea de selección y dependen del contenido. **4 b.** La interpretación de a corresponde a Piaget. **5 c.** El resultado refutó la versión estricta de la tesis de Watson.
 
 ## Unidad 3 · La revolución cognitiva y sus métodos
 

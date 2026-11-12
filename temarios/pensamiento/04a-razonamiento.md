@@ -61,7 +61,7 @@ El debate entre el enfoque espacial y el lingüístico no tuvo un ganador. Mucho
 
 ### 9.3 El silogismo categórico
 
-El **silogismo categórico** es la forma de deducción estudiada desde Aristóteles. Consta de dos premisas y una conclusión que relacionan tres términos: el **sujeto** y el **predicado** de la conclusión y un **término medio** que aparece en ambas premisas y desaparece de la conclusión.
+El **silogismo categórico** es la forma de deducción estudiada desde Aristóteles. Tiene dos premisas y una conclusión, y en el conjunto intervienen tres términos: el **sujeto** y el **predicado** de la conclusión y un **término medio** que aparece en ambas premisas y desaparece de la conclusión.
 
 - Todos los fisioterapeutas son sanitarios.
 - Todos los sanitarios están vacunados.

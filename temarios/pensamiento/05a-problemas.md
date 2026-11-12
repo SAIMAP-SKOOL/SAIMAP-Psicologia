@@ -136,9 +136,9 @@ Un **algoritmo** garantiza la solución si se aplica bien (Unidad 14). Los dos m
 
 ### Mito frecuente
 
-**Mito:** «El insight y la creatividad son cosa del hemisferio derecho, el lado creativo del cerebro».
+**Mito:** «El insight es un golpe de suerte que llega sin trabajo previo».
 
-**Realidad:** Jung-Beeman et al. (2004) asociaron las soluciones por insight a la circunvolución temporal superior anterior derecha, pero esa región forma parte de una red más amplia en la que participan ambos hemisferios (Kounios y Beeman, 2014). En la creatividad en general intervienen redes bilaterales: la red por defecto, la de control ejecutivo y la de saliencia (Beaty et al., 2018; Unidad 8).
+**Realidad:** en el esquema de Wallas (1926), la iluminación llega después de una preparación intensa, y el metaanálisis de Sio y Ormerod (2009) halló que la incubación ayuda más cuanto más larga ha sido la preparación previa (Unidad 8). Para Ohlsson (1992), el insight es un cambio representacional que se produce tras explorar el problema hasta el impasse. Incluso en el estudio de Wagner et al. (2004), el sueño favoreció el descubrimiento del atajo solo después de una sesión de práctica con la tarea.
 
 ### Conceptos clave
 
