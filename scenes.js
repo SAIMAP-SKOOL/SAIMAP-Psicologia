@@ -1218,6 +1218,99 @@
       return { tint: '#FBEDEA', road: 'ecg', svg: svg(s) }; },
   };
 
+  // ---------- Psicología del Lenguaje ----------
+  const LG = {
+    // 1 · El lenguaje y su estudio: bocadillos que se responden y un libro abierto
+    1: () => { let s = `<rect width="400" height="600" fill="#F1F4F9"/>`;
+      s += bubble(200, 80, 150, 64, '#2D5A7B', .45, 'r') + bubble(250, 170, 130, 56, '#5FA47A', .45) + `<g opacity=".5" fill="#fff">${[0, 1, 2].map(i => `<circle cx="${250 + i * 24}" cy="112" r="6"/>`).join('')}</g>`;
+      s += `<g opacity=".45" transform="translate(90 480)"><path d="M-60 -30Q-30 -44 0 -30Q30 -44 60 -30V36Q30 22 0 36Q-30 22 -60 36Z" fill="#fff" stroke="#7A5BA8" stroke-width="4"/><path d="M0 -30V36" stroke="#7A5BA8" stroke-width="3"/><path d="M-48 -12h36M-48 2h32M-48 16h36M12 -12h36M12 2h30M12 16h36" stroke="#B9A9D4" stroke-width="3"/></g>`;
+      return { tint: '#F1F4F9', road: 'talk', svg: svg(s) }; },
+    // 2 · Del llanto a las primeras palabras: un bebé y sílabas que flotan
+    2: () => { let s = `<rect width="400" height="600" fill="#FBF3EC"/>`;
+      s += face(300, 170, 62, 'joy', '#E0A83A', .5);
+      ['ba', 'ba', 'ma'].forEach((w, i) => { s += `<text x="${200 + i * 30}" y="${90 + i * 26}" font-size="${26 - i * 2}" font-weight="700" fill="#C8553D" opacity=".5" font-family="sans-serif">${w}</text>`; });
+      s += `<g opacity=".45" transform="translate(90 480)">${[0, 1, 2].map(i => `<rect x="${-54 + i * 38}" y="${-10 - i * 18}" width="32" height="32" rx="6" fill="${['#2D5A7B', '#5FA47A', '#C8553D'][i]}"/>`).join('')}</g>`;
+      return { tint: '#FBF3EC', road: 'dots', svg: svg(s) }; },
+    // 3 · Gramática y cerebro en desarrollo: piezas de palabras que encajan
+    3: () => { let s = `<rect width="400" height="600" fill="#EEF5F1"/>`;
+      [['niño', '#2D5A7B'], ['come', '#5FA47A'], ['pan', '#E0A83A']].forEach(([w, c], i) => { s += `<g opacity=".5"><rect x="${190 + i * 66}" y="${110 + i * 34}" width="62" height="40" rx="8" fill="${c}"/><text x="${221 + i * 66}" y="${137 + i * 34}" text-anchor="middle" font-size="17" font-weight="700" fill="#fff" font-family="sans-serif">${w}</text></g>`; });
+      s += `<g opacity=".4" transform="translate(90 475)"><path d="M-56 10C-60 -30 -20 -50 10 -44C46 -38 62 -10 54 16C48 36 20 44 -6 40C-30 44 -54 34 -56 10Z" fill="#E8A4A0"/><path d="M-30 -20q16 10 6 26M0 -36q-6 20 12 30M26 -24q-10 18 6 34" stroke="#C8553D" stroke-width="3" fill="none"/></g>`;
+      return { tint: '#EEF5F1', road: 'chain', svg: svg(s) }; },
+    // 4 · Teorías de la adquisición: adulto y niño en diálogo, y una bombilla
+    4: () => { let s = `<rect width="400" height="600" fill="#F3F0F8"/>`;
+      s += pers(250, 210, 1.5, '#7A5BA8', .5) + pers(330, 230, 1, '#E0A83A', .55) + bubble(230, 70, 120, 50, '#7A5BA8', .4, 'r') + bubble(300, 130, 80, 40, '#E0A83A', .45);
+      s += `<g opacity=".45" transform="translate(90 475)"><circle cy="-14" r="32" fill="#E0A83A"/><rect x="-14" y="16" width="28" height="22" rx="4" fill="#8A949B"/><path d="M-10 -14l10 12l10 -12" stroke="#fff" stroke-width="4" fill="none"/></g>`;
+      return { tint: '#F3F0F8', road: 'crumbs', svg: svg(s) }; },
+    // 5 · Factores, bilingüismo y trastornos: dos bocadillos de colores y libros
+    5: () => { let s = `<rect width="400" height="600" fill="#EEF3F8"/>`;
+      s += bubble(190, 90, 110, 56, '#C8553D', .45, 'r') + bubble(280, 150, 110, 56, '#2D5A7B', .45) + `<text x="245" y="126" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity=".8" font-family="sans-serif">hola</text><text x="335" y="186" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity=".8" font-family="sans-serif">kaixo</text>`;
+      s += `<g opacity=".45" transform="translate(90 485)">${['#5FA47A', '#E0A83A', '#7A5BA8'].map((c, i) => `<rect x="${-50 + i * 28}" y="${-50 + i * 6}" width="24" height="${90 - i * 6}" rx="3" fill="${c}"/>`).join('')}</g>`;
+      return { tint: '#EEF3F8', road: 'ribbon', svg: svg(s) }; },
+    // 6 · Rasgos, funciones y componentes: los seis factores de la comunicación
+    6: () => { let s = paper('#F7F3EA', '#EBE2CF', 40);
+      const cols = ['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8', '#26323A'];
+      cols.forEach((c, i) => { const a = i / 6 * Math.PI * 2 - Math.PI / 2; s += `<circle cx="${f(290 + Math.cos(a) * 70)}" cy="${f(160 + Math.sin(a) * 70)}" r="22" fill="${c}" opacity=".45"/>`; });
+      s += `<circle cx="290" cy="160" r="26" fill="none" stroke="#26323A" stroke-width="4" opacity=".35"/>`;
+      s += `<g opacity=".45" transform="translate(90 480)"><text x="0" y="0" text-anchor="middle" font-size="64" font-weight="700" fill="#2D5A7B" font-family="serif">/p/</text><path d="M-50 18h100" stroke="#C8553D" stroke-width="4"/></g>`;
+      return { tint: '#F7F3EA', road: 'grid', svg: svg(s) }; },
+    // 7 · Comunicación animal: la danza de la abeja y un pájaro que avisa
+    7: () => { let s = `<rect width="400" height="600" fill="#FBF6E6"/>`;
+      s += `<g opacity=".5" fill="none" stroke="#E0A83A" stroke-width="6" stroke-dasharray="10 8"><path d="M290 90C220 90 220 230 290 230C360 230 360 90 290 90Z"/></g><path d="M290 100V220" stroke="#26323A" stroke-width="6" opacity=".35"/>`;
+      s += `<g opacity=".55" transform="translate(290 160)"><ellipse rx="14" ry="20" fill="#E0A83A"/><path d="M-12 -6h24M-12 4h24" stroke="#26323A" stroke-width="4"/><ellipse cx="-14" cy="-12" rx="10" ry="6" fill="#fff"/><ellipse cx="14" cy="-12" rx="10" ry="6" fill="#fff"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 485)"><ellipse rx="26" ry="18" fill="#2D5A7B"/><circle cx="24" cy="-12" r="12" fill="#26323A"/><path d="M34 -12l12 3l-12 4z" fill="#E0A83A"/><path d="M-24 -4l-18 -8v16z" fill="#2D5A7B"/><path d="M56 -30q10 10 0 22M64 -38q16 18 0 38" stroke="#C8553D" stroke-width="4" fill="none"/></g>`;
+      return { tint: '#FBF6E6', road: 'trail', svg: svg(s) }; },
+    // 8 · Pragmática y teoría de la mente: lo que se dice y lo que se piensa
+    8: () => { let s = `<rect width="400" height="600" fill="#F2F0F8"/>`;
+      s += pers(240, 240, 1.4, '#2D5A7B', .5) + pers(340, 240, 1.4, '#C8553D', .5) + bubble(190, 120, 100, 48, '#2D5A7B', .4, 'r');
+      s += `<g opacity=".45"><circle cx="330" cy="120" r="34" fill="#C8553D"/><circle cx="350" cy="168" r="10" fill="#C8553D"/><circle cx="345" cy="190" r="6" fill="#C8553D"/></g><text x="330" y="132" text-anchor="middle" font-size="32" font-weight="700" fill="#fff" opacity=".8" font-family="sans-serif">?</text>`;
+      s += `<g opacity=".45" transform="translate(90 485)"><rect x="-50" y="-26" width="44" height="40" rx="4" fill="#8A6A50"/><rect x="10" y="-30" width="48" height="44" rx="6" fill="#E0A83A"/><circle cx="34" cy="-8" r="8" fill="#fff"/></g>`;
+      return { tint: '#F2F0F8', road: 'talk', svg: svg(s) }; },
+    // 9 · Percepción del habla y lectura: ondas sonoras y renglones
+    9: () => { let s = `<rect width="400" height="600" fill="#EAF2F6"/>`;
+      s += sine(190, 110, 200, 24, 3, '#2D5A7B', 5, .45) + sine(190, 170, 200, 14, 6, '#5FA47A', 4, .45) + sine(190, 220, 200, 8, 10, '#7A5BA8', 3, .45);
+      s += `<g opacity=".45" transform="translate(95 480)"><rect x="-62" y="-46" width="124" height="92" rx="6" fill="#fff" stroke="#2D5A7B" stroke-width="4"/>${[0, 1, 2, 3].map(i => `<path d="M-48 ${-26 + i * 18}h${80 - (i % 2) * 18}" stroke="#9DB6C9" stroke-width="5" stroke-linecap="round"/>`).join('')}<circle cx="-20" cy="-26" r="9" fill="none" stroke="#C8553D" stroke-width="3"/><circle cx="20" cy="-8" r="9" fill="none" stroke="#C8553D" stroke-width="3"/></g>`;
+      return { tint: '#EAF2F6', road: 'wave', svg: svg(s) }; },
+    // 10 · Acceso al léxico: fichas de un diccionario mental
+    10: () => { let s = `<rect width="400" height="600" fill="#F5F2EA"/>`;
+      s += card(250, 130, 120, 76, -8, '#2D5A7B', .5, 2) + card(320, 170, 120, 76, 6, '#5FA47A', .5, 2) + card(285, 240, 120, 76, -3, '#E0A83A', .5, 2);
+      s += `<text x="250" y="122" text-anchor="middle" font-size="18" font-weight="700" fill="#2D5A7B" opacity=".6" font-family="sans-serif">gato</text>`;
+      s += `<g opacity=".45" transform="translate(90 480)"><path d="M-60 -40H60L20 10V44L-20 30V10Z" fill="#7A5BA8"/><text x="0" y="-16" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="sans-serif">co…</text></g>`;
+      return { tint: '#F5F2EA', road: 'pegs', svg: svg(s) }; },
+    // 11 · Oraciones, discurso y cerebro: árbol sintáctico y onda N400
+    11: () => { let s = `<rect width="400" height="600" fill="#EFF1F6"/>`;
+      s += `<g opacity=".5" stroke="#26323A" stroke-width="4" fill="none"><path d="M290 70L230 140M290 70L350 140M350 140L320 210M350 140L380 210"/></g>`;
+      [[290, 70, '#2D5A7B'], [230, 140, '#5FA47A'], [350, 140, '#5FA47A'], [320, 210, '#E0A83A'], [380, 210, '#E0A83A']].forEach(([x, y, c]) => { s += `<circle cx="${x}" cy="${y}" r="16" fill="${c}" opacity=".55"/>`; });
+      s += `<g opacity=".5" transform="translate(30 470)"><path d="M0 0H40C60 0 66 -46 86 -46C106 -46 112 0 132 0H160" stroke="#C8553D" stroke-width="5" fill="none"/><path d="M0 0H160" stroke="#26323A" stroke-width="2" opacity=".5"/></g>`;
+      return { tint: '#EFF1F6', road: 'tract', svg: svg(s) }; },
+    // 12 · Producción del habla: de la idea a la boca
+    12: () => { let s = `<rect width="400" height="600" fill="#FBEFEA"/>`;
+      s += `<g opacity=".5"><circle cx="230" cy="100" r="30" fill="#7A5BA8"/><rect x="270" y="130" width="70" height="44" rx="10" fill="#2D5A7B"/><path d="M330 200q30 0 30 24q0 24 -30 24q-30 0 -30 -24q0 -24 30 -24z" fill="#C8553D"/></g>`;
+      s += `<g opacity=".4" stroke="#26323A" stroke-width="4" fill="none"><path d="M252 118l20 14M318 176l8 22"/></g>`;
+      s += `<g opacity=".45" transform="translate(90 485)"><path d="M-50 -10q50 -40 100 0q-50 40 -100 0z" fill="#C8553D"/><path d="M-36 -8h72" stroke="#fff" stroke-width="5"/></g>`;
+      return { tint: '#FBEFEA', road: 'nerve', svg: svg(s) }; },
+    // 13 · La conversación: turnos que se alternan
+    13: () => { let s = `<rect width="400" height="600" fill="#EEF6F1"/>`;
+      [0, 1, 2, 3].forEach(i => { s += bubble(i % 2 ? 260 : 190, 70 + i * 52, 120, 40, i % 2 ? '#5FA47A' : '#2D5A7B', .45, i % 2 ? 'r' : undefined); });
+      s += `<g opacity=".45" transform="translate(90 480)">${pers(-30, 20, 1.1, '#5FA47A', 1)}${pers(34, 20, 1.1, '#2D5A7B', 1)}</g>`;
+      return { tint: '#EEF6F1', road: 'street', svg: svg(s) }; },
+    // 14 · Lenguaje y pensamiento: azules distintos y un copo de nieve
+    14: () => { let s = `<rect width="400" height="600" fill="#EDF3F8"/>`;
+      ['#BFD9EE', '#8FBCE0', '#4F8DC4', '#2D5A7B', '#1B3A55'].forEach((c, i) => { s += `<rect x="${190 + i * 38}" y="${100 + (i % 2) * 24}" width="32" height="110" rx="8" fill="${c}" opacity=".6"/>`; });
+      s += `<g opacity=".45" transform="translate(90 480)" stroke="#2D5A7B" stroke-width="5" stroke-linecap="round">${[0, 60, 120].map(a => `<path d="M0 -44V44" transform="rotate(${a})"/><path d="M-12 -30l12 12l12 -12M-12 30l12 -12l12 12" transform="rotate(${a})" fill="none"/>`).join('')}</g>`;
+      return { tint: '#EDF3F8', road: 'prism', svg: svg(s) }; },
+    // 15 · Cultura y multilingüismo: un globo y saludos en varias lenguas
+    15: () => { let s = `<rect width="400" height="600" fill="#F2F7F4"/>`;
+      s += `<g opacity=".45"><circle cx="295" cy="160" r="80" fill="#5FA47A"/><path d="M215 160h160M295 80v160" stroke="#fff" stroke-width="3"/><ellipse cx="295" cy="160" rx="38" ry="80" fill="none" stroke="#fff" stroke-width="3"/></g>`;
+      ['hola', 'ciao', 'hello', 'bon dia'].forEach((w, i) => { s += `<text x="${[190, 300, 220, 310][i]}" y="${[62, 58, 272, 280][i]}" font-size="18" font-weight="700" fill="${['#C8553D', '#2D5A7B', '#7A5BA8', '#E0A83A'][i]}" opacity=".6" font-family="sans-serif">${w}</text>`; });
+      s += `<g opacity=".45" transform="translate(90 480)">${bubble(-60, -40, 70, 36, '#2D5A7B', 1)}${bubble(-10, 0, 70, 36, '#C8553D', 1, 'r')}</g>`;
+      return { tint: '#F2F7F4', road: 'spread', svg: svg(s) }; },
+    // 16 · Habilidades comunicativas: distancias, caras y escucha
+    16: () => { let s = `<rect width="400" height="600" fill="#F7F1F6"/>`;
+      [90, 64, 40, 18].forEach((r, i) => { s += `<circle cx="300" cy="160" r="${r}" fill="${['#E6EEF4', '#C9D7E6', '#8FB2CC', '#2D5A7B'][i]}" opacity=".6"/>`; });
+      s += face(84, 470, 36, 'joy', '#E0A83A', .5) + face(150, 500, 28, 'neutral', '#7A5BA8', .45);
+      return { tint: '#F7F1F6', road: 'rope', svg: svg(s) }; }
+  };
+
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -1230,5 +1323,6 @@
     'historia': n => cache['h' + n] || (cache['h' + n] = HC[n] ? HC[n]() : null),
     'social': n => cache['s' + n] || (cache['s' + n] = SO[n] ? SO[n]() : null),
     'evaluacion-1': n => cache['v' + n] || (cache['v' + n] = EV1[n] ? EV1[n]() : null),
-    'evaluacion-2': n => cache['w' + n] || (cache['w' + n] = EV2[n] ? EV2[n]() : null) };
+    'evaluacion-2': n => cache['w' + n] || (cache['w' + n] = EV2[n] ? EV2[n]() : null),
+    'lenguaje': n => cache['l' + n] || (cache['l' + n] = LG[n] ? LG[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
