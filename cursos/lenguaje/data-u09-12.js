@@ -377,7 +377,7 @@ window.COURSE.units.push(
     ],
     seq: [],
     cls: [
-      "Componentes ERP|N400: «Untó la tostada con calcetines»; palabra poco esperada|P600: «Los niños juega en el parque»; oraciones de vía muerta"
+      "Componentes ERP|N400: «Untó la tostada con calcetines»; palabra poco esperada|P600: reanálisis sintáctico; oraciones de vía muerta"
     ] },
   { t: "Comprensión del discurso",
     tip: "Van Dijk y Kintsch (1983) distinguen superficie, texto base y modelo de situación, y la superficie se olvida pronto. En el modelo de construcción-integración (Kintsch, 1988), cada frase activa proposiciones pertinentes o no, y la integración deja solo lo coherente. El modelo de indexación de eventos sigue tiempo, espacio, causalidad, intencionalidad y protagonistas, y las inferencias puente son necesarias, a diferencia de las elaborativas.",
@@ -603,7 +603,7 @@ window.COURSE.units.push(
       "Según el modelo de Hickok y Poeppel (2007), ¿qué vía conecta sonido y articulación?|La vía dorsal izquierda|La vía ventral bilateral|La vía ventral izquierda|La vía dorsal une regiones temporoparietales con el lóbulo frontal y está lateralizada a la izquierda."
     ],
     inc: [
-      "Sobre las bases neurales de la producción|El área de Broca solo interviene en producir el habla|La red de la producción es sobre todo izquierda|La ínsula anterior se relaciona con la planificación|El área de Broca participa también en la sintaxis y la comprensión, y no es «el área de la producción»."
+      "Sobre las bases neurales de la producción|Los ganglios basales codifican la sintaxis|La red de la producción es sobre todo izquierda|La ínsula anterior se relaciona con la planificación|Ganglios basales y cerebelo temporizan y coordinan el movimiento. La codificación sintáctica corresponde al giro frontal inferior izquierdo."
     ],
     seq: [],
     cls: [

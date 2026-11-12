@@ -531,7 +531,7 @@ window.COURSE.units.push(
     q: [
       "Una niña dice «papá ha ponido la mesa», que es verdad, y su padre responde «¡qué bien!». Luego dice «eso es un caballo» ante una vaca y la corrigen. ¿Qué ilustra?|Que se corrige la veracidad y no la forma|Que se corrige la forma y no la veracidad|Que los padres corrigen ambas cosas por igual|Es el hallazgo de Brown y Hanlon (1970), que apoyaba la idea de que el niño apenas dispone de evidencia negativa.",
       "Un padre responde a «papá ha ponido la mesa» con «sí, papá ha puesto la mesa». ¿Qué está haciendo?|Una reformulación|Un moldeamiento|Una corrección explícita|Las reformulaciones repiten la frase en forma correcta sin cortar la conversación y funcionan como evidencia negativa implícita.",
-      "¿Qué apoyo al innatismo procede de Nicaragua?|Una lengua de signos emergente|Un caso de privación extrema|La criollización de un pidgin|Niños sordos que solo usaban gestos caseros crearon una lengua nueva, que las cohortes siguientes hicieron más regular.",
+      "¿Qué apoyo al innatismo procede de Nicaragua?|Una lengua de signos emergente|Un caso de privación extrema|El estudio genético de FOXP2|Niños sordos que solo usaban gestos caseros crearon una lengua nueva, que las cohortes siguientes hicieron más regular.",
       "¿Qué crítica se dirige al innatismo?|Es difícil concretar qué contiene la GU|Ignora toda predisposición biológica humana|Supone que el niño imita al adulto|Además, muchas adquisiciones son graduales y sensibles a la frecuencia, y el aprendizaje estadístico muestra un input más rico."
     ],
     inc: [

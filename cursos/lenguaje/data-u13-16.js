@@ -93,7 +93,7 @@ window.COURSE.units.push(
     ],
     g: [
       "«Quedamos el martes, digo, el miércoles» es una reparación autoiniciada y ___.|autorreparación|heterorreparación|reparación abierta",
-      "Corregir directamente al otro suele suavizarse con fórmulas como «___».|querrás decir|perdona|o sea",
+      "Corregir directamente al otro suele suavizarse con fórmulas como «___».|querrás decir|te equivocas|eso es falso",
       "Dingemanse et al. (2015) hallaron una reparación iniciada por el otro aproximadamente cada ___ minutos.|1,4|4,1|14",
       "Los niños piden aclaraciones desde los ___ años, aproximadamente.|dos|cuatro|seis",
       "La autorreparación conversacional enlaza con la ___ del modelo de Levelt.|monitorización|conceptualización|articulación"
@@ -269,9 +269,7 @@ window.COURSE.units.push(
     inc: [
       "Sobre el lenguaje y las categorías|El nivel básico es fijo e independiente de la pericia|El prototipo es el mejor ejemplo de la categoría|Las metáforas conceptuales forman familias sistemáticas|El nivel básico cambia con la pericia: para un jardinero, «rosal trepador» puede funcionar como básico."
     ],
-    seq: [
-      "Niveles de una jerarquía de categorías, de más general a más específico|Supraordenado>Básico>Subordinado"
-    ],
+    seq: [],
     cls: [
       "Metáfora conceptual|El tiempo es dinero: «gastar el tiempo»; «ahorrar una hora»; «perder la tarde»|Arriba es bueno: «estar por los suelos»; «venirse arriba»; «subir la moral»"
     ] },
@@ -465,7 +463,7 @@ window.COURSE.units.push(
       "¿Qué cambio observaron Mårtensson et al. (2012) tras tres meses de estudio intensivo de una lengua?|Mayor volumen del hipocampo|Menor grosor cortical frontal|Mejor integridad de sustancia blanca|Aumentó el volumen del hipocampo y el grosor cortical en giros frontales y temporal superior izquierdos. La sustancia blanca es de Luk et al."
     ],
     inc: [
-      "Sobre bilingüismo y ciclo vital|En la infancia, el bilingüismo retrasa el lenguaje|Los estudios retrospectivos son sensibles a confusores|Luk et al. (2011) describieron mejor sustancia blanca en mayores|En la infancia, el bilingüismo no retrasa el lenguaje. Sus ventajas claras en la vida adulta son sociales, culturales y laborales."
+      "Sobre bilingüismo y ciclo vital|Mechelli et al. (2004) estudiaron una muestra amplia|Los estudios retrospectivos son sensibles a confusores|Luk et al. (2011) describieron mejor sustancia blanca en mayores|Su muestra era pequeña, como la de muchos estudios de neuroimagen sobre bilingüismo, que por eso exigen cautela."
     ],
     seq: [],
     cls: [
@@ -627,9 +625,7 @@ window.COURSE.units.push(
     inc: [
       "Sobre la evaluación y la intervención|La evaluación debe centrarse en el número de errores|En un niño bilingüe se exploran todas sus lenguas|La terapia por restricción obliga a comunicarse hablando|Conviene fijarse en qué tipo de errores comete la persona, no solo en cuántos."
     ],
-    seq: [
-      "Componentes del entrenamiento en habilidades sociales|Instrucción>Modelado>Ensayo conductual>Retroalimentación>Tareas para casa"
-    ],
+    seq: [],
     cls: [
       "Población del instrumento|Infantil: MacArthur-Bates; PLON-R; PROLEC-R; CCC-2|Adultos: Test de Boston; Test Barcelona; EPLA; BETA"
     ] }
