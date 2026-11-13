@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Psicopatología · SAIMAP Psicología",
+  "cover_title": "Psicopatología",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre qué es un trastorno mental y cómo se reconoce: concepto e historia, modelos explicativos, DSM-5-TR, CIE-11 y enfoques dimensionales, psicopatología descriptiva de las funciones psíquicas, ansiedad, TOC, trauma, depresión y bipolaridad, psicosis, personalidad, sueño y sexualidad, disociación y síntomas somáticos, adicciones, conducta alimentaria e impulsos. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicopatología · SAIMAP Psicología",
+  "pdf": "Psicopatologia_SAIMAP.pdf",
+  "colors": {
+    "P": "#3E5C76",
+    "A": "#C8553D",
+    "TINT": "#E8EDF2",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02-diagnostico.md",
+    "03-funciones.md",
+    "04-ansiedad-trauma.md",
+    "05-animo-psicosis.md",
+    "06-personalidad-sueno.md",
+    "07-cuerpo-adicciones.md",
+    "08-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02-diagnostico.md",
+    "03-funciones.md",
+    "04-ansiedad-trauma.md",
+    "05-animo-psicosis.md",
+    "06-personalidad-sueno.md",
+    "07-cuerpo-adicciones.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
