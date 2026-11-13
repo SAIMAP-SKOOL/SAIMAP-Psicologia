@@ -12,7 +12,7 @@ El **miedo** es la respuesta a una amenaza **presente e inmediata**: un perro qu
 
 La ansiedad es adaptativa. Según la **ley de Yerkes-Dodson**, el rendimiento sigue una **U invertida**: es máximo con una activación moderada y cae con poca o con demasiada. La ansiedad es **patológica** cuando es desproporcionada a la amenaza real, persiste e interfiere en la vida. Los trastornos de ansiedad son más frecuentes en mujeres (en torno a 2:1) y su heredabilidad se sitúa aproximadamente entre el 30 y el 50 %. El DSM-5-TR agrupa aquí la ansiedad por separación, el mutismo selectivo, la fobia específica, la ansiedad social, el pánico, la agorafobia, el TAG y los cuadros inducidos por sustancias o por otra afección médica; el TOC y el TEPT salieron del capítulo en el DSM-5 (Unidades 8 y 9).
 
-La **fobia específica** es un miedo o ansiedad intensos ante un objeto o situación concretos, que casi siempre provoca miedo inmediato, se evita o se soporta con gran malestar, es desproporcionado y dura **6 meses o más**. Se especifica el tipo: **animal**, **entorno natural** (alturas, tormentas, agua), **sangre-inyecciones-heridas**, **situacional** (aviones, ascensores) y **otros**. Suele empezar en la infancia: las fobias a animales, pronto; las situacionales, más tarde. En el estudio ESEMeD-España fue el segundo trastorno en prevalencia vital.
+La **fobia específica** es un miedo o ansiedad intensos ante un objeto o situación concretos, que casi siempre provoca miedo inmediato, se evita o se soporta con gran malestar, es desproporcionado y dura **típicamente 6 meses o más**. Se especifica el tipo: **animal**, **entorno natural** (alturas, tormentas, agua), **sangre-inyecciones-heridas**, **situacional** (aviones, ascensores) y **otros**. Suele empezar en la infancia: las fobias a animales, pronto; las situacionales, más tarde. En el estudio ESEMeD-España fue el segundo trastorno en prevalencia vital.
 
 La fobia a la **sangre-inyecciones-heridas** (SIH) es una excepción fisiológica: produce una **respuesta bifásica**, con un aumento inicial de la frecuencia cardiaca y la tensión arterial seguido de una caída vasovagal que puede acabar en desmayo. Por eso se trata con la **tensión aplicada** de Öst: tensar los músculos para evitar la caída de la tensión arterial.
 
@@ -38,7 +38,7 @@ Seligman (1971) propuso la **preparación** (*preparedness*): los miedos a estí
 
 ### 7.2 Trastorno de ansiedad social
 
-El **trastorno de ansiedad social** es un miedo o ansiedad intensos en situaciones sociales en las que la persona puede ser **examinada** por otros: conversar con desconocidos, comer en público, hablar en una reunión. El núcleo es el miedo a la **evaluación negativa**: actuar o mostrar síntomas de ansiedad (ruborizarse, temblar, sudar) que lleven a la humillación, al rechazo o a ofender a alguien. Las situaciones casi siempre provocan ansiedad, se evitan o se soportan con malestar intenso, la respuesta es desproporcionada y dura **6 meses o más**. Existe el especificador **«solo actuación»**, cuando el miedo se limita a hablar o actuar en público. El DSM-5-TR ya no usa «fobia social» como sinónimo.
+El **trastorno de ansiedad social** es un miedo o ansiedad intensos en situaciones sociales en las que la persona puede ser **examinada** por otros: conversar con desconocidos, comer en público, hablar en una reunión. El núcleo es el miedo a la **evaluación negativa**: actuar o mostrar síntomas de ansiedad (ruborizarse, temblar, sudar) que lleven a la humillación, al rechazo o a ofender a alguien. Las situaciones casi siempre provocan ansiedad, se evitan o se soportan con malestar intenso, la respuesta es desproporcionada y dura **típicamente 6 meses o más**. Existe el especificador **«solo actuación»**, cuando el miedo se limita a hablar o actuar en público. El DSM-5-TR ya no usa «fobia social» como sinónimo.
 
 La prevalencia anual en Estados Unidos ronda el **7 %**, según el DSM. Suele empezar en la **adolescencia** y, sin tratamiento, tiende a la cronicidad. En el triple sistema de respuesta:
 
@@ -48,7 +48,7 @@ La prevalencia anual en Estados Unidos ronda el **7 %**, según el DSM. Suele em
 | Fisiológico | Rubor, temblor, sudoración; preocupan sobre todo los síntomas visibles |
 | Motor | Evitación, escape y conductas de seguridad, como no mirar a los ojos |
 
-**Timidez no es ansiedad social.** La **timidez** es un rasgo dimensional y muy frecuente; la mayoría de las personas tímidas **no** cumple criterios del trastorno. La diferencia está en la intensidad, la evitación, el malestar y el deterioro. Lucía, tímida, tarda en soltarse en una cena con gente nueva, pero acaba disfrutando. Marcos ha rechazado un ascenso para no hablar en reuniones y pasa días repasando cada frase que dijo: solo él tiene un trastorno. Como factor temperamental de riesgo se ha estudiado la **inhibición conductual** descrita por Kagan: la tendencia infantil a retraerse ante lo nuevo. El solapamiento con el trastorno de la personalidad evitativa es grande; el evitativo es más generalizado (Unidad 12).
+**Timidez no es ansiedad social.** La **timidez** es un rasgo dimensional y muy frecuente; la mayoría de las personas tímidas **no** cumple criterios del trastorno. La diferencia está en la intensidad, la evitación, el malestar y el deterioro. Nuria, tímida, tarda en soltarse en una cena con gente nueva, pero acaba disfrutando. Marcos ha rechazado un ascenso para no hablar en reuniones y pasa días repasando cada frase que dijo: solo él tiene un trastorno. Como factor temperamental de riesgo se ha estudiado la **inhibición conductual** descrita por Kagan: la tendencia infantil a retraerse ante lo nuevo. El solapamiento con el trastorno de la personalidad evitativa es grande; el evitativo es más generalizado (Unidad 12).
 
 **Modelos cognitivos.** Dos modelos explican por qué la ansiedad social se mantiene aunque las situaciones temidas no acaben en catástrofe:
 
@@ -59,7 +59,7 @@ En ambos, el problema no es la falta de habilidades sociales, sino la atención 
 
 ### 7.3 Trastorno de pánico y agorafobia
 
-Una **crisis o ataque de pánico** es la aparición súbita de miedo o malestar intenso que alcanza su **máximo en minutos**, con **al menos 4 de 13 síntomas**: palpitaciones, sudoración, temblor, sensación de falta de aire, de ahogo, dolor torácico, náuseas, mareo, escalofríos o calor, parestesias, desrealización o despersonalización, miedo a perder el control o a volverse loco y miedo a morir. Puede surgir desde la calma o desde un estado de ansiedad.
+Una **crisis o ataque de pánico** es la aparición súbita de miedo o malestar intenso que alcanza su **máximo en minutos**, con **al menos 4 de 13 síntomas**: palpitaciones, sudoración, temblor, sensación de falta de aire, de ahogo, dolor torácico, náuseas, mareo, escalofríos o calor, parestesias, desrealización o despersonalización, miedo a perder el control o a volverse loco y miedo a morir. Puede aparecer tanto en reposo como cuando la persona ya estaba ansiosa.
 
 El **trastorno de pánico** exige crisis **inesperadas y recurrentes**, y que al menos a una le siga **un mes o más** de inquietud persistente por nuevas crisis o sus consecuencias («¿y si me da un infarto?») o un cambio desadaptativo de la conducta (dejar el gimnasio para no acelerar el corazón). Las crisis **esperadas**, ligadas a una situación temida, también existen: por eso el ataque de pánico es, además, un **especificador** aplicable a cualquier trastorno («depresión con ataques de pánico»). La prevalencia anual ronda el **2-3 %**, según el DSM, y suele iniciarse en la adultez temprana.
 
@@ -77,9 +77,9 @@ Como muestra la figura 7.4, el ciclo se cierra sobre sí mismo: la ansiedad inte
 - **Barlow** distingue la **falsa alarma** (una reacción de miedo sin peligro real), la **alarma aprendida** (que queda condicionada a señales) y el condicionamiento **interoceptivo**: las propias sensaciones corporales se convierten en señales de una nueva crisis.
 - **Klein (1993)** propuso la hipótesis de la **falsa alarma de asfixia**: un detector de asfixia demasiado sensible se dispararía sin motivo. Estas hipótesis se estudian con **pruebas de provocación** (CO₂, hiperventilación, lactato).
 
-**La agorafobia** es un miedo o ansiedad intensos en **al menos 2 de 5 situaciones**: transporte público, espacios abiertos, sitios cerrados, hacer cola o estar entre una multitud, y estar fuera de casa solo. Se temen porque escapar sería difícil o no habría ayuda si aparecieran síntomas de pánico u otros síntomas incapacitantes o embarazosos (caerse, en una persona mayor; perder el control de esfínteres). Las situaciones se evitan, exigen un acompañante o se soportan con gran malestar, durante **6 meses o más**. Su prevalencia es aproximadamente del 1-2 %.
+**La agorafobia** es un miedo o ansiedad intensos en **al menos 2 de 5 situaciones**: transporte público, espacios abiertos, sitios cerrados, hacer cola o estar entre una multitud, y estar fuera de casa solo. Se temen porque escapar sería difícil o no habría ayuda si aparecieran síntomas de pánico u otros síntomas incapacitantes o embarazosos (caerse, en una persona mayor; perder el control de esfínteres). Las situaciones se evitan, exigen un acompañante o se soportan con gran malestar, durante **típicamente 6 meses o más**. Su prevalencia es aproximadamente del 1-2 %.
 
-Hasta el DSM-IV se hablaba de «trastorno de pánico con o sin agorafobia». Desde el DSM-5 son **diagnósticos independientes**: la agorafobia puede existir sin pánico y, si se cumplen ambos, se diagnostican los dos. Ana tuvo dos crisis en el metro y ahora solo sale acompañada: tiene ambos trastornos. El tratamiento con más apoyo es la exposición *in vivo* dentro de la terapia cognitivo-conductual (Tratamientos).
+Hasta el DSM-IV se hablaba de «trastorno de pánico con o sin agorafobia». Desde el DSM-5 son **diagnósticos independientes**: la agorafobia puede existir sin pánico y, si se cumplen ambos, se diagnostican los dos. Ana ha tenido varias crisis inesperadas, vive pendiente de que se repitan y desde hace más de 6 meses evita el metro y las colas o solo sale acompañada: tiene ambos trastornos. El tratamiento con más apoyo es la exposición *in vivo* dentro de la terapia cognitivo-conductual (Tratamientos).
 
 ### 7.4 Trastorno de ansiedad generalizada y otros trastornos de ansiedad
 
@@ -295,7 +295,7 @@ Con la **rumiación** y la **preocupación**, el TOC comparte el pensamiento rep
 
 ### Clave PIR
 
-**Prioridad alta.** Según análisis de academias, el TOC aporta varias preguntas en cada convocatoria. Se preguntan la definición de obsesión y compulsión (incluidos los actos mentales), los especificadores de *insight*, el modelo de Salkovskis, la fusión pensamiento-acción y qué trastornos forman el grupo en cada sistema. Trampas típicas: creer que el *insight* ausente obliga a diagnosticar psicosis, confundir TOC y TPOC, situar la hipocondría en el mismo capítulo en el DSM-5-TR y en la CIE-11, y exagerar el efecto del oso blanco.
+**Prioridad alta.**  Se preguntan la definición de obsesión y compulsión (incluidos los actos mentales), los especificadores de *insight*, el modelo de Salkovskis, la fusión pensamiento-acción y qué trastornos forman el grupo en cada sistema. Trampas típicas: creer que el *insight* ausente obliga a diagnosticar psicosis, confundir TOC y TPOC, situar la hipocondría en el mismo capítulo en el DSM-5-TR y en la CIE-11, y exagerar el efecto del oso blanco.
 
 ### Autoevaluación
 
@@ -362,7 +362,7 @@ Como muestra la figura 9.1, el tiempo es clave en el diagnóstico diferencial de
 - **Modelo cognitivo** (Ehlers y Clark, 2000). El TEPT persiste cuando la persona siente una **amenaza actual**, no pasada. Esa sensación procede de **valoraciones negativas** del trauma o de sus secuelas («nunca estaré a salvo», «fue culpa mía») y de una **memoria del trauma mal elaborada** y poco contextualizada, que se reactiva con claves sensoriales y se vive como si ocurriera ahora. La evitación y la supresión impiden actualizar esa memoria.
 - **Representación dual** (Brewin y colaboradores). Distingue **memorias sensoriales**, que se activan ante señales situacionales y explican los *flashbacks*, de **memorias verbales** contextualizadas, que sitúan el suceso en el pasado.
 
-Un ejemplo: Sara sufrió un atropello hace tres meses. Cuando oye un frenazo nota el golpe «como si estuviera pasando», evita esa calle, se culpa y duerme mal: cumple criterios de TEPT.
+Un ejemplo: Sara sufrió un atropello hace tres meses. Cuando oye un frenazo nota el golpe «como si estuviera pasando», evita esa calle, se culpa, está convencida de que ya no hay ningún lugar seguro, se sobresalta con cualquier ruido y duerme mal: el cuadro es compatible con un TEPT.
 
 ### 9.2 El TEPT complejo de la CIE-11 y el debate sobre la memoria traumática
 
@@ -378,7 +378,7 @@ Un ejemplo: Sara sufrió un atropello hace tres meses. Cuando oye un frenazo not
 
 Figura 9.2. **Del TEPT al TEPT complejo en la CIE-11.** A los tres núcleos del TEPT (reexperimentación, evitación y amenaza actual) se suman tres alteraciones de la autoorganización: desregulación afectiva, autoconcepto negativo y dificultades relacionales. Elaboración propia.
 
-Como muestra la figura 9.2, el TEPT complejo no es un trastorno distinto en su base, sino el TEPT más un segundo bloque de síntomas. Sustituye a la «transformación persistente de la personalidad tras experiencia catastrófica» de la CIE-10, y los estudios de campo apoyan la distinción entre ambos cuadros. El solapamiento con el trastorno límite de la personalidad es un tema de discusión clínica (Unidad 12).
+Como muestra la figura 9.2, el TEPT complejo incluye los requisitos del TEPT más un segundo bloque de síntomas; se diagnostica uno u otro, no ambos. Sustituye a la «transformación persistente de la personalidad tras experiencia catastrófica» de la CIE-10, y los estudios de campo apoyan la distinción entre TEPT y TEPT complejo. El solapamiento con el trastorno límite de la personalidad es un tema de discusión clínica (Unidad 12).
 
 | Aspecto | DSM-5-TR | CIE-11 |
 | --- | --- | --- |
@@ -407,7 +407,7 @@ En la **CIE-11**, la **reacción de estrés agudo** **no es un trastorno mental*
 
 Se especifican subtipos: con estado de ánimo deprimido, con ansiedad, mixto con ansiedad y estado de ánimo deprimido, con alteración de la conducta, mixto con alteración de las emociones y la conducta, y no especificado. El DSM-5-TR aclara que los síntomas **subumbrales** que aparecen ante un estresor se codifican como trastorno de adaptación. La CIE-11 lo describe a partir de dos rasgos: la **preocupación** por el estresor y sus consecuencias, y el **fallo de adaptación**, que interfiere en la vida diaria; suele resolverse en unos 6 meses.
 
-Un ejemplo: Pablo empezó a dormir mal, a irritarse con su pareja y a faltar a clase dos semanas después de que su empresa cerrara. No tiene síntomas suficientes para una depresión, pero su malestar es mayor de lo esperable y le impide funcionar. Es un trastorno de adaptación con estado de ánimo mixto.
+Un ejemplo: Pablo empezó a dormir mal, a irritarse con su pareja y a faltar al trabajo dos semanas después de que anunciaran el cierre de su empresa. No tiene síntomas suficientes para una depresión, pero su malestar es mayor de lo esperable y le impide funcionar. Es un trastorno de adaptación mixto con alteración de las emociones y la conducta.
 
 **Trastornos de la infancia ligados a la privación de cuidados.** Dos diagnósticos del grupo aparecen en niños que han sufrido un **cuidado gravemente insuficiente**: negligencia, cambios repetidos de cuidadores o crianza en instituciones con pocos adultos por niño.
 
@@ -420,7 +420,7 @@ El desarrollo del apego se estudia en Psicología del Desarrollo.
 
 El **duelo** es la reacción normal a la muerte de un ser querido. Puede ser muy intenso y durar mucho tiempo sin ser patológico. El DSM-5-TR incorporó en 2022 el **trastorno de duelo prolongado**, que la CIE-11 ya incluía. Ambos sistemas lo describen como un duelo que persiste más allá de lo esperable y causa malestar o deterioro significativos.
 
-**DSM-5-TR.** Exige que hayan pasado **al menos 12 meses** desde la muerte (**6 meses en niños y adolescentes**) y una respuesta de duelo persistente, presente la mayoría de los días, con **anhelo intenso** de la persona fallecida o **preocupación** constante por ella. Debe acompañarse de **al menos 3 síntomas** de una lista que incluye:
+**DSM-5-TR.** Exige que hayan pasado **al menos 12 meses** desde la muerte (**6 meses en niños y adolescentes**) y una respuesta de duelo persistente, presente la mayoría de los días y casi a diario durante al menos el último mes, con **anhelo intenso** de la persona fallecida o **preocupación** constante por ella. Debe acompañarse de **al menos 3 síntomas** de una lista que incluye:
 
 - Alteración de la identidad, como si una parte de uno hubiera muerto.
 - Marcada incredulidad ante la muerte.

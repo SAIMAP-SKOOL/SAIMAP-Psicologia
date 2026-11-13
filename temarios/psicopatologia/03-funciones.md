@@ -76,7 +76,7 @@ Los procesos normales de codificación, almacenamiento y recuperación se estudi
 - **Amnesia anterógrada**: incapacidad de **fijar información nueva** desde el inicio del problema. La persona olvida lo que ha comido o lo que le acaban de decir.
 - **Amnesia retrógrada**: pérdida de recuerdos **anteriores** al inicio.
 
-En la amnesia retrógrada de causa orgánica se cumple con frecuencia la **ley de Ribot**: los recuerdos **más recientes** se pierden antes y los **más antiguos** se conservan mejor. Una mujer con una demencia incipiente olvida la visita de ayer, pero recuerda con detalle su boda o la casa de su infancia.
+En la amnesia retrógrada de causa orgánica se cumple con frecuencia la **ley de Ribot**: los recuerdos **más recientes** se pierden antes y los **más antiguos** se conservan mejor. Un hombre que sufrió un traumatismo craneal no recuerda los meses previos al accidente, pero conserva con detalle los recuerdos de su boda o de su infancia.
 
 **Amnesia orgánica frente a disociativa.** Es una distinción básica para el diagnóstico:
 
@@ -138,13 +138,13 @@ Cuatro movimientos repetitivos se confunden a menudo:
 
 **Consenso:** la conciencia tiene alteraciones de nivel (de la obnubilación al coma) y de contenido (estado crepuscular, onirismo, delirium), y el delirium es un síndrome agudo y fluctuante que siempre exige buscar una causa médica. La amnesia orgánica suele afectar a la fijación de información nueva y sigue el gradiente de Ribot, mientras que la disociativa afecta a información autobiográfica. El insight es dimensional.
 
-**Debate:** los síntomas de primer rango de Schneider fueron durante décadas la base del diagnóstico de esquizofrenia, pero hoy se cuestiona su especificidad, y el DSM-5 y la CIE-11 les han restado peso. También se discute cómo interpretar las amnesias de sucesos traumáticos: Otgaar et al. (2019) encuentran poco apoyo a la represión inconsciente, y Brewin (2021) matiza esa crítica.
+**Debate:** los síntomas de primer rango de Schneider fueron durante décadas la base del diagnóstico de esquizofrenia, pero hoy se cuestiona su especificidad, y el DSM-5 y la CIE-11 les han restado peso.
 
 ### Mito frecuente
 
-**Mito:** «Los recuerdos traumáticos se reprimen por completo y, con la terapia adecuada, se pueden recuperar intactos y con fiabilidad».
+**Mito:** «Quien confabula está mintiendo».
 
-**Realidad:** el apoyo a la represión inconsciente es débil, aunque la creencia está muy extendida en la población, y las técnicas sugestivas pueden generar recuerdos falsos (Otgaar et al., 2019). Brewin (2021) matiza la crítica, pero hay acuerdo en no aceptar sin reservas un recuerdo recuperado que no esté corroborado.
+**Realidad:** la confabulación rellena lagunas de memoria sin intención de engañar; la persona cree lo que cuenta. Es típica del síndrome de Korsakoff. La mentira patológica sin déficit de memoria es la pseudología fantástica.
 
 ### Conceptos clave
 
@@ -170,7 +170,7 @@ a) obnubilación
 b) estupor
 c) somnolencia
 
-**2.** Un hombre con demencia incipiente olvida lo que hizo ayer, pero recuerda bien su infancia. Es un ejemplo de…
+**2.** Tras un traumatismo craneal, un hombre ha perdido los recuerdos de los meses previos, pero recuerda bien su infancia. Es un ejemplo de…
 a) la ley de Ribot
 b) amnesia disociativa
 c) pseudología fantástica
@@ -388,7 +388,7 @@ a) refleja
 b) extracampina
 c) funcional
 
-**2.** Una persona con consumo crónico de alcohol oye voces amenazantes, pero sabe que no son reales. Es…
+**2.** Una persona con consumo crónico de alcohol oye voces amenazantes nítidas que suenan en la habitación, pero sabe que no son reales. Es…
 a) una alucinosis
 b) una pseudoalucinación
 c) una ilusión

@@ -98,7 +98,7 @@
 
 ## Créditos de las ilustraciones
 
-Las figuras 1.1, 1.5, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 6.1, 6.2, 7.1, 7.3, 7.4, 7.5, 8.1, 8.2, 9.1, 9.2, 10.1, 10.2, 10.3, 10.4, 11.2, 11.4, 12.1, 13.3, 15.1, 15.2 y 16.1 son de **elaboración propia** de SAIMAP (esquemas y gráficos). Las marcadas como esquema son ilustrativas y no representan datos; las que muestran datos citan su fuente en el pie.
+Las figuras 1.1, 1.6, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 6.1, 6.2, 7.1, 7.3, 7.4, 7.5, 8.1, 8.2, 9.1, 9.2, 10.1, 10.2, 10.3, 10.4, 11.2, 11.4, 12.1, 13.3, 15.1, 15.2 y 16.1 son de **elaboración propia** de SAIMAP (esquemas y gráficos). Las marcadas como esquema son ilustrativas y no representan datos; las que muestran datos citan su fuente en el pie.
 
 Las imágenes siguientes proceden de Wikimedia Commons y se usan según sus licencias. Se reproducen sin cambios salvo el tamaño y, donde se indica, el fondo.
 
@@ -107,7 +107,7 @@ Las imágenes siguientes proceden de Wikimedia Commons y se usan según sus lice
 | 1.2 Cráneos trepanados de la Edad del Bronce | Wisi eu | [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Crânes trépanation âge du bronze.jpg](https://commons.wikimedia.org/wiki/File:Cr%C3%A2nes_tr%C3%A9panation_%C3%A2ge_du_bronze.jpg) |
 | 1.3 *El padre Jofré protegiendo a un loco* | Joaquín Sorolla | Dominio público | [Jofre sorolla.jpg](https://commons.wikimedia.org/wiki/File:Jofre_sorolla.jpg) |
 | 1.4 *En Bedlam* | William Hogarth (Yale Center for British Art) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | [William Hogarth - A Rake's Progress, Plate VIII, In Bedlam - B1981.25.1418 - Yale Center for British Art.jpg](https://commons.wikimedia.org/wiki/File:William_Hogarth_-_A_Rake%27s_Progress,_Plate_VIII,_In_Bedlam_-_B1981.25.1418_-_Yale_Center_for_British_Art.jpg) |
-| 1.6 Pinel en la Salpêtrière | Tony Robert-Fleury | Dominio público | [Philippe Pinel à la Salpêtrière.jpg](https://commons.wikimedia.org/wiki/File:Philippe_Pinel_%C3%A0_la_Salp%C3%AAtri%C3%A8re.jpg) |
+| 1.5 Pinel en la Salpêtrière | Tony Robert-Fleury | Dominio público | [Philippe Pinel à la Salpêtrière.jpg](https://commons.wikimedia.org/wiki/File:Philippe_Pinel_%C3%A0_la_Salp%C3%AAtri%C3%A8re.jpg) |
 | 1.7 Emil Kraepelin | Wellcome Collection | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [Portrait Emil Kraepelin. Wellcome L0030730.jpg](https://commons.wikimedia.org/wiki/File:Portrait_Emil_Kraepelin._Wellcome_L0030730.jpg) |
 | 2.1 Sigmund Freud | Max Halberstadt | Dominio público | [Sigmund Freud, by Max Halberstadt (cropped).jpg](https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg) |
 | 7.2 El pequeño Albert | John B. Watson | Dominio público | [Little-albert.jpg](https://commons.wikimedia.org/wiki/File:Little-albert.jpg) |

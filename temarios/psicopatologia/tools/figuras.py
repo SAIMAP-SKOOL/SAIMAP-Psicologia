@@ -217,7 +217,7 @@ if want('u07_mowrer'):
     box(ax, 7.6, 3.9, 2.0, .8, 'Evitación /\nhuida', G, 8.2); arr(ax, (8.65, 3.9), (9.3, 3.9)); box(ax, 10.5, 3.9, 2.2, .8, 'Alivio de\nla ansiedad', G, 8.2)
     arr(ax, (5.75, 3.9), (6.55, 3.9))
     arr(ax, (10.5, 3.45), (7.6, 3.45), G, rad=-.4); txt(ax, 9.05, 2.45, 'refuerzo negativo', 7.8, G, style='italic')
-    box(ax, 6.0, 1.0, 7.8, .9, 'Como la persona nunca vuelve a encontrarse con el EC sin el EI,\nel miedo no se extingue y la evitación se mantiene', SOFT, 8, tc=INK, bold=False, ec=MUTE)
+    box(ax, 6.0, 1.0, 7.8, .9, 'Como la evitación impide encontrarse con el EC sin el EI,\nel miedo no se extingue y la evitación se mantiene', SOFT, 8, tc=INK, bold=False, ec=MUTE)
     note(ax, y=-.06)
     save(fig, 'u07_mowrer.png')
 

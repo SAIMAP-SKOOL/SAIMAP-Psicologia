@@ -12,7 +12,7 @@ Una **clasificación** es un sistema ordenado de categorías. El **diagnóstico*
 
 Las funciones principales del diagnóstico son cinco:
 
-1. **Comunicación.** Una etiqueta compartida resume mucha información. «Trastorno de pánico con agorafobia» orienta a cualquier profesional sobre lo que le ocurre a la persona.
+1. **Comunicación.** Una etiqueta compartida resume mucha información. «Trastorno de pánico» orienta a cualquier profesional sobre lo que le ocurre a la persona.
 2. **Investigación.** Comparar estudios exige participantes que cumplan los mismos criterios.
 3. **Pronóstico.** Saber qué categoría encaja ayuda a prever el curso más probable.
 4. **Decisión terapéutica.** Muchos tratamientos se han probado en grupos definidos por su diagnóstico.
@@ -79,7 +79,7 @@ La **CIE-11** fue aprobada por la Asamblea Mundial de la Salud en mayo de 2019 y
 - En **personalidad**, sustituye los tipos por un diagnóstico de gravedad (leve, moderado, grave) con especificadores de cinco dominios de rasgos y un especificador de patrón límite (Unidad 12).
 - En **psicosis**, la esquizofrenia **pierde los subtipos** y se añaden descriptores de síntomas para valorar la intensidad de cada dimensión (Unidad 11).
 
-**Categorías nuevas o reubicadas.** Entre otras, la **catatonía** como agrupación propia; el **bipolar II**; en el grupo obsesivo-compulsivo, el trastorno dismórfico corporal, el **síndrome de referencia olfativa**, la acumulación, la excoriación y la **hipocondría**; el **TEPT complejo** y el **duelo prolongado**; el trastorno por atracón y el ARFID; la disforia de integridad corporal; el **trastorno por videojuegos**; el trastorno de **conducta sexual compulsiva**; el explosivo intermitente y el trastorno disfórico premenstrual. El **trastorno de distrés corporal** sustituye a los antiguos trastornos somatomorfos (Unidad 14).
+**Categorías nuevas o reubicadas.** Entre otras, la **catatonía** como agrupación propia; el **bipolar II**; en el grupo obsesivo-compulsivo, el trastorno dismórfico corporal, el **síndrome de referencia olfativa**, la acumulación, la excoriación y la **hipocondría**; el **TEPT complejo** y el **duelo prolongado**; el trastorno por atracón y el ARFID; la disforia de integridad corporal; el **trastorno por videojuegos**; el trastorno de **conducta sexual compulsiva**; el explosivo intermitente y el trastorno disfórico premenstrual. El **trastorno de distrés corporal** sustituye a la mayoría de los antiguos trastornos somatomorfos (la hipocondría pasa al grupo obsesivo-compulsivo) (Unidad 14).
 
 **Lo que sale del capítulo de trastornos mentales.** La **reacción de estrés agudo** deja de ser un trastorno y pasa a los factores que influyen en el estado de salud: se entiende como una respuesta esperable ante un suceso extremo. Los trastornos del **sueño-vigilia** y las afecciones relacionadas con la **salud sexual** tienen capítulos propios. La **incongruencia de género** se sitúa en el capítulo de salud sexual, **fuera de los trastornos mentales**, para reducir el estigma sin dejar de dar acceso a la atención sanitaria (Unidad 13).
 

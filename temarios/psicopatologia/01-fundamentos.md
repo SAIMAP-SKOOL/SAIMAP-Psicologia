@@ -14,7 +14,7 @@ Para decidir qué es anormal no hay un criterio único, sino varios, cada uno co
 
 **Criterio estadístico.** Lo anormal es lo que se aleja de la media de una población de referencia. Si una característica se distribuye de forma normal, aproximadamente el 68 % de las personas queda a menos de una desviación típica de la media, en torno al 95 % a menos de dos y cerca del 99,7 % a menos de tres. Es objetivo, pero califica de anormal lo infrecuente aunque sea deseable (una capacidad intelectual muy alta) y no dice qué variables medir ni dónde poner el corte.
 
-**Criterio social o consensual.** Lo anormal es lo que se aparta de las normas del grupo. H. S. Sullivan habló de **validación consensual**: la comunidad acuerda qué resulta aceptable. Recoge la adaptación social, que a menudo es un objetivo terapéutico, pero cae en el **relativismo** cultural e histórico: la homosexualidad figuró como trastorno en el DSM hasta 1973-1974.
+**Criterio social o consensual.** Lo anormal es lo que se aparta de las normas del grupo. H. S. Sullivan habló de **validación consensual**: la comunidad acuerda qué resulta aceptable. Recoge la adaptación social, que a menudo es un objetivo terapéutico, pero cae en el **relativismo** cultural e histórico: la homosexualidad figuró como trastorno en el DSM hasta 1973-1974, y la «homosexualidad egodistónica» se mantuvo hasta el DSM-III-R (1987).
 
 **Criterio subjetivo.** La propia persona juzga su malestar. Respeta la vivencia de quien sufre, pero falla cuando falta **conciencia de enfermedad**, algo frecuente en la manía, la psicosis o la anorexia. Además, no todo el que consulta tiene un trastorno.
 
@@ -62,17 +62,17 @@ Como refleja la figura 1.4, los internos podían convertirse en espectáculo par
 
 ### 1.3 El nacimiento de la psicopatología científica
 
-**Pinel y el tratamiento moral.** **Philippe Pinel** (1745-1826) dirigió el hospital de Bicêtre (1793) y después la Salpêtrière, en París, donde impulsó el **tratamiento moral**: trato humano, orden, actividad y observación de cada paciente en lugar de cadenas y castigos. La escena de la «liberación de las cadenas» es en parte leyenda: el supervisor **Jean-Baptiste Pussin** tuvo un papel clave. En Inglaterra, **William Tuke** fundó el York Retreat (1796) con principios parecidos.
-
-![](u01_linea_tiempo.png)
-
-Figura 1.5. **Hitos de la historia de la psicopatología.** Eje temporal desde la trepanación prehistórica hasta las propuestas para el futuro DSM, con Hipócrates, Valencia (1409), Weyer, Pinel, Kraepelin, Bleuler, Jaspers, el DSM-III, el DSM-5, la CIE-11 y el DSM-5-TR. Esquema ilustrativo con fechas reales. Elaboración propia.
-
-**El modelo médico del siglo XIX.** Como muestra la figura 1.5, el siglo XIX situó los trastornos mentales en el terreno de la medicina. **Griesinger** lo resumió así: «las enfermedades mentales son enfermedades del cerebro». Lo reforzó un hallazgo: la **parálisis general progresiva**, con síntomas psiquiátricos y demencia, era una consecuencia tardía de la sífilis; Noguchi y Moore (1913) hallaron el *Treponema* en el cerebro de los pacientes.
+**Pinel y el tratamiento moral.** **Philippe Pinel** (1745-1826) dirigió el hospital de Bicêtre (1793) y después la Salpêtrière, en París, donde impulsó el **tratamiento moral**: trato humano, orden, actividad y observación de cada paciente en lugar de cadenas y castigos. La escena de la «liberación de las cadenas» es en parte leyenda: el supervisor **Jean-Baptiste Pussin** tuvo un papel clave. En Inglaterra, **William Tuke** fundó el York Retreat (1796) con principios parecidos. La figura 1.5 muestra cómo la pintura idealizó la escena.
 
 ![](wm-pinel.jpg)
 
-Figura 1.6. **Pinel en la Salpêtrière (Tony Robert-Fleury).** La pintura idealiza la «liberación de las cadenas»; en la reforma real fue clave también el supervisor Jean-Baptiste Pussin. Fuente: Tony Robert-Fleury, Wikimedia Commons, dominio público.
+Figura 1.5. **Pinel en la Salpêtrière (Tony Robert-Fleury).** La pintura idealiza la «liberación de las cadenas»; en la reforma real fue clave también el supervisor Jean-Baptiste Pussin. Fuente: Tony Robert-Fleury, Wikimedia Commons, dominio público.
+
+![](u01_linea_tiempo.png)
+
+Figura 1.6. **Hitos de la historia de la psicopatología.** Eje temporal desde la trepanación prehistórica hasta las propuestas para el futuro DSM, con Hipócrates, Valencia (1409), Weyer, Pinel, Kraepelin, Bleuler, Jaspers, el DSM-III, el DSM-5, la CIE-11 y el DSM-5-TR. Esquema ilustrativo con fechas reales. Elaboración propia.
+
+**El modelo médico del siglo XIX.** Como muestra la figura 1.6, el siglo XIX situó los trastornos mentales en el terreno de la medicina. **Griesinger** lo resumió así: «las enfermedades mentales son enfermedades del cerebro». Lo reforzó un hallazgo: la **parálisis general progresiva**, con síntomas psiquiátricos y demencia, era una consecuencia tardía de la sífilis; Noguchi y Moore (1913) hallaron el *Treponema* en el cerebro de los pacientes.
 
 **Kraepelin, Bleuler y Jaspers.** **Emil Kraepelin** clasificó los trastornos por su **curso y pronóstico**. En la 6.ª edición de su tratado (1899) separó la *dementia praecox*, de curso deteriorante, de la **locura maníaco-depresiva**, de curso episódico. **Eugen Bleuler** (1911) acuñó el término **esquizofrenia**, que alude a una escisión de las funciones psíquicas, no de la personalidad, y distinguió síntomas fundamentales, las **cuatro A** (asociaciones laxas, afecto aplanado o inapropiado, ambivalencia y autismo), de síntomas accesorios como delirios y alucinaciones. **Karl Jaspers**, en su *Psicopatología general* (1913), fundó el método fenomenológico y distinguió **comprender** (captar relaciones de sentido) de **explicar** (establecer relaciones causales); de ahí el delirio primario, incomprensible, y la distinción entre **proceso** y **desarrollo**. Después, **Kurt Schneider** describió los **síntomas de primer rango** (Unidad 5).
 
@@ -118,7 +118,7 @@ Tres fuentes de datos son de referencia:
 
 ### Consenso y debate
 
-**Consenso:** ningún criterio aislado define la anormalidad; la práctica combina disfunción, malestar y deterioro, como recoge la definición del DSM-5-TR. Los trastornos mentales son frecuentes: alrededor de la mitad de la población cumplirá criterios de alguno a lo largo de la vida, con inicio típico en la adolescencia y la juventud (McGrath et al., 2023).
+**Consenso:** ningún criterio aislado define la anormalidad; la práctica combina disfunción, malestar y deterioro, como recoge la definición del DSM-5-TR. Los trastornos mentales son frecuentes: cerca de tres de cada diez personas han tenido alguno a lo largo de su vida, y el riesgo acumulado hasta los 75 años ronda la mitad, con inicio típico en la adolescencia y la juventud (McGrath et al., 2023).
 
 **Debate:** dónde termina el componente científico de la definición de trastorno y dónde empieza el valorativo, y si una «función natural» puede establecerse sin juicios de valor.
 
@@ -182,12 +182,7 @@ c) prevalencia vital
 
 ### 2.1 El modelo biomédico
 
-El **modelo biomédico** entiende el trastorno mental como una **enfermedad** con una base orgánica: alteraciones genéticas, de la neurotransmisión o de la estructura y el funcionamiento cerebral. Sus supuestos son los de la medicina general:
-
-1. Detrás de los síntomas hay una **anormalidad biológica** en la estructura o en la función de algún sistema.
-2. El diagnóstico se hace a partir de **signos y síntomas**, a veces con pruebas complementarias, y es **categorial**: se tiene o no se tiene la enfermedad.
-3. El diagnóstico orienta el **pronóstico**.
-4. El tratamiento, sobre todo **biológico**, se dirige a la causa supuesta.
+El **modelo biomédico** entiende el trastorno mental como una **enfermedad** con una base orgánica: alteraciones genéticas, de la neurotransmisión o de la estructura y el funcionamiento cerebral. Traslada a la psicopatología la lógica de la medicina general: busca una **alteración biológica** que explique los síntomas, diagnostica de forma **categorial** (se tiene o no la enfermedad) a partir de signos y síntomas, y espera que el diagnóstico prediga el **curso** y oriente un tratamiento **biológico** dirigido a esa causa.
 
 **Aportaciones.** El modelo tiene éxitos claros. La parálisis general progresiva resultó ser una infección del cerebro por sífilis (Unidad 1). Los psicofármacos, desde la clorpromazina en 1952, cambiaron el pronóstico de muchas personas y la vida de los hospitales. La genética ha mostrado que casi todos los rasgos y trastornos tienen un componente hereditario. Una revisión de cinco décadas de estudios de gemelos, con 17.804 rasgos y más de 14,5 millones de pares de gemelos, estimó una **heredabilidad media de los rasgos humanos de ≈49 %** (Polderman et al., 2015).
 
@@ -239,7 +234,7 @@ En lugar del diagnóstico categorial propone el **análisis funcional**: identif
 
 **El modelo cognitivo.** Añade que entre la situación y la emoción **media el procesamiento de la información**: esquemas, creencias, sesgos y distorsiones. Para **Beck** (1967), los esquemas disfuncionales activados por un suceso generan pensamientos automáticos negativos que mantienen la depresión (Unidad 10). **Ellis** propuso el **modelo ABC**: un acontecimiento (A) no causa directamente las consecuencias emocionales y conductuales (C); las causan las **creencias** (B) sobre él. Suspender un examen no produce lo mismo en quien piensa «tengo que estudiar de otra forma» que en quien piensa «soy un fracaso». Hoy ambos enfoques se integran en el **modelo cognitivo-conductual**, que considera cogniciones, emociones, conductas y contexto en interacción. Las técnicas de intervención se estudian en Tratamientos psicológicos.
 
-**El modelo sociocultural.** Destaca los factores sociales en el origen y el mantenimiento de los trastornos. Distingue un nivel **microsocial**, como la familia o el grupo de amigos, y uno **macrosocial**, como la estructura económica o las normas culturales. La pobreza, la discriminación, el aislamiento, el entorno urbano y la migración se asocian a más psicopatología. También recuerda que lo que se considera síntoma depende en parte de la cultura (Unidad 1).
+**El modelo sociocultural.** Destaca los factores sociales en el origen y el mantenimiento de los trastornos. Mira tanto el entorno cercano (familia, amistades) como las condiciones de la sociedad en su conjunto (economía, desigualdad, normas culturales). La pobreza, la discriminación, el aislamiento, el entorno urbano y la migración se asocian a más psicopatología. También recuerda que lo que se considera síntoma depende en parte de la cultura (Unidad 1).
 
 Su versión más radical fue la **antipsiquiatría** de los años sesenta y setenta. **Thomas Szasz** sostuvo que la «enfermedad mental» es un mito que convierte problemas vitales y desviaciones sociales en enfermedades, y **R. D. Laing** interpretó la psicosis como una respuesta comprensible a situaciones familiares y sociales insoportables. Hoy se estudia como **crítica histórica**: sus tesis más radicales no han recibido apoyo empírico, pero contribuyó a denunciar abusos y a impulsar la reforma psiquiátrica.
 
