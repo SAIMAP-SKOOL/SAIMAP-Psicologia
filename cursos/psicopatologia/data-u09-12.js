@@ -510,7 +510,7 @@ window.COURSE.units.push(
       "Grupo de TP del DSM-5-TR|Grupo A: paranoide; esquizoide; esquizotípico|Grupo B: antisocial; límite; histriónico; narcisista|Grupo C: evitativo; dependiente; obsesivo-compulsivo"
     ] },
   { t: "Modelos dimensionales: el AMPD y la CIE-11",
-    tip: "Las diez categorías tienen comorbilidad alta, heterogeneidad y umbrales arbitrarios. El AMPD, en la Sección III, combina el nivel de funcionamiento de la personalidad (criterio A) con 25 facetas en 5 dominios (criterio B) y conserva seis TP. La CIE-11 abandona los tipos: gradúa la gravedad en leve, moderada o grave y describe rasgos con cinco dominios, más el especificador patrón límite. Antagonismo y psicoticismo son del AMPD, y disocialidad y anancastia, de la CIE-11.",
+    tip: "Las diez categorías tienen comorbilidad alta, heterogeneidad y umbrales arbitrarios. El AMPD, en la Sección III, combina el nivel de funcionamiento de la personalidad (criterio A) con 25 facetas en 5 dominios (criterio B) y conserva seis TP. La CIE-11 abandona los tipos: gradúa la gravedad en leve, moderado o grave y describe rasgos con cinco dominios, más el especificador patrón límite. Antagonismo y psicoticismo son del AMPD, y disocialidad y anancastia, de la CIE-11.",
     v: [
       "AMPD=Modelo alternativo del DSM-5, situado en la Sección III",
       "Criterio A del AMPD=Nivel de funcionamiento propio e interpersonal, valorado con la LPFS",
