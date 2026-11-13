@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Desarrollo: Infancia · Unidades 9–12
 window.COURSE.units.push(
-{ n: 9, t: "La percepción en la infancia", cap: 3, pir: "media", mods: [
+{ n: 9, t: "Cómo perciben los bebés y los niños", cap: 3, pir: "media", mods: [
   { t: "Percepción visual: patrones, rostros y constancias",
     tip: "Fantz (1961) mostró con el paradigma de preferencia visual que los bebés miran más los estímulos con patrón que las superficies lisas. Hasta los dos meses exploran sobre todo los bordes externos, y entre los dos y los seis meses, el interior de las figuras. Johnson y Morton (1991) propusieron CONSPEC, subcortical y presente al nacer, y CONLERN, cortical y que aprende las caras concretas. Las constancias existen en forma rudimentaria al nacer y se afinan durante el primer año.",
     v: [
@@ -158,7 +158,7 @@ window.COURSE.units.push(
       "Condición en Kuhl et al. (2003)|Recupera la discriminación: mandarín en vivo|Sin efecto: mandarín en vídeo; mandarín solo en audio; control en inglés"
     ] }
 ] },
-{ n: 10, t: "Desarrollo psicomotor en la infancia", cap: 4, pir: "baja", mods: [
+{ n: 10, t: "Motricidad gruesa y fina en la infancia", cap: 4, pir: "baja", mods: [
   { t: "Principios del desarrollo motor",
     tip: "El desarrollo psicomotor es el control progresivo del propio cuerpo y depende también de la percepción, la motivación y la comprensión del mundo. Sigue tres leyes: cefalocaudal (de la cabeza a los pies), próximo-distal (del eje a la periferia) y de lo general a lo específico. Frente a los enfoques madurativo (Gesell, McGraw) y experiencial, la teoría de los sistemas dinámicos (Thelen, 1995) es hoy el marco de referencia porque integra ambos.",
     v: [

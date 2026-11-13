@@ -176,8 +176,7 @@ Los **motivos sociales** son disposiciones aprendidas, relativamente estables, q
 
 El metaanálisis de **Köllner y Schultheiss (2014)**, con 6 151 participantes, confirmó la baja relación: la correlación media entre medidas implícitas y explícitas fue de **0,130** (0,116 para afiliación, 0,139 para logro y 0,038, no significativa, para poder). Se interpreta como prueba de que son **sistemas distintos**, no como un fallo de validez. La congruencia entre ambos tiene interés aplicado: cuando lo que una persona persigue conscientemente no encaja con sus motivos implícitos, se ha observado menor bienestar.
 
-### 10.2 Motivo de logro
-
+### 10.2 La necesidad de logro
 El **motivo de logro** es la disposición a buscar el éxito en tareas en las que el resultado puede evaluarse frente a un **criterio de excelencia**: hacerlo mejor que antes, mejor que otros o mejor que un estándar. La satisfacción principal es el sentimiento de competencia que produce haberlo conseguido por uno mismo.
 
 Las personas con alto motivo de logro implícito muestran un perfil reconocible:

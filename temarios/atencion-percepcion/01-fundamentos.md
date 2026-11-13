@@ -2,8 +2,7 @@
 
 Qué es percibir, cómo se mide la relación entre el estímulo físico y la experiencia, cómo se separa lo que el observador siente de lo que decide responder, y qué principios organizan la percepción de objetos y su base neural.
 
-## Unidad 1 · El proceso perceptivo
-
+## Unidad 1 · Del estímulo a la experiencia: el proceso perceptivo
 **Objetivos:** describir las etapas del proceso perceptivo y distinguir sensación de percepción; diferenciar el procesamiento abajo-arriba del arriba-abajo y reconocer sus ejemplos clásicos; situar en el tiempo los grandes enfoques del estudio de la percepción; explicar la idea de percepción como inferencia y su contraste con la percepción directa.
 
 ### 1.1 Sensación, percepción y el ciclo perceptivo

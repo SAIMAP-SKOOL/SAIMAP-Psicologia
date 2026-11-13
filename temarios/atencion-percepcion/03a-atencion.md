@@ -1,5 +1,4 @@
-# Capítulo 3 · La atención
-
+# Capítulo 3 · Atender: mecanismos, modelos y tipos de atención
 Qué es la atención, en qué estructuras cerebrales se apoya y cómo la han explicado los modelos de filtro, de recursos y de carga; después, las redes atencionales, los paradigmas experimentales y la relación entre atención y percepción.
 
 ## Unidad 11 · Qué es la atención y sus bases neurales

@@ -360,8 +360,7 @@ c) En la inactividad alerta
 
 **1 a.** En el sobresalto el bebé flexiona los brazos sin abrirlos, y se mantiene toda la vida. **2 c.** La agudeza visual es de aproximadamente 20/400–20/600. **3 b.** Habían aprendido las propiedades sonoras del cuento antes de nacer, aunque lo leyera otra persona. **4 a.** Los bebés no producían más un gesto tras verlo que tras ver otros; el debate sigue abierto. **5 c.** Con los ojos abiertos y el cuerpo quieto, el bebé mira y escucha con atención.
 
-## Unidad 9 · La percepción en la infancia
-
+## Unidad 9 · Cómo perciben los bebés y los niños
 **Objetivos:** describir el desarrollo de la percepción de patrones, rostros y constancias en el primer año; explicar los indicios de profundidad y el experimento del abismo visual; definir la percepción intermodal y describir sus estudios clásicos; explicar el estrechamiento perceptivo y el papel de la experiencia social y cultural en la percepción.
 
 ### 9.1 Percepción visual: patrones, rostros y constancias

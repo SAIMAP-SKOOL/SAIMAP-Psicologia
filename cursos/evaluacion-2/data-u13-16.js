@@ -156,7 +156,7 @@ window.COURSE.units.push(
       "Función evaluada|Atención y velocidad: TMT-A|Funciones ejecutivas: TMT-B; WCST; interferencia del Stroop; fluidez fonética|Memoria verbal: RAVLT; TAVEC"
     ] }
 ] },
-{ n: 14, t: "Evaluación de los intereses vocacionales", cap: 5, pir: "media", mods: [
+{ n: 14, t: "Medir los intereses profesionales", cap: 5, pir: "media", mods: [
   { t: "Concepto y enfoques metodológicos",
     tip: "Los intereses vocacionales son preferencias relativamente estables por actividades, ambientes y ocupaciones: responden a qué me gustaría hacer, no a qué sé hacer. Pueden ser expresados, manifiestos o inventariados. Los inventarios siguen tres enfoques, tipológico (Holland), por áreas temáticas (Kuder) y empírico (Strong), y su formato puede ser absoluto o ipsativo.",
     v: [
@@ -314,7 +314,7 @@ window.COURSE.units.push(
       "Método empírico de criterio externo|Ventajas: datos reales; diferencia grupos profesionales; ítems difíciles de falsear|Inconvenientes: ítems heterogéneos; escalas que envejecen; muestras grandes"
     ] }
 ] },
-{ n: 15, t: "Evaluación de actitudes", cap: 5, pir: "media", mods: [
+{ n: 15, t: "Medir las actitudes", cap: 5, pir: "media", mods: [
   { t: "Concepto de actitud y estrategias de medida",
     tip: "Una actitud es una evaluación relativamente duradera, favorable o desfavorable, de un objeto. El modelo clásico (Rosenberg y Hovland, 1960) distingue los componentes cognitivo, afectivo y conductual, que no siempre coinciden, como sugirió LaPiere (1934). Las actitudes se infieren con autoinformes, observación, registros psicofisiológicos o medidas implícitas, aunque casi todo lo publicado son escalas de autoinforme.",
     v: [

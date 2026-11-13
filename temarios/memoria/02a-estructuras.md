@@ -1,5 +1,4 @@
-# Capítulo 2 · Estructuras de la memoria
-
+# Capítulo 2 · Almacenes y sistemas de memoria
 Si la memoria no es una facultad única, hay que preguntarse de qué partes se compone y cómo se relacionan. Este capítulo presenta los modelos que dividen la memoria en almacenes y sistemas, desde los registros sensoriales hasta la memoria a largo plazo, y las alternativas que ponen el acento en los procesos más que en las estructuras.
 
 ## Unidad 3 · Modelos estructurales y niveles de procesamiento

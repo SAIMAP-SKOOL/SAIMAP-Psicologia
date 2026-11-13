@@ -2,8 +2,7 @@
 
 Evaluar no es aplicar una batería de pruebas y leer los resultados: es un proceso de toma de decisiones que parte de una demanda, formula hipótesis y las somete a prueba con instrumentos que tienen garantías. Este capítulo describe ese proceso, los errores de juicio que lo amenazan y las herramientas para corregirlos, y termina con su producto final: el informe psicológico.
 
-## Unidad 5 · El proceso de evaluación psicológica
-
+## Unidad 5 · Las fases del proceso evaluador
 **Objetivos:** describir la evaluación como un proceso de contraste de hipótesis con fases definidas; distinguir la rama descriptivo-predictiva de la interventivo-valorativa; identificar los tipos de hipótesis y saber traducirlas en enunciados verificables; conocer el origen, el alcance y la utilidad de las Guías para el Proceso de Evaluación (GAP).
 
 ### 5.1 La evaluación como proceso de toma de decisiones
@@ -354,8 +353,7 @@ c) no exige ningún esfuerzo por parte del evaluado
 
 **1 c.** La mecánica fue superior en el 33–47 % de los estudios, la clínica en el 6–16 %, y en torno a la mitad empataron. **2 a.** El perfil era idéntico y estaba hecho de frases aplicables a cualquiera. **3 b.** La relación parece lógica, pero no está en los datos; la opción a es el anclaje y la c, la disponibilidad. **4 c.** Hay 45 verdaderos positivos y 95 falsos positivos: 45/140 ≈ 32 %. **5 b.** A cambio, supone carga y puede ser reactiva.
 
-## Unidad 7 · El informe psicológico
-
+## Unidad 7 · Redactar y comunicar el informe
 **Objetivos:** describir las funciones del informe y distinguir sus tipos según el canal, la función y el destinatario; conocer su estructura y contenido mínimo y los requisitos del Código Deontológico; aplicar pautas de redacción clara apoyadas en la evidencia; saber organizar una entrevista de devolución y conocer las particularidades del informe pericial.
 
 ### 7.1 Funciones y tipos de informe

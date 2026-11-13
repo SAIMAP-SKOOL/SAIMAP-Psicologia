@@ -1,5 +1,4 @@
-# Capítulo 4 · Evaluación neuropsicológica
-
+# Capítulo 4 · La exploración neuropsicológica
 La evaluación neuropsicológica estudia cómo se refleja en la conducta y en el rendimiento cognitivo el estado del cerebro. Este capítulo recorre su historia, sus objetivos y sus dos grandes formas de trabajar, y después repasa los instrumentos que más se usan: las pruebas de cribado, la estimación del CI premórbido, las pruebas de validez de rendimiento y las pruebas específicas de atención, funciones ejecutivas, memoria y visoconstrucción.
 
 ## Unidad 12 · Historia, objetivos y métodos de la evaluación neuropsicológica
@@ -37,8 +36,7 @@ En paralelo creció una tradición **psicométrica**. Ward **Halstead** (1947) r
 | Batería e índice de deterioro | Halstead (1947) y Reitan | Medición cuantitativa y estandarizada |
 | Manual de referencia | Lezak (1976) | Síntesis de métodos y pruebas de la disciplina |
 
-### 12.2 Ámbitos de aplicación y objetivos
-
+### 12.2 Para qué y dónde se aplica
 La **evaluación neuropsicológica** es el estudio de las funciones cognitivas, emocionales y conductuales de una persona para conocer el estado de su cerebro y las consecuencias de una posible alteración en su vida diaria. Explora la atención, la memoria, el lenguaje, la percepción, la praxis, la velocidad de procesamiento y las funciones ejecutivas. Las bases neuroanatómicas de estas funciones y los síndromes que produce su lesión se estudian en la asignatura de Neuropsicología y Psicología Fisiológica.
 
 Durante décadas, la pregunta principal era si había o no lesión y dónde estaba. La llegada de la **neuroimagen** (TAC, resonancia magnética) cambió el papel de la disciplina. La imagen muestra muy bien la estructura del cerebro, pero no informa de cómo funciona la persona: dos pacientes con lesiones parecidas pueden tener rendimientos muy distintos, y hay alteraciones funcionales importantes con una resonancia normal o casi normal, como en las fases iniciales de algunas demencias o tras un traumatismo leve. Hoy la evaluación neuropsicológica sigue aportando al diagnóstico, pero su valor principal está en describir el funcionamiento.

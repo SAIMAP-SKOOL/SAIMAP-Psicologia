@@ -1,5 +1,4 @@
-## Unidad 13 · Funciones y clasificación de las emociones
-
+## Unidad 13 · Para qué sirven las emociones y cómo se clasifican
 **Objetivos:** explicar las tres funciones generales de la emoción; describir desencadenantes, respuesta y tendencia de acción de las emociones de urgencia, de bienestar y de autoevaluación; distinguir con precisión vergüenza y culpa, celos y envidia, miedo y ansiedad.
 
 ### 13.1 Funciones adaptativa, social y motivacional

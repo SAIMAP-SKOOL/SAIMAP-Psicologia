@@ -1,5 +1,4 @@
-# Capítulo 5 · Inferencia estadística
-
+# Capítulo 5 · De la muestra a la población: inferencia estadística
 Cómo pasar de lo que se observa en una muestra a lo que probablemente ocurre en la población: la distribución normal, las distribuciones muestrales, los intervalos de confianza y el contraste de hipótesis.
 
 ## Unidad 15 · Distribuciones muestrales y distribución normal

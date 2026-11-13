@@ -1,5 +1,4 @@
-## Unidad 3 · Teorías cognitivo-evolutivas
-
+## Unidad 3 · Enfoques cognitivo-evolutivos
 **Objetivos:** explicar el constructivismo de Piaget y los conceptos de asimilación, acomodación y equilibración; describir la mediación, la doble formación y la zona de desarrollo próximo de Vygotsky; distinguir andamiaje, participación guiada y habla privada; explicar el enfoque del procesamiento de la información y las funciones ejecutivas.
 
 ### 3.1 Piaget: constructivismo, esquemas y equilibración

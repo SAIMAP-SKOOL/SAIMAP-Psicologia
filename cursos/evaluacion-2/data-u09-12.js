@@ -503,7 +503,7 @@ window.COURSE.units.push(
       "Hitos de la neuropsicología|Frenología de Gall>Accidente de Phineas Gage>Leborgne y Broca>Afasia de Wernicke>Laboratorio de Halstead>Sistemas funcionales de Luria>Manual de Lezak"
     ],
     cls: [] },
-  { t: "Ámbitos de aplicación y objetivos",
+  { t: "Para qué y dónde se aplica",
     tip: "La evaluación neuropsicológica estudia las funciones cognitivas, emocionales y conductuales para conocer el estado del cerebro y sus consecuencias en la vida diaria. La neuroimagen muestra la estructura, pero no cómo funciona la persona, y hay alteraciones con imagen normal. Sus objetivos son el diagnóstico, el perfil funcional, el seguimiento, la rehabilitación, la evaluación forense y la investigación.",
     v: [
       "Evaluación neuropsicológica=Estudio de funciones cognitivas, emocionales y conductuales para conocer el estado cerebral",

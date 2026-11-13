@@ -1,5 +1,4 @@
-# Capítulo 3 · El condicionamiento operante
-
+# Capítulo 3 · Condicionamiento operante: aprender por las consecuencias
 En el condicionamiento clásico el organismo aprende qué estímulos anuncian otros estímulos. En el operante aprende algo distinto: qué consecuencias tiene su propia conducta. Este capítulo recorre la historia del modelo, desde las cajas problema de Thorndike hasta la formulación de Skinner, y estudia después cómo los programas de refuerzo y las alternativas disponibles determinan cuánto y cuándo se responde.
 
 ## Unidad 8 · El condicionamiento instrumental: de Thorndike a Skinner

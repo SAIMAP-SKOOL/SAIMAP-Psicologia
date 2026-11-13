@@ -2,8 +2,7 @@
 
 La idea que cada persona tiene de sí misma no nace en soledad: se construye observando la propia conducta, comparándose con los demás y perteneciendo a grupos. Este capítulo estudia primero cómo se forma y se regula el autoconcepto y después para qué buscamos conocernos, cómo los grupos entran en la definición de uno mismo y qué sabemos realmente de la autoestima y de las ilusiones positivas.
 
-## Unidad 7 · El autoconcepto
-
+## Unidad 7 · Quién creo que soy: el autoconcepto
 **Objetivos:** definir el autoconcepto y los autoesquemas y distinguir la autoconciencia privada de la pública; explicar la teoría de la autopercepción, el efecto de sobrejustificación y la comparación social; valorar los límites de la introspección a partir de Nisbett y Wilson (1977); describir la teoría de las discrepancias del self y la del foco regulador.
 
 ### 7.1 Conciencia de uno mismo

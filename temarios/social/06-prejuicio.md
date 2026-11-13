@@ -1,13 +1,10 @@
-# Capítulo 6 · Estereotipo, prejuicio y discriminación
-
+# Capítulo 6 · Estereotipos, prejuicios y trato discriminatorio
 Pensar en categorías es inevitable, y aplicarlas a las personas tiene un precio: creencias sobre grupos que se imponen a lo que sabemos del individuo, sentimientos negativos hacia quien pertenece a otro grupo y un trato desigual que puede medirse. Este capítulo estudia primero el contenido y las funciones de los estereotipos y después las causas del prejuicio, sus formas actuales y lo que la evidencia dice sobre cómo reducirlo.
 
-## Unidad 13 · Los estereotipos
-
+## Unidad 13 · Cómo se forman y se mantienen los estereotipos
 **Objetivos:** distinguir estereotipo, prejuicio y discriminación y explicar cómo se forman y se mantienen los estereotipos; describir el modelo del contenido de los estereotipos y sus predicciones emocionales y conductuales; explicar la función ideológica de los estereotipos según la teoría de la justificación del sistema; valorar con la evidencia actual la amenaza del estereotipo y las profecías que se cumplen.
 
-### 13.1 Estereotipo, prejuicio y discriminación
-
+### 13.1 Tres conceptos: creencia, actitud y conducta
 La tradición clásica, desde Allport (1954), entiende el prejuicio como una **actitud negativa hacia un grupo y hacia las personas por el hecho de pertenecer a él**. Siguiendo el modelo tripartito de las actitudes (Unidad 9), se distinguen tres componentes:
 
 | Componente | Término | Ejemplo |

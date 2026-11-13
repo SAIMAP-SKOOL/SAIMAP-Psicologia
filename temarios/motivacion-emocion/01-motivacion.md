@@ -1,9 +1,7 @@
-# Capítulo 1 · La motivación y sus determinantes
-
+# Capítulo 1 · Qué nos mueve: concepto y fuentes de la motivación
 Qué es la motivación, de dónde procede, cómo se estudia y cómo pasó la disciplina de los instintos y los impulsos a las teorías actuales, más pequeñas y mejor contrastadas.
 
-## Unidad 1 · Introducción a la motivación y la emoción
-
+## Unidad 1 · Motivación, emoción y cognición: un mapa
 **Objetivos:** definir la motivación y sus cuatro parámetros; explicar cómo se relacionan motivación, cognición y emoción; conocer los métodos con los que se estudian; aplicar criterios de cautela científica ante los hallazgos del área.
 
 ### 1.1 Concepto de motivación y sus parámetros
@@ -287,8 +285,7 @@ c) extrínseca autónoma
 
 **Objetivos:** recorrer las ideas sobre la motivación desde la filosofía hasta las teorías del instinto; explicar la homeostasis y sus componentes; diferenciar homeostasis, alostasis y carga alostática; distinguir «querer» y «gustar» en los sistemas cerebrales de recompensa.
 
-### 3.1 De la filosofía a la psicología
-
+### 3.1 Los antecedentes filosóficos
 Antes de la psicología científica, la motivación era un asunto filosófico. Tres ideas dominaron durante siglos:
 
 - **Hedonismo.** Desde Epicuro, la idea de que las personas buscan el placer y evitan el dolor. Hobbes lo convirtió en un principio general de la conducta en el siglo XVII. El hedonismo sigue presente en la psicología actual, pero no basta: las personas también persiguen metas costosas y desagradables.

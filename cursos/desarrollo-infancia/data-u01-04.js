@@ -314,7 +314,7 @@ window.COURSE.units.push(
       "Teoría del aprendizaje|Skinner: refuerzo directo; niño pasivo; moldeamiento|Bandura: aprendizaje observacional; determinismo recíproco; autoeficacia"
     ] }
 ] },
-{ n: 3, t: "Teorías cognitivo-evolutivas", cap: 1, pir: "alta", mods: [
+{ n: 3, t: "Enfoques cognitivo-evolutivos", cap: 1, pir: "alta", mods: [
   { t: "Piaget: constructivismo, esquemas y equilibración",
     tip: "Piaget, biólogo de formación, llamó a su proyecto epistemología genética y vio la inteligencia como adaptación. Para el constructivismo, el niño construye el conocimiento actuando sobre los objetos. Los esquemas cambian por asimilación, que incorpora lo nuevo sin modificar el esquema, y por acomodación, que lo modifica. La equilibración resuelve el conflicto cognitivo con un equilibrio más estable, y los estadios siguen una secuencia invariante.",
     v: [

@@ -1,9 +1,7 @@
-# Capítulo 5 · La observación
-
+# Capítulo 5 · Observar la conducta
 Observar es la forma más directa de saber qué hace una persona, pero mirar no basta para evaluar. Este capítulo explica cómo se convierte la mirada en un dato: qué unidades se observan, cómo se miden y se registran, y después cómo se muestrea, dónde se observa, qué errores aparecen y cómo se comprueba que el registro es fiable.
 
-## Unidad 13 · Unidades y técnicas de registro
-
+## Unidad 13 · Qué registrar y cómo hacerlo
 **Objetivos:** distinguir la observación sistemática de la observación cotidiana; ordenar las unidades de análisis según su nivel de inferencia; elegir la unidad de medida adecuada para cada conducta; comparar las técnicas de registro, los sistemas de categorías y los procedimientos automáticos.
 
 ### 13.1 Concepto de observación y unidades de análisis
@@ -60,8 +58,7 @@ Tres criterios ayudan a elegir:
 
 Elegir mal la medida puede llevar a conclusiones falsas sobre un tratamiento. Si un programa reduce el número de discusiones de una pareja de cinco a dos por semana, pero cada discusión pasa de diez minutos a una hora, la frecuencia dice que hay mejoría y la duración dice lo contrario. Registrar más de una propiedad, cuando es posible, protege de este error y forma parte de la lógica multimétodo de la evaluación (Unidad 1).
 
-### 13.3 Técnicas de registro
-
+### 13.3 Cómo registrar lo observado
 La **técnica de registro** es el formato en que se anota lo observado. Va desde la descripción libre hasta la codificación cerrada, y su elección depende de la fase de la evaluación: al principio conviene un registro abierto que permita descubrir qué ocurre; cuando ya se sabe qué interesa, un registro estructurado que permita contar y comparar.
 
 | Técnica | Ventaja | Limitación |

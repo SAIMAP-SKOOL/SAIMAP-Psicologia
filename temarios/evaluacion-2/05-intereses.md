@@ -1,9 +1,7 @@
-# Capítulo 5 · Intereses vocacionales y actitudes
-
+# Capítulo 5 · Intereses, vocación y actitudes
 Saber qué le gusta hacer a una persona y qué opina de un objeto, un grupo o una idea no es lo mismo que medir su inteligencia o su personalidad, aunque los tres ámbitos se tocan. Este capítulo estudia dos familias de instrumentos clásicas: los inventarios de intereses vocacionales, nacidos de la orientación profesional, y las escalas de actitudes, nacidas de la psicología social. Ambas comparten un problema de fondo: convertir preferencias y opiniones en puntuaciones que tengan sentido.
 
-## Unidad 14 · Evaluación de los intereses vocacionales
-
+## Unidad 14 · Medir los intereses profesionales
 **Objetivos:** definir los intereses vocacionales y distinguir sus formas de evaluación; describir el modelo RIASEC de Holland, el hexágono y sus conceptos de congruencia, consistencia y diferenciación; explicar el formato ipsativo del Kuder y sus consecuencias; describir el método empírico de Strong y compararlo con los enfoques tipológico y temático.
 
 ### 14.1 Concepto y enfoques metodológicos
@@ -192,8 +190,7 @@ c) ser autoaplicado y autocorregido por la propia persona
 
 **1 b.** Los opuestos son R-S, I-E y A-C; realista y artístico son alternos, y social y emprendedor, adyacentes. **2 a.** La consistencia compara las letras del propio código; la opción b describe la congruencia y la c, la diferenciación. **3 c.** Preferir un área obliga a renunciar a otra, así que las escalas dependen entre sí y no admiten comparaciones entre personas. **4 b.** Es el método empírico de criterio externo, el mismo del MMPI. **5 c.** La persona responde, suma y obtiene su código RIASEC sin necesidad de un corrector.
 
-## Unidad 15 · Evaluación de actitudes
-
+## Unidad 15 · Medir las actitudes
 **Objetivos:** definir la actitud y sus componentes y describir las estrategias para medirla; explicar la construcción y la puntuación de las escalas Likert y Thurstone; describir el escalograma de Guttman y calcular su coeficiente de reproductibilidad; valorar el IAT y el debate sobre las medidas implícitas.
 
 ### 15.1 Concepto de actitud y estrategias de medida

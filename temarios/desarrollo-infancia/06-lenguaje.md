@@ -1,9 +1,7 @@
-# Capítulo 6 · Desarrollo del lenguaje
-
+# Capítulo 6 · Del balbuceo al discurso: desarrollo lingüístico
 En apenas cinco años, un bebé que solo sabe llorar pasa a contar lo que hizo ayer, a preguntar por qué y a corregir a su hermano pequeño. Este capítulo estudia qué hay que aprender para dominar una lengua, cómo explican las teorías esa rapidez y qué etapas se suceden desde el llanto hasta la reflexión sobre el propio lenguaje en la adolescencia.
 
-## Unidad 14 · Desarrollo del lenguaje
-
+## Unidad 14 · Del balbuceo al discurso: desarrollo lingüístico
 **Objetivos:** identificar los componentes del lenguaje y comparar las teorías del aprendizaje, nativista e interaccionista; explicar el aprendizaje estadístico y el papel del habla dirigida al bebé; describir la secuencia de adquisición desde el llanto hasta el periodo preescolar; analizar el lenguaje en la niñez intermedia y la adolescencia y valorar la evidencia sobre bilingüismo y pantallas.
 
 ### 14.1 Componentes del lenguaje y teorías de la adquisición

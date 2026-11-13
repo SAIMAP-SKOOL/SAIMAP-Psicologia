@@ -1,13 +1,11 @@
-# Capítulo 6 · Conductas de ayuda y cooperación
-
+# Capítulo 6 · Ayudar y cooperar: la conducta prosocial
 Por qué las personas ayudan a otras, incluso a desconocidos y con costes para sí mismas, y por qué a veces no lo hacen. La primera unidad repasa las explicaciones evolucionistas, motivacionales y de costes y recompensas; la segunda analiza la intervención de los espectadores en emergencias, corrige el mito del caso Genovese y estudia la ayuda planificada del voluntariado.
 
 ## Unidad 11 · ¿Por qué ayudamos?
 
 **Objetivos:** distinguir conducta prosocial, conducta de ayuda y conducta altruista; explicar la selección de parentesco y el altruismo recíproco; contrastar la hipótesis de la empatía-altruismo con el modelo del alivio del estado negativo; aplicar el modelo de activación-coste-recompensa para predecir la respuesta ante una emergencia.
 
-### 11.1 Conducta prosocial y conducta altruista
-
+### 11.1 Prosocialidad y altruismo: en qué se diferencian
 En el lenguaje cotidiano «ayudar», «ser prosocial» y «ser altruista» se usan casi como sinónimos. En psicología conviene separarlos, porque responden a preguntas diferentes.
 
 - **Conducta prosocial**: término amplio que abarca cualquier conducta que beneficia a otras personas o a la sociedad: donar sangre, reciclar, compartir apuntes, consolar a un amigo, colaborar en una campaña de recogida de alimentos.
@@ -265,8 +263,7 @@ En 2016, The New York Times reconoció que había exagerado el número de testig
 
 **Qué queda en pie.** Los experimentos de Latané y Darley siguen siendo válidos como demostración de que la presencia de otros puede inhibir la ayuda individual, sobre todo en situaciones ambiguas y de bajo riesgo. Lo que debe corregirse es la conclusión popular de que «la gente no ayuda cuando hay más gente» y el uso del caso Genovese como prueba.
 
-### 12.4 La ayuda planificada: el voluntariado
-
+### 12.4 El voluntariado como ayuda planificada
 La ayuda en emergencias es espontánea y breve. El **voluntariado** es lo contrario: una forma de **ayuda planificada** y sostenida, organizada a través de una entidad con objetivos, medios y tareas definidas. Penner (2002) lo caracteriza por cinco rasgos:
 
 - Es una ayuda **prolongada en el tiempo**, no puntual.

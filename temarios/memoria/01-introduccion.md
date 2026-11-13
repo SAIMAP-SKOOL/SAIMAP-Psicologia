@@ -1,5 +1,4 @@
-# Capítulo 1 · Introducción histórica y metodológica
-
+# Capítulo 1 · La memoria como objeto de estudio: historia y método
 La memoria no se ve: solo se infiere a partir de lo que una persona hace, dice o deja de hacer. Este capítulo define qué se entiende por memoria, explica con qué datos y a qué niveles se estudia y recorre la historia de la disciplina, desde las sílabas sin sentido de Ebbinghaus hasta la neurociencia cognitiva actual.
 
 ## Unidad 1 · Qué es la memoria y cómo se estudia

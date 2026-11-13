@@ -1,5 +1,4 @@
-# Capítulo 3 · La comunicación interpersonal
-
+# Capítulo 3 · Comunicarse con los demás
 Comunicarse es la forma básica de interacción social: sin intercambio de mensajes no hay grupo, ni normas, ni influencia. Este capítulo describe cómo funciona la comunicación entre personas, por qué falla, qué estilos y habilidades la hacen eficaz y cómo se usa para persuadir y para trabajar en equipo.
 
 ## Unidad 5 · Comunicar

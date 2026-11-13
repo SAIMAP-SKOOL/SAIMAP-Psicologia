@@ -1,7 +1,7 @@
 // SAIMAP Psicología · Memoria · Unidades 9–12
 window.COURSE.units.push(
 { n: 9, t: "Categorizar el mundo", cap: 3, pir: "baja", mods: [
-  { t: "Cómo se representa el conocimiento",
+  { t: "Formatos de representación del conocimiento",
     tip: "Un concepto es la representación mental de una clase de cosas, la categoría es el conjunto de entidades que agrupa y la categorización es el proceso de decidir que un elemento pertenece a ella. Categorizar aporta economía cognitiva, inferencia, comunicación y organización del recuerdo. Gran parte del conocimiento declarativo se guardaría en forma de proposiciones, unidades abstractas de significado, y el procedimental, en reglas «si… entonces…».",
     v: [
       "Concepto=Representación mental de una clase de cosas, con sus propiedades y relaciones",

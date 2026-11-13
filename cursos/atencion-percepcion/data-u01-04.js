@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Atención y Percepción · Unidades 1–4
 window.COURSE.units.push(
-{ n: 1, t: "El proceso perceptivo", cap: 1, pir: "media", mods: [
+{ n: 1, t: "Del estímulo a la experiencia: el proceso perceptivo", cap: 1, pir: "media", mods: [
   { t: "Sensación, percepción y el ciclo perceptivo",
     tip: "Percibir es una cadena de transformaciones: del objeto del entorno (estímulo distal) a la energía que llega a los receptores (estímulo proximal), y de ahí a la transducción, la transmisión, el procesamiento neural, la percepción, el reconocimiento y la acción. Sensación y percepción se tratan hoy como un continuo más que como fases separadas. Además es un ciclo: la acción cambia el estímulo y el conocimiento modula lo que se procesa después.",
     v: [

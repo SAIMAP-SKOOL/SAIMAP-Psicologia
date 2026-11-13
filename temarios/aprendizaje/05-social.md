@@ -1,9 +1,7 @@
-# Capítulo 5 · Aprendizaje social
-
+# Capítulo 5 · Aprender observando a los demás
 Buena parte de lo que sabemos hacer no lo hemos aprendido probando y equivocándonos, sino viendo a otros. Este capítulo estudia el aprendizaje por observación: los experimentos de Bandura, los procesos que lo hacen posible, la teoría social cognitiva que surgió de ellos y sus aplicaciones, junto con dos debates actuales sobre la imitación.
 
-## Unidad 15 · Aprendizaje social: modelado y aprendizaje vicario
-
+## Unidad 15 · Modelado, imitación y aprendizaje vicario
 **Objetivos:** describir los experimentos del muñeco Bobo y explicar la distinción entre aprendizaje y ejecución; identificar los cuatro procesos del aprendizaje observacional y las variables del modelo y del observador; explicar el determinismo recíproco y las fuentes de la autoeficacia; valorar la evidencia sobre la imitación neonatal y las neuronas espejo, y describir las aplicaciones del modelado.
 
 ### 15.1 Bandura y el muñeco Bobo: aprendizaje frente a ejecución

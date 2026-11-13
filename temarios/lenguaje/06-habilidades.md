@@ -1,5 +1,4 @@
-# Capítulo 6 · Habilidades comunicativas
-
+# Capítulo 6 · Comunicar bien: las competencias comunicativas
 Saber una lengua no basta para comunicarse bien: hay que saber cuándo hablar, cómo escuchar, qué decir con el cuerpo y cómo ajustarse a cada interlocutor. Este capítulo reúne lo que se sabe sobre la competencia comunicativa, su desarrollo a lo largo de la vida, la comunicación no verbal y emocional, los contextos en que se pone a prueba y cómo se evalúa y se interviene cuando falla.
 
 ## Unidad 16 · Habilidades comunicativas: desarrollo, evaluación e intervención

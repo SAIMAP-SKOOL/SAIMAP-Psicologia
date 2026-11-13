@@ -456,8 +456,7 @@ c) Ordinal
 
 **Objetivos:** distinguir población y muestra, parámetro y estadístico; conocer los tipos de muestreo y sus ventajas e inconvenientes; entender la relación entre tamaño de la muestra y error muestral; identificar los tipos de validez de una investigación y sus amenazas.
 
-### 4.1 Población y muestra, parámetros y estadísticos
-
+### 4.1 Población, muestra, parámetro y estadístico
 La **población** es el conjunto completo de elementos (personas, centros, conductas) a los que se quiere aplicar las conclusiones de un estudio, definidos por una o varias características comunes. Ejemplo: los estudiantes de Psicología matriculados en universidades españolas este curso. Su tamaño se representa con **N**.
 
 Casi nunca se puede estudiar a toda la población, por coste, por tiempo o porque es infinita o cambiante. Se estudia una **muestra**: un subconjunto de la población, de tamaño **n**. Para que las conclusiones se puedan generalizar, la muestra debe ser **representativa**: parecerse a la población en las características relevantes para el estudio.

@@ -1,5 +1,4 @@
-# Capítulo 6 · El autoinforme
-
+# Capítulo 6 · Autoinformes y cuestionarios
 Preguntar a la persona por lo que hace, piensa y siente es la vía más usada en evaluación psicológica, y también la más discutida. Este capítulo explica primero cómo se produce una respuesta, qué tipos de información ofrece el autoinforme y qué errores la amenazan. Después describe sus formas principales: cuestionarios, autorregistros, pensamiento en voz alta, entrevista y métodos narrativos.
 
 ## Unidad 15 · Fundamentos del autoinforme

@@ -1,5 +1,4 @@
-# Capítulo 4 · Ilusiones, sesgos y trastornos de la atención
-
+# Capítulo 4 · Cuando la percepción y la atención fallan
 Los mismos mecanismos que permiten percibir y atender con rapidez en un entorno saturado de estímulos producen también errores sistemáticos, y cuando fallan por una lesión o un trastorno alteran la vida diaria. Este capítulo estudia las ilusiones y los sesgos perceptivos y atencionales, y los principales trastornos de la atención: las disprosexias, el TDAH y la heminegligencia.
 
 ## Unidad 15 · Ilusiones y sesgos
@@ -154,8 +153,7 @@ c) superó a la terapia cognitivo-conductual
 
 **1 a.** El segmento con las aletas en punta de flecha parece más corto. **2 b.** Las aletas abiertas sugieren una esquina interior lejana, y el sistema agranda el segmento. **3 c.** B, en sombra, se ve más clara que A, aunque las dos tienen el mismo gris. **4 b.** Es una de sus cinco líneas de evidencia contra la explicación cultural. **5 a.** La diferencia frente al entrenamiento simulado fue prácticamente nula.
 
-## Unidad 16 · Trastornos de la atención
-
+## Unidad 16 · Alteraciones clínicas de la atención
 **Objetivos:** clasificar las disprosexias y reconocer los cuadros en los que aparecen; conocer los criterios del TDAH en el DSM-5-TR y en la CIE-11; manejar las cifras de prevalencia del TDAH y el debate sobre su sobrediagnóstico; describir la heminegligencia, su base neural, su evaluación y su rehabilitación.
 
 ### 16.1 Disprosexias

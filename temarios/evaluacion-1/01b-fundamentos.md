@@ -1,5 +1,4 @@
-## Unidad 3 · Modelos de evaluación psicológica
-
+## Unidad 3 · Grandes enfoques de la evaluación
 **Objetivos:** identificar qué supone cada modelo sobre los determinantes de la conducta y qué propone medir; relacionar cada modelo con sus métodos preferentes y su nivel de inferencia; distinguir la evaluación tradicional de la evaluación conductual; valorar los modelos como enfoques complementarios al servicio de la pregunta de evaluación.
 
 ### 3.1 El modelo psicométrico o del atributo

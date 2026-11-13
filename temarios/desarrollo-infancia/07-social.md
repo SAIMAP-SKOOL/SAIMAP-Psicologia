@@ -1,5 +1,4 @@
-# Capítulo 7 · Desarrollo social y afectivo
-
+# Capítulo 7 · Vínculos, emociones y relaciones: desarrollo socioafectivo
 El niño no solo aprende a pensar y a hablar: también aprende quién es, a quién puede acudir cuando tiene miedo y cómo relacionarse con los demás. Este capítulo recorre la construcción del yo y de la identidad, el apego y sus consecuencias, y después las diferencias de temperamento, el desarrollo moral, la agresividad, la crianza, el autocontrol y las relaciones con los iguales.
 
 ## Unidad 15 · El yo, la identidad y el apego

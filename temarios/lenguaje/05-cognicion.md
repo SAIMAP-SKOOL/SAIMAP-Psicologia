@@ -1,5 +1,4 @@
-# Capítulo 5 · Lenguaje, cognición y cultura
-
+# Capítulo 5 · Lenguaje, pensamiento y cultura
 ¿Pensamos con palabras? ¿Cambia la lengua materna la forma de ver los colores o de orientarse? ¿Mejora el control de la atención quien usa dos lenguas a diario? Este capítulo examina primero la relación entre lenguaje y pensamiento, el relativismo lingüístico, las categorías y el papel del lenguaje en otras funciones cognitivas; después, cómo la cultura moldea el uso del lenguaje y qué se sabe hoy del cerebro bilingüe.
 
 ## Unidad 14 · Lenguaje y pensamiento

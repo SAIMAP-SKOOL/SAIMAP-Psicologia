@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Evaluación I · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Unidades y técnicas de registro", cap: 5, pir: "media", mods: [
+{ n: 13, t: "Qué registrar y cómo hacerlo", cap: 5, pir: "media", mods: [
   { t: "Concepto de observación y unidades de análisis",
     tip: "La observación como técnica es un registro deliberado y sistemático, con objetivo previo, reglas definidas y observador entrenado. Puede hacerla un profesional no participante, alguien que participa en la situación o la propia persona (autoobservación). Las unidades de análisis se ordenan por su nivel de inferencia, desde las conductas definidas operativamente hasta los atributos, que exigen la máxima. Cuanto más molar e inferencial es la unidad, más difícil es el acuerdo entre observadores.",
     v: [
@@ -77,7 +77,7 @@ window.COURSE.units.push(
     cls: [
       "Unidad de medida|Frecuencia: preguntas en clase; golpes; cigarrillos|Duración: llorar; jugar con otros niños; estar concentrado|Latencia: obedecer una instrucción; tiempo en dormirse"
     ] },
-  { t: "Técnicas de registro",
+  { t: "Cómo registrar lo observado",
     tip: "La técnica de registro es el formato en que se anota lo observado, desde la descripción libre hasta la codificación cerrada. Al principio conviene un registro abierto para descubrir y después uno estructurado para contar. Las escalas de apreciación son juicios retrospectivos expuestos al halo, la lenidad o severidad, la tendencia central y el error lógico. El registro de productos que ya existían es la técnica menos reactiva.",
     v: [
       "Registro narrativo=Descripción libre de lo que ocurre, sin esquema previo, útil para crear categorías",

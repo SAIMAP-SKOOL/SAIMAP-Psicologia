@@ -1,5 +1,4 @@
-# Capítulo 3 · Probabilidad
-
+# Capítulo 3 · El lenguaje de la probabilidad
 La probabilidad es el lenguaje con el que la estadística cuantifica la incertidumbre. Este capítulo presenta sus conceptos básicos, las reglas de cálculo, la probabilidad condicionada y el teorema de Bayes, y explica por qué todo ello es imprescindible para pasar de la muestra a la población.
 
 ## Unidad 10 · Fundamentos de probabilidad

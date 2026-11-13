@@ -1,5 +1,4 @@
-# Capítulo 2 · Evaluación de la inteligencia y las aptitudes
-
+# Capítulo 2 · Medir la inteligencia y las aptitudes
 La inteligencia es el constructo con más tradición en la evaluación psicológica y también uno de los más discutidos. Este capítulo recorre primero las teorías que han intentado describirla y la historia de su medición, y después los instrumentos que se usan hoy: las escalas de Wechsler, otros tests individuales y colectivos y las baterías de aptitudes.
 
 ## Unidad 5 · Concepto y teorías de la inteligencia

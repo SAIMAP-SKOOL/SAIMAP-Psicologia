@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Motivación y Emoción · Unidades 1–4
 window.COURSE.units.push(
-{ n: 1, t: "Introducción a la motivación y la emoción", cap: 1, pir: "media", mods: [
+{ n: 1, t: "Motivación, emoción y cognición: un mapa", cap: 1, pir: "media", mods: [
   { t: "Concepto de motivación y sus parámetros",
     tip: "La motivación es el conjunto de procesos que dan energía y dirección a la conducta. No se observa: es un constructo hipotético que se infiere de lo que el organismo hace, dice y experimenta. Se describe con cuatro parámetros (activación, dirección, intensidad y persistencia), y se distingue la conducta instrumental, que acerca a la meta, de la consumatoria, que satisface el motivo.",
     v: [
@@ -309,7 +309,7 @@ window.COURSE.units.push(
     ] }
 ] },
 { n: 3, t: "Historia I: de la filosofía al modelo biológico", cap: 1, pir: "media", mods: [
-  { t: "De la filosofía a la psicología",
+  { t: "Los antecedentes filosóficos",
     tip: "Antes de la psicología científica dominaron tres ideas: hedonismo, voluntad e instinto. La teoría de la evolución de Darwin abrió paso a las teorías del instinto de James y McDougall, la primera gran teoría psicológica de la motivación. Decayeron por su circularidad, por ignorar el aprendizaje y por ser descriptivas; el concepto sobrevivió con más rigor en la etología.",
     v: [
       "Hedonismo=Principio según el cual la conducta busca el placer y evita el dolor",

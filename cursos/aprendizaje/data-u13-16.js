@@ -316,7 +316,7 @@ window.COURSE.units.push(
       "Paradigma de aprendizaje implícito|Gramática artificial: Reber (1967); cadenas de letras; clasificar cadenas nuevas|Tiempo de reacción serial: Nissen y Bullemer (1987); secuencia de posiciones; mejora también en amnésicos"
     ] }
 ] },
-{ n: 15, t: "Aprendizaje social: modelado y aprendizaje vicario", cap: 5, pir: "media", mods: [
+{ n: 15, t: "Modelado, imitación y aprendizaje vicario", cap: 5, pir: "media", mods: [
   { t: "Bandura y el muñeco Bobo: aprendizaje frente a ejecución",
     tip: "Frente a Miller y Dollard (1941), Bandura sostuvo que basta con observar, sin hacer ni recibir refuerzo. En Bandura, Ross y Ross (1961), los niños imitaron conductas agresivas nuevas. En Bandura (1965), el grupo del modelo castigado imitó menos, pero con incentivo reprodujo lo observado como los demás: había aprendido y no ejecutaba. Las críticas de diseño no anulan el hallazgo central.",
     v: [
@@ -555,7 +555,7 @@ window.COURSE.units.push(
     cls: [
       "Varianza explicada por la práctica deliberada|Más del 15 %: juegos; música; deportes|Menos del 5 %: educación; profesiones"
     ] },
-  { t: "Aprendizaje observacional de destrezas motoras",
+  { t: "Aprender destrezas motoras observando",
     tip: "En las destrezas motoras, el análisis de Bandura da un peso especial a la reproducción, y la demostración es útil sobre todo en la fase cognitiva. El modelo aprendiz que corrige sus errores puede ser tan útil como el experto o más. La práctica mental ayuda algo, pero no sustituye a la física. El foco externo (OPTIMAL) es razonable, pero tras corregir el sesgo de publicación su efecto es nulo o pequeño (McKay et al., 2024).",
     v: [
       "Demostración=Muestra de un movimiento que transmite ritmo y coordinación difíciles de explicar",

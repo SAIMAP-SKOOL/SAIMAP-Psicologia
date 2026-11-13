@@ -1,5 +1,4 @@
-# Capítulo 4 · Producción del lenguaje e interacción conversacional
-
+# Capítulo 4 · Hablar y conversar: la producción del lenguaje
 Hablar exige recorrer en fracciones de segundo el camino que va de una intención a un movimiento articulatorio, y hacerlo casi siempre con otra persona delante, que escucha, interrumpe y responde. Este capítulo estudia primero cómo se planifica y se ejecuta el habla, qué revelan sus errores y qué ocurre en el cerebro cuando hablamos; después, cómo se organiza la conversación: los turnos, la cortesía, la reparación de malentendidos y el papel social del lenguaje.
 
 ## Unidad 12 · La producción del habla

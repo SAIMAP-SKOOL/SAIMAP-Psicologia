@@ -1,5 +1,4 @@
-# Capítulo 2 · El condicionamiento clásico
-
+# Capítulo 2 · Condicionamiento clásico: aprender a anticipar
 El condicionamiento clásico es la forma más estudiada de aprendizaje asociativo: un estímulo que no significaba nada llega a provocar una respuesta porque anuncia otro que sí importa. Este capítulo recorre su historia, desde Pavlov y Watson, sus fenómenos básicos y lo que la investigación moderna ha descubierto sobre qué se aprende exactamente. También estudia sus límites biológicos, sus aplicaciones y su papel en la recaída y la terapia de exposición.
 
 ## Unidad 3 · El condicionamiento clásico: Pavlov, Watson y los fenómenos básicos

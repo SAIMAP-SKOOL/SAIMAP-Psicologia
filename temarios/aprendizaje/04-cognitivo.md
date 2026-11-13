@@ -1,5 +1,4 @@
-# Capítulo 4 · Aprendizaje cognitivo: conceptos, problemas y reestructuración
-
+# Capítulo 4 · Cognición y aprendizaje: conceptos, problemas e insight
 Una rata que encuentra un rodeo nunca recorrido, un chimpancé que encaja dos cañas o un estudiante que de pronto entiende que tres fórmulas son la misma ley muestran aprendizajes difíciles de reducir a conexiones entre estímulos y respuestas. Este capítulo recorre el giro cognitivo en la psicología del aprendizaje: primero los mapas, el insight y los conceptos; después los modelos computacionales y las teorías constructivistas, que entienden el aprendizaje como reorganización del conocimiento.
 
 ## Unidad 13 · Aprendizaje cognitivo I: mapas, insight y conceptos

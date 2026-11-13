@@ -466,7 +466,7 @@ window.COURSE.units.push(
 ] },
 
 { n: 4, t: "Población, muestra y validez", cap: 1, pir: "media", mods: [
-  { t: "Población y muestra, parámetros y estadísticos",
+  { t: "Población, muestra, parámetro y estadístico",
     tip: "La población (N) es el conjunto al que se quieren aplicar las conclusiones; la muestra (n), el subconjunto estudiado, que debe ser representativo. Los parámetros describen la población y se escriben con letras griegas (μ, σ, π, ρ); los estadísticos se calculan en la muestra y se escriben con letras latinas (x̄, s, p, r). El parámetro es fijo y suele ser desconocido; el estadístico cambia de una muestra a otra, y esa diferencia debida al azar es el error muestral.",
     v: [
       "Población=Conjunto completo de elementos al que se quieren aplicar las conclusiones",

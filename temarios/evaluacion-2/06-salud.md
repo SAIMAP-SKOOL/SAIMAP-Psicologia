@@ -1,5 +1,4 @@
-# Capítulo 6 · Evaluación de la salud y la calidad de vida
-
+# Capítulo 6 · Salud, bienestar y calidad de vida
 La psicología de la salud no se ocupa solo del malestar emocional: también evalúa cómo vive una persona su enfermedad, qué hábitos la protegen o la ponen en riesgo y con qué recursos hace frente al estrés. Este capítulo presenta los instrumentos más usados para medir la calidad de vida relacionada con la salud, la personalidad como factor de riesgo, el estilo de vida y las variables de estrés, afrontamiento, apoyo social y malestar emocional en pacientes con enfermedades físicas.
 
 ## Unidad 16 · Evaluación en psicología de la salud

@@ -462,7 +462,7 @@ window.COURSE.units.push(
     seq: [],
     cls: [] }
 ] },
-{ n: 16, t: "Trastornos de la atención", cap: 4, pir: "alta", mods: [
+{ n: 16, t: "Alteraciones clínicas de la atención", cap: 4, pir: "alta", mods: [
   { t: "Disprosexias",
     tip: "Las disprosexias se dividen en cuantitativas (hiperprosexia, hipoprosexia y aprosexia) y cualitativas (paraprosexia y pseudoaprosexia). La terminología no es uniforme entre manuales, así que conviene seguir el de referencia. El déficit atencional puede ser el núcleo de un cuadro, como en el síndrome confusional, o un síntoma acompañante, como la hipoprosexia de la depresión.",
     v: [

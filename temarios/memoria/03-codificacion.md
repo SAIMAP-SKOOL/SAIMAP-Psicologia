@@ -1,5 +1,4 @@
-# Capítulo 3 · Procesos de codificación
-
+# Capítulo 3 · Cómo entra la información: codificación
 Lo que se recuerda mañana depende en gran parte de lo que se hizo hoy con la información: repetirla, darle sentido, ordenarla o relacionarla con lo que ya se sabe. Este capítulo estudia primero qué hace que una codificación sea eficaz y después cómo se organiza el conocimiento que guardamos: categorías, redes semánticas, reglas de producción y esquemas.
 
 ## Unidad 8 · Codificar bien
@@ -169,8 +168,7 @@ c) La relectura del tema
 
 **Objetivos:** definir concepto, categoría y categorización y explicar sus funciones; describir el modelo clásico y sus problemas; comparar los modelos de prototipos y de ejemplares; explicar el nivel básico de categorización y las categorías basadas en teorías.
 
-### 9.1 Cómo se representa el conocimiento
-
+### 9.1 Formatos de representación del conocimiento
 La memoria semántica (Unidad 6) guarda una cantidad enorme de conocimiento general: qué es un perro, para qué sirve un paraguas, qué ocurre en una consulta médica. Para que ese conocimiento sea útil tiene que estar **organizado**. Si no lo estuviera, sería imposible responder en un segundo a preguntas como «¿un delfín es un pez?» o nombrar tres animales que empiecen por p.
 
 Conviene distinguir tres términos:

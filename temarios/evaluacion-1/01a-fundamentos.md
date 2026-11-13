@@ -1,5 +1,4 @@
-# Capítulo 1 · Concepto, historia y modelos de la evaluación psicológica
-
+# Capítulo 1 · Qué es evaluar: concepto, historia y enfoques
 Antes de aprender a entrevistar, observar o interpretar una puntuación hay que saber qué significa evaluar en psicología, para qué sirve y de dónde vienen sus herramientas. Este capítulo define la disciplina y la distingue de términos cercanos, recorre su historia desde los primeros exámenes hasta las guías actuales y presenta los grandes modelos que orientan qué se evalúa y cómo.
 
 ## Unidad 1 · Qué es evaluar en psicología
@@ -36,8 +35,7 @@ La idea central de la definición es que evaluar es **contrastar hipótesis**. E
 
 Por eso la evaluación no termina con una puntuación, sino con una **respuesta razonada** a la demanda, comunicada de forma comprensible (Unidad 7) y respetando las normas éticas (Unidad 8). Un error frecuente es reducir la evaluación a aplicar tests. Los tests son una herramienta dentro de un proceso que incluye entrevista, observación, formulación de hipótesis e informe, y que exige integrar información, no solo medirla.
 
-### 1.2 Evaluación y términos afines
-
+### 1.2 Evaluación, diagnóstico, medida y valoración
 La expresión «evaluación psicológica» es relativamente reciente, y a lo largo de la historia se han usado otros nombres que se solapan con ella. Algunos se emplean a veces como sinónimos, pero cada uno tiene un origen y un alcance propios. Como muestra la figura 1.1, todos ellos ocupan una parte del territorio de la evaluación.
 
 ![m](terminos-afines.png)
@@ -185,8 +183,7 @@ c) La evaluación se limita a interpretar tests
 
 **1 c.** Prescribir fármacos no es un objetivo de la evaluación psicológica; sí lo son describir, clasificar, predecir, explicar, orientar el cambio y valorarlo. **2 b.** La evaluación de programas comparte métodos, pero su objeto son las intervenciones. **3 a.** La obra de Rorschach llevaba ese título y marcó su uso clínico y proyectivo. **4 a.** r = 0,60 entre informantes similares, frente a 0,28 entre informantes de distinto tipo y 0,22 con el propio sujeto. **5 b.** Aplicar tests produce datos que la evaluación integra con otras fuentes para responder a una demanda.
 
-## Unidad 2 · Historia de la evaluación psicológica
-
+## Unidad 2 · De Galton a hoy: historia de la evaluación
 **Objetivos:** identificar los precursores precientíficos y del siglo XIX de la evaluación psicológica; explicar las aportaciones de Galton, Cattell, Binet, Stern y Terman y atribuir correctamente el CI; describir la expansión de los tests en el siglo XX, su crisis y su renovación; conocer los hitos de la evaluación psicológica en España.
 
 ### 2.1 Precursores: de los exámenes imperiales a Wundt

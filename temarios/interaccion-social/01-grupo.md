@@ -1,5 +1,4 @@
-# Capítulo 1 · El grupo: formación y desarrollo
-
+# Capítulo 1 · Qué es un grupo y cómo evoluciona
 Qué convierte a un conjunto de personas en un grupo, por qué las personas forman grupos y cómo cambian estos con el tiempo, desde la entrada de cada miembro hasta la disolución o la escisión. Es la base sobre la que se apoyan la estructura, la influencia y el rendimiento grupal de los capítulos siguientes.
 
 ## Unidad 1 · ¿Qué es un grupo?

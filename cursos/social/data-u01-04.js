@@ -466,7 +466,7 @@ window.COURSE.units.push(
       "Estado de la evidencia|Se mantiene: rasgos que sesgan el juicio sobre Donald; accesibilidad crónica; priming semántico|No se sostiene o en duda: caminar despacio tras palabras de vejez; grandes efectos de estímulos sutiles; efectos con muestras pequeñas sin prerregistro"
     ] }
 ] },
-{ n: 4, t: "Impresiones, afecto y motivación", cap: 2, pir: "media", mods: [
+{ n: 4, t: "Formar impresiones: el papel del afecto y la motivación", cap: 2, pir: "media", mods: [
   { t: "El modelo configuracional de Asch (1946)",
     tip: "Para Asch (1946), la impresión es un todo organizado, distinto de la suma de sus partes. Cambiar «cálido» por «frío» transformaba la impresión global, mientras que «educado» y «brusco» apenas la alteraban: son rasgos centrales y periféricos, y la centralidad depende del resto de la lista. Asch halló también un efecto de primacía, que explicó por cambio de significado. Las teorías implícitas de la personalidad y el efecto halo completan el cuadro.",
     v: [

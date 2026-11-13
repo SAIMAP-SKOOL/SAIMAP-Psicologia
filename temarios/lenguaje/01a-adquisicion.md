@@ -1,5 +1,4 @@
-# Capítulo 1 · La adquisición del lenguaje
-
+# Capítulo 1 · Cómo se adquiere el lenguaje
 Un bebé no sabe ninguna lengua al nacer y, unos años después, entiende y produce frases que nunca ha oído. Este capítulo define primero qué se entiende por lenguaje y cómo lo estudia la psicología, y sigue después el desarrollo desde la percepción temprana del habla hasta la gramática, la etapa escolar y el cerebro que lo sostiene. Las teorías que intentan explicar este proceso, los factores que lo modulan y sus trastornos se tratan en las Unidades 4 y 5.
 
 ## Unidad 1 · El lenguaje y su estudio

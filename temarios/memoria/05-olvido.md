@@ -1,5 +1,4 @@
-# Capítulo 5 · Procesos de olvido
-
+# Capítulo 5 · Olvido y distorsiones del recuerdo
 Olvidar no es solo perder: a menudo es la condición para recordar bien lo que importa ahora. Este capítulo explica por qué se olvida (paso del tiempo, interferencia, consolidación incompleta), cómo la propia memoria suprime de forma activa lo que estorba y por qué a veces recordamos con total seguridad cosas que nunca ocurrieron.
 
 ## Unidad 14 · Por qué olvidamos

@@ -1,5 +1,4 @@
-# Capítulo 2 · Estadística descriptiva
-
+# Capítulo 2 · Describir los datos: estadística descriptiva
 Cómo organizar, resumir y representar los datos de una muestra: tablas de frecuencias, cuantiles, índices de tendencia central, de variabilidad y de forma, puntuaciones típicas y gráficos.
 
 ## Unidad 5 · Describir variables categóricas

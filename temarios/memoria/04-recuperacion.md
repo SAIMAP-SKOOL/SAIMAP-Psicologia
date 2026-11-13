@@ -1,5 +1,4 @@
-# Capítulo 4 · Procesos de recuperación
-
+# Capítulo 4 · Cómo vuelve la información: recuperación
 Haber codificado bien una información no garantiza poder usarla cuando hace falta: el nombre que no sale, la respuesta que aparece al salir del examen o la cara que nos suena sin saber de qué. Este capítulo trata la recuperación como un proceso activo, que depende de las claves disponibles y del contexto, que busca, reconstruye y a veces se equivoca con mucha seguridad.
 
 ## Unidad 11 · Tareas y tipos de recuperación

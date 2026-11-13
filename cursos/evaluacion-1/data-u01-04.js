@@ -39,7 +39,7 @@ window.COURSE.units.push(
     cls: [
       "Vía de la evaluación|Descriptivo-predictiva: describir; clasificar o diagnosticar; predecir; explicar|Interventivo-valorativa: orientar el cambio; valorar"
     ] },
-  { t: "Evaluación y términos afines",
+  { t: "Evaluación, diagnóstico, medida y valoración",
     tip: "Varios términos se solapan con la evaluación psicológica, pero cada uno tiene origen y alcance propios. El psicodiagnóstico tiene raíz médica y proyectiva y busca la etiqueta. El testing produce puntuaciones y el assessment las integra con la historia, la entrevista y la observación (Meyer et al., 2001). La evaluación de programas valora intervenciones, no personas.",
     v: [
       "Psicodiagnóstico=Término de raíz médica y proyectiva centrado en la patología y la etiqueta",
@@ -154,7 +154,7 @@ window.COURSE.units.push(
       "Método|Entrevista: historia; contexto; significado|Observación: conducta motora; reactividad|Autoinforme: experiencias privadas; deseabilidad social"
     ] }
 ] },
-{ n: 2, t: "Historia de la evaluación psicológica", cap: 1, pir: "media", mods: [
+{ n: 2, t: "De Galton a hoy: historia de la evaluación", cap: 1, pir: "media", mods: [
   { t: "Precursores: de los exámenes imperiales a Wundt",
     tip: "Los exámenes de la China imperial aportan la idea de una prueba común, Huarte de San Juan (1575) el ajuste entre ingenio y oficio, y Esquirol la gradación de capacidades. Wundt (Leipzig, 1879) aportó el control de la situación de medida, pero trataba las diferencias individuales como error. Kraepelin y Ebbinghaus aplicaron las primeras tareas mentales a individuos.",
     v: [
@@ -312,7 +312,7 @@ window.COURSE.units.push(
     ],
     cls: [] }
 ] },
-{ n: 3, t: "Modelos de evaluación psicológica", cap: 1, pir: "media", mods: [
+{ n: 3, t: "Grandes enfoques de la evaluación", cap: 1, pir: "media", mods: [
   { t: "El modelo psicométrico o del atributo",
     tip: "El modelo psicométrico, del atributo o correlacional supone que la conducta depende de rasgos y aptitudes internos y relativamente estables, que se infieren tratando las respuestas como signos. Usa el método correlacional, baremos e interpretación normativa, y sus garantías centrales son la fiabilidad y la validez. Su inferencia es alta, y la crítica de Mischel (1968) a la consistencia entre situaciones abrió el debate persona-situación.",
     v: [

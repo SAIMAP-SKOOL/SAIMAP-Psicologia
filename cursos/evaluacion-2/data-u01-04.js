@@ -154,7 +154,7 @@ window.COURSE.units.push(
       "Procedimiento del polígrafo|Pregunta de control: compara con preguntas incómodas para casi todos; un inocente nervioso puede activarse más|Información oculta: detalles que solo conocería el autor; requiere detalles no difundidos; más base científica"
     ] }
 ] },
-{ n: 2, t: "Técnicas subjetivas", cap: 1, pir: "baja", mods: [
+{ n: 2, t: "Las técnicas subjetivas: la mirada del evaluado", cap: 1, pir: "baja", mods: [
   { t: "Características de las técnicas subjetivas",
     tip: "En las técnicas subjetivas la persona describe, califica o clasifica a sí misma, a otros o a objetos, y lo que interesa es el significado que atribuye. El material es semiestructurado y el objetivo no está enmascarado, así que la respuesta es voluntaria y puede falsearse. La interpretación es sobre todo idiográfica y el análisis, cualitativo y cuantitativo. El Q-sort de Stephenson es una técnica afín de medida ipsativa.",
     v: [

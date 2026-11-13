@@ -1,5 +1,4 @@
-# Capítulo 6 · Aprendizaje perceptivo-motor y aplicaciones
-
+# Capítulo 6 · Destrezas perceptivo-motoras y aplicaciones del aprendizaje
 Aprender no es solo saber qué: también es saber hacer, desde atarse los cordones hasta conducir o tocar el violín. Este capítulo estudia cómo se adquieren las destrezas motoras, cómo organizar la práctica y qué papel tienen la observación y la pericia. Termina con las aplicaciones de los principios del aprendizaje a la clínica, la educación y el estudio.
 
 ## Unidad 16 · Aprendizaje perceptivo-motor y aplicaciones del aprendizaje
@@ -64,8 +63,7 @@ Figura 16.3. **Peso de la práctica deliberada según el dominio.** Porcentaje d
 
 Como muestra la figura 16.3, la práctica pesa más en dominios con reglas estables, como el ajedrez o la música, y mucho menos en educación y en profesiones. Macnamara y Maitra (2019) repitieron el estudio original de los violinistas con 39 participantes: la práctica deliberada explicó un 26 % de la varianza, frente al 48 % de la estimación original. La práctica es necesaria, pero no lo explica todo. La regla de las **10.000 horas** es una popularización (Gladwell), no un umbral propuesto por Ericsson.
 
-### 16.3 Aprendizaje observacional de destrezas motoras
-
+### 16.3 Aprender destrezas motoras observando
 Antes de intentar un movimiento nuevo, casi siempre queremos **verlo**. Una demostración transmite de golpe lo que costaría mucho explicar con palabras, como el ritmo o la coordinación de varias partes del cuerpo.
 
 El análisis de Bandura (Unidad 15) se aplica aquí con un peso especial de la **reproducción**. Quien observa codifica el movimiento en imágenes y en palabras, y con esa representación orienta sus primeros intentos y juzga después si se parecen a lo que vio. Es especialmente útil en la fase cognitiva, cuando el problema es entender qué hay que hacer.

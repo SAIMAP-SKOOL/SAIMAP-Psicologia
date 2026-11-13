@@ -303,7 +303,7 @@ window.COURSE.units.push(
     ] }
 ] },
 { n: 11, t: "Oraciones, discurso y cerebro", cap: 3, pir: "alta", mods: [
-  { t: "Procesamiento sintáctico",
+  { t: "El análisis sintáctico de las oraciones",
     tip: "El análisis sintáctico es incremental y por eso puede comprometerse antes de tiempo, como en las oraciones de vía muerta. El modelo de Frazier es serial y modular, con adjunción mínima y cierre tardío, mientras que los modelos basados en restricciones consideran varios análisis en paralelo con toda la información desde el principio. La preferencia española por la adjunción alta (Cuetos y Mitchell, 1988) cuestionó la universalidad del cierre tardío.",
     v: [
       "Oración de vía muerta=Oración con una ambigüedad temporal que lleva a un análisis inicial erróneo",
@@ -379,7 +379,7 @@ window.COURSE.units.push(
     cls: [
       "Componentes ERP|N400: «Untó la tostada con calcetines»; palabra poco esperada|P600: reanálisis sintáctico; oraciones de vía muerta"
     ] },
-  { t: "Comprensión del discurso",
+  { t: "Comprender textos y discursos",
     tip: "Van Dijk y Kintsch (1983) distinguen superficie, texto base y modelo de situación, y la superficie se olvida pronto. En el modelo de construcción-integración (Kintsch, 1988), cada frase activa proposiciones pertinentes o no, y la integración deja solo lo coherente. El modelo de indexación de eventos sigue tiempo, espacio, causalidad, intencionalidad y protagonistas, y las inferencias puente son necesarias, a diferencia de las elaborativas.",
     v: [
       "Texto base=Proposiciones del texto y su organización local y global",

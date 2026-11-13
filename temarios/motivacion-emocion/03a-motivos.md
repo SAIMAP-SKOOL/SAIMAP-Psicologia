@@ -1,5 +1,4 @@
-# Capítulo 3 · Los motivos
-
+# Capítulo 3 · Motivos biológicos y sociales
 Los motivos primarios (hambre, sed y sueño) mantienen el equilibrio del organismo, pero están moldeados por el aprendizaje y el entorno; los motivos sociales (logro, afiliación y poder) explican diferencias estables en lo que buscan las personas.
 
 ## Unidad 7 · Hambre

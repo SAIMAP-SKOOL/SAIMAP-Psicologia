@@ -1,5 +1,4 @@
-# Capítulo 4 · Violencia
-
+# Capítulo 4 · Agresión y violencia
 La agresión y la violencia son formas de interacción social con un coste enorme para las víctimas, los agresores y la comunidad. Este capítulo define los conceptos básicos, presenta los grandes enfoques explicativos y los factores de riesgo y de protección, y expone las principales teorías psicológicas de la delincuencia y su aplicación a la intervención.
 
 ## Unidad 7 · Agresión, violencia y riesgo
@@ -192,8 +191,7 @@ c) La ansiedad
 
 **1 c.** Daña las relaciones sociales de la víctima sin contacto físico. **2 a.** Una respuesta posible es la innovación: perseguir la meta por medios ilegítimos. **3 b.** No puede cambiarse; las otras dos opciones son dinámicas. **4 c.** La opción a corresponde al principio de necesidad y la b, al de responsividad. **5 a.** La autoestima y la ansiedad son necesidades no criminógenas.
 
-## Unidad 8 · Explicaciones psicológicas de la delincuencia
-
+## Unidad 8 · Por qué se delinque: teorías psicológicas
 **Objetivos:** explicar cómo se aprende la conducta violenta y delictiva según Bandura, Sutherland y Akers; relacionar las dimensiones de personalidad y la psicopatía con la delincuencia y valorar su capacidad predictiva; comparar las teorías de la tensión, los vínculos sociales y el autocontrol; describir la curva edad-delito, la taxonomía de Moffitt y las teorías integradoras del desarrollo.
 
 ### 8.1 La violencia se aprende (Bandura, Sutherland, Akers)

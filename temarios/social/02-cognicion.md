@@ -1,5 +1,4 @@
-# Capítulo 2 · Cognición social
-
+# Capítulo 2 · Pensar sobre los demás: cognición social
 Para movernos entre otras personas necesitamos interpretarlas deprisa y con información incompleta. Este capítulo estudia las estructuras y los atajos con los que lo hacemos (esquemas, prototipos, heurísticos, accesibilidad) y, después, cómo se forma una impresión de alguien y cómo la tiñen el estado de ánimo y lo que deseamos concluir.
 
 ## Unidad 3 · Esquemas, heurísticos y automatismo
@@ -164,8 +163,7 @@ c) El efecto se invirtió y los participantes caminaron más rápido
 
 **1 b.** La facilidad para recordar casos llamativos y recientes infla la estimación de su frecuencia. **2 a.** Una conjunción no puede ser más probable que uno de sus componentes; el parecido con el prototipo engaña. **3 c.** Los rasgos activados sesgaban la interpretación de la conducta ambigua, pero solo si eran aplicables. **4 a.** Combina la idea del avaro cognitivo con el papel de las metas y las emociones. **5 b.** El efecto parecía depender de las expectativas de quien tomaba el tiempo.
 
-## Unidad 4 · Impresiones, afecto y motivación
-
+## Unidad 4 · Formar impresiones: el papel del afecto y la motivación
 **Objetivos:** explicar el modelo configuracional de Asch y la distinción entre rasgos centrales y periféricos; comparar los modelos aditivo, de promedio y de promedio ponderado de Anderson; describir cómo influye el estado de ánimo en el juicio según el afecto como información y el modelo de infusión afectiva; explicar el razonamiento motivado y la necesidad de cierre, y valorar la evidencia actual sobre el agotamiento del ego.
 
 ### 4.1 El modelo configuracional de Asch (1946)

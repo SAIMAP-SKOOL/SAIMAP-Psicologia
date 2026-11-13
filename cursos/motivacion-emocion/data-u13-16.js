@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Motivación y Emoción · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Funciones y clasificación de las emociones", cap: 4, pir: "alta", mods: [
+{ n: 13, t: "Para qué sirven las emociones y cómo se clasifican", cap: 4, pir: "alta", mods: [
   { t: "Funciones adaptativa, social y motivacional",
     tip: "Desde Darwin (1872), las emociones se entienden como respuestas seleccionadas por su utilidad. Sus funciones se agrupan en tres: adaptativa (preparar una acción rápida y coordinada), social (comunicar y regular la interacción) y motivacional (dar energía y dirección a la conducta). Una emoción es adaptativa cuando su tipo, intensidad y duración se ajustan a la situación.",
     v: [
@@ -466,7 +466,7 @@ window.COURSE.units.push(
       "Con qué se solapa cada tipo de medida de IE|Autoinforme: neuroticismo en sentido inverso; extraversión; responsabilidad|Prueba de habilidad: capacidad cognitiva general"
     ] }
 ] },
-{ n: 16, t: "Emociones y salud", cap: 5, pir: "alta", mods: [
+{ n: 16, t: "Emoción, estrés y salud", cap: 5, pir: "alta", mods: [
   { t: "Estrés: Selye, Lazarus y el eje HHA",
     tip: "El estrés se ha entendido como respuesta (el síndrome general de adaptación de Selye, con alarma, resistencia y agotamiento), como estímulo (sucesos vitales de Holmes y Rahe, contrariedades diarias) y como proceso (modelo transaccional de Lazarus y Folkman). Fisiológicamente actúan el sistema simpático-adrenomedular, rápido, y el eje HHA, más lento: CRH, ACTH y cortisol, con retroalimentación negativa.",
     v: [

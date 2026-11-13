@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Evaluación I · Unidades 05–08
 window.COURSE.units.push(
-{ n: 5, t: "El proceso de evaluación psicológica", cap: 2, pir: "alta", mods: [
+{ n: 5, t: "Las fases del proceso evaluador", cap: 2, pir: "alta", mods: [
   { t: "La evaluación como proceso de toma de decisiones",
     tip: "Evaluar no es aplicar una batería y leer resultados: es una cadena de decisiones que, en la línea de Fernández-Ballesteros, sigue la lógica del método científico. Se recoge información, se plantean hipótesis, se deducen consecuencias comprobables y se contrastan con instrumentos fiables y válidos. Hay dos ramas, la descriptivo-predictiva (correlacional) y la interventivo-valorativa (cercana a la experimental), y el proceso es iterativo, no lineal.",
     v: [
@@ -312,7 +312,7 @@ window.COURSE.units.push(
       "Vía de evaluación digital|EMA: preguntas en el móvil; menos sesgo de recuerdo; carga y reactividad|TAI: teoría de respuesta al ítem; menos ítems|Sensorización pasiva: wearables; sueño y actividad; validez en discusión"
     ] }
 ] },
-{ n: 7, t: "El informe psicológico", cap: 2, pir: "media", mods: [
+{ n: 7, t: "Redactar y comunicar el informe", cap: 2, pir: "media", mods: [
   { t: "Funciones y tipos de informe",
     tip: "El informe integra lo que aportan las técnicas, responde a la demanda y justifica cada conclusión. Comunica, fundamenta decisiones, documenta y tiene efectos legales y profesionales. Según el canal hay devolución oral e informe escrito, y según función y destinatario, informe técnico, personal, certificado y pericial. Aunque la evaluación la pida un tercero, el evaluado tiene derecho a conocer el informe (art. 42).",
     v: [

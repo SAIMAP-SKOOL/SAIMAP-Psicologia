@@ -193,7 +193,7 @@ window.COURSE.units.push(
     cls: [
       "Motivos implícitos frente a explícitos|Implícitos: TAT y PSE; conducta espontánea; experiencias preverbales|Explícitos: cuestionarios; elecciones deliberadas; normas aprendidas"
     ] },
-  { t: "Motivo de logro",
+  { t: "La necesidad de logro",
     tip: "El motivo de logro es la disposición a buscar el éxito frente a un criterio de excelencia. Quien lo tiene alto prefiere la dificultad moderada, busca retroalimentación y responsabilidad personal, innova y persiste. Atkinson lo explica: la tendencia al éxito es máxima con una probabilidad cercana a 0,5, mientras que el miedo al fracaso lleva a elegir tareas muy fáciles o muy difíciles.",
     v: [
       "Motivo de logro=Disposición a buscar el éxito frente a un criterio de excelencia",
@@ -308,7 +308,7 @@ window.COURSE.units.push(
       "Formas de poder según McClelland|Personalizado: dominar en beneficio propio; impulsividad; los otros como rivales|Socializado: metas colectivas; alto autocontrol; fortalecer a los demás"
     ] }
 ] },
-{ n: 11, t: "La emoción: definición e historia", cap: 4, pir: "alta", mods: [
+{ n: 11, t: "Qué es una emoción y cómo se ha estudiado", cap: 4, pir: "alta", mods: [
   { t: "Emoción, afecto, estado de ánimo y sentimiento",
     tip: "Una emoción es una respuesta breve ante un desencadenante concreto valorado como relevante. Según el modelo de procesos componentes de Scherer, implica evaluación cognitiva, cambios fisiológicos, expresión motora, tendencias de acción y sentimiento subjetivo, sincronizados durante un tiempo breve. El estado de ánimo dura más y tiene un desencadenante difuso; el sentimiento es la vivencia consciente, y el afecto, el término más amplio.",
     v: [

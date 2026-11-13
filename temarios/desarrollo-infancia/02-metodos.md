@@ -1,5 +1,4 @@
-# Capítulo 2 · Métodos de investigación y diseños evolutivos
-
+# Capítulo 2 · Cómo se investiga el desarrollo: métodos y diseños
 Las teorías del capítulo anterior solo valen lo que valen los datos que las sostienen. Este capítulo explica cómo se recogen esos datos cuando los participantes son bebés, niños o adolescentes, qué diseños permiten hablar de causas y cuáles de cambio con la edad, y qué errores se cometen al interpretar cada uno.
 
 ## Unidad 5 · Métodos de recogida de datos y diseños generales

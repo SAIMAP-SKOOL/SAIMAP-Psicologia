@@ -349,7 +349,7 @@ window.COURSE.units.push(
     cls: [
       "Ventaja o limitación de la entrevista|Ventajas: flexibilidad; acceso a la historia personal; observación no verbal; útil con quien no sabe leer|Limitaciones: coste en tiempo; sesgos del entrevistador; deseabilidad social; información difícil de ordenar"
     ] },
-  { t: "Clasificación de las entrevistas",
+  { t: "Tipos de entrevista",
     tip: "Las entrevistas se clasifican por grado de estructura, objetivo, número de participantes y momento del proceso, y los criterios se combinan. La estructura es el criterio más importante porque condiciona la fiabilidad: la libre es la menos fiable, la semiestructurada la más habitual en clínica y la estructurada la más fiable. En selección, la estructurada predice mejor el desempeño (r ≈ 0,42 frente a 0,19, según Sackett et al., 2022).",
     v: [
       "Entrevista libre=Sin guion: se sigue el hilo de lo que cuenta la persona",

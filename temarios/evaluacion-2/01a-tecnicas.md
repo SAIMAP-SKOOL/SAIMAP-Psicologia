@@ -1,5 +1,4 @@
-# Capítulo 1 · Técnicas objetivas, subjetivas y proyectivas
-
+# Capítulo 1 · Tres familias de técnicas: objetivas, subjetivas y proyectivas
 Antes de estudiar tests concretos conviene saber qué tipo de dato ofrece cada técnica: una respuesta fisiológica que la persona apenas controla, una descripción de sí misma o de su mundo, o una interpretación libre de un estímulo ambiguo. Este capítulo recorre esas tres familias. Empieza por las técnicas objetivas y psicofisiológicas, sigue con las subjetivas (listas de adjetivos, diferencial semántico y rejilla) y termina con las proyectivas y la evidencia sobre su validez.
 
 ## Unidad 1 · Técnicas objetivas y psicofisiológicas
@@ -187,8 +186,7 @@ c) no se produzca ningún falso positivo
 
 **1 b.** La corrección objetiva no convierte un autoinforme en técnica objetiva: sigue siendo un dato Q. **2 a.** Latencias cortas con muchos errores definen el estilo impulsivo. **3 c.** Lacey mostró que los sistemas pueden cambiar en direcciones opuestas. **4 b.** Es un índice de activación inespecífico. **5 a.** Con una tasa base baja, los falsos positivos superan con mucho a los aciertos.
 
-## Unidad 2 · Técnicas subjetivas
-
+## Unidad 2 · Las técnicas subjetivas: la mirada del evaluado
 **Objetivos:** describir las características que definen las técnicas subjetivas y su lugar entre los métodos de evaluación; conocer las listas de adjetivos y sus usos; explicar el diferencial semántico de Osgood y sus tres factores; describir la técnica de rejilla de Kelly, su aplicación y sus principales índices.
 
 ### 2.1 Características de las técnicas subjetivas

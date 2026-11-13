@@ -1,6 +1,6 @@
 // SAIMAP Psicología · Interacción Social · Unidades 9–12
 window.COURSE.units.push(
-{ n: 9, t: "El conflicto y su gestión", cap: 5, pir: "media", mods: [
+{ n: 9, t: "Analizar y gestionar el conflicto", cap: 5, pir: "media", mods: [
   { t: "Qué es un conflicto y tipos",
     tip: "Un conflicto es un proceso en el que una parte percibe que otra afecta, o va a afectar, negativamente a sus intereses. Sus elementos comunes son la interdependencia, la incompatibilidad percibida, la implicación emocional, el carácter de proceso y los motivos mixtos. La visión interaccionista sostiene que cierto nivel de conflicto es necesario y distingue conflictos funcionales y disfuncionales. El conflicto de relación tiende a ser disfuncional, mientras que el de tarea moderado puede ser útil.",
     v: [
@@ -311,7 +311,7 @@ window.COURSE.units.push(
     cls: [] }
 ] },
 { n: 11, t: "¿Por qué ayudamos?", cap: 6, pir: "alta", mods: [
-  { t: "Conducta prosocial y conducta altruista",
+  { t: "Prosocialidad y altruismo: en qué se diferencian",
     tip: "La conducta prosocial abarca cualquier conducta que beneficia a otros o a la sociedad. La conducta de ayuda es un tipo más concreto, dirigido a una persona determinada. La altruista beneficia a otro sin esperar nada a cambio y su fin último es el bienestar de esa persona: la diferencia está en la motivación. Para Batson (1991), el altruismo es un estado motivacional, opuesto al egoísmo. Toda conducta altruista es prosocial, pero no al revés.",
     v: [
       "Conducta prosocial=Cualquier conducta que beneficia a otras personas o a la sociedad",
@@ -581,7 +581,7 @@ window.COURSE.units.push(
     cls: [
       "Nivel de análisis|Individual: probabilidad de que una persona ayude; experimentos clásicos; baja con más testigos|Grupal: probabilidad de que alguien ayude; cámaras de Philpot; sube con más testigos"
     ] },
-  { t: "La ayuda planificada: el voluntariado",
+  { t: "El voluntariado como ayuda planificada",
     tip: "El voluntariado es ayuda planificada. Según Penner (2002), es prolongada, libre, deliberada, dirigida a desconocidos y se da en un contexto organizativo. Las variables con más apoyo son las motivacionales. Desde el enfoque funcional, el Inventario de Funciones del Voluntariado (Clary et al., 1998) mide seis: valores, comprensión, social, carrera, protectora y mejora. Omoto y Snyder (1995) describen un proceso de antecedentes, experiencias y consecuencias en tres niveles.",
     v: [
       "Voluntariado=Ayuda planificada, libre y prolongada a desconocidos dentro de una organización",

@@ -1,5 +1,4 @@
-# Capítulo 3 · Percepción y comprensión del lenguaje
-
+# Capítulo 3 · Entender el lenguaje: percepción y comprensión
 Entender a alguien parece instantáneo, pero exige convertir una señal física continua y muy variable en sonidos, palabras, estructuras y, al final, en una representación de lo que se nos cuenta. Este capítulo sigue ese recorrido: primero la percepción del habla, la lectura y la lengua de signos; después el acceso al léxico; por último, el análisis de oraciones, la comprensión del discurso y sus bases cerebrales.
 
 ## Unidad 9 · Percepción del habla y lectura
@@ -343,8 +342,7 @@ c) reduce la actividad de toda la corteza motora
 
 **Objetivos:** comparar el modelo de vía muerta con los modelos basados en restricciones y valorar los datos del español; interpretar los componentes N400 y P600 y el papel de la predicción; describir los niveles de representación del discurso, los modelos de situación y los tipos de inferencias; relacionar el modelo clásico de Wernicke-Lichtheim-Geschwind con los modelos actuales y clasificar las afasias.
 
-### 11.1 Procesamiento sintáctico
-
+### 11.1 El análisis sintáctico de las oraciones
 Comprender una oración exige saber **quién hizo qué a quién**. El **análisis sintáctico** (*parsing*) asigna a cada palabra su función y las agrupa en sintagmas de forma **incremental**, palabra a palabra: es rápido, pero puede comprometerse antes de tiempo.
 
 El problema es la **ambigüedad sintáctica**. En «Vi al hombre con los prismáticos», estos pueden ser el instrumento o algo que llevaba el hombre. Algunas ambigüedades temporales obligan a rehacer el análisis, como la inglesa «The horse raced past the barn fell» (Bever, 1970) o «Mientras María cosía el vestido se cayó al suelo», donde «el vestido» se lee primero como lo cosido y luego debe reinterpretarse como sujeto. Son oraciones de **vía muerta** (*garden path*).
@@ -394,8 +392,7 @@ La N400 no es una «onda de error»: su amplitud es **graduada** según lo difí
 
 Conclusión: predecimos el **significado** de lo que viene, pero no hay evidencia convincente de que preactivemos de forma rutinaria la **forma** de las palabras. Esa anticipación permite preparar la respuesta mientras el otro aún habla (Unidad 13).
 
-### 11.3 Comprensión del discurso
-
+### 11.3 Comprender textos y discursos
 Entender un texto exige construir una representación **coherente** del conjunto. Van Dijk y Kintsch (1983) distinguieron tres niveles:
 
 - **Superficie**: las palabras exactas. Se olvida pronto: poco después de leer una frase se detecta mal un cambio de activa a pasiva, pero muy bien un cambio de significado (Sachs, 1967).

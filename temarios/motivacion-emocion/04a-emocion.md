@@ -1,9 +1,7 @@
-# Capítulo 4 · Psicología de la emoción
-
+# Capítulo 4 · Las emociones: teorías, funciones y tipos
 Qué es una emoción, cómo se ha explicado desde Darwin hasta las teorías de la valoración, y qué debates siguen abiertos sobre su naturaleza: emociones básicas o construidas, expresiones universales o variables, y el papel del rostro en lo que sentimos.
 
-## Unidad 11 · La emoción: definición e historia
-
+## Unidad 11 · Qué es una emoción y cómo se ha estudiado
 **Objetivos:** distinguir emoción, afecto, estado de ánimo y sentimiento; explicar y comparar las teorías de James-Lange y Cannon-Bard; conocer las aportaciones conductistas y el triple sistema de respuesta de Lang; describir las principales teorías cognitivas de la emoción y sus límites empíricos.
 
 ### 11.1 Emoción, afecto, estado de ánimo y sentimiento

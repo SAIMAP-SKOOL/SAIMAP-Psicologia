@@ -312,7 +312,7 @@ window.COURSE.units.push(
       "Dimensión del estilo depresivo|Interna: «es culpa mía»; afecta a la autoestima|Estable: «siempre será así»; desesperanza|Global: «me pasa en todo»; se extiende a otros ámbitos"
     ] }
 ] },
-{ n: 7, t: "El autoconcepto", cap: 4, pir: "media", mods: [
+{ n: 7, t: "Quién creo que soy: el autoconcepto", cap: 4, pir: "media", mods: [
   { t: "Conciencia de uno mismo",
     tip: "El autoconcepto es el conjunto de creencias sobre los propios rasgos, capacidades, roles, valores y pertenencias, y tiene un origen social (el yo espejo de Cooley, Mead). Es multidimensional, dinámico y cultural, y se organiza en autoesquemas (Markus, 1977). La autoconciencia objetiva (Duval y Wicklund, 1972) lleva a compararse con estándares, y Carver y Scheier (1981) distinguieron la privada de la pública.",
     v: [

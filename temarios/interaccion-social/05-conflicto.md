@@ -1,9 +1,7 @@
-# Capítulo 5 · El conflicto y su resolución
-
+# Capítulo 5 · Conflicto, negociación y mediación
 Qué es un conflicto, cómo nace y evoluciona, qué estilos usan las personas para gestionarlo y cuál funciona mejor según la situación. La segunda unidad se centra en las actitudes que alimentan la escalada y en la negociación como forma conjunta de resolver diferencias.
 
-## Unidad 9 · El conflicto y su gestión
-
+## Unidad 9 · Analizar y gestionar el conflicto
 **Objetivos:** definir el conflicto y reconocer sus elementos comunes; clasificar los conflictos según su nivel, su contenido y sus efectos; describir las etapas del proceso de conflicto; comparar los modelos bidimensionales de estilos de gestión y el modelo conductual de Van de Vliert y Euwema.
 
 ### 9.1 Qué es un conflicto y tipos

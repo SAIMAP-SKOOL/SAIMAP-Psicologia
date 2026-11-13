@@ -1,5 +1,4 @@
-# Capítulo 4 · Relación entre variables
-
+# Capítulo 4 · Asociación y correlación entre variables
 Buena parte de las preguntas de la psicología son preguntas sobre relaciones: si el sueño se asocia con el rendimiento, si la ansiedad varía con el sexo o si una terapia se relaciona con la mejoría. Este capítulo explica cómo describir esas relaciones con variables cuantitativas y categóricas, y por qué una relación no basta para afirmar una causa.
 
 ## Unidad 12 · Asociación y causalidad

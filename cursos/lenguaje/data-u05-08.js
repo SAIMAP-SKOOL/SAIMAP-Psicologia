@@ -577,7 +577,7 @@ window.COURSE.units.push(
     cls: [
       "Enfoque pragmático|Grice: cooperación; cuatro máximas|Neo-griceanos: principio Q; principio R; interpretaciones por defecto|Relevancia: explicatura; máximo efecto con mínimo esfuerzo"
     ] },
-  { t: "Teoría de la mente y comunicación",
+  { t: "Leer la mente del otro: teoría de la mente y comunicación",
     tip: "La teoría de la mente (ToM) es la capacidad de atribuir estados mentales a uno mismo y a los demás, un término de Premack y Woodruff (1978). Su prueba clásica es la falsa creencia, que se aprueba de forma gradual hacia los 4–5 años, y la de segundo orden, hacia los 6–7. El lenguaje, sobre todo la sintaxis de complementación, se relaciona con la ToM, y la pragmática depende de ella. La ToM implícita en bebés sigue en debate.",
     v: [
       "Teoría de la mente=Capacidad de atribuir creencias, deseos e intenciones a uno mismo y a los demás",

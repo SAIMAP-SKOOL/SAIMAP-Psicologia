@@ -470,7 +470,7 @@ window.COURSE.units.push(
       "Principio del RNR|Riesgo: a quién; intensidad del tratamiento|Necesidad: qué; necesidades criminógenas|Responsividad: cómo; métodos cognitivo-conductuales"
     ] }
 ] },
-{ n: 8, t: "Explicaciones psicológicas de la delincuencia", cap: 4, pir: "baja", mods: [
+{ n: 8, t: "Por qué se delinque: teorías psicológicas", cap: 4, pir: "baja", mods: [
   { t: "La violencia se aprende (Bandura, Sutherland, Akers)",
     tip: "La conducta violenta y delictiva se aprende como cualquier otra. Bandura mostró con el muñeco Bobo el modelado y que el refuerzo vicario afecta a la ejecución, no al aprendizaje. Sutherland sostiene que el delito se aprende en grupos íntimos cuando las definiciones favorables a infringir la ley superan a las desfavorables, y Akers añadió el refuerzo diferencial y la imitación. La relación con iguales delincuentes refleja tanto influencia como selección.",
     v: [

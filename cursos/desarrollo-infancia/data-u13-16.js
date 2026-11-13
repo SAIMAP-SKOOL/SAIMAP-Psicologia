@@ -1,7 +1,7 @@
 // SAIMAP Psicología · Desarrollo: Infancia · Unidades 13–16
 window.COURSE.units.push(
 { n: 13, t: "Más allá de Piaget: el bebé competente y la teoría de la mente", cap: 5, pir: "alta", mods: [
-  { t: "Aportaciones de Piaget",
+  { t: "El legado de Piaget",
     tip: "Piaget fundó el estudio del desarrollo cognitivo, presentó al niño como constructor activo, propuso la equilibración como mecanismo de cambio, aportó el método clínico y un repertorio de tareas e influyó en la educación. Además, generó la investigación que lo corrigió. La primera crítica se apoya en distinguir competencia de ejecución: fallar una tarea no prueba que falte la estructura mental.",
     v: [
       "Constructor activo=Visión del niño que elabora su propio conocimiento, hoy de consenso",
@@ -155,7 +155,7 @@ window.COURSE.units.push(
     ] }
 ] },
 
-{ n: 14, t: "Desarrollo del lenguaje", cap: 6, pir: "alta", mods: [
+{ n: 14, t: "Del balbuceo al discurso: desarrollo lingüístico", cap: 6, pir: "alta", mods: [
   { t: "Componentes del lenguaje y teorías de la adquisición",
     tip: "Aprender una lengua exige dominar fonología, morfología, sintaxis, semántica y pragmática, y en todos los componentes la comprensión precede a la producción. Skinner explicó el lenguaje por refuerzo e imitación, pero no la gramática. Chomsky propuso un dispositivo innato (LAD), y Bruner respondió con el LASS: formatos interactivos en los que el adulto ajusta su ayuda al niño.",
     v: [

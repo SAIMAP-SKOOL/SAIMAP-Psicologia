@@ -1,5 +1,4 @@
-# Capítulo 8 · Comportamiento colectivo: decisiones y rendimiento grupal
-
+# Capítulo 8 · Decidir y rendir en grupo
 ¿Deciden mejor los grupos que las personas solas? ¿Rinde más un equipo que la suma de sus miembros? La respuesta depende de la tarea, de cómo circula la información y de la motivación de cada miembro. Este capítulo estudia los sesgos de las decisiones grupales y los efectos de los demás sobre el rendimiento, con la evidencia que confirma unos fenómenos y matiza otros.
 
 ## Unidad 15 · Decidir en grupo

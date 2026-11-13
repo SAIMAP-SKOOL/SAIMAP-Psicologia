@@ -1,5 +1,4 @@
-# Capítulo 3 · Evaluación de la personalidad
-
+# Capítulo 3 · Evaluar la personalidad
 Los cuestionarios e inventarios de personalidad son, con diferencia, los instrumentos de personalidad más usados en la práctica profesional. Este capítulo estudia cómo funcionan, cómo se protegen frente a las respuestas sesgadas, con qué estrategias se construyen y qué miden los grandes inventarios clínicos y dimensionales, desde el MMPI hasta los modelos actuales de los trastornos de personalidad.
 
 ## Unidad 9 · Los autoinformes de personalidad

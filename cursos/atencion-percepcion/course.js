@@ -10,8 +10,8 @@ window.COURSE = {
   capitulos: [
     { n: 1, t: "Fundamentos de la percepción", from: 1, to: 4 },
     { n: 2, t: "Los sistemas sensoriales", from: 5, to: 10 },
-    { n: 3, t: "La atención", from: 11, to: 14 },
-    { n: 4, t: "Ilusiones, sesgos y trastornos de la atención", from: 15, to: 16 }
+    { n: 3, t: "Atender: mecanismos, modelos y tipos de atención", from: 11, to: 14 },
+    { n: 4, t: "Cuando la percepción y la atención fallan", from: 15, to: 16 }
   ],
   units: []
 };

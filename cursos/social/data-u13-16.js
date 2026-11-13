@@ -1,7 +1,7 @@
 // SAIMAP Psicología · Social · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Los estereotipos", cap: 6, pir: "media", mods: [
-  { t: "Estereotipo, prejuicio y discriminación",
+{ n: 13, t: "Cómo se forman y se mantienen los estereotipos", cap: 6, pir: "media", mods: [
+  { t: "Tres conceptos: creencia, actitud y conducta",
     tip: "Siguiendo el modelo tripartito, el estereotipo es el componente cognitivo, el prejuicio el afectivo y la discriminación el conductual. Un estereotipo puede ser positivo, pero el prejuicio es por definición negativo. Los estereotipos se forman por socialización, experiencia y sesgos como la correlación ilusoria y la homogeneidad del exogrupo, y se mantienen por atención selectiva, reinterpretación y subtipos. Devine (1989) mostró que se activan de forma automática y que quien tiene poco prejuicio los corrige de forma controlada.",
     v: [
       "Estereotipo=Creencias compartidas sobre los rasgos de un grupo, positivas o negativas",

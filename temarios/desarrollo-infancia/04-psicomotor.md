@@ -1,9 +1,7 @@
-# Capítulo 4 · Desarrollo psicomotor y físico
-
+# Capítulo 4 · Crecimiento físico y desarrollo motor
 El cuerpo cambia más deprisa en la infancia y en la adolescencia que en ninguna otra etapa de la vida. Este capítulo estudia primero cómo el bebé conquista el control de sus movimientos, del sostén de la cabeza a la pinza fina y el dibujo, y después cómo la pubertad transforma el cuerpo y el cerebro adolescentes.
 
-## Unidad 10 · Desarrollo psicomotor en la infancia
-
+## Unidad 10 · Motricidad gruesa y fina en la infancia
 **Objetivos:** explicar las leyes cefalocaudal y próximo-distal y distinguirlas sin confusión; comparar los enfoques madurativo, experiencial y de sistemas dinámicos; describir la secuencia de hitos de la motricidad gruesa y la amplitud de sus ventanas normales; describir la evolución del alcance y de la prensión hasta la pinza superior; caracterizar el dibujo, la lateralidad y la motricidad de la niñez y corregir los mitos asociados.
 
 ### 10.1 Principios del desarrollo motor

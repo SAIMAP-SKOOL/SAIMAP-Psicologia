@@ -1,5 +1,4 @@
-# Capítulo 4 · La entrevista
-
+# Capítulo 4 · La entrevista de evaluación
 Casi toda evaluación psicológica empieza con una conversación, y muchas no dejan de apoyarse en ella hasta el final. Este capítulo estudia la entrevista como método de evaluación: qué la distingue de una charla, qué actitudes y técnicas requiere, cómo se desarrolla y qué formas adopta en la clínica, en el juzgado, en la empresa y con niños. El hilo conductor es una idea bien respaldada por la evidencia: cuanto más estructurada está una entrevista, más fiable y válida resulta.
 
 ## Unidad 11 · La entrevista: concepto, clasificación y habilidades
@@ -31,8 +30,7 @@ Las limitaciones proceden, sobre todo, de la falta de control. Si dos entrevista
 
 Un ejemplo: un psicólogo recibe a un joven derivado por «problemas de conducta» y desde el primer minuto lo imagina como un caso de consumo de drogas. Si nada le obliga a explorar otras áreas, preguntará con detalle por el consumo y pasará por encima del acoso que el chico sufre en el instituto. La solución no es renunciar a la entrevista, sino estructurarla y contrastar sus datos con otros métodos e informantes (Unidad 1).
 
-### 11.2 Clasificación de las entrevistas
-
+### 11.2 Tipos de entrevista
 Las entrevistas se clasifican según varios criterios que se combinan entre sí. Una misma entrevista puede ser semiestructurada, diagnóstica, individual e inicial a la vez.
 
 **Por el grado de estructura.** Es el criterio más importante, porque condiciona la fiabilidad.

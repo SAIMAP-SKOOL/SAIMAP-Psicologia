@@ -466,8 +466,7 @@ La teoría introduce además el concepto de **explicatura**: lo comunicado expl�
 
 El fundamento común se construye mediante el **grounding** o anclaje (Clark y Brennan, 1991): los interlocutores van dando y pidiendo pruebas de que se entienden con asentimientos, repeticiones, preguntas o simples «ajá». El medio influye en su coste: cara a cara se ve enseguida si el otro ha entendido; por mensajes escritos hay que confirmarlo de forma explícita. Los pactos conceptuales y el alineamiento entre hablantes se tratan en la Unidad 13, y la comunicación digital, en la Unidad 16.
 
-### 8.4 Teoría de la mente y comunicación
-
+### 8.4 Leer la mente del otro: teoría de la mente y comunicación
 Interpretar un acto indirecto, una ironía o una implicatura exige atribuir intenciones al hablante. La capacidad de atribuir estados mentales (creencias, deseos, intenciones, emociones) a uno mismo y a los demás se llama **teoría de la mente** (ToM, del inglés *theory of mind*), término que acuñaron Premack y Woodruff (1978) con chimpancés. Su desarrollo general se estudia en Desarrollo: Infancia y Adolescencia.
 
 **Las tareas de falsa creencia.** La prueba de referencia consiste en entender que alguien puede creer algo falso y actuar según esa creencia. Wimmer y Perner (1983) crearon la historia de Maxi, que no ve cómo su madre cambia de sitio su chocolate. Baron-Cohen, Leslie y Frith (1985) la adaptaron con dos muñecas, Sally y Ana, y la aplicaron a niños autistas (figura 8.3). Perner, Leekam y Wimmer (1987) añadieron la tarea de **contenido inesperado**: una caja de golosinas que en realidad contiene lápices.

@@ -1,5 +1,4 @@
-# Capítulo 3 · La atribución
-
+# Capítulo 3 · Explicar la conducta: la atribución causal
 Ante cualquier conducta que nos sorprende surge la misma pregunta: «¿por qué lo ha hecho?». Este capítulo estudia primero las teorías clásicas que describen cómo respondemos a esa pregunta y después los sesgos sistemáticos que aparecen al hacerlo, junto con sus consecuencias para las emociones, las relaciones y la salud mental.
 
 ## Unidad 5 · Teorías clásicas de la atribución

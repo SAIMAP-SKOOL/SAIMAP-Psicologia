@@ -1,5 +1,4 @@
-# Capítulo 5 · Desarrollo cognitivo
-
+# Capítulo 5 · El desarrollo del pensamiento
 Entre el nacimiento y la adolescencia, el niño pasa de coordinar reflejos a razonar sobre hipótesis que nunca ha visto. Este capítulo recorre primero los cuatro estadios descritos por Piaget y después la investigación que los ha matizado: los métodos con bebés, la teoría de la mente y las propuestas neopiagetianas.
 
 ## Unidad 12 · Los estadios de Piaget
@@ -180,8 +179,7 @@ c) el animismo
 
 **Objetivos:** valorar las aportaciones de Piaget y las críticas a su teoría; explicar el paradigma de violación de expectativas y la hipótesis del núcleo de conocimiento; describir el desarrollo de la teoría de la mente y las tareas de falsa creencia; comparar las propuestas neopiagetianas y hacer un balance de la teoría.
 
-### 13.1 Aportaciones de Piaget
-
+### 13.1 El legado de Piaget
 Antes de Piaget, el pensamiento infantil se describía sobre todo por lo que le faltaba respecto al adulto. Después de él, se estudia como un sistema con su propia lógica. Sus aportaciones principales son cinco:
 
 1. **Fundó el estudio del desarrollo cognitivo** como campo propio. Planteó preguntas que siguen vigentes: cómo se construyen las nociones de objeto, número, espacio, tiempo o causalidad.

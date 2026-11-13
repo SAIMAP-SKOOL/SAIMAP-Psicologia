@@ -163,8 +163,7 @@ c) en trabajos con alta carga emocional
 
 **1 b.** Las respuestas se puntúan por consenso o por criterio de expertos. **2 a.** La absorción es una dimensión del engagement. **3 c.** Evita la insatisfacción, pero no motiva por sí mismo. **4 a.** Bajo control con alto valor produce ansiedad. **5 c.** Fuera de ellos su validez incremental es escasa.
 
-## Unidad 16 · Emociones y salud
-
+## Unidad 16 · Emoción, estrés y salud
 **Objetivos:** describir el síndrome general de adaptación, el modelo transaccional del estrés y el eje HHA; explicar la carga alostática y los hallazgos básicos de la psiconeuroinmunología; valorar la evidencia sobre el patrón de conducta tipo A, la hostilidad y el tipo D; conocer la teoría de ampliación y construcción y la retirada de la ratio de positividad.
 
 ### 16.1 Estrés: Selye, Lazarus y el eje HHA

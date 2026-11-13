@@ -1,5 +1,4 @@
-# Capítulo 2 · La estructura grupal
-
+# Capítulo 2 · Roles, estatus, normas y cohesión
 Cómo se organiza un grupo por dentro: quién ocupa qué posición, qué se espera de cada miembro, qué reglas comparten y qué los mantiene unidos. Estatus, roles, normas y cohesión forman la estructura que da estabilidad al grupo y hace previsible la conducta de sus miembros.
 
 ## Unidad 3 · Estatus y roles
