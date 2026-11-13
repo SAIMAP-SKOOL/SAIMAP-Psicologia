@@ -36,7 +36,7 @@ window.SP_CATALOG = {
     { id: 'lenguaje', t: 'Psicología del Lenguaje', area: 'basicos', estado: 'ok', color: 4, hue: 128 },
     { id: 'educativa', t: 'Psicología Educativa', area: 'apl', estado: 'soon' },
     { id: 'fisiologica', t: 'Psicología Fisiológica', area: 'bio', estado: 'soon' },
-    { id: 'psicopatologia', t: 'Psicopatología', area: 'clin', estado: 'soon' },
+    { id: 'psicopatologia', t: 'Psicopatología', area: 'clin', estado: 'ok', color: 1, hue: 70 },
     { id: 'intervencion', t: 'Intervención y Tratamientos Psicológicos', area: 'clin', estado: 'soon' },
     { id: 'metodos', t: 'Métodos y Diseños de Investigación', area: 'met', estado: 'soon' },
     { id: 'clinica', t: 'Psicología Clínica', area: 'clin', estado: 'soon' },

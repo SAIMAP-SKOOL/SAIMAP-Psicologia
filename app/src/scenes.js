@@ -1398,6 +1398,101 @@
       s += `<g transform="translate(-10 0)">${crowd(r, 3, 50, 470, 90, 30, ['#2D5A7B', '#C8553D', '#5FA47A'], 1, .45)}</g>`;
       return { tint: '#F2F6F0', road: 'street', svg: svg(s) }; }
   };
+
+  // ---------- escenarios de Psicopatología ----------
+  const PS = {
+    // 1 · Lo normal y lo patológico: curva normal con colas marcadas y un cráneo trepanado
+    1: () => { let s = paper('#F6F1E7', '#E9DFCB', 30);
+      s += bell(190, 250, 200, 170, '#2D5A7B', 6, .5, 'rgba(45,90,123,.12)');
+      s += `<g opacity=".5"><rect x="190" y="170" width="34" height="80" fill="#C8553D" opacity=".35"/><rect x="356" y="170" width="34" height="80" fill="#C8553D" opacity=".35"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><path d="M-55 10C-60 -45 -20 -70 10 -68C48 -66 66 -36 60 0C58 22 44 30 36 44H-30C-44 34 -54 26 -55 10Z" fill="#E8DCC4" stroke="#7A6248" stroke-width="5"/><circle cx="-14" cy="0" r="12" fill="#7A6248"/><circle cx="26" cy="0" r="12" fill="#7A6248"/><circle cx="10" cy="-44" r="10" fill="#F6F1E7" stroke="#7A6248" stroke-width="4"/><path d="M-20 44v-12M0 44v-12M20 44v-12" stroke="#7A6248" stroke-width="4"/></g>`;
+      return { tint: '#F6F1E7', road: 'ink', svg: svg(s) }; },
+    // 2 · Modelos explicativos: los tres círculos biopsicosociales y una balanza vulnerabilidad-estrés
+    2: () => { let s = `<rect width="400" height="600" fill="#EEF3F6"/>`;
+      s += `<g opacity=".45"><circle cx="270" cy="130" r="62" fill="#2D5A7B"/><circle cx="330" cy="130" r="62" fill="#C8553D"/><circle cx="300" cy="182" r="62" fill="#5FA47A"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5" stroke="#26323A" stroke-width="5" stroke-linecap="round" fill="none"><path d="M0 50V-30M-60 -30H60"/><path d="M-60 -30l-22 40h44zM60 -30l-22 40h44z" fill="#E0A83A" opacity=".8"/><circle cy="-34" r="7" fill="#26323A"/><path d="M-30 50h60"/></g>`;
+      return { tint: '#EEF3F6', road: 'ribbon', svg: svg(s) }; },
+    // 3 · Clasificación: dos manuales apilados y una lista de criterios
+    3: () => { let s = `<rect width="400" height="600" fill="#F3EEF6"/>`;
+      s += `<g opacity=".5" transform="translate(290 150) rotate(-8)"><rect x="-70" y="-90" width="120" height="160" rx="8" fill="#7A5BA8"/><rect x="-60" y="-80" width="10" height="140" fill="#fff" opacity=".4"/><rect x="-40" y="-50" width="70" height="14" rx="4" fill="#fff" opacity=".7"/></g><g opacity=".5" transform="translate(320 190) rotate(6)"><rect x="-60" y="-80" width="110" height="150" rx="8" fill="#2D5A7B"/><rect x="-36" y="-44" width="60" height="12" rx="4" fill="#fff" opacity=".7"/></g>`;
+      s += card(95, 470, 120, 130, -6, '#C8553D', .5, 0);
+      s += `<g transform="translate(95 470) rotate(-6)" opacity=".55" stroke="#C8553D" stroke-width="4" fill="none" stroke-linecap="round">${[-36, -8, 20].map(y => `<path d="M-42 ${y}l7 7 12-14"/><path d="M-12 ${y + 1}H40"/>`).join('')}</g>`;
+      return { tint: '#F3EEF6', road: 'ruler', svg: svg(s) }; },
+    // 4 · Dimensiones: una jerarquía de nodos y unos deslizadores
+    4: () => { let s = paper('#EFF5F1', '#DCE9E0', 36);
+      const lv = [[300], [240, 300, 360], [215, 255, 285, 315, 345, 385]];
+      let e = '', n = '';
+      lv.forEach((row, k) => row.forEach(x => { n += `<circle cx="${x}" cy="${80 + k * 75}" r="${16 - k * 3}" fill="${['#C8553D', '#7A5BA8', '#2D5A7B'][k]}"/>`; if (k) { const par = lv[k - 1].reduce((a, b) => Math.abs(b - x) < Math.abs(a - x) ? b : a); e += `<path d="M${par} ${80 + (k - 1) * 75}L${x} ${80 + k * 75}" stroke="#26323A" stroke-width="3"/>`; } }));
+      s += `<g opacity=".5">${e}${n}</g>`;
+      s += `<g transform="translate(90 470)" opacity=".5">${[-40, 0, 40].map((y, i) => `<path d="M-60 ${y}H60" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><circle cx="${[-25, 35, 5][i]}" cy="${y}" r="13" fill="${['#5FA47A', '#E0A83A', '#C8553D'][i]}"/>`).join('')}</g>`;
+      return { tint: '#EFF5F1', road: 'bars', svg: svg(s) }; },
+    // 5 · Conciencia y memoria: un ojo entornado y un reloj
+    5: () => { let s = `<rect width="400" height="600" fill="#ECEFF6"/>`;
+      s += `<g opacity=".5" transform="translate(295 150)"><path d="M-90 0Q0 -70 90 0Q0 70 -90 0Z" fill="#fff" stroke="#2D5A7B" stroke-width="6"/><circle r="30" fill="#2D5A7B"/><circle r="12" fill="#26323A"/><path d="M-90 0Q0 -70 90 0Q0 -24 -90 0Z" fill="#9FB3CC"/><path d="M-90 0Q0 -30 90 0" stroke="#2D5A7B" stroke-width="6" fill="none"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><circle r="52" fill="#fff" stroke="#7A5BA8" stroke-width="7"/>${Array.from({ length: 12 }, (_, i) => { const a = i * Math.PI / 6; return `<path d="M${f(Math.cos(a) * 40)} ${f(Math.sin(a) * 40)}L${f(Math.cos(a) * 46)} ${f(Math.sin(a) * 46)}" stroke="#7A5BA8" stroke-width="4"/>`; }).join('')}<path d="M0 0V-30M0 0L22 12" stroke="#26323A" stroke-width="6" stroke-linecap="round"/></g>`;
+      return { tint: '#ECEFF6', road: 'dots', svg: svg(s) }; },
+    // 6 · Percepción y pensamiento: una nube con cara (pareidolia) y un pensamiento enredado
+    6: () => { let s = `<rect width="400" height="600" fill="#F4F0F8"/>`;
+      s += `<g opacity=".5" transform="translate(295 140)"><path d="M-80 30C-110 30 -110 -20 -76 -22C-74 -60 -20 -66 -6 -38C10 -70 70 -60 66 -20C104 -18 104 30 70 30Z" fill="#fff" stroke="#7A5BA8" stroke-width="5"/><circle cx="-22" cy="-10" r="7" fill="#7A5BA8"/><circle cx="22" cy="-10" r="7" fill="#7A5BA8"/><path d="M-20 12Q0 26 20 12" stroke="#7A5BA8" stroke-width="5" fill="none" stroke-linecap="round"/></g>`;
+      s += bubble(30, 400, 140, 110, '#E0A83A', .45);
+      let d = 'M60 455'; const r = rng(66); for (let i = 0; i < 9; i++) d += `Q${f(50 + r() * 100)} ${f(415 + r() * 80)} ${f(50 + r() * 100)} ${f(415 + r() * 80)}`;
+      s += `<path d="${d}" stroke="#26323A" stroke-width="4" fill="none" opacity=".5" stroke-linecap="round"/>`;
+      return { tint: '#F4F0F8', road: 'talk', svg: svg(s) }; },
+    // 7 · Ansiedad: una araña colgando y el ritmo cardiaco acelerado
+    7: () => { let s = `<rect width="400" height="600" fill="#F8EFEC"/>`;
+      s += `<g opacity=".5" transform="translate(300 170)"><path d="M0 -170V-36" stroke="#26323A" stroke-width="2"/><ellipse cy="-14" rx="22" ry="26" fill="#26323A"/><circle cy="-46" r="13" fill="#26323A"/>${[-1, 1].map(k => [0, 1, 2, 3].map(i => `<path d="M${k * 16} ${-26 + i * 9}Q${k * 50} ${-48 + i * 18} ${k * 60} ${-8 + i * 22}" stroke="#26323A" stroke-width="4" fill="none" stroke-linecap="round"/>`).join('')).join('')}</g>`;
+      s += `<g transform="translate(-10 0)">${wave(470, 6, 60, '#C8553D', 5, .5, 70)}</g>` + heart(90, 400, 2.4, '#C8553D', .45);
+      return { tint: '#F8EFEC', road: 'ecg', svg: svg(s) }; },
+    // 8 · TOC: un candado comprobado una y otra vez y unas manos lavándose
+    8: () => { let s = `<rect width="400" height="600" fill="#EEF4F3"/>`;
+      s += `<g opacity=".5" transform="translate(300 150)"><path d="M-34 -10V-40A34 34 0 0 1 34 -40V-10" stroke="#2D5A7B" stroke-width="12" fill="none"/><rect x="-52" y="-12" width="104" height="86" rx="12" fill="#2D5A7B"/><circle cy="22" r="10" fill="#EEF4F3"/><path d="M0 30V50" stroke="#EEF4F3" stroke-width="7"/></g>`;
+      s += `<g opacity=".45">${[0, 1, 2, 3].map(i => `<path d="M${200 + i * 26} ${262}l8 8 14-16" stroke="#5FA47A" stroke-width="5" fill="none" stroke-linecap="round"/>`).join('')}</g>`;
+      s += `<g transform="translate(90 470)" opacity=".45">${[0, 1, 2, 3, 4, 5].map(i => `<circle cx="${-50 + (i % 3) * 45}" cy="${-30 + Math.floor(i / 3) * 50}" r="${14 + (i % 2) * 6}" fill="none" stroke="#2D5A7B" stroke-width="4"/>`).join('')}</g>`;
+      return { tint: '#EEF4F3', road: 'water', svg: svg(s) }; },
+    // 9 · Trauma: un rayo que agrieta un escudo y unas piezas que se recomponen
+    9: () => { let s = `<rect width="400" height="600" fill="#F1F0EA"/>`;
+      s += `<g opacity=".5" transform="translate(300 160)"><path d="M0 -90L70 -64V0C70 46 34 76 0 92C-34 76 -70 46 -70 0V-64Z" fill="#2D5A7B"/><path d="M-6 -90L10 -30L-12 -6L12 30L-2 92" stroke="#F1F0EA" stroke-width="6" fill="none"/></g><path d="M220 40L195 110H222L200 170" stroke="#E0A83A" stroke-width="9" fill="none" stroke-linejoin="round" opacity=".55"/>`;
+      s += `<g transform="translate(95 470)" opacity=".5">${[[-40, -30, '#C8553D'], [10, -30, '#5FA47A'], [-40, 20, '#7A5BA8'], [16, 26, '#E0A83A']].map(([x, y, c], i) => `<rect x="${x}" y="${y}" width="44" height="44" rx="6" fill="${c}" transform="rotate(${[-8, 6, 4, 12][i]} ${x + 22} ${y + 22})"/>`).join('')}</g>`;
+      return { tint: '#F1F0EA', road: 'crumbs', svg: svg(s) }; },
+    // 10 · Estado de ánimo: sol y nube de lluvia y una onda que sube y baja
+    10: () => { let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += `<g opacity=".5"><circle cx="330" cy="100" r="40" fill="#E0A83A"/>${Array.from({ length: 10 }, (_, i) => { const a = i * Math.PI / 5; return `<path d="M${f(330 + Math.cos(a) * 52)} ${f(100 + Math.sin(a) * 52)}L${f(330 + Math.cos(a) * 68)} ${f(100 + Math.sin(a) * 68)}" stroke="#E0A83A" stroke-width="6" stroke-linecap="round"/>`; }).join('')}<path d="M190 230C170 230 168 196 194 194C196 170 232 166 242 186C256 168 292 176 288 202C312 204 310 230 288 230Z" fill="#7C8C9C"/>${[205, 230, 255, 280].map(x => `<path d="M${x} 245l-6 18" stroke="#2D5A7B" stroke-width="5" stroke-linecap="round"/>`).join('')}</g>`;
+      s += sine(20, 480, 170, 40, 1.5, '#7A5BA8', 7, .5);
+      return { tint: '#EEF2F7', road: 'wave', svg: svg(s) }; },
+    // 11 · Psicosis: un puzle que se desarma y voces en bocadillos
+    11: () => { let s = `<rect width="400" height="600" fill="#F5F0EA"/>`;
+      const pz = (x, y, rot, c) => `<g transform="translate(${x} ${y}) rotate(${rot})"><path d="M-30 -30H-8C-8 -44 8 -44 8 -30H30V-8C44 -8 44 8 30 8V30H-30Z" fill="${c}"/></g>`;
+      s += `<g opacity=".5">${pz(260, 110, 0, '#2D5A7B')}${pz(330, 100, 18, '#C8553D')}${pz(280, 200, -22, '#5FA47A')}${pz(355, 210, 40, '#E0A83A')}</g>`;
+      s += bubble(30, 420, 90, 50, '#7A5BA8', .4) + bubble(90, 480, 80, 44, '#7A5BA8', .3, 'r') + bubble(40, 360, 70, 40, '#7A5BA8', .25);
+      return { tint: '#F5F0EA', road: 'maze', svg: svg(s) }; },
+    // 12 · Personalidad: máscaras teatrales y tres grupos de personas
+    12: () => { const r = rng(1212); let s = `<rect width="400" height="600" fill="#F3F1F8"/>`;
+      const mask = (x, y, rot, c, happy) => `<g transform="translate(${x} ${y}) rotate(${rot})"><path d="M-46 -40Q0 -60 46 -40Q50 20 0 56Q-50 20 -46 -40Z" fill="${c}"/><ellipse cx="-18" cy="-12" rx="10" ry="7" fill="#F3F1F8"/><ellipse cx="18" cy="-12" rx="10" ry="7" fill="#F3F1F8"/><path d="${happy ? 'M-20 18Q0 36 20 18' : 'M-20 30Q0 14 20 30'}" stroke="#F3F1F8" stroke-width="6" fill="none" stroke-linecap="round"/></g>`;
+      s += `<g opacity=".5">${mask(270, 130, -12, '#C8553D', true)}${mask(340, 170, 14, '#2D5A7B', false)}</g>`;
+      s += crowd(r, 3, 30, 470, 60, 20, ['#7A5BA8'], 1.2, .45) + crowd(r, 3, 120, 495, 60, 20, ['#E0A83A'], 1.2, .45);
+      return { tint: '#F3F1F8', road: 'pegs', svg: svg(s) }; },
+    // 13 · Sueño: luna y estrellas y un hipnograma escalonado
+    13: () => { let s = `<rect width="400" height="600" fill="#E6E9F3"/>`;
+      s += `<g opacity=".5"><circle cx="310" cy="120" r="52" fill="#E0A83A"/><circle cx="336" cy="104" r="46" fill="#E6E9F3"/></g>` + star(230, 90, 12, '#7A5BA8', .45) + star(370, 220, 9, '#7A5BA8', .4) + star(250, 220, 7, '#2D5A7B', .4);
+      s += `<path d="M20 430H50V470H80V500H110V470H130V430H150V470H170V500" stroke="#2D5A7B" stroke-width="6" fill="none" opacity=".5" stroke-linejoin="round"/><path d="M130 430H150" stroke="#C8553D" stroke-width="9" opacity=".55"/>`;
+      return { tint: '#E6E9F3', road: 'night', svg: svg(s) }; },
+    // 14 · Disociación y cuerpo: un espejo con un reflejo desdoblado y una silueta corporal
+    14: () => { let s = `<rect width="400" height="600" fill="#F2EEF0"/>`;
+      s += `<g opacity=".5"><ellipse cx="300" cy="150" rx="70" ry="100" fill="#DCE6EE" stroke="#7A5BA8" stroke-width="8"/>${pers(290, 175, 1.3, '#2D5A7B', .9)}${pers(312, 168, 1.3, '#2D5A7B', .35)}</g>`;
+      s += `<g transform="translate(95 460)" opacity=".45" fill="#C8553D"><circle cy="-56" r="16"/><path d="M-22 -36H22L28 20H14L10 60H-10L-14 20H-28Z"/></g>` + star(130, 400, 10, '#E0A83A', .5) + star(60, 420, 7, '#E0A83A', .45);
+      return { tint: '#F2EEF0', road: 'tract', svg: svg(s) }; },
+    // 15 · Adicciones: una copa, una cápsula y unos dados encadenados
+    15: () => { let s = `<rect width="400" height="600" fill="#F4F2EC"/>`;
+      s += `<g opacity=".5"><path d="M250 60H330L322 120C318 146 262 146 258 120Z" fill="#C8553D"/><path d="M290 140V200M262 204H318" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><g transform="translate(350 230) rotate(35)"><rect x="-16" y="-36" width="32" height="72" rx="16" fill="#2D5A7B"/><path d="M-16 0H16V20A16 16 0 0 1 -16 20Z" fill="#E0A83A"/></g></g>`;
+      s += die(70, 470, 1.4, -14, 5, '#7A5BA8') + die(130, 500, 1.2, 12, 3, '#7A5BA8');
+      s += `<g opacity=".45" fill="none" stroke="#26323A" stroke-width="5">${[0, 1, 2].map(i => `<ellipse cx="${40 + i * 34}" cy="410" rx="18" ry="11"/>`).join('')}</g>`;
+      return { tint: '#F4F2EC', road: 'chain', svg: svg(s) }; },
+    // 16 · Alimentación e impulsos: un plato con cubiertos y una llama
+    16: () => { let s = `<rect width="400" height="600" fill="#F1F5EE"/>`;
+      s += `<g opacity=".5" transform="translate(275 150)"><circle r="70" fill="#fff" stroke="#5FA47A" stroke-width="7"/><circle r="44" fill="none" stroke="#5FA47A" stroke-width="3"/><path d="M-96 -50V50M-104 -50V-20M-88 -50V-20M-104 -20H-88" stroke="#26323A" stroke-width="5" stroke-linecap="round"/><path d="M96 -50C108 -30 108 -10 96 0V50" stroke="#26323A" stroke-width="5" fill="none" stroke-linecap="round"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><path d="M0 50C-40 50 -48 10 -26 -20C-20 0 -10 4 -6 -4C-12 -30 0 -52 14 -66C14 -40 40 -24 40 10C40 36 24 50 0 50Z" fill="#C8553D"/><path d="M0 50C-16 50 -20 30 -8 14C-4 24 6 24 6 12C18 24 20 50 0 50Z" fill="#E0A83A"/></g>`;
+      return { tint: '#F1F5EE', road: 'vine', svg: svg(s) }; }
+  };
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -1412,5 +1507,6 @@
     'evaluacion-1': n => cache['v' + n] || (cache['v' + n] = EV1[n] ? EV1[n]() : null),
     'evaluacion-2': n => cache['w' + n] || (cache['w' + n] = EV2[n] ? EV2[n]() : null),
     'lenguaje': n => cache['l' + n] || (cache['l' + n] = LG[n] ? LG[n]() : null),
-    'pensamiento': n => cache['p' + n] || (cache['p' + n] = PE[n] ? PE[n]() : null) };
+    'pensamiento': n => cache['p' + n] || (cache['p' + n] = PE[n] ? PE[n]() : null),
+    'psicopatologia': n => cache['q' + n] || (cache['q' + n] = PS[n] ? PS[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
