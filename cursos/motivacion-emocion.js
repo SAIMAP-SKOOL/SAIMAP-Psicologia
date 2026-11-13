@@ -9,10 +9,10 @@ window.COURSE = {
   rutas: { grado: { curso: 1 }, pir: { bloque: "Procesos básicos" } },
   temario: "Motivacion-y-Emocion_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "La motivación y sus determinantes", from: 1, to: 4 },
+    { n: 1, t: "Qué nos mueve: concepto y fuentes de la motivación", from: 1, to: 4 },
     { n: 2, t: "Teorías cognitivas y humanistas de la motivación", from: 5, to: 6 },
-    { n: 3, t: "Los motivos", from: 7, to: 10 },
-    { n: 4, t: "Psicología de la emoción", from: 11, to: 14 },
+    { n: 3, t: "Motivos biológicos y sociales", from: 7, to: 10 },
+    { n: 4, t: "Las emociones: teorías, funciones y tipos", from: 11, to: 14 },
     { n: 5, t: "Aplicaciones de la motivación y la emoción", from: 15, to: 16 }
   ],
   units: []
@@ -20,7 +20,7 @@ window.COURSE = {
 
 // SAIMAP Psicología · Motivación y Emoción · Unidades 1–4
 window.COURSE.units.push(
-{ n: 1, t: "Introducción a la motivación y la emoción", cap: 1, pir: "media", mods: [
+{ n: 1, t: "Motivación, emoción y cognición: un mapa", cap: 1, pir: "media", mods: [
   { t: "Concepto de motivación y sus parámetros",
     tip: "La motivación es el conjunto de procesos que dan energía y dirección a la conducta. No se observa: es un constructo hipotético que se infiere de lo que el organismo hace, dice y experimenta. Se describe con cuatro parámetros (activación, dirección, intensidad y persistencia), y se distingue la conducta instrumental, que acerca a la meta, de la consumatoria, que satisface el motivo.",
     v: [
@@ -329,7 +329,7 @@ window.COURSE.units.push(
     ] }
 ] },
 { n: 3, t: "Historia I: de la filosofía al modelo biológico", cap: 1, pir: "media", mods: [
-  { t: "De la filosofía a la psicología",
+  { t: "Los antecedentes filosóficos",
     tip: "Antes de la psicología científica dominaron tres ideas: hedonismo, voluntad e instinto. La teoría de la evolución de Darwin abrió paso a las teorías del instinto de James y McDougall, la primera gran teoría psicológica de la motivación. Decayeron por su circularidad, por ignorar el aprendizaje y por ser descriptivas; el concepto sobrevivió con más rigor en la etología.",
     v: [
       "Hedonismo=Principio según el cual la conducta busca el placer y evita el dolor",
@@ -1459,7 +1459,7 @@ window.COURSE.units.push(
     cls: [
       "Motivos implícitos frente a explícitos|Implícitos: TAT y PSE; conducta espontánea; experiencias preverbales|Explícitos: cuestionarios; elecciones deliberadas; normas aprendidas"
     ] },
-  { t: "Motivo de logro",
+  { t: "La necesidad de logro",
     tip: "El motivo de logro es la disposición a buscar el éxito frente a un criterio de excelencia. Quien lo tiene alto prefiere la dificultad moderada, busca retroalimentación y responsabilidad personal, innova y persiste. Atkinson lo explica: la tendencia al éxito es máxima con una probabilidad cercana a 0,5, mientras que el miedo al fracaso lleva a elegir tareas muy fáciles o muy difíciles.",
     v: [
       "Motivo de logro=Disposición a buscar el éxito frente a un criterio de excelencia",
@@ -1574,7 +1574,7 @@ window.COURSE.units.push(
       "Formas de poder según McClelland|Personalizado: dominar en beneficio propio; impulsividad; los otros como rivales|Socializado: metas colectivas; alto autocontrol; fortalecer a los demás"
     ] }
 ] },
-{ n: 11, t: "La emoción: definición e historia", cap: 4, pir: "alta", mods: [
+{ n: 11, t: "Qué es una emoción y cómo se ha estudiado", cap: 4, pir: "alta", mods: [
   { t: "Emoción, afecto, estado de ánimo y sentimiento",
     tip: "Una emoción es una respuesta breve ante un desencadenante concreto valorado como relevante. Según el modelo de procesos componentes de Scherer, implica evaluación cognitiva, cambios fisiológicos, expresión motora, tendencias de acción y sentimiento subjetivo, sincronizados durante un tiempo breve. El estado de ánimo dura más y tiene un desencadenante difuso; el sentimiento es la vivencia consciente, y el afecto, el término más amplio.",
     v: [
@@ -1890,7 +1890,7 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Motivación y Emoción · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Funciones y clasificación de las emociones", cap: 4, pir: "alta", mods: [
+{ n: 13, t: "Para qué sirven las emociones y cómo se clasifican", cap: 4, pir: "alta", mods: [
   { t: "Funciones adaptativa, social y motivacional",
     tip: "Desde Darwin (1872), las emociones se entienden como respuestas seleccionadas por su utilidad. Sus funciones se agrupan en tres: adaptativa (preparar una acción rápida y coordinada), social (comunicar y regular la interacción) y motivacional (dar energía y dirección a la conducta). Una emoción es adaptativa cuando su tipo, intensidad y duración se ajustan a la situación.",
     v: [
@@ -2356,7 +2356,7 @@ window.COURSE.units.push(
       "Con qué se solapa cada tipo de medida de IE|Autoinforme: neuroticismo en sentido inverso; extraversión; responsabilidad|Prueba de habilidad: capacidad cognitiva general"
     ] }
 ] },
-{ n: 16, t: "Emociones y salud", cap: 5, pir: "alta", mods: [
+{ n: 16, t: "Emoción, estrés y salud", cap: 5, pir: "alta", mods: [
   { t: "Estrés: Selye, Lazarus y el eje HHA",
     tip: "El estrés se ha entendido como respuesta (el síndrome general de adaptación de Selye, con alarma, resistencia y agotamiento), como estímulo (sucesos vitales de Holmes y Rahe, contrariedades diarias) y como proceso (modelo transaccional de Lazarus y Folkman). Fisiológicamente actúan el sistema simpático-adrenomedular, rápido, y el eje HHA, más lento: CRH, ACTH y cortisol, con retroalimentación negativa.",
     v: [

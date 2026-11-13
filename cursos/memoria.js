@@ -9,11 +9,11 @@ window.COURSE = {
   rutas: { grado: { curso: 1 }, pir: { bloque: "Procesos básicos" } },
   temario: "Psicologia-de-la-Memoria_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "Introducción histórica y metodológica", from: 1, to: 2 },
-    { n: 2, t: "Estructuras de la memoria", from: 3, to: 7 },
-    { n: 3, t: "Procesos de codificación", from: 8, to: 10 },
-    { n: 4, t: "Procesos de recuperación", from: 11, to: 13 },
-    { n: 5, t: "Procesos de olvido", from: 14, to: 16 }
+    { n: 1, t: "La memoria como objeto de estudio: historia y método", from: 1, to: 2 },
+    { n: 2, t: "Almacenes y sistemas de memoria", from: 3, to: 7 },
+    { n: 3, t: "Cómo entra la información: codificación", from: 8, to: 10 },
+    { n: 4, t: "Cómo vuelve la información: recuperación", from: 11, to: 13 },
+    { n: 5, t: "Olvido y distorsiones del recuerdo", from: 14, to: 16 }
   ],
   units: []
 };
@@ -1277,7 +1277,7 @@ window.COURSE.units.push(
 // SAIMAP Psicología · Memoria · Unidades 9–12
 window.COURSE.units.push(
 { n: 9, t: "Categorizar el mundo", cap: 3, pir: "baja", mods: [
-  { t: "Cómo se representa el conocimiento",
+  { t: "Formatos de representación del conocimiento",
     tip: "Un concepto es la representación mental de una clase de cosas, la categoría es el conjunto de entidades que agrupa y la categorización es el proceso de decidir que un elemento pertenece a ella. Categorizar aporta economía cognitiva, inferencia, comunicación y organización del recuerdo. Gran parte del conocimiento declarativo se guardaría en forma de proposiciones, unidades abstractas de significado, y el procedimental, en reglas «si… entonces…».",
     v: [
       "Concepto=Representación mental de una clase de cosas, con sus propiedades y relaciones",

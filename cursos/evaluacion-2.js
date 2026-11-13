@@ -9,12 +9,12 @@ window.COURSE = {
   rutas: { grado: { curso: 2 }, pir: { bloque: "Evaluación y personalidad" } },
   temario: "Evaluacion-Psicologica-II_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "Técnicas objetivas, subjetivas y proyectivas", from: 1, to: 4 },
-    { n: 2, t: "Evaluación de la inteligencia y las aptitudes", from: 5, to: 8 },
-    { n: 3, t: "Evaluación de la personalidad", from: 9, to: 11 },
-    { n: 4, t: "Evaluación neuropsicológica", from: 12, to: 13 },
-    { n: 5, t: "Intereses vocacionales y actitudes", from: 14, to: 15 },
-    { n: 6, t: "Evaluación de la salud y la calidad de vida", from: 16, to: 16 }
+    { n: 1, t: "Tres familias de técnicas: objetivas, subjetivas y proyectivas", from: 1, to: 4 },
+    { n: 2, t: "Medir la inteligencia y las aptitudes", from: 5, to: 8 },
+    { n: 3, t: "Evaluar la personalidad", from: 9, to: 11 },
+    { n: 4, t: "La exploración neuropsicológica", from: 12, to: 13 },
+    { n: 5, t: "Intereses, vocación y actitudes", from: 14, to: 15 },
+    { n: 6, t: "Salud, bienestar y calidad de vida", from: 16, to: 16 }
   ],
   units: []
 };
@@ -175,7 +175,7 @@ window.COURSE.units.push(
       "Procedimiento del polígrafo|Pregunta de control: compara con preguntas incómodas para casi todos; un inocente nervioso puede activarse más|Información oculta: detalles que solo conocería el autor; requiere detalles no difundidos; más base científica"
     ] }
 ] },
-{ n: 2, t: "Técnicas subjetivas", cap: 1, pir: "baja", mods: [
+{ n: 2, t: "Las técnicas subjetivas: la mirada del evaluado", cap: 1, pir: "baja", mods: [
   { t: "Características de las técnicas subjetivas",
     tip: "En las técnicas subjetivas la persona describe, califica o clasifica a sí misma, a otros o a objetos, y lo que interesa es el significado que atribuye. El material es semiestructurado y el objetivo no está enmascarado, así que la respuesta es voluntaria y puede falsearse. La interpretación es sobre todo idiográfica y el análisis, cualitativo y cuantitativo. El Q-sort de Stephenson es una técnica afín de medida ipsativa.",
     v: [
@@ -1784,7 +1784,7 @@ window.COURSE.units.push(
       "Hitos de la neuropsicología|Frenología de Gall>Accidente de Phineas Gage>Leborgne y Broca>Afasia de Wernicke>Laboratorio de Halstead>Sistemas funcionales de Luria>Manual de Lezak"
     ],
     cls: [] },
-  { t: "Ámbitos de aplicación y objetivos",
+  { t: "Para qué y dónde se aplica",
     tip: "La evaluación neuropsicológica estudia las funciones cognitivas, emocionales y conductuales para conocer el estado del cerebro y sus consecuencias en la vida diaria. La neuroimagen muestra la estructura, pero no cómo funciona la persona, y hay alteraciones con imagen normal. Sus objetivos son el diagnóstico, el perfil funcional, el seguimiento, la rehabilitación, la evaluación forense y la investigación.",
     v: [
       "Evaluación neuropsicológica=Estudio de funciones cognitivas, emocionales y conductuales para conocer el estado cerebral",
@@ -2059,7 +2059,7 @@ window.COURSE.units.push(
       "Función evaluada|Atención y velocidad: TMT-A|Funciones ejecutivas: TMT-B; WCST; interferencia del Stroop; fluidez fonética|Memoria verbal: RAVLT; TAVEC"
     ] }
 ] },
-{ n: 14, t: "Evaluación de los intereses vocacionales", cap: 5, pir: "media", mods: [
+{ n: 14, t: "Medir los intereses profesionales", cap: 5, pir: "media", mods: [
   { t: "Concepto y enfoques metodológicos",
     tip: "Los intereses vocacionales son preferencias relativamente estables por actividades, ambientes y ocupaciones: responden a qué me gustaría hacer, no a qué sé hacer. Pueden ser expresados, manifiestos o inventariados. Los inventarios siguen tres enfoques, tipológico (Holland), por áreas temáticas (Kuder) y empírico (Strong), y su formato puede ser absoluto o ipsativo.",
     v: [
@@ -2217,7 +2217,7 @@ window.COURSE.units.push(
       "Método empírico de criterio externo|Ventajas: datos reales; diferencia grupos profesionales; ítems difíciles de falsear|Inconvenientes: ítems heterogéneos; escalas que envejecen; muestras grandes"
     ] }
 ] },
-{ n: 15, t: "Evaluación de actitudes", cap: 5, pir: "media", mods: [
+{ n: 15, t: "Medir las actitudes", cap: 5, pir: "media", mods: [
   { t: "Concepto de actitud y estrategias de medida",
     tip: "Una actitud es una evaluación relativamente duradera, favorable o desfavorable, de un objeto. El modelo clásico (Rosenberg y Hovland, 1960) distingue los componentes cognitivo, afectivo y conductual, que no siempre coinciden, como sugirió LaPiere (1934). Las actitudes se infieren con autoinformes, observación, registros psicofisiológicos o medidas implícitas, aunque casi todo lo publicado son escalas de autoinforme.",
     v: [

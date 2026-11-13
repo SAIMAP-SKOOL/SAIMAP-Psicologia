@@ -11,15 +11,15 @@ window.COURSE = {
   capitulos: [
     { n: 1, t: "Fundamentos de la percepción", from: 1, to: 4 },
     { n: 2, t: "Los sistemas sensoriales", from: 5, to: 10 },
-    { n: 3, t: "La atención", from: 11, to: 14 },
-    { n: 4, t: "Ilusiones, sesgos y trastornos de la atención", from: 15, to: 16 }
+    { n: 3, t: "Atender: mecanismos, modelos y tipos de atención", from: 11, to: 14 },
+    { n: 4, t: "Cuando la percepción y la atención fallan", from: 15, to: 16 }
   ],
   units: []
 };
 
 // SAIMAP Psicología · Atención y Percepción · Unidades 1–4
 window.COURSE.units.push(
-{ n: 1, t: "El proceso perceptivo", cap: 1, pir: "media", mods: [
+{ n: 1, t: "Del estímulo a la experiencia: el proceso perceptivo", cap: 1, pir: "media", mods: [
   { t: "Sensación, percepción y el ciclo perceptivo",
     tip: "Percibir es una cadena de transformaciones: del objeto del entorno (estímulo distal) a la energía que llega a los receptores (estímulo proximal), y de ahí a la transducción, la transmisión, el procesamiento neural, la percepción, el reconocimiento y la acción. Sensación y percepción se tratan hoy como un continuo más que como fases separadas. Además es un ciclo: la acción cambia el estímulo y el conocimiento modula lo que se procesa después.",
     v: [
@@ -2351,7 +2351,7 @@ window.COURSE.units.push(
     seq: [],
     cls: [] }
 ] },
-{ n: 16, t: "Trastornos de la atención", cap: 4, pir: "alta", mods: [
+{ n: 16, t: "Alteraciones clínicas de la atención", cap: 4, pir: "alta", mods: [
   { t: "Disprosexias",
     tip: "Las disprosexias se dividen en cuantitativas (hiperprosexia, hipoprosexia y aprosexia) y cualitativas (paraprosexia y pseudoaprosexia). La terminología no es uniforme entre manuales, así que conviene seguir el de referencia. El déficit atencional puede ser el núcleo de un cuadro, como en el síndrome confusional, o un síntoma acompañante, como la hipoprosexia de la depresión.",
     v: [

@@ -9,12 +9,12 @@ window.COURSE = {
   rutas: { grado: { curso: 2 }, pir: { bloque: "Evaluación y personalidad" } },
   temario: "Evaluacion-Psicologica-I_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "Concepto, historia y modelos de la evaluación psicológica", from: 1, to: 4 },
+    { n: 1, t: "Qué es evaluar: concepto, historia y enfoques", from: 1, to: 4 },
     { n: 2, t: "El proceso de evaluación y el informe", from: 5, to: 7 },
     { n: 3, t: "Garantías éticas y científicas", from: 8, to: 10 },
-    { n: 4, t: "La entrevista", from: 11, to: 12 },
-    { n: 5, t: "La observación", from: 13, to: 14 },
-    { n: 6, t: "El autoinforme", from: 15, to: 16 }
+    { n: 4, t: "La entrevista de evaluación", from: 11, to: 12 },
+    { n: 5, t: "Observar la conducta", from: 13, to: 14 },
+    { n: 6, t: "Autoinformes y cuestionarios", from: 15, to: 16 }
   ],
   units: []
 };
@@ -60,7 +60,7 @@ window.COURSE.units.push(
     cls: [
       "Vía de la evaluación|Descriptivo-predictiva: describir; clasificar o diagnosticar; predecir; explicar|Interventivo-valorativa: orientar el cambio; valorar"
     ] },
-  { t: "Evaluación y términos afines",
+  { t: "Evaluación, diagnóstico, medida y valoración",
     tip: "Varios términos se solapan con la evaluación psicológica, pero cada uno tiene origen y alcance propios. El psicodiagnóstico tiene raíz médica y proyectiva y busca la etiqueta. El testing produce puntuaciones y el assessment las integra con la historia, la entrevista y la observación (Meyer et al., 2001). La evaluación de programas valora intervenciones, no personas.",
     v: [
       "Psicodiagnóstico=Término de raíz médica y proyectiva centrado en la patología y la etiqueta",
@@ -175,7 +175,7 @@ window.COURSE.units.push(
       "Método|Entrevista: historia; contexto; significado|Observación: conducta motora; reactividad|Autoinforme: experiencias privadas; deseabilidad social"
     ] }
 ] },
-{ n: 2, t: "Historia de la evaluación psicológica", cap: 1, pir: "media", mods: [
+{ n: 2, t: "De Galton a hoy: historia de la evaluación", cap: 1, pir: "media", mods: [
   { t: "Precursores: de los exámenes imperiales a Wundt",
     tip: "Los exámenes de la China imperial aportan la idea de una prueba común, Huarte de San Juan (1575) el ajuste entre ingenio y oficio, y Esquirol la gradación de capacidades. Wundt (Leipzig, 1879) aportó el control de la situación de medida, pero trataba las diferencias individuales como error. Kraepelin y Ebbinghaus aplicaron las primeras tareas mentales a individuos.",
     v: [
@@ -333,7 +333,7 @@ window.COURSE.units.push(
     ],
     cls: [] }
 ] },
-{ n: 3, t: "Modelos de evaluación psicológica", cap: 1, pir: "media", mods: [
+{ n: 3, t: "Grandes enfoques de la evaluación", cap: 1, pir: "media", mods: [
   { t: "El modelo psicométrico o del atributo",
     tip: "El modelo psicométrico, del atributo o correlacional supone que la conducta depende de rasgos y aptitudes internos y relativamente estables, que se infieren tratando las respuestas como signos. Usa el método correlacional, baremos e interpretación normativa, y sus garantías centrales son la fiabilidad y la validez. Su inferencia es alta, y la crítica de Mischel (1968) a la consistencia entre situaciones abrió el debate persona-situación.",
     v: [
@@ -649,7 +649,7 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Evaluación I · Unidades 05–08
 window.COURSE.units.push(
-{ n: 5, t: "El proceso de evaluación psicológica", cap: 2, pir: "alta", mods: [
+{ n: 5, t: "Las fases del proceso evaluador", cap: 2, pir: "alta", mods: [
   { t: "La evaluación como proceso de toma de decisiones",
     tip: "Evaluar no es aplicar una batería y leer resultados: es una cadena de decisiones que, en la línea de Fernández-Ballesteros, sigue la lógica del método científico. Se recoge información, se plantean hipótesis, se deducen consecuencias comprobables y se contrastan con instrumentos fiables y válidos. Hay dos ramas, la descriptivo-predictiva (correlacional) y la interventivo-valorativa (cercana a la experimental), y el proceso es iterativo, no lineal.",
     v: [
@@ -961,7 +961,7 @@ window.COURSE.units.push(
       "Vía de evaluación digital|EMA: preguntas en el móvil; menos sesgo de recuerdo; carga y reactividad|TAI: teoría de respuesta al ítem; menos ítems|Sensorización pasiva: wearables; sueño y actividad; validez en discusión"
     ] }
 ] },
-{ n: 7, t: "El informe psicológico", cap: 2, pir: "media", mods: [
+{ n: 7, t: "Redactar y comunicar el informe", cap: 2, pir: "media", mods: [
   { t: "Funciones y tipos de informe",
     tip: "El informe integra lo que aportan las técnicas, responde a la demanda y justifica cada conclusión. Comunica, fundamenta decisiones, documenta y tiene efectos legales y profesionales. Según el canal hay devolución oral e informe escrito, y según función y destinatario, informe técnico, personal, certificado y pericial. Aunque la evaluación la pida un tercero, el evaluado tiene derecho a conocer el informe (art. 42).",
     v: [
@@ -1632,7 +1632,7 @@ window.COURSE.units.push(
     cls: [
       "Ventaja o limitación de la entrevista|Ventajas: flexibilidad; acceso a la historia personal; observación no verbal; útil con quien no sabe leer|Limitaciones: coste en tiempo; sesgos del entrevistador; deseabilidad social; información difícil de ordenar"
     ] },
-  { t: "Clasificación de las entrevistas",
+  { t: "Tipos de entrevista",
     tip: "Las entrevistas se clasifican por grado de estructura, objetivo, número de participantes y momento del proceso, y los criterios se combinan. La estructura es el criterio más importante porque condiciona la fiabilidad: la libre es la menos fiable, la semiestructurada la más habitual en clínica y la estructurada la más fiable. En selección, la estructurada predice mejor el desempeño (r ≈ 0,42 frente a 0,19, según Sackett et al., 2022).",
     v: [
       "Entrevista libre=Sin guion: se sigue el hilo de lo que cuenta la persona",
@@ -1905,7 +1905,7 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Evaluación I · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Unidades y técnicas de registro", cap: 5, pir: "media", mods: [
+{ n: 13, t: "Qué registrar y cómo hacerlo", cap: 5, pir: "media", mods: [
   { t: "Concepto de observación y unidades de análisis",
     tip: "La observación como técnica es un registro deliberado y sistemático, con objetivo previo, reglas definidas y observador entrenado. Puede hacerla un profesional no participante, alguien que participa en la situación o la propia persona (autoobservación). Las unidades de análisis se ordenan por su nivel de inferencia, desde las conductas definidas operativamente hasta los atributos, que exigen la máxima. Cuanto más molar e inferencial es la unidad, más difícil es el acuerdo entre observadores.",
     v: [
@@ -1982,7 +1982,7 @@ window.COURSE.units.push(
     cls: [
       "Unidad de medida|Frecuencia: preguntas en clase; golpes; cigarrillos|Duración: llorar; jugar con otros niños; estar concentrado|Latencia: obedecer una instrucción; tiempo en dormirse"
     ] },
-  { t: "Técnicas de registro",
+  { t: "Cómo registrar lo observado",
     tip: "La técnica de registro es el formato en que se anota lo observado, desde la descripción libre hasta la codificación cerrada. Al principio conviene un registro abierto para descubrir y después uno estructurado para contar. Las escalas de apreciación son juicios retrospectivos expuestos al halo, la lenidad o severidad, la tendencia central y el error lógico. El registro de productos que ya existían es la técnica menos reactiva.",
     v: [
       "Registro narrativo=Descripción libre de lo que ocurre, sin esquema previo, útil para crear categorías",

@@ -10,11 +10,11 @@ window.COURSE = {
   temario: "Psicologia-Social_SAIMAP.pdf",
   capitulos: [
     { n: 1, t: "La psicología social y su método", from: 1, to: 2 },
-    { n: 2, t: "Cognición social", from: 3, to: 4 },
-    { n: 3, t: "La atribución", from: 5, to: 6 },
+    { n: 2, t: "Pensar sobre los demás: cognición social", from: 3, to: 4 },
+    { n: 3, t: "Explicar la conducta: la atribución causal", from: 5, to: 6 },
     { n: 4, t: "El self: autoconcepto, identidad y autoestima", from: 7, to: 8 },
     { n: 5, t: "Actitudes y persuasión", from: 9, to: 12 },
-    { n: 6, t: "Estereotipo, prejuicio y discriminación", from: 13, to: 14 },
+    { n: 6, t: "Estereotipos, prejuicios y trato discriminatorio", from: 13, to: 14 },
     { n: 7, t: "Ampliación PIR: influencia, grupos y relaciones", from: 15, to: 16 }
   ],
   units: []
@@ -488,7 +488,7 @@ window.COURSE.units.push(
       "Estado de la evidencia|Se mantiene: rasgos que sesgan el juicio sobre Donald; accesibilidad crónica; priming semántico|No se sostiene o en duda: caminar despacio tras palabras de vejez; grandes efectos de estímulos sutiles; efectos con muestras pequeñas sin prerregistro"
     ] }
 ] },
-{ n: 4, t: "Impresiones, afecto y motivación", cap: 2, pir: "media", mods: [
+{ n: 4, t: "Formar impresiones: el papel del afecto y la motivación", cap: 2, pir: "media", mods: [
   { t: "El modelo configuracional de Asch (1946)",
     tip: "Para Asch (1946), la impresión es un todo organizado, distinto de la suma de sus partes. Cambiar «cálido» por «frío» transformaba la impresión global, mientras que «educado» y «brusco» apenas la alteraban: son rasgos centrales y periféricos, y la centralidad depende del resto de la lista. Asch halló también un efecto de primacía, que explicó por cambio de significado. Las teorías implícitas de la personalidad y el efecto halo completan el cuadro.",
     v: [
@@ -958,7 +958,7 @@ window.COURSE.units.push(
       "Dimensión del estilo depresivo|Interna: «es culpa mía»; afecta a la autoestima|Estable: «siempre será así»; desesperanza|Global: «me pasa en todo»; se extiende a otros ámbitos"
     ] }
 ] },
-{ n: 7, t: "El autoconcepto", cap: 4, pir: "media", mods: [
+{ n: 7, t: "Quién creo que soy: el autoconcepto", cap: 4, pir: "media", mods: [
   { t: "Conciencia de uno mismo",
     tip: "El autoconcepto es el conjunto de creencias sobre los propios rasgos, capacidades, roles, valores y pertenencias, y tiene un origen social (el yo espejo de Cooley, Mead). Es multidimensional, dinámico y cultural, y se organiza en autoesquemas (Markus, 1977). La autoconciencia objetiva (Duval y Wicklund, 1972) lleva a compararse con estándares, y Carver y Scheier (1981) distinguieron la privada de la pública.",
     v: [
@@ -1908,8 +1908,8 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Social · Unidades 13–16
 window.COURSE.units.push(
-{ n: 13, t: "Los estereotipos", cap: 6, pir: "media", mods: [
-  { t: "Estereotipo, prejuicio y discriminación",
+{ n: 13, t: "Cómo se forman y se mantienen los estereotipos", cap: 6, pir: "media", mods: [
+  { t: "Tres conceptos: creencia, actitud y conducta",
     tip: "Siguiendo el modelo tripartito, el estereotipo es el componente cognitivo, el prejuicio el afectivo y la discriminación el conductual. Un estereotipo puede ser positivo, pero el prejuicio es por definición negativo. Los estereotipos se forman por socialización, experiencia y sesgos como la correlación ilusoria y la homogeneidad del exogrupo, y se mantienen por atención selectiva, reinterpretación y subtipos. Devine (1989) mostró que se activan de forma automática y que quien tiene poco prejuicio los corrige de forma controlada.",
     v: [
       "Estereotipo=Creencias compartidas sobre los rasgos de un grupo, positivas o negativas",

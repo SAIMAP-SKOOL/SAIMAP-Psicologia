@@ -9,14 +9,14 @@ window.COURSE = {
   rutas: { grado: { curso: 1 }, pir: { bloque: "Social y organizaciones" } },
   temario: "Interaccion-Social_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "El grupo: formación y desarrollo", from: 1, to: 2 },
-    { n: 2, t: "La estructura grupal", from: 3, to: 4 },
-    { n: 3, t: "La comunicación interpersonal", from: 5, to: 6 },
-    { n: 4, t: "Violencia", from: 7, to: 8 },
-    { n: 5, t: "El conflicto y su resolución", from: 9, to: 10 },
-    { n: 6, t: "Conductas de ayuda y cooperación", from: 11, to: 12 },
+    { n: 1, t: "Qué es un grupo y cómo evoluciona", from: 1, to: 2 },
+    { n: 2, t: "Roles, estatus, normas y cohesión", from: 3, to: 4 },
+    { n: 3, t: "Comunicarse con los demás", from: 5, to: 6 },
+    { n: 4, t: "Agresión y violencia", from: 7, to: 8 },
+    { n: 5, t: "Conflicto, negociación y mediación", from: 9, to: 10 },
+    { n: 6, t: "Ayudar y cooperar: la conducta prosocial", from: 11, to: 12 },
     { n: 7, t: "Influencia social", from: 13, to: 14 },
-    { n: 8, t: "Comportamiento colectivo: decisiones y rendimiento grupal", from: 15, to: 16 }
+    { n: 8, t: "Decidir y rendir en grupo", from: 15, to: 16 }
   ],
   units: []
 };
@@ -1115,7 +1115,7 @@ window.COURSE.units.push(
       "Principio del RNR|Riesgo: a quién; intensidad del tratamiento|Necesidad: qué; necesidades criminógenas|Responsividad: cómo; métodos cognitivo-conductuales"
     ] }
 ] },
-{ n: 8, t: "Explicaciones psicológicas de la delincuencia", cap: 4, pir: "baja", mods: [
+{ n: 8, t: "Por qué se delinque: teorías psicológicas", cap: 4, pir: "baja", mods: [
   { t: "La violencia se aprende (Bandura, Sutherland, Akers)",
     tip: "La conducta violenta y delictiva se aprende como cualquier otra. Bandura mostró con el muñeco Bobo el modelado y que el refuerzo vicario afecta a la ejecución, no al aprendizaje. Sutherland sostiene que el delito se aprende en grupos íntimos cuando las definiciones favorables a infringir la ley superan a las desfavorables, y Akers añadió el refuerzo diferencial y la imitación. La relación con iguales delincuentes refleja tanto influencia como selección.",
     v: [
@@ -1275,7 +1275,7 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Interacción Social · Unidades 9–12
 window.COURSE.units.push(
-{ n: 9, t: "El conflicto y su gestión", cap: 5, pir: "media", mods: [
+{ n: 9, t: "Analizar y gestionar el conflicto", cap: 5, pir: "media", mods: [
   { t: "Qué es un conflicto y tipos",
     tip: "Un conflicto es un proceso en el que una parte percibe que otra afecta, o va a afectar, negativamente a sus intereses. Sus elementos comunes son la interdependencia, la incompatibilidad percibida, la implicación emocional, el carácter de proceso y los motivos mixtos. La visión interaccionista sostiene que cierto nivel de conflicto es necesario y distingue conflictos funcionales y disfuncionales. El conflicto de relación tiende a ser disfuncional, mientras que el de tarea moderado puede ser útil.",
     v: [
@@ -1586,7 +1586,7 @@ window.COURSE.units.push(
     cls: [] }
 ] },
 { n: 11, t: "¿Por qué ayudamos?", cap: 6, pir: "alta", mods: [
-  { t: "Conducta prosocial y conducta altruista",
+  { t: "Prosocialidad y altruismo: en qué se diferencian",
     tip: "La conducta prosocial abarca cualquier conducta que beneficia a otros o a la sociedad. La conducta de ayuda es un tipo más concreto, dirigido a una persona determinada. La altruista beneficia a otro sin esperar nada a cambio y su fin último es el bienestar de esa persona: la diferencia está en la motivación. Para Batson (1991), el altruismo es un estado motivacional, opuesto al egoísmo. Toda conducta altruista es prosocial, pero no al revés.",
     v: [
       "Conducta prosocial=Cualquier conducta que beneficia a otras personas o a la sociedad",
@@ -1856,7 +1856,7 @@ window.COURSE.units.push(
     cls: [
       "Nivel de análisis|Individual: probabilidad de que una persona ayude; experimentos clásicos; baja con más testigos|Grupal: probabilidad de que alguien ayude; cámaras de Philpot; sube con más testigos"
     ] },
-  { t: "La ayuda planificada: el voluntariado",
+  { t: "El voluntariado como ayuda planificada",
     tip: "El voluntariado es ayuda planificada. Según Penner (2002), es prolongada, libre, deliberada, dirigida a desconocidos y se da en un contexto organizativo. Las variables con más apoyo son las motivacionales. Desde el enfoque funcional, el Inventario de Funciones del Voluntariado (Clary et al., 1998) mide seis: valores, comprensión, social, carrera, protectora y mejora. Omoto y Snyder (1995) describen un proceso de antecedentes, experiencias y consecuencias en tres niveles.",
     v: [
       "Voluntariado=Ayuda planificada, libre y prolongada a desconocidos dentro de una organización",

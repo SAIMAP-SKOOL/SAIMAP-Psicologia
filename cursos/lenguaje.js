@@ -9,12 +9,12 @@ window.COURSE = {
   rutas: { grado: { curso: 2 }, pir: { bloque: "Procesos básicos" } },
   temario: "Psicologia-del-Lenguaje_SAIMAP.pdf",
   capitulos: [
-    { n: 1, t: "La adquisición del lenguaje", from: 1, to: 5 },
+    { n: 1, t: "Cómo se adquiere el lenguaje", from: 1, to: 5 },
     { n: 2, t: "Naturaleza del lenguaje y principios de la comunicación", from: 6, to: 8 },
-    { n: 3, t: "Percepción y comprensión del lenguaje", from: 9, to: 11 },
-    { n: 4, t: "Producción del lenguaje e interacción conversacional", from: 12, to: 13 },
-    { n: 5, t: "Lenguaje, cognición y cultura", from: 14, to: 15 },
-    { n: 6, t: "Habilidades comunicativas", from: 16, to: 16 }
+    { n: 3, t: "Entender el lenguaje: percepción y comprensión", from: 9, to: 11 },
+    { n: 4, t: "Hablar y conversar: la producción del lenguaje", from: 12, to: 13 },
+    { n: 5, t: "Lenguaje, pensamiento y cultura", from: 14, to: 15 },
+    { n: 6, t: "Comunicar bien: las competencias comunicativas", from: 16, to: 16 }
   ],
   units: []
 };
@@ -1220,7 +1220,7 @@ window.COURSE.units.push(
     cls: [
       "Enfoque pragmático|Grice: cooperación; cuatro máximas|Neo-griceanos: principio Q; principio R; interpretaciones por defecto|Relevancia: explicatura; máximo efecto con mínimo esfuerzo"
     ] },
-  { t: "Teoría de la mente y comunicación",
+  { t: "Leer la mente del otro: teoría de la mente y comunicación",
     tip: "La teoría de la mente (ToM) es la capacidad de atribuir estados mentales a uno mismo y a los demás, un término de Premack y Woodruff (1978). Su prueba clásica es la falsa creencia, que se aprueba de forma gradual hacia los 4–5 años, y la de segundo orden, hacia los 6–7. El lenguaje, sobre todo la sintaxis de complementación, se relaciona con la ToM, y la pragmática depende de ella. La ToM implícita en bebés sigue en debate.",
     v: [
       "Teoría de la mente=Capacidad de atribuir creencias, deseos e intenciones a uno mismo y a los demás",
@@ -1566,7 +1566,7 @@ window.COURSE.units.push(
     ] }
 ] },
 { n: 11, t: "Oraciones, discurso y cerebro", cap: 3, pir: "alta", mods: [
-  { t: "Procesamiento sintáctico",
+  { t: "El análisis sintáctico de las oraciones",
     tip: "El análisis sintáctico es incremental y por eso puede comprometerse antes de tiempo, como en las oraciones de vía muerta. El modelo de Frazier es serial y modular, con adjunción mínima y cierre tardío, mientras que los modelos basados en restricciones consideran varios análisis en paralelo con toda la información desde el principio. La preferencia española por la adjunción alta (Cuetos y Mitchell, 1988) cuestionó la universalidad del cierre tardío.",
     v: [
       "Oración de vía muerta=Oración con una ambigüedad temporal que lleva a un análisis inicial erróneo",
@@ -1642,7 +1642,7 @@ window.COURSE.units.push(
     cls: [
       "Componentes ERP|N400: «Untó la tostada con calcetines»; palabra poco esperada|P600: reanálisis sintáctico; oraciones de vía muerta"
     ] },
-  { t: "Comprensión del discurso",
+  { t: "Comprender textos y discursos",
     tip: "Van Dijk y Kintsch (1983) distinguen superficie, texto base y modelo de situación, y la superficie se olvida pronto. En el modelo de construcción-integración (Kintsch, 1988), cada frase activa proposiciones pertinentes o no, y la integración deja solo lo coherente. El modelo de indexación de eventos sigue tiempo, espacio, causalidad, intencionalidad y protagonistas, y las inferencias puente son necesarias, a diferencia de las elaborativas.",
     v: [
       "Texto base=Proposiciones del texto y su organización local y global",

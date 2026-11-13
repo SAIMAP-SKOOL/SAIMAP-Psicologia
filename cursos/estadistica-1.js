@@ -10,10 +10,10 @@ window.COURSE = {
   temario: "Fundamentos-de-Estadistica_SAIMAP.pdf",
   capitulos: [
     { n: 1, t: "Ciencia, método e investigación en psicología", from: 1, to: 4 },
-    { n: 2, t: "Estadística descriptiva", from: 5, to: 9 },
-    { n: 3, t: "Probabilidad", from: 10, to: 11 },
-    { n: 4, t: "Relación entre variables", from: 12, to: 14 },
-    { n: 5, t: "Inferencia estadística", from: 15, to: 16 }
+    { n: 2, t: "Describir los datos: estadística descriptiva", from: 5, to: 9 },
+    { n: 3, t: "El lenguaje de la probabilidad", from: 10, to: 11 },
+    { n: 4, t: "Asociación y correlación entre variables", from: 12, to: 14 },
+    { n: 5, t: "De la muestra a la población: inferencia estadística", from: 15, to: 16 }
   ],
   units: []
 };
@@ -486,7 +486,7 @@ window.COURSE.units.push(
 ] },
 
 { n: 4, t: "Población, muestra y validez", cap: 1, pir: "media", mods: [
-  { t: "Población y muestra, parámetros y estadísticos",
+  { t: "Población, muestra, parámetro y estadístico",
     tip: "La población (N) es el conjunto al que se quieren aplicar las conclusiones; la muestra (n), el subconjunto estudiado, que debe ser representativo. Los parámetros describen la población y se escriben con letras griegas (μ, σ, π, ρ); los estadísticos se calculan en la muestra y se escriben con letras latinas (x̄, s, p, r). El parámetro es fijo y suele ser desconocido; el estadístico cambia de una muestra a otra, y esa diferencia debida al azar es el error muestral.",
     v: [
       "Población=Conjunto completo de elementos al que se quieren aplicar las conclusiones",

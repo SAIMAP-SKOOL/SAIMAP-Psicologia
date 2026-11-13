@@ -10,12 +10,12 @@ window.COURSE = {
   temario: "Psicologia-del-Desarrollo-Infancia-y-Adolescencia_SAIMAP.pdf",
   capitulos: [
     { n: 1, t: "Fundamentos, historia y teorías del desarrollo", from: 1, to: 4 },
-    { n: 2, t: "Métodos de investigación y diseños evolutivos", from: 5, to: 6 },
+    { n: 2, t: "Cómo se investiga el desarrollo: métodos y diseños", from: 5, to: 6 },
     { n: 3, t: "Desarrollo prenatal, nacimiento y percepción", from: 7, to: 9 },
-    { n: 4, t: "Desarrollo psicomotor y físico", from: 10, to: 11 },
-    { n: 5, t: "Desarrollo cognitivo", from: 12, to: 13 },
-    { n: 6, t: "Desarrollo del lenguaje", from: 14, to: 14 },
-    { n: 7, t: "Desarrollo social y afectivo", from: 15, to: 16 }
+    { n: 4, t: "Crecimiento físico y desarrollo motor", from: 10, to: 11 },
+    { n: 5, t: "El desarrollo del pensamiento", from: 12, to: 13 },
+    { n: 6, t: "Del balbuceo al discurso: desarrollo lingüístico", from: 14, to: 14 },
+    { n: 7, t: "Vínculos, emociones y relaciones: desarrollo socioafectivo", from: 15, to: 16 }
   ],
   units: []
 };
@@ -336,7 +336,7 @@ window.COURSE.units.push(
       "Teoría del aprendizaje|Skinner: refuerzo directo; niño pasivo; moldeamiento|Bandura: aprendizaje observacional; determinismo recíproco; autoeficacia"
     ] }
 ] },
-{ n: 3, t: "Teorías cognitivo-evolutivas", cap: 1, pir: "alta", mods: [
+{ n: 3, t: "Enfoques cognitivo-evolutivos", cap: 1, pir: "alta", mods: [
   { t: "Piaget: constructivismo, esquemas y equilibración",
     tip: "Piaget, biólogo de formación, llamó a su proyecto epistemología genética y vio la inteligencia como adaptación. Para el constructivismo, el niño construye el conocimiento actuando sobre los objetos. Los esquemas cambian por asimilación, que incorpora lo nuevo sin modificar el esquema, y por acomodación, que lo modifica. La equilibración resuelve el conflicto cognitivo con un equilibrio más estable, y los estadios siguen una secuencia invariante.",
     v: [
@@ -1280,7 +1280,7 @@ window.COURSE.units.push(
 
 // SAIMAP Psicología · Desarrollo: Infancia · Unidades 9–12
 window.COURSE.units.push(
-{ n: 9, t: "La percepción en la infancia", cap: 3, pir: "media", mods: [
+{ n: 9, t: "Cómo perciben los bebés y los niños", cap: 3, pir: "media", mods: [
   { t: "Percepción visual: patrones, rostros y constancias",
     tip: "Fantz (1961) mostró con el paradigma de preferencia visual que los bebés miran más los estímulos con patrón que las superficies lisas. Hasta los dos meses exploran sobre todo los bordes externos, y entre los dos y los seis meses, el interior de las figuras. Johnson y Morton (1991) propusieron CONSPEC, subcortical y presente al nacer, y CONLERN, cortical y que aprende las caras concretas. Las constancias existen en forma rudimentaria al nacer y se afinan durante el primer año.",
     v: [
@@ -1438,7 +1438,7 @@ window.COURSE.units.push(
       "Condición en Kuhl et al. (2003)|Recupera la discriminación: mandarín en vivo|Sin efecto: mandarín en vídeo; mandarín solo en audio; control en inglés"
     ] }
 ] },
-{ n: 10, t: "Desarrollo psicomotor en la infancia", cap: 4, pir: "baja", mods: [
+{ n: 10, t: "Motricidad gruesa y fina en la infancia", cap: 4, pir: "baja", mods: [
   { t: "Principios del desarrollo motor",
     tip: "El desarrollo psicomotor es el control progresivo del propio cuerpo y depende también de la percepción, la motivación y la comprensión del mundo. Sigue tres leyes: cefalocaudal (de la cabeza a los pies), próximo-distal (del eje a la periferia) y de lo general a lo específico. Frente a los enfoques madurativo (Gesell, McGraw) y experiencial, la teoría de los sistemas dinámicos (Thelen, 1995) es hoy el marco de referencia porque integra ambos.",
     v: [
@@ -1915,7 +1915,7 @@ window.COURSE.units.push(
 // SAIMAP Psicología · Desarrollo: Infancia · Unidades 13–16
 window.COURSE.units.push(
 { n: 13, t: "Más allá de Piaget: el bebé competente y la teoría de la mente", cap: 5, pir: "alta", mods: [
-  { t: "Aportaciones de Piaget",
+  { t: "El legado de Piaget",
     tip: "Piaget fundó el estudio del desarrollo cognitivo, presentó al niño como constructor activo, propuso la equilibración como mecanismo de cambio, aportó el método clínico y un repertorio de tareas e influyó en la educación. Además, generó la investigación que lo corrigió. La primera crítica se apoya en distinguir competencia de ejecución: fallar una tarea no prueba que falte la estructura mental.",
     v: [
       "Constructor activo=Visión del niño que elabora su propio conocimiento, hoy de consenso",
@@ -2069,7 +2069,7 @@ window.COURSE.units.push(
     ] }
 ] },
 
-{ n: 14, t: "Desarrollo del lenguaje", cap: 6, pir: "alta", mods: [
+{ n: 14, t: "Del balbuceo al discurso: desarrollo lingüístico", cap: 6, pir: "alta", mods: [
   { t: "Componentes del lenguaje y teorías de la adquisición",
     tip: "Aprender una lengua exige dominar fonología, morfología, sintaxis, semántica y pragmática, y en todos los componentes la comprensión precede a la producción. Skinner explicó el lenguaje por refuerzo e imitación, pero no la gramática. Chomsky propuso un dispositivo innato (LAD), y Bruner respondió con el LASS: formatos interactivos en los que el adulto ajusta su ayuda al niño.",
     v: [
