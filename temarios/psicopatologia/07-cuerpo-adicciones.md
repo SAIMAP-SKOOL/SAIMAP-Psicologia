@@ -76,7 +76,7 @@ Se especifica si cursa con **predominio de dolor**, si es persistente y su grave
 
 **Trastorno de ansiedad por enfermedad.** Es lo que antes se llamaba hipocondría. Sus rasgos son la preocupación por padecer o contraer una **enfermedad grave**, síntomas somáticos **ausentes o leves**, ansiedad elevada por la salud y conductas de **comprobación excesiva** (buscar bultos, tomarse la tensión a diario, buscar síntomas en internet) o de **evitación desadaptativa** (no ir al médico ni ver programas sobre enfermedades). Debe durar al menos **6 meses**, aunque la enfermedad temida cambie. Se especifica el tipo **con solicitud de asistencia** o **con evitación de asistencia**. La diferencia con el trastorno de síntomas somáticos está en el foco: aquí preocupa la enfermedad que se podría tener; allí, el síntoma que se tiene.
 
-Un ejemplo: Andrés teme desde hace meses tener un problema cardiaco por una molestia mínima en el pecho. Tres electrocardiogramas normales lo han tranquilizado solo unos días cada vez.
+Un ejemplo: Jorge teme desde hace meses tener un problema cardiaco por una molestia mínima en el pecho. Tres electrocardiogramas normales lo han tranquilizado solo unos días cada vez.
 
 Según los **modelos cognitivo-conductuales**, la atención focalizada en el cuerpo amplifica sensaciones normales, que se interpretan de forma catastrófica, y las conductas de seguridad (comprobar, consultar) alivian a corto plazo pero mantienen el problema, como en el pánico y el TOC (Unidades 7 y 8). La relación entre estrés, enfermedad y adherencia al tratamiento se estudia en Psicología de la Salud.
 
@@ -102,7 +102,7 @@ Figura 14.1. **Una lección clínica en la Salpêtrière (André Brouillet, 1887
 
 Como muestra la figura 14.1, la histeria se presentaba como un espectáculo clínico, algo que hoy se ve con reservas por el papel que pudo tener la sugestión. Freud, que se formó un tiempo con Charcot, explicó estos síntomas como la **conversión** de un conflicto psíquico en un síntoma corporal (*Estudios sobre la histeria*, con Breuer, 1895). De ahí viene el nombre de «trastorno de conversión» (Unidad 1).
 
-**Trastorno de síntomas neurológicos funcionales (conversión).** Es el nombre del DSM-5-TR. Incluye uno o más síntomas de alteración de la función motora o sensitiva voluntaria: debilidad o parálisis, movimientos anómalos, alteraciones de la deglución o del habla, crisis no epilépticas psicógenas, anestesia o pérdida sensitiva, o síntomas sensoriales como la ceguera. La clave diagnóstica son los hallazgos clínicos que muestran **incompatibilidad** con las enfermedades neurológicas conocidas, es decir, **signos positivos**. En el **signo de Hoover**, la extensión de una cadera que parece paralizada recupera fuerza de forma involuntaria cuando la persona flexiona la otra pierna contra resistencia.
+**Trastorno de síntomas neurológicos funcionales (conversión).** Es el nombre del DSM-5-TR. Cursa con uno o varios síntomas que afectan al movimiento voluntario o a la sensibilidad: debilidad o parálisis, movimientos anómalos, alteraciones de la deglución o del habla, crisis no epilépticas psicógenas, anestesia o pérdida sensitiva, o síntomas sensoriales como la ceguera. La clave diagnóstica son los hallazgos clínicos que muestran **incompatibilidad** con las enfermedades neurológicas conocidas, es decir, **signos positivos**. En el **signo de Hoover**, la extensión de una cadera que parece paralizada recupera fuerza de forma involuntaria cuando la persona flexiona la otra pierna contra resistencia.
 
 Dos cambios importan para el examen:
 
@@ -213,8 +213,8 @@ Se diagnostica con **2 o más criterios en 12 meses**, y la gravedad es **leve (
 | Aspecto | DSM-5-TR | CIE-11 |
 | --- | --- | --- |
 | Estructura | Un continuo con 11 criterios | Consumo nocivo y dependencia |
-| Umbral | ≥2 criterios en 12 meses | Dependencia: ≥2 de 3 rasgos en 12 meses (o consumo continuo ≥1 mes) |
-| Gravedad | Leve, moderada, grave | Episodio nocivo, patrón nocivo, dependencia |
+| Umbral | ≥2 criterios en 12 meses | Dependencia: ≥2 de 3 rasgos en 12 meses (o ≥3 meses si el consumo es continuo, diario o casi diario) |
+| Gravedad o categorías | Leve, moderada, grave | Episodio nocivo, patrón nocivo, dependencia (categorías, no grados) |
 | Juego | Trastorno por juego | Trastorno por juego |
 | Videojuegos | Sección III (para estudio) | Diagnóstico oficial |
 
@@ -224,17 +224,16 @@ En la CIE-11, los tres rasgos de la **dependencia** son el control deficitario, 
 
 - **Proceso oponente** (Solomon y Corbit, 1974). Cada dosis provoca un proceso a, placentero, y después un proceso b, opuesto, que se fortalece con la repetición. Con el tiempo el placer se reduce (tolerancia) y el malestar posterior crece (abstinencia). El consumo deja de buscar placer y pasa a evitar malestar.
 - **Sensibilización del incentivo** (Robinson y Berridge, 1993). La repetición sensibiliza el sistema dopaminérgico mesolímbico que atribuye **saliencia de incentivo** («querer») a la droga y a sus señales. Ese sistema se disocia del placer («gustar»), de modo que el deseo crece aunque el disfrute no.
+- **Alostasis** (Koob y Le Moal). El consumo desplaza el punto de equilibrio hedónico y recluta sistemas de estrés como el CRF: es el «lado oscuro» de la adicción, dominado por el **refuerzo negativo**.
+- **Enfermedad cerebral** (Volkow, Koob y McLellan, 2016), criticada por los modelos de **aprendizaje, elección y contexto**.
+- **Aprendizaje** (véase la asignatura de Aprendizaje). Por condicionamiento clásico, las señales asociadas al consumo provocan craving. En la **tolerancia condicionada** descrita por Siegel, el contexto habitual desencadena respuestas compensatorias, lo que eleva el riesgo de sobredosis cuando se consume en un lugar nuevo. A ello se suman el refuerzo positivo y negativo, el aprendizaje social y las expectativas.
+- **Prevención de recaídas** (Marlatt). Tras un consumo aislado, el **efecto de violación de la abstinencia** («ya lo he estropeado todo») facilita la recaída completa. El modelo transteórico del cambio (Prochaska y DiClemente) se estudia en Tratamientos.
 
 ![m](u15_incentivo.png)
 
 Figura 15.1. **«Querer» frente a «gustar».** A lo largo de los consumos repetidos, la curva del «querer» (saliencia de incentivo) sube, mientras la del «gustar» (placer) se mantiene o baja. Esquema ilustrativo, no datos. Elaboración propia.
 
 Como muestra la figura 15.1, se puede desear con intensidad algo que ya apenas se disfruta.
-
-- **Alostasis** (Koob y Le Moal). El consumo desplaza el punto de equilibrio hedónico y recluta sistemas de estrés como el CRF: es el «lado oscuro» de la adicción, dominado por el **refuerzo negativo**.
-- **Enfermedad cerebral** (Volkow, Koob y McLellan, 2016), criticada por los modelos de **aprendizaje, elección y contexto**.
-- **Aprendizaje** (véase la asignatura de Aprendizaje). Por condicionamiento clásico, las señales asociadas al consumo provocan craving. En la **tolerancia condicionada** descrita por Siegel, el contexto habitual desencadena respuestas compensatorias, lo que eleva el riesgo de sobredosis cuando se consume en un lugar nuevo. A ello se suman el refuerzo positivo y negativo, el aprendizaje social y las expectativas.
-- **Prevención de recaídas** (Marlatt). Tras un consumo aislado, el **efecto de violación de la abstinencia** («ya lo he estropeado todo») facilita la recaída completa. El modelo transteórico del cambio (Prochaska y DiClemente) se estudia en Tratamientos.
 
 ### 15.2 Alcohol, tabaco y cafeína
 
@@ -299,9 +298,9 @@ El diagnóstico exige un juego problemático persistente con malestar o deterior
 8. Poner en peligro o perder relaciones, trabajo o estudios.
 9. Pedir dinero a otros para aliviar la situación económica.
 
-La gravedad es **leve (4-5)**, **moderada (6-7)** o **grave (8-9)**. Hay que descartar que el juego se explique mejor por un **episodio maníaco**, en el que se puede gastar mucho dinero de forma repentina (Unidad 10). Los criterios 1 y 2 equivalen a la tolerancia y la abstinencia; el criterio 6 es el más característico, y el que más deudas genera.
+La gravedad es **leve (4-5)**, **moderada (6-7)** o **grave (8-9)**. Hay que descartar que el juego se explique mejor por un **episodio maníaco**, en el que se puede gastar mucho dinero de forma repentina (Unidad 10). Los criterios 1 y 2 equivalen a la tolerancia y la abstinencia; el criterio 6 (*chasing*) es uno de los más característicos.
 
-Un ejemplo: Daniel, de 26 años, empezó apostando en el móvil a partidos de fútbol. Ahora apuesta cada noche, cuando pierde aumenta la apuesta «para recuperar», ha pedido dos préstamos sin que su pareja lo sepa y se pone irritable si no puede jugar. Cumple al menos cinco criterios.
+Un ejemplo: Daniel, de 26 años, empezó apostando en el móvil a partidos de fútbol. Ahora apuesta cada noche, cuando pierde aumenta la apuesta «para recuperar», ha pedido dos préstamos sin que su pareja lo sepa y se pone irritable si no puede jugar. Cumple al menos cuatro criterios (irritabilidad al no jugar, *chasing*, mentir y pedir dinero), suficientes para el diagnóstico.
 
 Varios mecanismos de aprendizaje y cognitivos ayudan a entenderlo:
 
@@ -407,7 +406,7 @@ La **amenorrea dejó de ser criterio** en el DSM-5. Hay dos subtipos: **restrict
 | --- | --- | --- |
 | Peso en la anorexia | Gravedad por IMC (leve ≥17 a extrema <15) | Bajo peso: IMC <18,5; peligrosamente bajo: <14 |
 | Amenorrea | No es criterio | No es criterio |
-| Duración de bulimia y atracón | ≥1 vez/semana durante 3 meses | Características esenciales, sin recuento tan rígido |
+| Duración de bulimia y atracón | ≥1 vez/semana durante 3 meses | Orientativo: ≥1 vez/semana durante ≥1 mes |
 | Trastorno por atracón y ARFID | Incluidos desde el DSM-5 | Incluidos como categorías nuevas |
 
 La CIE-11, como en otros capítulos, describe características esenciales con más flexibilidad clínica y evita los umbrales numéricos salvo en el peso.
@@ -446,7 +445,7 @@ Un ejemplo: Irene, de 15 años, empieza una dieta tras un comentario sobre su cu
 
 El DSM-5-TR agrupa en los **trastornos disruptivos, del control de los impulsos y de la conducta** el trastorno negativista desafiante, el trastorno explosivo intermitente, el trastorno de la conducta, el trastorno de la personalidad antisocial (codificado también en este capítulo), la piromanía y la cleptomanía. Comparten problemas de autocontrol emocional y conductual que llevan a violar los derechos de otros o normas sociales importantes. El desarrollo típico de la conducta infantil y el apego se estudian en Psicología del Desarrollo.
 
-**Trastorno negativista desafiante (TND).** Es un patrón de **enfado o irritabilidad**, **discusiones o actitud desafiante** y **vengatividad**:
+**Trastorno negativista desafiante (TND).** Se caracteriza por tres tipos de síntomas que se repiten: **ánimo irritable o enfadado**, **conducta desafiante y discutidora** y **vengatividad**:
 
 - al menos **4 síntomas** de esas tres categorías, durante **al menos 6 meses**;
 - con **al menos una persona que no sea un hermano**;
@@ -488,7 +487,7 @@ Los arrebatos son **desproporcionados** respecto a la provocación, **no premedi
 
 **Piromanía.** Es la provocación **deliberada e intencionada** de incendios en más de una ocasión, con tensión o activación previa, **fascinación por el fuego** y su contexto, y placer, gratificación o alivio al provocarlos o al presenciar sus consecuencias. No hay **motivo económico, ideológico ni de venganza**, ni se debe a un delirio o a un juicio alterado. Es rara. Hay que distinguirla del **incendiario** con una motivación instrumental, que quema un bosque para recalificar un terreno o para cobrar un seguro: eso no es piromanía.
 
-**Cleptomanía.** Es el fracaso recurrente para resistir el impulso de robar objetos que **no se necesitan** para uso personal ni por su valor económico. Hay tensión antes del robo y placer o alivio durante él, y el acto no responde a la ira, la venganza, un delirio ni una alucinación. Es rara y más frecuente en mujeres. A menudo los objetos se regalan, se tiran o se devuelven a escondidas, y la persona siente culpa después.
+**Cleptomanía.** La persona no logra resistir, una y otra vez, el impulso de llevarse objetos que **no necesita** ni le interesan por su valor. Hay tensión antes del robo y placer o alivio durante él, y el acto no responde a la ira, la venganza, un delirio ni una alucinación. Es rara y más frecuente en mujeres. A menudo los objetos se regalan, se tiran o se devuelven a escondidas, y la persona siente culpa después.
 
 **Conducta sexual compulsiva.** Es una categoría de la **CIE-11**: un patrón persistente de fracaso en controlar impulsos sexuales intensos y repetitivos, que lleva a una conducta sexual repetitiva durante un periodo prolongado. La actividad sexual se convierte en el centro de la vida, hay intentos fallidos de reducirla, continúa pese a sus consecuencias o a obtener poca satisfacción, y causa malestar o deterioro. El malestar que procede solo de juicios morales o de la desaprobación de los propios impulsos **no basta** para diagnosticarla. El DSM-5-TR no la incluye como diagnóstico.
 
@@ -527,7 +526,7 @@ Los arrebatos son **desproporcionados** respecto a la provocación, **no premedi
 
 ### Clave PIR
 
-**Prioridad alta.** La prioridad es alta en los trastornos alimentarios y baja en el control de impulsos. Se pregunta que la amenorrea ya no es criterio, la diferencia entre bulimia y anorexia con purgas (el peso), el atracón sin compensación, el ARFID sin preocupación por la figura y el modelo de Fairburn. En la parte de conducta, las trampas típicas son confundir el TND con el trastorno de la conducta, olvidar la edad de 10 años del inicio infantil y tomar por piromanía un incendio provocado por dinero o venganza.
+**Prioridad alta en trastornos alimentarios y baja en control de impulsos.** Se pregunta que la amenorrea ya no es criterio, la diferencia entre bulimia y anorexia con purgas (el peso), el atracón sin compensación, el ARFID sin preocupación por la figura y el modelo de Fairburn. En la parte de conducta, las trampas típicas son confundir el TND con el trastorno de la conducta, olvidar la edad de 10 años del inicio infantil y tomar por piromanía un incendio provocado por dinero o venganza.
 
 ### Autoevaluación
 

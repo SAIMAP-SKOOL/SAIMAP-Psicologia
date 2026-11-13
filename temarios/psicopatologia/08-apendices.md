@@ -77,6 +77,7 @@
 - Border, R. et al. (2019). No support for historical candidate gene or candidate gene-by-interaction hypotheses for major depression across multiple large samples. *American Journal of Psychiatry*, 176(5), 376-387. https://doi.org/10.1176/appi.ajp.2018.18070881
 - Brewin, C. R. (2021). Tilting at windmills: Why attacks on repression are misguided. *Perspectives on Psychological Science*, 16(2), 443-453. https://doi.org/10.1177/1745691620927674
 - Caspi, A. et al. (2014). The p factor: One general psychopathology factor in the structure of psychiatric disorders? *Clinical Psychological Science*, 2(2), 119-137. https://doi.org/10.1177/2167702613497473
+- Culverhouse, R. C. et al. (2018). Collaborative meta-analysis finds no evidence of a strong interaction between stress and 5-HTTLPR genotype contributing to the development of depression. *Molecular Psychiatry*, 23, 133-142.
 - Engel, G. L. (1977). The need for a new medical model: A challenge for biomedicine. *Science*, 196(4286), 129-136.
 - Fazel, S., Gulati, G., Linsell, L., Geddes, J. R. y Grann, M. (2009). Schizophrenia and violence: Systematic review and meta-analysis. *PLoS Medicine*, 6(8), e1000120. https://doi.org/10.1371/journal.pmed.1000120
 - First, M. B. et al. (2023). DSM-5-TR: Rationale, process, and overview of changes. *Psychiatric Services*, 74(8), 869-875. https://doi.org/10.1176/appi.ps.20220334
@@ -84,7 +85,7 @@
 - Kotov, R. et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): A dimensional alternative to traditional nosologies. *Journal of Abnormal Psychology*, 126(4), 454-477. https://doi.org/10.1037/abn0000258
 - Maier, S. F. y Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. *Psychological Review*, 123(4), 349-367. https://doi.org/10.1037/rev0000033
 - McGrath, J. J. et al. (2023). Age of onset and cumulative risk of mental disorders: A cross-national analysis of population surveys from 29 countries. *Lancet Psychiatry*, 10(9), 668-681. https://doi.org/10.1016/S2215-0366(23)00193-1
-- Moncrieff, J. et al. (2023). The serotonin theory of depression: A systematic umbrella review of the evidence. *Molecular Psychiatry*, 28, 3243-3256. https://doi.org/10.1038/s41380-022-01661-0
+- Moncrieff, J. et al. (2022). The serotonin theory of depression: A systematic umbrella review of the evidence. *Molecular Psychiatry*, 28, 3243-3256. https://doi.org/10.1038/s41380-022-01661-0
 - Öngür, D. et al. (2026). The future of DSM: A report from the Structure and Dimensions Subcommittee. *American Journal of Psychiatry*. https://doi.org/10.1176/appi.ajp.20250876
 - Oquendo, M. A. et al. (2026). Initial strategy for the future of DSM. *American Journal of Psychiatry*. https://doi.org/10.1176/appi.ajp.20250878
 - Otgaar, H. et al. (2019). The return of the repressed: The persistent and problematic claims of long-forgotten trauma. *Perspectives on Psychological Science*, 14(6), 1072-1095. https://doi.org/10.1177/1745691619862306

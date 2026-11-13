@@ -18,7 +18,7 @@ Además, el patrón tiene que ser:
 
 Puede diagnosticarse en menores de 18 años si los rasgos están presentes desde hace al menos un año, salvo el trastorno antisocial, que exige tener 18 años.
 
-Una característica clínica importante es la **egosintonía**: a diferencia de las obsesiones, que se viven como ajenas, los rasgos de un TP suelen sentirse como parte de uno mismo («yo soy así»), y el malestar se atribuye a los demás o a las circunstancias. Por eso muchas personas consultan por un problema asociado, como una depresión, y no por su personalidad.
+Una característica clínica importante es la **egosintonía**: a diferencia de las obsesiones, que se viven como intrusas y no deseadas (egodistónicas), los rasgos de un TP suelen sentirse como parte de uno mismo («yo soy así»), y el malestar se atribuye a los demás o a las circunstancias. Por eso muchas personas consultan por un problema asociado, como una depresión, y no por su personalidad.
 
 El DSM-5-TR reúne los diez TP en tres **grupos** (*clusters*):
 
@@ -89,7 +89,7 @@ El **trastorno límite de la personalidad** (TLP) es un patrón de **inestabilid
 8. Ira intensa e inapropiada o dificultad para controlarla.
 9. Ideación paranoide transitoria o síntomas disociativos graves relacionados con el estrés.
 
-Un minicaso: Lucía, de 24 años, pasa en pocas horas de sentir que su nueva amiga es «la persona más importante de su vida» a pensar que la desprecia porque no ha contestado un mensaje, y ese día se corta en el brazo para calmar la angustia. Sus cambios de ánimo duran horas, no días ni semanas, lo que los distingue de los episodios bipolares (Unidad 10).
+Un minicaso: Irene, de 24 años, pasa en pocas horas de sentir que su nueva amiga es «la persona más importante de su vida» a pensar que la desprecia porque no ha contestado un mensaje, y ese día se corta en el brazo para calmar la angustia. Sus cambios de ánimo duran horas, no días ni semanas, lo que los distingue de los episodios bipolares (Unidad 10).
 
 **El modelo biosocial de Linehan (1993).** Explica el TLP como resultado de la interacción entre dos factores:
 
@@ -104,7 +104,7 @@ De esa interacción surge una **desregulación emocional generalizada**: la pers
 
 **Tratamiento.** La revisión Cochrane de Storebø et al. (2020) concluyó que las psicoterapias específicas son útiles. Frente al tratamiento habitual, la TDC redujo la gravedad del TLP (DME −0,60; 3 ensayos, n = 149) y las autolesiones (DME −0,28; 7 ensayos, n = 376), y el TBM redujo las autolesiones y la suicidabilidad. La calidad de la evidencia se valoró como **baja**, por lo que hacen falta más estudios, pero el mensaje es claro: el TLP **sí tiene tratamiento**. Las técnicas concretas se estudian en la asignatura de Tratamientos.
 
-La comorbilidad es elevada, sobre todo con depresión, consumo de sustancias y trastornos alimentarios. El diagnóstico arrastra todavía **estigma**, y la evidencia sobre su mejoría es el mejor argumento contra ese pesimismo.
+Es habitual que el TLP coexista con depresión, consumo de sustancias o trastornos alimentarios. El diagnóstico arrastra todavía **estigma**, y la evidencia sobre su mejoría es el mejor argumento contra ese pesimismo.
 
 ### 12.4 Trastorno antisocial y psicopatía
 
@@ -238,7 +238,7 @@ Con el tiempo, el insomnio se sostiene sobre todo por los **perpetuantes**. Elen
 
 ![m](wm-apnea-psg.png)
 
-Figura 13.2. **Apneas en una polisomnografía.** Canales de frecuencia cardiaca y ECG, flujo respiratorio, esfuerzo torácico y abdominal, ronquido y saturación de oxígeno. En los recuadros verdes («cA», apneas centrales) desaparecen a la vez el flujo y el esfuerzo respiratorio; en el rojo («oA», apnea obstructiva) cesa el flujo aunque el esfuerzo continúa. Fuente: Eumetaxas, Wikimedia Commons, CC BY-SA 3.0.
+Figura 13.2. **Apneas en una polisomnografía.** Canales de frecuencia cardiaca y ECG, flujo respiratorio, esfuerzo torácico y abdominal, ronquido y saturación de oxígeno. En los recuadros verdes («cA», apneas centrales) desaparecen a la vez el flujo y el esfuerzo respiratorio; en el rojo («oA», apnea obstructiva) cesa el flujo aunque el esfuerzo continúa. Fuente: Eumetaxas, Wikimedia Commons, CC BY-SA 3.0 (fondo blanco añadido por SAIMAP).
 
 La figura 13.2 resume la diferencia que más se pregunta: en la apnea **obstructiva** el tórax y el abdomen siguen intentando respirar; en la **central**, no.
 
@@ -271,7 +271,7 @@ El **trastorno de conducta del sueño REM** se produce por la **pérdida de la a
 
 ![](u13_respuesta_sexual.png)
 
-Figura 13.3. **Modelos de la respuesta sexual.** Arriba, el modelo lineal de Masters y Johnson (excitación, meseta, orgasmo, resolución) y el trifásico de Kaplan (deseo, excitación, orgasmo); abajo, el modelo circular de Basson, en el que la intimidad y la receptividad pueden llevar a la excitación y esta al deseo. Esquema ilustrativo, no datos. Elaboración propia.
+Figura 13.3. **Modelos de la respuesta sexual.** A la izquierda, el modelo lineal de Masters y Johnson (excitación, meseta, orgasmo, resolución) y el trifásico de Kaplan (deseo, excitación, orgasmo); a la derecha, el modelo circular de Basson, en el que la intimidad y la receptividad pueden llevar a la excitación y esta al deseo. Esquema ilustrativo, no datos. Elaboración propia.
 
 Como muestra la figura 13.3, la diferencia esencial está en la posición del deseo: ausente en Masters y Johnson, al principio en Kaplan y en cualquier punto del ciclo en Basson, lo que ayuda a no considerar patológica, sin más, la falta de deseo espontáneo al inicio.
 
@@ -311,7 +311,7 @@ El DSM-5-TR recoge ocho trastornos parafílicos, que aquí solo se enumeran con 
 | Fetichismo | Objetos inanimados o partes del cuerpo no genitales |
 | Travestismo | Vestir ropa asociada a otro sexo |
 
-En la **CIE-11**, el criterio decisivo es la **falta de consentimiento** de las otras personas implicadas o el **malestar** significativo de la propia persona. Por ello, la CIE-11 **elimina el fetichismo y el travestismo fetichista** como trastornos: cuando se dan entre adultos que consienten y no causan malestar, no se consideran patológicos.
+En la **CIE-11**, el criterio decisivo es la **falta de consentimiento** de las otras personas implicadas o el **malestar** significativo de la propia persona. Por ello, la CIE-11 **elimina el fetichismo, el travestismo fetichista y el sadomasoquismo consentido** como trastornos (del sadismo solo conserva el trastorno de sadismo sexual coercitivo): cuando se dan entre adultos que consienten y no causan malestar, no se consideran patológicos.
 
 **Disforia de género.** El DSM-5-TR la define como un **malestar clínicamente significativo** asociado a la **incongruencia entre el género experimentado o expresado y el género asignado al nacer**, durante al menos **6 meses**. Tiene criterios distintos para la infancia y para la adolescencia y la edad adulta. El DSM-5-TR actualizó la terminología y emplea las expresiones «género experimentado» y «género asignado al nacer». El punto clave es que el diagnóstico se centra en el **malestar**, no en la identidad: ser una persona trans no es en sí un trastorno.
 
@@ -321,7 +321,7 @@ La **CIE-11** dio un paso más. La **incongruencia de género** sale de los tras
 | --- | --- | --- |
 | Sueño-vigilia | Capítulo dentro del manual de trastornos mentales | Capítulo propio, fuera de los trastornos mentales |
 | Disfunciones sexuales | Trastornos mentales; requisitos de ≈6 meses | Capítulo de salud sexual; sin división orgánica/psicógena |
-| Trastornos parafílicos | Ocho tipos; malestar, daño o falta de consentimiento | Clave en el consentimiento o el malestar; sin fetichismo ni travestismo fetichista |
+| Trastornos parafílicos | Ocho tipos; malestar, daño o falta de consentimiento | Clave en el consentimiento o el malestar; sin fetichismo, travestismo fetichista ni sadomasoquismo consentido |
 | Género | Disforia de género: malestar, ≥6 meses | Incongruencia de género en salud sexual, no es trastorno mental |
 
 Lo que se ha considerado trastorno en el ámbito sexual ha dependido mucho de las normas de cada época (Unidad 1); la tendencia actual es reservar el diagnóstico para el malestar, el deterioro o el daño a otras personas.

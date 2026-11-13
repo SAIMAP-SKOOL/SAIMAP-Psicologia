@@ -41,7 +41,7 @@ Un ejemplo: Lucía lleva tres semanas sin disfrutar de nada. Se despierta a las 
 
 ![](u10_triadico.png)
 
-Figura 10.1. **El diseño triádico de la indefensión.** Tres grupos (descarga escapable, inescapable acoplada y sin descarga) pasan después a una caja de lanzadera; solo el grupo inescapable no aprende a escapar. El recuadro resume la reinterpretación de 2016: la pasividad es la respuesta por defecto y lo que se aprende es el control. Elaboración propia.
+Figura 10.1. **El diseño triádico de la indefensión.** Tres grupos (descarga escapable, inescapable acoplada y sin descarga) pasan después a una caja de lanzadera; solo el grupo inescapable no aprende a escapar. El recuadro resume la reinterpretación de 2016: la pasividad es la respuesta por defecto y lo que se aprende es el control. Esquema ilustrativo, no datos. Elaboración propia.
 
 Como muestra la figura 10.1, solo el grupo que no había tenido control se quedaba quieto. La clave no era la cantidad de descarga, idéntica en los dos primeros grupos, sino su **incontrolabilidad**. Hiroto (1974) obtuvo efectos parecidos en personas con ruido inescapable. La explicación original fue que el animal **aprendía** que sus respuestas no servían de nada.
 
@@ -53,7 +53,7 @@ Maier y Seligman (2016) revisaron esa explicación con datos neurocientíficos. 
 
 ![m](u10_beck.png)
 
-Figura 10.2. **Modelo cognitivo de la depresión de Beck.** Las experiencias tempranas forman esquemas disfuncionales; un suceso crítico los activa y aparecen pensamientos automáticos y distorsiones sobre el yo, el mundo y el futuro, que producen los síntomas depresivos. Elaboración propia.
+Figura 10.2. **Modelo cognitivo de la depresión de Beck.** Las experiencias tempranas forman esquemas disfuncionales; un suceso crítico los activa y aparecen pensamientos automáticos y distorsiones sobre el yo, el mundo y el futuro, que producen los síntomas depresivos. Esquema ilustrativo, no datos. Elaboración propia.
 
 Como resume la figura 10.2, los **esquemas** depresógenos permanecen latentes hasta que un suceso los activa. A partir de ahí, la información se procesa con **distorsiones cognitivas**: abstracción selectiva, sobregeneralización, inferencia arbitraria, maximización y minimización, personalización y pensamiento dicotómico.
 
@@ -224,7 +224,7 @@ Como muestra la figura 11.2, el aumento del riesgo depende sobre todo del **cons
 
 ### 11.2 Etiología biológica
 
-**Genética.** La esquizofrenia es uno de los trastornos más heredables: los estudios de gemelos estiman una heredabilidad de aproximadamente el 81 % (Sullivan, Kendler y Neale, 2003), y en general se sitúa entre el 60 % y el 80 %. El riesgo aumenta con el parentesco y es máximo en el gemelo monocigótico de una persona afectada, aunque no llega al 100 %, lo que deja espacio a factores no genéticos.
+**Genética.** La esquizofrenia es uno de los trastornos más heredables: los estudios de gemelos estiman una heredabilidad de aproximadamente el 81 % (Sullivan, Kendler y Neale, 2003); según el método, la mayoría de las estimaciones van del 60 % al 80 % o algo más. El riesgo aumenta con el parentesco y es máximo en el gemelo monocigótico de una persona afectada, aunque no llega al 100 %, lo que deja espacio a factores no genéticos.
 
 Los estudios de adopción permiten separar genes y crianza. **Heston (1966)** comparó a hijos de madres con esquizofrenia separados de ellas al nacer y adoptados con un grupo de adoptados control: hubo varios casos de esquizofrenia en el primer grupo y ninguno en el segundo.
 
@@ -280,7 +280,7 @@ El DSM-5-TR agrupa estos cuadros en el espectro de la esquizofrenia y otros tras
 
 ![](u11_duraciones_psicosis.png)
 
-Figura 11.4. **Duraciones en los trastornos psicóticos.** Barra temporal con umbrales de 1 día, 1 mes y 6 meses: trastorno psicótico breve (de 1 día a menos de 1 mes), esquizofreniforme (de 1 a 6 meses) y esquizofrenia (6 meses o más). Una nota recoge que en la CIE-11 la esquizofrenia exige al menos 1 mes y el trastorno psicótico agudo y transitorio no supera los 3 meses. Elaboración propia.
+Figura 11.4. **Duraciones en los trastornos psicóticos.** Barra temporal con umbrales de 1 día, 1 mes y 6 meses: trastorno psicótico breve (de 1 día a menos de 1 mes), esquizofreniforme (de 1 a 6 meses) y esquizofrenia (6 meses o más). Una nota recoge que en la CIE-11 la esquizofrenia exige al menos 1 mes y el trastorno psicótico agudo y transitorio no supera los 3 meses. Esquema ilustrativo, no datos. Elaboración propia.
 
 Como muestra la figura 11.4:
 
