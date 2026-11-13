@@ -27,7 +27,7 @@ window.COURSE.units.push(
       "En el modelo de representación dual, las memorias sensoriales explican los flashbacks.|V"
     ],
     q: [
-      "Tres meses después de un atropello, Sara revive el golpe al oír un frenazo, evita esa calle, se culpa y se sobresalta con cualquier ruido. ¿Qué diagnóstico es compatible?|TEPT|Trastorno de estrés agudo|Trastorno de adaptación|Hay intrusión, evitación, alteraciones cognitivas y activación durante más de un mes, tras un suceso que cumple el criterio A.",
+      "Tres meses después de un atropello, Sara revive el golpe al oír un frenazo, evita esa calle, se culpa, cree que ningún lugar es seguro, se sobresalta con cualquier ruido y duerme mal. ¿Qué diagnóstico es compatible?|TEPT|Trastorno de estrés agudo|Trastorno de adaptación|Hay intrusión, evitación, alteraciones cognitivas y activación durante más de un mes, tras un suceso que cumple el criterio A.",
       "Según Ehlers y Clark (2000), ¿por qué persiste el TEPT?|Porque el trauma se vive como amenaza actual|Porque la estructura de miedo no se activa|Porque las señales quedan condicionadas al miedo|Las valoraciones negativas y una memoria mal elaborada hacen que el peligro se sienta presente. El condicionamiento es el modelo de Mowrer.",
       "¿Cuántos síntomas de activación y reactividad exige como mínimo el DSM-5-TR en adultos?|Dos|Uno|Tres|Intrusión y evitación piden uno cada uno, y las alteraciones cognitivas y del ánimo y las de activación, dos cada una.",
       "Un bombero sufre síntomas tras recoger restos humanos en varios siniestros. ¿Qué vía del criterio A cumple?|Exposición repetida a detalles aversivos|Experiencia directa del suceso|Conocimiento de lo ocurrido a un allegado|Los primeros intervinientes pueden cumplir el criterio A por exposición repetida o extrema a detalles aversivos."
@@ -50,7 +50,7 @@ window.COURSE.units.push(
       "Desregulación afectiva=Reacciones emocionales intensas, dificultad para calmarse o embotamiento",
       "Autoconcepto negativo=Sentirse inútil, derrotado o sin valor, con culpa o vergüenza ligadas al trauma",
       "Represión inconsciente=Supuesto olvido activo del trauma, con débil apoyo científico (Otgaar et al., 2019)",
-      "Recuerdo falso=Recuerdo vivido con total convicción que pueden generar las técnicas sugestivas",
+      "Recuerdo falso=Evocación vivida con total convicción que pueden generar las técnicas sugestivas",
       "Brewin (2021)=Autor que matizó algunos argumentos críticos sobre la memoria traumática"
     ],
     g: [
@@ -106,7 +106,7 @@ window.COURSE.units.push(
     ],
     q: [
       "Dos semanas después de que anuncien el cierre de su empresa, Pablo duerme mal, se irrita con su pareja y falta al trabajo, sin síntomas suficientes para una depresión. ¿Qué diagnóstico corresponde?|Trastorno de adaptación|Trastorno de estrés agudo|Episodio depresivo leve|El estresor no es traumático y el malestar es desproporcionado y le impide funcionar. Es un trastorno de adaptación mixto.",
-      "Diez días después de un terremoto, un vecino tiene pesadillas, se siente irreal, evita la zona y apenas duerme. Según el DSM-5-TR, ¿qué es lo más adecuado?|Trastorno de estrés agudo|TEPT con síntomas disociativos|Trastorno de adaptación|Han pasado entre 3 días y 1 mes, así que no puede ser TEPT, que exige más de un mes de duración.",
+      "Diez días después de un terremoto, un vecino presenta diez síntomas de intrusión, ánimo negativo, disociación, evitación y alerta. Según el DSM-5-TR, ¿qué es lo más adecuado?|Trastorno de estrés agudo|TEPT con síntomas disociativos|Trastorno de adaptación|Han pasado entre 3 días y 1 mes, así que no puede ser TEPT, que exige más de un mes de duración.",
       "En la CIE-11, sentirse aturdido y dormir mal los primeros días tras una catástrofe se considera…|una reacción esperable|un trastorno de estrés agudo|un trastorno de adaptación|La reacción de estrés agudo no es un trastorno mental en la CIE-11, sino una respuesta esperable ante un suceso extremo.",
       "Un niño criado en una institución con pocos adultos se va de la mano con cualquier desconocido sin mirar si su cuidador está cerca. ¿Qué diagnóstico sugiere?|Relación social desinhibida|Trastorno de apego reactivo|Trastorno de adaptación|Acercarse a extraños sin la reticencia habitual tras una privación de cuidados es propio de la relación social desinhibida."
     ],
@@ -185,7 +185,7 @@ window.COURSE.units.push(
       "Según el Global Burden of Disease, la depresión es la segunda causa mundial de años vividos con discapacidad.|V"
     ],
     q: [
-      "Desde hace tres semanas, Marta no disfruta de nada, se despierta a las cinco, ha perdido el apetito y piensa que estarían mejor sin ella. ¿Qué cuadro es más probable?|Episodio depresivo mayor|Trastorno depresivo persistente|Tristeza normal pasajera|Hay al menos 5 síntomas, con anhedonia, durante más de 2 semanas. El trastorno persistente exige 2 años.",
+      "Desde hace tres semanas, Marta no disfruta de nada, se despierta a las cinco, ha perdido el apetito, le cuesta concentrarse y piensa que estarían mejor sin ella. ¿Qué cuadro es más probable?|Episodio depresivo mayor|Trastorno depresivo persistente|Tristeza normal pasajera|Hay al menos 5 síntomas, con anhedonia, durante más de 2 semanas. El trastorno persistente exige 2 años.",
       "¿Qué síntoma es imprescindible para un episodio depresivo mayor en el DSM-5-TR?|Ánimo deprimido o anhedonia|Insomnio o hipersomnia|Inutilidad o culpa excesiva|Al menos uno de los cinco síntomas debe ser el ánimo deprimido o la pérdida de interés o de placer.",
       "¿Qué combinación forma parte del especificador con características atípicas?|Reactividad del ánimo e hiperfagia|Insomnio tardío y anorexia|Culpa excesiva y anhedonia total|Incluye reactividad del ánimo, hiperfagia, hipersomnia, parálisis plúmbea y sensibilidad al rechazo.",
       "Un niño de 8 años tiene rabietas graves cuatro veces por semana e irritabilidad persistente desde hace más de un año. ¿Qué diagnóstico encaja?|Desregulación disruptiva del ánimo|Trastorno depresivo persistente|Trastorno bipolar de inicio infantil|Se exige inicio antes de los 10 años, rabietas al menos 3 veces por semana e irritabilidad durante al menos 12 meses."
@@ -397,7 +397,7 @@ window.COURSE.units.push(
     tip: "Que la esquizofrenia sea muy heredable no significa que el ambiente no importe. En el estudio finlandés de Tienari et al. (2004), el riesgo genético se expresaba más en familias adoptivas disfuncionales, una interacción gen-ambiente. La emoción expresada alta (críticas, hostilidad y sobreimplicación) predice recaídas, pero no causa el trastorno. Zubin y Spring (1977) propusieron el modelo de vulnerabilidad-estrés, y la madre esquizofrenógena y el doble vínculo carecen de apoyo empírico.",
     v: [
       "Interacción gen-ambiente=Ni los genes ni la familia bastan por separado para explicar el resultado",
-      "Emoción expresada=Índice del clima emocional de la familia hacia la persona afectada",
+      "Emoción expresada=Índice del clima afectivo de la familia hacia la persona afectada",
       "Comentarios críticos=Componente ilustrado por «te pasas el día tirado, no haces nada»",
       "Hostilidad=Rechazo dirigido a la persona, no solo a una conducta concreta",
       "Sobreimplicación emocional=Protección excesiva, autosacrificio o dramatización",
@@ -410,7 +410,7 @@ window.COURSE.units.push(
       "La teoría de la madre esquizofrenógena se atribuye a ___.|Fromm-Reichmann|Brown y Birley|Vaughn y Leff",
       "La emoción expresada influye en el ___ del trastorno y en las recaídas.|curso|origen|inicio",
       "El modelo de vulnerabilidad-estrés lo propusieron Zubin y ___ en 1977.|Spring|Leff|Vaughn",
-      "La emoción expresada se trabaja con intervenciones familiares ___.|psicoeducativas|psicodinámicas|sistémicas"
+      "La emoción expresada se trabaja con intervenciones familiares ___.|psicoeducativas|psicodinámicas|hipnóticas"
     ],
     tf: [
       "La emoción expresada alta es una de las causas de la esquizofrenia.|F|Influye en el curso y en las recaídas, no en el origen del trastorno.",
@@ -434,19 +434,19 @@ window.COURSE.units.push(
   { t: "Otros trastornos psicóticos y catatonía",
     tip: "La duración es el primer criterio para distinguir los trastornos psicóticos: el breve dura de 1 día a menos de 1 mes, el esquizofreniforme de 1 a 6 meses y la esquizofrenia 6 meses o más. El delirante exige delirios durante al menos 1 mes (3 en la CIE-11) sin criterio A. El esquizoafectivo combina un episodio afectivo con el criterio A y 2 semanas de psicosis sin episodio afectivo. La catatonía exige 3 de 12 síntomas y no es exclusiva de la esquizofrenia.",
     v: [
-      "Trastorno psicótico breve=Síntomas psicóticos de 1 día a menos de 1 mes, con vuelta al nivel previo",
+      "Trastorno psicótico breve=Delirios, alucinaciones o desorganización de 1 día a menos de 1 mes, con vuelta al nivel previo",
       "Esquizofreniforme=Criterio A de la esquizofrenia durante 1 a 6 meses, sin exigir deterioro",
       "Psicótico agudo y transitorio=Nombre en la CIE-11 del cuadro breve, de inicio brusco y hasta 3 meses",
       "Trastorno delirante=Delirios durante al menos 1 mes sin cumplir el criterio A de la esquizofrenia",
       "Esquizoafectivo=Episodio afectivo con criterio A más 2 semanas de psicosis sin síntomas afectivos",
       "Catatonía=Síndrome psicomotor con al menos 3 de 12 síntomas",
-      "Flexibilidad cérea=Síntoma catatónico en que el cuerpo mantiene la postura en que se coloca",
+      "Flexibilidad cérea=Síntoma catatónico en que el cuerpo se deja moldear como si fuera de cera",
       "Folie à deux=Antiguo trastorno psicótico compartido, hoy en «otro especificado»"
     ],
     g: [
       "La CIE-11 exige para el trastorno delirante al menos ___.|3 meses|1 mes|6 meses",
       "El trastorno esquizofreniforme no existe en la ___.|CIE-11|DSM-5-TR|DSM-IV",
-      "El trastorno psicótico breve puede especificarse si empieza en el ___.|posparto|embarazo|invierno",
+      "El trastorno psicótico breve puede especificarse si empieza en el ___.|posparto|climaterio|invierno",
       "Los tipos del trastorno delirante incluyen el erotomaníaco, el celotípico y el ___.|somático|catatónico|desorganizado",
       "En el esquizoafectivo, los síntomas afectivos deben estar presentes la mayor parte de la duración ___.|total|activa|residual"
     ],

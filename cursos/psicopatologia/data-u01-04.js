@@ -87,7 +87,7 @@ window.COURSE.units.push(
       "Parálisis general progresiva=Cuadro con síntomas psiquiátricos y demencia, consecuencia tardía de la sífilis",
       "Cuatro A de Bleuler=Asociaciones laxas, afecto alterado, ambivalencia y autismo",
       "Comprender y explicar=Captar relaciones de sentido frente a establecer relaciones causales",
-      "Desinstitucionalización=Proceso del siglo XX que en España apoyó la Ley General de Sanidad de 1986"
+      "Desinstitucionalización=Proceso del siglo XX que en España se apoyó en la Ley General de Sanidad de 1986"
     ],
     g: [
       "Pinel dirigió el hospital de Bicêtre desde ___.|1793|1796|1813",
@@ -391,7 +391,7 @@ window.COURSE.units.push(
       "Capítulo 6=Trastornos mentales, del comportamiento y del neurodesarrollo de la CIE-11",
       "Enfoque de ciclo vital=Cada trastorno describe su presentación en la niñez, la adolescencia y la vejez",
       "Distrés corporal=Categoría que sustituye a la mayoría de los antiguos trastornos somatomorfos",
-      "Reacción de estrés agudo=En la CIE-11, respuesta esperable incluida entre los factores de salud",
+      "Reacción de estrés agudo=En la CIE-11, respuesta esperable incluida entre los factores que influyen en la salud",
       "Incongruencia de género=Situada en el capítulo de salud sexual, fuera de los trastornos mentales",
       "Síndrome de referencia olfativa=Categoría nueva del grupo obsesivo-compulsivo en la CIE-11"
     ],
@@ -611,7 +611,7 @@ window.COURSE.units.push(
     ],
     seq: [],
     cls: [
-      "Proceso transdiagnóstico|Rumiación y preocupación: pensamiento repetitivo; insomnio; TEPT|Intolerancia a la incertidumbre: lo incierto como amenaza; TAG; TOC|Regulación emocional: modular la intensidad; TLP; sustancias"
+      "Proceso transdiagnóstico|Rumiación y preocupación: pensamiento repetitivo; insomnio; TEPT|Intolerancia a la incertidumbre: lo incierto como amenaza; ansiedad social; TOC|Regulación emocional: modular la intensidad; TLP; sustancias"
     ] }
 ] }
 );

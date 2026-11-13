@@ -51,7 +51,7 @@ window.COURSE.units.push(
       "Terror nocturno=Incorporarse gritando con gran activación vegetativa y sin recuerdo posterior",
       "Pesadilla=Sueño angustioso que despierta a la persona, orientada y con recuerdo vívido",
       "Trastorno de conducta REM=Pérdida de la atonía con conductas que escenifican los sueños",
-      "Piernas inquietas=Necesidad de mover las piernas que empeora en reposo y se alivia al moverse"
+      "Piernas inquietas=Urgencia de mover las extremidades inferiores que empeora en reposo y cede al moverse"
     ],
     g: [
       "El trastorno de conducta del sueño REM es un marcador prodrómico de ___.|sinucleinopatías|taupatías|demencias vasculares",
@@ -180,7 +180,7 @@ window.COURSE.units.push(
     ],
     tf: [
       "Los estados de identidad del TID son personas independientes que conviven en el mismo cuerpo.|F|Son partes fragmentadas de la identidad de una misma persona, no individuos independientes.",
-      "La esquizofrenia es la forma más grave de la personalidad múltiple.|F|Es un trastorno psicótico. Bleuler (1911) hablaba de escisión de las funciones psíquicas, no de la personalidad.",
+      "La amnesia disociativa generalizada es la forma más frecuente de amnesia disociativa.|F|La generalizada, que abarca toda la identidad y la historia vital, es mucho más rara que la localizada o la selectiva.",
       "La amnesia disociativa no suele afectar a la capacidad de aprender información nueva.|V",
       "La prevalencia del TID varía mucho según el método de evaluación y el entorno de estudio.|V"
     ],
@@ -197,7 +197,7 @@ window.COURSE.units.push(
     cls: [
       "Modelo del TID|Postraumático: Dalenberg et al. (2012); trauma infantil grave; defensa frente a lo insoportable|Sociocognitivo: Spanos (1994); sugestión y expectativas; papel aprendido y reforzado"
     ] },
-  { t: "Despersonalización/desrealización y la disociación en la CIE-11",
+  { t: "Despersonalización, desrealización y disociación en la CIE-11",
     tip: "La despersonalización es la vivencia de irrealidad o de ser observador de uno mismo, y la desrealización, la de que el entorno es irreal. El rasgo decisivo es que el juicio de realidad se conserva («es como si»), por lo que no es psicosis. La CIE-11 amplía el grupo disociativo con el trastorno de síntomas neurológicos disociativos, el trance, el trance de posesión y el TID parcial.",
     v: [
       "Despersonalización=Irrealidad o sensación de ser observador externo de uno mismo",
@@ -239,7 +239,7 @@ window.COURSE.units.push(
     tip: "El trastorno de síntomas somáticos se define por pensamientos, emociones o conductas excesivos ante síntomas presentes durante al menos 6 meses, y ya no exige que carezcan de explicación médica. En la ansiedad por enfermedad, antes hipocondría, los síntomas son ausentes o leves y preocupa la enfermedad que se podría tener. La CIE-11 crea el trastorno de distrés corporal y sitúa la hipocondría en el grupo obsesivo-compulsivo.",
     v: [
       "Trastorno de síntomas somáticos=Respuesta excesiva a síntomas corporales molestos durante 6 meses o más",
-      "Ansiedad por enfermedad=Miedo a padecer una enfermedad grave con síntomas ausentes o leves",
+      "Ansiedad por enfermedad=Miedo a padecer una dolencia grave con síntomas ausentes o leves",
       "Trastorno de distrés corporal=Categoría de la CIE-11 con síntomas angustiantes y atención excesiva a ellos",
       "Con predominio de dolor=Especificador del trastorno de síntomas somáticos",
       "Con evitación de asistencia=Tipo en que la persona evita al médico y los programas sobre enfermedades",
@@ -311,7 +311,7 @@ window.COURSE.units.push(
       "Historia del grupo de la conversión|Histeria hipocrática>Charcot en la Salpêtrière>Freud y Breuer (1895)>Síntomas neurológicos funcionales del DSM-5-TR"
     ],
     cls: [
-      "Cuadro|Síntomas neurológicos funcionales: no intencionados; trastorno mental|Trastorno facticio: engaño identificado; sin incentivo externo evidente|Simulación: incentivo externo; código V/Z"
+      "Cuadro|Síntomas neurológicos funcionales: no intencionados; signos positivos de incompatibilidad|Trastorno facticio: engaño identificado; sin incentivo externo evidente|Simulación: incentivo externo; código V/Z"
     ] }
 ] },
 { n: 15, t: "Sustancias y conductas adictivas", cap: 7, pir: "media", mods: [
@@ -321,7 +321,7 @@ window.COURSE.units.push(
       "Intoxicación=Síndrome reversible propio de cada sustancia durante el consumo o poco después",
       "Tolerancia=Necesidad de más dosis para el mismo efecto, o menor efecto con la misma dosis",
       "Craving=Deseo intenso o urgencia de consumir, criterio añadido en el DSM-5",
-      "Proceso oponente=El proceso b, opuesto al placer, se fortalece con la repetición (Solomon y Corbit)",
+      "Proceso oponente=La reacción b, contraria al placer, se fortalece con la repetición (Solomon y Corbit)",
       "Sensibilización del incentivo=El «querer» crece con el consumo aunque el «gustar» no (Robinson y Berridge)",
       "Alostasis=Desplazamiento del equilibrio hedónico con reclutamiento de sistemas de estrés como el CRF",
       "Tolerancia condicionada=Respuesta compensatoria provocada por el contexto habitual de consumo (Siegel)",
@@ -384,7 +384,7 @@ window.COURSE.units.push(
       "Ramón, de 50 años, bebe a diario desde hace años. Ingresa por una fractura y a los dos días tiembla, suda y ve insectos en la pared. ¿Qué ocurre?|Una abstinencia alcohólica|Una intoxicación alcohólica|Una encefalopatía de Wernicke|Temblor, hiperactividad autonómica y alucinaciones al dejar de beber indican abstinencia, que hay que tratar como urgencia.",
       "¿Qué combina la encefalopatía de Wernicke?|Confusión, ataxia y alteraciones oculares|Amnesia anterógrada, confabulaciones y apatía|Temblor, sudoración, taquicardia y convulsiones|Es el cuadro agudo. La amnesia con confabulaciones corresponde al síndrome de Korsakoff, y el temblor, a la abstinencia.",
       "¿Qué síntoma forma parte de la intoxicación por cafeína?|Rubor|Cefalea|Somnolencia|La intoxicación cursa con nerviosismo, insomnio, rubor y taquicardia. La cefalea y la somnolencia son de abstinencia.",
-      "¿Qué sustancia causa más trastornos por consumo?|El alcohol|El tabaco|El cannabis|El alcohol causa más trastornos por consumo. El tabaco es el responsable de la mayor carga de mortalidad."
+      "¿Qué sustancia causa más trastornos por consumo?|El alcohol|Los opiáceos|El cannabis|El alcohol causa más trastornos por consumo. El tabaco es el responsable de la mayor carga de mortalidad."
     ],
     inc: [
       "Sobre tabaco y cafeína|El DSM-5-TR reconoce la intoxicación por tabaco|La abstinencia de tabaco aumenta el apetito|La cafeína es la sustancia de uso más cotidiano|El DSM-5-TR reconoce el trastorno por consumo y la abstinencia de tabaco, pero no la intoxicación."
@@ -409,7 +409,7 @@ window.COURSE.units.push(
       "En el metaanálisis de Bahji et al. (2020), presentaba abstinencia el ___ de los consumidores regulares o dependientes.|47 %|17 %|87 %",
       "En muestras de población general, la abstinencia de cannabis aparecía en el ___.|17 %|47 %|54 %",
       "La abstinencia de estimulantes cursa con ___, fatiga y sueños vívidos y desagradables.|disforia|euforia|miosis",
-      "La retirada de las benzodiacepinas debe ser gradual por el riesgo de ___.|convulsiones|miosis|alucinaciones",
+      "La retirada de las benzodiacepinas debe ser gradual por el riesgo de ___.|convulsiones|miosis|hipersomnia",
       "La ___ tiene categoría propia, separada de los demás alucinógenos.|fenciclidina|psilocibina|mescalina"
     ],
     tf: [
@@ -477,7 +477,7 @@ window.COURSE.units.push(
       "Anorexia nerviosa=Restricción con peso muy bajo, miedo a engordar y alteración de la imagen corporal",
       "Atracón=Comer mucho más de lo habitual en un periodo determinado con sensación de pérdida de control",
       "Conducta compensatoria=Vómito, laxantes, ayuno o ejercicio excesivo para contrarrestar lo comido",
-      "Trastorno por atracón=Atracones recurrentes con malestar intenso y sin compensaciones regulares",
+      "Trastorno por atracón=Ingestas recurrentes con pérdida de control, malestar intenso y sin compensaciones regulares",
       "ARFID=Restricción por desinterés, sensorialidad o miedo, sin preocupación por la figura",
       "Anorexia extrema=IMC inferior a 15 en adultos, según el DSM-5-TR",
       "Bajo peso en la CIE-11=IMC inferior a 18,5, y peligrosamente bajo si es inferior a 14",
@@ -499,7 +499,7 @@ window.COURSE.units.push(
     q: [
       "Una paciente adulta tiene un IMC de 15,5, miedo intenso a engordar y vómitos frecuentes tras comer. ¿Qué diagnóstico corresponde?|Anorexia con purgas, grave|Bulimia nerviosa con peso bajo|Anorexia restrictiva, moderada|El bajo peso orienta a anorexia aunque haya purgas. Un IMC de 15-15,99 corresponde a gravedad grave.",
       "¿Qué distingue la bulimia nerviosa de la anorexia con atracones/purgas?|El peso|Los vómitos|El miedo a engordar|En la bulimia el peso suele ser normal o con sobrepeso. Los vómitos y el miedo a engordar pueden darse en ambas.",
-      "¿Qué rasgo distingue el ARFID de la anorexia?|No hay preocupación por la figura|Hay una pérdida de peso marcada|Suele empezar en la infancia|En el ARFID la restricción no responde al deseo de adelgazar, aunque puede haber pérdida de peso.",
+      "¿Qué rasgo distingue el ARFID de la anorexia?|No hay preocupación por la figura|Hay una pérdida de peso marcada|Exige un IMC inferior a 17|En el ARFID la restricción no responde al deseo de adelgazar, aunque puede haber pérdida de peso.",
       "Un hombre tiene atracones semanales desde hace 4 meses, come a solas por vergüenza y siente culpa, pero no vomita ni ayuna. ¿Qué diagnóstico encaja?|Trastorno por atracón|Bulimia nerviosa no purgativa|Anorexia con atracones|Atracones sin conductas compensatorias regulares, con malestar y rasgos asociados, definen el trastorno por atracón."
     ],
     inc: [
@@ -556,7 +556,7 @@ window.COURSE.units.push(
       "Inicio infantil=Al menos un síntoma del trastorno de la conducta antes de los 10 años",
       "Emociones prosociales limitadas=Especificador con rasgos de insensibilidad-frialdad",
       "Insensibilidad-frialdad=Falta de remordimientos y de empatía, con afecto superficial",
-      "Trastorno de conducta disocial=Nombre de la CIE-11 para el trastorno de la conducta",
+      "Trastorno de conducta disocial=Denominación de la CIE-11 para el patrón persistente de violación de derechos y normas",
       "Desregulación disruptiva del ánimo=Irritabilidad crónica con arrebatos graves",
       "Incumplimiento grave de normas=Salir de noche pese a la prohibición, hacer novillos o escaparse de casa",
       "Gravedad del TND=Se especifica por el número de entornos en que aparece"
@@ -575,7 +575,7 @@ window.COURSE.units.push(
       "El TND puede preceder al trastorno de la conducta.|V"
     ],
     q: [
-      "Un niño de 8 años discute con los adultos, desafía las normas y es rencoroso desde hace 7 meses, en casa y en el colegio, pero no agrede ni roba. ¿Qué diagnóstico encaja?|Trastorno negativista desafiante|Trastorno de la conducta infantil|Desregulación disruptiva del ánimo|Enfado, desafío y vengatividad durante más de 6 meses, sin agresión ni robo, apuntan al TND.",
+      "Un niño de 8 años se enfada con facilidad, discute con los adultos, desafía las normas y es rencoroso desde hace 7 meses, en casa y en el colegio, pero no agrede ni roba. ¿Qué diagnóstico encaja?|Trastorno negativista desafiante|Trastorno de la conducta infantil|Desregulación disruptiva del ánimo|Enfado, desafío y vengatividad durante más de 6 meses, sin agresión ni robo, apuntan al TND.",
       "Un adolescente de 14 años roba en coches, intimida a compañeros y se escapa de casa desde hace un año, y su primer síntoma apareció a los 9. ¿Qué subtipo tiene?|De inicio infantil|De inicio adolescente|No especificado|Al menos un síntoma antes de los 10 años define el inicio infantil, con peor pronóstico.",
       "¿Qué recoge el especificador «con emociones prosociales limitadas»?|Rasgos de insensibilidad-frialdad|Irritabilidad crónica con arrebatos|Agresión dirigida a animales|Falta de remordimientos, de empatía y de preocupación por el rendimiento, y afecto superficial. Identifica un subgrupo más grave.",
       "En la CIE-11, ¿dónde se sitúan el TND y el trastorno de conducta disocial?|En un grupo de comportamiento disruptivo|Junto a los trastornos de los impulsos|Entre los trastornos de la personalidad|Forman un grupo de comportamiento disruptivo o disocial, separado de los trastornos del control de los impulsos."
@@ -594,7 +594,7 @@ window.COURSE.units.push(
       "Piromanía=Incendios deliberados por tensión y fascinación por el fuego, sin motivo instrumental",
       "Cleptomanía=Impulso irresistible de llevarse objetos innecesarios, con tensión previa y alivio",
       "Incendiario=Quien quema con un motivo instrumental, como cobrar un seguro",
-      "Conducta sexual compulsiva=Fracaso persistente en controlar impulsos sexuales intensos, según la CIE-11",
+      "Conducta sexual compulsiva=Fracaso persistente en controlar impulsos eróticos intensos y repetitivos, según la CIE-11",
       "Ciclo impulsivo=Tensión creciente, acto, alivio o placer y, a veces, culpa",
       "Tricotilomanía=Salió del control de impulsos en el DSM-5 y pasó al grupo obsesivo-compulsivo",
       "Arrebatos sin daños=Agresión verbal o física de media 2 veces por semana durante 3 meses"

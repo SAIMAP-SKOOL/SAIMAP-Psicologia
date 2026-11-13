@@ -11,7 +11,7 @@ window.COURSE.units.push(
       "Estado crepuscular=Campo de conciencia estrechado, conducta ordenada en apariencia y amnesia posterior",
       "Estado oniroide=Vivencia parecida a un sueño que mezcla percepciones reales y escenas imaginadas",
       "Delirium=Alteración aguda y fluctuante de la atención y la conciencia con causa médica o tóxica",
-      "Doble orientación=Conviven la orientación real y una interpretación delirante del lugar"
+      "Doble orientación=Saber dónde se está y, a la vez, dar al lugar una interpretación delirante"
     ],
     g: [
       "El nivel en que solo se responde a estímulos intensos, de forma breve e incompleta, se llama ___.|estupor|coma|somnolencia",
@@ -167,7 +167,7 @@ window.COURSE.units.push(
       "Alucinosis=Alucinación que la persona reconoce como irreal",
       "Formicación=Sensación de bichos bajo la piel, en la abstinencia o el consumo de cocaína",
       "Dismegalopsia=Ver los objetos más grandes o más pequeños de lo que son",
-      "Alucinación refleja=Un estímulo en una modalidad produce una alucinación en otra"
+      "Alucinación refleja=Un estímulo en una modalidad sensorial produce un engaño perceptivo en otra"
     ],
     g: [
       "Oír voces en el ruido del agua, solo mientras suena, es una alucinación ___.|funcional|refleja|extracampina",
@@ -237,7 +237,7 @@ window.COURSE.units.push(
     tip: "Una idea delirante es una creencia falsa, firme, incorregible y no compartida por el grupo cultural. Jaspers propuso la certeza subjetiva, la incorregibilidad y la imposibilidad del contenido, este último criterio hoy matizado. El delirio primario es incomprensible y adopta tres formas, y el secundario deriva de otra vivencia. La idea sobrevalorada es aceptable en sí misma, y la obsesión se vive como propia, a diferencia de la inserción del pensamiento.",
     v: [
       "Idea delirante=Creencia falsa, firme, incorregible y no compartida por el grupo cultural",
-      "Percepción delirante=Una percepción normal recibe un significado delirante",
+      "Percepción delirante=Un estímulo percibido con normalidad recibe un significado anómalo e incorregible",
       "Ocurrencia delirante=La idea surge de golpe, sin percepción previa",
       "Humor delirante=Sensación inquietante de que algo extraño está pasando, sin saber qué",
       "Delirio secundario=Creencia comprensible a partir de otra vivencia, como el ánimo depresivo",
@@ -317,7 +317,7 @@ window.COURSE.units.push(
       "Triple sistema de respuesta=Expresión cognitiva, fisiológica y motora de la ansiedad (Lang, 1968)",
       "Ley de Yerkes-Dodson=Rendimiento en U invertida, máximo con una activación moderada",
       "Respuesta bifásica=Subida de la frecuencia cardiaca y la tensión seguida de una caída vasovagal",
-      "Tensión aplicada=Técnica de Öst que tensa los músculos para evitar la caída de la tensión arterial",
+      "Tensión aplicada=Técnica de Öst que tensa los músculos para evitar la caída de la presión arterial",
       "Teoría bifactorial=Miedo adquirido por condicionamiento clásico y mantenido por evitación (Mowrer)",
       "Preparación=Facilidad biológica para condicionar miedos con relevancia evolutiva (Seligman)",
       "Aprendizaje vicario=Adquirir un miedo al ver la reacción de otro, como la madre ante una cucaracha",
@@ -328,7 +328,7 @@ window.COURSE.units.push(
       "La fobia específica dura típicamente ___ o más.|6 meses|1 mes|12 meses",
       "Ver a la madre gritar ante una cucaracha es una vía de adquisición ___.|vicaria|directa|informativa",
       "La heredabilidad de los trastornos de ansiedad se sitúa aproximadamente entre el 30 y el ___.|50 %|70 %|40 %",
-      "La exposición actúa por aprendizaje ___ más que por borrado del miedo.|inhibitorio|vicario|asociativo"
+      "La exposición actúa por aprendizaje ___ más que por borrado del miedo.|inhibitorio|vicario|latente"
     ],
     tf: [
       "En la fobia a la sangre-inyecciones-heridas, la frecuencia cardiaca aumenta de forma sostenida, como en otras fobias.|F|Es una respuesta bifásica: subida inicial seguida de una caída vasovagal que puede acabar en desmayo.",
@@ -366,7 +366,7 @@ window.COURSE.units.push(
     g: [
       "La prevalencia anual del trastorno de ansiedad social en Estados Unidos ronda el ___.|7 %|2 %|12 %",
       "El trastorno de ansiedad social suele empezar en la ___.|adolescencia|infancia|adultez",
-      "No mirar a los ojos durante una conversación es una conducta de ___.|seguridad|escape|evitación",
+      "No mirar a los ojos durante una conversación es una conducta de ___.|seguridad|escape|comprobación",
       "El DSM-5-TR ya no usa «fobia ___» como sinónimo del trastorno de ansiedad social.|social|simple|escolar",
       "El solapamiento con el trastorno de la personalidad ___ es grande, aunque este es más generalizado.|evitativa|dependiente|esquizoide"
     ],
@@ -374,7 +374,7 @@ window.COURSE.units.push(
       "La mayoría de las personas tímidas cumple criterios del trastorno de ansiedad social.|F|La timidez es un rasgo frecuente. La diferencia está en la intensidad, la evitación, el malestar y el deterioro.",
       "En el modelo de Clark y Wells, las conductas de seguridad pueden empeorar la actuación.|V",
       "Según los modelos cognitivos, el problema central de la ansiedad social es la falta de habilidades sociales.|F|El problema es la atención autocentrada y las conductas que impiden desmentir las predicciones negativas.",
-      "En la ansiedad social preocupan sobre todo los síntomas fisiológicos visibles, como el rubor o el temblor.|V"
+      "Entre los síntomas fisiológicos de la ansiedad social, preocupan sobre todo los visibles, como el rubor o el temblor.|V"
     ],
     q: [
       "Nuria tarda en soltarse en una cena con gente nueva, pero acaba disfrutando. Marcos ha rechazado un ascenso para no hablar en reuniones y repasa cada frase durante días. ¿Quién tiene un trastorno?|Solo Marcos|Ambos, en distinto grado|Solo Nuria|La timidez de Nuria no implica un trastorno. En Marcos hay evitación, malestar intenso y deterioro.",
@@ -386,7 +386,7 @@ window.COURSE.units.push(
       "Sobre la ansiedad social|Sin tratamiento tiende a remitir en la adultez|Suele empezar en la adolescencia|Su núcleo es el miedo a la evaluación negativa|Sin tratamiento, el trastorno de ansiedad social tiende a la cronicidad."
     ],
     seq: [
-      "Procesamiento en la ansiedad social (Clark y Wells)|Procesamiento anticipatorio>Atención autocentrada en la situación>Conductas de seguridad>Procesamiento posterior"
+      "Procesamiento en la ansiedad social (Clark y Wells)|Procesamiento anticipatorio>Atención autocentrada y conductas de seguridad en la situación>Procesamiento posterior"
     ],
     cls: [
       "Modelo cognitivo de la ansiedad social|Clark y Wells (1995): objeto social; conductas de seguridad; procesamiento posterior|Rapee y Heimberg (1997): representación ante la audiencia; estándar esperado"
@@ -396,7 +396,7 @@ window.COURSE.units.push(
     v: [
       "Crisis de pánico=Miedo súbito que alcanza su máximo en minutos con al menos 4 de 13 síntomas",
       "Interpretación catastrófica=Lectura de sensaciones corporales como signo de peligro inminente",
-      "Sensibilidad a la ansiedad=Creencia de que los síntomas de ansiedad son dañinos (Reiss y McNally)",
+      "Sensibilidad a la ansiedad=Creencia de que las sensaciones de nerviosismo son dañinas (Reiss y McNally)",
       "Falsa alarma=Reacción de miedo sin peligro real, según Barlow",
       "Alarma aprendida=Reacción de miedo que queda condicionada a señales",
       "Condicionamiento interoceptivo=Las sensaciones corporales se vuelven señales de una nueva crisis",
@@ -405,7 +405,7 @@ window.COURSE.units.push(
     ],
     g: [
       "La agorafobia exige miedo en al menos ___ de 5 situaciones.|2|3|4",
-      "La prevalencia anual del trastorno de pánico ronda el ___.|2-3 %|7 %|1-2 %",
+      "La prevalencia anual del trastorno de pánico ronda el ___.|2-3 %|7 %|0,5 %",
       "La sensibilidad a la ansiedad se mide con el ___.|ASI|Y-BOCS|TLC",
       "El ataque de pánico es, además, un ___ aplicable a cualquier trastorno.|especificador|criterio|subtipo",
       "Hasta el ___ se hablaba de trastorno de pánico con o sin agorafobia.|DSM-IV|DSM-III|DSM-5"
@@ -436,10 +436,10 @@ window.COURSE.units.push(
     v: [
       "Evitación cognitiva=Preocupación verbal que reduce la activación somática y las imágenes aversivas",
       "Intolerancia a la incertidumbre=Vivir lo incierto como inaceptable y preocuparse para reducirlo (Dugas)",
-      "Preocupación tipo 1=Preocupación sobre sucesos externos y síntomas no cognitivos",
+      "Preocupación tipo 1=Pensamiento anticipatorio sobre sucesos externos y síntomas no cognitivos",
       "Metapreocupación=Preocupación tipo 2, sobre la propia preocupación (Wells, 1995)",
       "Creencias positivas=Ideas como «preocuparme me prepara», que activan la preocupación tipo 1",
-      "Triple vulnerabilidad=Modelo de Barlow: vulnerabilidad biológica, psicológica general y específica",
+      "Triple vulnerabilidad=Modelo de Barlow: diátesis biológica general, psicológica general y psicológica específica",
       "Ansiedad por separación=Miedo excesivo a separarse de las figuras de apego, diagnosticable en adultos",
       "Mutismo selectivo=No hablar en situaciones sociales concretas pese a hacerlo en otras"
     ],

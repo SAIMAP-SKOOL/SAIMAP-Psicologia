@@ -34,7 +34,7 @@ La **fuga disociativa** es un especificador de la amnesia disociativa: un viaje 
 
 Las propuestas integradoras añaden al trauma las alteraciones del sueño y la **propensión a la fantasía**. El debate enlaza con el de los recuerdos recuperados: la represión inconsciente tiene un apoyo empírico débil y las técnicas sugestivas pueden generar recuerdos falsos (Otgaar et al., 2019). Brewin (2021) matiza esta crítica, pero hay acuerdo en no aceptar sin reservas recuerdos recuperados que no se puedan corroborar (Unidad 9).
 
-### 14.2 Despersonalización/desrealización y la disociación en la CIE-11
+### 14.2 Despersonalización, desrealización y disociación en la CIE-11
 
 El **trastorno de despersonalización/desrealización** consiste en experiencias persistentes o recurrentes de dos tipos, que pueden darse juntas o por separado:
 
@@ -56,11 +56,11 @@ En los dos trastornos de trance es requisito que la experiencia sea involuntaria
 
 | Cuestión | DSM-5-TR | CIE-11 |
 | --- | --- | --- |
-| Conversión | Grupo de síntomas somáticos (síntomas neurológicos funcionales) | Grupo disociativo (síntomas neurológicos disociativos) |
-| Fuga disociativa | Especificador de la amnesia disociativa | Calificador de la amnesia disociativa |
-| Trance y trance de posesión | Solo como otro trastorno disociativo especificado | Categorías propias |
-| Formas incompletas de TID | Otro trastorno disociativo especificado | TID parcial |
-| Despersonalización/desrealización | Trastorno disociativo | Trastorno disociativo |
+| Conversión | En síntomas somáticos (neurológicos funcionales) | En disociativos (neurológicos disociativos) |
+| Fuga | Especificador de la amnesia | Calificador de la amnesia |
+| Trance y posesión | Otro disociativo especificado | Categorías propias |
+| TID incompleto | Otro disociativo especificado | TID parcial |
+| Desperso­nalización y desrealización | Disociativo | Disociativo |
 
 ### 14.3 Síntomas somáticos, distrés corporal y ansiedad por enfermedad
 

@@ -50,6 +50,7 @@ with sync_playwright() as p:
     b = p.chromium.launch(executable_path=next((x for x in ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium'] if __import__('os').path.exists(x)), None))
     for scheme in ('light', 'dark'):
         ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, color_scheme=scheme)
+        ctx.add_init_script("try { localStorage.setItem('sp.feat', JSON.stringify({ vidas: false })) } catch (e) {}")  # la prueba responde al azar: sin vidas
         pg = ctx.new_page()
         pg.on('console', lambda m: m.type == 'error' and 'ERR_FAILED' not in m.text and errs.append('consola: ' + m.text))
         pg.on('requestfailed', lambda r: '127.0.0.1' in r.url and errs.append('fallo de carga: ' + r.url))
