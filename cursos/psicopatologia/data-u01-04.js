@@ -78,7 +78,7 @@ window.COURSE.units.push(
     ],
     cls: [] },
   { t: "El nacimiento de la psicopatología científica",
-    tip: "Pinel impulsó el tratamiento moral en Bicêtre y la Salpêtrière, con un papel clave de Pussin. En el siglo XIX, Griesinger situó la enfermedad mental en el cerebro. Kraepelin clasificó por curso y pronóstico y separó en 1899 la dementia praecox de la locura maníaco-depresiva. Bleuler acuñó «esquizofrenia» (1911) y Jaspers distinguió comprender de explicar. El DSM-III (1980) trajo criterios operativos y el DSM-5 (2013) eliminó los ejes.",
+    tip: "Pinel impulsó el tratamiento moral en Bicêtre y la Salpêtrière, con un papel clave de Pussin, y en el siglo XIX Griesinger situó la enfermedad mental en el cerebro. Kraepelin clasificó por curso y pronóstico y separó en 1899 la dementia praecox de la locura maníaco-depresiva. Bleuler acuñó «esquizofrenia» (1911) y Jaspers distinguió comprender de explicar. El DSM-III (1980) trajo criterios operativos y el DSM-5 (2013) eliminó los ejes.",
     v: [
       "Tratamiento moral=Trato humano, orden y actividad en lugar de cadenas y castigos",
       "Jean-Baptiste Pussin=Supervisor con un papel clave en la reforma atribuida a Pinel",
@@ -505,7 +505,7 @@ window.COURSE.units.push(
       "Factor p=Factor general que explica la covariación entre trastornos",
       "Modelo bifactorial=Un factor general más factores específicos para lo que comparte cada grupo",
       "Cohorte de Dunedin=Muestra de Nueva Zelanda seguida durante décadas por Caspi et al.",
-      "Factor g=Factor general de inteligencia con el que se compara p",
+      "Factor g=Medida general de la inteligencia con la que se compara p",
       "HiTOP=Taxonomía jerárquica construida a partir de cómo covarían los síntomas",
       "Superespectros=Agrupaciones amplias de espectros situadas bajo el factor p",
       "Desapego=Espectro de HiTOP con retraimiento social y afecto restringido",
