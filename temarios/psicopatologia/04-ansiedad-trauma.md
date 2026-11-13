@@ -8,54 +8,54 @@ El miedo y la ansiedad son emociones útiles que, cuando se disparan sin motivo,
 
 ### 7.1 Miedo, ansiedad y fobia específica
 
-El **miedo** es la respuesta a una amenaza **presente e inmediata**: un perro que ladra al lado. La **ansiedad** es la **anticipación** de una amenaza futura, a menudo difusa: pensar la noche anterior en la entrevista de trabajo. Ambas se expresan en el **triple sistema de respuesta** (Lang, 1968): **cognitivo** (pensamientos de peligro), **fisiológico** (taquicardia, sudoración, tensión) y **motor** (huida, evitación, paralización). Los tres sistemas no siempre van a la par: alguien puede decir que no tiene miedo mientras le tiemblan las manos.
+El **miedo** es la respuesta a una amenaza **presente e inmediata**: un perro que ladra al lado. La **ansiedad** es la **anticipación** de una amenaza futura, a menudo difusa: pensar la noche anterior en la entrevista de trabajo. Ambas se expresan en el **triple sistema de respuesta** (Lang, 1968): **cognitivo** (pensamientos de peligro), **fisiológico** (taquicardia, sudoración, tensión) y **motor** (huida, evitación, paralización).
 
-La ansiedad es adaptativa. Según la **ley de Yerkes-Dodson**, el rendimiento sigue una **U invertida**: con poca activación se rinde poco, con una activación moderada se rinde mejor y con demasiada se vuelve a rendir peor. La ansiedad es **patológica** cuando es desproporcionada a la amenaza real, persiste e interfiere en la vida. Los trastornos de ansiedad son más frecuentes en mujeres (en torno a 2:1) y su heredabilidad se sitúa aproximadamente entre el 30 y el 50 %. El DSM-5-TR agrupa en este capítulo la ansiedad por separación, el mutismo selectivo, la fobia específica, la ansiedad social, el pánico, la agorafobia, el TAG y los trastornos inducidos por sustancias o debidos a otra afección médica. El TOC y el TEPT salieron del capítulo en el DSM-5 (Unidades 8 y 9).
+La ansiedad es adaptativa. Según la **ley de Yerkes-Dodson**, el rendimiento sigue una **U invertida**: es máximo con una activación moderada y cae con poca o con demasiada. La ansiedad es **patológica** cuando es desproporcionada a la amenaza real, persiste e interfiere en la vida. Los trastornos de ansiedad son más frecuentes en mujeres (en torno a 2:1) y su heredabilidad se sitúa aproximadamente entre el 30 y el 50 %. El DSM-5-TR agrupa aquí la ansiedad por separación, el mutismo selectivo, la fobia específica, la ansiedad social, el pánico, la agorafobia, el TAG y los cuadros inducidos por sustancias o por otra afección médica; el TOC y el TEPT salieron del capítulo en el DSM-5 (Unidades 8 y 9).
 
 La **fobia específica** es un miedo o ansiedad intensos ante un objeto o situación concretos, que casi siempre provoca miedo inmediato, se evita o se soporta con gran malestar, es desproporcionado y dura **6 meses o más**. Se especifica el tipo: **animal**, **entorno natural** (alturas, tormentas, agua), **sangre-inyecciones-heridas**, **situacional** (aviones, ascensores) y **otros**. Suele empezar en la infancia: las fobias a animales, pronto; las situacionales, más tarde. En el estudio ESEMeD-España fue el segundo trastorno en prevalencia vital.
 
-La fobia a la **sangre-inyecciones-heridas** (SIH) es una excepción fisiológica: produce una **respuesta bifásica**, con un aumento inicial de la frecuencia cardiaca y la tensión arterial seguido de una caída vasovagal que puede acabar en desmayo. Por eso su tratamiento incluye la **tensión aplicada** de Öst, que consiste en tensar los músculos para que no baje la tensión. Es un error típico atribuirle la misma respuesta de activación sostenida que a las demás fobias.
+La fobia a la **sangre-inyecciones-heridas** (SIH) es una excepción fisiológica: produce una **respuesta bifásica**, con un aumento inicial de la frecuencia cardiaca y la tensión arterial seguido de una caída vasovagal que puede acabar en desmayo. Por eso se trata con la **tensión aplicada** de Öst: tensar los músculos para evitar la caída de la tensión arterial.
 
-**¿Cómo se adquiere una fobia?** Watson y Rayner (1920) condicionaron el miedo en un bebé de unos 11 meses, «Albert B.». Emparejaron una rata blanca, que no le asustaba, con un ruido fuerte producido al golpear una barra metálica.
+**¿Cómo se adquiere una fobia?** Watson y Rayner (1920) condicionaron el miedo en un bebé de unos 11 meses, «Albert B.», emparejando una rata blanca, que no le asustaba, con el ruido de un golpe en una barra metálica.
 
 ![](u07_watson_rayner.png)
 
-Figura 7.1. **El condicionamiento de Albert.** La rata, al principio neutra, se empareja con el ruido y pasa a provocar miedo, que se generaliza a otros estímulos peludos. El esquema recuerda que fue un caso único sin grupo control. Elaboración propia.
+Figura 7.1. **El condicionamiento de Albert.** La rata, al principio neutra, se empareja con el ruido y pasa a provocar miedo, que se generaliza a otros estímulos peludos. Elaboración propia.
 
-Como muestra la figura 7.1, tras varios emparejamientos la rata provocaba miedo por sí sola, y el miedo se **generalizó** a otros estímulos parecidos (figura 7.2). El estudio fue un caso único, sin control ni medidas objetivas, y los manuales lo han contado a menudo con distorsiones (Harris, 1979); la identidad de Albert sigue en debate.
+Como muestra la figura 7.1, la rata acabó provocando miedo por sí sola, y el miedo se **generalizó** a estímulos parecidos (figura 7.2). Fue un caso único, sin control ni medidas objetivas, y a menudo se ha contado con distorsiones (Harris, 1979).
 
 ![m](wm-little-albert.jpg)
 
 Figura 7.2. **El pequeño Albert.** Imagen de la filmación de Watson y Rayner reproducida en una publicación de la época, con su pie original en inglés («Ahora teme incluso a Papá Noel»): una máscara con barba blanca fue uno de los estímulos con que se comprobó la generalización del miedo. Fuente: John B. Watson, Wikimedia Commons, dominio público.
 
-El condicionamiento solo no explica por qué el miedo no se extingue. La **teoría bifactorial** de Mowrer (1947) lo resuelve en dos fases, como muestra la figura 7.3.
+El condicionamiento no explica por qué el miedo no se extingue. La **teoría bifactorial** de Mowrer (1947) lo resuelve en dos fases (figura 7.3).
 
 ![m](u07_mowrer.png)
 
 Figura 7.3. **Teoría bifactorial de Mowrer.** En la fase 1 el miedo se adquiere por condicionamiento clásico; en la fase 2 la evitación reduce la ansiedad, se refuerza negativamente y el miedo no llega a extinguirse. Elaboración propia.
 
-Otros modelos completan el cuadro. Seligman (1971) propuso la **preparación** (*preparedness*): los miedos a estímulos con relevancia evolutiva, como serpientes, arañas o alturas, se adquieren con facilidad y resisten la extinción; los experimentos de Öhman con estímulos fóbicos relevantes lo apoyaron. Rachman (1977) describió **tres vías** de adquisición: condicionamiento directo, aprendizaje **vicario** (ver a la madre gritar ante una cucaracha) y **transmisión de información** («los perros muerden»). Menzies y Clarke defendieron además teorías **no asociativas**: algunos miedos serían innatos. El tratamiento de elección es la **exposición** *in vivo*, que actúa por aprendizaje inhibitorio y violación de expectativas, más que por «borrado» del miedo (Craske y colaboradores). Las técnicas se estudian en Tratamientos, y el condicionamiento, en Aprendizaje.
+Seligman (1971) propuso la **preparación** (*preparedness*): los miedos a estímulos con relevancia evolutiva, como serpientes, arañas o alturas, se adquieren con facilidad y resisten la extinción, algo que apoyaron los experimentos de Öhman. Rachman (1977) describió **tres vías** de adquisición: condicionamiento directo, aprendizaje **vicario** (ver a la madre gritar ante una cucaracha) y **transmisión de información** («los perros muerden»). Menzies y Clarke defendieron que algunos miedos son innatos (teorías **no asociativas**). El tratamiento de elección es la **exposición** *in vivo*, que actúa por aprendizaje inhibitorio más que por «borrado» del miedo (Craske y colaboradores; véanse Tratamientos y Aprendizaje).
 
 ### 7.2 Trastorno de ansiedad social
 
-El **trastorno de ansiedad social** es un miedo o ansiedad intensos en situaciones sociales en las que la persona puede ser **examinada** por otros: conversar con desconocidos, comer en público, hablar en una reunión. El núcleo es el miedo a la **evaluación negativa**: actuar o mostrar síntomas de ansiedad (ruborizarse, temblar, sudar) que lleven a la humillación, al rechazo o a ofender a alguien. Las situaciones casi siempre provocan ansiedad, se evitan o se soportan con malestar intenso, la respuesta es desproporcionada y dura **6 meses o más**. Existe el especificador **«solo actuación»**, cuando el miedo se limita a hablar o actuar en público. El DSM-5-TR ha dejado de usar «fobia social» como sinónimo; la CIE-11 también lo llama «trastorno de ansiedad social».
+El **trastorno de ansiedad social** es un miedo o ansiedad intensos en situaciones sociales en las que la persona puede ser **examinada** por otros: conversar con desconocidos, comer en público, hablar en una reunión. El núcleo es el miedo a la **evaluación negativa**: actuar o mostrar síntomas de ansiedad (ruborizarse, temblar, sudar) que lleven a la humillación, al rechazo o a ofender a alguien. Las situaciones casi siempre provocan ansiedad, se evitan o se soportan con malestar intenso, la respuesta es desproporcionada y dura **6 meses o más**. Existe el especificador **«solo actuación»**, cuando el miedo se limita a hablar o actuar en público. El DSM-5-TR ya no usa «fobia social» como sinónimo.
 
-La prevalencia anual en Estados Unidos ronda el **7 %**, según el DSM. Suele empezar en la **adolescencia** y, sin tratamiento, tiende a la cronicidad. El triple sistema de respuesta se reconoce bien:
+La prevalencia anual en Estados Unidos ronda el **7 %**, según el DSM. Suele empezar en la **adolescencia** y, sin tratamiento, tiende a la cronicidad. En el triple sistema de respuesta:
 
 | Sistema | Manifestaciones típicas |
 | --- | --- |
-| Cognitivo | «Se van a dar cuenta de que estoy nervioso», «voy a decir una tontería», repaso posterior de la conversación |
-| Fisiológico | Rubor, temblor, sudoración, voz entrecortada; preocupan sobre todo los síntomas visibles |
-| Motor | Evitación, escape y conductas de seguridad: no mirar a los ojos, sujetar el vaso con las dos manos |
+| Cognitivo | «Se van a dar cuenta de que estoy nervioso»; repaso posterior de la conversación |
+| Fisiológico | Rubor, temblor, sudoración; preocupan sobre todo los síntomas visibles |
+| Motor | Evitación, escape y conductas de seguridad, como no mirar a los ojos |
 
-**Timidez no es ansiedad social.** La **timidez** es un rasgo dimensional y muy frecuente; la mayoría de las personas tímidas **no** cumple criterios del trastorno. La diferencia está en la intensidad, la evitación, el malestar y el deterioro. Lucía, tímida, tarda en soltarse en una cena con gente nueva, pero va y acaba disfrutando. Marcos ha rechazado un ascenso porque implicaba presentar informes en reuniones, come solo para que nadie le vea y pasa días repasando cada frase que dijo. Solo Marcos tiene un trastorno. Como factor temperamental de riesgo se ha estudiado la **inhibición conductual** descrita por Kagan: la tendencia infantil a retraerse ante lo nuevo y lo desconocido. El solapamiento con el trastorno de la personalidad evitativa es grande; el evitativo es más generalizado (Unidad 12).
+**Timidez no es ansiedad social.** La **timidez** es un rasgo dimensional y muy frecuente; la mayoría de las personas tímidas **no** cumple criterios del trastorno. La diferencia está en la intensidad, la evitación, el malestar y el deterioro. Lucía, tímida, tarda en soltarse en una cena con gente nueva, pero acaba disfrutando. Marcos ha rechazado un ascenso para no hablar en reuniones y pasa días repasando cada frase que dijo: solo él tiene un trastorno. Como factor temperamental de riesgo se ha estudiado la **inhibición conductual** descrita por Kagan: la tendencia infantil a retraerse ante lo nuevo. El solapamiento con el trastorno de la personalidad evitativa es grande; el evitativo es más generalizado (Unidad 12).
 
 **Modelos cognitivos.** Dos modelos explican por qué la ansiedad social se mantiene aunque las situaciones temidas no acaben en catástrofe:
 
-- **Clark y Wells (1995).** Al entrar en una situación social, la persona desplaza la atención hacia sí misma y se **procesa a sí misma como objeto social**: construye una imagen de cómo cree que la ven los demás a partir de sus sensaciones internas («me noto rojo, luego se me ve rojísimo»). Usa **conductas de seguridad** que impiden comprobar que lo temido no ocurre y que, a veces, empeoran la actuación (quien ensaya mentalmente cada frase parece distraído). Antes de la situación hay **procesamiento anticipatorio** y, después, un **procesamiento posterior** o rumiación post-evento que refuerza la idea de fracaso.
+- **Clark y Wells (1995).** En la situación social, la persona centra la atención en sí misma y se **procesa a sí misma como objeto social**: construye una imagen de cómo cree que la ven los demás a partir de sus sensaciones internas («me noto rojo, luego se me ve rojísimo»). Usa **conductas de seguridad** que impiden comprobar que lo temido no ocurre y que, a veces, empeoran la actuación. Antes de la situación hay **procesamiento anticipatorio** y, después, un **procesamiento posterior** o rumiación post-evento que refuerza la idea de fracaso.
 - **Rapee y Heimberg (1997).** La persona forma una **representación mental de sí misma tal como la vería la audiencia** y la compara con el **estándar** que cree que los demás esperan. Cuanto mayor es la distancia percibida, mayor es la probabilidad estimada de evaluación negativa y más ansiedad aparece.
 
-Ambos modelos coinciden en que el problema no es la falta de habilidades sociales, sino la atención autocentrada, las predicciones negativas y las conductas que impiden desmentirlas. Por eso los tratamientos cognitivo-conductuales incluyen experimentos conductuales en los que se abandonan las conductas de seguridad (Tratamientos).
+En ambos, el problema no es la falta de habilidades sociales, sino la atención autocentrada y las conductas que impiden desmentir las predicciones negativas (Tratamientos).
 
 ### 7.3 Trastorno de pánico y agorafobia
 
@@ -71,15 +71,15 @@ El **trastorno de pánico** exige crisis **inesperadas y recurrentes**, y que al
 
 Figura 7.4. **Círculo vicioso del pánico (Clark, 1986).** Un desencadenante interno o externo se percibe como amenaza, produce aprensión y sensaciones corporales, que se interpretan de forma catastrófica y realimentan la amenaza. Elaboración propia.
 
-Como muestra la figura 7.4, el ciclo se cierra sobre sí mismo: la interpretación aumenta la ansiedad, la ansiedad intensifica las sensaciones y estas confirman la interpretación.
+Como muestra la figura 7.4, el ciclo se cierra sobre sí mismo: la ansiedad intensifica las sensaciones y estas confirman la interpretación.
 
 - **Sensibilidad a la ansiedad** (Reiss y McNally, 1985). Es la creencia de que los síntomas de ansiedad son dañinos («si me mareo, me desmayaré y haré el ridículo»). Se mide con el Índice de Sensibilidad a la Ansiedad (ASI; Evaluación Psicológica) y predice de forma prospectiva la aparición de crisis.
 - **Barlow** distingue la **falsa alarma** (una reacción de miedo sin peligro real), la **alarma aprendida** (que queda condicionada a señales) y el condicionamiento **interoceptivo**: las propias sensaciones corporales se convierten en señales de una nueva crisis.
-- **Klein (1993)** propuso la hipótesis de la **falsa alarma de asfixia**: un detector de asfixia demasiado sensible se dispararía sin motivo. Las **pruebas de provocación** con CO₂, hiperventilación o lactato se usan para estudiar estas hipótesis.
+- **Klein (1993)** propuso la hipótesis de la **falsa alarma de asfixia**: un detector de asfixia demasiado sensible se dispararía sin motivo. Estas hipótesis se estudian con **pruebas de provocación** (CO₂, hiperventilación, lactato).
 
 **La agorafobia** es un miedo o ansiedad intensos en **al menos 2 de 5 situaciones**: transporte público, espacios abiertos, sitios cerrados, hacer cola o estar entre una multitud, y estar fuera de casa solo. Se temen porque escapar sería difícil o no habría ayuda si aparecieran síntomas de pánico u otros síntomas incapacitantes o embarazosos (caerse, en una persona mayor; perder el control de esfínteres). Las situaciones se evitan, exigen un acompañante o se soportan con gran malestar, durante **6 meses o más**. Su prevalencia es aproximadamente del 1-2 %.
 
-Hasta el DSM-IV se hablaba de «trastorno de pánico con o sin agorafobia». Desde el DSM-5 son **diagnósticos independientes**: la agorafobia puede existir sin pánico y, si se cumplen ambos, se diagnostican los dos. Un ejemplo: Ana tuvo dos crisis en el metro; ahora solo viaja acompañada y ha dejado de ir sola al supermercado. Tiene trastorno de pánico y agorafobia. El tratamiento con más apoyo combina exposición *in vivo*, incluida la exposición a las sensaciones temidas, y terapia cognitivo-conductual (Tratamientos).
+Hasta el DSM-IV se hablaba de «trastorno de pánico con o sin agorafobia». Desde el DSM-5 son **diagnósticos independientes**: la agorafobia puede existir sin pánico y, si se cumplen ambos, se diagnostican los dos. Ana tuvo dos crisis en el metro y ahora solo sale acompañada: tiene ambos trastornos. El tratamiento con más apoyo es la exposición *in vivo* dentro de la terapia cognitivo-conductual (Tratamientos).
 
 ### 7.4 Trastorno de ansiedad generalizada y otros trastornos de ansiedad
 
@@ -88,7 +88,7 @@ El **trastorno de ansiedad generalizada** (TAG) se define por **ansiedad y preoc
 **Modelos del TAG.** La preocupación del TAG no es un simple exceso de pensamiento: cumple funciones que la mantienen.
 
 - **Evitación cognitiva (Borkovec).** La preocupación es una actividad **verbal-lingüística** que reduce la activación somática y las imágenes aversivas. Ese alivio la **refuerza negativamente**, pero impide procesar del todo el miedo.
-- **Intolerancia a la incertidumbre** (Dugas et al., 1998). La persona vive la incertidumbre como inaceptable y se preocupa para intentar reducirla, aunque nunca lo consiga del todo.
+- **Intolerancia a la incertidumbre** (Dugas et al., 1998). La persona vive la incertidumbre como inaceptable y se preocupa para intentar reducirla.
 - **Modelo metacognitivo** (Wells, 1995). Distingue dos tipos de preocupación y el papel de las creencias sobre ella.
 
 ![m](u07_wells_tag.png)
@@ -99,7 +99,7 @@ Como muestra la figura 7.5, ante un detonante se activan **creencias positivas**
 
 - **Triple vulnerabilidad (Barlow).** Una vulnerabilidad **biológica general**, una vulnerabilidad **psicológica general** (sensación de que los acontecimientos son incontrolables) y una vulnerabilidad **psicológica específica**, aprendida, que orienta la ansiedad hacia ciertos temas.
 
-**Otros trastornos de ansiedad.** El **trastorno de ansiedad por separación** es un miedo excesivo e inapropiado para el desarrollo a separarse de las figuras de apego; desde el DSM-5 puede diagnosticarse también en adultos. El **mutismo selectivo** consiste en no hablar en situaciones sociales concretas, como el colegio, pese a hacerlo en otras, como en casa, durante al menos un mes, sin contar el primer mes de escolarización. El apego se estudia en Psicología del Desarrollo.
+**Otros trastornos de ansiedad.** El **trastorno de ansiedad por separación** es un miedo excesivo e inapropiado para el desarrollo a separarse de las figuras de apego; desde el DSM-5 puede diagnosticarse también en adultos. El **mutismo selectivo** consiste en no hablar en situaciones sociales concretas, como el colegio, pese a hacerlo en otras, como en casa, durante al menos un mes, sin contar el primer mes de escolarización.
 
 | Aspecto | DSM-5-TR | CIE-11 |
 | --- | --- | --- |
@@ -107,19 +107,19 @@ Como muestra la figura 7.5, ante un detonante se activan **creencias positivas**
 | Criterios | Recuentos de síntomas y duraciones fijas | Características esenciales, sin recuentos |
 | Fobias, ansiedad social, agorafobia, TAG | 6 meses o más | Varios meses |
 | Agorafobia | Al menos 2 de 5 situaciones | Miedo a resultados incapacitantes o embarazosos |
-| TAG y depresión | Exclusiones según el cuadro | Pueden diagnosticarse juntos |
+| Pánico | Un mes o más de inquietud tras una crisis | Requisito temporal similar |
 
 ### Consenso y debate
 
 **Consenso:** la ansiedad es una emoción adaptativa que se vuelve patológica por su desproporción, persistencia e interferencia. La evitación y las conductas de seguridad mantienen los trastornos de ansiedad, y la exposición es eficaz porque genera aprendizaje inhibitorio. Las interpretaciones catastróficas y la sensibilidad a la ansiedad son centrales en el pánico (Clark, 1986).
 
-**Debate:** el peso relativo de las vías de adquisición de las fobias (condicionamiento, vicaria, informativa o miedos innatos) y el valor real del caso de Albert, que fue un caso único sin control (Harris, 1979), aunque el condicionamiento aversivo humano esté bien establecido con paradigmas modernos. También se discute el límite entre la ansiedad social y el trastorno de la personalidad evitativa.
+**Debate:** el peso relativo de las vías de adquisición de las fobias (directa, vicaria, informativa o miedos innatos) y el valor del caso de Albert, un caso único sin control (Harris, 1979), aunque el condicionamiento aversivo humano está bien establecido con paradigmas modernos.
 
 ### Mito frecuente
 
 **Mito:** «Un ataque de pánico puede provocar un infarto o la muerte».
 
-**Realidad:** la crisis de pánico es muy intensa, pero no es peligrosa en sí misma. Lo que la mantiene es la interpretación catastrófica de las sensaciones corporales, que alimenta el círculo vicioso de la ansiedad (Clark, 1986). Ante síntomas nuevos sí conviene descartar una causa médica, como exige el propio diagnóstico.
+**Realidad:** la crisis de pánico es muy intensa, pero no es peligrosa en sí misma. Lo que la mantiene es la interpretación catastrófica de las sensaciones corporales, que alimenta el círculo vicioso de la ansiedad (Clark, 1986).
 
 ### Conceptos clave
 
@@ -136,7 +136,7 @@ Como muestra la figura 7.5, ante un detonante se activan **creencias positivas**
 
 ### Clave PIR
 
-**Prioridad alta.** Se preguntan los criterios y duraciones (6 meses en fobias, ansiedad social, agorafobia y TAG; un mes de inquietud en el pánico), los tipos de fobia y los modelos con su autor. Trampas típicas: atribuir a la fobia SIH una activación sostenida en lugar de la respuesta bifásica, creer que el pánico y la agorafobia siguen unidos en el DSM-5-TR, confundir la preocupación tipo 1 con la tipo 2 y mezclar el modelo de Clark (1986) del pánico con el de Clark y Wells (1995) de la ansiedad social.
+**Prioridad alta.** Se preguntan los criterios y duraciones (6 meses en fobias, ansiedad social, agorafobia y TAG; un mes de inquietud en el pánico), los tipos de fobia y los modelos con su autor. Trampas típicas: negar la respuesta bifásica de la fobia SIH, creer que pánico y agorafobia siguen unidos, confundir la preocupación tipo 1 con la tipo 2 y mezclar a Clark (1986) con Clark y Wells (1995).
 
 ### Autoevaluación
 
@@ -167,7 +167,7 @@ c) el condicionamiento interoceptivo
 
 ### Soluciones
 
-**1 b.** La fobia SIH produce una respuesta bifásica que puede llevar al desmayo, por eso se usa la tensión aplicada. **2 a.** Desde el DSM-5 son diagnósticos separados y, si se cumplen ambos, se asignan los dos. **3 c.** Es la metapreocupación; la tipo 1 trata sobre sucesos externos y síntomas no cognitivos. **4 a.** Los estímulos con relevancia evolutiva se condicionan con más facilidad. **5 b.** La atención autocentrada y las conductas de seguridad mantienen la ansiedad; la intolerancia a la incertidumbre corresponde al TAG.
+**1 b.** La respuesta bifásica puede llevar al desmayo. **2 a.** Desde el DSM-5 son diagnósticos separados y, si se cumplen ambos, se asignan los dos. **3 c.** Es la metapreocupación; la tipo 1 trata sobre sucesos externos y síntomas no cognitivos. **4 a.** Los estímulos con relevancia evolutiva se condicionan con más facilidad. **5 b.** La intolerancia a la incertidumbre corresponde al TAG.
 
 ## Unidad 8 · Trastorno obsesivo-compulsivo y trastornos relacionados
 
@@ -220,7 +220,7 @@ Como muestra la figura 8.1, la clave es la **valoración de responsabilidad exce
 
 **La supresión del pensamiento: el oso blanco.** Wegner et al. (1987) pidieron a los participantes que no pensaran en un oso blanco.
 
-![m](u08_wegner.png)
+![](u08_wegner.png)
 
 Figura 8.2. **El diseño del oso blanco (Wegner et al., 1987).** Un grupo suprime primero y luego puede expresar el pensamiento; otro lo expresa desde el inicio. Las barras ilustran el rebote en la fase de expresión del primer grupo. Esquema ilustrativo, no datos. Elaboración propia.
 
@@ -230,7 +230,7 @@ Como muestra la figura 8.2, el grupo que primero suprimía mostraba después **m
 
 ### 8.3 Trastorno dismórfico corporal, referencia olfativa e hipocondría en la CIE-11
 
-**El trastorno dismórfico corporal** (TDC) consiste en la preocupación por uno o más **defectos percibidos en el aspecto** que no son observables o parecen leves a los demás: la nariz, la piel, el pelo, la simetría de la cara. En algún momento aparecen **conductas o actos mentales repetitivos** en respuesta a la preocupación: mirarse al espejo durante mucho tiempo (o evitarlo), compararse, camuflar la zona, buscar que otros confirmen que no se nota. Al igual que en el TOC, se especifica el grado de *insight*, que a menudo es pobre. Existe el especificador **dismorfia muscular**, cuando la preocupación es que el cuerpo es demasiado pequeño o poco musculoso, más frecuente en varones que hacen musculación. Su prevalencia ronda el **2 %**, y el **riesgo de suicidio es elevado**, por lo que no debe tomarse como simple vanidad. Si la preocupación se refiere a la grasa o al peso en el contexto de un trastorno alimentario, el diagnóstico es este último (Unidad 16).
+**El trastorno dismórfico corporal** (TDC) consiste en la preocupación por uno o más **defectos percibidos en el aspecto** que no son observables o parecen leves a los demás: la nariz, la piel, el pelo, la simetría de la cara. En algún momento aparecen **conductas o actos mentales repetitivos** en respuesta a la preocupación: mirarse al espejo durante mucho tiempo (o evitarlo), compararse, camuflar la zona, buscar que otros confirmen que no se nota. Al igual que en el TOC, se especifica el grado de *insight*, que a menudo es pobre. Existe el especificador **dismorfia muscular**, cuando la preocupación es que el cuerpo es demasiado pequeño o poco musculoso, más frecuente en varones. Su prevalencia ronda el **2 %**, y el **riesgo de suicidio es elevado**, por lo que no debe tomarse como simple vanidad. Si la preocupación se refiere a la grasa o al peso en el contexto de un trastorno alimentario, el diagnóstico es este último (Unidad 16).
 
 Un ejemplo: Iván, de 19 años, está convencido de que tiene la mandíbula torcida. Ha dejado de subir fotos, pasa horas comparando su perfil con el de otros y ha pedido presupuesto para dos cirugías. Sus amigos no ven nada raro.
 
@@ -334,9 +334,9 @@ c) un trastorno de acumulación
 
 ### 9.1 Trastorno de estrés postraumático
 
-El **trastorno de estrés postraumático** (TEPT) es el cuadro más estudiado del grupo de trastornos relacionados con el trauma y el estrés. En el DSM-5-TR este grupo incluye el trastorno de apego reactivo, el de relación social desinhibida, el TEPT, el trastorno de estrés agudo, los trastornos de adaptación y el **trastorno de duelo prolongado**, añadido en 2022. Todos exigen un **suceso o estresor** identificable en su origen.
+En el DSM-5-TR, el grupo de trastornos relacionados con el trauma y el estrés incluye el trastorno de apego reactivo, el de relación social desinhibida, el **trastorno de estrés postraumático** (TEPT), el trastorno de estrés agudo, los trastornos de adaptación y el **trastorno de duelo prolongado**, añadido en 2022. Todos exigen un **suceso o estresor** identificable en su origen.
 
-**Criterios del DSM-5-TR.** El **criterio A** exige la exposición a la **muerte, una lesión grave o violencia sexual**, reales o como amenaza, por una de estas vías: vivirla directamente, presenciarla, saber que le ocurrió a un familiar o amigo íntimo (si es una muerte, debe haber sido violenta o accidental) o exponerse de forma repetida o extrema a detalles aversivos, como los primeros intervinientes. Ver el suceso por los medios de comunicación no cuenta, salvo que forme parte del trabajo. Después se exigen cuatro grupos de síntomas:
+**Criterios del DSM-5-TR.** El **criterio A** exige la exposición a la **muerte, una lesión grave o violencia sexual**, reales o como amenaza, por una de estas vías: vivirla directamente, presenciarla, saber que le ocurrió a un familiar o amigo íntimo (si es una muerte, debe haber sido violenta o accidental) o exponerse de forma repetida o extrema a detalles aversivos, como los primeros intervinientes. Verlo en los medios no cuenta, salvo por trabajo. Después se exigen cuatro grupos de síntomas:
 
 | Grupo | Mínimo | Ejemplos |
 | --- | --- | --- |
@@ -351,18 +351,18 @@ La alteración debe durar **más de un mes** y causar malestar o deterioro. Hay 
 
 Figura 9.1. **Qué diagnóstico corresponde según el tiempo transcurrido.** Desde el suceso: reacción esperable en los primeros días, trastorno de estrés agudo hasta el mes, TEPT a partir del mes, expresión retardada y duelo prolongado de la CIE-11 desde los 6 meses, y duelo prolongado del DSM-5-TR desde los 12. Elaboración propia.
 
-Como muestra la figura 9.1, el tiempo es una pieza central del diagnóstico diferencial en todo el grupo.
+Como muestra la figura 9.1, el tiempo es clave en el diagnóstico diferencial del grupo.
 
 **Epidemiología.** La **mayoría de las personas expuestas a un trauma no desarrolla TEPT**. La prevalencia vital se estima aproximadamente en un 4-8 % en países de renta alta, mayor en mujeres y tras la violencia interpersonal, sobre todo la sexual. Aumentan el riesgo la gravedad del trauma, la falta de apoyo social, la disociación peritraumática y la historia psicopatológica previa.
 
 **Modelos explicativos.**
 
 - **Bifactorial de Mowrer.** Las señales del trauma quedan condicionadas al miedo y la evitación lo mantiene (Unidad 7).
-- **Procesamiento emocional** (Foa y Kozak, 1986). El trauma deja una **estructura de miedo patológica** que se modifica cuando se **activa** y se le aporta **información incompatible** con ella. Es la base de la exposición prolongada (Tratamientos).
+- **Procesamiento emocional** (Foa y Kozak, 1986). El trauma deja una **estructura de miedo patológica** que se modifica cuando se **activa** y se le aporta **información incompatible** con ella. Fundamenta la exposición prolongada (Tratamientos).
 - **Modelo cognitivo** (Ehlers y Clark, 2000). El TEPT persiste cuando la persona siente una **amenaza actual**, no pasada. Esa sensación procede de **valoraciones negativas** del trauma o de sus secuelas («nunca estaré a salvo», «fue culpa mía») y de una **memoria del trauma mal elaborada** y poco contextualizada, que se reactiva con claves sensoriales y se vive como si ocurriera ahora. La evitación y la supresión impiden actualizar esa memoria.
-- **Representación dual** (Brewin y colaboradores). Distingue **memorias sensoriales**, que se activan de forma involuntaria ante señales situacionales y explican los *flashbacks*, de **memorias verbales** contextualizadas, que pueden recuperarse a voluntad y situar el suceso en el pasado.
+- **Representación dual** (Brewin y colaboradores). Distingue **memorias sensoriales**, que se activan ante señales situacionales y explican los *flashbacks*, de **memorias verbales** contextualizadas, que sitúan el suceso en el pasado.
 
-Un ejemplo: Sara sufrió un atropello leve hace tres meses. Cada vez que oye un frenazo nota el golpe «como si estuviera pasando», evita cruzar por esa calle, se culpa por haber mirado el móvil y duerme mal. Cumple los criterios de TEPT.
+Un ejemplo: Sara sufrió un atropello hace tres meses. Cuando oye un frenazo nota el golpe «como si estuviera pasando», evita esa calle, se culpa y duerme mal: cumple criterios de TEPT.
 
 ### 9.2 El TEPT complejo de la CIE-11 y el debate sobre la memoria traumática
 
@@ -396,7 +396,7 @@ La revisión de Otgaar et al. (2019) concluyó que el apoyo científico a la **r
 
 **El trastorno de estrés agudo** (TEA) del DSM-5-TR exige el mismo tipo de exposición que el TEPT y la presencia de **al menos 9 de 14 síntomas** de cinco categorías: **intrusión, estado de ánimo negativo, disociación, evitación y alerta**. Se diagnostica entre **3 días y 1 mes** después del trauma. Si los síntomas persisten más de un mes, hay que valorar un TEPT. Aunque se pensó como un modo de detectar pronto a las personas en riesgo, el TEA **no predice bien** quién desarrollará un TEPT: muchas personas con TEA se recuperan y otras desarrollan TEPT sin haber tenido TEA.
 
-En la **CIE-11**, la **reacción de estrés agudo** **no es un trastorno mental**: se considera una respuesta esperable ante un suceso extremo y se clasifica entre los factores que influyen en el estado de salud. Es una de las diferencias más claras entre los dos sistemas y transmite un mensaje útil: sentirse aturdido, llorar o dormir mal los primeros días tras una catástrofe es normal.
+En la **CIE-11**, la **reacción de estrés agudo** **no es un trastorno mental**: se considera una respuesta esperable ante un suceso extremo y se clasifica entre los factores que influyen en el estado de salud. El mensaje es útil: sentirse aturdido o dormir mal los primeros días tras una catástrofe es normal.
 
 **Los trastornos de adaptación** son síntomas emocionales o conductuales que aparecen en respuesta a un **estresor identificable**, no necesariamente traumático: un despido, una ruptura, una mudanza o una enfermedad. Sus requisitos en el DSM-5-TR son:
 
