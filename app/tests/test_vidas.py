@@ -19,7 +19,7 @@ with sync_playwright() as p:
     pg.goto(URL); pg.wait_for_selector('.welcome'); pg.click('[data-r="grado"]'); pg.wait_for_selector('.ccard')
     check(pg.locator('.stat.life').count() == 1, 'no aparece el contador de vidas')
     check('5' in pg.locator('.stat.life').text_content(), 'no empieza con 5 vidas')
-    pg.click('[data-c="bases-biologicas"]'); pg.wait_for_selector('.node')
+    pg.click('[data-c="bases-biologicas"]'); pg.wait_for_selector('.chead')
     pg.click('.node[data-u="1"][data-m="1"]'); pg.wait_for_selector('.tbody:not([aria-busy])')
     pg.click('.tbar [data-go]'); pg.wait_for_selector('.stage')
     check(pg.locator('.lifebar').count() == 1, 'no hay barra de vidas en la lección')

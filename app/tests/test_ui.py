@@ -60,7 +60,7 @@ with sync_playwright() as p:
         pg.screenshot(path=f'{SHOTS}/{scheme}-1-bienvenida.png'); overflow(pg, 'bienvenida')
         pg.click('[data-r="grado"]'); pg.wait_for_selector('.ccard')
         pg.screenshot(path=f'{SHOTS}/{scheme}-2-inicio.png', full_page=True); overflow(pg, 'inicio')
-        pg.click('[data-c="bases-biologicas"]'); pg.wait_for_selector('.node')
+        pg.click('[data-c="bases-biologicas"]'); pg.wait_for_selector('.chead')
         pg.screenshot(path=f'{SHOTS}/{scheme}-3-curso.png'); overflow(pg, 'curso')
         pg.click('.node[data-u="1"][data-m="1"]'); pg.wait_for_selector('.tbody:not([aria-busy])')
         pg.wait_for_timeout(400); overflow(pg, 'teoría 1.1')
@@ -74,6 +74,7 @@ with sync_playwright() as p:
         if scheme == 'light':
             # varias lecciones más, un repaso de unidad y el repaso del día
             for (u, m) in [(1, 2), (1, 3), (1, 4), (1, 5), (7, 2), (12, 1), (14, 2), (16, 3)]:
+                pg.evaluate(f"document.getElementById('u{u}').open = true")
                 pg.click(f'.node[data-u="{u}"][data-m="{m}"]', force=True); pg.wait_for_selector('.tbody:not([aria-busy])')
                 overflow(pg, f'teoría {u}.{m}'); pg.screenshot(path=f'{SHOTS}/teoria-{u}-{m}.png', full_page=True)
                 pg.click('.tbar [data-go]'); pg.wait_for_selector('.stage')
@@ -90,7 +91,7 @@ with sync_playwright() as p:
             pg.click('[data-tab="libre"]'); pg.screenshot(path=f'{SHOTS}/light-9-explorar.png', full_page=True)
             pg.goto(URL + '#/perfil'); pg.wait_for_selector('.prof'); pg.screenshot(path=f'{SHOTS}/light-10-ajustes.png')
             # escritorio
-            pg.set_viewport_size({'width': 1280, 'height': 800}); pg.goto(URL + '#/c/bases-biologicas'); pg.wait_for_selector('.node')
+            pg.set_viewport_size({'width': 1280, 'height': 800}); pg.goto(URL + '#/c/bases-biologicas'); pg.wait_for_selector('.chead')
             pg.screenshot(path=f'{SHOTS}/light-11-escritorio.png'); overflow(pg, 'escritorio')
         ctx.close()
     b.close()
