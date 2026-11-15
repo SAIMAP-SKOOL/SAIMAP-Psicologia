@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const P = window.PsicoEngine, CAT = window.SP_CATALOG;
-  const $app = document.getElementById('app');
+  const $app = document.getElementById('app'), $nav = document.getElementById('nav');
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
   // ---------- iconos ----------
@@ -34,6 +34,10 @@
     gem: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 21 8 9l4-6 4 6z"/></svg>',
     inf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 12c-2-2.7-3.7-4-5.5-4a4 4 0 0 0 0 8c1.8 0 3.5-1.3 5.5-4zm0 0c2 2.7 3.7 4 5.5 4a4 4 0 0 0 0-8c-1.8 0-3.5 1.3-5.5 4z"/></svg>',
     down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>',
+    home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10.5 12 3.5l8.5 7V20a1 1 0 0 1-1 1h-5v-6h-5v6h-5a1 1 0 0 1-1-1z"/></svg>',
+    shelf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="4.5" height="17" rx="1"/><rect x="9.8" y="6.5" width="4.5" height="14" rx="1"/><path d="m16.6 8.2 3.4-.9 3 12.2-3.4.9z" transform="translate(-1.6 0)"/></svg>',
+    user: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20.5c1-4 4-6 8-6s7 2 8 6"/></svg>',
+    chev: '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>',
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
   };
   const areaOf = id => CAT.areas.find(a => a.id === id) || { ico: 'book', t: '' };
@@ -214,13 +218,25 @@
 
   // ---------- utilidades de vista ----------
   const stars = n => '<div class="stars">' + [1, 2, 3].map(i => I.star.replace('<svg', '<svg class="' + (i <= n ? 'on' : '') + '"')).join('') + '</div>';
+  const BRAND = `<div class="brand"><span class="logo" aria-hidden="true">Ψ</span><span><span>SAIMAP <i>Psicología</i></span><span class="stripe" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span></div>`;
   function topbar(left) {
     const s = P.liveStreak(G);
-    return `<header class="top">${left || `<div class="brand"><span class="logo" aria-hidden="true">Ψ</span><span>SAIMAP <i>Psicología</i></span></div>`}
-      <button class="stat fire ${s ? 'lit' : ''}" data-act="stats" aria-label="Racha: ${s} ${s === 1 ? 'día' : 'días'}. Ver estadísticas">${I.fire}${s}</button>
-      <button class="stat xp" data-act="stats" aria-label="${G.xp} puntos de experiencia. Ver estadísticas">${I.bolt}${G.xp}</button>
-      ${FEAT.vidas ? (isPremium() ? `<button class="stat life inf" data-act="premium" aria-label="Premium: vidas infinitas">${I.heart}${I.inf.replace('<svg', '<svg style="width:18px;height:18px"')}</button>` : `<button class="stat life ${lives().n ? '' : 'empty'}" data-act="premium" aria-label="${lives().n} vidas">${I.heart}${lives().n}</button>`) : ''}
-      <button class="iconbtn" data-act="settings" aria-label="Ajustes">${I.gear}</button></header>`;
+    return `<header class="top ${left ? '' : 'main'}">${left || BRAND}
+      <button class="stat fire ${s ? 'lit' : ''}" data-act="stats" aria-label="Racha: ${s} ${s === 1 ? 'día' : 'días'}. Ver el progreso">${I.fire}${s}</button>
+      <button class="stat xp" data-act="stats" aria-label="${G.xp} puntos de experiencia. Ver el progreso">${I.bolt}${G.xp}</button>
+      ${FEAT.vidas ? (isPremium() ? `<button class="stat life inf" data-act="premium" aria-label="Premium: vidas infinitas">${I.heart}${I.inf.replace('<svg', '<svg style="width:18px;height:18px"')}</button>` : `<button class="stat life ${lives().n ? '' : 'empty'}" data-act="premium" aria-label="${lives().n} vidas">${I.heart}${lives().n}</button>`) : ''}</header>`;
+  }
+  const back = (label, title) => `<button class="iconbtn" data-home aria-label="${label}">${I.back}</button><div class="ptitle">${esc(title)}</div>`;
+  // marco: 'tabs' (pestañas visibles), 'read' (teoría: barra lateral solo en pantallas anchas) o 'focus' (lección, bienvenida)
+  const setShell = m => { const c = document.body.classList; c.remove('tabs', 'read', 'focus'); c.add(m); };
+  const NAV = [['home', '#/', 'Inicio', 'home'], ['courses', '#/asignaturas', 'Asignaturas', 'shelf'], ['review', '#/repaso', 'Repaso', 'redo'], ['stats', '#/stats', 'Progreso', 'chart'], ['profile', '#/perfil', 'Perfil', 'user']];
+  function renderNav(active) {
+    const s = P.liveStreak(G);
+    $nav.innerHTML = `<div class="nbrand"><span class="logo" aria-hidden="true">Ψ</span><span><span>SAIMAP <i style="font-style:normal;color:var(--brand)">Psicología</i></span><span class="stripe" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span></div>` +
+      NAV.map(([k, h, t, ic]) => `<a href="${h}" class="${k === active ? 'on' : ''}" ${k === active ? 'aria-current="page"' : ''}>${I[ic]}<span>${t}</span></a>`).join('') +
+      `<div class="nfoot"><button class="nstat ${s ? 'lit' : ''}" data-act="stats">${I.fire}<span>Racha</span><b>${s} ${s === 1 ? 'día' : 'días'}</b></button>
+        <button class="nstat xp" data-act="stats">${I.bolt}<span>Experiencia</span><b>${G.xp} XP</b></button>
+        ${FEAT.vidas ? `<button class="nstat life" data-act="premium">${I.heart}<span>Vidas</span><b>${isPremium() ? 'Infinitas' : lives().n + ' de ' + LIFE_MAX}</b></button>` : ''}</div>`;
   }
   function sheet(html, onClose) {
     const v = document.createElement('div'); v.className = 'veil';
@@ -329,61 +345,78 @@
   function remSync() { if (REM) REM.put({ on: !!prefs.rem, hour: prefs.remH, day: G.day || '', dx: P.todayXp(G), goal: G.goal || 30, streak: P.liveStreak(G) }); }
 
   // ---------- ajustes ----------
-  function openSettings() {
-    const sh = sheet(`<h2>Ajustes</h2>
-      <div class="acct"></div>
-      ${FEAT.vidas ? `<button class="btn ${isPremium() ? 'plain' : 'gold'}" data-prem>${isPremium() ? 'Premium activo · ver detalles' : 'Hazte Premium'}</button>` : ''}
-      <div class="setrow"><span>Tema</span><div class="seg">${[['auto', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([k, t]) => `<button data-th="${k}" class="${prefs.theme === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
+  function settingsHTML() {
+    return `<div class="acct"></div>
+      ${FEAT.vidas ? `<button class="btn ${isPremium() ? 'plain' : 'gold'}" data-prem>${isPremium() ? 'Premium activo: ver detalles' : 'Hazte Premium'}</button>` : ''}
+      <h2 class="sec">Estudio</h2>
+      <div class="panel box">
       <div class="setrow"><span>Meta diaria</span><div class="seg">${[20, 30, 50].map(n => `<button data-goal="${n}" class="${G.goal === n ? 'on' : ''}">${n} XP</button>`).join('')}</div></div>
       <div class="setrow"><span>Recordatorio diario</span><div style="display:flex;gap:8px;align-items:center"><select data-remh aria-label="Hora del recordatorio">${Array.from({ length: 15 }, (_, i) => i + 8).map(h => `<option value="${h}" ${prefs.remH === h ? 'selected' : ''}>${h}:00</option>`).join('')}</select><button class="togg" role="switch" aria-checked="${!!prefs.rem}" data-tg="rem" aria-label="Recordatorio diario"></button></div></div>
+      </div>
       <p class="setnote" id="remnote">${prefs.rem ? 'Te avisaremos a partir de esa hora si aún no has llegado a tu meta.' : 'Un aviso al día si aún no has llegado a tu meta.'}</p>
+      <h2 class="sec">Aspecto y sonido</h2>
+      <div class="panel box">
+      <div class="setrow"><span>Tema</span><div class="seg">${[['auto', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([k, t]) => `<button data-th="${k}" class="${prefs.theme === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
       <div class="setrow"><span>Sonidos</span><button class="togg" role="switch" aria-checked="${!!prefs.snd}" data-tg="snd" aria-label="Sonidos"></button></div>
       <div class="setrow"><span>Vibración</span><button class="togg" role="switch" aria-checked="${!!prefs.vib}" data-tg="vib" aria-label="Vibración"></button></div>
       <div class="setrow"><span>Animaciones</span><div class="seg">${[['auto', 'Normales'], ['reduce', 'Reducidas']].map(([k, t]) => `<button data-mo="${k}" class="${prefs.motion === k ? 'on' : ''}">${t}</button>`).join('')}</div></div>
+      </div>
+      <h2 class="sec">Ruta y datos</h2>
       <button class="btn plain" data-route>Cambiar de ruta</button>
       <button class="btn plain" data-reset>Borrar mi progreso</button>
-      <p class="small"><a href="privacidad.html">Política de privacidad</a> · <a href="borrar-cuenta.html">Borrar la cuenta</a></p>
-      <p class="small">SAIMAP Psicología tiene una finalidad exclusivamente educativa y no sustituye la evaluación ni el consejo de un profesional sanitario. Proyecto independiente, no vinculado a ninguna universidad.</p>
-      <button class="btn" data-close>Cerrar</button>`, () => { acctBox = null; });
-    acctBox = sh.el.querySelector('.acct'); paintAcct(acctBox);
-    sh.el.querySelector('[data-remh]').onchange = e => { prefs.remH = +e.target.value; savePrefs(); remSync(); };
-    sh.el.addEventListener('click', e => {
+      <div class="legal"><p class="small"><a href="privacidad.html">Política de privacidad</a> · <a href="borrar-cuenta.html">Borrar la cuenta</a></p>
+      <p class="small">SAIMAP Psicología tiene una finalidad exclusivamente educativa y no sustituye la evaluación ni el consejo de un profesional sanitario. Proyecto independiente, no vinculado a ninguna universidad.</p></div>`;
+  }
+  function wireSettings(el, close) {
+    acctBox = el.querySelector('.acct'); paintAcct(acctBox);
+    el.querySelector('[data-remh]').onchange = e => { prefs.remH = +e.target.value; savePrefs(); remSync(); };
+    el.addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b || b.closest('.acct')) return;
-      if (b.dataset.th) { prefs.theme = b.dataset.th; LS.set('sp.prefs', prefs); applyTheme(); sh.el.querySelectorAll('[data-th]').forEach(x => x.classList.toggle('on', x === b)); }
-      else if (b.dataset.goal) { G.goal = +b.dataset.goal; saveG(); sh.el.querySelectorAll('[data-goal]').forEach(x => x.classList.toggle('on', x === b)); }
-      else if (b.dataset.mo) { prefs.motion = b.dataset.mo; savePrefs(); applyMotion(); sh.el.querySelectorAll('[data-mo]').forEach(x => x.classList.toggle('on', x === b)); }
+      if (b.dataset.th) { prefs.theme = b.dataset.th; LS.set('sp.prefs', prefs); applyTheme(); el.querySelectorAll('[data-th]').forEach(x => x.classList.toggle('on', x === b)); }
+      else if (b.dataset.goal) { G.goal = +b.dataset.goal; saveG(); el.querySelectorAll('[data-goal]').forEach(x => x.classList.toggle('on', x === b)); }
+      else if (b.dataset.mo) { prefs.motion = b.dataset.mo; savePrefs(); applyMotion(); el.querySelectorAll('[data-mo]').forEach(x => x.classList.toggle('on', x === b)); }
       else if (b.dataset.tg) {
         const k = b.dataset.tg, on = !prefs[k]; prefs[k] = on; savePrefs(); b.setAttribute('aria-checked', on);
         if (k === 'snd' && on) FX.tone('ok'); if (k === 'vib' && on) FX.buzz('ok');
         if (k === 'rem') {
-          const note = sh.el.querySelector('#remnote');
+          const note = el.querySelector('#remnote');
           if (on) { note.textContent = 'Activando…'; REM.enable().then(m => { note.textContent = m; if (/^(Aquí|Sin permiso)/.test(m)) { prefs.rem = false; savePrefs(); b.setAttribute('aria-checked', false); } remSync(); }); }
           else { REM.disable(); remSync(); note.textContent = 'Recordatorio desactivado.'; }
         }
       }
-      else if (b.hasAttribute('data-route')) { sh.close(); showWelcome(); }
+      else if (b.hasAttribute('data-route')) { close(); showWelcome(); }
       else if (b.hasAttribute('data-reset')) {
         if (b.dataset.sure) {
           clearLocal(); dirty = new Set();
           if (Cloud.col) { const col = Cloud.col; col.get().then(snap => Promise.all(snap.docs.map(d => d.ref.delete()))).then(() => queuePush('_global'), () => { Cloud.err = 'No se ha podido borrar el progreso de tu cuenta.'; }); }
-          sh.close(); route();
+          close(); route();
         }
         else { b.dataset.sure = 1; b.textContent = 'Pulsa otra vez para confirmar'; b.classList.replace('plain', 'warn'); }
       }
-      else if (b.hasAttribute('data-close')) sh.close();
-      else if (b.hasAttribute('data-prem')) { sh.close(); go('#/premium'); }
+      else if (b.hasAttribute('data-close')) close();
+      else if (b.hasAttribute('data-prem')) { close(); go('#/premium'); }
     });
   }
-  $app.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) openSettings(); else if (e.target.closest('[data-act="stats"]')) go('#/stats'); else if (e.target.closest('[data-act="premium"]')) isPremium() || !FEAT.vidas ? go('#/premium') : showNoLives(null); });
+  function openSettings() {
+    const sh = sheet(`<h2>Tu cuenta y ajustes</h2>${settingsHTML()}<button class="btn" data-close>Cerrar</button>`, () => { acctBox = null; });
+    wireSettings(sh.el, sh.close);
+  }
+  function showProfile() {
+    setHue(null);
+    $app.innerHTML = topbar() + `<section class="prof"><div class="pagehead"><h1>Perfil</h1></div>${settingsHTML()}</section>`;
+    wireSettings($app.querySelector('.prof'), () => { });
+    scrollTop();
+  }
+  document.addEventListener('click', e => { if (e.target.closest('[data-act="settings"]')) go('#/perfil'); else if (e.target.closest('[data-act="stats"]')) go('#/stats'); else if (e.target.closest('[data-act="premium"]')) isPremium() || !FEAT.vidas ? go('#/premium') : showNoLives(null); });
 
   // ---------- bienvenida: elegir ruta ----------
   function showWelcome() {
-    setHue(null);
+    setHue(null); setShell('focus');
     $app.innerHTML = `<section class="welcome">
-      <div class="mascot-hi">${window.psique ? psique('wow') : ''}<p class="bubble">¡Hola! Soy <b>Psique</b>. En griego, <i>psyché</i> significa «alma» y también «mariposa»: por eso la psicología lleva una Ψ.</p></div>
-      <h1>¿Qué quieres hacer?</h1>
-      <p>Elige una ruta. Puedes cambiarla cuando quieras: tu progreso se guarda en cada asignatura y cuenta en todas las rutas.</p>
-      ${CAT.routes.map(r => `<button class="rcard" data-r="${r.id}"><span class="cico">${I[r.ico]}</span><span><b>${esc(r.t)}</b><small>${esc(r.sub)}</small></span></button>`).join('')}
+      <div class="mascot-hi">${window.psique ? psique('happy') : ''}<p class="bubble">Soy <b>Psique</b>. En griego, <i>psyché</i> significa «alma» y también «mariposa»: por eso la psicología lleva una Ψ.</p></div>
+      <h1>¿Qué quieres estudiar?</h1>
+      <p>Elige una ruta. Puedes cambiarla cuando quieras: el progreso se guarda por asignatura y cuenta en todas las rutas.</p>
+      <div class="shelf">${CAT.routes.map(r => `<button class="rcard" data-r="${r.id}"><span class="cico">${I[r.ico]}</span><span><b>${esc(r.t)}</b><small>${esc(r.sub)}</small></span>${I.chev}</button>`).join('')}</div>
     </section>`;
     $app.querySelectorAll('[data-r]').forEach(b => b.onclick = () => { G.route = b.dataset.r; saveG(); go('#/'); });
     scrollTop();
@@ -393,15 +426,10 @@
   function courseCard(id, extra) {
     const m = courseMeta(id); if (!m) return '';
     const a = areaOf(m.area);
-    if (m.estado !== 'ok') return `<div class="ccard soon"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b><small>${esc(a.t)}</small></div><span class="pill">Pronto</span></div>`;
+    if (m.estado !== 'ok') return `<div class="ccard soon"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b><small>Próximamente · ${esc(a.t)}</small></div></div>`;
     const S = courseState(id), done = Object.keys(S.done).length, tot = (m.units || 16) * 5, pct = Math.round(100 * done / tot);
-    return `<button class="ccard" style="--h:${hueOf(id)}" data-c="${id}"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b>
-      <div class="meter" aria-label="Progreso ${pct} %"><i style="width:${pct}%"></i></div><small>${pct ? pct + ' % completado' : 'Sin empezar'} · ${esc(a.t)}</small></div>${extra || ''}</button>`;
-  }
-  // anillo de la meta diaria y semana de la racha
-  function ring(v, max) {
-    const C = 2 * Math.PI * 26, p = Math.min(1, v / max);
-    return `<div class="ring" role="img" aria-label="${v} de ${max} XP hoy"><svg viewBox="0 0 64 64"><circle class="bg" cx="32" cy="32" r="26"/><circle class="fg" cx="32" cy="32" r="26" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - p)).toFixed(1)}"/></svg><span>${p >= 1 ? I.check.replace('<svg', '<svg style="width:26px;height:26px;color:var(--ok)"') : `<span>${v}<small>de ${max}</small></span>`}</span></div>`;
+    return `<button class="ccard hue" style="--h:${hueOf(id)}" data-c="${id}"><span class="cico">${I[a.ico]}</span><div><b>${esc(m.t)}</b>
+      <small>${esc(a.t)}${done ? ` · ${done} de ${tot} lecciones` : ''}</small>${done ? `<div class="meter" aria-label="Progreso ${pct} %"><i style="width:${pct}%"></i></div>` : ''}</div>${extra || ''}${done ? `<span class="pct">${pct} %</span>` : ''}${I.chev}</button>`;
   }
   function weekStrip() {
     const days = new Set(G.days || []), now = new Date(), dow = (now.getDay() + 6) % 7, L = 'LMXJVSD';
@@ -409,13 +437,15 @@
     for (let i = 0; i < 7; i++) {
       const d = new Date(now); d.setDate(now.getDate() - dow + i); const k = P.dayStr(d);
       const on = days.has(k), today = i === dow, fut = i > dow;
-      h += `<div class="d ${on ? 'on' : ''} ${today ? 'today' : ''} ${fut ? 'future' : ''}" aria-label="${['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'][i]}${on ? ': estudiado' : ''}"><i>${on ? I.fire : ''}</i>${L[i]}</div>`;
+      h += `<div class="d ${on ? 'on' : ''} ${today ? 'today' : ''} ${fut ? 'future' : ''}" aria-label="${['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'][i]}${on ? ': estudiado' : ''}"><i>${on ? I.check : ''}</i>${L[i]}</div>`;
     }
     return `<div class="week" role="group" aria-label="Esta semana">${h}</div>`;
   }
+  const okCourses = () => CAT.courses.filter(c => c.estado === 'ok');
+  const startedCourses = () => okCourses().map(c => [c, courseState(c.id)]).filter(([, S]) => Object.keys(S.done).length || Object.keys(S.it).length).sort((a, b) => (b[1].t || 0) - (a[1].t || 0));
   // tarjeta «Continuar»: la siguiente lección de la asignatura usada más recientemente
   async function fillContinue(box) {
-    const ok = CAT.courses.filter(c => c.estado === 'ok');
+    const ok = okCourses();
     const started = ok.map(c => [c.id, courseState(c.id)]).filter(([, S]) => Object.keys(S.done).length).sort((a, b) => (b[1].t || 0) - (a[1].t || 0));
     let id = started.length ? started[0][0] : null;
     if (!id) { const r = CAT.routes.find(x => x.id === G.route) || CAT.routes[0]; id = ((r.groups || [])[0] || { courses: [] }).courses.find(c => (courseMeta(c) || {}).estado === 'ok') || ok[0].id; }
@@ -423,51 +453,88 @@
     if (!box.isConnected) return;
     const C = COURSES[id], E = engine(id), S = courseState(id), nx = E.nextUp(S), m = courseMeta(id);
     box.style.setProperty('--h', hueOf(id)); box.classList.remove('skel');
-    if (!nx) { box.innerHTML = `<span class="play">${I.trophy}</span><div><small>Asignatura completada</small><b>${esc(m.t)}</b><p>Repasa cuando quieras o empieza otra.</p></div>`; box.onclick = () => go('#/c/' + id); return; }
-    const u = C.units[nx.u - 1], lt = nx.m <= 4 ? u.mods[nx.m - 1].t : 'Repaso de la unidad';
-    box.innerHTML = `<span class="play">${I.play}</span><div><small>${started.length ? 'Continúa' : 'Empieza'} · ${esc(C.short || m.t)}</small><b>${esc(lt)}</b><p>Unidad ${nx.u} · ${esc(u.t)}</p></div>`;
-    box.setAttribute('aria-label', `${started.length ? 'Continuar' : 'Empezar'}: ${lt}, unidad ${nx.u} de ${C.short || m.t}`);
+    if (!nx) { box.innerHTML = `<div><small>Asignatura completada</small><b>${esc(m.t)}</b><p>Repásala cuando quieras o empieza otra.</p></div><span class="go"><span>Abrir</span></span>`; box.onclick = () => go('#/c/' + id); return; }
+    const u = C.units[nx.u - 1], lt = nx.m <= 4 ? u.mods[nx.m - 1].t : 'Repaso de la unidad', verb = started.length ? 'Continuar' : 'Empezar';
+    box.innerHTML = `<div><small>${esc(C.short || m.t)}</small><b>${esc(lt)}</b><p>Unidad ${nx.u}: ${esc(u.t)}</p></div><span class="go"><span>${verb}</span>${I.play}</span>`;
+    box.setAttribute('aria-label', `${verb}: ${lt}, unidad ${nx.u} de ${C.short || m.t}`);
     box.onclick = () => openNode(id, nx.u, nx.m);
   }
   function showHome() {
     if (!G.route) return showWelcome();
     setHue(null);
     const r = CAT.routes.find(x => x.id === G.route) || CAT.routes[0];
-    const xpToday = P.todayXp(G), goal = G.goal || 30;
+    const xpToday = P.todayXp(G), goal = G.goal || 30, started = startedCourses();
+    // asignaturas: las empezadas (por uso reciente) o, si aún no hay ninguna, las primeras de la ruta
+    const first = (r.groups ? r.groups.flatMap(g => g.courses) : okCourses().map(c => c.id)).filter(c => (courseMeta(c) || {}).estado === 'ok');
+    const list = started.length ? started.slice(0, 4).map(([c]) => c.id) : first.slice(0, 3);
+    // repaso del día: con el curso empezado más reciente
+    const rev = started.filter(([, S]) => Object.keys(S.it).length);
+    let daily = '';
+    if (rev.length) {
+      const [c, S] = rev[0], dd = S.dr === P.dayStr();
+      daily = `<button class="daily ${dd ? 'done' : ''}" data-daily="${c.id}"><span class="dico">${I.cal}</span><div><b>${dd ? 'Repaso del día hecho' : 'Repaso del día'}</b><p>${esc(c.t)}: ${dd ? 'puedes repetirlo cuando quieras' : '20 preguntas de lo que ya has visto'}</p></div>${I.chev}</button>`;
+    }
+    $app.innerHTML = topbar() + `<div class="home">
+      <section class="hi"><div><h1>${greet()}</h1><p>${xpToday >= goal ? 'Meta de hoy conseguida.' : xpToday ? `Te quedan ${goal - xpToday} XP para la meta de hoy.` : 'Unos minutos al día bastan para avanzar.'}</p></div><span class="mascot">${window.psique ? psique(xpToday >= goal ? 'wow' : 'happy') : ''}</span></section>
+      <aside class="hside"><section class="panel tpanel" aria-label="Tu semana">
+        <div class="goalrow"><div class="meter" role="img" aria-label="${xpToday} de ${goal} XP hoy"><i style="width:${Math.min(100, Math.round(100 * xpToday / goal))}%"></i></div><span><b>${xpToday}</b> de ${goal} XP hoy</span></div>
+        ${weekStrip()}</section>
+        ${Cloud.on && Cloud.ready && !Cloud.uid ? `<div class="notice"><span>Inicia sesión para guardar tu progreso y usarlo en cualquier dispositivo.</span><button class="btn sm" data-act="settings">Entrar</button></div>` : ''}</aside>
+      <div class="hmain">
+        <button class="cont hue skel" id="cont" aria-label="Continuar"><div><small>Cargando…</small></div></button>
+        ${daily}
+        <h2 class="sec">${started.length ? 'Tus asignaturas' : 'Para empezar'}<a href="#/asignaturas">Ver todas</a></h2>
+        <div class="shelf">${list.map(c => courseCard(c)).join('')}</div>
+        <footer class="foot"><span>Contenido original de SAIMAP, basado en el consenso científico actual.</span><span>Finalidad educativa: no sustituye la atención de un profesional. <a href="privacidad.html">Privacidad</a></span></footer>
+      </div></div>`;
+    $app.querySelectorAll('[data-c]').forEach(b => b.onclick = () => go('#/c/' + b.dataset.c));
+    $app.querySelectorAll('[data-daily]').forEach(b => b.onclick = () => startDaily(b.dataset.daily));
+    fillContinue($app.querySelector('#cont'));
+    scrollTop();
+  }
+  function showCourses() {
+    if (!G.route) return showWelcome();
+    setHue(null);
+    const r = CAT.routes.find(x => x.id === G.route) || CAT.routes[0];
     let body = '';
     if (r.groups) {
       body = r.groups.map(gr => {
         const ok = gr.courses.filter(c => (courseMeta(c) || {}).estado === 'ok').length;
         return `<section class="group"><h2>${esc(gr.t)}<small>${ok} de ${gr.courses.length} disponibles</small></h2>
-          ${gr.courses.map(c => courseCard(c, r.id === 'pir' && c === 'bases-biologicas' ? '<span class="pill pir">PIR</span>' : '')).join('')}</section>`;
+          <div class="shelf">${gr.courses.map(c => courseCard(c, r.id === 'pir' && c === 'bases-biologicas' ? '<span class="pill pir">PIR</span>' : '')).join('')}</div></section>`;
       }).join('');
     } else {
       body = CAT.areas.map(a => {
         const cs = CAT.courses.filter(c => c.area === a.id).sort((x, y) => (x.estado === 'ok' ? 0 : 1) - (y.estado === 'ok' ? 0 : 1));
-        return cs.length ? `<section class="group"><h2>${esc(a.t)}</h2>${cs.map(c => courseCard(c.id)).join('')}</section>` : '';
+        return cs.length ? `<section class="group"><h2>${esc(a.t)}</h2><div class="shelf">${cs.map(c => courseCard(c.id)).join('')}</div></section>` : '';
       }).join('');
     }
-    // repaso del día: con el curso empezado más reciente
-    const started = CAT.courses.filter(c => c.estado === 'ok').map(c => [c.id, courseState(c.id)]).filter(([, S]) => Object.keys(S.it).length).sort((a, b) => b[1].t - a[1].t);
-    let daily = '';
-    if (started.length) {
-      const [cid, S] = started[0], dd = S.dr === P.dayStr();
-      daily = `<button class="daily ${dd ? 'done' : ''}" data-daily="${cid}"><span class="dico">${I.cal}</span><div><b>${dd ? 'Repaso del día hecho' : 'Repaso del día'}</b><p>${esc(courseMeta(cid).t)} · ${dd ? 'Puedes repetirlo cuando quieras' : '20 preguntas de lo que ya has visto, empezando por lo más flojo'}</p></div></button>`;
-    }
-    $app.innerHTML = topbar() + `
-      <section class="hero"><span class="mascot fly">${window.psique ? psique(xpToday >= goal ? 'wow' : 'happy') : 'Ψ'}</span><div><h1>${greet()}</h1><p>${xpToday >= goal ? '¡Meta diaria conseguida!' : xpToday ? `Te quedan ${goal - xpToday} XP para tu meta.` : 'Unos minutos al día bastan para avanzar.'}</p></div>${ring(xpToday, goal)}</section>
-      ${weekStrip()}
-      <button class="cont skel" id="cont" aria-label="Continuar"><span class="play">${I.play}</span><div><small>Cargando…</small></div></button>
-      ${daily}
-      <div class="linkrow"><button data-act="stats">${I.chart}Ver mis estadísticas</button></div>
-      ${Cloud.on && Cloud.ready && !Cloud.uid ? `<div class="notice"><span>Inicia sesión para guardar tu progreso en tu cuenta y usarlo en cualquier dispositivo.</span><button class="btn plain sm" data-act="settings">Entrar</button></div>` : ''}
-      <nav class="tabs" aria-label="Rutas">${CAT.routes.map(x => `<button class="tab ${x.id === r.id ? 'on' : ''}" data-tab="${x.id}">${I[x.ico]}${esc(x.t)}</button>`).join('')}</nav>
+    $app.innerHTML = topbar() + `<section class="pagehead"><h1>Asignaturas</h1><p>${esc(r.sub)}.</p></section>
+      <nav class="tabs" aria-label="Rutas">${CAT.routes.map(x => `<button class="tab ${x.id === r.id ? 'on' : ''}" data-tab="${x.id}" ${x.id === r.id ? 'aria-current="true"' : ''}>${I[x.ico]}${esc(x.t)}</button>`).join('')}</nav>
       ${body}
-      <footer class="foot"><span>Contenido original de SAIMAP, basado en el consenso científico actual.</span><span>Finalidad educativa: no sustituye la atención de un profesional.</span><a href="privacidad.html">Privacidad</a></footer>`;
-    $app.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { G.route = b.dataset.tab; saveG(); showHome(); });
+      <footer class="foot"><span>Cada asignatura incluye su temario completo, sus lecciones y sus repasos.</span></footer>`;
+    $app.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { G.route = b.dataset.tab; saveG(); showCourses(); });
     $app.querySelectorAll('[data-c]').forEach(b => b.onclick = () => go('#/c/' + b.dataset.c));
+    scrollTop();
+  }
+  // repaso: el repaso del día y los fallos de cada asignatura empezada
+  async function showReview() {
+    setHue(null);
+    const rev = startedCourses().filter(([, S]) => Object.keys(S.it).length);
+    $app.innerHTML = topbar() + `<section class="pagehead"><h1>Repaso</h1><p>Cada repaso mezcla preguntas de lo que ya has estudiado y empieza por lo que más te cuesta.${FEAT.vidas && !isPremium() ? ' No gasta vidas, y terminar uno te devuelve una.' : ''}</p></section>` +
+      (rev.length ? `<div class="shelf" style="margin-top:16px">${rev.map(([c, S]) => {
+        const dd = S.dr === P.dayStr();
+        return `<div class="rrow hue" style="--h:${hueOf(c.id)}"><div><b>${esc(c.t)}</b><small>${dd ? 'Repaso de hoy hecho' : 'Repaso de hoy pendiente: 20 preguntas'}</small></div>
+          <div class="acts"><button class="btn sm plain" data-weakc="${c.id}" hidden></button><button class="btn sm ${dd ? 'plain' : ''}" data-daily="${c.id}">${dd ? 'Repetir el repaso' : 'Hacer el repaso'}</button></div></div>`;
+      }).join('')}</div>` : `<div class="empty-note" style="margin-top:16px"><p>Todavía no hay nada que repasar. Cuando termines tu primera lección, aquí tendrás el repaso del día y tus fallos.</p><a class="btn" href="#/asignaturas">Ver las asignaturas</a></div>`);
     $app.querySelectorAll('[data-daily]').forEach(b => b.onclick = () => startDaily(b.dataset.daily));
-    fillContinue($app.querySelector('#cont'));
+    scrollTop();
+    for (const [c, S] of rev) {
+      try { await loadCourse(c.id); } catch (e) { continue; }
+      const b = $app.querySelector(`[data-weakc="${c.id}"]`); if (!b) return;
+      const n = engine(c.id).weakItems(S).length; if (!n) continue;
+      b.hidden = false; b.textContent = `Repasar ${n} ${n === 1 ? 'fallo' : 'fallos'}`; b.onclick = () => startLesson(c.id, 0, 0, 'weak');
+    }
   }
 
   // ---------- descargar una asignatura (curso + teoría + figuras) para usarla sin conexión ----------
@@ -494,43 +561,42 @@
   // ---------- curso ----------
   async function showCourse(id) {
     setHue(hueOf(id));
-    $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px">Cargando…</div>`);
-    try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar() + `<p class="empty-note">No se ha podido cargar el curso. Comprueba la conexión y vuelve a intentarlo.</p>`; return; }
+    $app.innerHTML = topbar(back('Volver a las asignaturas', 'Asignaturas')) + `<p class="sub" style="padding-top:8px">Cargando…</p>`;
+    try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar(back('Volver a las asignaturas', 'Asignaturas')) + `<p class="empty-note">No se ha podido cargar la asignatura. Comprueba la conexión y vuelve a intentarlo.</p>`; $app.querySelector('[data-home]').onclick = () => go('#/asignaturas'); return; }
     const C = COURSES[id], E = engine(id), S = courseState(id), pr = E.progress(S), nx = E.nextUp(S);
-    const weak = E.weakItems(S).length;
-    let html = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px;min-width:0"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(C.short || C.title)}</span></div>`);
-    html += `<section class="chead"><h1>${esc(C.title)}</h1><div class="meter"><i style="width:${pr.pct}%"></i></div>
-      <small>${pr.done} de ${pr.total} lecciones · ${pr.pct} %</small>
-      <div class="row">${C.temario ? `<a class="chip" href="temarios/${esc(C.temario)}" target="_blank" rel="noopener">${I.book}Temario</a>` : ''}
+    const weak = E.weakItems(S).length, cur = nx ? nx.u : 1;
+    let html = topbar(back('Volver a las asignaturas', 'Asignaturas'));
+    html += `<section class="chead"><h1>${esc(C.title)}</h1>
+      <div class="cmeta"><div class="meter" role="img" aria-label="Progreso ${pr.pct} %"><i style="width:${pr.pct}%"></i></div><span>${pr.done} de ${pr.total} lecciones</span></div>
+      <div class="row">${C.temario ? `<a class="chip" href="temarios/${esc(C.temario)}" target="_blank" rel="noopener">${I.book}Temario en PDF</a>` : ''}
       ${weak ? `<button class="chip" data-weak>${I.redo}Repasar fallos (${weak})</button>` : ''}
       <button class="chip ${OFF[id] ? 'ok' : ''}" data-off>${I.down}${OFF[id] ? 'Disponible sin conexión' : 'Descargar'}</button></div></section>`;
-    let flip = false;
     for (const cap of C.capitulos) {
-      html += `<div class="cap"><b>CAP. ${cap.n}</b><h2>${esc(cap.t)}</h2></div>`;
+      html += `<div class="cap"><b>Capítulo ${cap.n}</b><h2>${esc(cap.t)}</h2></div>`;
       for (let n = cap.from; n <= cap.to; n++) {
         const u = C.units[n - 1]; if (!u) continue;
-        const open = E.unlocked(S, n, 1), col = 1 + ((n - 1) % 5);
+        const open = E.unlocked(S, n, 1);
+        let dn = 0; for (let m = 1; m <= 5; m++) if (S.done[E.modId(n, m)]) dn++;
         const sc = window.SP_SCENES && window.SP_SCENES[id] ? window.SP_SCENES[id](n) : null;
-        html += `<section class="unit c${col} ${flip ? 'flip' : ''}" id="u${n}"><div class="uhead ${open ? '' : 'locked'}"><span class="badge">${n}</span><div><small>Unidad ${n}${u.pir ? `<span class="pirtag">PIR ${esc(u.pir)}</span>` : ''}</small><h2>${esc(u.t)}</h2></div></div>` +
-          (sc ? `<div class="path scn" data-road="${sc.road}" style="--tint:${sc.tint}"><div class="scene">${sc.svg}</div><svg class="road" aria-hidden="true"></svg>` : `<div class="path">`);
+        html += `<details class="unit" id="u${n}" ${n === cur ? 'open' : ''}><summary class="uhead ${open ? '' : 'locked'} ${dn === 5 ? 'alldone' : ''}"><span class="badge">${n}</span><div><h2>${esc(u.t)}</h2><small>Unidad ${n}${dn === 5 ? ', completada' : dn ? `, ${dn} de 5 lecciones` : ''}${u.pir ? `<span class="pirtag"> · frecuencia en el PIR: ${esc(u.pir)}</span>` : ''}</small></div>${I.chev}</summary>` +
+          (sc && n === cur ? `<div class="scn" style="--tint:${sc.tint}" aria-hidden="true"><div class="scene">${sc.svg}</div></div>` : '');
         for (let m = 1; m <= 5; m++) {
           const id2 = E.modId(n, m), d = S.done[id2], op = E.unlocked(S, n, m), now = nx && nx.u === n && nx.m === m;
           const t = m <= 4 ? u.mods[m - 1].t : 'Repaso de la unidad';
           html += `<button class="node ${d ? 'done' : op ? 'open' : 'shut'} ${now ? 'now' : ''}" data-u="${n}" data-m="${m}" ${op ? '' : 'aria-disabled="true"'} aria-label="${esc(t)}. ${d ? 'Hecha, ' + d.s + ' de 3 estrellas' : now ? 'Siguiente lección' : op ? 'Disponible' : 'Bloqueada'}">
-            <span class="disc">${d ? (m === 5 ? I.trophy : I.check) : op ? (m === 5 ? I.trophy : I.play) : I.lock}</span><b>${esc(t)}</b>${d ? stars(d.s) : ''}</button>`;
+            <span class="disc">${d ? I.check : op ? (m === 5 ? I.trophy : I.play) : I.lock}</span><span class="nt"><b>${esc(t)}</b>${now ? '<small>Siguiente lección</small>' : ''}</span>${d ? stars(d.s) : ''}</button>`;
         }
-        html += `</div></section>`; flip = !flip;
+        html += `</details>`;
       }
     }
     html += `<footer class="foot"><span>${E.ITEMS.length} preguntas en ${C.units.length} unidades.</span><span>Ilustraciones y fuentes: consulta el temario.</span></footer>`;
     $app.innerHTML = html;
-    $app.querySelector('[data-home]').onclick = () => go('#/');
+    $app.querySelector('[data-home]').onclick = () => go('#/asignaturas');
     const wb = $app.querySelector('[data-weak]'); if (wb) wb.onclick = () => startLesson(id, 0, 0, 'weak');
     const ob = $app.querySelector('[data-off]'); ob.onclick = () => { if (ob.classList.contains('ok')) return; if (usesLives()) return go('#/premium'); downloadCourse(id, ob); };
     if (usesLives() && !OFF[id]) ob.innerHTML = I.down + 'Descargar <span class="badge-prem">Premium</span>';
     if (nx) loadTheory(id, nx.u).catch(() => { });   // precarga la teoría de la siguiente lección
     $app.querySelectorAll('.node').forEach(b => b.onclick = () => openNode(id, +b.dataset.u, +b.dataset.m));
-    drawRoads();
     const target = nx ? document.getElementById('u' + nx.u) : null;
     if (target && nx.u > 1) target.scrollIntoView({ block: 'start' }); else scrollTop();
   }
@@ -544,20 +610,20 @@
     return THEORY[k];
   }
   async function showTheory(id, u, m) {
-    $app.innerHTML = topbar(`<button class="iconbtn" data-back aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px">Cargando…</div>`);
-    try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar() + `<p class="empty-note">No se ha podido cargar el curso. Comprueba la conexión y vuelve a intentarlo.</p>`; return; }
+    $app.innerHTML = topbar(`<button class="iconbtn" data-back aria-label="Volver">${I.back}</button><div class="ptitle">Cargando…</div>`);
+    try { await loadCourse(id); } catch (e) { $app.innerHTML = topbar() + `<p class="empty-note">No se ha podido cargar la asignatura. Comprueba la conexión y vuelve a intentarlo.</p>`; return; }
     const C = COURSES[id], E = engine(id), S = courseState(id), unit = C.units[u - 1];
     if (!unit || m < 1 || m > 5) return go('#/c/' + id);
     setHue(hueOf(id));
     const info = m <= 4 ? E.modInfo(u, m) : null, op = E.unlocked(S, u, m), d = S.done[E.modId(u, m)];
     const col = 1 + ((u - 1) % 5);
-    $app.innerHTML = topbar(`<button class="iconbtn" data-back aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px;min-width:0"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(C.short || C.title)}</span></div>`) +
-      `<article class="theory c${col}"><header class="thead"><small>Unidad ${u} · ${m <= 4 ? 'Lección ' + m + ' de 4' : 'Repaso'}</small>
+    $app.innerHTML = topbar(`<button class="iconbtn" data-back aria-label="Volver al índice de la asignatura">${I.back}</button><div class="ptitle">${esc(C.short || C.title)}</div>`) +
+      `<article class="theory c${col}"><header class="thead"><small>Unidad ${u}, ${m <= 4 ? 'lección ' + m + ' de 4' : 'repaso'}: ${esc(unit.t)}</small>
         <h1>${esc(m <= 4 ? u + '.' + m + ' ' + info.t : 'Cierre de la unidad ' + u)}</h1>
         ${m === 5 ? `<p class="sub">${esc(unit.t)}. Antes del repaso, los recuadros finales del tema: ejemplos, consenso y debate, mitos, conceptos clave y la clave PIR.</p>` : ''}
         ${!op ? `<p class="sub">Termina la lección anterior para desbloquear esta. Puedes leer el temario y practicarla igualmente.</p>` : ''}
         ${d ? `<p class="sub">Mejor resultado: ${'★'.repeat(d.s)}${'☆'.repeat(3 - d.s)} · Hecha ${d.n} ${d.n === 1 ? 'vez' : 'veces'}</p>` : ''}
-        <div class="ttools"><button class="skip" data-go>${I.play}Ir directamente a los ejercicios</button><div class="fsz" role="group" aria-label="Tamaño del texto"><button data-fs="-1" aria-label="Texto más pequeño">A−</button><button data-fs="1" aria-label="Texto más grande">A+</button></div></div></header>
+        <div class="ttools"><button class="skip" data-go>${I.play}Ir a los ejercicios</button><div class="fsz" role="group" aria-label="Tamaño del texto"><button data-fs="-1" aria-label="Texto más pequeño">A−</button><button data-fs="1" aria-label="Texto más grande">A+</button></div></div></header>
         <div class="tbody" aria-busy="true" style="--tfs:${prefs.fs}px"><p class="sub">Cargando el temario…</p></div></article>
       <div class="readbar" aria-hidden="true"><i></i></div>
       <div class="tbar"><button class="btn" data-go>${d ? 'Repetir la lección' : m === 5 ? 'Empezar el repaso' : op ? 'Empezar la lección' : 'Practicar igualmente'}</button></div>`;
@@ -645,6 +711,7 @@
     if (!mode && usesLives() && lives().n <= 0) return showNoLives(id);
     const ex = mode === 'redo' ? P.shuffle(items).map(i => E.build(i, typeOfItem(E, S, i), true)) : mode === 'daily' ? E.genDaily(S) : mode === 'weak' ? E.genWeak(S) : E.gen(S, u, m);
     if (!ex.length) { sheet(`<h2>Aún no hay suficiente</h2><p class="sub">Haz alguna lección más y vuelve.</p><button class="btn" onclick="this.closest('.veil').remove()">Vale</button>`); return; }
+    setShell('focus');
     L = { id, u, m, mode, E, S, queue: ex.slice(), total: ex.length, done: 0, ok: 0, firstTry: 0, retried: new Set(), start: Date.now(), combo: 0, miss: [], xp0: P.todayXp(G) };
     renderEx();
   }
@@ -852,7 +919,7 @@
     const prem = isPremium();
     let sel = 'anual';
     const perks = [[I.inf, 'Vidas infinitas', 'Estudia sin límite y sin esperas'], [I.down, 'Asignaturas sin conexión', 'Descarga la teoría y las figuras para el tren o la biblioteca'], [I.gem, 'Insignia Premium', 'Y apoyas que haya asignaturas nuevas']];
-    $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button>`) + `<section class="prem">
+    $app.innerHTML = topbar(back('Volver', 'Premium')) + `<section class="prem">
       <div class="phero"><div class="mascot fly">${window.psique ? psique('wow') : ''}</div><h1>SAIMAP Premium</h1><p>${prem ? (ENT.source === 'tester' ? 'Tienes Premium como tester. ¡Gracias por ayudar!' : 'Eres Premium hasta el ' + new Date(ENT.until).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + '. Se renueva automáticamente.') : 'Todo SAIMAP Psicología, sin límites.'}</p></div>
       <div class="perks">${perks.map(([ic, t, d]) => `<div class="perk"><i>${ic}</i><div><b>${t}</b><small>${d}</small></div></div>`).join('')}</div>
       ${prem ? (ENT.source === 'tester' ? '' : `<a class="btn plain" href="${manageUrl()}" target="_blank" rel="noopener">Gestionar mi suscripción</a>`) : `
@@ -907,16 +974,15 @@
       const done = Object.keys(S.done).length, tot = (c.units || 16) * 5, pct = Math.round(100 * done / tot);
       let ok = 0, ko = 0; for (const v of Object.values(S.it)) { ok += v[0] || 0; ko += v[1] || 0; }
       const acc = ok + ko ? Math.round(100 * ok / (ok + ko)) : 0;
-      return `<button class="crow" style="--h:${hueOf(c.id)}" data-c="${c.id}"><span class="dot"></span><div><b>${esc(c.t)}</b><div class="meter"><i style="width:${pct}%"></i></div><small>${done} de ${tot} lecciones · ${acc} % de aciertos</small></div></button>`;
+      return `<button class="crow hue" style="--h:${hueOf(c.id)}" data-c="${c.id}"><span class="dot"></span><div><b>${esc(c.t)}</b><div class="meter"><i style="width:${pct}%"></i></div><small>${done} de ${tot} lecciones · ${acc} % de aciertos</small></div></button>`;
     }).join('');
-    $app.innerHTML = topbar(`<button class="iconbtn" data-home aria-label="Volver">${I.back}</button><div class="brand" style="font-size:17px">Estadísticas</div>`) + `<section class="stats">
-      <h1>Tu progreso</h1>
+    $app.innerHTML = topbar() + `<section class="stats">
+      <h1>Progreso</h1>
       <div class="kgrid"><div class="kpi"><b>${P.liveStreak(G)}</b><small>días de racha</small></div><div class="kpi"><b>${best}</b><small>mejor racha</small></div><div class="kpi"><b>${G.xp}</b><small>XP en total</small></div><div class="kpi"><b>${days.size}</b><small>días estudiando</small></div></div>
-      <h2>Actividad · últimas ${W} semanas</h2><div class="heat" role="img" aria-label="Días con actividad en las últimas ${W} semanas">${cells}</div>
-      <h2>Asignaturas</h2>${rows || '<p class="empty-note">Aún no has empezado ninguna asignatura.</p>'}
+      <h2>Actividad de las últimas ${W} semanas</h2><div class="heat" role="img" aria-label="Días con actividad en las últimas ${W} semanas">${cells}</div>
+      <h2>Asignaturas</h2>${rows ? `<div class="shelf">${rows}</div>` : '<div class="empty-note"><p>Aún no has empezado ninguna asignatura.</p><a class="btn" href="#/asignaturas">Ver las asignaturas</a></div>'}
       <h2>Lo que más te cuesta</h2><div class="weak" id="weak"><p class="sub">${started.length ? 'Calculando…' : 'Cuando hagas algunas lecciones, aquí verás los conceptos que más fallas.'}</p></div>
     </section>`;
-    $app.querySelector('[data-home]').onclick = () => go('#/');
     $app.querySelectorAll('[data-c]').forEach(b => b.onclick = () => go('#/c/' + b.dataset.c));
     scrollTop();
     const box = $app.querySelector('#weak'), out = [];
@@ -925,9 +991,9 @@
       const E = engine(c.id);
       E.weakItems(S).map(i => [((S.it[i.k] || [])[1] || 0) - ((S.it[i.k] || [])[0] || 0) * .5, i]).filter(([sc]) => sc > 0).forEach(([sc, i]) => out.push([sc, i, c]));
     }
-    if (!box.isConnected) return;
+    if (!box.isConnected || !started.length) return;
     out.sort((a, b) => b[0] - a[0]);
-    box.innerHTML = out.length ? out.slice(0, 8).map(([, i, c]) => `<div><b>${esc(i.kind === 'v' ? i.c : (i.q || '').slice(0, 90) + ((i.q || '').length > 90 ? '…' : ''))}</b><small>${esc(courseMeta(c.id).t)} · unidad ${i.u}</small></div>`).join('') + `<p class="small">Puedes repasarlos con «Repasar fallos» en cada asignatura.</p>` : '<p class="sub">¡Nada destacable! No hay conceptos que se te resistan.</p>';
+    box.innerHTML = out.length ? out.slice(0, 8).map(([, i, c]) => `<div><b>${esc(i.kind === 'v' ? i.c : (i.q || '').slice(0, 90) + ((i.q || '').length > 90 ? '…' : ''))}</b><small>${esc(courseMeta(c.id).t)} · unidad ${i.u}</small></div>`).join('') + `<p class="small">Puedes repasarlos en la pestaña Repaso.</p>` : '<p class="sub">¡Nada destacable! No hay conceptos que se te resistan.</p>';
   }
 
   // ---------- router ----------
@@ -939,11 +1005,16 @@
     if (L) return;
     if (keepSheets !== true) document.querySelectorAll('.veil').forEach(v => v.remove());
     const h = CUR;
+    if (!G.route) return showWelcome();
     const m = h.match(/^#\/c\/([\w-]+)(?:\/t\/(\d+)\/(\d))?/);
-    if (m && courseMeta(m[1]) && courseMeta(m[1]).estado === 'ok') m[2] ? showTheory(m[1], +m[2], +m[3]) : showCourse(m[1]);
-    else if (h === '#/stats') showStats();
-    else if (h === '#/premium' && FEAT.vidas) showPremium();
-    else showHome();
+    const tab = (k, fn) => { setShell('tabs'); renderNav(k); fn(); };
+    if (m && courseMeta(m[1]) && courseMeta(m[1]).estado === 'ok') { if (m[2]) { setShell('read'); renderNav('courses'); showTheory(m[1], +m[2], +m[3]); } else tab('courses', () => showCourse(m[1])); }
+    else if (h === '#/asignaturas') tab('courses', showCourses);
+    else if (h === '#/repaso') tab('review', showReview);
+    else if (h === '#/stats') tab('stats', showStats);
+    else if (h === '#/perfil') tab('profile', showProfile);
+    else if (h === '#/premium' && FEAT.vidas) tab('profile', showPremium);
+    else tab('home', showHome);
   }
   window.addEventListener('popstate', () => { CUR = location.hash || '#/'; swap(() => route()); });
   route();
