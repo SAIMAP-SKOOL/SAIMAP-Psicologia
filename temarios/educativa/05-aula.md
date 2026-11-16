@@ -61,7 +61,7 @@ La evidencia respalda este enfoque. El metaanálisis de Korpershoek et al. (2016
 **Enseñar autocontrol.** El objetivo último de la disciplina es que el control pase del docente al propio alumno. Para ello se enseñan técnicas concretas:
 
 1. **Autoobservación y autorregistro**: el alumno anota con qué frecuencia hace algo, por ejemplo levantarse de la silla durante una tarea. Observarse ya cambia la conducta.
-2. **Autoevaluación**: compara lo que ha hecho con un criterio («¿he terminado los cinco ejercicios?»).
+2. **Evaluación de la propia conducta** (autoevaluación): compara lo que ha hecho con un criterio («¿he terminado los cinco ejercicios?»).
 3. **Autorrefuerzo**: se concede algo agradable al cumplir la meta.
 4. **Autoinstrucciones**: Meichenbaum y Goodman (1971) enseñaron a niños impulsivos a guiarse con el habla, primero en voz alta y después en silencio: «¿qué tengo que hacer?, voy despacio, compruebo».
 
