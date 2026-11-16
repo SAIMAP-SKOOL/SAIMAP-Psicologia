@@ -1,0 +1,16 @@
+{
+  "lang": "es",
+  "title": "Psicología Educativa · SAIMAP Psicología",
+  "cover_title": "Psicología<br>Educativa",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo se aprende y cómo se enseña mejor: historia y métodos de la disciplina, teorías del aprendizaje, competencias y estrategias, metacognición, motivación, ansiedad y autoconcepto, gestión del aula, relaciones y feedback, dificultades de aprendizaje, inclusión y pedagogías alternativas. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": ["Grado · 2.º", "16 unidades", "Ampliación PIR"],
+  "tag_colors": ["#2D5A7B", "#5FA47A", "#C8553D"],
+  "toc_title": "Índice",
+  "footer": "Psicología Educativa · SAIMAP Psicología",
+  "pdf": "Psicologia-Educativa_SAIMAP.pdf",
+  "colors": {"P": "#2F6B5A", "A": "#C8553D", "TINT": "#E6F0EC", "STRIPE": ["#2F6B5A", "#2D5A7B", "#E0A83A", "#C8553D"]},
+  "files": ["00-intro.md", "01-disciplina.md", "02-teorias.md", "03a-aprender-hoy.md", "03b-aprender-hoy.md", "04-afectos.md", "05-aula.md", "06-profesion.md", "07-apendices.md"],
+  "unit_files": ["01-disciplina.md", "02-teorias.md", "03a-aprender-hoy.md", "03b-aprender-hoy.md", "04-afectos.md", "05-aula.md", "06-profesion.md"],
+  "boxes": {"consenso": ["Consenso y debate"], "mito": ["Mito frecuente"], "pir": ["Clave PIR"], "claves": ["Conceptos clave"], "test": ["Autoevaluación"], "answers": ["Soluciones"], "ejemplo": ["Ejemplo resuelto"]}
+}
