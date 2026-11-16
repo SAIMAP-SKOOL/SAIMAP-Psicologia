@@ -34,7 +34,7 @@ window.SP_CATALOG = {
     { id: 'estadistica-2', t: 'Estadística Aplicada a las Ciencias de la Conducta', area: 'met', estado: 'soon' },
     { id: 'desarrollo-adulto', t: 'Desarrollo: Edad Adulta y Vejez', area: 'des', estado: 'soon' },
     { id: 'lenguaje', t: 'Psicología del Lenguaje', area: 'basicos', estado: 'ok', color: 4, hue: 128 },
-    { id: 'educativa', t: 'Psicología Educativa', area: 'apl', estado: 'soon' },
+    { id: 'educativa', t: 'Psicología Educativa', area: 'apl', estado: 'ok', color: 2, hue: 150 },
     { id: 'fisiologica', t: 'Psicología Fisiológica', area: 'bio', estado: 'ok', color: 3, hue: 215 },
     { id: 'psicopatologia', t: 'Psicopatología', area: 'clin', estado: 'ok', color: 1, hue: 70 },
     { id: 'intervencion', t: 'Intervención y Tratamientos Psicológicos', area: 'clin', estado: 'soon' },
@@ -61,7 +61,7 @@ window.SP_CATALOG = {
         { t: 'Clínica, salud e intervención', courses: ['clinica', 'intervencion', 'salud', 'infantil'] },
         { t: 'Evaluación y personalidad', courses: ['evaluacion-1', 'evaluacion-2', 'personalidad-1', 'personalidad-2'] },
         { t: 'Procesos básicos', courses: ['aprendizaje', 'memoria', 'atencion-percepcion', 'motivacion-emocion', 'pensamiento', 'lenguaje'] },
-        { t: 'Desarrollo y social', courses: ['desarrollo-infancia', 'desarrollo-adulto', 'social', 'interaccion-social'] },
+        { t: 'Desarrollo y social', courses: ['desarrollo-infancia', 'desarrollo-adulto', 'social', 'interaccion-social', 'educativa'] },
         { t: 'Metodología', courses: ['metodos', 'estadistica-1', 'estadistica-2', 'psicometria'] },
         { t: 'Historia, profesión y deontología', courses: ['historia'] }
       ] },
