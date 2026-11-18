@@ -1,0 +1,72 @@
+{
+  "lang": "es",
+  "title": "Psicología Penitenciaria · SAIMAP Psicología",
+  "cover_title": "Psicología<br>Penitenciaria",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre la prisión y el trabajo del psicólogo dentro de ella: historia y derecho penitenciario, clasificación, permisos y regímenes, fines de la pena y alternativas a la prisión, efectos del encarcelamiento, teorías del delito, evaluación y valoración del riesgo de reincidencia, el doble rol clínico y pericial, programas de tratamiento y qué funciona en rehabilitación. Con datos de España actualizados, recuadros de consenso y debate, mitos, claves de examen y autoevaluación.",
+  "tags": [
+    "Grado · 4.º",
+    "16 unidades",
+    "Técnicos de IIPP · PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología Penitenciaria · SAIMAP Psicología",
+  "pdf": "Psicologia-Penitenciaria_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D4A6B",
+    "A": "#C8553D",
+    "TINT": "#E6ECF2",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-prision.md",
+    "02-pena.md",
+    "03-psicologo-encierro.md",
+    "04-etiologia.md",
+    "05-evaluacion.md",
+    "06-tratamiento.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01-prision.md",
+    "02-pena.md",
+    "03-psicologo-encierro.md",
+    "04-etiologia.md",
+    "05-evaluacion.md",
+    "06-tratamiento.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
