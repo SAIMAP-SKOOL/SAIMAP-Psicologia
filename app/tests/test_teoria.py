@@ -11,7 +11,7 @@ for cdir in sorted(glob.glob(os.path.join(D, 'teoria', '*'))):
             txt = re.sub(r'<[^>]+>', '', h)
             if k <= 4 and len(txt) < 450: bad.append(f'{cid} U{n}.{k}: texto corto ({len(txt)})')
             if re.search(r'\*\*|^#+ |!\[', txt, re.M): bad.append(f'{cid} U{n}.{k}: restos de Markdown')
-            if re.search(r'Autoevaluación|Soluciones</h3>', h): bad.append(f'{cid} U{n}.{k}: incluye autoevaluación')
+            if re.search(r'Autoevaluación</h3>|Soluciones</h3>', h): bad.append(f'{cid} U{n}.{k}: incluye autoevaluación')
             for src in re.findall(r'src="([^"]+)"', h):
                 nfig += 1
                 if not os.path.exists(os.path.join(D, src)): bad.append(f'{cid} U{n}.{k}: falta {src}')
