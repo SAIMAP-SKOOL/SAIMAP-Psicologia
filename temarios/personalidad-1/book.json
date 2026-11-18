@@ -1,0 +1,74 @@
+{
+  "lang": "es",
+  "title": "Personalidad y Diferencias Individuales I · SAIMAP Psicología",
+  "cover_title": "Personalidad<br>y Diferencias<br>Individuales I",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre qué es la personalidad y cómo se estudia: historia, psicoanálisis, humanismo y aprendizaje social, fuentes de datos y métodos, los modelos de rasgos de Cattell, Eysenck y los Cinco Grandes, bases biológicas del temperamento, el debate persona-situación, la estabilidad y el cambio a lo largo de la vida, y los motivos y las metas. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Personalidad y Diferencias Individuales I · SAIMAP Psicología",
+  "pdf": "Personalidad-y-Diferencias-Individuales-I_SAIMAP.pdf",
+  "colors": {
+    "P": "#5B4A8B",
+    "A": "#C8553D",
+    "TINT": "#ECE8F4",
+    "STRIPE": [
+      "#5B4A8B",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-concepto.md",
+    "02a-miradas.md",
+    "02b-miradas.md",
+    "03-metodo.md",
+    "04-rasgos.md",
+    "05-biologia-cambio.md",
+    "06-motivacion.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01-concepto.md",
+    "02a-miradas.md",
+    "02b-miradas.md",
+    "03-metodo.md",
+    "04-rasgos.md",
+    "05-biologia-cambio.md",
+    "06-motivacion.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
