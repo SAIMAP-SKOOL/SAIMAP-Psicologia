@@ -1672,6 +1672,176 @@
       return { tint: '#FAEFF0', road: 'vine', svg: svg(s) }; }
   };
 
+  // ---------- escenarios de Personalidad y Diferencias Individuales I ----------
+  const PD1 = {
+    // 1 · Qué es la personalidad: tres óvalos solapados (temperamento, carácter, personalidad) y un espejo
+    1: () => { let s = paper('#F1EEF8', '#E2DCF0', 32);
+      s += `<g opacity=".45"><ellipse cx="300" cy="170" rx="85" ry="100" fill="#7A5BA8"/><ellipse cx="270" cy="150" rx="45" ry="50" fill="#2D5A7B"/><ellipse cx="330" cy="195" rx="40" ry="45" fill="#C8553D"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><ellipse rx="52" ry="66" fill="#fff" stroke="#26323A" stroke-width="6"/><path d="M0 66V100M-30 100H30" stroke="#26323A" stroke-width="6" stroke-linecap="round"/>${pers(0, 24, .8, '#7A5BA8', 1)}</g>`;
+      return { tint: '#F1EEF8', road: 'dots', svg: svg(s) }; },
+    // 2 · Historia: los cuatro humores en un círculo y una línea del tiempo
+    2: () => { let s = `<rect width="400" height="600" fill="#F6F0E4"/>`;
+      s += `<g transform="translate(290 165)" opacity=".5"><circle r="85" fill="#fff" stroke="#7A6248" stroke-width="5"/><path d="M0 -85V85M-85 0H85" stroke="#7A6248" stroke-width="4"/>${[['#C8553D', -42, -42], ['#E0A83A', 42, -42], ['#26323A', -42, 42], ['#5FA47A', 42, 42]].map(([c, x, y]) => `<circle cx="${x}" cy="${y}" r="20" fill="${c}"/>`).join('')}</g>`;
+      s += `<g opacity=".5"><path d="M20 470H190" stroke="#26323A" stroke-width="5" stroke-linecap="round"/>${[40, 85, 130, 175].map((x, i) => `<circle cx="${x}" cy="470" r="10" fill="${['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A'][i]}"/><path d="M${x} ${i % 2 ? 482 : 458}v${i % 2 ? 30 : -30}" stroke="#26323A" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#F6F0E4', road: 'ink', svg: svg(s) }; },
+    // 3 · Freud: el iceberg y un diván
+    3: () => { let s = `<rect width="400" height="600" fill="#E6F0F6"/>`;
+      s += `<g opacity=".5"><path d="M180 140H400" stroke="#2D5A7B" stroke-width="3"/><path d="M290 70L330 140H250Z" fill="#fff" stroke="#2D5A7B" stroke-width="4"/><path d="M250 140L215 270L300 300L370 260L330 140Z" fill="#9DC3DA"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5" stroke="#7A6248" stroke-width="6" fill="#E8D8C0" stroke-linejoin="round"><path d="M-80 0H70V30H-80Z"/><path d="M-80 0Q-90 -40 -60 -40Q-40 -40 -40 0"/><path d="M-70 30V50M60 30V50" fill="none"/></g>`;
+      return { tint: '#E6F0F6', road: 'water', svg: svg(s) }; },
+    // 4 · Qué queda del psicoanálisis: una balanza y una lupa
+    4: () => { let s = paper('#F4F1EA', '#E6E0D2', 30);
+      s += `<g transform="translate(290 170)" opacity=".5" stroke="#26323A" stroke-width="5" fill="none" stroke-linecap="round"><path d="M0 -80V70M-50 70H50M-85 -55H85"/><path d="M-85 -55L-110 10H-60ZM85 -55L60 0H110Z" fill="#E0A83A"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><circle r="42" fill="#fff" stroke="#2D5A7B" stroke-width="8"/><path d="M30 30L66 66" stroke="#2D5A7B" stroke-width="12" stroke-linecap="round"/><circle r="12" fill="#C8553D" opacity=".7"/></g>`;
+      return { tint: '#F4F1EA', road: 'crumbs', svg: svg(s) }; },
+    // 5 · Humanismo: escalones de necesidades y una planta que crece
+    5: () => { let s = `<rect width="400" height="600" fill="#EFF6EE"/>`;
+      s += `<g opacity=".5">${['#2D5A7B', '#5FA47A', '#E0A83A', '#C8553D', '#7A5BA8'].map((c, i) => `<rect x="${200 + i * 36}" y="${250 - i * 36}" width="${180 - i * 36}" height="34" rx="4" fill="${c}"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 490)" opacity=".5"><path d="M-30 0H30L22 40H-22Z" fill="#C8553D"/><path d="M0 0V-80" stroke="#5FA47A" stroke-width="6"/><path d="M0 -40Q-36 -50 -40 -78Q-8 -74 0 -40M0 -60Q32 -70 38 -96Q8 -94 0 -60" fill="#5FA47A"/></g>`;
+      return { tint: '#EFF6EE', road: 'vine', svg: svg(s) }; },
+    // 6 · Aprendizaje social: el triángulo persona-conducta-ambiente y una figura que imita
+    6: () => { let s = paper('#F7F1E6', '#EBE2D0', 34);
+      s += `<g opacity=".5" stroke="#26323A" stroke-width="4" fill="none"><path d="M290 70L370 220H210Z"/></g><g opacity=".5"><circle cx="290" cy="70" r="20" fill="#2D5A7B"/><circle cx="370" cy="220" r="20" fill="#C8553D"/><circle cx="210" cy="220" r="20" fill="#5FA47A"/></g>`;
+      s += pers(70, 500, 1.1, '#2D5A7B', .5) + pers(130, 510, .75, '#E0A83A', .5);
+      return { tint: '#F7F1E6', road: 'chain', svg: svg(s) }; },
+    // 7 · Fuentes de datos: un cuestionario y bocadillos de los demás
+    7: () => { let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += card(300, 170, 150, 190, 6, '#2D5A7B', .5, 7);
+      s += bubble(30, 430, 120, 54, '#7A5BA8', .45) + bubble(70, 500, 110, 50, '#5FA47A', .45, 'r');
+      return { tint: '#EEF2F7', road: 'crumbs', svg: svg(s) }; },
+    // 8 · Métodos: nube de puntos con recta y barras
+    8: () => { const r = rng(808); let s = paper('#EEF3EF', '#DCE7DE', 30);
+      s += `<g opacity=".5"><path d="M200 260H390M200 260V70" stroke="#26323A" stroke-width="3"/>${Array.from({ length: 26 }, () => { const x = r(); return `<circle cx="${f(210 + x * 170)}" cy="${f(245 - x * 150 + (r() - .5) * 70)}" r="5" fill="#2D5A7B"/>`; }).join('')}<path d="M210 245L380 95" stroke="#C8553D" stroke-width="4"/></g>`;
+      s += `<g opacity=".5">${bars(40, 530, [60, 95, 40, 120], 26, 10, ['#5FA47A', '#E0A83A', '#7A5BA8', '#2D5A7B'], 1)}</g>`;
+      return { tint: '#EEF3EF', road: 'grid', svg: svg(s) }; },
+    // 9 · Cattell: un diccionario y dieciséis fichas
+    9: () => { let s = `<rect width="400" height="600" fill="#F6EFE6"/>`;
+      s += `<g opacity=".5">${Array.from({ length: 16 }, (_, i) => `<rect x="${215 + (i % 4) * 42}" y="${80 + Math.floor(i / 4) * 46}" width="34" height="38" rx="6" fill="${['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8'][i % 5]}"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 475) rotate(-8)" opacity=".5"><rect x="-60" y="-70" width="120" height="140" rx="8" fill="#7A6248"/><rect x="-50" y="-62" width="100" height="124" rx="4" fill="#fff"/><path d="M-36 -36H36M-36 -16H36M-36 4H20M-36 24H36" stroke="#7A6248" stroke-width="4"/></g>`;
+      return { tint: '#F6EFE6', road: 'pegs', svg: svg(s) }; },
+    // 10 · Eysenck: el círculo de dos ejes con los cuatro temperamentos
+    10: () => { let s = paper('#EEF1F8', '#DDE3F0', 34);
+      s += `<g transform="translate(290 170)" opacity=".5"><circle r="90" fill="#fff" stroke="#2D5A7B" stroke-width="5"/><path d="M-90 0H90M0 -90V90" stroke="#26323A" stroke-width="4"/>${[[-45, -45, '#7A5BA8'], [45, -45, '#C8553D'], [-45, 45, '#5FA47A'], [45, 45, '#E0A83A']].map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="18" fill="${c}"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 470)" opacity=".5"><path d="M0 -70L70 50H-70Z" fill="#2D5A7B"/><path d="M0 -70L35 -10H-35Z" fill="#E0A83A"/></g>`;
+      return { tint: '#EEF1F8', road: 'ruler', svg: svg(s) }; },
+    // 11 · Cinco Grandes: cinco barras de perfil y una mano abierta
+    11: () => { let s = `<rect width="400" height="600" fill="#F3F0F8"/>`;
+      s += `<g opacity=".5">${[120, 70, 150, 95, 130].map((w, i) => `<rect x="220" y="${80 + i * 38}" width="${w}" height="26" rx="6" fill="${['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8'][i]}"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 480)" opacity=".5" fill="#E0A83A"><rect x="-38" y="-10" width="76" height="70" rx="20"/>${[-30, -12, 6, 24].map((x, i) => `<rect x="${x}" y="${-70 + Math.abs(i - 1.5) * 8}" width="14" height="70" rx="7"/>`).join('')}<rect x="-62" y="0" width="14" height="50" rx="7" transform="rotate(-30 -55 25)"/></g>`;
+      return { tint: '#F3F0F8', road: 'bars', svg: svg(s) }; },
+    // 12 · Biología del temperamento: un cerebro con ondas y una curva en U invertida
+    12: () => { const r = rng(1212); let s = `<rect width="400" height="600" fill="#ECF3F9"/>`;
+      s += `<g opacity=".45"><path d="M220 180C200 110 250 60 310 60C370 60 400 110 390 170C385 220 340 240 300 230C260 245 225 225 220 180Z" fill="#F4C7BD"/>${[[250, 120], [300, 95], [345, 130], [280, 175], [335, 190]].map(([x, y]) => `<path d="M${x} ${y}q12 -12 26 0t26 0" stroke="#C97C6E" stroke-width="3" fill="none"/>`).join('')}</g>`;
+      s += neuron(r, 300, 330, .9, '#2D5A7B', { op: .3, depth: 1 });
+      s += `<g transform="translate(95 480)" opacity=".5"><path d="M-80 50H80M-80 50V-60" stroke="#26323A" stroke-width="4"/><path d="M-75 45Q-30 -90 15 45" stroke="#7A5BA8" stroke-width="5" fill="none"/><path d="M-35 45Q15 -90 70 45" stroke="#E0A83A" stroke-width="5" fill="none"/></g>`;
+      return { tint: '#ECF3F9', road: 'axon', svg: svg(s) }; },
+    // 13 · Coherencia: dos perfiles «si… entonces» que se cruzan y un malvavisco
+    13: () => { let s = paper('#F5F0F6', '#E6DEE8', 30);
+      s += `<g opacity=".5"><path d="M200 230L245 120L290 200L335 90L380 170" stroke="#2D5A7B" stroke-width="6" fill="none" stroke-linejoin="round"/><path d="M200 110L245 210L290 120L335 220L380 110" stroke="#C8553D" stroke-width="6" fill="none" stroke-linejoin="round"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><ellipse cx="0" cy="40" rx="70" ry="16" fill="#fff" stroke="#26323A" stroke-width="4"/><rect x="-26" y="-20" width="52" height="52" rx="18" fill="#fff" stroke="#E0A83A" stroke-width="5"/><path d="M-26 -2H26" stroke="#E0A83A" stroke-width="3"/></g>`;
+      return { tint: '#F5F0F6', road: 'spread', svg: svg(s) }; },
+    // 14 · Estabilidad y cambio: una curva que sube hasta una meseta y un reloj de arena
+    14: () => { let s = `<rect width="400" height="600" fill="#EEF5F1"/>`;
+      s += `<g opacity=".5"><path d="M200 260H390M200 260V70" stroke="#26323A" stroke-width="3"/><path d="M205 240C250 180 280 120 320 105S370 98 385 96" stroke="#5FA47A" stroke-width="6" fill="none"/>${[[215, 225], [260, 165], [300, 118], [350, 100]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="7" fill="#2D5A7B"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 475)" opacity=".5"><path d="M-40 -70H40M-40 70H40" stroke="#7A6248" stroke-width="7" stroke-linecap="round"/><path d="M-32 -70Q-32 -10 0 0Q-32 10 -32 70H32Q32 10 0 0Q32 -10 32 -70Z" fill="#fff" stroke="#7A6248" stroke-width="4"/><path d="M-20 60H20L0 30Z" fill="#E0A83A"/><path d="M-14 -50H14L0 -14Z" fill="#E0A83A"/></g>`;
+      return { tint: '#EEF5F1', road: 'trail', svg: svg(s) }; },
+    // 15 · Motivos: un trofeo, una corona y dos manos que se dan (logro, poder, afiliación)
+    15: () => { let s = paper('#FBF3E4', '#EFE3CC', 34);
+      s += `<g transform="translate(300 150)" opacity=".5"><path d="M-45 -60H45V-10Q45 30 0 40Q-45 30 -45 -10Z" fill="#E0A83A"/><path d="M-45 -45Q-80 -45 -70 -10Q-60 10 -40 5M45 -45Q80 -45 70 -10Q60 10 40 5" stroke="#E0A83A" stroke-width="7" fill="none"/><path d="M-10 40V70H10V40M-35 70H35V86H-35Z" fill="#E0A83A"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><path d="M-55 10L-40 -40L-15 -5L0 -50L15 -5L40 -40L55 10Z" fill="#7A5BA8"/><rect x="-55" y="10" width="110" height="18" rx="4" fill="#7A5BA8"/></g>` + heart(330, 330, 1.6, '#C8553D', .4);
+      return { tint: '#FBF3E4', road: 'pegs', svg: svg(s) }; },
+    // 16 · Metas: una diana con flecha y una escalera de pasos
+    16: () => { let s = `<rect width="400" height="600" fill="#F0F4F8"/>`;
+      s += `<g transform="translate(300 160)" opacity=".5"><circle r="75" fill="#fff" stroke="#C8553D" stroke-width="9"/><circle r="47" fill="none" stroke="#C8553D" stroke-width="9"/><circle r="17" fill="#C8553D"/><path d="M-90 -90L-8 -8" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><path d="M-90 -90l2 18M-90 -90l18 2" stroke="#26323A" stroke-width="6" stroke-linecap="round"/></g>`;
+      s += `<g opacity=".5">${[0, 1, 2, 3].map(i => `<rect x="${30 + i * 36}" y="${540 - i * 30}" width="36" height="${30 + i * 30}" fill="${['#2D5A7B', '#5FA47A', '#E0A83A', '#7A5BA8'][i]}"/>`).join('')}</g>` + pers(165, 418, .7, '#26323A', .5);
+      return { tint: '#F0F4F8', road: 'ruler', svg: svg(s) }; }
+  };
+
+  // ---------- escenarios de Personalidad y Diferencias Individuales II ----------
+  const PD2 = {
+    // 1 · Medir la inteligencia: una campana de CI y un cronómetro
+    1: () => { let s = paper('#EEF2F7', '#DEE6EF', 30);
+      s += bell(195, 250, 195, 170, '#2D5A7B', 6, .5, 'rgba(45,90,123,.12)') + `<path d="M292 250V80" stroke="#C8553D" stroke-width="3" stroke-dasharray="6 6" opacity=".5"/>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><circle r="55" fill="#fff" stroke="#26323A" stroke-width="7"/><path d="M0 -55V-72M-12 -78H12" stroke="#26323A" stroke-width="7" stroke-linecap="round"/><path d="M0 0V-34M0 0L22 14" stroke="#C8553D" stroke-width="6" stroke-linecap="round"/></g>`;
+      return { tint: '#EEF2F7', road: 'ci', svg: svg(s) }; },
+    // 2 · Modelos factoriales: g con flechas y el cubo de Guilford
+    2: () => { let s = `<rect width="400" height="600" fill="#F2EEF8"/>`;
+      s += `<g opacity=".5"><circle cx="295" cy="90" r="30" fill="#7A5BA8"/>${[215, 268, 322, 375].map(x => `<path d="M295 120L${x} 220" stroke="#26323A" stroke-width="4"/><rect x="${x - 20}" y="220" width="40" height="34" rx="6" fill="#2D5A7B"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 480)" opacity=".5" stroke="#26323A" stroke-width="4" stroke-linejoin="round"><path d="M-55 -25H35V65H-55Z" fill="#E0A83A"/><path d="M-55 -25L-25 -55H65L35 -25Z" fill="#5FA47A"/><path d="M35 -25L65 -55V35L35 65Z" fill="#C8553D"/></g>`;
+      return { tint: '#F2EEF8', road: 'grid', svg: svg(s) }; },
+    // 3 · Jerarquía: un árbol de tres estratos y una red de nodos
+    3: () => { let s = paper('#EEF5F1', '#DCEAE2', 34);
+      s += `<g opacity=".5"><circle cx="295" cy="70" r="22" fill="#C8553D"/>${[225, 295, 365].map(x => `<path d="M295 92L${x} 150" stroke="#26323A" stroke-width="3"/><circle cx="${x}" cy="160" r="16" fill="#2D5A7B"/>${[-20, 0, 20].map(d => `<path d="M${x} 176L${x + d} 225" stroke="#26323A" stroke-width="2"/><circle cx="${x + d}" cy="232" r="8" fill="#5FA47A"/>`).join('')}`).join('')}</g>`;
+      const pts = [[60, 440], [130, 420], [95, 500], [160, 490], [40, 520]];
+      s += `<g opacity=".5">${pts.map((a, i) => pts.slice(i + 1).map(b => `<path d="M${a[0]} ${a[1]}L${b[0]} ${b[1]}" stroke="#7A5BA8" stroke-width="3"/>`).join('')).join('')}${pts.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="12" fill="#7A5BA8"/>`).join('')}</g>`;
+      return { tint: '#EEF5F1', road: 'tract', svg: svg(s) }; },
+    // 4 · Procesos: un pulsador de tiempo de reacción y luces
+    4: () => { let s = `<rect width="400" height="600" fill="#F6F0E6"/>`;
+      s += `<g transform="translate(295 165)" opacity=".5"><path d="M-90 40A90 90 0 0 1 90 40Z" fill="#fff" stroke="#26323A" stroke-width="5"/>${[-60, -30, 0, 30, 60].map((a, i) => `<circle cx="${f(Math.sin(a * Math.PI / 180) * 64)}" cy="${f(40 - Math.cos(a * Math.PI / 180) * 64)}" r="10" fill="${i === 3 ? '#E0A83A' : '#D8D0C0'}"/>`).join('')}<circle cy="30" r="12" fill="#C8553D"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><rect x="-60" y="-20" width="120" height="60" rx="14" fill="#2D5A7B"/><circle cy="-20" r="26" fill="#C8553D"/></g>`;
+      return { tint: '#F6F0E6', road: 'beam', svg: svg(s) }; },
+    // 5 · Sternberg y Gardner: un triángulo y una rueda de ocho sectores
+    5: () => { let s = paper('#F3F5EC', '#E3E8D4', 32);
+      s += `<g opacity=".5"><path d="M295 60L380 220H210Z" fill="none" stroke="#2D5A7B" stroke-width="7" stroke-linejoin="round"/>${[[295, 60], [380, 220], [210, 220]].map(([x, y], i) => `<circle cx="${x}" cy="${y}" r="16" fill="${['#C8553D', '#5FA47A', '#E0A83A'][i]}"/>`).join('')}</g>`;
+      s += `<g transform="translate(95 475)" opacity=".5">${Array.from({ length: 8 }, (_, i) => { const a0 = i * Math.PI / 4, a1 = a0 + Math.PI / 4; return `<path d="M0 0L${f(Math.cos(a0) * 62)} ${f(Math.sin(a0) * 62)}A62 62 0 0 1 ${f(Math.cos(a1) * 62)} ${f(Math.sin(a1) * 62)}Z" fill="${['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A', '#7A5BA8', '#2D5A7B', '#C8553D', '#5FA47A'][i]}" stroke="#fff" stroke-width="3"/>`; }).join('')}</g>`;
+      return { tint: '#F3F5EC', road: 'prism', svg: svg(s) }; },
+    // 6 · Cerebro y generaciones: un cerebro de perfil y escalones que suben y bajan
+    6: () => { let s = `<rect width="400" height="600" fill="#ECF1FA"/>`;
+      s += `<g opacity=".45"><path d="M215 190C195 115 245 60 310 60C375 60 400 115 392 180C386 230 340 250 300 240C255 255 220 235 215 190Z" fill="#F4C7BD"/><path d="M250 100C290 120 330 110 370 140" stroke="#2D5A7B" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="250" cy="100" r="13" fill="#2D5A7B"/><circle cx="370" cy="140" r="13" fill="#2D5A7B"/></g>`;
+      s += `<g opacity=".5">${[40, 70, 95, 110, 100, 80].map((h, i) => `<rect x="${25 + i * 28}" y="${540 - h}" width="22" height="${h}" rx="3" fill="${i < 4 ? '#5FA47A' : '#C8553D'}"/>`).join('')}</g>`;
+      return { tint: '#ECF1FA', road: 'gyrus', svg: svg(s) }; },
+    // 7 · Emoción y creatividad: caras con emociones y una bombilla
+    7: () => { let s = paper('#FBF1EA', '#F0E1D4', 30);
+      s += face(250, 110, 34, 'joy', '#E0A83A', .55) + face(335, 150, 34, 'sad', '#2D5A7B', .55) + face(270, 220, 30, 'wow', '#C8553D', .55);
+      s += `<g transform="translate(95 470)" opacity=".5"><path d="M0 -70C40 -70 55 -30 40 0C30 20 24 26 24 44H-24C-24 26 -30 20 -40 0C-55 -30 -40 -70 0 -70Z" fill="#E0A83A"/><rect x="-22" y="48" width="44" height="12" rx="4" fill="#26323A"/><rect x="-18" y="64" width="36" height="10" rx="4" fill="#26323A"/></g>`;
+      return { tint: '#FBF1EA', road: 'spread', svg: svg(s) }; },
+    // 8 · Expectativas y atribuciones: un timón (control) y una tabla 2 × 2
+    8: () => { let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += `<g transform="translate(295 165)" opacity=".5"><circle r="70" fill="none" stroke="#7A6248" stroke-width="10"/><circle r="16" fill="#7A6248"/>${Array.from({ length: 8 }, (_, i) => { const a = i * Math.PI / 4; return `<path d="M${f(Math.cos(a) * 16)} ${f(Math.sin(a) * 16)}L${f(Math.cos(a) * 92)} ${f(Math.sin(a) * 92)}" stroke="#7A6248" stroke-width="7" stroke-linecap="round"/>`; }).join('')}</g>`;
+      s += `<g transform="translate(95 475)" opacity=".5">${[['#2D5A7B', -60, -60], ['#5FA47A', 2, -60], ['#E0A83A', -60, 2], ['#C8553D', 2, 2]].map(([c, x, y]) => `<rect x="${x}" y="${y}" width="58" height="58" rx="8" fill="${c}"/>`).join('')}</g>`;
+      return { tint: '#EEF2F7', road: 'dice', svg: svg(s) }; },
+    // 9 · Pérdida de control: una caja lanzadera y una cadena rota
+    9: () => { let s = paper('#F1F3F5', '#E0E4E8', 32);
+      s += `<g opacity=".5"><rect x="210" y="90" width="175" height="110" rx="6" fill="#fff" stroke="#26323A" stroke-width="5"/><path d="M297 90V160" stroke="#26323A" stroke-width="5"/><path d="M215 200h165" stroke="#E0A83A" stroke-width="5" stroke-dasharray="10 8"/><path d="M240 160q15-30 30 0" stroke="#7A5BA8" stroke-width="5" fill="#7A5BA8"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5" stroke="#2D5A7B" stroke-width="9" fill="none"><rect x="-75" y="-18" width="56" height="36" rx="18"/><rect x="-33" y="-18" width="56" height="36" rx="18"/><rect x="34" y="-28" width="56" height="36" rx="18" transform="rotate(-20 62 -10)"/></g>`;
+      return { tint: '#F1F3F5', road: 'chain', svg: svg(s) }; },
+    // 10 · El self: un espejo de mano y círculos de yoes posibles
+    10: () => { let s = `<rect width="400" height="600" fill="#F3EEF8"/>`;
+      s += `<g opacity=".45"><circle cx="300" cy="150" r="58" fill="#7A5BA8"/><circle cx="235" cy="100" r="28" fill="#5FA47A"/><circle cx="370" cy="85" r="24" fill="#E0A83A"/><circle cx="360" cy="235" r="30" fill="#C8553D"/></g>` + pers(300, 172, .9, '#fff', .7);
+      s += `<g transform="translate(95 470) rotate(-15)" opacity=".5"><ellipse rx="48" ry="60" fill="#fff" stroke="#26323A" stroke-width="7"/><rect x="-10" y="58" width="20" height="62" rx="8" fill="#26323A"/><path d="M-22 -30Q-10 -42 6 -36" stroke="#9DC3DA" stroke-width="6" fill="none" stroke-linecap="round"/></g>`;
+      return { tint: '#F3EEF8', road: 'water', svg: svg(s) }; },
+    // 11 · Autoestima: una curva vital y un medidor
+    11: () => { let s = paper('#F6F1E8', '#EAE1D2', 32);
+      s += `<g opacity=".5"><path d="M200 260H390" stroke="#26323A" stroke-width="3"/><path d="M205 240C230 200 245 215 265 180S330 90 355 95S380 150 388 180" stroke="#C8553D" stroke-width="6" fill="none" stroke-linecap="round"/></g>`;
+      s += `<g transform="translate(95 485)" opacity=".5"><path d="M-70 0A70 70 0 0 1 70 0" stroke="#D8D0C0" stroke-width="18" fill="none"/><path d="M-70 0A70 70 0 0 1 35 -60" stroke="#5FA47A" stroke-width="18" fill="none"/><path d="M0 0L30 -48" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><circle r="9" fill="#26323A"/></g>`;
+      return { tint: '#F6F1E8', road: 'trail', svg: svg(s) }; },
+    // 12 · Sexo y género: dos campanas muy solapadas y figuras
+    12: () => { let s = `<rect width="400" height="600" fill="#EEF4F6"/>`;
+      s += bell(190, 250, 175, 150, '#2D5A7B', 5, .5, 'rgba(45,90,123,.12)') + bell(215, 250, 175, 150, '#C8553D', 5, .5, 'rgba(200,85,61,.12)');
+      s += pers(60, 500, 1, '#2D5A7B', .5) + pers(110, 505, .95, '#C8553D', .5) + pers(160, 500, 1.05, '#7A5BA8', .5);
+      return { tint: '#EEF4F6', road: 'bars', svg: svg(s) }; },
+    // 13 · La edad: figuras de tres edades y un calendario
+    13: () => { let s = paper('#F4F3EC', '#E6E4D6', 34);
+      s += pers(230, 240, .7, '#E0A83A', .5) + pers(290, 240, 1.05, '#2D5A7B', .5) + pers(355, 240, 1, '#7A6248', .5) + `<path d="M375 200V250" stroke="#7A6248" stroke-width="5" opacity=".5"/>`;
+      s += `<g transform="translate(95 475)" opacity=".5"><rect x="-60" y="-55" width="120" height="115" rx="10" fill="#fff" stroke="#26323A" stroke-width="5"/><rect x="-60" y="-55" width="120" height="28" rx="8" fill="#C8553D"/>${Array.from({ length: 9 }, (_, i) => `<rect x="${-46 + (i % 3) * 34}" y="${-16 + Math.floor(i / 3) * 24}" width="24" height="16" rx="3" fill="${i === 4 ? '#5FA47A' : '#D8D0C0'}"/>`).join('')}</g>`;
+      return { tint: '#F4F3EC', road: 'street', svg: svg(s) }; },
+    // 14 · Genes y ambiente: una doble hélice y dos gemelos
+    14: () => { let s = `<rect width="400" height="600" fill="#EDF5F2"/>`;
+      s += `<g opacity=".5">${helix(215, 60, 230, .55, 22, '#2D5A7B', '#5FA47A', true)}</g>`;
+      s += pers(70, 505, 1, '#7A5BA8', .5) + pers(125, 505, 1, '#7A5BA8', .5);
+      return { tint: '#EDF5F2', road: 'dna', svg: svg(s) }; },
+    // 15 · Salud y estrés: un corazón con trazado de ECG
+    15: () => { let s = paper('#FBEDEA', '#F0DAD5', 30);
+      s += heart(300, 160, 6, '#C8553D', .45) + `<path d="M200 165H260L275 130L292 200L305 150L318 165H390" stroke="#fff" stroke-width="6" fill="none" opacity=".8" stroke-linejoin="round"/>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><rect x="-55" y="-20" width="110" height="60" rx="14" fill="#fff" stroke="#2D5A7B" stroke-width="5"/><path d="M-20 10H20M0 -10V30" stroke="#C8553D" stroke-width="9" stroke-linecap="round"/><path d="M-25 -20V-36H25V-20" stroke="#2D5A7B" stroke-width="5" fill="none"/></g>`;
+      return { tint: '#FBEDEA', road: 'ecg', svg: svg(s) }; },
+    // 16 · Aula y trabajo: un birrete y un maletín
+    16: () => { let s = `<rect width="400" height="600" fill="#EFF1F7"/>`;
+      s += `<g transform="translate(300 150)" opacity=".5"><path d="M-95 0L0 -45L95 0L0 45Z" fill="#26323A"/><path d="M-55 20V60Q0 85 55 60V20" fill="#2D5A7B"/><path d="M85 5V60" stroke="#E0A83A" stroke-width="5"/><circle cx="85" cy="66" r="9" fill="#E0A83A"/></g>`;
+      s += `<g transform="translate(95 480)" opacity=".5"><rect x="-65" y="-30" width="130" height="85" rx="10" fill="#7A6248"/><path d="M-22 -30V-48H22V-30" stroke="#7A6248" stroke-width="8" fill="none"/><path d="M-65 5H65" stroke="#5B4636" stroke-width="5"/><rect x="-10" y="-2" width="20" height="16" rx="3" fill="#E0A83A"/></g>`;
+      return { tint: '#EFF1F7', road: 'street', svg: svg(s) }; }
+  };
+
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -1689,5 +1859,7 @@
     'pensamiento': n => cache['p' + n] || (cache['p' + n] = PE[n] ? PE[n]() : null),
     'psicopatologia': n => cache['q' + n] || (cache['q' + n] = PS[n] ? PS[n]() : null),
     'fisiologica': n => cache['f' + n] || (cache['f' + n] = FI[n] ? FI[n]() : null),
-    'educativa': n => cache['u' + n] || (cache['u' + n] = ED[n] ? ED[n]() : null) };
+    'educativa': n => cache['u' + n] || (cache['u' + n] = ED[n] ? ED[n]() : null),
+    'personalidad-1': n => cache['k' + n] || (cache['k' + n] = PD1[n] ? PD1[n]() : null),
+    'personalidad-2': n => cache['z' + n] || (cache['z' + n] = PD2[n] ? PD2[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
