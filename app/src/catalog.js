@@ -45,14 +45,16 @@ window.SP_CATALOG = {
     { id: 'trabajo', t: 'Psicología del Trabajo y las Organizaciones', area: 'apl', estado: 'soon' },
     { id: 'psicofarmacologia', t: 'Psicofarmacología', area: 'bio', estado: 'soon' },
     { id: 'psicometria', t: 'Psicometría', area: 'met', estado: 'soon' },
-    { id: 'infantil', t: 'Valoración e Intervención en Psicología Infantil', area: 'clin', estado: 'soon' }
+    { id: 'infantil', t: 'Valoración e Intervención en Psicología Infantil', area: 'clin', estado: 'soon' },
+    { id: 'penitenciaria', t: 'Psicología Penitenciaria', area: 'apl', estado: 'ok', color: 5, hue: 110 }
   ],
   routes: [
     { id: 'grado', t: 'Grado en Psicología', sub: 'Las asignaturas de la carrera, curso a curso', ico: 'cap',
       groups: [
         { t: '1.º curso', courses: ['bases-biologicas', 'historia', 'estadistica-1', 'aprendizaje', 'memoria', 'atencion-percepcion', 'motivacion-emocion', 'desarrollo-infancia', 'social', 'interaccion-social'] },
         { t: '2.º curso', courses: ['psicopatologia', 'fisiologica', 'personalidad-1', 'personalidad-2', 'evaluacion-1', 'evaluacion-2', 'estadistica-2', 'lenguaje', 'desarrollo-adulto', 'educativa'] },
-        { t: '3.º curso', courses: ['clinica', 'intervencion', 'salud', 'psicofarmacologia', 'psicometria', 'metodos', 'pensamiento', 'trabajo', 'infantil'] }
+        { t: '3.º curso', courses: ['clinica', 'intervencion', 'salud', 'psicofarmacologia', 'psicometria', 'metodos', 'pensamiento', 'trabajo', 'infantil'] },
+        { t: '4.º curso · optativas', courses: ['penitenciaria'] }
       ] },
     { id: 'pir', t: 'Preparación PIR', sub: 'Lo común con el grado, ordenado por bloques del examen', ico: 'target',
       groups: [

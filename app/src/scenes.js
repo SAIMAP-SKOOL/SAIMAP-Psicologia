@@ -1842,6 +1842,99 @@
       return { tint: '#EFF1F7', road: 'street', svg: svg(s) }; }
   };
 
+  // ---------- Psicología Penitenciaria ----------
+  const keyc = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round"><circle cx="-34" cy="0" r="18"/><path d="M-16 0H46M30 0v14M42 0v10"/></g>`;
+  const grille = (x, y, w, h, col, op, n) => `<g opacity="${op || .5}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#fff" stroke="${col}" stroke-width="5"/>${Array.from({ length: (n || 5) - 1 }, (_, i) => `<path d="M${f(x + w * (i + 1) / (n || 5))} ${y}V${y + h}" stroke="${col}" stroke-width="5"/>`).join('')}</g>`;
+  const doorc = (x, y, s, col, open, op) => `<g transform="translate(${x} ${y}) scale(${s})" opacity="${op || .5}"><rect x="-26" y="-50" width="52" height="100" rx="3" fill="#fff" stroke="#26323A" stroke-width="4"/><path d="M-26 -50L${-26 + 52 * (1 - open)} ${-50 + 8 * open}V${50 - 8 * open}L-26 50Z" fill="${col}"/><circle cx="${-26 + 44 * (1 - open)}" cy="2" r="4" fill="#fff"/></g>`;
+  const gavel = (x, y, s, col, op) => `<g transform="translate(${x} ${y}) scale(${s}) rotate(-30)" opacity="${op || .5}"><rect x="-40" y="-18" width="80" height="36" rx="8" fill="${col}"/><rect x="-6" y="18" width="12" height="80" rx="5" fill="#7A6248"/></g><rect x="${x - 60 * s}" y="${y + 70 * s}" width="${120 * s}" height="${16 * s}" rx="5" fill="#7A6248" opacity="${op || .5}"/>`;
+  const PN = {
+    // 1 · Nacimiento de la prisión: planta panóptica con torre central y una pluma ilustrada
+    1: () => { let s = paper('#F4EFE6', '#E6DCCB', 32);
+      s += `<g opacity=".5" transform="translate(290 160)"><circle r="96" fill="#fff" stroke="#26323A" stroke-width="5"/>${Array.from({ length: 16 }, (_, i) => `<path d="M0 -96V-62" stroke="#26323A" stroke-width="4" transform="rotate(${i * 22.5})"/>`).join('')}<circle r="62" fill="none" stroke="#26323A" stroke-width="3"/><circle r="22" fill="#C8553D"/></g>`;
+      s += `<g transform="translate(95 470) rotate(-28)" opacity=".5"><path d="M0 -80C30 -50 26 10 0 50C-26 10 -30 -50 0 -80Z" fill="#2D5A7B"/><path d="M0 -60V70" stroke="#26323A" stroke-width="4"/></g>`;
+      return { tint: '#F4EFE6', road: 'ink', svg: svg(s) }; },
+    // 2 · Derecho penitenciario: balanza y un código con párrafos
+    2: () => { let s = `<rect width="400" height="600" fill="#EEF2F6"/>`;
+      s += scale2(290, 160, 1.2, '#2D5A7B', .5);
+      s += card(95, 470, 120, 150, -6, '#7A5BA8', .5, 6);
+      s += `<text x="95" y="430" font-size="38" font-weight="700" fill="#7A5BA8" opacity=".5" text-anchor="middle" transform="rotate(-6 95 470)">§</text>`;
+      return { tint: '#EEF2F6', road: 'ruler', svg: svg(s) }; },
+    // 3 · Recorrido penitenciario: escalera de tres grados y una llave
+    3: () => { let s = paper('#EFF5F1', '#DCE9E0', 36);
+      s += `<g opacity=".5">${[['#C8553D', 0], ['#2D5A7B', 1], ['#5FA47A', 2]].map(([c, i]) => `<rect x="${210 + i * 58}" y="${220 - i * 55}" width="58" height="${60 + i * 55}" fill="${c}"/><text x="${239 + i * 58}" y="${252 - i * 55}" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">${i + 1}º</text>`).join('')}</g>`;
+      s += keyc(95, 470, 1.3, '#E0A83A', .55);
+      return { tint: '#EFF5F1', road: 'trail', svg: svg(s) }; },
+    // 4 · Fines de la pena: mazo judicial y balanza
+    4: () => { let s = `<rect width="400" height="600" fill="#F6F0EC"/>`;
+      s += gavel(290, 150, 1.2, '#C8553D', .5);
+      s += scale2(95, 470, .9, '#26323A', .45);
+      return { tint: '#F6F0EC', road: 'ink', svg: svg(s) }; },
+    // 5 · Penas sin cárcel: casa (localización permanente) y herramientas de trabajo comunitario
+    5: () => { let s = `<rect width="400" height="600" fill="#EFF4EC"/>`;
+      s += `<g opacity=".5" transform="translate(290 160)"><path d="M-80 0L0 -70L80 0Z" fill="#C8553D"/><rect x="-62" y="0" width="124" height="90" fill="#fff" stroke="#26323A" stroke-width="5"/><rect x="-16" y="34" width="32" height="56" fill="#5FA47A"/><rect x="26" y="18" width="24" height="24" fill="#E0A83A"/></g>`;
+      s += `<g transform="translate(95 470)" opacity=".5" stroke-linecap="round"><path d="M-30 50L20 -60" stroke="#7A6248" stroke-width="8"/><path d="M8 -70l32 14l-10 22l-32 -14z" fill="#2D5A7B"/><path d="M30 50L-10 -50" stroke="#7A6248" stroke-width="8"/><path d="M-26 -62h32l-6 22h-20z" fill="#E0A83A"/></g>`;
+      return { tint: '#EFF4EC', road: 'street', svg: svg(s) }; },
+    // 6 · El psicólogo: informe con lista de comprobación y una mesa de equipo
+    6: () => { let s = paper('#F2F0F7', '#E3DFEE', 30);
+      s += clip(290, 160, 1.3, '#7A5BA8', .5, 4);
+      s += `<g opacity=".5"><ellipse cx="95" cy="480" rx="70" ry="26" fill="#E0A83A"/></g>` + [[-60, 0], [-20, -28], [20, -28], [60, 0]].map(([a, b]) => pers(95 + a, 470 + b, .6, '#2D5A7B', .5)).join('');
+      return { tint: '#F2F0F7', road: 'talk', svg: svg(s) }; },
+    // 7 · Sociedad de los presos: pirámide de jerarquía informal y ventana con barrotes
+    7: () => { let s = `<rect width="400" height="600" fill="#EDEFF2"/>`;
+      s += `<g opacity=".5"><path d="M290 70L380 250H200Z" fill="#C8553D" opacity=".35"/></g>` + pers(290, 140, .6, '#26323A', .55) + pers(260, 200, .55, '#2D5A7B', .5) + pers(320, 200, .55, '#2D5A7B', .5) + pers(230, 250, .5, '#5FA47A', .5) + pers(290, 250, .5, '#5FA47A', .5) + pers(350, 250, .5, '#5FA47A', .5);
+      s += grille(35, 410, 120, 120, '#26323A', .5, 5);
+      return { tint: '#EDEFF2', road: 'chain', svg: svg(s) }; },
+    // 8 · Efectos del encierro: celda con luna y madre con criatura
+    8: () => { let s = `<rect width="400" height="600" fill="#ECEEF5"/>`;
+      s += grille(220, 70, 160, 170, '#2D5A7B', .5, 6);
+      s += `<circle cx="330" cy="120" r="22" fill="#E0A83A" opacity=".5"/>`;
+      s += pers(80, 480, 1.1, '#7A5BA8', .5) + pers(118, 492, .6, '#C8553D', .5);
+      return { tint: '#ECEEF5', road: 'night', svg: svg(s) }; },
+    // 9 · Biología y personalidad: cerebro y hélice
+    9: () => { let s = paper('#F3EEF3', '#E7DDE7', 34);
+      s += brain(290, 160, 1.4, '#7A5BA8', .5);
+      let d1 = '', d2 = '', r = '';
+      for (let i = 0; i <= 40; i++) { const y = 400 + i * 4, x = Math.sin(i / 40 * Math.PI * 3) * 30; d1 += (i ? 'L' : 'M') + f(95 + x) + ' ' + y; d2 += (i ? 'L' : 'M') + f(95 - x) + ' ' + y; if (i % 4 == 0) r += `<path d="M${f(95 + x)} ${y}H${f(95 - x)}" stroke="#E0A83A" stroke-width="4"/>`; }
+      s += `<g opacity=".5">${r}<path d="${d1}" stroke="#2D5A7B" stroke-width="6" fill="none"/><path d="${d2}" stroke="#C8553D" stroke-width="6" fill="none"/></g>`;
+      return { tint: '#F3EEF3', road: 'dna', svg: svg(s) }; },
+    // 10 · Sociedad, riesgo e integración: red de personas y tres círculos del triple riesgo
+    10: () => { let s = `<rect width="400" height="600" fill="#EEF5F3"/>`;
+      const P = [[230, 110], [330, 90], [370, 190], [280, 220], [210, 210]];
+      s += `<g opacity=".4">${P.map(([a, b], i) => P.slice(i + 1).map(([c, d]) => `<path d="M${a} ${b}L${c} ${d}" stroke="#26323A" stroke-width="2"/>`).join('')).join('')}</g>` + P.map(([a, b], i) => pers(a, b + 18, .5, ['#2D5A7B', '#5FA47A', '#C8553D', '#7A5BA8', '#E0A83A'][i], .55)).join('');
+      s += `<g opacity=".45"><circle cx="70" cy="455" r="44" fill="#C8553D"/><circle cx="120" cy="455" r="44" fill="#2D5A7B"/><circle cx="95" cy="495" r="44" fill="#E0A83A"/></g>`;
+      return { tint: '#EEF5F3', road: 'dots', svg: svg(s) }; },
+    // 11 · Evaluar a la persona: expediente y lupa
+    11: () => { let s = paper('#F5F2EA', '#E8E1D2', 30);
+      s += card(290, 160, 150, 190, 5, '#2D5A7B', .5, 9);
+      s += lens(90, 465, 1.2, '#C8553D', .5);
+      return { tint: '#F5F2EA', road: 'grid', svg: svg(s) }; },
+    // 12 · Riesgo de reincidencia: barras por nivel y un indicador
+    12: () => { let s = paper('#F1F3F7', '#E1E5EE', 30);
+      s += bars(220, 250, [50, 100, 170], 44, 14, ['#5FA47A', '#E0A83A', '#C8553D'], .5);
+      s += `<g transform="translate(95 480)" opacity=".5"><path d="M-60 0A60 60 0 0 1 60 0" stroke="#5FA47A" stroke-width="16" fill="none"/><path d="M-60 0A60 60 0 0 1 -18 -57" stroke="#5FA47A" stroke-width="16" fill="none"/><path d="M18 -57A60 60 0 0 1 60 0" stroke="#C8553D" stroke-width="16" fill="none"/><path d="M0 0L30 -40" stroke="#26323A" stroke-width="6" stroke-linecap="round"/><circle r="8" fill="#26323A"/></g>`;
+      return { tint: '#F1F3F7', road: 'bars', svg: svg(s) }; },
+    // 13 · Terapeuta o perito: dos caras y balanza
+    13: () => { let s = `<rect width="400" height="600" fill="#F4F0F5"/>`;
+      s += face(255, 150, 46, 'joy', '#5FA47A', .55) + face(335, 175, 46, 'neutral', '#2D5A7B', .55);
+      s += scale2(95, 470, .9, '#7A5BA8', .45);
+      return { tint: '#F4F0F5', road: 'ruler', svg: svg(s) }; },
+    // 14 · Programas de IIPP: tarjetas de programa y manos con corazón
+    14: () => { let s = paper('#F0F4EE', '#DFE8DA', 34);
+      s += card(270, 140, 110, 140, -8, '#2D5A7B', .5, 6) + card(320, 190, 110, 140, 6, '#5FA47A', .5, 6);
+      s += heart(95, 470, 3.4, '#C8553D', .5);
+      return { tint: '#F0F4EE', road: 'rope', svg: svg(s) }; },
+    // 15 · Qué funciona: barras que bajan (menos reincidencia) y una estrella
+    15: () => { let s = `<rect width="400" height="600" fill="#EEF2F7"/>`;
+      s += bars(215, 250, [160, 120, 80], 46, 14, ['#8A949B', '#2D5A7B', '#5FA47A'], .5);
+      s += `<path d="M220 80L370 170" stroke="#C8553D" stroke-width="5" stroke-dasharray="10 8" opacity=".5"/>`;
+      s += star(95, 470, 60, '#E0A83A', .5);
+      return { tint: '#EEF2F7', road: 'trail', svg: svg(s) }; },
+    // 16 · Regímenes: tres puertas (cerrada, entornada, abierta) y una llave
+    16: () => { let s = paper('#F5F1EA', '#E8E0D2', 32);
+      s += doorc(230, 160, 1.1, '#C8553D', 0, .5) + doorc(295, 160, 1.1, '#2D5A7B', .45, .5) + doorc(360, 160, 1.1, '#5FA47A', .85, .5);
+      s += keyc(95, 470, 1.3, '#26323A', .5);
+      return { tint: '#F5F1EA', road: 'street', svg: svg(s) }; }
+  };
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -1861,5 +1954,6 @@
     'fisiologica': n => cache['f' + n] || (cache['f' + n] = FI[n] ? FI[n]() : null),
     'educativa': n => cache['u' + n] || (cache['u' + n] = ED[n] ? ED[n]() : null),
     'personalidad-1': n => cache['k' + n] || (cache['k' + n] = PD1[n] ? PD1[n]() : null),
-    'personalidad-2': n => cache['z' + n] || (cache['z' + n] = PD2[n] ? PD2[n]() : null) };
+    'personalidad-2': n => cache['z' + n] || (cache['z' + n] = PD2[n] ? PD2[n]() : null),
+    'penitenciaria': n => cache['j' + n] || (cache['j' + n] = PN[n] ? PN[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
