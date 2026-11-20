@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Psicología del Desarrollo. Edad Adulta y Vejez · SAIMAP Psicología",
+  "cover_title": "Psicología del Desarrollo<br>Edad Adulta y Vejez",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades sobre cómo cambiamos desde los veinte hasta la vejez avanzada: ciclo vital y teorías del desarrollo adulto; transiciones, crisis y madurez; adultez emergente, cuerpo, inteligencia y cerebro; bienestar, personalidad y vínculos; envejecimiento normal y patológico, envejecer bien, jubilación, duelo, dependencia y edadismo. Con recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Psicología del Desarrollo. Edad Adulta y Vejez · SAIMAP Psicología",
+  "pdf": "Psicologia-del-Desarrollo-Edad-Adulta-y-Vejez_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#C8553D",
+      "#E0A83A",
+      "#2D5A7B"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01-fundamentos.md",
+    "02-teorias.md",
+    "03-transiciones.md",
+    "04-adultez-media.md",
+    "05-cognicion.md",
+    "06-psicosocial.md",
+    "07-envejecimiento.md",
+    "08-vejez-hoy.md",
+    "09-apendices.md"
+  ],
+  "unit_files": [
+    "01-fundamentos.md",
+    "02-teorias.md",
+    "03-transiciones.md",
+    "04-adultez-media.md",
+    "05-cognicion.md",
+    "06-psicosocial.md",
+    "07-envejecimiento.md",
+    "08-vejez-hoy.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
