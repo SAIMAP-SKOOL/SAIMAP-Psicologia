@@ -1,0 +1,76 @@
+{
+  "lang": "es",
+  "title": "Estadística Aplicada a las Ciencias de la Conducta · SAIMAP Psicología",
+  "cover_title": "Estadística Aplicada<br>a las Ciencias<br>de la Conducta",
+  "subtitle": "Temario SAIMAP · Psicología",
+  "blurb": "16 unidades para analizar datos con criterio después de la crisis de replicación: informe científico y APA, valores p, potencia, tamaños del efecto e intervalos, equivalencia y factores de Bayes, supuestos y remedios, pruebas t, ANOVA de uno y dos factores, medidas repetidas, diseños mixtos, correlación, regresión múltiple y ANCOVA. Con ejemplos resueltos, recuadros de consenso y debate, mitos, claves PIR y autoevaluación.",
+  "tags": [
+    "Grado · 2.º",
+    "16 unidades",
+    "Ampliación PIR"
+  ],
+  "tag_colors": [
+    "#2D5A7B",
+    "#5FA47A",
+    "#C8553D"
+  ],
+  "toc_title": "Índice",
+  "footer": "Estadística Aplicada a las Ciencias de la Conducta · SAIMAP Psicología",
+  "pdf": "Estadistica-Aplicada-a-las-Ciencias-de-la-Conducta_SAIMAP.pdf",
+  "colors": {
+    "P": "#2D5A7B",
+    "A": "#C8553D",
+    "TINT": "#E6EEF4",
+    "STRIPE": [
+      "#7A5BA8",
+      "#2D5A7B",
+      "#5FA47A",
+      "#E0A83A"
+    ]
+  },
+  "files": [
+    "00-intro.md",
+    "01a-inferencia.md",
+    "01b-inferencia.md",
+    "02-reforma.md",
+    "03-supuestos.md",
+    "04-dos-medias.md",
+    "05a-anova.md",
+    "05b-anova.md",
+    "06-regresion.md",
+    "07-apendices.md"
+  ],
+  "unit_files": [
+    "01a-inferencia.md",
+    "01b-inferencia.md",
+    "02-reforma.md",
+    "03-supuestos.md",
+    "04-dos-medias.md",
+    "05a-anova.md",
+    "05b-anova.md",
+    "06-regresion.md"
+  ],
+  "boxes": {
+    "consenso": [
+      "Consenso y debate"
+    ],
+    "mito": [
+      "Mito frecuente"
+    ],
+    "pir": [
+      "Clave PIR"
+    ],
+    "claves": [
+      "Conceptos clave"
+    ],
+    "test": [
+      "Autoevaluación"
+    ],
+    "answers": [
+      "Soluciones"
+    ],
+    "ejemplo": [
+      "Ejemplo resuelto"
+    ]
+  }
+}
