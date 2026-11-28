@@ -31,7 +31,7 @@ window.SP_CATALOG = {
     { id: 'evaluacion-2', t: 'Evaluación Psicológica II', area: 'pers', estado: 'ok', color: 3, hue: 250 },
     { id: 'personalidad-1', t: 'Personalidad y Diferencias Individuales I', area: 'pers', estado: 'ok', color: 4, hue: 268 },
     { id: 'personalidad-2', t: 'Personalidad y Diferencias Individuales II', area: 'pers', estado: 'ok', color: 5, hue: 212 },
-    { id: 'estadistica-2', t: 'Estadística Aplicada a las Ciencias de la Conducta', area: 'met', estado: 'soon' },
+    { id: 'estadistica-2', t: 'Estadística Aplicada a las Ciencias de la Conducta', area: 'met', estado: 'ok', color: 3, hue: 186 },
     { id: 'desarrollo-adulto', t: 'Desarrollo: Edad Adulta y Vejez', area: 'des', estado: 'ok', color: 1, hue: 4 },
     { id: 'lenguaje', t: 'Psicología del Lenguaje', area: 'basicos', estado: 'ok', color: 4, hue: 128 },
     { id: 'educativa', t: 'Psicología Educativa', area: 'apl', estado: 'ok', color: 2, hue: 150 },

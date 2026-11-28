@@ -2019,6 +2019,99 @@
       s += bars(40, 520, [40, 65, 100], 34, 12, ['#2D5A7B', '#E0A83A', '#C8553D'], .5);
       return { tint: '#EEF2F6', road: 'bars', svg: svg(s) }; }
   };
+
+  // ---------- Estadística Aplicada (estadistica-2) ----------
+  const E2pts = (r, n, x0, y0, w, h, col, op, fn) => Array.from({ length: n }, () => { const x = r() * w, y = fn ? fn(x / w, r) * h : r() * h; return `<circle cx="${f(x0 + x)}" cy="${f(y0 + h - y)}" r="5" fill="${col}" opacity="${op}"/>`; }).join('');
+  const E2axes = (x0, y0, w, h, col, op) => `<path d="M${x0} ${y0 - h}V${y0}H${x0 + w}" stroke="${col}" stroke-width="4" fill="none" opacity="${op}" stroke-linecap="round"/>`;
+  const E2ci = (x, y, half, col, op) => `<g opacity="${op}"><path d="M${x - half} ${y}H${x + half}M${x - half} ${y - 8}V${y + 8}M${x + half} ${y - 8}V${y + 8}" stroke="${col}" stroke-width="5" stroke-linecap="round"/><circle cx="${x}" cy="${y}" r="8" fill="${col}"/></g>`;
+  const E2 = {
+    // 1 · Informe científico: páginas de artículo y pluma
+    1: () => { let s = paper('#F6F2EA', '#E7E0D2', 24);
+      s += card(300, 150, 120, 160, 8, '#2D5A7B', .5, 7) + card(250, 190, 120, 160, -6, '#7A5BA8', .45, 7);
+      s += `<g opacity=".5" transform="translate(95 470) rotate(-35)"><path d="M0 -70C30 -40 26 20 0 60C-26 20 -30 -40 0 -70Z" fill="#C8553D"/><path d="M0 -60V80" stroke="#26323A" stroke-width="4"/></g>`;
+      return { tint: '#F6F2EA', road: 'ink', svg: svg(s) }; },
+    // 2 · Contraste de hipótesis: campana con colas y balanza
+    2: () => { let s = `<rect width="400" height="600" fill="#EEF3F7"/>`;
+      s += bell(190, 250, 200, 140, '#2D5A7B', 6, .5, 'rgba(45,90,123,.12)') + `<path d="M190 250H220M360 250H390" stroke="#C8553D" stroke-width="12" opacity=".5"/>`;
+      s += `<g opacity=".45" transform="translate(95 470)" stroke="#26323A" stroke-width="5" fill="none" stroke-linecap="round"><path d="M0 -60V50M-55 -45H55M-30 50H30"/><path d="M-55 -45L-75 0H-35Z M55 -45L35 0H75Z" fill="#E0A83A"/></g>`;
+      return { tint: '#EEF3F7', road: 'ruler', svg: svg(s) }; },
+    // 3 · Errores y potencia: dos campanas solapadas y diana
+    3: () => { let s = `<rect width="400" height="600" fill="#F4F0F7"/>`;
+      s += bell(180, 260, 160, 140, '#2D5A7B', 5, .5) + bell(240, 260, 160, 140, '#C8553D', 5, .5, 'rgba(200,85,61,.15)');
+      s += `<g opacity=".45" transform="translate(95 470)">${[60, 44, 28, 12].map((r, i) => `<circle r="${r}" fill="${i % 2 ? '#fff' : '#7A5BA8'}"/>`).join('')}<path d="M70 -70L0 0" stroke="#26323A" stroke-width="5"/></g>`;
+      return { tint: '#F4F0F7', road: 'dots', svg: svg(s) }; },
+    // 4 · Tamaños del efecto e intervalos: intervalos apilados y regla
+    4: () => { const r = rng(404); let s = `<rect width="400" height="600" fill="#F1F6F1"/>`;
+      for (let i = 0; i < 7; i++) s += E2ci(f(280 + (r() - .5) * 50), 80 + i * 30, f(30 + r() * 25), i === 4 ? '#C8553D' : '#5FA47A', .5);
+      s += `<path d="M280 60V290" stroke="#26323A" stroke-width="3" stroke-dasharray="6 6" opacity=".4"/>`;
+      s += `<g opacity=".45" transform="translate(90 480) rotate(-20)"><rect x="-80" y="-18" width="160" height="36" rx="5" fill="#E0A83A"/>${Array.from({ length: 9 }, (_, i) => `<path d="M${-70 + i * 17.5} -18v${i % 2 ? 10 : 18}" stroke="#26323A" stroke-width="3"/>`).join('')}</g>`;
+      return { tint: '#F1F6F1', road: 'ruler', svg: svg(s) }; },
+    // 5 · Crisis de replicación: barras que encogen y lupa
+    5: () => { let s = `<rect width="400" height="600" fill="#F8F1EE"/>`;
+      s += bars(205, 270, [190, 75], 70, 30, ['#2D5A7B', '#C8553D'], .5);
+      s += `<g opacity=".45" transform="translate(95 470) rotate(-35)"><circle r="42" fill="#fff" stroke="#26323A" stroke-width="8"/><path d="M0 42V115" stroke="#7A5BA8" stroke-width="15" stroke-linecap="round"/><path d="M-16 0l10 12l20 -24" stroke="#5FA47A" stroke-width="6" fill="none"/></g>`;
+      return { tint: '#F8F1EE', road: 'chain', svg: svg(s) }; },
+    // 6 · Equivalencia y Bayes: franja de equivalencia y dados
+    6: () => { let s = `<rect width="400" height="600" fill="#EEF5F4"/>`;
+      s += `<rect x="230" y="70" width="110" height="210" fill="#5FA47A" opacity=".25"/><path d="M230 70V280M340 70V280" stroke="#5FA47A" stroke-width="4" stroke-dasharray="8 6" opacity=".6"/>` + E2ci(285, 130, 35, '#2D5A7B', .55) + E2ci(300, 210, 25, '#2D5A7B', .55);
+      s += die(80, 460, 1.4, -14, 5, '#7A5BA8') + die(140, 500, 1.1, 12, 2, '#C8553D');
+      return { tint: '#EEF5F4', road: 'dice', svg: svg(s) }; },
+    // 7 · Linealidad y normalidad: gráfico Q-Q y campana
+    7: () => { const r = rng(707); let s = paper('#F3F5F9', '#E1E7EF', 30);
+      s += E2axes(200, 280, 190, 200, '#26323A', .45) + `<path d="M210 270L380 90" stroke="#C8553D" stroke-width="4" opacity=".5"/>`;
+      for (let i = 0; i < 12; i++) { const t = i / 11; s += `<circle cx="${f(212 + t * 165)}" cy="${f(268 - t * 175 + (r() - .5) * 18)}" r="6" fill="#2D5A7B" opacity=".55"/>`; }
+      s += bell(20, 510, 150, 110, '#5FA47A', 6, .5, 'rgba(95,164,122,.2)');
+      return { tint: '#F3F5F9', road: 'grid', svg: svg(s) }; },
+    // 8 · Varianzas y remedios: residuos en embudo y caja de herramientas
+    8: () => { const r = rng(808); let s = `<rect width="400" height="600" fill="#F7F4EC"/>`;
+      s += `<path d="M190 175H390" stroke="#26323A" stroke-width="3" opacity=".4"/>`;
+      for (let i = 0; i < 26; i++) { const t = r(); s += `<circle cx="${f(195 + t * 190)}" cy="${f(175 + (r() - .5) * (15 + t * 190))}" r="5" fill="#C8553D" opacity=".5"/>`; }
+      s += `<g opacity=".45" transform="translate(95 480)"><rect x="-70" y="-30" width="140" height="70" rx="8" fill="#2D5A7B"/><path d="M-30 -30V-48H30V-30" stroke="#26323A" stroke-width="7" fill="none"/><rect x="-70" y="-6" width="140" height="10" fill="#E0A83A"/></g>`;
+      return { tint: '#F7F4EC', road: 'pegs', svg: svg(s) }; },
+    // 9 · Dos grupos: dos campanas y dos grupos de personas
+    9: () => { const r = rng(909); let s = `<rect width="400" height="600" fill="#EEF3F7"/>`;
+      s += bell(170, 250, 150, 130, '#2D5A7B', 5, .5, 'rgba(45,90,123,.15)') + bell(240, 250, 150, 110, '#C8553D', 5, .5, 'rgba(200,85,61,.15)');
+      s += crowd(r, 4, 30, 470, 70, 30, ['#2D5A7B'], .8, .5) + crowd(r, 4, 120, 480, 70, 30, ['#C8553D'], .8, .5);
+      return { tint: '#EEF3F7', road: 'street', svg: svg(s) }; },
+    // 10 · Medidas relacionadas: antes y después unidos por líneas
+    10: () => { const r = rng(1010); let s = paper('#F3F7F2', '#E0EADC', 30);
+      for (let i = 0; i < 7; i++) { const a = 90 + r() * 170, b = a - 20 - r() * 50; s += `<path d="M230 ${f(a)}L350 ${f(b)}" stroke="#5FA47A" stroke-width="4" opacity=".5"/><circle cx="230" cy="${f(a)}" r="7" fill="#2D5A7B" opacity=".55"/><circle cx="350" cy="${f(b)}" r="7" fill="#C8553D" opacity=".55"/>`; }
+      s += pers(80, 480, 1.3, '#7A5BA8', .5) + `<path d="M115 460q30 -30 60 0" stroke="#26323A" stroke-width="4" fill="none" opacity=".4"/>` + pers(200, 480, 1.3, '#7A5BA8', .35);
+      return { tint: '#F3F7F2', road: 'trail', svg: svg(s) }; },
+    // 11 · ANOVA de un factor: tres campanas y barras apiladas de SC
+    11: () => { let s = `<rect width="400" height="600" fill="#F6F1F7"/>`;
+      s += bell(170, 260, 130, 120, '#2D5A7B', 5, .5) + bell(215, 260, 130, 120, '#5FA47A', 5, .5) + bell(260, 260, 130, 120, '#C8553D', 5, .5);
+      s += `<g opacity=".5" transform="translate(40 440)"><rect width="150" height="30" rx="5" fill="#26323A"/><rect y="45" width="60" height="30" rx="5" fill="#E0A83A"/><rect x="65" y="45" width="85" height="30" rx="5" fill="#2D5A7B"/></g>`;
+      return { tint: '#F6F1F7', road: 'bars', svg: svg(s) }; },
+    // 12 · Comparaciones múltiples: medias unidas por pares y escudo
+    12: () => { let s = `<rect width="400" height="600" fill="#F1F5F8"/>`; const P = [[230, 110], [350, 120], [250, 250], [360, 240]];
+      for (let i = 0; i < 4; i++) for (let j = i + 1; j < 4; j++) s += `<path d="M${P[i][0]} ${P[i][1]}L${P[j][0]} ${P[j][1]}" stroke="#7A5BA8" stroke-width="3" opacity=".4"/>`;
+      s += P.map((p, i) => `<circle cx="${p[0]}" cy="${p[1]}" r="18" fill="${['#2D5A7B', '#C8553D', '#5FA47A', '#E0A83A'][i]}" opacity=".55"/>`).join('');
+      s += `<g opacity=".45" transform="translate(95 470)"><path d="M0 -70L60 -45V5C60 40 30 60 0 72C-30 60 -60 40 -60 5V-45Z" fill="#2D5A7B"/><path d="M-22 0l16 18l30 -36" stroke="#fff" stroke-width="8" fill="none"/></g>`;
+      return { tint: '#F1F5F8', road: 'pegs', svg: svg(s) }; },
+    // 13 · Medidas repetidas: trayectorias individuales en el tiempo y reloj
+    13: () => { const r = rng(1313); let s = paper('#F5F2EC', '#E6DFD2', 30);
+      for (let i = 0; i < 6; i++) { const b = 120 + r() * 120; let d = ''; [0, 1, 2, 3].forEach(k => { d += (k ? 'L' : 'M') + (210 + k * 55) + ' ' + f(b - k * (10 + r() * 15)); }); s += `<path d="${d}" stroke="${['#2D5A7B', '#C8553D', '#5FA47A'][i % 3]}" stroke-width="4" fill="none" opacity=".5"/>`; }
+      s += `<g opacity=".45" transform="translate(95 470)"><circle r="56" fill="#fff" stroke="#26323A" stroke-width="7"/><path d="M0 0V-34M0 0L24 14" stroke="#C8553D" stroke-width="7" stroke-linecap="round"/></g>`;
+      return { tint: '#F5F2EC', road: 'chain', svg: svg(s) }; },
+    // 14 · Interacción: líneas cruzadas y cuadrícula 2 × 2
+    14: () => { let s = `<rect width="400" height="600" fill="#EEF4F2"/>`;
+      s += E2axes(200, 280, 190, 200, '#26323A', .4) + `<path d="M225 110L370 250" stroke="#2D5A7B" stroke-width="8" opacity=".5" stroke-linecap="round"/><path d="M225 250L370 110" stroke="#C8553D" stroke-width="8" opacity=".5" stroke-linecap="round"/>`;
+      s += `<g opacity=".45" transform="translate(50 430)">${[[0, 0, '#2D5A7B'], [60, 0, '#5FA47A'], [0, 60, '#E0A83A'], [60, 60, '#7A5BA8']].map(([x, y, c]) => `<rect x="${x}" y="${y}" width="54" height="54" rx="6" fill="${c}"/>`).join('')}</g>`;
+      return { tint: '#EEF4F2', road: 'grid', svg: svg(s) }; },
+    // 15 · Regresión simple: nube de puntos con recta y residuos
+    15: () => { const r = rng(1515); let s = paper('#F3F5F9', '#E1E7EF', 30);
+      s += E2axes(195, 285, 195, 215, '#26323A', .4) + `<path d="M205 260L385 95" stroke="#C8553D" stroke-width="5" opacity=".55"/>`;
+      for (let i = 0; i < 11; i++) { const t = i / 10, xx = 210 + t * 170, yl = 256 - t * 156, yy = yl + (r() - .5) * 60; s += `<path d="M${f(xx)} ${f(yl)}V${f(yy)}" stroke="#5FA47A" stroke-width="3" opacity=".6"/><circle cx="${f(xx)}" cy="${f(yy)}" r="6" fill="#2D5A7B" opacity=".6"/>`; }
+      s += `<g opacity=".45" transform="translate(95 480)"><path d="M-70 40L70 -40" stroke="#7A5BA8" stroke-width="10" stroke-linecap="round"/><circle cx="-70" cy="40" r="14" fill="#E0A83A"/><circle cx="70" cy="-40" r="14" fill="#E0A83A"/></g>`;
+      return { tint: '#F3F5F9', road: 'ruler', svg: svg(s) }; },
+    // 16 · Regresión múltiple: diagrama de Venn de predictores
+    16: () => { let s = `<rect width="400" height="600" fill="#F6F2EA"/>`;
+      s += `<g opacity=".45"><circle cx="270" cy="130" r="78" fill="#2D5A7B"/><circle cx="228" cy="212" r="66" fill="#C8553D"/><circle cx="312" cy="212" r="66" fill="#5FA47A"/></g>`;
+      s += bars(40, 520, [60, 95, 40, 120], 26, 12, ['#E0A83A', '#7A5BA8'], .5);
+      return { tint: '#F6F2EA', road: 'bars', svg: svg(s) }; }
+  };
+
   const cache = {};
   g.SP_SCENES = { 'bases-biologicas': n => cache[n] || (cache[n] = BB[n] ? BB[n]() : null),
     'estadistica-1': n => cache['e' + n] || (cache['e' + n] = ES[n] ? ES[n]() : null),
@@ -2040,5 +2133,6 @@
     'personalidad-1': n => cache['k' + n] || (cache['k' + n] = PD1[n] ? PD1[n]() : null),
     'personalidad-2': n => cache['z' + n] || (cache['z' + n] = PD2[n] ? PD2[n]() : null),
     'penitenciaria': n => cache['j' + n] || (cache['j' + n] = PN[n] ? PN[n]() : null),
-    'desarrollo-adulto': n => cache['ad' + n] || (cache['ad' + n] = DA[n] ? DA[n]() : null) };
+    'desarrollo-adulto': n => cache['ad' + n] || (cache['ad' + n] = DA[n] ? DA[n]() : null),
+    'estadistica-2': n => cache['e2-' + n] || (cache['e2-' + n] = E2[n] ? E2[n]() : null) };
 })(typeof window !== 'undefined' ? window : globalThis);
